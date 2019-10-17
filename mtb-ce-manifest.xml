@@ -50,4 +50,21 @@
       </version>
     </versions>
   </app>
+  <app>
+    <name>BLE Battery Level FreeRTOS</name>
+    <id>mtb-example-psoc6-ble-battery-level-freertos</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-ble-battery-level-freertos</uri>
+    <description>This code example demonstrates the implementation of a BLE Battery Service using PSoC 6 MCU with Bluetooth Low Energy Connectivity (PSoC 6 BLE). This code example implements a GATT Server with the Battery Service and Device Information Service BLE standards. This code example uses FreeRTOS.</description>
+    <req_capabilities>psoc6 led switch ble</req_capabilities>
+    <versions>
+      <version>
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version>
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
 </apps>
