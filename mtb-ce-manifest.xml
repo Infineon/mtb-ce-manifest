@@ -67,4 +67,174 @@
       </version>
     </versions>
   </app>
+  <app>
+    <name>GPIO Interrupt</name>
+    <id>mtb-example-psoc6-gpio-interrupt</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-gpio-interrupt</uri>
+    <description>This example demonstrates how to configure a GPIO to generate an interrupt in PSoC 6 MCU.</description>
+    <req_capabilities>psoc6 led switch</req_capabilities>
+    <versions>
+      <version>
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version>
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app>
+    <name>BLE Find Me</name>
+    <id>mtb-example-psoc6-ble-findme</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-ble-findme</uri>
+    <description>This code example demonstrates the implementation of a simple BLE Immediate Alert Service (IAS)-based Find Me Profile (FMP) using PSoC 6 MCU with Bluetooth Low Energy (BLE) Connectivity.</description>
+    <req_capabilities>psoc6 led switch ble</req_capabilities>
+    <versions>
+      <version>
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version>
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app>
+    <name>TCPWM Square Wave</name>
+    <id>mtb-example-psoc6-tcpwm-square-wave</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-tcpwm-square-wave</uri>
+    <description>This code example generates a square wave using the TCPWM resource configured as a PWM. An LED connected to the PWM output pin blinks at 2 Hz.</description>
+    <req_capabilities>psoc6 led</req_capabilities>
+    <versions>
+      <version>
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version>
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app>
+    <name>RTC Basics</name>
+    <id>mtb-example-psoc6-rtc-basics</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-rtc-basics</uri>
+    <description>This example demonstrates the usage of the real-time clock (RTC) in PSoC 6 MCU.</description>
+    <req_capabilities>psoc6</req_capabilities>
+    <versions>
+      <version>
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version>
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app>
+    <name>Emulated EEPROM</name>
+    <id>mtb-example-psoc6-emulated-eeprom</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-emulated-eeprom</uri>
+    <description>This code example demonstrates emulation of EEPROM behavior in flash memory of PSoC 6 MCU using emeeprom middleware.</description>
+    <req_capabilities>psoc6 led</req_capabilities>
+    <versions>
+      <version>
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version>
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app>
+    <name>Fault Handling</name>
+    <id>mtb-example-psoc6-fault-handling</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-fault-handling</uri>
+    <description>This example demonstrates the fault handling functionality of PSoC 6 MCU using Peripheral Driver Library (PDL) System Library (SysLib) and ModusToolbox integrated development environment (IDE).</description>
+    <req_capabilities>psoc6</req_capabilities>
+    <versions>
+      <version>
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version>
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app>
+    <name>Cryptography AES Demonstration</name>
+    <id>mtb-example-psoc6-crypto-aes</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-crypto-aes</uri>
+    <description>This code example encrypts and decrypts user input data using the AES algorithm using a 128-bit key. The encrypted and decrypted data are displayed on a UART terminal emulator.</description>
+    <req_capabilities>psoc6 std_crypto</req_capabilities>
+    <versions>
+      <version>
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version>
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app>
+    <name>Cryptography TRNG Demonstration</name>
+    <id>mtb-example-psoc6-crypto-trng</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-crypto-trng</uri>
+    <description>This code example demonstrates generating a One-Time Password (OTP) using the True Random Number generation feature of PSoC 6 MCU cryptography block.</description>
+    <req_capabilities>psoc6 std_crypto</req_capabilities>
+    <versions>
+      <version>
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version>
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app>
+    <name>SCB I2C Master</name>
+    <id>mtb-example-psoc6-i2c-master</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-i2c-master</uri>
+    <description>This example demonstrates the use of PSoC 6 MCU Serial Communication Block (SCB) resource in I2C Master mode.</description>
+    <req_capabilities>psoc6 led</req_capabilities>
+    <versions>
+      <version>
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version>
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app>
+    <name>Cryptography SHA Demonstration</name>
+    <id>mtb-example-psoc6-crypto-sha</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-crypto-sha</uri>
+    <description>This code example shows how to generate a 32-byte hash value or message digest for an arbitrary user input message with the SHA2 algorithm using the Cryptographic hardware block in PSoC 6 MCU.</description>
+    <req_capabilities>psoc6 std_crypto</req_capabilities>
+    <versions>
+      <version>
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version>
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
 </apps>
