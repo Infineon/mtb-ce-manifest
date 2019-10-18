@@ -237,4 +237,21 @@
       </version>
     </versions>
   </app>
+  <app>
+    <name>QSPI Flash Read Write</name>
+    <id>mtb-example-psoc6-qspi-readwrite</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-qspi-readwrite</uri>
+    <description>This example demonstrates interfacing with an external NOR flash memory in Quad-SPI mode using the Serial Memory Interface (SMIF) block in PSoC 6 MCU.</description>
+    <req_capabilities>psoc6 led qspi</req_capabilities>
+    <versions>
+      <version>
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version>
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
 </apps>
