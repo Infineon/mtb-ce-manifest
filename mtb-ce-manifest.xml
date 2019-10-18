@@ -254,38 +254,4 @@
       </version>
     </versions>
   </app>
-  <app>
-    <name>Motion Sensor</name>
-    <id>mtb-example-btsdk-motion-sensor</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-btsdk-motion-sensor</uri>
-    <description>This example demonstrates using the motion sensor with the CYW208xx and CYW207xx devices using ModusToolbox IDE.</description>
-    <req_capabilities>lsm9ds1</req_capabilities>
-    <versions>
-      <version>
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
-      </version>
-      <version>
-        <num>1.0.0 release</num>
-        <commit>release-v1.0.0</commit>
-      </version>
-    </versions>
-  </app>
-  <app>
-    <name>CYW208xx Data logger</name>
-    <id>mtb-example-btsdk-cyw208xx-data-logger</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-btsdk-cyw208xx-data-logger</uri>
-    <description>This code example includes two applications that demonstrate the operation of multiple Serial Peripheral Interface (SPI) interfaces using the CYW208xx Bluetooth SoC and ModusToolbox IDE.</description>
-    <req_capabilities>CYW208XX ncu15wf104</req_capabilities>
-    <versions>
-      <version>
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
-      </version>
-      <version>
-        <num>1.0.0 release</num>
-        <commit>release-v1.0.0</commit>
-      </version>
-    </versions>
-  </app>
 </apps>
