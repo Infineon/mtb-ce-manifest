@@ -594,4 +594,21 @@
       </version>
     </versions>
   </app>
+  <app>
+    <name>USB CDC Echo</name>
+    <id>mtb-example-psoc6-usb-cdc-echo</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-usb-cdc-echo</uri>
+    <description>This example demonstrates how to configure the USB block in a PSoC 6 MCU for Communication Device Class (CDC). When configured for a CDC, the PSoC 6 enumerates a Virtual COM port, which can be read and written by a terminal emulator program on a PC.</description>
+    <req_capabilities>psoc6 usb_device</req_capabilities>
+    <versions>
+      <version>
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version>
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
 </apps>
