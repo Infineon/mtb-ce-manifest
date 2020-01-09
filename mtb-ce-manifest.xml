@@ -611,4 +611,55 @@
       </version>
     </versions>
   </app>
+    <app>
+    <name>Connectivity TCP Client</name>
+    <id>mtb-example-connectivity-tcp-client</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-connectivity-tcp-client</uri>
+    <description>This code example demonstrates implementation of TCP client with PSoC 6 MCU and CYW43012/CYW4343W connectivity device. This code example makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license</description>
+    <req_capabilities>psoc6 cyw43xxx led switch</req_capabilities>
+    <versions>
+      <version>
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version>
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app>
+    <name>Connectivity Secure TCP Client</name>
+    <id>mtb-example-connectivity-secure-tcp-client</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-connectivity-secure-tcp-client</uri>
+    <description>This code example demonstrates implementation of a secure TCP client with PSoC 6 MCU and CYW43012/CYW4343W connectivity device. This code example makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license. This code example makes use of the Mbed TLS open-source TLS/SSL library which has cryptographic capabilities. Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).</description>
+    <req_capabilities>psoc6 cyw43xxx led switch</req_capabilities>
+    <versions>
+      <version>
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version>
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app>
+    <name>Connectivity Secure TCP Server</name>
+    <id>mtb-example-connectivity-secure-tcp-server</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-connectivity-secure-tcp-server</uri>
+    <description>This code example demonstrates implementation of a secure TCP server with PSoC 6 MCU and CYW43012/CYW4343W connectivity device. This code example makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license. This code example makes use of the Mbed TLS open-source TLS/SSL library which has cryptographic capabilities. Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).</description>
+    <req_capabilities>psoc6 cyw43xxx led switch</req_capabilities>
+    <versions>
+      <version>
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version>
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
 </apps>
