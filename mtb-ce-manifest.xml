@@ -218,6 +218,10 @@
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
+      <version>
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
+      </version>
     </versions>
   </app>
   <app>
@@ -354,6 +358,10 @@
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
+      <version>
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
+      </version>
     </versions>
   </app>
   <app>
@@ -388,6 +396,10 @@
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
+      <version>
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
+      </version>
     </versions>
   </app>
   <app>
@@ -421,6 +433,10 @@
       <version>
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
+      </version>
+      <version>
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
       </version>
     </versions>
   </app>
@@ -493,6 +509,23 @@
     </versions>
   </app>
   <app>
+    <name>BLE Peripheral Privacy</name>
+    <id>mtb-example-btsdk-peripheral-privacy</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-btsdk-peripheral-privacy</uri>
+    <description>This example demonstrates privacy in BLE using ModusToolbox IDE.</description>
+    <req_capabilities>fw2 btsdk</req_capabilities>
+    <versions>
+      <version>
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version>
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app>
     <name>emWin OLED FreeRTOS</name>
     <id>mtb-example-psoc6-emwin-oled</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-emwin-oled-freertos</uri>
@@ -540,6 +573,10 @@
       <version>
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
+      </version>
+      <version>
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
       </version>
     </versions>
   </app>
@@ -592,6 +629,10 @@
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
+      <version>
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
+      </version>
     </versions>
   </app>
   <app>
@@ -611,7 +652,7 @@
       </version>
     </versions>
   </app>
-    <app>
+  <app>
     <name>Connectivity TCP Client</name>
     <id>mtb-example-connectivity-tcp-client</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-connectivity-tcp-client</uri>
@@ -651,6 +692,53 @@
     <uri>https://github.com/cypresssemiconductorco/mtb-example-connectivity-secure-tcp-server</uri>
     <description>This code example demonstrates implementation of a secure TCP server with PSoC 6 MCU and CYW43012/CYW4343W connectivity device. This code example makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license. This code example makes use of the Mbed TLS open-source TLS/SSL library which has cryptographic capabilities. Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).</description>
     <req_capabilities>psoc6 cyw43xxx led switch</req_capabilities>
+    <versions>
+      <version>
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version>
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app>
+    <name>QSPI F-RAM Access</name>
+    <id>mtb-example-psoc6-qspi-fram-access</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-qspi-fram-access</uri>
+    <description>This code example demonstrates interfacing PSoC 6 MCU with an external QSPI F-RAM memory and access it in Single, Dual, or Quad SPI mode using the Serial Memory Interface (SMIF) block. This example uses the PSoC 6 MCU standard QSPI HAL driver library to build the QSPI F-RAM access API.</description>
+    <req_capabilities>psoc6</req_capabilities>
+    <versions>
+      <version>
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app>
+    <name>Secure Blinky LED FreeRTOS</name>
+    <id>mtb-example-psoc6-secure-blinkyled-freertos</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-secure-blinkyled-freertos</uri>
+    <description>This code example demonstrates the implementation of simple FreeRTOS task that blinks an LED periodically using PSoC 64 MCU.</description>
+    <req_capabilities>secure_boot</req_capabilities>
+    <versions>
+      <version>
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version>
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app>
+    <name>Secure FreeRTOS example with mbedtls ALT TRNG</name>
+    <id>mtb-example-psoc6-secure-mbedtls-alt-trng-freertos</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-secure-mbedtls-alt-trng-freertos</uri>
+    <description>This example demonstrates how to generate random number using mbedtls and PSoC64 HW TRNG Engine.</description>
+    <req_capabilities>secure_boot</req_capabilities>
     <versions>
       <version>
         <num>Latest 1.X release</num>
