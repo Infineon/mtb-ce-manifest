@@ -225,10 +225,27 @@
     </versions>
   </app>
   <app>
-    <name>Ramping LED using Smart IO</name>
-    <id>mtb-example-psoc6-smartio-ramping-led</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-smartio-ramping-led</uri>
-    <description>This example uses a PWM resource and Smart I/O in PSoC 6 MCU to implement a ramping LED, where an LED gradually cycles through increasing and decreasing brightness levels. There is no CPU usage except for the initialization of PWM and Smart I/O.</description>
+    <name>SCB UART Transmit and Receive</name>
+    <id>mtb-example-psoc6-uart-transmit-receive</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-uart-transmit-receive</uri>
+    <description>This example demonstrates the UART transmit and receive operation in PSoC 6 MCU.</description>
+    <req_capabilities>psoc6 led</req_capabilities>
+    <versions>
+      <version>
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version>
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app>
+    <name>SCB UART Transmit and Receive using DMA</name>
+    <id>mtb-example-psoc6-uart-transmit-receive-dma</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-uart-transmit-receive-dma</uri>
+    <description>This example demonstrates the UART transmit and receive operation using DMA in PSoC 6 MCU.</description>
     <req_capabilities>psoc6 led</req_capabilities>
     <versions>
       <version>
@@ -251,6 +268,137 @@
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-i2c-master</uri>
     <description>This example demonstrates the use of PSoC 6 MCU Serial Communication Block (SCB) resource in I2C Master mode.</description>
     <req_capabilities>psoc6 led</req_capabilities>
+    <versions>
+      <version>
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version>
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app>
+    <name>SCB I2C Master EzI2C Slave</name>
+    <id>mtb-example-psoc6-i2c-master-ezi2c-slave</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-i2c-master-ezi2c-slave</uri>
+    <description>This example demonstrates the use of PSoC 6 MCU Serial Communication Block (SCB) resource in I2C Master mode with EzI2C slave.</description>
+    <req_capabilities>psoc6 led</req_capabilities>
+    <versions>
+      <version>
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version>
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+      <version>
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app>
+    <name>SCB I2C Slave Using Callbacks</name>
+    <id>mtb-example-psoc6-i2c-slave-callback</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-i2c-slave-callback</uri>
+    <description>This example demonstrates the operation of the PSoC 6 MCU Serial Communication Block (SCB) in I2C Slave mode using callbacks.</description>
+    <req_capabilities>psoc6 led</req_capabilities>
+    <versions>
+      <version>
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version>
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app>
+    <name>SCB SPI Master</name>
+    <id>mtb-example-psoc6-spi-master</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-spi-master</uri>
+    <description>This example demonstrates the use of PSoC 6 MCU Serial Communication Block (SCB) resource in SPI Master mode.</description>
+    <req_capabilities>psoc6 led</req_capabilities>
+    <versions>
+      <version>
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version>
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app>
+    <name>SCB SPI Master DMA</name>
+    <id>mtb-example-psoc6-spi-master-dma</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-spi-master-dma</uri>
+    <description>This example demonstrates the use of PSoC 6 MCU Serial Communication Block (SCB) resource in SPI Master mode using DMA.</description>
+    <req_capabilities>psoc6 led</req_capabilities>
+    <versions>
+      <version>
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version>
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+      <version>
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app>
+    <name>Ramping LED using Smart IO</name>
+    <id>mtb-example-psoc6-smartio-ramping-led</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-smartio-ramping-led</uri>
+    <description>This example uses a PWM resource and Smart I/O in PSoC 6 MCU to implement a ramping LED, where an LED gradually cycles through increasing and decreasing brightness levels. There is no CPU usage except for the initialization of PWM and Smart I/O.</description>
+    <req_capabilities>psoc6 led</req_capabilities>
+    <versions>
+      <version>
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version>
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+      <version>
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app>
+    <name>emWin E-Ink FreeRTOS</name>
+    <id>mtb-example-psoc6-emwin-eink</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-emwin-eink-freertos</uri>
+    <description>This code example demonstrates displaying 2D graphics on an E-Ink display using EmWin graphics library.</description>
+    <req_capabilities>psoc6 led arduino switch</req_capabilities>
+    <versions>
+      <version>
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version>
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app>
+    <name>emWin OLED FreeRTOS</name>
+    <id>mtb-example-psoc6-emwin-oled</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-emwin-oled-freertos</uri>
+    <description>This code example demonstrates displaying 2D graphics on an OLED display using EmWin graphics library.</description>
+    <req_capabilities>psoc6 arduino switch</req_capabilities>
     <versions>
       <version>
         <num>Latest 1.X release</num>
@@ -297,27 +445,6 @@
     </versions>
   </app>
   <app>
-    <name>CapSense Buttons and Slider FreeRTOS</name>
-    <id>mtb-example-psoc6-capsense-buttons-slider-freertos</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-capsense-buttons-slider-freertos</uri>
-    <description>This code example features a 5-segment CapSense slider and two CapSense buttons. Button 0 turns the LED on, Button 1 turns the LED off and the slider controls the brightness of the LED. The code example also demonstrates interfacing with Tuner GUI using I2C interface.</description>
-    <req_capabilities>psoc6 led capsense_button capsense_linear_slider</req_capabilities>
-    <versions>
-      <version>
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
-      </version>
-      <version>
-        <num>1.0.0 release</num>
-        <commit>release-v1.0.0</commit>
-      </version>
-      <version>
-        <num>1.1.0 release</num>
-        <commit>release-v1.1.0</commit>
-      </version>
-    </versions>
-  </app>
-  <app>
     <name>Watchdog Timer</name>
     <id>mtb-example-psoc6-wdt</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-wdt</uri>
@@ -352,142 +479,11 @@
     </versions>
   </app>
   <app>
-    <name>SCB UART Transmit and Receive</name>
-    <id>mtb-example-psoc6-uart-transmit-receive</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-uart-transmit-receive</uri>
-    <description>This example demonstrates the UART transmit and receive operation in PSoC 6 MCU.</description>
-    <req_capabilities>psoc6 led</req_capabilities>
-    <versions>
-      <version>
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
-      </version>
-      <version>
-        <num>1.0.0 release</num>
-        <commit>release-v1.0.0</commit>
-      </version>
-    </versions>
-  </app>
-  <app>
-    <name>SCB UART Transmit and Receive using DMA</name>
-    <id>mtb-example-psoc6-uart-transmit-receive-dma</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-uart-transmit-receive-dma</uri>
-    <description>This example demonstrates the UART transmit and receive operation using DMA in PSoC 6 MCU.</description>
-    <req_capabilities>psoc6 led</req_capabilities>
-    <versions>
-      <version>
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
-      </version>
-      <version>
-        <num>1.0.0 release</num>
-        <commit>release-v1.0.0</commit>
-      </version>
-      <version>
-        <num>1.1.0 release</num>
-        <commit>release-v1.1.0</commit>
-      </version>
-    </versions>
-  </app>
-  <app>
-    <name>SCB I2C Slave Using Callbacks</name>
-    <id>mtb-example-psoc6-i2c-slave-callback</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-i2c-slave-callback</uri>
-    <description>This example demonstrates the operation of the PSoC 6 MCU Serial Communication Block (SCB) in I2C Slave mode using callbacks.</description>
-    <req_capabilities>psoc6 led</req_capabilities>
-    <versions>
-      <version>
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
-      </version>
-      <version>
-        <num>1.0.0 release</num>
-        <commit>release-v1.0.0</commit>
-      </version>
-    </versions>
-  </app>
-  <app>
-    <name>SCB I2C Master EzI2C Slave</name>
-    <id>mtb-example-psoc6-i2c-master-ezi2c-slave</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-i2c-master-ezi2c-slave</uri>
-    <description>This example demonstrates the use of PSoC 6 MCU Serial Communication Block (SCB) resource in I2C Master mode with EzI2C slave.</description>
-    <req_capabilities>psoc6 led</req_capabilities>
-    <versions>
-      <version>
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
-      </version>
-      <version>
-        <num>1.0.0 release</num>
-        <commit>release-v1.0.0</commit>
-      </version>
-      <version>
-        <num>1.1.0 release</num>
-        <commit>release-v1.1.0</commit>
-      </version>
-    </versions>
-  </app>
-  <app>
-    <name>SCB SPI Master</name>
-    <id>mtb-example-psoc6-spi-master</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-spi-master</uri>
-    <description>This example demonstrates the use of PSoC 6 MCU Serial Communication Block (SCB) resource in SPI Master mode.</description>
-    <req_capabilities>psoc6 led</req_capabilities>
-    <versions>
-      <version>
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
-      </version>
-      <version>
-        <num>1.0.0 release</num>
-        <commit>release-v1.0.0</commit>
-      </version>
-    </versions>
-  </app>
-  <app>
-    <name>SCB SPI Master DMA</name>
-    <id>mtb-example-psoc6-spi-master-dma</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-spi-master-dma</uri>
-    <description>This example demonstrates the use of PSoC 6 MCU Serial Communication Block (SCB) resource in SPI Master mode using DMA.</description>
-    <req_capabilities>psoc6 led</req_capabilities>
-    <versions>
-      <version>
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
-      </version>
-      <version>
-        <num>1.0.0 release</num>
-        <commit>release-v1.0.0</commit>
-      </version>
-      <version>
-        <num>1.1.0 release</num>
-        <commit>release-v1.1.0</commit>
-      </version>
-    </versions>
-  </app>
-  <app>
     <name>Switching Power Modes</name>
     <id>mtb-example-psoc6-switching-power-modes</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-switching-power-modes</uri>
     <description>This example demonstrates how to transition PSoC 6 MCU to the following power modes - Low Power Active, Low Power Sleep, Ultra Low Power Active, Ultra Low Power Sleep, and Deep Sleep.</description>
     <req_capabilities>psoc6</req_capabilities>
-    <versions>
-      <version>
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
-      </version>
-      <version>
-        <num>1.0.0 release</num>
-        <commit>release-v1.0.0</commit>
-      </version>
-    </versions>
-  </app>
-  <app>
-    <name>emWin E-Ink FreeRTOS</name>
-    <id>mtb-example-psoc6-emwin-eink</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-emwin-eink-freertos</uri>
-    <description>This code example demonstrates displaying 2D graphics on an E-Ink display using EmWin graphics library.</description>
-    <req_capabilities>psoc6 led arduino switch</req_capabilities>
     <versions>
       <version>
         <num>Latest 1.X release</num>
@@ -522,40 +518,6 @@
     <uri>https://github.com/cypresssemiconductorco/mtb-example-btsdk-cyw208xx-data-logger</uri>
     <description>This code example includes two applications that demonstrate the operation of multiple Serial Peripheral Interface (SPI) interfaces using the CYW208xx Bluetooth SoC and ModusToolbox IDE.</description>
     <req_capabilities>CYW208XX ncu15wf104</req_capabilities>
-    <versions>
-      <version>
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
-      </version>
-      <version>
-        <num>1.0.0 release</num>
-        <commit>release-v1.0.0</commit>
-      </version>
-    </versions>
-  </app>
-  <app>
-    <name>BLE Peripheral Privacy</name>
-    <id>mtb-example-btsdk-peripheral-privacy</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-btsdk-peripheral-privacy</uri>
-    <description>This example demonstrates privacy in BLE using ModusToolbox IDE.</description>
-    <req_capabilities>fw2 btsdk</req_capabilities>
-    <versions>
-      <version>
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
-      </version>
-      <version>
-        <num>1.0.0 release</num>
-        <commit>release-v1.0.0</commit>
-      </version>
-    </versions>
-  </app>
-  <app>
-    <name>emWin OLED FreeRTOS</name>
-    <id>mtb-example-psoc6-emwin-oled</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-emwin-oled-freertos</uri>
-    <description>This code example demonstrates displaying 2D graphics on an OLED display using EmWin graphics library.</description>
-    <req_capabilities>psoc6 arduino switch</req_capabilities>
     <versions>
       <version>
         <num>Latest 1.X release</num>
@@ -717,6 +679,23 @@
     <uri>https://github.com/cypresssemiconductorco/mtb-example-connectivity-secure-tcp-server</uri>
     <description>This code example demonstrates implementation of a secure TCP server with PSoC 6 MCU and CYW43012/CYW4343W connectivity device. This code example makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license. This code example makes use of the Mbed TLS open-source TLS/SSL library which has cryptographic capabilities. Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).</description>
     <req_capabilities>psoc6 cyw43xxx led switch</req_capabilities>
+    <versions>
+      <version>
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version>
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app>
+    <name>QSPI F-RAM Access</name>
+    <id>mtb-example-psoc6-qspi-fram-access</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-qspi-fram-access</uri>
+    <description>This code example demonstrates interfacing PSoC 6 MCU with an external QSPI F-RAM memory and access it in Single, Dual, or Quad SPI mode using the Serial Memory Interface (SMIF) block. This example uses the PSoC 6 MCU standard QSPI HAL driver library to build the QSPI F-RAM access API.</description>
+    <req_capabilities>psoc6</req_capabilities>
     <versions>
       <version>
         <num>Latest 1.X release</num>
