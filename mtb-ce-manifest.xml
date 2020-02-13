@@ -712,6 +712,23 @@
     </versions>
   </app>
   <app>
+    <name>USB Audio Recorder</name>
+    <id>mtb-example-psoc6-usb-audio-recorder</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-usb-audio-recorder</uri>
+    <description>This example demonstrates the use of PSoC 6 MCU to implement an audio recorder using the USB Audio Device Class.</description>
+    <req_capabilities>psoc6 usb_device</req_capabilities>
+    <versions>
+      <version>
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version>
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app>
     <name>QSPI F-RAM Access</name>
     <id>mtb-example-psoc6-qspi-fram-access</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-qspi-fram-access</uri>
