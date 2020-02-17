@@ -551,6 +551,61 @@
     </versions>
   </app>
   <app>
+    <name>BLE Throughput Measurement</name>
+    <id>mtb-example-btsdk-ble-throughput</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-btsdk-ble-throughput</uri>
+    <description>This code example demonstrates the maximum BLE throughput (using GATT layer notifications and writes) that can be obtained with Cypress Bluetooth devices (CYW208xx and CYW207xx).</description>
+    <req_capabilities>btsdk fw2</req_capabilities>
+    <versions>
+      <version>
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version>
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app>
+    <name>CYW20719B2 SPI</name>
+    <id>mtb-example-btsdk-cyw20719b2-spi</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-btsdk-cyw20719b2-spi</uri>
+    <description>This code example demonstrates the SPI functionality using CYW20719B2 using ModusToolbox integrated development environment (IDE).</description>
+    <req_capabilities>fw2 btsdk CYW920719B2Q40EVB_01</req_capabilities>
+    <versions>
+      <version>
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version>
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app>
+    <name>PWM GPIO</name>
+    <id>mtb-example-btsdk-pwm-gpio</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-btsdk-pwm-gpio</uri>
+    <description>This example demonstrates the configuration of PWM (pulse width modulation) to control the brightness of an LED, and configuration of GPIO to toggle an LED ON and OFF using ModusToolbox™ integrated development environment (IDE)</description>
+    <req_capabilities>fw2 btsdk led2x</req_capabilities>
+    <versions>
+      <version>
+        <num>Development build</num>
+        <commit>develop</commit>
+      </version>
+      <version>
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version>
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app>
     <name>PDM to I2S</name>
     <id>mtb-example-psoc6-pdm-to-i2s</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-pdm-to-i2s</uri>
