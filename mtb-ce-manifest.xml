@@ -555,7 +555,7 @@
     <id>mtb-example-btsdk-ble-throughput</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-btsdk-ble-throughput</uri>
     <description>This code example demonstrates the maximum BLE throughput (using GATT layer notifications and writes) that can be obtained with Cypress Bluetooth devices (CYW208xx and CYW207xx).</description>
-    <req_capabilities>btsdk fw2</req_capabilities>
+    <req_capabilities>btsdk fw2 button</req_capabilities>
     <versions>
       <version>
         <num>Latest 1.X release</num>
