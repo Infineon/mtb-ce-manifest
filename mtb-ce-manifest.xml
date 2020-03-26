@@ -592,10 +592,6 @@
     <req_capabilities>fw2 btsdk led2x</req_capabilities>
     <versions>
       <version>
-        <num>Development build</num>
-        <commit>develop</commit>
-      </version>
-      <version>
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
