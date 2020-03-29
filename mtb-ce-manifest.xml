@@ -181,7 +181,7 @@
     <name>Fault Handling</name>
     <id>mtb-example-psoc6-fault-handling</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-fault-handling</uri>
-    <description>This example demonstrates the fault handling functionality of PSoC 6 MCU using Peripheral Driver Library (PDL) System Library (SysLib) and ModusToolbox integrated development environment (IDE).</description>
+    <description>This example demonstrates the fault handling functionality of PSoC 6 MCU using Peripheral Driver Library (PDL) System Library (SysLib).</description>
     <req_capabilities>psoc6</req_capabilities>
     <versions>
       <version>
@@ -382,9 +382,9 @@
   </app>
   <app>
     <name>emWin E-Ink FreeRTOS</name>
-    <id>mtb-example-psoc6-emwin-eink</id>
+    <id>mtb-example-psoc6-emwin-eink-freertos</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-emwin-eink-freertos</uri>
-    <description>This code example demonstrates displaying 2D graphics on an E-Ink display using EmWin graphics library.</description>
+    <description>This code example demonstrates displaying 2D graphics on an E-Ink display using EmWin graphics library in FreeRTOS.</description>
     <req_capabilities>psoc6 led arduino switch</req_capabilities>
     <versions>
       <version>
@@ -399,9 +399,9 @@
   </app>
   <app>
     <name>emWin OLED FreeRTOS</name>
-    <id>mtb-example-psoc6-emwin-oled</id>
+    <id>mtb-example-psoc6-emwin-oled-freertos</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-emwin-oled-freertos</uri>
-    <description>This code example demonstrates displaying 2D graphics on an OLED display using EmWin graphics library.</description>
+    <description>This code example demonstrates displaying 2D graphics on an OLED display using EmWin graphics library in FreeRTOS.</description>
     <req_capabilities>psoc6 arduino switch</req_capabilities>
     <versions>
       <version>
@@ -503,7 +503,7 @@
     <name>Motion Sensor</name>
     <id>mtb-example-btsdk-motion-sensor</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-btsdk-motion-sensor</uri>
-    <description>This example demonstrates using the motion sensor with the CYW208xx and CYW207xx devices using ModusToolbox IDE.</description>
+    <description>This example demonstrates using the motion sensor with the CYW208xx and CYW207xx devices.</description>
     <req_capabilities>lsm9ds1</req_capabilities>
     <versions>
       <version>
@@ -520,7 +520,7 @@
     <name>CYW208xx Data logger</name>
     <id>mtb-example-btsdk-cyw208xx-data-logger</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-btsdk-cyw208xx-data-logger</uri>
-    <description>This code example includes two applications that demonstrate the operation of multiple Serial Peripheral Interface (SPI) interfaces using the CYW208xx Bluetooth SoC and ModusToolbox IDE.</description>
+    <description>This code example includes two applications that demonstrate the operation of multiple Serial Peripheral Interface (SPI) interfaces using the CYW208xx Bluetooth SoC.</description>
     <req_capabilities>CYW208XX ncu15wf104</req_capabilities>
     <versions>
       <version>
@@ -534,75 +534,7 @@
     </versions>
   </app>
   <app>
-    <name>BLE Peripheral Privacy</name>
-    <id>mtb-example-btsdk-peripheral-privacy</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-btsdk-peripheral-privacy</uri>
-    <description>This code example demonstrates the privacy features available to users in Bluetooth 5.0 and above using ModusToolbox integrated development environment (IDE).</description>
-    <req_capabilities>fw2 btsdk</req_capabilities>
-    <versions>
-      <version>
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
-      </version>
-      <version>
-        <num>1.0.0 release</num>
-        <commit>release-v1.0.0</commit>
-      </version>
-    </versions>
-  </app>
-  <app>
-    <name>BLE Throughput Measurement</name>
-    <id>mtb-example-btsdk-ble-throughput</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-btsdk-ble-throughput</uri>
-    <description>This code example demonstrates the maximum BLE throughput (using GATT layer notifications and writes) that can be obtained with Cypress Bluetooth devices (CYW208xx and CYW207xx).</description>
-    <req_capabilities>btsdk fw2 button</req_capabilities>
-    <versions>
-      <version>
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
-      </version>
-      <version>
-        <num>1.0.0 release</num>
-        <commit>release-v1.0.0</commit>
-      </version>
-    </versions>
-  </app>
-  <app>
-    <name>CYW20719B2 SPI</name>
-    <id>mtb-example-btsdk-cyw20719b2-spi</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-btsdk-cyw20719b2-spi</uri>
-    <description>This code example demonstrates the SPI functionality using CYW20719B2 using ModusToolbox integrated development environment (IDE).</description>
-    <req_capabilities>fw2 btsdk CYW920719B2Q40EVB_01</req_capabilities>
-    <versions>
-      <version>
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
-      </version>
-      <version>
-        <num>1.0.0 release</num>
-        <commit>release-v1.0.0</commit>
-      </version>
-    </versions>
-  </app>
-  <app>
-    <name>PWM GPIO</name>
-    <id>mtb-example-btsdk-pwm-gpio</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-btsdk-pwm-gpio</uri>
-    <description>This example demonstrates the configuration of PWM (pulse width modulation) to control the brightness of an LED, and configuration of GPIO to toggle an LED ON and OFF using ModusToolbox™ integrated development environment (IDE)</description>
-    <req_capabilities>fw2 btsdk led2x</req_capabilities>
-    <versions>
-      <version>
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
-      </version>
-      <version>
-        <num>1.0.0 release</num>
-        <commit>release-v1.0.0</commit>
-      </version>
-    </versions>
-  </app>
-  <app>
-    <name>PDM to I2S</name>
+    <name>PDM to I2S Audio</name>
     <id>mtb-example-psoc6-pdm-to-i2s</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-pdm-to-i2s</uri>
     <description>This example demonstrates how to route PDM audio data to the I2S interface in PSoC 6 MCU.</description>
@@ -623,7 +555,7 @@
     </versions>
   </app>
   <app>
-    <name>PDM/PCM Example</name>
+    <name>PDM PCM Audio</name>
     <id>mtb-example-psoc6-pdm-pcm</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-pdm-pcm</uri>
     <description>This example demonstrates how to use the pulse-density modulation/pulse-code modulation (PDM/PCM) hardware block in PSoC 6 MCU with a digital microphone.</description>
@@ -640,7 +572,7 @@
     </versions>
   </app>
   <app>
-    <name>I2S Example</name>
+    <name>I2S Audio</name>
     <id>mtb-example-psoc6-i2s</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-i2s</uri>
     <description>This example demonstrates how to use the I2S hardware block in PSoC 6 MCU to interface with an audio codec.</description>
@@ -661,7 +593,7 @@
     <id>mtb-example-psoc6-usb-hid</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-usb-hid</uri>
     <description>This example demonstrates how to configure the USB block in a PSoC 6 MCU as a HID. The device enumerates as a 3-button mouse.</description>
-    <req_capabilities>psoc6</req_capabilities>
+    <req_capabilities>psoc6 usb_device</req_capabilities>
     <versions>
       <version>
         <num>Latest 1.X release</num>
@@ -683,40 +615,6 @@
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-qspi-readwrite-sfdp</uri>
     <description>This example demonstrates interfacing with an external NOR flash memory in Quad-SPI mode using the Serial Memory Interface (SMIF) block in PSoC 6 MCU. This example uses the Serial Flash Discoverable Parameters (SFDP) standard to auto-discover the flash parameters and the commands for read, program, and erase operations.</description>
     <req_capabilities>psoc6 led qspi</req_capabilities>
-    <versions>
-      <version>
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
-      </version>
-      <version>
-        <num>1.0.0 release</num>
-        <commit>release-v1.0.0</commit>
-      </version>
-    </versions>
-  </app>
-  <app>
-    <name>USB CDC Echo</name>
-    <id>mtb-example-psoc6-usb-cdc-echo</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-usb-cdc-echo</uri>
-    <description>This example demonstrates how to configure the USB block in a PSoC 6 MCU for Communication Device Class (CDC). When configured for a CDC, the PSoC 6 enumerates a Virtual COM port, which can be read and written by a terminal emulator program on a PC.</description>
-    <req_capabilities>psoc6 usb_device</req_capabilities>
-    <versions>
-      <version>
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
-      </version>
-      <version>
-        <num>1.0.0 release</num>
-        <commit>release-v1.0.0</commit>
-      </version>
-    </versions>
-  </app>
-  <app>
-    <name>USB HID Generic</name>
-    <id>mtb-example-psoc6-usb-hid-generic</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-usb-hid-generic</uri>
-    <description>This example demonstrates how to configure the USB block in a PSoC 6 MCU as a Human Interface Device (HID). The device enumerates as a Generic HID device.</description>
-    <req_capabilities>psoc6 usb_device</req_capabilities>
     <versions>
       <version>
         <num>Latest 1.X release</num>
@@ -780,6 +678,23 @@
     </versions>
   </app>
   <app>
+    <name>QSPI F-RAM Access</name>
+    <id>mtb-example-psoc6-qspi-fram-access</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-qspi-fram-access</uri>
+    <description>This code example demonstrates interfacing PSoC 6 MCU with an external QSPI F-RAM memory and access it in Single, Dual, or Quad SPI mode using the Serial Memory Interface (SMIF) block. This example uses the PSoC 6 MCU standard QSPI HAL driver library to build the QSPI F-RAM access API.</description>
+    <req_capabilities>psoc6</req_capabilities>
+    <versions>
+      <version>
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version>
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app>
     <name>Connectivity TCP Server</name>
     <id>mtb-example-connectivity-tcp-server</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-connectivity-tcp-server</uri>
@@ -814,11 +729,11 @@
     </versions>
   </app>
   <app>
-    <name>QSPI F-RAM Access</name>
-    <id>mtb-example-psoc6-qspi-fram-access</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-qspi-fram-access</uri>
-    <description>This code example demonstrates interfacing PSoC 6 MCU with an external QSPI F-RAM memory and access it in Single, Dual, or Quad SPI mode using the Serial Memory Interface (SMIF) block. This example uses the PSoC 6 MCU standard QSPI HAL driver library to build the QSPI F-RAM access API.</description>
-    <req_capabilities>psoc6</req_capabilities>
+    <name>USB Audio Device FreeRTOS</name>
+    <id>mtb-example-psoc6-usb-audio-device-freertos</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-usb-audio-device-freertos</uri>
+    <description>This example demonstrates how to use PSoC 6 MCU to implement a USB Audio Device and HID Audio Playback Control that connects to the PC via the USB interface. The example also uses FreeRTOS.</description>
+    <req_capabilities>psoc6 usb_device</req_capabilities>
     <versions>
       <version>
         <num>Latest 1.X release</num>
@@ -831,11 +746,96 @@
     </versions>
   </app>
   <app>
-    <name>USB Audio Device FreeRTOS</name>
-    <id>mtb-example-psoc6-usb-audio-device-freertos</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-usb-audio-device-freertos</uri>
-    <description>This example demonstrates how to use PSoC 6 MCU to implement a USB Audio Device and HID Audio Playback Control that connects to the PC via the USB interface. The example also uses FreeRTOS.</description>
+    <name>BLE Throughput Measurement</name>
+    <id>mtb-example-btsdk-ble-throughput</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-btsdk-ble-throughput</uri>
+    <description>This code example demonstrates the maximum BLE throughput (using GATT layer notifications and writes) that can be obtained with Cypress Bluetooth devices (CYW208xx and CYW207xx).</description>
+    <req_capabilities>btsdk fw2 button</req_capabilities>
+    <versions>
+      <version>
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version>
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app>
+    <name>USB CDC Echo</name>
+    <id>mtb-example-psoc6-usb-cdc-echo</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-usb-cdc-echo</uri>
+    <description>This example demonstrates how to configure the USB block in a PSoC 6 MCU for Communication Device Class (CDC). When configured for a CDC, the PSoC 6 enumerates a Virtual COM port, which can be read and written by a terminal emulator program on a PC.</description>
     <req_capabilities>psoc6 usb_device</req_capabilities>
+    <versions>
+      <version>
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version>
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app>
+    <name>USB HID Generic</name>
+    <id>mtb-example-psoc6-usb-hid-generic</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-usb-hid-generic</uri>
+    <description>This example demonstrates how to configure the USB block in a PSoC 6 MCU as a Human Interface Device (HID). The device enumerates as a Generic HID device.</description>
+    <req_capabilities>psoc6 usb_device</req_capabilities>
+    <versions>
+      <version>
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version>
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app>
+    <name>BLE Peripheral Privacy</name>
+    <id>mtb-example-btsdk-peripheral-privacy</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-btsdk-peripheral-privacy</uri>
+    <description>This code example demonstrates the privacy features available to users in Bluetooth 5.0 and above.</description>
+    <req_capabilities>fw2 btsdk</req_capabilities>
+    <versions>
+      <version>
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version>
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app>
+    <name>PWM GPIO</name>
+    <id>mtb-example-btsdk-pwm-gpio</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-btsdk-pwm-gpio</uri>
+    <description>This example demonstrates the configuration of PWM (pulse width modulation) to control the brightness of an LED, and configuration of GPIO to toggle an LED ON and OFF.</description>
+    <req_capabilities>fw2 btsdk led2x</req_capabilities>
+    <versions>
+      <version>
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version>
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app>
+    <name>CYW20719B2 SPI</name>
+    <id>mtb-example-btsdk-cyw20719b2-spi</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-btsdk-cyw20719b2-spi</uri>
+    <description>This code example demonstrates the SPI functionality using CYW20719B2.</description>
+    <req_capabilities>fw2 btsdk CYW920719B2Q40EVB_01</req_capabilities>
     <versions>
       <version>
         <num>Latest 1.X release</num>
