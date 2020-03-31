@@ -106,10 +106,10 @@
     </versions>
   </app>
   <app>
-    <name>TCPWM Square Wave</name>
-    <id>mtb-example-psoc6-tcpwm-square-wave</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-tcpwm-square-wave</uri>
-    <description>This code example generates a square wave using the TCPWM resource configured as a PWM. An LED connected to the PWM output pin blinks at 2 Hz.</description>
+    <name>PWM Square Wave</name>
+    <id>mtb-example-psoc6-pwm-square-wave</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-pwm-square-wave</uri>
+    <description>This code example generates a square wave using the PWM driver. An LED connected to the PWM output pin blinks at 2 Hz.</description>
     <req_capabilities>psoc6 led</req_capabilities>
     <versions>
       <version>
