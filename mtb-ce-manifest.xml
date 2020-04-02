@@ -14,6 +14,10 @@
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
+      <version>
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
+      </version>
     </versions>
   </app>
   <app>
@@ -30,6 +34,10 @@
       <version>
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
+      </version>
+      <version>
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
       </version>
     </versions>
   </app>
@@ -65,6 +73,10 @@
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
+      <version>
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
+      </version>
     </versions>
   </app>
   <app>
@@ -81,6 +93,10 @@
       <version>
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
+      </version>
+      <version>
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
       </version>
     </versions>
   </app>
@@ -120,6 +136,10 @@
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
+      <version>
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
+      </version>
     </versions>
   </app>
   <app>
@@ -153,6 +173,10 @@
       <version>
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
+      </version>
+      <version>
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
       </version>
     </versions>
   </app>
@@ -192,6 +216,10 @@
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
+      <version>
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
+      </version>
     </versions>
   </app>
   <app>
@@ -208,6 +236,10 @@
       <version>
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
+      </version>
+      <version>
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
       </version>
     </versions>
   </app>
@@ -226,13 +258,17 @@
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
+      <version>
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
+      </version>
     </versions>
   </app>
   <app>
-    <name>SCB UART Transmit and Receive</name>
+    <name>UART Transmit and Receive</name>
     <id>mtb-example-psoc6-uart-transmit-receive</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-uart-transmit-receive</uri>
-    <description>This example demonstrates the UART transmit and receive operation in PSoC 6 MCU.</description>
+    <description>This example demonstrates the UART (HAL) transmit and receive operation in PSoC 6 MCU.</description>
     <req_capabilities>psoc6 led</req_capabilities>
     <versions>
       <version>
@@ -242,6 +278,10 @@
       <version>
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
+      </version>
+      <version>
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
       </version>
     </versions>
   </app>
@@ -264,30 +304,17 @@
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
+      <version>
+        <num>1.2.0 release</num>
+        <commit>release-v1.2.0</commit>
+      </version>
     </versions>
   </app>
   <app>
-    <name>SCB I2C Master</name>
+    <name>I2C Master</name>
     <id>mtb-example-psoc6-i2c-master</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-i2c-master</uri>
-    <description>This example demonstrates the use of PSoC 6 MCU Serial Communication Block (SCB) resource in I2C Master mode.</description>
-    <req_capabilities>psoc6 led</req_capabilities>
-    <versions>
-      <version>
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
-      </version>
-      <version>
-        <num>1.0.0 release</num>
-        <commit>release-v1.0.0</commit>
-      </version>
-    </versions>
-  </app>
-  <app>
-    <name>SCB I2C Master EzI2C Slave</name>
-    <id>mtb-example-psoc6-i2c-master-ezi2c-slave</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-i2c-master-ezi2c-slave</uri>
-    <description>This example demonstrates the use of PSoC 6 MCU Serial Communication Block (SCB) resource in I2C Master mode with EzI2C slave.</description>
+    <description>This example demonstrates the use of I2C (HAL) resource for PSoC 6 MCU in Master mode.</description>
     <req_capabilities>psoc6 led</req_capabilities>
     <versions>
       <version>
@@ -305,10 +332,10 @@
     </versions>
   </app>
   <app>
-    <name>SCB I2C Slave Using Callbacks</name>
-    <id>mtb-example-psoc6-i2c-slave-callback</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-i2c-slave-callback</uri>
-    <description>This example demonstrates the operation of the PSoC 6 MCU Serial Communication Block (SCB) in I2C Slave mode using callbacks.</description>
+    <name>I2C Master EzI2C Slave</name>
+    <id>mtb-example-psoc6-i2c-master-ezi2c-slave</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-i2c-master-ezi2c-slave</uri>
+    <description>This example demonstrates the use of I2C (HAL) resource for PSoC 6 MCU in Master mode with an EzI2C slave.</description>
     <req_capabilities>psoc6 led</req_capabilities>
     <versions>
       <version>
@@ -318,14 +345,22 @@
       <version>
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
+      </version>
+      <version>
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
+      </version>
+      <version>
+        <num>1.2.0 release</num>
+        <commit>release-v1.2.0</commit>
       </version>
     </versions>
   </app>
   <app>
-    <name>SCB SPI Master</name>
-    <id>mtb-example-psoc6-spi-master</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-spi-master</uri>
-    <description>This example demonstrates the use of PSoC 6 MCU Serial Communication Block (SCB) resource in SPI Master mode.</description>
+    <name>I2C Slave Using Callbacks</name>
+    <id>mtb-example-psoc6-i2c-slave-callback</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-i2c-slave-callback</uri>
+    <description>This example demonstrates the operation of the I2C (HAL) resource for PSoC 6 MCU in Slave mode using callbacks.</description>
     <req_capabilities>psoc6 led</req_capabilities>
     <versions>
       <version>
@@ -335,6 +370,31 @@
       <version>
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
+      </version>
+      <version>
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app>
+    <name>SPI Master</name>
+    <id>mtb-example-psoc6-spi-master</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-spi-master</uri>
+    <description>This example demonstrates the use of SPI (HAL) resource for PSoC 6 MCU in Master mode.</description>
+    <req_capabilities>psoc6 led</req_capabilities>
+    <versions>
+      <version>
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version>
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+      <version>
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
       </version>
     </versions>
   </app>
@@ -356,6 +416,10 @@
       <version>
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
+      </version>
+      <version>
+        <num>1.2.0 release</num>
+        <commit>release-v1.2.0</commit>
       </version>
     </versions>
   </app>
@@ -395,6 +459,10 @@
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
+      <version>
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
+      </version>
     </versions>
   </app>
   <app>
@@ -411,6 +479,10 @@
       <version>
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
+      </version>
+      <version>
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
       </version>
     </versions>
   </app>
@@ -429,6 +501,10 @@
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
+      <version>
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
+      </version>
     </versions>
   </app>
   <app>
@@ -445,6 +521,10 @@
       <version>
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
+      </version>
+      <version>
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
       </version>
     </versions>
   </app>
@@ -463,6 +543,10 @@
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
+      <version>
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
+      </version>
     </versions>
   </app>
   <app>
@@ -479,6 +563,10 @@
       <version>
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
+      </version>
+      <version>
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
       </version>
     </versions>
   </app>
@@ -623,6 +711,10 @@
       <version>
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
+      </version>
+      <version>
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
       </version>
     </versions>
   </app>
