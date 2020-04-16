@@ -634,7 +634,7 @@
     <id>mtb-example-psoc6-pdm-to-i2s</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-pdm-to-i2s</uri>
     <description>This example demonstrates how to route PDM audio data to the I2S interface in PSoC 6 MCU.</description>
-    <req_capabilities>psoc6</req_capabilities>
+    <req_capabilities>psoc6 arduino</req_capabilities>
     <versions>
       <version>
         <num>Latest 1.X release</num>
@@ -676,7 +676,7 @@
     <id>mtb-example-psoc6-i2s</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-i2s</uri>
     <description>This example demonstrates how to use the I2S hardware block in PSoC 6 MCU to interface with an audio codec.</description>
-    <req_capabilities>psoc6</req_capabilities>
+    <req_capabilities>psoc6 arduino</req_capabilities>
     <versions>
       <version>
         <num>Latest 1.X release</num>
@@ -693,9 +693,9 @@
     </versions>
   </app>
   <app>
-    <name>USB HID</name>
-    <id>mtb-example-psoc6-usb-hid</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-usb-hid</uri>
+    <name>USB HID Mouse</name>
+    <id>mtb-example-psoc6-usb-hid-mouse</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-usb-hid-mouse</uri>
     <description>This example demonstrates how to configure the USB block in a PSoC 6 MCU as a HID. The device enumerates as a 3-button mouse.</description>
     <req_capabilities>psoc6 usb_device</req_capabilities>
     <versions>
@@ -710,6 +710,10 @@
       <version>
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
+      </version>
+      <version>
+        <num>1.2.0 release</num>
+        <commit>release-v1.2.0</commit>
       </version>
     </versions>
   </app>
