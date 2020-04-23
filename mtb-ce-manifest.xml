@@ -971,4 +971,21 @@
       </version>
     </versions>
   </app>
+  <app>
+    <name>BLE Throughput Measurement FreeRTOS</name>
+    <id>mtb-example-psoc6-ble-throughput-measurement-freertos</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-ble-throughput-freertos</uri>
+    <description>This code example demonstrates BLE GATT throughput measurement (using GATT layer notifications and GATT write command) using PSoC 6 BLE MCU.</description>
+    <req_capabilities>psoc6 led switch ble</req_capabilities>
+    <versions>
+      <version>
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version>
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
 </apps>
