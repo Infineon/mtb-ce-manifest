@@ -656,6 +656,10 @@
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
+      <version>
+        <num>1.2.0 release</num>
+        <commit>release-v1.2.0</commit>
+      </version>
     </versions>
   </app>
   <app>
@@ -801,7 +805,7 @@
     <id>mtb-example-anycloud-secure-tcp-server</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-secure-tcp-server</uri>
     <description><![CDATA[
-    This code example demonstrates implementation of a secure TCP server with PSoC 6 MCU and CYW43xxx connectivity devices. 
+    This code example demonstrates implementation of a secure TCP server with PSoC 6 MCU and CYW43xxx connectivity devices.
     <br><br><b>License Disclaimer:</b><br><br>
     This code example makes use of the lwIP open-source TCP/IP stack and the Mbed TLS open-source TLS/SSL library which has cryptographic capabilities. Creating a project from this template will cause lwIP and Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the lwIP &amp; Mbed TLS licenses and regional use restrictions (including abiding by all applicable export control laws).
     ]]></description>
@@ -843,7 +847,7 @@
     <id>mtb-example-anycloud-tcp-server</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-tcp-server</uri>
     <description><![CDATA[
-    This code example demonstrates implementation of a TCP server with PSoC 6 MCU and CYW43xxx connectivity devices. 
+    This code example demonstrates implementation of a TCP server with PSoC 6 MCU and CYW43xxx connectivity devices.
     <br><br><b>License Disclaimer:</b><br><br>
     This code example makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license. <br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).
     ]]></description>
@@ -1016,7 +1020,7 @@
     <id>mtb-example-anycloud-mqtt-client</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-mqtt-client</uri>
     <description><![CDATA[
-    This code example demonstrates implementing an MQTT client using the MQTT client library for the family of Cypress connectivity devices. This library uses the AWS IoT Device SDK that includes an MQTT 3.1.1 client. 
+    This code example demonstrates implementing an MQTT client using the MQTT client library for the family of Cypress connectivity devices. This library uses the AWS IoT Device SDK that includes an MQTT 3.1.1 client.
     <br><br><b>License Disclaimer:</b><br><br>
     This code example makes use of the lwIP open-source TCP/IP stack and the Mbed TLS open-source TLS/SSL library which has cryptographic capabilities. Creating a project from this template will cause lwIP and Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the lwIP &amp; Mbed TLS licenses and regional use restrictions (including abiding by all applicable export control laws).
     ]]></description>
@@ -1037,7 +1041,7 @@
     <id>mtb-example-anycloud-wlan-lowpower</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-wlan-lowpower</uri>
     <description><![CDATA[
-    This code example demonstrates the low-power operation of a host MCU and a WLAN device using the network activity handlers provided by the Low Power Assistant middleware for Cypress connectivity devices. 
+    This code example demonstrates the low-power operation of a host MCU and a WLAN device using the network activity handlers provided by the Low Power Assistant middleware for Cypress connectivity devices.
     <br><br><b>License Disclaimer:</b><br><br>
     This code example makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license. <br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).
     ]]></description>
@@ -1095,7 +1099,7 @@
     <id>mtb-example-anycloud-ota-mqtt</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-ota-mqtt</uri>
     <description><![CDATA[
-    This code example demonstrates OTA update with PSoC 6 MCU and CYW43xxx connectivity devices. The device establishes a connection with the designated MQTT Broker (Mosquitto is used in this example) and subscribes to a topic. When an OTA image is published to that topic, the device automatically pulls the OTA image over MQTT and saves it to the the flash memory. This example uses MCUBoot based bootloader which boots the new application on next boot-up. 
+    This code example demonstrates OTA update with PSoC 6 MCU and CYW43xxx connectivity devices. The device establishes a connection with the designated MQTT Broker (Mosquitto is used in this example) and subscribes to a topic. When an OTA image is published to that topic, the device automatically pulls the OTA image over MQTT and saves it to the the flash memory. This example uses MCUBoot based bootloader which boots the new application on next boot-up.
     <br><br><b>License Disclaimer:</b><br><br>
     This code example makes use of the lwIP open-source TCP/IP stack and the Mbed TLS open-source TLS/SSL library which has cryptographic capabilities. Creating a project from this template will cause lwIP and Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the lwIP &amp; Mbed TLS licenses and regional use restrictions (including abiding by all applicable export control laws).
     ]]></description>
@@ -1112,11 +1116,28 @@
     </versions>
   </app>
   <app>
+    <name>USB Mass Storage Logger</name>
+    <id>mtb-example-psoc6-usb-msc-logger</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-usb-msc-logger</uri>
+    <description>This example demonstrates how to configure the USB block in a PSoC 6 MCU as a Mass Storage (MSC) device and emulate a file system in the internal memory.</description>
+    <req_capabilities>psoc6 usb_device</req_capabilities>
+    <versions>
+      <version>
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version>
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app>
     <name>AnyCloud WPS Enrollee</name>
     <id>mtb-example-anycloud-wps-enrollee</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-wps-enrollee</uri>
     <description><![CDATA[
-    This code example demonstrates how to use the connection management and WPS Enrollee feature provided in the Wi-Fi Connection Manager (WCM) middleware.  
+    This code example demonstrates how to use the connection management and WPS Enrollee feature provided in the Wi-Fi Connection Manager (WCM) middleware.
     <br><br><b>License Disclaimer:</b><br><br>
     This code example makes use of the lwIP open-source TCP/IP stack and the Mbed TLS open-source TLS/SSL library which has cryptographic capabilities. Creating a project from this template will cause lwIP and Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the lwIP &amp; Mbed TLS licenses and regional use restrictions (including abiding by all applicable export control laws).
     ]]></description>
