@@ -635,6 +635,10 @@
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
+      <version>
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
+      </version>
     </versions>
   </app>
   <app>
@@ -920,6 +924,10 @@
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
+      <version>
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
+      </version>
     </versions>
   </app>
   <app>
@@ -969,7 +977,7 @@
     <id>mtb-example-btsdk-peripheral-privacy</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-btsdk-peripheral-privacy</uri>
     <description>This code example demonstrates the privacy features available to users in Bluetooth 5.0 and above.</description>
-    <req_capabilities>fw2 btsdk</req_capabilities>
+    <req_capabilities>button fw2 btsdk</req_capabilities>
     <versions>
       <version>
         <num>Latest 1.X release</num>
@@ -978,6 +986,10 @@
       <version>
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
+      </version>
+      <version>
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
       </version>
     </versions>
   </app>
@@ -995,6 +1007,10 @@
       <version>
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
+      </version>
+      <version>
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
       </version>
     </versions>
   </app>
@@ -1091,6 +1107,27 @@
       <version>
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app>
+    <name>HAL Keyboard Scanner</name>
+    <id>mtb-example-btsdk-cyw208xx-keyboard-scanner</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-btsdk-cyw208xx-keyboard-scanner</uri>
+    <description>This code example demonstrates the dedicated keyscan hardware, which processes key press events from proprietary GPIOs (LHL GPIOs) without interrupting the CPU core. This code example also demonstrates low power entry when the system is idle (no activity or keypress) and wake up when there is key press.</description>
+    <req_capabilities>fw2 btsdk CYW208XX_62fbga</req_capabilities>
+    <versions>
+      <version>
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version>
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+      <version>
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
       </version>
     </versions>
   </app>
