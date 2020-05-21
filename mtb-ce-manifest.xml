@@ -907,6 +907,10 @@
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
+      <version>
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
+      </version>
     </versions>
   </app>
   <app>
@@ -1200,6 +1204,74 @@
     This code example makes use of the lwIP open-source TCP/IP stack and the Mbed TLS open-source TLS/SSL library which has cryptographic capabilities. Creating a project from this template will cause lwIP and Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the lwIP &amp; Mbed TLS licenses and regional use restrictions (including abiding by all applicable export control laws).
     ]]></description>
     <req_capabilities>psoc6 wifi led switch</req_capabilities>
+    <versions>
+      <version>
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version>
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app>
+    <name>AnyCloud BLE Multi Beacon</name>
+    <id>mtb-example-anycloud-ble-multi-beacon</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-ble-multi-beacon</uri>
+    <description>This code example demonstrates the implementation of a beacon which advertises multiple Eddystone ADV data.</description>
+    <req_capabilities>psoc6 bt</req_capabilities>
+    <versions>
+      <version>
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version>
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app>
+    <name>AnyCloud BLE Battery Server</name>
+    <id>mtb-example-anycloud-ble-battery-server</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-ble-battery-server</uri>
+    <description>This code example demonstrates the implementation of a simple BLE Battery Service.</description>
+    <req_capabilities>psoc6 bt led</req_capabilities>
+    <versions>
+      <version>
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version>
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app>
+    <name>AnyCloud BLE Environmental Sensing Service</name>
+    <id>mtb-example-anycloud-ble-ess</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-ble-ess</uri>
+    <description>This code example demonstrates the implementation of a simple BLE Environmental Sensing Profile. It shows how to send environmental parameters like temperature by sending simulated temperature values over the BLE connection using the Cypress WiFi-BT combo SoCs supported in AnyCloud-SDK.</description>
+    <req_capabilities>psoc6 bt led</req_capabilities>
+    <versions>
+      <version>
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version>
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app>
+    <name>AnyCloud Wi-Fi Onboarding Using BLE</name>
+    <id>mtb-example-anycloud-ble-wifi-onboarding</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-ble-wifi-onboarding</uri>
+    <description>This code example demonstrates WiFi Onboarding using BLE.</description>
+    <req_capabilities>psoc6 wifi bt led</req_capabilities>
     <versions>
       <version>
         <num>Latest 1.X release</num>
