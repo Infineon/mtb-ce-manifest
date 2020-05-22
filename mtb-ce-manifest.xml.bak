@@ -436,7 +436,7 @@
     <id>mtb-example-psoc6-smartio-ramping-led</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-smartio-ramping-led</uri>
     <description>This example uses a PWM resource and Smart I/O in PSoC 6 MCU to implement a ramping LED, where an LED gradually cycles through increasing and decreasing brightness levels. There is no CPU usage except for the initialization of PWM and Smart I/O.</description>
-    <req_capabilities>psoc6 led smart_io</req_capabilities>
+    <req_capabilities>psoc6 led</req_capabilities>
     <versions>
       <version>
         <num>Latest 1.X release</num>
@@ -524,7 +524,7 @@
     <id>mtb-example-psoc6-qspi-readwrite</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-qspi-readwrite</uri>
     <description>This example demonstrates interfacing with an external NOR flash memory in Quad-SPI mode using the Serial Memory Interface (SMIF) block in PSoC 6 MCU.</description>
-    <req_capabilities>psoc6 led qspi nor_flash</req_capabilities>
+    <req_capabilities>psoc6 led qspi</req_capabilities>
     <versions>
       <version>
         <num>Latest 1.X release</num>
@@ -646,7 +646,7 @@
     <id>mtb-example-psoc6-pdm-to-i2s</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-pdm-to-i2s</uri>
     <description>This example demonstrates how to route PDM audio data to the I2S interface in PSoC 6 MCU.</description>
-    <req_capabilities>psoc6 arduino i2s pdm</req_capabilities>
+    <req_capabilities>psoc6 arduino</req_capabilities>
     <versions>
       <version>
         <num>Latest 1.X release</num>
@@ -671,7 +671,7 @@
     <id>mtb-example-psoc6-pdm-pcm</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-pdm-pcm</uri>
     <description>This example demonstrates how to use the pulse-density modulation/pulse-code modulation (PDM/PCM) hardware block in PSoC 6 MCU with a digital microphone.</description>
-    <req_capabilities>psoc6 pdm</req_capabilities>
+    <req_capabilities>psoc6</req_capabilities>
     <versions>
       <version>
         <num>Latest 1.X release</num>
@@ -692,7 +692,7 @@
     <id>mtb-example-psoc6-i2s</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-i2s</uri>
     <description>This example demonstrates how to use the I2S hardware block in PSoC 6 MCU to interface with an audio codec.</description>
-    <req_capabilities>psoc6 arduino i2s</req_capabilities>
+    <req_capabilities>psoc6 arduino</req_capabilities>
     <versions>
       <version>
         <num>Latest 1.X release</num>
@@ -738,7 +738,7 @@
     <id>mtb-example-psoc6-qspi-readwrite-sfdp</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-qspi-readwrite-sfdp</uri>
     <description>This example demonstrates interfacing with an external NOR flash memory in Quad-SPI mode using the Serial Memory Interface (SMIF) block in PSoC 6 MCU. This example uses the Serial Flash Discoverable Parameters (SFDP) standard to auto-discover the flash parameters and the commands for read, program, and erase operations.</description>
-    <req_capabilities>psoc6 led qspi nor_flash</req_capabilities>
+    <req_capabilities>psoc6 led qspi</req_capabilities>
     <versions>
       <version>
         <num>Latest 1.X release</num>
@@ -763,7 +763,7 @@
     <br><br><b>License Disclaimer:</b><br><br>
     This code example makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license. <br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).
     ]]></description>
-    <req_capabilities>psoc6 wifi cyw43xxx led switch</req_capabilities>
+    <req_capabilities>psoc6 wifi led switch</req_capabilities>
     <versions>
       <version>
         <num>Latest 1.X release</num>
@@ -788,7 +788,7 @@
     <br><br><b>License Disclaimer:</b><br><br>
     This code example makes use of the lwIP open-source TCP/IP stack and the Mbed TLS open-source TLS/SSL library which has cryptographic capabilities. Creating a project from this template will cause lwIP and Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the lwIP &amp; Mbed TLS licenses and regional use restrictions (including abiding by all applicable export control laws).
     ]]></description>
-    <req_capabilities>psoc6 wifi cyw43xxx led switch</req_capabilities>
+    <req_capabilities>psoc6 wifi led switch</req_capabilities>
     <versions>
       <version>
         <num>Latest 1.X release</num>
@@ -813,7 +813,7 @@
     <br><br><b>License Disclaimer:</b><br><br>
     This code example makes use of the lwIP open-source TCP/IP stack and the Mbed TLS open-source TLS/SSL library which has cryptographic capabilities. Creating a project from this template will cause lwIP and Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the lwIP &amp; Mbed TLS licenses and regional use restrictions (including abiding by all applicable export control laws).
     ]]></description>
-    <req_capabilities>psoc6 wifi cyw43xxx led switch</req_capabilities>
+    <req_capabilities>psoc6 wifi led switch</req_capabilities>
     <versions>
       <version>
         <num>Latest 1.X release</num>
@@ -834,7 +834,7 @@
     <id>mtb-example-psoc6-qspi-fram-access</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-qspi-fram-access</uri>
     <description>This code example demonstrates interfacing PSoC 6 MCU with an external QSPI F-RAM memory and access it in Single, Dual, or Quad SPI mode using the Serial Memory Interface (SMIF) block. This example uses the PSoC 6 MCU standard QSPI HAL driver library to build the QSPI F-RAM access API.</description>
-    <req_capabilities>psoc6 led qspi fram rgb_led</req_capabilities>
+    <req_capabilities>psoc6 led qspi</req_capabilities>
     <versions>
       <version>
         <num>Latest 1.X release</num>
@@ -855,7 +855,7 @@
     <br><br><b>License Disclaimer:</b><br><br>
     This code example makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license. <br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).
     ]]></description>
-    <req_capabilities>psoc6 wifi cyw43xxx led switch</req_capabilities>
+    <req_capabilities>psoc6 wifi led switch</req_capabilities>
     <versions>
       <version>
         <num>Latest 1.X release</num>
@@ -876,7 +876,7 @@
     <id>mtb-example-psoc6-usb-audio-recorder</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-usb-audio-recorder</uri>
     <description>This example demonstrates the use of PSoC 6 MCU to implement an audio recorder using the USB Audio Device Class.</description>
-    <req_capabilities>psoc6 usb_device pdm</req_capabilities>
+    <req_capabilities>psoc6 usb_device</req_capabilities>
     <versions>
       <version>
         <num>Latest 1.X release</num>
@@ -897,7 +897,7 @@
     <id>mtb-example-psoc6-usb-audio-device-freertos</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-usb-audio-device-freertos</uri>
     <description>This example demonstrates how to use PSoC 6 MCU to implement a USB Audio Device and HID Audio Playback Control that connects to the PC via the USB interface. The example also uses FreeRTOS.</description>
-    <req_capabilities>psoc6 usb_device capsense_button capsense_linear_slider i2s</req_capabilities>
+    <req_capabilities>psoc6 usb_device</req_capabilities>
     <versions>
       <version>
         <num>Latest 1.X release</num>
@@ -1044,7 +1044,7 @@
     <br><br><b>License Disclaimer:</b><br><br>
     This code example makes use of the lwIP open-source TCP/IP stack and the Mbed TLS open-source TLS/SSL library which has cryptographic capabilities. Creating a project from this template will cause lwIP and Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the lwIP &amp; Mbed TLS licenses and regional use restrictions (including abiding by all applicable export control laws).
     ]]></description>
-    <req_capabilities>psoc6 wifi cyw43xxx led switch</req_capabilities>
+    <req_capabilities>psoc6 wifi led switch</req_capabilities>
     <versions>
       <version>
         <num>Latest 1.X release</num>
@@ -1065,7 +1065,7 @@
     <br><br><b>License Disclaimer:</b><br><br>
     This code example makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license. <br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).
     ]]></description>
-    <req_capabilities>psoc6 wifi cyw43xxx led</req_capabilities>
+    <req_capabilities>psoc6 wifi led</req_capabilities>
     <versions>
       <version>
         <num>Latest 1.X release</num>
@@ -1102,7 +1102,7 @@
     This code example demonstrates the TCP Keepalive Offload functionality offered by Cypress Wi-Fi devices using PSoC 6 MCU. It employs Low Power Assistant (LPA) middleware library which helps in developing low power applications for the Cypress devices. <br><br><b>License Disclaimer:</b><br><br>
     This code example makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license. <br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).
     ]]></description>
-    <req_capabilities>psoc6 wifi cyw43xxx</req_capabilities>
+    <req_capabilities>psoc6 wifi</req_capabilities>
     <versions>
       <version>
         <num>Latest 1.X release</num>
@@ -1144,7 +1144,7 @@
     <br><br><b>License Disclaimer:</b><br><br>
     This code example makes use of the lwIP open-source TCP/IP stack and the Mbed TLS open-source TLS/SSL library which has cryptographic capabilities. Creating a project from this template will cause lwIP and Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the lwIP &amp; Mbed TLS licenses and regional use restrictions (including abiding by all applicable export control laws).
     ]]></description>
-    <req_capabilities>psoc6 wifi cyw43xxx led</req_capabilities>
+    <req_capabilities>psoc6 wifi led</req_capabilities>
     <versions>
       <version>
         <num>Latest 1.X release</num>
@@ -1182,7 +1182,7 @@
     <br><br><b>License Disclaimer:</b><br><br>
     This code example makes use of the lwIP open-source TCP/IP stack and the Mbed TLS open-source TLS/SSL library which has cryptographic capabilities. Creating a project from this template will cause lwIP and Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the lwIP &amp; Mbed TLS licenses and regional use restrictions (including abiding by all applicable export control laws).
     ]]></description>
-    <req_capabilities>psoc6 wifi cyw43xxx led switch</req_capabilities>
+    <req_capabilities>psoc6 wifi led switch</req_capabilities>
     <versions>
       <version>
         <num>Latest 1.X release</num>
@@ -1203,7 +1203,7 @@
     <br><br><b>License Disclaimer:</b><br><br>
     This code example makes use of the lwIP open-source TCP/IP stack and the Mbed TLS open-source TLS/SSL library which has cryptographic capabilities. Creating a project from this template will cause lwIP and Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the lwIP &amp; Mbed TLS licenses and regional use restrictions (including abiding by all applicable export control laws).
     ]]></description>
-    <req_capabilities>psoc6 wifi cyw43xxx led switch</req_capabilities>
+    <req_capabilities>psoc6 wifi led switch</req_capabilities>
     <versions>
       <version>
         <num>Latest 1.X release</num>
