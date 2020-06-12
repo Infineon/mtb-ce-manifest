@@ -771,7 +771,7 @@
     <br><br><b>License Disclaimer:</b><br><br>
     This code example makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license. <br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).
     ]]></description>
-    <req_capabilities>psoc6 wifi cyw43xxx led switch</req_capabilities>
+    <req_capabilities>psoc6 wifi cyw43xxx led switch anycloud</req_capabilities>
     <versions>
       <version>
         <num>Latest 1.X release</num>
@@ -800,7 +800,7 @@
     <br><br><b>License Disclaimer:</b><br><br>
     This code example makes use of the lwIP open-source TCP/IP stack and the Mbed TLS open-source TLS/SSL library which has cryptographic capabilities. Creating a project from this template will cause lwIP and Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the lwIP &amp; Mbed TLS licenses and regional use restrictions (including abiding by all applicable export control laws).
     ]]></description>
-    <req_capabilities>psoc6 wifi cyw43xxx led switch</req_capabilities>
+    <req_capabilities>psoc6 wifi cyw43xxx led switch anycloud</req_capabilities>
     <versions>
       <version>
         <num>Latest 1.X release</num>
@@ -829,7 +829,7 @@
     <br><br><b>License Disclaimer:</b><br><br>
     This code example makes use of the lwIP open-source TCP/IP stack and the Mbed TLS open-source TLS/SSL library which has cryptographic capabilities. Creating a project from this template will cause lwIP and Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the lwIP &amp; Mbed TLS licenses and regional use restrictions (including abiding by all applicable export control laws).
     ]]></description>
-    <req_capabilities>psoc6 wifi cyw43xxx led switch</req_capabilities>
+    <req_capabilities>psoc6 wifi cyw43xxx led switch anycloud</req_capabilities>
     <versions>
       <version>
         <num>Latest 1.X release</num>
@@ -875,7 +875,7 @@
     <br><br><b>License Disclaimer:</b><br><br>
     This code example makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license. <br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).
     ]]></description>
-    <req_capabilities>psoc6 wifi cyw43xxx led switch</req_capabilities>
+    <req_capabilities>psoc6 wifi cyw43xxx led switch anycloud</req_capabilities>
     <versions>
       <version>
         <num>Latest 1.X release</num>
@@ -1089,7 +1089,7 @@
     <br><br><b>License Disclaimer:</b><br><br>
     This code example makes use of the lwIP open-source TCP/IP stack and the Mbed TLS open-source TLS/SSL library which has cryptographic capabilities. Creating a project from this template will cause lwIP and Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the lwIP &amp; Mbed TLS licenses and regional use restrictions (including abiding by all applicable export control laws).
     ]]></description>
-    <req_capabilities>psoc6 wifi cyw43xxx led switch</req_capabilities>
+    <req_capabilities>psoc6 wifi cyw43xxx led switch anycloud</req_capabilities>
     <versions>
       <version>
         <num>Latest 1.X release</num>
@@ -1114,7 +1114,7 @@
     <br><br><b>License Disclaimer:</b><br><br>
     This code example makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license. <br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).
     ]]></description>
-    <req_capabilities>psoc6 wifi cyw43xxx led</req_capabilities>
+    <req_capabilities>psoc6 wifi cyw43xxx led anycloud</req_capabilities>
     <versions>
       <version>
         <num>Latest 1.X release</num>
@@ -1155,7 +1155,7 @@
     This code example demonstrates the TCP Keepalive Offload functionality offered by Cypress Wi-Fi devices using PSoC 6 MCU. It employs Low Power Assistant (LPA) middleware library which helps in developing low power applications for the Cypress devices. <br><br><b>License Disclaimer:</b><br><br>
     This code example makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license. <br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).
     ]]></description>
-    <req_capabilities>psoc6 wifi cyw43xxx</req_capabilities>
+    <req_capabilities>psoc6 wifi cyw43xxx anycloud</req_capabilities>
     <versions>
       <version>
         <num>Latest 1.X release</num>
@@ -1201,7 +1201,7 @@
     <br><br><b>License Disclaimer:</b><br><br>
     This code example makes use of the lwIP open-source TCP/IP stack and the Mbed TLS open-source TLS/SSL library which has cryptographic capabilities. Creating a project from this template will cause lwIP and Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the lwIP &amp; Mbed TLS licenses and regional use restrictions (including abiding by all applicable export control laws).
     ]]></description>
-    <req_capabilities>psoc6 wifi cyw43xxx led</req_capabilities>
+    <req_capabilities>psoc6 wifi cyw43xxx led anycloud</req_capabilities>
     <versions>
       <version>
         <num>Latest 1.X release</num>
@@ -1243,7 +1243,7 @@
     <br><br><b>License Disclaimer:</b><br><br>
     This code example makes use of the lwIP open-source TCP/IP stack and the Mbed TLS open-source TLS/SSL library which has cryptographic capabilities. Creating a project from this template will cause lwIP and Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the lwIP &amp; Mbed TLS licenses and regional use restrictions (including abiding by all applicable export control laws).
     ]]></description>
-    <req_capabilities>psoc6 wifi cyw43xxx led switch</req_capabilities>
+    <req_capabilities>psoc6 wifi cyw43xxx led switch anycloud</req_capabilities>
     <versions>
       <version>
         <num>Latest 1.X release</num>
@@ -1268,7 +1268,7 @@
     <br><br><b>License Disclaimer:</b><br><br>
     This code example makes use of the lwIP open-source TCP/IP stack and the Mbed TLS open-source TLS/SSL library which has cryptographic capabilities. Creating a project from this template will cause lwIP and Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the lwIP &amp; Mbed TLS licenses and regional use restrictions (including abiding by all applicable export control laws).
     ]]></description>
-    <req_capabilities>psoc6 wifi cyw43xxx led switch</req_capabilities>
+    <req_capabilities>psoc6 wifi cyw43xxx led switch anycloud</req_capabilities>
     <versions>
       <version>
         <num>Latest 1.X release</num>
@@ -1340,7 +1340,7 @@
     <id>mtb-example-anycloud-ble-wifi-onboarding</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-ble-wifi-onboarding</uri>
     <description>This code example demonstrates WiFi Onboarding using BLE.</description>
-    <req_capabilities>psoc6 wifi bt led</req_capabilities>
+    <req_capabilities>psoc6 wifi bt led anycloud</req_capabilities>
     <versions>
       <version>
         <num>Latest 1.X release</num>
