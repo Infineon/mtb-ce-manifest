@@ -176,7 +176,7 @@
     <id>mtb-example-psoc6-emulated-eeprom</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-emulated-eeprom</uri>
     <description>This code example demonstrates emulation of EEPROM behavior in flash memory of PSoC 6 MCU using emeeprom middleware.</description>
-    <req_capabilities>psoc6 led</req_capabilities>
+    <req_capabilities>psoc6 std_crypto led</req_capabilities>
     <versions>
       <version>
         <num>Latest 1.X release</num>
@@ -306,7 +306,7 @@
     <id>mtb-example-psoc6-uart-transmit-receive-dma</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-uart-transmit-receive-dma</uri>
     <description>This example demonstrates the UART transmit and receive operation using DMA in PSoC 6 MCU.</description>
-    <req_capabilities>psoc6 led</req_capabilities>
+    <req_capabilities>psoc6 std_crypto led</req_capabilities>
     <versions>
       <version>
         <num>Latest 1.X release</num>
@@ -419,7 +419,7 @@
     <id>mtb-example-psoc6-spi-master-dma</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-spi-master-dma</uri>
     <description>This example demonstrates the use of PSoC 6 MCU Serial Communication Block (SCB) resource in SPI Master mode using DMA.</description>
-    <req_capabilities>psoc6 led</req_capabilities>
+    <req_capabilities>psoc6 std_crypto led</req_capabilities>
     <versions>
       <version>
         <num>Latest 1.X release</num>
@@ -444,7 +444,7 @@
     <id>mtb-example-psoc6-smartio-ramping-led</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-smartio-ramping-led</uri>
     <description>This example uses a PWM resource and Smart I/O in PSoC 6 MCU to implement a ramping LED, where an LED gradually cycles through increasing and decreasing brightness levels. There is no CPU usage except for the initialization of PWM and Smart I/O.</description>
-    <req_capabilities>psoc6 led smart_io</req_capabilities>
+    <req_capabilities>psoc6 std_crypto led smart_io</req_capabilities>
     <versions>
       <version>
         <num>Latest 1.X release</num>
@@ -721,7 +721,7 @@
     <id>mtb-example-psoc6-usb-hid-mouse</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-usb-hid-mouse</uri>
     <description>This example demonstrates how to configure the USB block in a PSoC 6 MCU as a HID. The device enumerates as a 3-button mouse.</description>
-    <req_capabilities>psoc6 usb_device</req_capabilities>
+    <req_capabilities>psoc6 std_crypto usb_device</req_capabilities>
     <versions>
       <version>
         <num>Latest 1.X release</num>
@@ -900,7 +900,7 @@
     <id>mtb-example-psoc6-usb-audio-recorder</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-usb-audio-recorder</uri>
     <description>This example demonstrates the use of PSoC 6 MCU to implement an audio recorder using the USB Audio Device Class.</description>
-    <req_capabilities>psoc6 usb_device pdm</req_capabilities>
+    <req_capabilities>psoc6 std_crypto usb_device pdm</req_capabilities>
     <versions>
       <version>
         <num>Latest 1.X release</num>
@@ -921,7 +921,7 @@
     <id>mtb-example-psoc6-usb-audio-device-freertos</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-usb-audio-device-freertos</uri>
     <description>This example demonstrates how to use PSoC 6 MCU to implement a USB Audio Device and HID Audio Playback Control that connects to the PC via the USB interface. The example also uses FreeRTOS.</description>
-    <req_capabilities>psoc6 usb_device capsense_button capsense_linear_slider i2s</req_capabilities>
+    <req_capabilities>psoc6 std_crypto usb_device capsense_button capsense_linear_slider i2s</req_capabilities>
     <versions>
       <version>
         <num>Latest 1.X release</num>
@@ -967,7 +967,7 @@
     <id>mtb-example-psoc6-usb-cdc-echo</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-usb-cdc-echo</uri>
     <description>This example demonstrates how to configure the USB block in a PSoC 6 MCU for Communication Device Class (CDC). When configured for a CDC, the PSoC 6 enumerates a Virtual COM port, which can be read and written by a terminal emulator program on a PC.</description>
-    <req_capabilities>psoc6 usb_device</req_capabilities>
+    <req_capabilities>psoc6 std_crypto usb_device</req_capabilities>
     <versions>
       <version>
         <num>Latest 1.X release</num>
@@ -988,7 +988,7 @@
     <id>mtb-example-psoc6-usb-hid-generic</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-usb-hid-generic</uri>
     <description>This example demonstrates how to configure the USB block in a PSoC 6 MCU as a Human Interface Device (HID). The device enumerates as a Generic HID device.</description>
-    <req_capabilities>psoc6 usb_device</req_capabilities>
+    <req_capabilities>psoc6 std_crypto usb_device</req_capabilities>
     <versions>
       <version>
         <num>Latest 1.X release</num>
@@ -1222,7 +1222,7 @@
     <id>mtb-example-psoc6-usb-msc-logger</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-usb-msc-logger</uri>
     <description>This example demonstrates how to configure the USB block in a PSoC 6 MCU as a Mass Storage (MSC) device and emulate a file system in the internal memory.</description>
-    <req_capabilities>psoc6 usb_device</req_capabilities>
+    <req_capabilities>psoc6 std_crypto usb_device</req_capabilities>
     <versions>
       <version>
         <num>Latest 1.X release</num>
