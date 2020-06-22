@@ -532,7 +532,7 @@
     <id>mtb-example-psoc6-qspi-readwrite</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-qspi-readwrite</uri>
     <description>This example demonstrates interfacing with an external NOR flash memory in Quad-SPI mode using the Serial Memory Interface (SMIF) block in PSoC 6 MCU.</description>
-    <req_capabilities>psoc6 led qspi nor_flash</req_capabilities>
+    <req_capabilities>psoc6 std_crypto led qspi nor_flash</req_capabilities>
     <versions>
       <version>
         <num>Latest 1.X release</num>
@@ -746,7 +746,7 @@
     <id>mtb-example-psoc6-qspi-readwrite-sfdp</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-qspi-readwrite-sfdp</uri>
     <description>This example demonstrates interfacing with an external NOR flash memory in Quad-SPI mode using the Serial Memory Interface (SMIF) block in PSoC 6 MCU. This example uses the Serial Flash Discoverable Parameters (SFDP) standard to auto-discover the flash parameters and the commands for read, program, and erase operations.</description>
-    <req_capabilities>psoc6 led qspi nor_flash</req_capabilities>
+    <req_capabilities>psoc6 std_crypto led qspi nor_flash</req_capabilities>
     <versions>
       <version>
         <num>Latest 1.X release</num>
@@ -1051,7 +1051,7 @@
     <id>mtb-example-psoc6-csdadc</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-csdadc</uri>
     <description>This example demonstrates the usage of CSD analog-to-digital converter (ADC) in PSoC 6 MCU. CSDADC measures the external voltage and displays the conversion result the terminal application.</description>
-    <req_capabilities>psoc6 capsense</req_capabilities>
+    <req_capabilities>psoc6 std_crypto capsense</req_capabilities>
     <versions>
       <version>
         <num>Latest 1.X release</num>
