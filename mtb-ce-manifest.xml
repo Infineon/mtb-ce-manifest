@@ -822,6 +822,10 @@
         <num>1.2.0 release</num>
         <commit>release-v1.2.0</commit>
       </version>
+      <version>
+        <num>1.3.0 release</num>
+        <commit>release-v1.3.0</commit>
+      </version>
     </versions>
   </app>
   <app>
@@ -850,6 +854,10 @@
       <version>
         <num>1.2.0 release</num>
         <commit>release-v1.2.0</commit>
+      </version>
+      <version>
+        <num>1.3.0 release</num>
+        <commit>release-v1.3.0</commit>
       </version>
     </versions>
   </app>
@@ -1396,6 +1404,49 @@
     <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-ble-cts-server</uri>
     <description>This code example demonstrates the implementation of a simple BLE GAP Central - GATT Server with Current Time Service.</description>
     <req_capabilities>psoc6 bt led</req_capabilities>
+    <versions>
+      <version>
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version>
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app>
+    <name>AnyCloud UDP Client</name>
+    <id>mtb-example-anycloud-udp-client</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-udp-client</uri>
+    <description><![CDATA[
+    This code example demonstrates implementation of UDP Client using AnyCloud SDK. The UDP Client establishes a connection with a remote UDP server and based on the command received from the UDP server, turns the user LED ON
+    or OFF using PSoC 6 MCU.
+    <br><br><b>License Disclaimer:</b><br><br>
+    This code example makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license. <br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).
+    ]]></description>
+    <req_capabilities>psoc6 cyw43xxx wifi led anycloud</req_capabilities>
+    <versions>
+      <version>
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version>
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app>
+    <name>AnyCloud UDP Server</name>
+    <id>mtb-example-anycloud-udp-server</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-udp-server</uri>
+    <description><![CDATA[
+	This code example demonstrates implementation of UDP Server using AnyCloud SDK. The UDP Server allows the user to send LED ON/OFF command to the UDP client using PSoC 6 MCU.
+	<br><br><b>License Disclaimer:</b><br><br>
+    This code example makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license. <br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).
+    ]]></description>
+    <req_capabilities>psoc6 cyw43xxx wifi switch anycloud</req_capabilities>
     <versions>
       <version>
         <num>Latest 1.X release</num>
