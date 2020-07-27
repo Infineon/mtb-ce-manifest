@@ -1420,6 +1420,23 @@
     </versions>
   </app>
   <app>
+    <name>CapSense Custom Scan</name>
+    <id>mtb-example-psoc6-capsense-custom-scan</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-capsense-custom-scan</uri>
+    <description>This code example demonstrates CapSense custom scanning through CapSense Middleware's callback functions that allow altering the sensor parameters during runtime or synchronizing the CapSense scan with non-CapSense operations. In this code example, the callback function is used to change the inactive sensor state to either shield or ground depending on the sensor being scanned.</description>
+    <req_capabilities>psoc6 led capsense_linear_slider</req_capabilities>
+    <versions>
+      <version>
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version>
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app>
     <name>Empty PSoC4 App</name>
     <id>mtb-example-psoc4-empty-app</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc4-empty-app</uri>
