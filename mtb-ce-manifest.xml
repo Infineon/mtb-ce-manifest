@@ -1662,21 +1662,4 @@
       </version>
     </versions>
   </app>
-  <app>
-    <name>MCUboot-Based Basic Bootloader</name>
-    <id>mtb-example-psoc6-mcuboot-basic</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-mcuboot-basic</uri>
-    <description>This code example demonstrates building a simple bootloader application for PSoC 62/63 MCUs using the open-source library - MCUboot. </description>
-    <req_capabilities>psoc6 std_crypto led qspi nor_flash</req_capabilities>
-    <versions>
-      <version>
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
-      </version>
-      <version>
-        <num>1.0.0 release</num>
-        <commit>release-v1.0.0</commit>
-      </version>
-    </versions>
-  </app>
 </apps>
