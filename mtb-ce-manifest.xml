@@ -1679,4 +1679,21 @@
       </version>
     </versions>
   </app>
+  <app>
+    <name>Dual-CPU Empty PSoC6 App</name>
+    <id>mtb-example-psoc6-dual-cpu-empty-app</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-dual-cpu-empty-app</uri>
+    <description>This empty application provides a template for creating dual-CPU applications using PSoC 6 devices.</description>
+    <req_capabilities>psoc6 std_crypto</req_capabilities>
+    <versions>
+      <version>
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version>
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
 </apps>
