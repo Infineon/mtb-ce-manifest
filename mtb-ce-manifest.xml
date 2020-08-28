@@ -624,11 +624,11 @@
     </versions>
   </app>
   <app>
-    <name>Motion Sensor</name>
-    <id>mtb-example-btsdk-motion-sensor</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-btsdk-motion-sensor</uri>
-    <description>This example demonstrates using the motion sensor with the CYW208xx and CYW207xx devices.</description>
-    <req_capabilities>lsm9ds1</req_capabilities>
+    <name>Sensor Hub</name>
+    <id>mtb-example-btsdk-sensorhub</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-btsdk-sensorhub</uri>
+    <description>This example demonstrates the interfacing of Multiple sensors, Motion, Temperature, and 3D magnetic sensor with CYW208xx and CYW207xx devices using ModusToolbox IDE.</description>
+    <req_capabilities>btsdk lsm9ds1 ncu15wf104 fw2</req_capabilities>
     <versions>
       <version>
         <num>Latest 1.X release</num>
@@ -637,6 +637,10 @@
       <version>
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
+      </version>
+      <version>
+        <num>1.2.0 release</num>
+        <commit>release-v1.2.0</commit>
       </version>
     </versions>
   </app>
