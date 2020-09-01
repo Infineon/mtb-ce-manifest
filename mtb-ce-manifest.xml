@@ -1734,4 +1734,38 @@
       </version>
     </versions>
   </app>
+  <app>
+    <name>Dual-CPU IPC Semaphores</name>
+    <id>mtb-example-psoc6-dual-cpu-ipc-sema</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-dual-cpu-ipc-sema</uri>
+    <description>This example demonstrates how to use the inter-processor communication (IPC) driver to implement a semaphore in PSoC 6 MCU. The semaphore is used as a lock to control access to a resource shared by the CPUs and synchronize the initialization instructions.</description>
+    <req_capabilities>psoc6 std_crypto led switch</req_capabilities>
+    <versions>
+      <version>
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version>
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app>
+    <name>Dual-CPU IPC Pipes</name>
+    <id>mtb-example-psoc6-dual-cpu-ipc-pipes</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-dual-cpu-ipc-pipes</uri>
+    <description>This example demonstrates how to use the inter-processor communication (IPC) driver to implement a message pipe in PSoC 6 MCU. The pipe is used to send messages between CPUs.</description>
+    <req_capabilities>psoc6 std_crypto switch</req_capabilities>
+    <versions>
+      <version>
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version>
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
 </apps>
