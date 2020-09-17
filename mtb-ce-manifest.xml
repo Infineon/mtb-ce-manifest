@@ -1769,7 +1769,7 @@
     </versions>
   </app>
   <app>
-    <name>MCUboot-Based Bootloader with Rollback</name>
+    <name>AnyCloud MCUboot-Based Bootloader with Rollback</name>
     <id>mtb-example-anycloud-mcuboot-rollback</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-mcuboot-rollback</uri>
     <description><![CDATA[
