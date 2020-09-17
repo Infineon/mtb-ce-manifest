@@ -1768,4 +1768,25 @@
       </version>
     </versions>
   </app>
+  <app>
+    <name>MCUboot-Based Bootloader with Rollback</name>
+    <id>mtb-example-anycloud-mcuboot-rollback</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-mcuboot-rollback</uri>
+    <description><![CDATA[
+    This code example demonstrates an MCUboot-based bootloader that can rollback to the factory application/image located in external flash. Rollback can be initiated by the user in case of unrecoverable error conditions or for the purpose of running diagnostic tests using a test image. Bootloader runs on CM0+ and the user and factory applications run on CM4.
+    <br><br><b>License Disclaimer:</b><br><br>
+    This code example makes use of the lwIP open-source TCP/IP stack and the Mbed TLS open-source TLS/SSL library which has cryptographic capabilities. Creating a project from this template will cause lwIP and Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the lwIP &amp; Mbed TLS licenses and regional use restrictions (including abiding by all applicable export control laws).
+    ]]></description>
+    <req_capabilities>psoc6 wifi cyw43xxx led std_crypto qspi nor_flash anycloud</req_capabilities>
+    <versions>
+      <version>
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version>
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
 </apps>
