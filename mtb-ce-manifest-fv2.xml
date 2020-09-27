@@ -1,10 +1,282 @@
 <apps version="2.0">
+  <app keywords="psoc6,starter,template,empty,blank,mtb-flow">
+    <name>Empty PSoC6 App</name>
+    <id>mtb-example-psoc6-empty-app</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-empty-app</uri>
+    <description>This empty application provides a template for creating applications using PSoC 6 devices.</description>
+    <req_capabilities>psoc6</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
+    </versions>
+  </app>
   <app keywords="psoc6,led,starter,hello world,mtb-flow">
     <name>Hello World</name>
     <id>mtb-example-psoc6-hello-world</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-hello-world</uri>
     <description>This code example demonstrates simple UART communication by printing a "Hello World" message on a terminal and blinks an LED using a Timer resource using PSoC 6 MCU.</description>
     <req_capabilities>psoc6 led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,led,capsense,button,slider,i2c,tuner,mtb-flow">
+    <name>CapSense Buttons and Slider</name>
+    <id>mtb-example-psoc6-capsense-buttons-slider</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-capsense-buttons-slider</uri>
+    <description>This code example features a 5-segment CapSense slider and two CapSense buttons. Button 0 turns the LED on, Button 1 turns the LED off and the slider controls the brightness of the LED. The code example also demonstrates interfacing with Tuner GUI using I2C interface.</description>
+    <req_capabilities>psoc6 led capsense_button capsense_linear_slider</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,led,capsense,button,slider,i2c,tuner,rtos,mtb-flow">
+    <name>CapSense Buttons and Slider FreeRTOS</name>
+    <id>mtb-example-psoc6-capsense-buttons-slider-freertos</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-capsense-buttons-slider-freertos</uri>
+    <description>This code example features a 5-segment CapSense slider and two CapSense buttons. Button 0 turns the LED on, Button 1 turns the LED off and the slider controls the brightness of the LED. The code example also demonstrates interfacing with Tuner GUI using I2C interface.</description>
+    <req_capabilities>psoc6 led capsense_button capsense_linear_slider</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,i2c,master,slave,mtb-flow">
+    <name>I2C Master</name>
+    <id>mtb-example-psoc6-i2c-master</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-i2c-master</uri>
+    <description>This example demonstrates the use of I2C (HAL) resource for PSoC 6 MCU in Master mode.</description>
+    <req_capabilities>psoc6 led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,i2c,ezi2c,master,slave,mtb-flow">
+    <name>I2C Master EzI2C Slave</name>
+    <id>mtb-example-psoc6-i2c-master-ezi2c-slave</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-i2c-master-ezi2c-slave</uri>
+    <description>This example demonstrates the use of I2C (HAL) resource for PSoC 6 MCU in Master mode with an EzI2C slave.</description>
+    <req_capabilities>psoc6 led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,i2c,slave,mtb-flow">
+    <name>I2C Slave Using Callbacks</name>
+    <id>mtb-example-psoc6-i2c-slave-callback</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-i2c-slave-callback</uri>
+    <description>This example demonstrates the operation of the I2C (HAL) resource for PSoC 6 MCU in Slave mode using callbacks.</description>
+    <req_capabilities>psoc6 led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,spi,master,slave,mtb-flow">
+    <name>SPI Master</name>
+    <id>mtb-example-psoc6-spi-master</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-spi-master</uri>
+    <description>This example demonstrates the use of SPI (HAL) resource for PSoC 6 MCU in Master mode.</description>
+    <req_capabilities>psoc6 std_crypto led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,spi,master,slave,dma,mtb-flow">
+    <name>SCB SPI Master DMA</name>
+    <id>mtb-example-psoc6-spi-master-dma</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-spi-master-dma</uri>
+    <description>This example demonstrates the use of PSoC 6 MCU Serial Communication Block (SCB) resource in SPI Master mode using DMA.</description>
+    <req_capabilities>psoc6 std_crypto led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,eink,emwin,freertos,display,mtb-flow">
+    <name>emWin E-Ink FreeRTOS</name>
+    <id>mtb-example-psoc6-emwin-eink-freertos</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-emwin-eink-freertos</uri>
+    <description>This code example demonstrates displaying 2D graphics on an E-Ink display using EmWin graphics library in FreeRTOS.</description>
+    <req_capabilities>psoc6 led arduino switch</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,oled,emwin,freertos,display,mtb-flow">
+    <name>emWin OLED FreeRTOS</name>
+    <id>mtb-example-psoc6-emwin-oled-freertos</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-emwin-oled-freertos</uri>
+    <description>This code example demonstrates displaying 2D graphics on an OLED display using EmWin graphics library in FreeRTOS.</description>
+    <req_capabilities>psoc6 arduino switch</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,cryptography,sha2,message digest,hash,mtb-flow">
+    <name>Cryptography SHA Demonstration</name>
+    <id>mtb-example-psoc6-crypto-sha</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-crypto-sha</uri>
+    <description>This code example shows how to generate a 32-byte hash value or message digest for an arbitrary user input message with the SHA2 algorithm using the Cryptographic hardware block in PSoC 6 MCU.</description>
+    <req_capabilities>psoc6 std_crypto</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,led,smartio,smart io,pwm,mtb-flow">
+    <name>Ramping LED using Smart IO</name>
+    <id>mtb-example-psoc6-smartio-ramping-led</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-smartio-ramping-led</uri>
+    <description>This example uses a PWM resource and Smart I/O in PSoC 6 MCU to implement a ramping LED, where an LED gradually cycles through increasing and decreasing brightness levels. There is no CPU usage except for the initialization of PWM and Smart I/O.</description>
+    <req_capabilities>psoc6 led smart_io</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,csdadc,mtb-flow">
+    <name>CSDADC</name>
+    <id>mtb-example-psoc6-csdadc</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-csdadc</uri>
+    <description>This example demonstrates the usage of CSD analog-to-digital converter (ADC) in PSoC 6 MCU. CSDADC measures the external voltage and displays the conversion result the terminal application.</description>
+    <req_capabilities>psoc6 std_crypto capsense</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,uart,transmit,receive,mtb-flow">
+    <name>UART Transmit and Receive</name>
+    <id>mtb-example-psoc6-uart-transmit-receive</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-uart-transmit-receive</uri>
+    <description>This example demonstrates the UART (HAL) transmit and receive operation in PSoC 6 MCU.</description>
+    <req_capabilities>psoc6 led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,uart,transmit,receive,dma,mtb-flow">
+    <name>SCB UART Transmit and Receive using DMA</name>
+    <id>mtb-example-psoc6-uart-transmit-receive-dma</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-uart-transmit-receive-dma</uri>
+    <description>This example demonstrates the UART transmit and receive operation using DMA in PSoC 6 MCU.</description>
+    <req_capabilities>psoc6 led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,dual cpu,starter,template,empty,blank,mtb-flow">
+    <name>Dual-CPU Empty PSoC6 App</name>
+    <id>mtb-example-psoc6-dual-cpu-empty-app</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-dual-cpu-empty-app</uri>
+    <description>This empty application provides a template for creating dual-CPU applications using PSoC 6 devices.</description>
+    <req_capabilities>psoc6 std_crypto</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 2.X release</num>
