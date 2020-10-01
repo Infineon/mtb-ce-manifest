@@ -1402,7 +1402,7 @@
     </versions>
   </app>
   <app>
-    <name>AnyCloud BLE Capsense Buttons Slider</name>
+    <name>AnyCloud BLE CapSense Buttons and Slider</name>
     <id>mtb-example-anycloud-ble-capsense-buttons-slider</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-ble-capsense-buttons-slider</uri>
     <description>This code example demonstrates the CapSense implementation using BLE Custom Service.</description>
