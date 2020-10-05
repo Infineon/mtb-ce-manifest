@@ -67,6 +67,40 @@
       </version>
     </versions>
   </app>
+  <app keywords="psoc6,uart,transmit,receive,mtb-flow">
+    <name>UART Transmit and Receive</name>
+    <id>mtb-example-psoc6-uart-transmit-receive</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-uart-transmit-receive</uri>
+    <description>This example demonstrates the UART (HAL) transmit and receive operation in PSoC 6 MCU.</description>
+    <req_capabilities>psoc6 led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,uart,transmit,receive,dma,mtb-flow">
+    <name>SCB UART Transmit and Receive using DMA</name>
+    <id>mtb-example-psoc6-uart-transmit-receive-dma</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-uart-transmit-receive-dma</uri>
+    <description>This example demonstrates the UART transmit and receive operation using DMA in PSoC 6 MCU.</description>
+    <req_capabilities>psoc6 led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
+    </versions>
+  </app>
   <app keywords="psoc6,i2c,master,slave,mtb-flow">
     <name>I2C Master</name>
     <id>mtb-example-psoc6-i2c-master</id>
@@ -152,6 +186,23 @@
       </version>
     </versions>
   </app>
+  <app keywords="psoc6,led,smartio,smart io,pwm,mtb-flow">
+    <name>Ramping LED using Smart IO</name>
+    <id>mtb-example-psoc6-smartio-ramping-led</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-smartio-ramping-led</uri>
+    <description>This example uses a PWM resource and Smart I/O in PSoC 6 MCU to implement a ramping LED, where an LED gradually cycles through increasing and decreasing brightness levels. There is no CPU usage except for the initialization of PWM and Smart I/O.</description>
+    <req_capabilities>psoc6 led smart_io</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
+    </versions>
+  </app>
   <app keywords="psoc6,eink,emwin,freertos,display,mtb-flow">
     <name>emWin E-Ink FreeRTOS</name>
     <id>mtb-example-psoc6-emwin-eink-freertos</id>
@@ -203,23 +254,6 @@
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,led,smartio,smart io,pwm,mtb-flow">
-    <name>Ramping LED using Smart IO</name>
-    <id>mtb-example-psoc6-smartio-ramping-led</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-smartio-ramping-led</uri>
-    <description>This example uses a PWM resource and Smart I/O in PSoC 6 MCU to implement a ramping LED, where an LED gradually cycles through increasing and decreasing brightness levels. There is no CPU usage except for the initialization of PWM and Smart I/O.</description>
-    <req_capabilities>psoc6 led smart_io</req_capabilities>
-    <versions>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
-        <num>Latest 2.X release</num>
-        <commit>latest-v2.X</commit>
-      </version>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
-        <num>2.0.0 release</num>
-        <commit>release-v2.0.0</commit>
-      </version>
-    </versions>
-  </app>
   <app keywords="psoc6,csdadc,mtb-flow">
     <name>CSDADC</name>
     <id>mtb-example-psoc6-csdadc</id>
@@ -237,37 +271,20 @@
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,uart,transmit,receive,mtb-flow">
-    <name>UART Transmit and Receive</name>
-    <id>mtb-example-psoc6-uart-transmit-receive</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-uart-transmit-receive</uri>
-    <description>This example demonstrates the UART (HAL) transmit and receive operation in PSoC 6 MCU.</description>
-    <req_capabilities>psoc6 led</req_capabilities>
+  <app keywords="psoc6,pwm,tcpwm,asymmetric,mtb-flow">
+    <name>Asymmetric PWM Generation</name>
+    <id>mtb-example-psoc6-pwm-dual-compare-capture</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-pwm-dual-compare-capture</uri>
+    <description>This code example demonstrates the generation of asymmetric PWM signals using two compare/capture registers available in the TCPWM block of the PSoC 6 MCU devices.</description>
+    <req_capabilities>psoc6 cy8ckit_062s4</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
-        <num>Latest 2.X release</num>
-        <commit>latest-v2.X</commit>
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
-        <num>2.0.0 release</num>
-        <commit>release-v2.0.0</commit>
-      </version>
-    </versions>
-  </app>
-  <app keywords="psoc6,uart,transmit,receive,dma,mtb-flow">
-    <name>SCB UART Transmit and Receive using DMA</name>
-    <id>mtb-example-psoc6-uart-transmit-receive-dma</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-uart-transmit-receive-dma</uri>
-    <description>This example demonstrates the UART transmit and receive operation using DMA in PSoC 6 MCU.</description>
-    <req_capabilities>psoc6 led</req_capabilities>
-    <versions>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
-        <num>Latest 2.X release</num>
-        <commit>latest-v2.X</commit>
-      </version>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
-        <num>2.0.0 release</num>
-        <commit>release-v2.0.0</commit>
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
       </version>
     </versions>
   </app>
@@ -285,6 +302,40 @@
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,sar,adc,op amp,mtb-flow">
+    <name>Low-Power Analog Front End using OpAmp and SAR ADC</name>
+    <id>mtb-example-psoc6-low-power-analog-front-end</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-low-power-analog-front-end</uri>
+    <description>This example demonstrates the low-power analog features of PSoC 6 MCU using an OpAmp and SAR ADC. PDL is used for the application firmware. This example is supported only for the devices like CY8C62x4 which have an OpAmp and SAR ADC capable of operating in System Deep Sleep mode.</description>
+    <req_capabilities>psoc6 cy8ckit_062s4</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,sar,analog,sensor,mtb-flow">
+    <name>SAR ADC Low Power Sensing - Thermistor and ALS</name>
+    <id>mtb-example-psoc6-low-power-sar-adc-thermistor-als</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-low-power-sar-adc-thermistor-als</uri>
+    <description>This example demonstrates low-power sensing of a thermistor and ambient light sensor (ALS) using the SAR ADC of PSoC 6 MCU. PDL is used for the application firmware. This example is supported only for the devices like CY8C62x4 which have a SAR ADC capable of operating in System Deep Sleep mode.</description>
+    <req_capabilities>psoc6 cy8ckit_062s4</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
       </version>
     </versions>
   </app>
