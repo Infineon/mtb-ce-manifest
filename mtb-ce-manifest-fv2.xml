@@ -157,7 +157,7 @@
     <id>mtb-example-psoc6-spi-master</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-spi-master</uri>
     <description>This example demonstrates the use of SPI (HAL) resource for PSoC 6 MCU in Master mode.</description>
-    <req_capabilities>psoc6 std_crypto led</req_capabilities>
+    <req_capabilities>psoc6 led</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 2.X release</num>
@@ -174,7 +174,7 @@
     <id>mtb-example-psoc6-spi-master-dma</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-spi-master-dma</uri>
     <description>This example demonstrates the use of PSoC 6 MCU Serial Communication Block (SCB) resource in SPI Master mode using DMA.</description>
-    <req_capabilities>psoc6 std_crypto led</req_capabilities>
+    <req_capabilities>psoc6 led</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 2.X release</num>
@@ -259,7 +259,7 @@
     <id>mtb-example-psoc6-csdadc</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-csdadc</uri>
     <description>This example demonstrates the usage of CSD analog-to-digital converter (ADC) in PSoC 6 MCU. CSDADC measures the external voltage and displays the conversion result the terminal application.</description>
-    <req_capabilities>psoc6 std_crypto capsense</req_capabilities>
+    <req_capabilities>psoc6 capsense</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 2.X release</num>
