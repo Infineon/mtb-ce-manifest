@@ -177,20 +177,20 @@
   </app>
   <app>
     <name>Emulated EEPROM</name>
-    <id>mtb-example-psoc6-emulated-eeprom</id>
+    <id>mtb-example-psoc6-emulated-eeprom-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-emulated-eeprom</uri>
     <description>This code example demonstrates emulation of EEPROM behavior in flash memory of PSoC 6 MCU using emeeprom middleware.</description>
     <req_capabilities>psoc6 std_crypto led</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -244,20 +244,20 @@
   </app>
   <app>
     <name>Cryptography AES Demonstration</name>
-    <id>mtb-example-psoc6-crypto-aes</id>
+    <id>mtb-example-psoc6-crypto-aes-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-crypto-aes</uri>
     <description>This code example encrypts and decrypts user input data using the AES algorithm using a 128-bit key. The encrypted and decrypted data are displayed on a UART terminal emulator.</description>
     <req_capabilities>psoc6 std_crypto</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -307,24 +307,24 @@
   </app>
   <app>
     <name>SCB UART Transmit and Receive using DMA</name>
-    <id>mtb-example-psoc6-uart-transmit-receive-dma</id>
+    <id>mtb-example-psoc6-uart-transmit-receive-dma-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-uart-transmit-receive-dma</uri>
     <description>This example demonstrates the UART transmit and receive operation using DMA in PSoC 6 MCU.</description>
     <req_capabilities>psoc6 std_crypto led</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
         <num>1.2.0 release</num>
         <commit>release-v1.2.0</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -399,24 +399,24 @@
   </app>
   <app>
     <name>SPI Master</name>
-    <id>mtb-example-psoc6-spi-master</id>
+    <id>mtb-example-psoc6-spi-master-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-spi-master</uri>
     <description>This example demonstrates the use of SPI (HAL) resource for PSoC 6 MCU in Master mode.</description>
     <req_capabilities>psoc6 std_crypto led</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
         <num>1.2.0 release</num>
         <commit>release-v1.2.0</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -424,28 +424,28 @@
   </app>
   <app>
     <name>SCB SPI Master DMA</name>
-    <id>mtb-example-psoc6-spi-master-dma</id>
+    <id>mtb-example-psoc6-spi-master-dma-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-spi-master-dma</uri>
     <description>This example demonstrates the use of PSoC 6 MCU Serial Communication Block (SCB) resource in SPI Master mode using DMA.</description>
     <req_capabilities>psoc6 std_crypto led</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
         <num>1.3.0 release</num>
         <commit>release-v1.3.0</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
         <num>1.2.0 release</num>
         <commit>release-v1.2.0</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -453,24 +453,24 @@
   </app>
   <app>
     <name>Ramping LED using Smart IO</name>
-    <id>mtb-example-psoc6-smartio-ramping-led</id>
+    <id>mtb-example-psoc6-smartio-ramping-led-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-smartio-ramping-led</uri>
     <description>This example uses a PWM resource and Smart I/O in PSoC 6 MCU to implement a ramping LED, where an LED gradually cycles through increasing and decreasing brightness levels. There is no CPU usage except for the initialization of PWM and Smart I/O.</description>
     <req_capabilities>psoc6 std_crypto led smart_io</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
         <num>1.2.0 release</num>
         <commit>release-v1.2.0</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -524,20 +524,20 @@
   </app>
   <app>
     <name>Cryptography SHA Demonstration</name>
-    <id>mtb-example-psoc6-crypto-sha</id>
+    <id>mtb-example-psoc6-crypto-sha-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-crypto-sha</uri>
     <description>This code example shows how to generate a 32-byte hash value or message digest for an arbitrary user input message with the SHA2 algorithm using the Cryptographic hardware block in PSoC 6 MCU.</description>
     <req_capabilities>psoc6 std_crypto</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -1080,16 +1080,16 @@
   </app>
   <app>
     <name>CSDADC</name>
-    <id>mtb-example-psoc6-csdadc</id>
+    <id>mtb-example-psoc6-csdadc-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-csdadc</uri>
     <description>This example demonstrates the usage of CSD analog-to-digital converter (ADC) in PSoC 6 MCU. CSDADC measures the external voltage and displays the conversion result the terminal application.</description>
     <req_capabilities>psoc6 std_crypto capsense</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
@@ -1727,16 +1727,16 @@
   </app>
   <app>
     <name>Dual-CPU Empty PSoC6 App</name>
-    <id>mtb-example-psoc6-dual-cpu-empty-app</id>
+    <id>mtb-example-psoc6-dual-cpu-empty-app-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-dual-cpu-empty-app</uri>
     <description>This empty application provides a template for creating dual-CPU applications using PSoC 6 devices.</description>
     <req_capabilities>psoc6 std_crypto</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
