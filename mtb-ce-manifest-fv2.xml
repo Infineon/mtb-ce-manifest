@@ -373,4 +373,21 @@
       </version>
     </versions>
   </app>
+    <app keywords="btsdk,sensors,sensor hub,motion,accelerometer,gyro,compass,temperature,thermistor,magnetic,3d magnetic,i2c,adc,mtb-flow">
+    <name>Sensor Hub</name>
+    <id>mtb-example-btsdk-sensorhub</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-btsdk-sensorhub</uri>
+    <description>This code example demonstrates the interfacing of Multiple sensors, Motion, Temperature, and 3D magnetic sensor and sends the data over GATT custom service.</description>
+    <req_capabilities>lsm9ds1 ncu15wf104 fw2 btsdk</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
+    </versions>
+  </app>
 </apps>
