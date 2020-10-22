@@ -237,6 +237,23 @@
       </version>
     </versions>
   </app>
+  <app keywords="psoc6,pwm,tcpwm,asymmetric,mtb-flow">
+    <name>Asymmetric PWM Generation</name>
+    <id>mtb-example-psoc6-pwm-dual-compare-capture</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-pwm-dual-compare-capture</uri>
+    <description>This code example demonstrates the generation of asymmetric PWM signals using two compare/capture registers available in the TCPWM block of the PSoC 6 MCU devices.</description>
+    <req_capabilities>psoc6 cy8ckit_062s4</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
   <app keywords="psoc6,cryptography,sha2,message digest,hash,mtb-flow">
     <name>Cryptography SHA Demonstration</name>
     <id>mtb-example-psoc6-crypto-sha</id>
@@ -271,29 +288,29 @@
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,pwm,tcpwm,asymmetric,mtb-flow">
-    <name>Asymmetric PWM Generation</name>
-    <id>mtb-example-psoc6-pwm-dual-compare-capture</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-pwm-dual-compare-capture</uri>
-    <description>This code example demonstrates the generation of asymmetric PWM signals using two compare/capture registers available in the TCPWM block of the PSoC 6 MCU devices.</description>
-    <req_capabilities>psoc6 cy8ckit_062s4</req_capabilities>
-    <versions>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
-      </version>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
-        <num>1.0.0 release</num>
-        <commit>release-v1.0.0</commit>
-      </version>
-    </versions>
-  </app>
   <app keywords="psoc6,dual cpu,starter,template,empty,blank,mtb-flow">
     <name>Dual-CPU Empty PSoC6 App</name>
     <id>mtb-example-psoc6-dual-cpu-empty-app</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-dual-cpu-empty-app</uri>
     <description>This empty application provides a template for creating dual-CPU applications using PSoC 6 devices.</description>
     <req_capabilities>psoc6 std_crypto</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,pdm,pcm,mtb-flow,audio,microphone">
+    <name>PDM PCM Audio</name>
+    <id>mtb-example-psoc6-pdm-pcm</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-pdm-pcm</uri>
+    <description>This example demonstrates how to use the pulse-density modulation/pulse-code modulation (PDM/PCM) hardware block in PSoC 6 MCU with a digital microphone.</description>
+    <req_capabilities>psoc6 pdm</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 2.X release</num>
@@ -373,12 +390,63 @@
       </version>
     </versions>
   </app>
-    <app keywords="btsdk,sensors,sensor hub,motion,accelerometer,gyro,compass,temperature,thermistor,magnetic,3d magnetic,i2c,adc,mtb-flow">
+  <app keywords="btsdk,spi,cyw20719b2,mtb-flow">
+    <name>CYW20719B2 SPI</name>
+    <id>mtb-example-btsdk-cyw20719b2-spi</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-btsdk-cyw20719b2-spi</uri>
+    <description>This code example demonstrates the SPI interface using CYW20719B2 boards.</description>
+    <req_capabilities>ncu15wf104 fw2 btsdk</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="btsdk,sensors,sensor hub,motion,accelerometer,gyro,compass,temperature,thermistor,magnetic,3d magnetic,i2c,adc,mtb-flow">
     <name>Sensor Hub</name>
     <id>mtb-example-btsdk-sensorhub</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-btsdk-sensorhub</uri>
     <description>This code example demonstrates the interfacing of Multiple sensors, Motion, Temperature, and 3D magnetic sensor and sends the data over GATT custom service.</description>
     <req_capabilities>lsm9ds1 ncu15wf104 fw2 btsdk</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="GPIO,PWM,btsdk,mtb-flow">
+    <name>PWM GPIO</name>
+    <id>mtb-example-btsdk-pwm-gpio</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-btsdk-pwm-gpio</uri>
+    <description>This example demonstrates the configuration of PWM (pulse width modulation) to control the brightness of an LED, and configuration of GPIO to toggle an LED ON and OFF.</description>
+    <req_capabilities>psoc6 led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,msc,usb,file system,mass storage,sd,mtb-flow">
+    <name>USB Mass Storage File System</name>
+    <id>mtb-example-psoc6-usb-msc-file-system</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-usb-msc-file-system</uri>
+    <description>This example demonstrates how to configure the USB block in a PSoC 6 MCU device as a Mass Storage (MSC) device and run a file system (FatFs) through an external memory (microSD). This example uses FreeRTOS.</description>
+    <req_capabilities>psoc6 led usb_device pdm switch sdhc</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 2.X release</num>
