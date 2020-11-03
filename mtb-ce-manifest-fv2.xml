@@ -322,6 +322,40 @@
       </version>
     </versions>
   </app>
+  <app keywords="psoc6,mtb-flow,ble,bluetooth,anycloud,beacon,eddystone,multi-adv,4343w,43012">
+    <name>AnyCloud BLE Multi Beacon</name>
+    <id>mtb-example-anycloud-ble-multi-beacon</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-ble-multi-beacon</uri>
+    <description>This code example demonstrates the implementation of a beacon which advertises multiple Eddystone ADV data.</description>
+    <req_capabilities>psoc6 bt</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,mtb-flow,ble,bluetooth,anycloud,onboarding,4343w,43012">
+    <name>AnyCloud Wi-Fi Onboarding Using BLE</name>
+    <id>mtb-example-anycloud-ble-wifi-onboarding</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-ble-wifi-onboarding</uri>
+    <description>This code example demonstrates WiFi Onboarding using BLE.</description>
+    <req_capabilities>psoc6 wifi bt anycloud</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
+    </versions>
+  </app>
   <app keywords="psoc6,sar,adc,op amp,mtb-flow">
     <name>Low-Power Analog Front End using OpAmp and SAR ADC</name>
     <id>mtb-example-psoc6-low-power-analog-front-end</id>
@@ -395,7 +429,7 @@
     <id>mtb-example-btsdk-cyw20719b2-spi</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-btsdk-cyw20719b2-spi</uri>
     <description>This code example demonstrates the SPI interface using CYW20719B2 boards.</description>
-    <req_capabilities>ncu15wf104 fw2 btsdk</req_capabilities>
+    <req_capabilities>ncu15wf104 CYW920719B2Q40EVB_01 fw2 btsdk</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 2.X release</num>
@@ -429,7 +463,7 @@
     <id>mtb-example-btsdk-pwm-gpio</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-btsdk-pwm-gpio</uri>
     <description>This example demonstrates the configuration of PWM (pulse width modulation) to control the brightness of an LED, and configuration of GPIO to toggle an LED ON and OFF.</description>
-    <req_capabilities>psoc6 led</req_capabilities>
+    <req_capabilities>fw2 btsdk led2x</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 2.X release</num>
@@ -447,6 +481,23 @@
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-usb-msc-file-system</uri>
     <description>This example demonstrates how to configure the USB block in a PSoC 6 MCU device as a Mass Storage (MSC) device and run a file system (FatFs) through an external memory (microSD). This example uses FreeRTOS.</description>
     <req_capabilities>psoc6 led usb_device pdm switch sdhc</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,mtb-flow,ble,bluetooth,anycloud,battery,4343w,43012">
+    <name>AnyCloud BLE Battery Server</name>
+    <id>mtb-example-anycloud-ble-battery-server</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-ble-battery-server</uri>
+    <description>This code example demonstrates the implementation of a simple BLE Battery Service.</description>
+    <req_capabilities>psoc6 bt led</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 2.X release</num>
