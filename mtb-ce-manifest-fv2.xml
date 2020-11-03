@@ -509,4 +509,21 @@
       </version>
     </versions>
   </app>
+  <app keywords="psoc6,mtb-flow,ble,bluetooth,anycloud,findme,4343w,43012">
+    <name>AnyCloud BLE Findme</name>
+    <id>mtb-example-anycloud-ble-findme</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-ble-findme</uri>
+    <description>This design implements a BLE FMP(Find Me Profile) that consists of an IAS(Immediate Alert Service). FMP and IAS are BLE standard Profile and Service respectively, as defined by the Bluetooth SIG.</description>
+    <req_capabilities>psoc6 bt led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
 </apps>
