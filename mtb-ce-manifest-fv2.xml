@@ -529,7 +529,7 @@
   <app keywords="psoc6,anycloud,wifi,mtb-flow,wifi-scan,wcm,scan filters">
     <name>AnyCloud Wi-Fi Scan</name>
     <id>mtb-example-anycloud-wifi-scan</id>
-    <uri>http://devops-git.aus.cypress.com/repo-staging/mtb-example-anycloud-wifi-scan</uri>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-wifi-scan</uri>
     <description><![CDATA[
     This code example demonstrates how to configure different scan filters provided in the Wi-Fi Connection Manager (WCM) middleware and scan for the available Wi-Fi networks.
     <br><br><b>License Disclaimer:</b><br><br>
