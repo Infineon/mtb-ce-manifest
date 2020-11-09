@@ -1393,7 +1393,7 @@
     <id>mtb-example-anycloud-ble-wifi-onboarding</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-ble-wifi-onboarding</uri>
     <description>This code example demonstrates WiFi Onboarding using BLE.</description>
-    <req_capabilities>psoc6 wifi bt led anycloud</req_capabilities>
+    <req_capabilities>psoc6 wifi bt anycloud</req_capabilities>
     <versions>
       <version req_capabilities_per_version="bsp_gen1">
         <num>Latest 1.X release</num>
