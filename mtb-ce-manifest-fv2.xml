@@ -441,6 +441,23 @@
       </version>
     </versions>
   </app>
+  <app keywords="psoc6,sar,adc,simultaneous sampling,mtb-flow">
+    <name>SAR ADC Simultaneous Sampling</name>
+    <id>mtb-example-psoc6-sar-adc-simultaneous-sampling</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-sar-adc-simultaneous-sampling</uri>
+    <description>This code example demonstrates simultaneous sampling of two SAR ADCs. The simultaneouly sampled input voltages by SAR ADCs are displayed on UART. PDL is used for the application firmware. This example is supported only for the devices like CY8C62x4 which have two SAR ADCs.</description>
+    <req_capabilities>psoc6 cy8ckit_062s4</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
   <app keywords="btsdk,spi,cyw208xx,data-logger,mtb-flow">
     <name>CYW208xx Data logger</name>
     <id>mtb-example-btsdk-cyw208xx-data-logger</id>
@@ -612,27 +629,6 @@
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
-      </version>
-    </versions>
-  </app>
-  <app keywords="psoc6,anycloud,wifi,mtb-flow,wifi-scan,wcm,scan filters">
-    <name>AnyCloud Wi-Fi Scan</name>
-    <id>mtb-example-anycloud-wifi-scan</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-wifi-scan</uri>
-    <description><![CDATA[
-    This code example demonstrates how to configure different scan filters provided in the Wi-Fi Connection Manager (WCM) middleware and scan for the available Wi-Fi networks.
-    <br><br><b>License Disclaimer:</b><br><br>
-    This code example makes use of the lwIP open-source TCP/IP stack and the Mbed TLS open-source TLS/SSL library which has cryptographic capabilities. Creating a project from this template will cause lwIP and Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the lwIP &amp; Mbed TLS licenses and regional use restrictions (including abiding by all applicable export control laws).
-    ]]></description>
-    <req_capabilities>psoc6 wifi cyw43xxx led switch anycloud</req_capabilities>
-    <versions>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
-        <num>Latest 2.X release</num>
-        <commit>latest-v2.X</commit>
-      </version>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
-        <num>2.0.0 release</num>
-        <commit>release-v2.0.0</commit>
       </version>
     </versions>
   </app>
