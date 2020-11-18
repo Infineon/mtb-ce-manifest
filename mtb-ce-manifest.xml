@@ -1156,7 +1156,7 @@
   </app>
   <app>
     <name>AnyCloud WLAN Low Power</name>
-    <id>mtb-example-anycloud-wlan-lowpower</id>
+    <id>mtb-example-anycloud-wlan-lowpower-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-wlan-lowpower</uri>
     <description><![CDATA[
     This code example demonstrates the low-power operation of a host MCU and a WLAN device using the network activity handlers provided by the Low Power Assistant middleware for Cypress connectivity devices.
@@ -1165,15 +1165,15 @@
     ]]></description>
     <req_capabilities>psoc6 wifi cyw43xxx led anycloud</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
