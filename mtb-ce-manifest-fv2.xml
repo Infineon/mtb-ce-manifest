@@ -339,6 +339,23 @@
       </version>
     </versions>
   </app>
+  <app keywords="psoc6,i2s,mtb-flow,audio,codec">
+    <name>I2S Audio</name>
+    <id>mtb-example-psoc6-i2s</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-i2s</uri>
+    <description>This example demonstrates how to use the I2S hardware block in PSoC 6 MCU to interface with an audio codec.</description>
+    <req_capabilities>psoc6 i2s</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
+    </versions>
+  </app>
   <app keywords="psoc6,mtb-flow,ble,bluetooth,anycloud,beacon,eddystone,multi-adv,4343w,43012">
     <name>AnyCloud BLE Multi Beacon</name>
     <id>mtb-example-anycloud-ble-multi-beacon</id>
@@ -598,6 +615,44 @@
       </version>
     </versions>
   </app>
+  <app keywords="psoc6,anycloud,wifi,mtb-flow,wcm,wps,enrollee,wps-pbc,wps-sta-pin">
+    <name>AnyCloud WPS Enrollee</name>
+    <id>mtb-example-anycloud-wps-enrollee</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-wps-enrollee</uri>
+    <description><![CDATA[
+    This code example demonstrates how to use the connection management and WPS Enrollee feature provided in the Wi-Fi Connection Manager (WCM) middleware.
+    <br><br><b>License Disclaimer:</b><br><br>
+    This code example makes use of the lwIP open-source TCP/IP stack and the Mbed TLS open-source TLS/SSL library which has cryptographic capabilities. Creating a project from this template will cause lwIP and Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the lwIP &amp; Mbed TLS licenses and regional use restrictions (including abiding by all applicable export control laws).
+    ]]></description>
+    <req_capabilities>psoc6 wifi cyw43xxx led switch anycloud</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,sgpio,target,mtb-flow,smartio,spi">
+    <name>SGPIO Target Interface</name>
+    <id>mtb-example-psoc6-smartio-sgpio-target</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-smartio-sgpio-target</uri>
+    <description>This example uses a SPI resource and Smart I/O in PSoC 6 MCU to implement the SGPIO Target interface.</description>
+    <req_capabilities>psoc6 smart_io</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
   <app keywords="psoc6,mtb-flow,ble,bluetooth,anycloud,battery,4343w,43012">
     <name>AnyCloud BLE Battery Server</name>
     <id>mtb-example-anycloud-ble-battery-server</id>
@@ -632,27 +687,6 @@
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,anycloud,wifi,mtb-flow,wcm,wps,enrollee,wps-pbc,wps-sta-pin">
-    <name>AnyCloud WPS Enrollee</name>
-    <id>mtb-example-anycloud-wps-enrollee</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-wps-enrollee</uri>
-    <description><![CDATA[
-    This code example demonstrates how to use the connection management and WPS Enrollee feature provided in the Wi-Fi Connection Manager (WCM) middleware.
-    <br><br><b>License Disclaimer:</b><br><br>
-    This code example makes use of the lwIP open-source TCP/IP stack and the Mbed TLS open-source TLS/SSL library which has cryptographic capabilities. Creating a project from this template will cause lwIP and Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the lwIP &amp; Mbed TLS licenses and regional use restrictions (including abiding by all applicable export control laws).
-    ]]></description>
-    <req_capabilities>psoc6 wifi cyw43xxx led switch anycloud</req_capabilities>
-    <versions>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
-        <num>Latest 2.X release</num>
-        <commit>latest-v2.X</commit>
-      </version>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
-        <num>2.0.0 release</num>
-        <commit>release-v2.0.0</commit>
-      </version>
-    </versions>
-  </app>
   <app keywords="mtb-flow,psoc6,lpa,anycloud,wifi,wlan,lowpower">
     <name>AnyCloud WLAN Low Power</name>
     <id>mtb-example-anycloud-wlan-lowpower</id>
@@ -683,6 +717,40 @@
     This code example makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license. <br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).
     ]]></description>
     <req_capabilities>psoc6 wifi cyw43xxx anycloud</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,i2s,audio,mtb-flow,smartio,spi">
+    <name>I2S Master using Smart IO and SPI</name>
+    <id>mtb-example-psoc6-smartio-i2s</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-smartio-i2s</uri>
+    <description>This example uses a SPI resource and Smart I/O in PSoC 6 MCU to implement the I2S Master interface (TX only).</description>
+    <req_capabilities>psoc6 smart_io</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,pdm,pcm,i2s,mtb-flow,audio,microphone,codec">
+    <name>PDM to I2S Audio</name>
+    <id>mtb-example-psoc6-pdm-to-i2s</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-pdm-to-i2s</uri>
+    <description>This example demonstrates how to route Pulse-Density Modulation (PDM) audio data to the Inter-IC Sound (I2S) Interface in PSoC 6 MCU.</description>
+    <req_capabilities>psoc6 pdm i2s</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 2.X release</num>
