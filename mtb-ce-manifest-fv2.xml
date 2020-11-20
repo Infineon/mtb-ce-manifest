@@ -560,6 +560,23 @@
       </version>
     </versions>
   </app>
+  <app keywords="psoc4,starter,template,empty,blank,mtb-flow">
+    <name>Empty PSoC4 App</name>
+    <id>mtb-example-psoc4-empty-app</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc4-empty-app</uri>
+    <description>This empty application provides a template for creating applications using PSoC 4 devices.</description>
+    <req_capabilities>psoc4</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
+    </versions>
+  </app>
   <app keywords="psoc6,led,capsense,custom scan,mtb-flow">
     <name>CapSense Custom Scan</name>
     <id>mtb-example-psoc6-capsense-custom-scan</id>
