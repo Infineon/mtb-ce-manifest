@@ -611,7 +611,7 @@
     <id>mtb-example-psoc6-switching-power-modes-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-switching-power-modes</uri>
     <description>This example demonstrates how to transition PSoC 6 MCU to the following power modes - Low Power Active, Low Power Sleep, Ultra Low Power Active, Ultra Low Power Sleep, and Deep Sleep.</description>
-    <req_capabilities>psoc6</req_capabilities>
+    <req_capabilities>psoc6 led</req_capabilities>
     <versions>
       <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
         <num>Latest 1.X release</num>
