@@ -675,20 +675,20 @@
   </app>
   <app>
     <name>PDM to I2S Audio</name>
-    <id>mtb-example-psoc6-pdm-to-i2s</id>
+    <id>mtb-example-psoc6-pdm-to-i2s-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-pdm-to-i2s</uri>
     <description>This example demonstrates how to route PDM audio data to the I2S interface in PSoC 6 MCU.</description>
     <req_capabilities>psoc6 arduino i2s pdm</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
         <num>1.2.0 release</num>
         <commit>release-v1.2.0</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
@@ -721,20 +721,20 @@
   </app>
   <app>
     <name>I2S Audio</name>
-    <id>mtb-example-psoc6-i2s</id>
+    <id>mtb-example-psoc6-i2s-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-i2s</uri>
     <description>This example demonstrates how to use the I2S hardware block in PSoC 6 MCU to interface with an audio codec.</description>
     <req_capabilities>psoc6 arduino i2s</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -1578,16 +1578,16 @@
   </app>
   <app>
     <name>CapSense Tuning Over BLE - Server</name>
-    <id>mtb-example-psoc6-ble-capsense-tuner-server</id>
+    <id>mtb-example-psoc6-ble-capsense-tuner-server-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-ble-capsense-tuner-server</uri>
     <description>This code example demonstrates how to monitor the CapSense data and tune the CapSense sensors over BLE communication with CapSense Tuner GUI using PSoC 6 BLE MCU. This is intended to be used with the CapSense Tuning Over BLE - Client example.</description>
     <req_capabilities>psoc6 led ble capsense_button capsense_linear_slider</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -1642,16 +1642,16 @@
   </app>
   <app>
     <name>USB Mass Storage File System</name>
-    <id>mtb-example-psoc6-usb-msc-file-system</id>
+    <id>mtb-example-psoc6-usb-msc-file-system-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-usb-msc-file-system</uri>
     <description>This example demonstrates how to configure the USB block in a PSoC 6 MCU device as a Mass Storage (MSC) device and run a file system (FatFs) through an external memory (microSD). This example uses FreeRTOS.</description>
     <req_capabilities>psoc6 std_crypto usb_device switch led pdm sdhc anycloud</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -1697,16 +1697,16 @@
   </app>
   <app>
     <name>CapSense Tuning Over BLE - Client</name>
-    <id>mtb-example-psoc6-ble-capsense-tuner-client</id>
+    <id>mtb-example-psoc6-ble-capsense-tuner-client-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-ble-capsense-tuner-client</uri>
     <description>This code example demonstrates how to monitor the CapSense data and tune the CapSense sensors over BLE communication with CapSense Tuner GUI using PSoC 6 BLE MCU. This is intended to be used with the CapSense Tuning Over BLE - Server example.</description>
     <req_capabilities>psoc6 led ble</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
