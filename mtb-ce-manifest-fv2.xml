@@ -1263,6 +1263,28 @@
       </version>
     </versions>
   </app>
+  <app keywords="xmc,starter,template,empty,blank,mtb-flow">
+    <name>Empty XMC App</name>
+    <id>mtb-example-xmc-empty-app</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-xmc-empty-app</uri>
+    <description><![CDATA[
+    This empty application provides a template for creating applications using XMC MCU.
+    <br><br><b>Note:</b>
+    This is Early Access Software for XMC devices in ModusToolbox.<br>
+    This software is made available for evaluation purposes only and is not recommended for production development.
+    ]]></description>
+    <req_capabilities>xmc</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.2.1" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 0.X release</num>
+        <commit>latest-v0.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.1" req_capabilities_per_version="bsp_gen2">
+        <num>0.5.0 release</num>
+        <commit>release-v0.5.0</commit>
+      </version>
+    </versions>
+  </app>
   <app keywords="xmc,gpio,led,isr,toggle,systick,mtb-flow">
     <name>GPIO Toggle</name>
     <id>mtb-example-xmc-gpio-toggle</id>
@@ -1274,6 +1296,182 @@
     This software is made available for evaluation purposes only and is not recommended for production development.
     ]]></description>
     <req_capabilities>xmc led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.2.1" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 0.X release</num>
+        <commit>latest-v0.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.1" req_capabilities_per_version="bsp_gen2">
+        <num>0.5.0 release</num>
+        <commit>release-v0.5.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="xmc,gpio,led,freertos,mtb-flow">
+    <name>FreeRTOS Blinky</name>
+    <id>mtb-example-xmc-blinky-freertos</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-xmc-blinky-freertos</uri>
+    <description><![CDATA[
+    This code example demonstrates blinking LED functionality implemented by FreeRTOS tasks running on the XMC MCU.
+    <br><br><b>Note:</b>
+    This is Early Access Software for XMC devices in ModusToolbox.<br>
+    This software is made available for evaluation purposes only and is not recommended for production development.
+    ]]></description>
+    <req_capabilities>xmc led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.2.1" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 0.X release</num>
+        <commit>latest-v0.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.1" req_capabilities_per_version="bsp_gen2">
+        <num>0.5.0 release</num>
+        <commit>release-v0.5.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="xmc,ccu,ccu4,pwm,led,mtb-flow">
+    <name>CCU4 PWM</name>
+    <id>mtb-example-xmc-ccu4-pwm</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-xmc-ccu4-pwm</uri>
+    <description><![CDATA[
+    This code example demonstrates the use of CCU4 module in XMC MCU to create a PWM signal. The CCU4 slice is configured in monoshot mode and is restarted on an external start event.
+    <br><br><b>Note:</b>
+    This is Early Access Software for XMC devices in ModusToolbox.<br>
+    This software is made available for evaluation purposes only and is not recommended for production development.
+    ]]></description>
+    <req_capabilities>xmc led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.2.1" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 0.X release</num>
+        <commit>latest-v0.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.1" req_capabilities_per_version="bsp_gen2">
+        <num>0.5.0 release</num>
+        <commit>release-v0.5.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="xmc,ccu,ccu4,capture,mtb-flow">
+    <name>CCU4 Capture</name>
+    <id>mtb-example-xmc-ccu4-capture</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-xmc-ccu4-capture</uri>
+    <description><![CDATA[
+    This code example demonstrates the capture features of the Capture and Compare Unit 4 (CCU4) slices available in XMC MCU.
+    <br><br><b>Note:</b>
+    This is Early Access Software for XMC devices in ModusToolbox.<br>
+    This software is made available for evaluation purposes only and is not recommended for production development.
+    ]]></description>
+    <req_capabilities>xmc</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.2.1" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 0.X release</num>
+        <commit>latest-v0.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.1" req_capabilities_per_version="bsp_gen2">
+        <num>0.5.0 release</num>
+        <commit>release-v0.5.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="xmc,ccu,ccu4,timer,concatenation,led,mtb-flow">
+    <name>CCU4 Timer Concatenation</name>
+    <id>mtb-example-xmc-ccu4-timer-concatenation</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-xmc-ccu4-timer-concatenation</uri>
+    <description><![CDATA[
+    This code example demonstrates the concatenation or linking feature of the Capture and Compare Unit 4 (CCU4) slices available in XMC MCU.
+    <br><br><b>Note:</b>
+    This is Early Access Software for XMC devices in ModusToolbox.<br>
+    This software is made available for evaluation purposes only and is not recommended for production development.
+    ]]></description>
+    <req_capabilities>xmc led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.2.1" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 0.X release</num>
+        <commit>latest-v0.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.1" req_capabilities_per_version="bsp_gen2">
+        <num>0.5.0 release</num>
+        <commit>release-v0.5.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="xmc,ccu,ccu4,timer,led,mtb-flow">
+    <name>CCU4 Timer</name>
+    <id>mtb-example-xmc-ccu4-timer</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-xmc-ccu4-timer</uri>
+    <description><![CDATA[
+    This code example demonstrates the usage of the Capture and Compare Unit 4 (CCU4) timer by blinking an LED using CCU4 timer period match interrupt available in XMC MCU.
+    <br><br><b>Note:</b>
+    This is Early Access Software for XMC devices in ModusToolbox.<br>
+    This software is made available for evaluation purposes only and is not recommended for production development.
+    ]]></description>
+    <req_capabilities>xmc led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.2.1" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 0.X release</num>
+        <commit>latest-v0.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.1" req_capabilities_per_version="bsp_gen2">
+        <num>0.5.0 release</num>
+        <commit>release-v0.5.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="xmc,uart,printf,hello world,mtb-flow">
+    <name>UART Printf</name>
+    <id>mtb-example-xmc-uart-printf</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-xmc-uart-printf</uri>
+    <description><![CDATA[
+    This example demonstrates how to use the printf function with a Universal Serial Interface Channel (USIC) based UART in XMC MCU.
+    <br><br><b>Note:</b>
+    This is Early Access Software for XMC devices in ModusToolbox.<br>
+    This software is made available for evaluation purposes only and is not recommended for production development.
+    ]]></description>
+    <req_capabilities>xmc</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.2.1" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 0.X release</num>
+        <commit>latest-v0.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.1" req_capabilities_per_version="bsp_gen2">
+        <num>0.5.0 release</num>
+        <commit>release-v0.5.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="xmc,uart,printf,shell,console,led,mtb-flow">
+    <name>UART Shell</name>
+    <id>mtb-example-xmc-uart-shell</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-xmc-uart-shell</uri>
+    <description><![CDATA[
+    This code example demonstrates implementation of a shell on the UART communication interface including commands to toggle a LED using XMC MCU.
+    <br><br><b>Note:</b>
+    This is Early Access Software for XMC devices in ModusToolbox.<br>
+    This software is made available for evaluation purposes only and is not recommended for production development.
+    ]]></description>
+    <req_capabilities>xmc led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.2.1" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 0.X release</num>
+        <commit>latest-v0.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.1" req_capabilities_per_version="bsp_gen2">
+        <num>0.5.0 release</num>
+        <commit>release-v0.5.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="xmc,uart,dma,mtb-flow">
+    <name>UART DMA</name>
+    <id>mtb-example-xmc-uart-dma</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-xmc-uart-dma</uri>
+    <description><![CDATA[
+    This example demonstrates how to stream data using DMA via UART based on Universal Serial Interface Channel (USIC) to an external terminal.
+    <br><br><b>Note:</b>
+    This is Early Access Software for XMC devices in ModusToolbox.<br>
+    This software is made available for evaluation purposes only and is not recommended for production development.
+    ]]></description>
+    <req_capabilities>xmc xmc4000</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="2.2.1" req_capabilities_per_version="bsp_gen2">
         <num>Latest 0.X release</num>
