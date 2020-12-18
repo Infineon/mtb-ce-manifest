@@ -1263,6 +1263,28 @@
       </version>
     </versions>
   </app>
+  <app keywords="xmc,gpio,led,isr,toggle,systick,mtb-flow">
+    <name>GPIO Toggle</name>
+    <id>mtb-example-xmc-gpio-toggle</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-xmc-gpio-toggle</uri>
+    <description><![CDATA[
+    This code example demonstrates GPIO toggling by periodically blinking an LED using SysTick available in XMC MCU.
+    <br><br><b>Note:</b>
+    This is Early Access Software for XMC devices in ModusToolbox.<br>
+    This software is made available for evaluation purposes only and is not recommended for production development.
+    ]]></description>
+    <req_capabilities>xmc led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.2.1" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 0.X release</num>
+        <commit>latest-v0.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.1" req_capabilities_per_version="bsp_gen2">
+        <num>0.5.0 release</num>
+        <commit>release-v0.5.0</commit>
+      </version>
+    </versions>
+  </app>
   <app keywords="mtb-flow,psoc6,anycloud,udp,client,wifi,led">
     <name>AnyCloud UDP Client</name>
     <id>mtb-example-anycloud-udp-client</id>
