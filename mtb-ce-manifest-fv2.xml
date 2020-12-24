@@ -789,7 +789,7 @@
     <br><br><b>License Disclaimer:</b><br><br>
     This code example makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license. <br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).
     ]]></description>
-    <req_capabilities>psoc6 wifi cyw43xxx led anycloud</req_capabilities>
+    <req_capabilities>psoc6 wifi cyw43xxx led low_power anycloud</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 2.X release</num>
@@ -809,7 +809,7 @@
     This code example demonstrates the TCP Keepalive Offload functionality offered by Cypress Wi-Fi devices using PSoC 6 MCU. It employs Low Power Assistant (LPA) middleware library which helps in developing low power applications for the Cypress devices. <br><br><b>License Disclaimer:</b><br><br>
     This code example makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license. <br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).
     ]]></description>
-    <req_capabilities>psoc6 wifi cyw43xxx anycloud</req_capabilities>
+    <req_capabilities>psoc6 wifi cyw43xxx low_power anycloud</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 2.X release</num>
@@ -1132,7 +1132,7 @@
     <id>mtb-example-psoc6-gpio-interrupt</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-gpio-interrupt</uri>
     <description>This example demonstrates how to configure a GPIO to generate an interrupt in PSoC 6 MCU.</description>
-    <req_capabilities>psoc6 led switch</req_capabilities>
+    <req_capabilities>psoc6 led switch low_power</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 2.X release</num>
@@ -1149,7 +1149,7 @@
     <id>mtb-example-psoc6-rtc-basics</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-rtc-basics</uri>
     <description>This example demonstrates the usage of the real-time clock (RTC) in PSoC 6 MCU.</description>
-    <req_capabilities>psoc6</req_capabilities>
+    <req_capabilities>psoc6 rtc</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 2.X release</num>
@@ -1183,7 +1183,7 @@
     <id>mtb-example-psoc6-switching-power-modes</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-switching-power-modes</uri>
     <description>This example demonstrates how to transition PSoC 6 between the following power modes - Active, Sleep, Low Power Active, Low Power Sleep, and Deep Sleep.</description>
-    <req_capabilities>psoc6 led</req_capabilities>
+    <req_capabilities>psoc6 led low_power</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 2.X release</num>
@@ -1523,6 +1523,23 @@
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,uart,capsense,slider,ganged sensor,i2c,tuner,rtos,mtb-flow">
+    <name>Low-power CapSense FreeRTOS</name>
+    <id>mtb-example-psoc6-low-power-capsense-freertos</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-low-power-capsense-freertos</uri>
+    <description>This code example demonstrates how to create a low-power CapSense&#174; design using PSoC 6 MCU. This example features a 5-segment CapSense slider and a Ganged Sensor, and displays the detected touch position over the serial terminal.</description>
+    <req_capabilities>psoc6 capsense_linear_slider low_power</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
       </version>
     </versions>
   </app>
