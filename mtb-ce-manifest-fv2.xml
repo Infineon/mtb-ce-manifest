@@ -1605,7 +1605,7 @@
   <app keywords="mtb-flow,psoc6,wifi,anycloud,ota,mqtt">
     <name>AnyCloud OTA Using MQTT</name>
     <id>mtb-example-anycloud-ota-mqtt</id>
-    <uri>http://github.com/cypresssemiconductorco/mtb-example-anycloud-ota-mqtt</uri>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-ota-mqtt</uri>
     <description><![CDATA[
     This code example demonstrates OTA update with PSoC 6 MCU and CYW43xxx connectivity devices. The device establishes a connection with the designated MQTT broker. It periodically checks the job document to see if a new update is available. When a new update is available, it will be downloaded and written to the secondary slot. On the next reboot, MCUBoot will copy the new image over to the primary slot and run the application.
 	<br><br><b>License Disclaimer:</b><br><br>
@@ -1626,7 +1626,7 @@
   <app keywords="mtb-flow,psoc6,wifi,anycloud,ota,http,https">
     <name>AnyCloud OTA Using HTTPS</name>
     <id>mtb-example-anycloud-ota-https</id>
-    <uri>http://github.com/cypresssemiconductorco/mtb-example-anycloud-ota-https</uri>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-ota-https</uri>
     <description><![CDATA[
     This code example demonstrates OTA update with PSoC 6 MCU and CYW43xxx connectivity devices. The device establishes a connection with the designated HTTPS server. It periodically checks the job document to see if a new update is available. When a new update is available, it will be downloaded and written to the secondary slot. On the next reboot, MCUBoot will copy the new image over to the primary slot and run the application.
 	<br><br><b>License Disclaimer:</b><br><br>
@@ -1647,7 +1647,7 @@
   <app keywords="mtb-flow,psoc6,anycloud,http,https,server,wifi">
     <name>AnyCloud HTTPS Server</name>
     <id>mtb-example-anycloud-https-server</id>
-    <uri>http://github.com/cypresssemiconductorco/mtb-example-anycloud-https-server</uri>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-https-server</uri>
     <description><![CDATA[
     This code example demonstrates the implementation of an HTTPS server with PSoC 6 MCU and CYW43xxx connectivity devices. It employs the HTTPS server middleware library, which takes care of all the underlying socket connections with the HTTPS client. This example establishes a secure connection with a HTTPS client through SSL handshake. Once the SSL handshake completes successfully, the HTTPS client can make GET, POST, and PUT requests with the server.
     <br><br><b>License Disclaimer:</b><br><br>
