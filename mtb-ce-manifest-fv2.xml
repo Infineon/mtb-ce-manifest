@@ -1682,4 +1682,38 @@
       </version>
     </versions>
   </app>
+  <app keywords="psoc6,cryptography,trng,mtb-flow">
+    <name>Cryptography TRNG Demonstration</name>
+    <id>mtb-example-psoc6-crypto-trng</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-crypto-trng</uri>
+    <description>This code example demonstrates generating a One-Time Password (OTP) using the True Random Number generation feature of PSoC 6 MCU cryptography block.</description>
+    <req_capabilities>psoc6 std_crypto</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,cryptography,aes,mtb-flow">
+    <name>Cryptography AES Demonstration</name>
+    <id>mtb-example-psoc6-crypto-aes</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-crypto-aes</uri>
+    <description>This code example encrypts and decrypts user input data using the AES algorithm using a 128-bit key. The encrypted and decrypted data are displayed on a UART terminal emulator.</description>
+    <req_capabilities>psoc6 std_crypto</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
+    </versions>
+  </app>
 </apps>
