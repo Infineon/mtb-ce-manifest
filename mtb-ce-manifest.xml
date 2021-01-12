@@ -1645,7 +1645,7 @@
     <id>mtb-example-psoc6-usb-msc-file-system-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-usb-msc-file-system</uri>
     <description>This example demonstrates how to configure the USB block in a PSoC 6 MCU device as a Mass Storage (MSC) device and run a file system (FatFs) through an external memory (microSD). This example uses FreeRTOS.</description>
-    <req_capabilities>psoc6 std_crypto usb_device switch led pdm sdhc anycloud</req_capabilities>
+    <req_capabilities>psoc6 std_crypto usb_device switch led pdm sdhc</req_capabilities>
     <versions>
       <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
         <num>Latest 1.X release</num>
