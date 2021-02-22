@@ -1602,6 +1602,24 @@
       </version>
     </versions>
   </app>
+  <app keywords="psoc6,button,led,ble,findme,FMP,GAP peripheral,mtb-flow">
+    <name>BLE Find Me</name>
+    <id>mtb-example-psoc6-ble-findme</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-ble-findme</uri>
+    <description><![CDATA[This code example demonstrates the implementation of a simple BLE Immediate Alert Service (IAS)-based Find Me Profile (FMP) using PSoC 6 MCU with Bluetooth Low Energy (BLE) Connectivity.
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-psoc6-ble-findme/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>psoc6 led switch ble</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
+    </versions>
+  </app>
   <app keywords="mtb-flow,psoc6,anycloud,http,https,server,wifi">
     <name>AnyCloud HTTPS Server</name>
     <id>mtb-example-anycloud-https-server</id>
