@@ -3,7 +3,8 @@
     <name>Empty PSoC6 App</name>
     <id>mtb-example-psoc6-empty-app-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-empty-app</uri>
-    <description>This empty application provides a template for creating applications using PSoC 6 devices.</description>
+    <description><![CDATA[This empty application provides a template for creating applications using PSoC 6 devices.
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-psoc6-empty-app/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6</req_capabilities>
     <versions>
       <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
@@ -24,7 +25,8 @@
     <name>Hello World</name>
     <id>mtb-example-psoc6-hello-world-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-hello-world</uri>
-    <description>This code example demonstrates simple UART communication by printing a "Hello World" message on a terminal and blinks an LED using a Timer resource using PSoC 6 MCU.</description>
+    <description><![CDATA[This code example demonstrates simple UART communication by printing a "Hello World" message on a terminal and blinks an LED using a Timer resource using PSoC 6 MCU.
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-psoc6-hello-world/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 led</req_capabilities>
     <versions>
       <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
@@ -45,7 +47,8 @@
     <name>CapSense Buttons and Slider</name>
     <id>mtb-example-psoc6-capsense-buttons-slider-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-capsense-buttons-slider</uri>
-    <description>This code example features a 5-segment CapSense slider and two CapSense buttons. Button 0 turns the LED on, Button 1 turns the LED off and the slider controls the brightness of the LED. The code example also demonstrates interfacing with Tuner GUI using I2C interface.</description>
+    <description><![CDATA[This code example features a 5-segment CapSense slider and two CapSense buttons. Button 0 turns the LED on, Button 1 turns the LED off and the slider controls the brightness of the LED. The code example also demonstrates interfacing with Tuner GUI using I2C interface.
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-psoc6-capsense-buttons-slider/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 led capsense_button capsense_linear_slider</req_capabilities>
     <versions>
       <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
@@ -66,7 +69,8 @@
     <name>BLE Battery Level FreeRTOS</name>
     <id>mtb-example-psoc6-ble-battery-level-freertos</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-ble-battery-level-freertos</uri>
-    <description>This code example demonstrates the implementation of a BLE Battery Service using PSoC 6 MCU with Bluetooth Low Energy Connectivity (PSoC 6 BLE). This code example implements a GATT Server with the Battery Service and Device Information Service BLE standards. This code example uses FreeRTOS.</description>
+    <description><![CDATA[This code example demonstrates the implementation of a BLE Battery Service using PSoC 6 MCU with Bluetooth Low Energy Connectivity (PSoC 6 BLE). This code example implements a GATT Server with the Battery Service and Device Information Service BLE standards. This code example uses FreeRTOS.
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-psoc6-ble-battery-level-freertos/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 led switch ble</req_capabilities>
     <versions>
       <version req_capabilities_per_version="bsp_gen1">
@@ -87,7 +91,8 @@
     <name>GPIO Interrupt</name>
     <id>mtb-example-psoc6-gpio-interrupt-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-gpio-interrupt</uri>
-    <description>This example demonstrates how to configure a GPIO to generate an interrupt in PSoC 6 MCU.</description>
+    <description><![CDATA[This example demonstrates how to configure a GPIO to generate an interrupt in PSoC 6 MCU.
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-psoc6-gpio-interrupt/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 led switch</req_capabilities>
     <versions>
       <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
@@ -108,7 +113,8 @@
     <name>BLE Find Me</name>
     <id>mtb-example-psoc6-ble-findme-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-ble-findme</uri>
-    <description>This code example demonstrates the implementation of a simple BLE Immediate Alert Service (IAS)-based Find Me Profile (FMP) using PSoC 6 MCU with Bluetooth Low Energy (BLE) Connectivity.</description>
+    <description><![CDATA[This code example demonstrates the implementation of a simple BLE Immediate Alert Service (IAS)-based Find Me Profile (FMP) using PSoC 6 MCU with Bluetooth Low Energy (BLE) Connectivity.
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-psoc6-ble-findme/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 led switch ble</req_capabilities>
     <versions>
       <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
@@ -123,7 +129,7 @@
         <num>1.0.1 release</num>
         <commit>release-v1.0.1</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -133,7 +139,8 @@
     <name>PWM Square Wave</name>
     <id>mtb-example-psoc6-pwm-square-wave</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-pwm-square-wave</uri>
-    <description>This code example generates a square wave using the PWM driver. An LED connected to the PWM output pin blinks at 2 Hz.</description>
+    <description><![CDATA[This code example generates a square wave using the PWM driver. An LED connected to the PWM output pin blinks at 2 Hz.
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-psoc6-pwm-square-wave/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 led</req_capabilities>
     <versions>
       <version req_capabilities_per_version="bsp_gen1">
@@ -154,7 +161,8 @@
     <name>RTC Basics</name>
     <id>mtb-example-psoc6-rtc-basics-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-rtc-basics</uri>
-    <description>This example demonstrates the usage of the real-time clock (RTC) in PSoC 6 MCU.</description>
+    <description><![CDATA[This example demonstrates the usage of the real-time clock (RTC) in PSoC 6 MCU.
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-psoc6-rtc-basics/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6</req_capabilities>
     <versions>
       <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
@@ -179,7 +187,8 @@
     <name>Emulated EEPROM</name>
     <id>mtb-example-psoc6-emulated-eeprom</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-emulated-eeprom</uri>
-    <description>This code example demonstrates emulation of EEPROM behavior in flash memory of PSoC 6 MCU using emeeprom middleware.</description>
+    <description><![CDATA[This code example demonstrates emulation of EEPROM behavior in flash memory of PSoC 6 MCU using emeeprom middleware.
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-psoc6-emulated-eeprom/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 std_crypto led</req_capabilities>
     <versions>
       <version req_capabilities_per_version="bsp_gen1">
@@ -200,7 +209,8 @@
     <name>CapSense Buttons and Slider FreeRTOS</name>
     <id>mtb-example-psoc6-capsense-buttons-slider-freertos-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-capsense-buttons-slider-freertos</uri>
-    <description>This code example features a 5-segment CapSense slider and two CapSense buttons. Button 0 turns the LED on, Button 1 turns the LED off and the slider controls the brightness of the LED. The code example also demonstrates interfacing with Tuner GUI using I2C interface.</description>
+    <description><![CDATA[This code example features a 5-segment CapSense slider and two CapSense buttons. Button 0 turns the LED on, Button 1 turns the LED off and the slider controls the brightness of the LED. The code example also demonstrates interfacing with Tuner GUI using I2C interface.
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-psoc6-capsense-buttons-slider-freertos/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 led capsense_button capsense_linear_slider</req_capabilities>
     <versions>
       <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
@@ -225,7 +235,8 @@
     <name>Fault Handling</name>
     <id>mtb-example-psoc6-fault-handling</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-fault-handling</uri>
-    <description>This example demonstrates the fault handling functionality of PSoC 6 MCU using Peripheral Driver Library (PDL) System Library (SysLib).</description>
+    <description><![CDATA[This example demonstrates the fault handling functionality of PSoC 6 MCU using Peripheral Driver Library (PDL) System Library (SysLib).
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-psoc6-fault-handling/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6</req_capabilities>
     <versions>
       <version req_capabilities_per_version="bsp_gen1">
@@ -246,7 +257,8 @@
     <name>Cryptography AES Demonstration</name>
     <id>mtb-example-psoc6-crypto-aes</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-crypto-aes</uri>
-    <description>This code example encrypts and decrypts user input data using the AES algorithm using a 128-bit key. The encrypted and decrypted data are displayed on a UART terminal emulator.</description>
+    <description><![CDATA[This code example encrypts and decrypts user input data using the AES algorithm using a 128-bit key. The encrypted and decrypted data are displayed on a UART terminal emulator.
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-psoc6-crypto-aes/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 std_crypto</req_capabilities>
     <versions>
       <version req_capabilities_per_version="bsp_gen1">
@@ -265,20 +277,21 @@
   </app>
   <app>
     <name>Cryptography TRNG Demonstration</name>
-    <id>mtb-example-psoc6-crypto-trng</id>
+    <id>mtb-example-psoc6-crypto-trng-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-crypto-trng</uri>
-    <description>This code example demonstrates generating a One-Time Password (OTP) using the True Random Number generation feature of PSoC 6 MCU cryptography block.</description>
+    <description><![CDATA[This code example demonstrates generating a One-Time Password (OTP) using the True Random Number generation feature of PSoC 6 MCU cryptography block.
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-psoc6-crypto-trng/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 std_crypto</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -288,7 +301,8 @@
     <name>UART Transmit and Receive</name>
     <id>mtb-example-psoc6-uart-transmit-receive-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-uart-transmit-receive</uri>
-    <description>This example demonstrates the UART (HAL) transmit and receive operation in PSoC 6 MCU.</description>
+    <description><![CDATA[This example demonstrates the UART (HAL) transmit and receive operation in PSoC 6 MCU.
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-psoc6-uart-transmit-receive/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 led</req_capabilities>
     <versions>
       <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
@@ -309,7 +323,8 @@
     <name>SCB UART Transmit and Receive using DMA</name>
     <id>mtb-example-psoc6-uart-transmit-receive-dma-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-uart-transmit-receive-dma</uri>
-    <description>This example demonstrates the UART transmit and receive operation using DMA in PSoC 6 MCU.</description>
+    <description><![CDATA[This example demonstrates the UART transmit and receive operation using DMA in PSoC 6 MCU.
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-psoc6-uart-transmit-receive-dma/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 std_crypto led</req_capabilities>
     <versions>
       <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
@@ -334,7 +349,8 @@
     <name>I2C Master</name>
     <id>mtb-example-psoc6-i2c-master-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-i2c-master</uri>
-    <description>This example demonstrates the use of I2C (HAL) resource for PSoC 6 MCU in Master mode.</description>
+    <description><![CDATA[This example demonstrates the use of I2C (HAL) resource for PSoC 6 MCU in Master mode.
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-psoc6-i2c-master/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 led</req_capabilities>
     <versions>
       <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
@@ -355,7 +371,8 @@
     <name>I2C Master EzI2C Slave</name>
     <id>mtb-example-psoc6-i2c-master-ezi2c-slave-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-i2c-master-ezi2c-slave</uri>
-    <description>This example demonstrates the use of I2C (HAL) resource for PSoC 6 MCU in Master mode with an EzI2C slave.</description>
+    <description><![CDATA[This example demonstrates the use of I2C (HAL) resource for PSoC 6 MCU in Master mode with an EzI2C slave.
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-psoc6-i2c-master-ezi2c-slave/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 led</req_capabilities>
     <versions>
       <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
@@ -380,7 +397,8 @@
     <name>I2C Slave Using Callbacks</name>
     <id>mtb-example-psoc6-i2c-slave-callback-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-i2c-slave-callback</uri>
-    <description>This example demonstrates the operation of the I2C (HAL) resource for PSoC 6 MCU in Slave mode using callbacks.</description>
+    <description><![CDATA[This example demonstrates the operation of the I2C (HAL) resource for PSoC 6 MCU in Slave mode using callbacks.
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-psoc6-i2c-slave-callback/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 led</req_capabilities>
     <versions>
       <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
@@ -401,7 +419,8 @@
     <name>SPI Master</name>
     <id>mtb-example-psoc6-spi-master-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-spi-master</uri>
-    <description>This example demonstrates the use of SPI (HAL) resource for PSoC 6 MCU in Master mode.</description>
+    <description><![CDATA[This example demonstrates the use of SPI (HAL) resource for PSoC 6 MCU in Master mode.
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-psoc6-spi-master/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 std_crypto led</req_capabilities>
     <versions>
       <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
@@ -426,7 +445,8 @@
     <name>SCB SPI Master DMA</name>
     <id>mtb-example-psoc6-spi-master-dma-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-spi-master-dma</uri>
-    <description>This example demonstrates the use of PSoC 6 MCU Serial Communication Block (SCB) resource in SPI Master mode using DMA.</description>
+    <description><![CDATA[This example demonstrates the use of PSoC 6 MCU Serial Communication Block (SCB) resource in SPI Master mode using DMA.
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-psoc6-spi-master-dma/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 std_crypto led</req_capabilities>
     <versions>
       <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
@@ -455,7 +475,8 @@
     <name>Ramping LED using Smart IO</name>
     <id>mtb-example-psoc6-smartio-ramping-led-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-smartio-ramping-led</uri>
-    <description>This example uses a PWM resource and Smart I/O in PSoC 6 MCU to implement a ramping LED, where an LED gradually cycles through increasing and decreasing brightness levels. There is no CPU usage except for the initialization of PWM and Smart I/O.</description>
+    <description><![CDATA[This example uses a PWM resource and Smart I/O in PSoC 6 MCU to implement a ramping LED, where an LED gradually cycles through increasing and decreasing brightness levels. There is no CPU usage except for the initialization of PWM and Smart I/O.
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-psoc6-smartio-ramping-led/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 std_crypto led smart_io</req_capabilities>
     <versions>
       <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
@@ -480,7 +501,8 @@
     <name>emWin E-Ink FreeRTOS</name>
     <id>mtb-example-psoc6-emwin-eink-freertos-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-emwin-eink-freertos</uri>
-    <description>This code example demonstrates displaying 2D graphics on an E-Ink display using EmWin graphics library in FreeRTOS.</description>
+    <description><![CDATA[This code example demonstrates displaying 2D graphics on an E-Ink display using EmWin graphics library in FreeRTOS.
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-psoc6-emwin-eink-freertos/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 led arduino switch</req_capabilities>
     <versions>
       <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
@@ -505,7 +527,8 @@
     <name>emWin OLED FreeRTOS</name>
     <id>mtb-example-psoc6-emwin-oled-freertos-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-emwin-oled-freertos</uri>
-    <description>This code example demonstrates displaying 2D graphics on an OLED display using EmWin graphics library in FreeRTOS.</description>
+    <description><![CDATA[This code example demonstrates displaying 2D graphics on an OLED display using EmWin graphics library in FreeRTOS.
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-psoc6-emwin-oled-freertos/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 arduino switch</req_capabilities>
     <versions>
       <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
@@ -526,7 +549,8 @@
     <name>Cryptography SHA Demonstration</name>
     <id>mtb-example-psoc6-crypto-sha-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-crypto-sha</uri>
-    <description>This code example shows how to generate a 32-byte hash value or message digest for an arbitrary user input message with the SHA2 algorithm using the Cryptographic hardware block in PSoC 6 MCU.</description>
+    <description><![CDATA[This code example shows how to generate a 32-byte hash value or message digest for an arbitrary user input message with the SHA2 algorithm using the Cryptographic hardware block in PSoC 6 MCU.
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-psoc6-crypto-sha/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 std_crypto</req_capabilities>
     <versions>
       <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
@@ -547,7 +571,8 @@
     <name>QSPI Flash Read Write</name>
     <id>mtb-example-psoc6-qspi-readwrite</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-qspi-readwrite</uri>
-    <description>This example demonstrates interfacing with an external NOR flash memory in Quad-SPI mode using the Serial Memory Interface (SMIF) block in PSoC 6 MCU.</description>
+    <description><![CDATA[This example demonstrates interfacing with an external NOR flash memory in Quad-SPI mode using the Serial Memory Interface (SMIF) block in PSoC 6 MCU.
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-psoc6-qspi-readwrite/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 std_crypto led qspi nor_flash</req_capabilities>
     <versions>
       <version req_capabilities_per_version="bsp_gen1">
@@ -568,7 +593,8 @@
     <name>Watchdog Timer</name>
     <id>mtb-example-psoc6-wdt</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-wdt</uri>
-    <description>This example demonstrates the Watchdog Timer (WDT) in PSoC 6 MCU.</description>
+    <description><![CDATA[This example demonstrates the Watchdog Timer (WDT) in PSoC 6 MCU.
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-psoc6-wdt/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 led</req_capabilities>
     <versions>
       <version req_capabilities_per_version="bsp_gen1">
@@ -589,7 +615,8 @@
     <name>Multi-Counter Watchdog Timer</name>
     <id>mtb-example-psoc6-mcwdt</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-mcwdt</uri>
-    <description>This example explains how to setup a 32-bit free-running counter using two 16-bit counters of Multi-Counter Watchdog Timer (MCWDT) in PSoC 6 MCU.</description>
+    <description><![CDATA[This example explains how to setup a 32-bit free-running counter using two 16-bit counters of Multi-Counter Watchdog Timer (MCWDT) in PSoC 6 MCU.
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-psoc6-mcwdt/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 led</req_capabilities>
     <versions>
       <version req_capabilities_per_version="bsp_gen1">
@@ -610,7 +637,8 @@
     <name>Switching Power Modes</name>
     <id>mtb-example-psoc6-switching-power-modes-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-switching-power-modes</uri>
-    <description>This example demonstrates how to transition PSoC 6 MCU to the following power modes - Low Power Active, Low Power Sleep, Ultra Low Power Active, Ultra Low Power Sleep, and Deep Sleep.</description>
+    <description><![CDATA[This example demonstrates how to transition PSoC 6 MCU to the following power modes - Low Power Active, Low Power Sleep, Ultra Low Power Active, Ultra Low Power Sleep, and Deep Sleep.
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-psoc6-switching-power-modes/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 led</req_capabilities>
     <versions>
       <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
@@ -631,7 +659,8 @@
     <name>Sensor Hub</name>
     <id>mtb-example-btsdk-sensorhub-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-btsdk-sensorhub</uri>
-    <description>This example demonstrates the interfacing of Multiple sensors, Motion, Temperature, and 3D magnetic sensor with CYW208xx and CYW207xx devices using ModusToolbox IDE.</description>
+    <description><![CDATA[This example demonstrates the interfacing of Multiple sensors, Motion, Temperature, and 3D magnetic sensor with CYW208xx and CYW207xx devices using ModusToolbox IDE.
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-btsdk-sensorhub/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>btsdk lsm9ds1 ncu15wf104 fw2</req_capabilities>
     <versions>
       <version flow_version="1.0" tools_max_version="2.1.0">
@@ -656,7 +685,8 @@
     <name>CYW208xx Data logger</name>
     <id>mtb-example-btsdk-cyw208xx-data-logger-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-btsdk-cyw208xx-data-logger</uri>
-    <description>This code example includes two applications that demonstrate the operation of multiple Serial Peripheral Interface (SPI) interfaces using the CYW208xx Bluetooth SoC.</description>
+    <description><![CDATA[This code example includes two applications that demonstrate the operation of multiple Serial Peripheral Interface (SPI) interfaces using the CYW208xx Bluetooth SoC.
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-btsdk-cyw208xx-data-logger/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>CYW208XX ncu15wf104</req_capabilities>
     <versions>
       <version flow_version="1.0" tools_max_version="2.1.0">
@@ -677,7 +707,8 @@
     <name>PDM to I2S Audio</name>
     <id>mtb-example-psoc6-pdm-to-i2s-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-pdm-to-i2s</uri>
-    <description>This example demonstrates how to route PDM audio data to the I2S interface in PSoC 6 MCU.</description>
+    <description><![CDATA[This example demonstrates how to route PDM audio data to the I2S interface in PSoC 6 MCU.
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-psoc6-pdm-to-i2s/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 arduino i2s pdm</req_capabilities>
     <versions>
       <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
@@ -702,7 +733,8 @@
     <name>PDM PCM Audio</name>
     <id>mtb-example-psoc6-pdm-pcm-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-pdm-pcm</uri>
-    <description>This example demonstrates how to use the pulse-density modulation/pulse-code modulation (PDM/PCM) hardware block in PSoC 6 MCU with a digital microphone.</description>
+    <description><![CDATA[This example demonstrates how to use the pulse-density modulation/pulse-code modulation (PDM/PCM) hardware block in PSoC 6 MCU with a digital microphone.
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-psoc6-pdm-pcm/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 pdm</req_capabilities>
     <versions>
       <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
@@ -723,7 +755,8 @@
     <name>I2S Audio</name>
     <id>mtb-example-psoc6-i2s-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-i2s</uri>
-    <description>This example demonstrates how to use the I2S hardware block in PSoC 6 MCU to interface with an audio codec.</description>
+    <description><![CDATA[This example demonstrates how to use the I2S hardware block in PSoC 6 MCU to interface with an audio codec.
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-psoc6-i2s/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 arduino i2s</req_capabilities>
     <versions>
       <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
@@ -744,7 +777,8 @@
     <name>USB HID Mouse</name>
     <id>mtb-example-psoc6-usb-hid-mouse-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-usb-hid-mouse</uri>
-    <description>This example demonstrates how to configure the USB block in a PSoC 6 MCU as a HID. The device enumerates as a 3-button mouse.</description>
+    <description><![CDATA[This example demonstrates how to configure the USB block in a PSoC 6 MCU as a HID. The device enumerates as a 3-button mouse.
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-psoc6-usb-hid-mouse/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 std_crypto usb_device</req_capabilities>
     <versions>
       <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
@@ -769,7 +803,8 @@
     <name>QSPI Flash Read Write Using SFDP</name>
     <id>mtb-example-psoc6-qspi-readwrite-sfdp</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-qspi-readwrite-sfdp</uri>
-    <description>This example demonstrates interfacing with an external NOR flash memory in Quad-SPI mode using the Serial Memory Interface (SMIF) block in PSoC 6 MCU. This example uses the Serial Flash Discoverable Parameters (SFDP) standard to auto-discover the flash parameters and the commands for read, program, and erase operations.</description>
+    <description><![CDATA[This example demonstrates interfacing with an external NOR flash memory in Quad-SPI mode using the Serial Memory Interface (SMIF) block in PSoC 6 MCU. This example uses the Serial Flash Discoverable Parameters (SFDP) standard to auto-discover the flash parameters and the commands for read, program, and erase operations.
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-psoc6-qspi-readwrite-sfdp/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 std_crypto led qspi nor_flash</req_capabilities>
     <versions>
       <version req_capabilities_per_version="bsp_gen1">
@@ -790,11 +825,10 @@
     <name>AnyCloud TCP Client</name>
     <id>mtb-example-anycloud-tcp-client</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-tcp-client</uri>
-    <description><![CDATA[
-    This code example demonstrates implementation of TCP client with PSoC 6 MCU and CYW43xxx connectivity devices.
+    <description><![CDATA[This code example demonstrates implementation of TCP client with PSoC 6 MCU and CYW43xxx connectivity devices.
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-anycloud-tcp-client/blob/master/README.md">README on GitHub</a>.
     <br><br><b>License Disclaimer:</b><br><br>
-    This code example makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license. <br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).
-    ]]></description>
+    This code example makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license. <br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).]]></description>
     <req_capabilities>psoc6 wifi cyw43xxx led switch anycloud</req_capabilities>
     <versions>
       <version req_capabilities_per_version="bsp_gen1">
@@ -819,11 +853,10 @@
     <name>AnyCloud Secure TCP Client</name>
     <id>mtb-example-anycloud-secure-tcp-client</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-secure-tcp-client</uri>
-    <description><![CDATA[
-    This code example demonstrates implementation of a secure TCP client with PSoC 6 MCU and CYW43xxx connectivity devices.
+    <description><![CDATA[This code example demonstrates implementation of a secure TCP client with PSoC 6 MCU and CYW43xxx connectivity devices.
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-anycloud-secure-tcp-client/blob/master/README.md">README on GitHub</a>.
     <br><br><b>License Disclaimer:</b><br><br>
-    This code example makes use of the lwIP open-source TCP/IP stack and the Mbed TLS open-source TLS/SSL library which has cryptographic capabilities. Creating a project from this template will cause lwIP and Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the lwIP &amp; Mbed TLS licenses and regional use restrictions (including abiding by all applicable export control laws).
-    ]]></description>
+    This code example makes use of the lwIP open-source TCP/IP stack and the Mbed TLS open-source TLS/SSL library which has cryptographic capabilities. Creating a project from this template will cause lwIP and Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the lwIP &amp; Mbed TLS licenses and regional use restrictions (including abiding by all applicable export control laws).]]></description>
     <req_capabilities>psoc6 wifi cyw43xxx led switch anycloud</req_capabilities>
     <versions>
       <version req_capabilities_per_version="bsp_gen1">
@@ -852,11 +885,10 @@
     <name>AnyCloud Secure TCP Server</name>
     <id>mtb-example-anycloud-secure-tcp-server</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-secure-tcp-server</uri>
-    <description><![CDATA[
-    This code example demonstrates implementation of a secure TCP server with PSoC 6 MCU and CYW43xxx connectivity devices.
+    <description><![CDATA[This code example demonstrates implementation of a secure TCP server with PSoC 6 MCU and CYW43xxx connectivity devices.
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-anycloud-secure-tcp-server/blob/master/README.md">README on GitHub</a>.
     <br><br><b>License Disclaimer:</b><br><br>
-    This code example makes use of the lwIP open-source TCP/IP stack and the Mbed TLS open-source TLS/SSL library which has cryptographic capabilities. Creating a project from this template will cause lwIP and Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the lwIP &amp; Mbed TLS licenses and regional use restrictions (including abiding by all applicable export control laws).
-    ]]></description>
+    This code example makes use of the lwIP open-source TCP/IP stack and the Mbed TLS open-source TLS/SSL library which has cryptographic capabilities. Creating a project from this template will cause lwIP and Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the lwIP &amp; Mbed TLS licenses and regional use restrictions (including abiding by all applicable export control laws).]]></description>
     <req_capabilities>psoc6 wifi cyw43xxx led switch anycloud</req_capabilities>
     <versions>
       <version req_capabilities_per_version="bsp_gen1">
@@ -885,7 +917,8 @@
     <name>QSPI F-RAM Access</name>
     <id>mtb-example-psoc6-qspi-fram-access-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-qspi-fram-access</uri>
-    <description>This code example demonstrates interfacing PSoC 6 MCU with an external QSPI F-RAM memory and access it in Single, Dual, or Quad SPI mode using the Serial Memory Interface (SMIF) block. This example uses the PSoC 6 MCU standard QSPI HAL driver library to build the QSPI F-RAM access API.</description>
+    <description><![CDATA[This code example demonstrates interfacing PSoC 6 MCU with an external QSPI F-RAM memory and access it in Single, Dual, or Quad SPI mode using the Serial Memory Interface (SMIF) block. This example uses the PSoC 6 MCU standard QSPI HAL driver library to build the QSPI F-RAM access API.
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-psoc6-qspi-fram-access/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 led qspi fram rgb_led</req_capabilities>
     <versions>
       <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
@@ -902,11 +935,10 @@
     <name>AnyCloud TCP Server</name>
     <id>mtb-example-anycloud-tcp-server</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-tcp-server</uri>
-    <description><![CDATA[
-    This code example demonstrates implementation of a TCP server with PSoC 6 MCU and CYW43xxx connectivity devices.
+    <description><![CDATA[This code example demonstrates implementation of a TCP server with PSoC 6 MCU and CYW43xxx connectivity devices.
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-anycloud-tcp-server/blob/master/README.md">README on GitHub</a>.
     <br><br><b>License Disclaimer:</b><br><br>
-    This code example makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license. <br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).
-    ]]></description>
+    This code example makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license. <br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).]]></description>
     <req_capabilities>psoc6 wifi cyw43xxx led switch anycloud</req_capabilities>
     <versions>
       <version req_capabilities_per_version="bsp_gen1">
@@ -931,7 +963,8 @@
     <name>USB Audio Recorder</name>
     <id>mtb-example-psoc6-usb-audio-recorder-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-usb-audio-recorder</uri>
-    <description>This example demonstrates the use of PSoC 6 MCU to implement an audio recorder using the USB Audio Device Class.</description>
+    <description><![CDATA[This example demonstrates the use of PSoC 6 MCU to implement an audio recorder using the USB Audio Device Class.
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-psoc6-usb-audio-recorder/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 std_crypto usb_device pdm</req_capabilities>
     <versions>
       <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
@@ -952,7 +985,8 @@
     <name>USB Audio Device FreeRTOS</name>
     <id>mtb-example-psoc6-usb-audio-device-freertos-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-usb-audio-device-freertos</uri>
-    <description>This example demonstrates how to use PSoC 6 MCU to implement a USB Audio Device and HID Audio Playback Control that connects to the PC via the USB interface. The example also uses FreeRTOS.</description>
+    <description><![CDATA[This example demonstrates how to use PSoC 6 MCU to implement a USB Audio Device and HID Audio Playback Control that connects to the PC via the USB interface. The example also uses FreeRTOS.
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-psoc6-usb-audio-device-freertos/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 std_crypto usb_device capsense_button capsense_linear_slider i2s</req_capabilities>
     <versions>
       <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
@@ -977,7 +1011,8 @@
     <name>BLE Throughput Measurement</name>
     <id>mtb-example-btsdk-ble-throughput-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-btsdk-ble-throughput</uri>
-    <description>This code example demonstrates the maximum BLE throughput (using GATT layer notifications and writes) that can be obtained with Cypress Bluetooth devices (CYW208xx and CYW207xx).</description>
+    <description><![CDATA[This code example demonstrates the maximum BLE throughput (using GATT layer notifications and writes) that can be obtained with Cypress Bluetooth devices (CYW208xx and CYW207xx).
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-btsdk-ble-throughput/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>btsdk fw2 button</req_capabilities>
     <versions>
       <version flow_version="1.0" tools_max_version="2.1.0">
@@ -998,7 +1033,8 @@
     <name>USB CDC Echo</name>
     <id>mtb-example-psoc6-usb-cdc-echo</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-usb-cdc-echo</uri>
-    <description>This example demonstrates how to configure the USB block in a PSoC 6 MCU for Communication Device Class (CDC). When configured for a CDC, the PSoC 6 enumerates a Virtual COM port, which can be read and written by a terminal emulator program on a PC.</description>
+    <description><![CDATA[This example demonstrates how to configure the USB block in a PSoC 6 MCU for Communication Device Class (CDC). When configured for a CDC, the PSoC 6 enumerates a Virtual COM port, which can be read and written by a terminal emulator program on a PC.
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-psoc6-usb-cdc-echo/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 std_crypto usb_device</req_capabilities>
     <versions>
       <version req_capabilities_per_version="bsp_gen1">
@@ -1019,7 +1055,8 @@
     <name>USB HID Generic</name>
     <id>mtb-example-psoc6-usb-hid-generic-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-usb-hid-generic</uri>
-    <description>This example demonstrates how to configure the USB block in a PSoC 6 MCU as a Human Interface Device (HID). The device enumerates as a Generic HID device.</description>
+    <description><![CDATA[This example demonstrates how to configure the USB block in a PSoC 6 MCU as a Human Interface Device (HID). The device enumerates as a Generic HID device.
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-psoc6-usb-hid-generic/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 std_crypto usb_device</req_capabilities>
     <versions>
       <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
@@ -1040,7 +1077,8 @@
     <name>BLE Peripheral Privacy</name>
     <id>mtb-example-btsdk-peripheral-privacy-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-btsdk-peripheral-privacy</uri>
-    <description>This code example demonstrates the privacy features available to users in Bluetooth 5.0 and above.</description>
+    <description><![CDATA[This code example demonstrates the privacy features available to users in Bluetooth 5.0 and above.
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-btsdk-peripheral-privacy/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>button fw2 btsdk</req_capabilities>
     <versions>
       <version flow_version="1.0" tools_max_version="2.1.0">
@@ -1061,7 +1099,8 @@
     <name>PWM GPIO</name>
     <id>mtb-example-btsdk-pwm-gpio-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-btsdk-pwm-gpio</uri>
-    <description>This example demonstrates the configuration of PWM (pulse width modulation) to control the brightness of an LED, and configuration of GPIO to toggle an LED ON and OFF.</description>
+    <description><![CDATA[This example demonstrates the configuration of PWM (pulse width modulation) to control the brightness of an LED, and configuration of GPIO to toggle an LED ON and OFF.
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-btsdk-pwm-gpio/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>fw2 btsdk led2x</req_capabilities>
     <versions>
       <version flow_version="1.0" tools_max_version="2.1.0">
@@ -1082,7 +1121,8 @@
     <name>CSDADC</name>
     <id>mtb-example-psoc6-csdadc-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-csdadc</uri>
-    <description>This example demonstrates the usage of CSD analog-to-digital converter (ADC) in PSoC 6 MCU. CSDADC measures the external voltage and displays the conversion result the terminal application.</description>
+    <description><![CDATA[This example demonstrates the usage of CSD analog-to-digital converter (ADC) in PSoC 6 MCU. CSDADC measures the external voltage and displays the conversion result the terminal application.
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-psoc6-csdadc/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 std_crypto capsense</req_capabilities>
     <versions>
       <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
@@ -1099,7 +1139,8 @@
     <name>Secure Blinky LED FreeRTOS</name>
     <id>mtb-example-psoc6-secure-blinkyled-freertos</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-secure-blinkyled-freertos</uri>
-    <description>This code example demonstrates the implementation of simple FreeRTOS task that blinks an LED periodically using PSoC 64 MCU.</description>
+    <description><![CDATA[This code example demonstrates the implementation of simple FreeRTOS task that blinks an LED periodically using PSoC 64 MCU.
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-psoc6-secure-blinkyled-freertos/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>secure_boot</req_capabilities>
     <versions>
       <version req_capabilities_per_version="bsp_gen2">
@@ -1120,7 +1161,8 @@
     <name>CYW20719B2 SPI</name>
     <id>mtb-example-btsdk-cyw20719b2-spi-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-btsdk-cyw20719b2-spi</uri>
-    <description>This code example demonstrates the SPI functionality using CYW20719B2.</description>
+    <description><![CDATA[This code example demonstrates the SPI functionality using CYW20719B2.
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-btsdk-cyw20719b2-spi/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>fw2 btsdk CYW920719B2Q40EVB_01</req_capabilities>
     <versions>
       <version flow_version="1.0" tools_max_version="2.1.0">
@@ -1137,11 +1179,10 @@
     <name>AnyCloud MQTT Client</name>
     <id>mtb-example-anycloud-mqtt-client</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-mqtt-client</uri>
-    <description><![CDATA[
-    This code example demonstrates implementing an MQTT client using the MQTT client library for the family of Cypress connectivity devices. This library uses the AWS IoT Device SDK that includes an MQTT 3.1.1 client.
+    <description><![CDATA[This code example demonstrates implementing an MQTT client using the MQTT client library for the family of Cypress connectivity devices. This library uses the AWS IoT Device SDK that includes an MQTT 3.1.1 client.
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-anycloud-mqtt-client/blob/master/README.md">README on GitHub</a>.
     <br><br><b>License Disclaimer:</b><br><br>
-    This code example makes use of the lwIP open-source TCP/IP stack and the Mbed TLS open-source TLS/SSL library which has cryptographic capabilities. Creating a project from this template will cause lwIP and Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the lwIP &amp; Mbed TLS licenses and regional use restrictions (including abiding by all applicable export control laws).
-    ]]></description>
+    This code example makes use of the lwIP open-source TCP/IP stack and the Mbed TLS open-source TLS/SSL library which has cryptographic capabilities. Creating a project from this template will cause lwIP and Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the lwIP &amp; Mbed TLS licenses and regional use restrictions (including abiding by all applicable export control laws).]]></description>
     <req_capabilities>psoc6 wifi cyw43xxx led switch anycloud</req_capabilities>
     <versions>
       <version req_capabilities_per_version="bsp_gen1">
@@ -1162,11 +1203,10 @@
     <name>AnyCloud WLAN Low Power</name>
     <id>mtb-example-anycloud-wlan-lowpower-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-wlan-lowpower</uri>
-    <description><![CDATA[
-    This code example demonstrates the low-power operation of a host MCU and a WLAN device using the network activity handlers provided by the Low Power Assistant middleware for Cypress connectivity devices.
+    <description><![CDATA[This code example demonstrates the low-power operation of a host MCU and a WLAN device using the network activity handlers provided by the Low Power Assistant middleware for Cypress connectivity devices.
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-anycloud-wlan-lowpower/blob/master/README.md">README on GitHub</a>.
     <br><br><b>License Disclaimer:</b><br><br>
-    This code example makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license. <br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).
-    ]]></description>
+    This code example makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license. <br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).]]></description>
     <req_capabilities>psoc6 wifi cyw43xxx led anycloud</req_capabilities>
     <versions>
       <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
@@ -1187,7 +1227,8 @@
     <name>BLE Throughput Measurement FreeRTOS</name>
     <id>mtb-example-psoc6-ble-throughput-freertos</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-ble-throughput-freertos</uri>
-    <description>This code example demonstrates BLE GATT throughput measurement (using GATT layer notifications and GATT write command) using PSoC 6 BLE MCU.</description>
+    <description><![CDATA[This code example demonstrates BLE GATT throughput measurement (using GATT layer notifications and GATT write command) using PSoC 6 BLE MCU.
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-psoc6-ble-throughput-freertos/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 led switch ble</req_capabilities>
     <versions>
       <version req_capabilities_per_version="bsp_gen1">
@@ -1204,10 +1245,10 @@
     <name>AnyCloud TCP Keepalive Offload</name>
     <id>mtb-example-anycloud-offload-tcp-keepalive-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-offload-tcp-keepalive</uri>
-    <description><![CDATA[
-    This code example demonstrates the TCP Keepalive Offload functionality offered by Cypress Wi-Fi devices using PSoC 6 MCU. It employs Low Power Assistant (LPA) middleware library which helps in developing low power applications for the Cypress devices. <br><br><b>License Disclaimer:</b><br><br>
-    This code example makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license. <br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).
-    ]]></description>
+    <description><![CDATA[This code example demonstrates the TCP Keepalive Offload functionality offered by Cypress Wi-Fi devices using PSoC 6 MCU. It employs Low Power Assistant (LPA) middleware library which helps in developing low power applications for the Cypress devices.
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-anycloud-offload-tcp-keepalive/blob/master/README.md">README on GitHub</a>.
+    <br><br><b>License Disclaimer:</b><br><br>
+    This code example makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license. <br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).]]></description>
     <req_capabilities>psoc6 wifi cyw43xxx anycloud</req_capabilities>
     <versions>
       <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
@@ -1228,7 +1269,8 @@
     <name>HAL Keyboard Scanner</name>
     <id>mtb-example-btsdk-cyw208xx-keyboard-scanner-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-btsdk-cyw208xx-keyboard-scanner</uri>
-    <description>This code example demonstrates the dedicated keyscan hardware, which processes key press events from proprietary GPIOs (LHL GPIOs) without interrupting the CPU core. This code example also demonstrates low power entry when the system is idle (no activity or keypress) and wake up when there is key press.</description>
+    <description><![CDATA[This code example demonstrates the dedicated keyscan hardware, which processes key press events from proprietary GPIOs (LHL GPIOs) without interrupting the CPU core. This code example also demonstrates low power entry when the system is idle (no activity or keypress) and wake up when there is key press.
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-btsdk-cyw208xx-keyboard-scanner/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>fw2 btsdk CYW208XX_62fbga</req_capabilities>
     <versions>
       <version flow_version="1.0" tools_max_version="2.1.0">
@@ -1249,11 +1291,10 @@
     <name>AnyCloud OTA Using MQTT</name>
     <id>mtb-example-anycloud-ota-mqtt</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-ota-mqtt</uri>
-    <description><![CDATA[
-    This code example demonstrates OTA update with PSoC 6 MCU and CYW43xxx connectivity devices. The device establishes a connection with the designated MQTT Broker (Mosquitto is used in this example) and subscribes to a topic. When an OTA image is published to that topic, the device automatically pulls the OTA image over MQTT and saves it to the the flash memory. This example uses MCUBoot based bootloader which boots the new application on next boot-up.
+    <description><![CDATA[This code example demonstrates OTA update with PSoC 6 MCU and CYW43xxx connectivity devices. The device establishes a connection with the designated MQTT Broker (Mosquitto is used in this example) and subscribes to a topic. When an OTA image is published to that topic, the device automatically pulls the OTA image over MQTT and saves it to the the flash memory. This example uses MCUBoot based bootloader which boots the new application on next boot-up.
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-anycloud-ota-mqtt/blob/master/README.md">README on GitHub</a>.
     <br><br><b>License Disclaimer:</b><br><br>
-    This code example makes use of the lwIP open-source TCP/IP stack and the Mbed TLS open-source TLS/SSL library which has cryptographic capabilities. Creating a project from this template will cause lwIP and Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the lwIP &amp; Mbed TLS licenses and regional use restrictions (including abiding by all applicable export control laws).
-    ]]></description>
+    This code example makes use of the lwIP open-source TCP/IP stack and the Mbed TLS open-source TLS/SSL library which has cryptographic capabilities. Creating a project from this template will cause lwIP and Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the lwIP &amp; Mbed TLS licenses and regional use restrictions (including abiding by all applicable export control laws).]]></description>
     <req_capabilities>psoc6 wifi cyw43xxx led anycloud</req_capabilities>
     <versions>
       <version req_capabilities_per_version="bsp_gen1">
@@ -1278,7 +1319,8 @@
     <name>USB Mass Storage Logger</name>
     <id>mtb-example-psoc6-usb-msc-logger</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-usb-msc-logger</uri>
-    <description>This example demonstrates how to configure the USB block in a PSoC 6 MCU as a Mass Storage (MSC) device and emulate a file system in the internal memory.</description>
+    <description><![CDATA[This example demonstrates how to configure the USB block in a PSoC 6 MCU as a Mass Storage (MSC) device and emulate a file system in the internal memory.
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-psoc6-usb-msc-logger/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 std_crypto usb_device</req_capabilities>
     <versions>
       <version req_capabilities_per_version="bsp_gen1">
@@ -1295,11 +1337,10 @@
     <name>AnyCloud WPS Enrollee</name>
     <id>mtb-example-anycloud-wps-enrollee-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-wps-enrollee</uri>
-    <description><![CDATA[
-    This code example demonstrates how to use the connection management and WPS Enrollee feature provided in the Wi-Fi Connection Manager (WCM) middleware.
+    <description><![CDATA[This code example demonstrates how to use the connection management and WPS Enrollee feature provided in the Wi-Fi Connection Manager (WCM) middleware.
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-anycloud-wps-enrollee/blob/master/README.md">README on GitHub</a>.
     <br><br><b>License Disclaimer:</b><br><br>
-    This code example makes use of the lwIP open-source TCP/IP stack and the Mbed TLS open-source TLS/SSL library which has cryptographic capabilities. Creating a project from this template will cause lwIP and Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the lwIP &amp; Mbed TLS licenses and regional use restrictions (including abiding by all applicable export control laws).
-    ]]></description>
+    This code example makes use of the lwIP open-source TCP/IP stack and the Mbed TLS open-source TLS/SSL library which has cryptographic capabilities. Creating a project from this template will cause lwIP and Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the lwIP &amp; Mbed TLS licenses and regional use restrictions (including abiding by all applicable export control laws).]]></description>
     <req_capabilities>psoc6 wifi cyw43xxx led switch anycloud</req_capabilities>
     <versions>
       <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
@@ -1320,11 +1361,10 @@
     <name>AnyCloud Wi-Fi Scan</name>
     <id>mtb-example-anycloud-wifi-scan-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-wifi-scan</uri>
-    <description><![CDATA[
-    This code example demonstrates how to configure different scan filters provided in the Wi-Fi Connection Manager (WCM) middleware and scan for the available Wi-Fi networks.
+    <description><![CDATA[This code example demonstrates how to configure different scan filters provided in the Wi-Fi Connection Manager (WCM) middleware and scan for the available Wi-Fi networks.
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-anycloud-wifi-scan/blob/master/README.md">README on GitHub</a>.
     <br><br><b>License Disclaimer:</b><br><br>
-    This code example makes use of the lwIP open-source TCP/IP stack and the Mbed TLS open-source TLS/SSL library which has cryptographic capabilities. Creating a project from this template will cause lwIP and Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the lwIP &amp; Mbed TLS licenses and regional use restrictions (including abiding by all applicable export control laws).
-    ]]></description>
+    This code example makes use of the lwIP open-source TCP/IP stack and the Mbed TLS open-source TLS/SSL library which has cryptographic capabilities. Creating a project from this template will cause lwIP and Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the lwIP &amp; Mbed TLS licenses and regional use restrictions (including abiding by all applicable export control laws).]]></description>
     <req_capabilities>psoc6 wifi cyw43xxx led switch anycloud</req_capabilities>
     <versions>
       <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
@@ -1345,7 +1385,8 @@
     <name>AnyCloud BLE Multi Beacon</name>
     <id>mtb-example-anycloud-ble-multi-beacon</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-ble-multi-beacon</uri>
-    <description>This code example demonstrates the implementation of a beacon which advertises multiple Eddystone ADV data.</description>
+    <description><![CDATA[This code example demonstrates the implementation of a beacon which advertises multiple Eddystone ADV data.
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-anycloud-ble-multi-beacon/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 bt</req_capabilities>
     <versions>
       <version req_capabilities_per_version="bsp_gen1">
@@ -1362,7 +1403,8 @@
     <name>AnyCloud BLE Battery Server</name>
     <id>mtb-example-anycloud-ble-battery-server</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-ble-battery-server</uri>
-    <description>This code example demonstrates the implementation of a simple BLE Battery Service.</description>
+    <description><![CDATA[This code example demonstrates the implementation of a simple BLE Battery Service.
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-anycloud-ble-battery-server/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 bt led</req_capabilities>
     <versions>
       <version req_capabilities_per_version="bsp_gen1">
@@ -1379,7 +1421,8 @@
     <name>AnyCloud BLE Environmental Sensing Service</name>
     <id>mtb-example-anycloud-ble-ess</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-ble-ess</uri>
-    <description>This code example demonstrates the implementation of a simple BLE Environmental Sensing Profile. It shows how to send environmental parameters like temperature by sending simulated temperature values over the BLE connection using the Cypress WiFi-BT combo SoCs supported in AnyCloud-SDK.</description>
+    <description><![CDATA[This code example demonstrates the implementation of a simple BLE Environmental Sensing Profile. It shows how to send environmental parameters like temperature by sending simulated temperature values over the BLE connection using the Cypress WiFi-BT combo SoCs supported in AnyCloud-SDK.
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-anycloud-ble-ess/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 bt led</req_capabilities>
     <versions>
       <version req_capabilities_per_version="bsp_gen1">
@@ -1396,7 +1439,8 @@
     <name>AnyCloud Wi-Fi Onboarding Using BLE</name>
     <id>mtb-example-anycloud-ble-wifi-onboarding</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-ble-wifi-onboarding</uri>
-    <description>This code example demonstrates WiFi Onboarding using BLE.</description>
+    <description><![CDATA[This code example demonstrates WiFi Onboarding using BLE.
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-anycloud-ble-wifi-onboarding/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 wifi bt anycloud</req_capabilities>
     <versions>
       <version req_capabilities_per_version="bsp_gen1">
@@ -1413,7 +1457,8 @@
     <name>AnyCloud BLE CapSense Buttons and Slider</name>
     <id>mtb-example-anycloud-ble-capsense-buttons-slider</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-ble-capsense-buttons-slider</uri>
-    <description>This code example demonstrates the CapSense implementation using BLE Custom Service.</description>
+    <description><![CDATA[This code example demonstrates the CapSense implementation using BLE Custom Service.
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-anycloud-ble-capsense-buttons-slider/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 bt capsense_button capsense_linear_slider led</req_capabilities>
     <versions>
       <version req_capabilities_per_version="bsp_gen1">
@@ -1430,7 +1475,8 @@
     <name>AnyCloud BLE CTS Client</name>
     <id>mtb-example-anycloud-ble-cts-client</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-ble-cts-client</uri>
-    <description>This code example demonstrates the implementation of a simple BLE GAP Peripheral - GATT Client with Current Time Service.</description>
+    <description><![CDATA[This code example demonstrates the implementation of a simple BLE GAP Peripheral - GATT Client with Current Time Service.
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-anycloud-ble-cts-client/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 bt led</req_capabilities>
     <versions>
       <version req_capabilities_per_version="bsp_gen1">
@@ -1447,7 +1493,8 @@
     <name>AnyCloud BLE CTS Server</name>
     <id>mtb-example-anycloud-ble-cts-server</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-ble-cts-server</uri>
-    <description>This code example demonstrates the implementation of a simple BLE GAP Central - GATT Server with Current Time Service.</description>
+    <description><![CDATA[This code example demonstrates the implementation of a simple BLE GAP Central - GATT Server with Current Time Service.
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-anycloud-ble-cts-server/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 bt led</req_capabilities>
     <versions>
       <version req_capabilities_per_version="bsp_gen1">
@@ -1464,7 +1511,8 @@
     <name>CapSense Custom Scan</name>
     <id>mtb-example-psoc6-capsense-custom-scan-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-capsense-custom-scan</uri>
-    <description>This code example demonstrates CapSense custom scanning through CapSense Middleware's callback functions that allow altering the sensor parameters during runtime or synchronizing the CapSense scan with non-CapSense operations. In this code example, the callback function is used to change the inactive sensor state to either shield or ground depending on the sensor being scanned.</description>
+    <description><![CDATA[This code example demonstrates CapSense custom scanning through CapSense Middleware's callback functions that allow altering the sensor parameters during runtime or synchronizing the CapSense scan with non-CapSense operations. In this code example, the callback function is used to change the inactive sensor state to either shield or ground depending on the sensor being scanned.
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-psoc6-capsense-custom-scan/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 led capsense_linear_slider</req_capabilities>
     <versions>
       <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
@@ -1481,7 +1529,8 @@
     <name>QSPI XIP</name>
     <id>mtb-example-psoc6-qspi-xip</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-qspi-xip</uri>
-    <description>This example demonstrates how to use the QSPI block of the PSoC 6 MCU in execute-in-place (XIP) mode with an external flash memory device.</description>
+    <description><![CDATA[This example demonstrates how to use the QSPI block of the PSoC 6 MCU in execute-in-place (XIP) mode with an external flash memory device.
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-psoc6-qspi-xip/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 std_crypto led qspi nor_flash</req_capabilities>
     <versions>
       <version req_capabilities_per_version="bsp_gen1">
@@ -1584,7 +1633,8 @@
     <name>CapSense Tuning Over BLE - Server</name>
     <id>mtb-example-psoc6-ble-capsense-tuner-server-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-ble-capsense-tuner-server</uri>
-    <description>This code example demonstrates how to monitor the CapSense data and tune the CapSense sensors over BLE communication with CapSense Tuner GUI using PSoC 6 BLE MCU. This is intended to be used with the CapSense Tuning Over BLE - Client example.</description>
+    <description><![CDATA[This code example demonstrates how to monitor the CapSense data and tune the CapSense sensors over BLE communication with CapSense Tuner GUI using PSoC 6 BLE MCU. This is intended to be used with the CapSense Tuning Over BLE - Client example.
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-psoc6-ble-capsense-tuner-server/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 led ble capsense_button capsense_linear_slider</req_capabilities>
     <versions>
       <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
@@ -1601,12 +1651,10 @@
     <name>AnyCloud UDP Client</name>
     <id>mtb-example-anycloud-udp-client</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-udp-client</uri>
-    <description><![CDATA[
-    This code example demonstrates implementation of UDP Client using AnyCloud SDK. The UDP Client establishes a connection with a remote UDP server and based on the command received from the UDP server, turns the user LED ON
-    or OFF using PSoC 6 MCU.
+    <description><![CDATA[This code example demonstrates implementation of UDP Client using AnyCloud SDK. The UDP Client establishes a connection with a remote UDP server and based on the command received from the UDP server, turns the user LED ON or OFF using PSoC 6 MCU.
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-anycloud-udp-client/blob/master/README.md">README on GitHub</a>.
     <br><br><b>License Disclaimer:</b><br><br>
-    This code example makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license. <br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).
-    ]]></description>
+    This code example makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license. <br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).]]></description>
     <req_capabilities>psoc6 cyw43xxx wifi led anycloud</req_capabilities>
     <versions>
       <version req_capabilities_per_version="bsp_gen1">
@@ -1627,11 +1675,10 @@
     <name>AnyCloud UDP Server</name>
     <id>mtb-example-anycloud-udp-server</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-udp-server</uri>
-    <description><![CDATA[
-	This code example demonstrates implementation of UDP Server using AnyCloud SDK. The UDP Server allows the user to send LED ON/OFF command to the UDP client using PSoC 6 MCU.
-	<br><br><b>License Disclaimer:</b><br><br>
-    This code example makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license. <br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).
-    ]]></description>
+    <description><![CDATA[This code example demonstrates implementation of UDP Server using AnyCloud SDK. The UDP Server allows the user to send LED ON/OFF command to the UDP client using PSoC 6 MCU.
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-anycloud-udp-server/blob/master/README.md">README on GitHub</a>.
+    <br><br><b>License Disclaimer:</b><br><br>
+    This code example makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license. <br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).]]></description>
     <req_capabilities>psoc6 cyw43xxx wifi switch anycloud</req_capabilities>
     <versions>
       <version req_capabilities_per_version="bsp_gen1">
@@ -1682,11 +1729,10 @@
     <name>AnyCloud HTTPS Server</name>
     <id>mtb-example-anycloud-https-server</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-https-server</uri>
-    <description><![CDATA[
-    This code example demonstrates the implementation of an HTTPS server with PSoC 6 MCU and CYW43xxx connectivity devices. It employs the HTTPS server middleware library, which takes care of all the underlying socket connections with the HTTPS client. This example establishes a secure connection with a HTTPS client through SSL handshake. Once the SSL handshake completes successfully, the HTTPS client can make GET, POST, and PUT requests with the server.
+    <description><![CDATA[This code example demonstrates the implementation of an HTTPS server with PSoC 6 MCU and CYW43xxx connectivity devices. It employs the HTTPS server middleware library, which takes care of all the underlying socket connections with the HTTPS client. This example establishes a secure connection with a HTTPS client through SSL handshake. Once the SSL handshake completes successfully, the HTTPS client can make GET, POST, and PUT requests with the server.
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-anycloud-https-server/blob/master/README.md">README on GitHub</a>.
     <br><br><b>License Disclaimer:</b><br><br>
-    This code example makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license. <br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).
-    ]]></description>
+    This code example makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license. <br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).]]></description>
     <req_capabilities>psoc6 cyw43xxx led wifi anycloud</req_capabilities>
     <versions>
       <version req_capabilities_per_version="bsp_gen1">
@@ -1703,7 +1749,8 @@
     <name>CapSense Tuning Over BLE - Client</name>
     <id>mtb-example-psoc6-ble-capsense-tuner-client-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-ble-capsense-tuner-client</uri>
-    <description>This code example demonstrates how to monitor the CapSense data and tune the CapSense sensors over BLE communication with CapSense Tuner GUI using PSoC 6 BLE MCU. This is intended to be used with the CapSense Tuning Over BLE - Server example.</description>
+    <description><![CDATA[This code example demonstrates how to monitor the CapSense data and tune the CapSense sensors over BLE communication with CapSense Tuner GUI using PSoC 6 BLE MCU. This is intended to be used with the CapSense Tuning Over BLE - Server example.
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-psoc6-ble-capsense-tuner-client/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 led ble</req_capabilities>
     <versions>
       <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
@@ -1720,7 +1767,8 @@
     <name>MCUboot-Based Basic Bootloader</name>
     <id>mtb-example-psoc6-mcuboot-basic</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-mcuboot-basic</uri>
-    <description>This code example demonstrates building a simple bootloader application for PSoC 62/63 MCUs using the open-source library - MCUboot. </description>
+    <description><![CDATA[This code example demonstrates building a simple bootloader application for PSoC 62/63 MCUs using the open-source library - MCUboot.
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-psoc6-mcuboot-basic/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 std_crypto led qspi nor_flash</req_capabilities>
     <versions>
       <version req_capabilities_per_version="bsp_gen1">
@@ -1737,7 +1785,8 @@
     <name>Dual-CPU Empty PSoC6 App</name>
     <id>mtb-example-psoc6-dual-cpu-empty-app-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-dual-cpu-empty-app</uri>
-    <description>This empty application provides a template for creating dual-CPU applications using PSoC 6 devices.</description>
+    <description><![CDATA[This empty application provides a template for creating dual-CPU applications using PSoC 6 devices.
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-psoc6-dual-cpu-empty-app/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 std_crypto</req_capabilities>
     <versions>
       <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
@@ -1754,7 +1803,8 @@
     <name>Dual-CPU IPC Semaphores</name>
     <id>mtb-example-psoc6-dual-cpu-ipc-sema-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-dual-cpu-ipc-sema</uri>
-    <description>This example demonstrates how to use the inter-processor communication (IPC) driver to implement a semaphore in PSoC 6 MCU. The semaphore is used as a lock to control access to a resource shared by the CPUs and synchronize the initialization instructions.</description>
+    <description><![CDATA[This example demonstrates how to use the inter-processor communication (IPC) driver to implement a semaphore in PSoC 6 MCU. The semaphore is used as a lock to control access to a resource shared by the CPUs and synchronize the initialization instructions.
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-psoc6-dual-cpu-ipc-sema/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 std_crypto led switch</req_capabilities>
     <versions>
       <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
@@ -1771,7 +1821,8 @@
     <name>Dual-CPU IPC Pipes</name>
     <id>mtb-example-psoc6-dual-cpu-ipc-pipes-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-dual-cpu-ipc-pipes</uri>
-    <description>This example demonstrates how to use the inter-processor communication (IPC) driver to implement a message pipe in PSoC 6 MCU. The pipe is used to send messages between CPUs.</description>
+    <description><![CDATA[This example demonstrates how to use the inter-processor communication (IPC) driver to implement a message pipe in PSoC 6 MCU. The pipe is used to send messages between CPUs.
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-psoc6-dual-cpu-ipc-pipes/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 std_crypto switch</req_capabilities>
     <versions>
       <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
@@ -1788,11 +1839,10 @@
     <name>AnyCloud MCUboot-Based Bootloader with Rollback</name>
     <id>mtb-example-anycloud-mcuboot-rollback</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-mcuboot-rollback</uri>
-    <description><![CDATA[
-    This code example demonstrates an MCUboot-based bootloader that can rollback to the factory application/image located in external flash. Rollback can be initiated by the user in case of unrecoverable error conditions or for the purpose of running diagnostic tests using a test image. Bootloader runs on CM0+ and the user and factory applications run on CM4.
+    <description><![CDATA[This code example demonstrates an MCUboot-based bootloader that can rollback to the factory application/image located in external flash. Rollback can be initiated by the user in case of unrecoverable error conditions or for the purpose of running diagnostic tests using a test image. Bootloader runs on CM0+ and the user and factory applications run on CM4.
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-anycloud-mcuboot-rollback/blob/master/README.md">README on GitHub</a>.
     <br><br><b>License Disclaimer:</b><br><br>
-    This code example makes use of the lwIP open-source TCP/IP stack and the Mbed TLS open-source TLS/SSL library which has cryptographic capabilities. Creating a project from this template will cause lwIP and Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the lwIP &amp; Mbed TLS licenses and regional use restrictions (including abiding by all applicable export control laws).
-    ]]></description>
+    This code example makes use of the lwIP open-source TCP/IP stack and the Mbed TLS open-source TLS/SSL library which has cryptographic capabilities. Creating a project from this template will cause lwIP and Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the lwIP &amp; Mbed TLS licenses and regional use restrictions (including abiding by all applicable export control laws).]]></description>
     <req_capabilities>psoc6 wifi cyw43xxx led std_crypto qspi nor_flash anycloud</req_capabilities>
     <versions>
       <version req_capabilities_per_version="bsp_gen1">
