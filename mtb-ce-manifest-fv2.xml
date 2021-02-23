@@ -39,6 +39,24 @@
       </version>
     </versions>
   </app>
+  <app keywords="psoc6,led,lptimer,mtb-flow">
+    <name>Low-Power Timer</name>
+    <id>mtb-example-psoc6-lptimer</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-lptimer</uri>
+    <description><![CDATA[This example explains how to set up a low-power timer using the LPTimer HAL resource to measure the timing between events in free-running mode on PSoC 6 MCU.
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-psoc6-lptimer/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>psoc6 led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
   <app keywords="psoc6,mtb-flow,led,pwm,square wave,frequency,duty cycle,blinky,blinking">
     <name>PWM Square Wave</name>
     <id>mtb-example-psoc6-pwm-square-wave</id>
@@ -142,6 +160,10 @@
         <commit>latest-v2.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
@@ -158,6 +180,10 @@
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>2.0.0 release</num>
@@ -230,6 +256,10 @@
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>2.2.0 release</num>
+        <commit>release-v2.2.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>2.0.0 release</num>
@@ -428,6 +458,10 @@
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>2.0.0 release</num>
@@ -725,6 +759,10 @@
         <commit>latest-v2.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
@@ -741,6 +779,10 @@
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>1.2.0 release</num>
+        <commit>release-v1.2.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>1.1.0 release</num>
