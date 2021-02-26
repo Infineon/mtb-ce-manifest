@@ -65,6 +65,24 @@
       </version>
     </versions>
   </app>
+  <app keywords="psoc6,fault handling,mtb-flow">
+    <name>Fault Handling</name>
+    <id>mtb-example-psoc6-fault-handling</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-fault-handling</uri>
+    <description><![CDATA[This example demonstrates the fault handling functionality of PSoC 6 MCU using Peripheral Driver Library (PDL) System Library (SysLib).
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-psoc6-fault-handling/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>psoc6</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
+    </versions>
+  </app>
   <app keywords="psoc6,mtb-flow,led,pwm,square wave,frequency,duty cycle,blinky,blinking">
     <name>PWM Square Wave</name>
     <id>mtb-example-psoc6-pwm-square-wave</id>
@@ -116,6 +134,10 @@
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>2.0.0 release</num>
