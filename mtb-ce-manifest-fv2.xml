@@ -83,6 +83,42 @@
       </version>
     </versions>
   </app>
+  <app keywords="psoc6,wdt,mtb-flow">
+    <name>Watchdog Timer</name>
+    <id>mtb-example-psoc6-wdt</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-wdt</uri>
+    <description><![CDATA[This example explains how to set up a Watchdog Timer (WDT) using the WDT HAL resource. The WDT resets the device if it is not serviced or "kicked" within the configured timeout interval. This helps in recovering the program from an unintended lock up.
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-psoc6-wdt/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>psoc6</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,mcwdt,mtb-flow">
+    <name>Free-Running Multi-Counter Watchdog Timer</name>
+    <id>mtb-example-psoc6-mcwdt</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-mcwdt</uri>
+    <description><![CDATA[This example explains how to set up a Multi-Counter Watchdog Timer (MCWDT) using the MCWDT PDL resource to measure the timing between events in free-running mode on PSoC6 MCU.
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-psoc6-mcwdt/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>psoc6</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
+    </versions>
+  </app>
   <app keywords="psoc6,mtb-flow,led,pwm,square wave,frequency,duty cycle,blinky,blinking">
     <name>PWM Square Wave</name>
     <id>mtb-example-psoc6-pwm-square-wave</id>
