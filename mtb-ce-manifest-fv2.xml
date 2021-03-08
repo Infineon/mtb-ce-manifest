@@ -514,6 +514,10 @@
         <commit>latest-v2.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
@@ -530,6 +534,10 @@
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>2.0.0 release</num>
@@ -799,9 +807,10 @@
   </app>
   <app keywords="psoc6,msc,usb,file system,mass storage,sd,mtb-flow">
     <name>USB Mass Storage File System</name>
-    <id>mtb-example-psoc6-usb-msc-file-system</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-usb-msc-file-system</uri>
-    <description>This example demonstrates how to configure the USB block in a PSoC 6 MCU device as a Mass Storage (MSC) device and run a file system (FatFs) through an external memory (microSD). This example uses FreeRTOS.</description>
+    <id>mtb-example-psoc6-usb-msc-filesystem-freertos</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-usb-msc-filesystem-freertos</uri>
+    <description><![CDATA[This example demonstrates how to configure the USB block in a PSoC 6 MCU device as a Mass Storage (MSC) device and run a file system (FatFs) through an external memory (microSD). This example uses FreeRTOS.
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-psoc6-usb-msc-filesystem-freertos/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 led usb_device pdm switch sdhc</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
@@ -1521,10 +1530,7 @@
     <id>mtb-example-xmc-gpio-toggle</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-xmc-gpio-toggle</uri>
     <description><![CDATA[This code example demonstrates GPIO toggling by periodically blinking an LED using SysTick available in XMC MCU.
-    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-xmc-gpio-toggle/blob/master/README.md">README on GitHub</a>.
-    <br><br><b>Note:</b>
-    This is Early Access Software for XMC devices in ModusToolbox.<br>
-    This software is made available for evaluation purposes only and is not recommended for production development.]]></description>
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-xmc-gpio-toggle/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>xmc led</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="2.2.1" req_capabilities_per_version="bsp_gen2">
@@ -1542,10 +1548,7 @@
     <id>mtb-example-xmc-blinky-freertos</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-xmc-blinky-freertos</uri>
     <description><![CDATA[This code example demonstrates blinking LED functionality implemented by FreeRTOS tasks running on the XMC MCU.
-    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-xmc-blinky-freertos/blob/master/README.md">README on GitHub</a>.
-    <br><br><b>Note:</b>
-    This is Early Access Software for XMC devices in ModusToolbox.<br>
-    This software is made available for evaluation purposes only and is not recommended for production development.]]></description>
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-xmc-blinky-freertos/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>xmc led</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="2.2.1" req_capabilities_per_version="bsp_gen2">
@@ -1563,10 +1566,7 @@
     <id>mtb-example-xmc-ccu4-pwm</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-xmc-ccu4-pwm</uri>
     <description><![CDATA[This code example demonstrates the use of CCU4 module in XMC MCU to create a PWM signal. The CCU4 slice is configured in monoshot mode and is restarted on an external start event.
-    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-xmc-ccu4-pwm/blob/master/README.md">README on GitHub</a>.
-    <br><br><b>Note:</b>
-    This is Early Access Software for XMC devices in ModusToolbox.<br>
-    This software is made available for evaluation purposes only and is not recommended for production development.]]></description>
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-xmc-ccu4-pwm/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>xmc led</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="2.2.1" req_capabilities_per_version="bsp_gen2">
@@ -1584,10 +1584,7 @@
     <id>mtb-example-xmc-ccu4-capture</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-xmc-ccu4-capture</uri>
     <description><![CDATA[This code example demonstrates the capture features of the Capture and Compare Unit 4 (CCU4) slices available in XMC MCU.
-    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-xmc-ccu4-capture/blob/master/README.md">README on GitHub</a>.
-    <br><br><b>Note:</b>
-    This is Early Access Software for XMC devices in ModusToolbox.<br>
-    This software is made available for evaluation purposes only and is not recommended for production development.]]></description>
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-xmc-ccu4-capture/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>xmc</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="2.2.1" req_capabilities_per_version="bsp_gen2">
@@ -1605,10 +1602,7 @@
     <id>mtb-example-xmc-ccu4-timer-concatenation</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-xmc-ccu4-timer-concatenation</uri>
     <description><![CDATA[This code example demonstrates the concatenation or linking feature of the Capture and Compare Unit 4 (CCU4) slices available in XMC MCU.
-    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-xmc-ccu4-timer-concatenation/blob/master/README.md">README on GitHub</a>.
-    <br><br><b>Note:</b>
-    This is Early Access Software for XMC devices in ModusToolbox.<br>
-    This software is made available for evaluation purposes only and is not recommended for production development.]]></description>
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-xmc-ccu4-timer-concatenation/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>xmc led</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="2.2.1" req_capabilities_per_version="bsp_gen2">
@@ -1626,10 +1620,7 @@
     <id>mtb-example-xmc-ccu4-timer</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-xmc-ccu4-timer</uri>
     <description><![CDATA[This code example demonstrates the usage of the Capture and Compare Unit 4 (CCU4) timer by blinking an LED using CCU4 timer period match interrupt available in XMC MCU.
-    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-xmc-ccu4-timer/blob/master/README.md">README on GitHub</a>.
-    <br><br><b>Note:</b>
-    This is Early Access Software for XMC devices in ModusToolbox.<br>
-    This software is made available for evaluation purposes only and is not recommended for production development.]]></description>
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-xmc-ccu4-timer/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>xmc led</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="2.2.1" req_capabilities_per_version="bsp_gen2">
@@ -1642,15 +1633,12 @@
       </version>
     </versions>
   </app>
-  <app keywords="xmc,uart,printf,hello world,mtb-flow">
+  <app keywords="xmc,uart,printf,hello world,usic,mtb-flow">
     <name>UART Printf</name>
     <id>mtb-example-xmc-uart-printf</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-xmc-uart-printf</uri>
     <description><![CDATA[This example demonstrates how to use the printf function with a Universal Serial Interface Channel (USIC) based UART in XMC MCU.
-    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-xmc-uart-printf/blob/master/README.md">README on GitHub</a>.
-    <br><br><b>Note:</b>
-    This is Early Access Software for XMC devices in ModusToolbox.<br>
-    This software is made available for evaluation purposes only and is not recommended for production development.]]></description>
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-xmc-uart-printf/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>xmc</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="2.2.1" req_capabilities_per_version="bsp_gen2">
@@ -1663,15 +1651,12 @@
       </version>
     </versions>
   </app>
-  <app keywords="xmc,uart,printf,shell,console,led,mtb-flow">
+  <app keywords="xmc,uart,printf,shell,console,usic,led,mtb-flow">
     <name>UART Shell</name>
     <id>mtb-example-xmc-uart-shell</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-xmc-uart-shell</uri>
     <description><![CDATA[This code example demonstrates implementation of a shell on the UART communication interface including commands to toggle a LED using XMC MCU.
-    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-xmc-uart-shell/blob/master/README.md">README on GitHub</a>.
-    <br><br><b>Note:</b>
-    This is Early Access Software for XMC devices in ModusToolbox.<br>
-    This software is made available for evaluation purposes only and is not recommended for production development.]]></description>
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-xmc-uart-shell/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>xmc led</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="2.2.1" req_capabilities_per_version="bsp_gen2">
@@ -1684,16 +1669,13 @@
       </version>
     </versions>
   </app>
-  <app keywords="xmc,uart,dma,mtb-flow">
+  <app keywords="xmc,uart,dma,usic,mtb-flow">
     <name>UART DMA</name>
     <id>mtb-example-xmc-uart-dma</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-xmc-uart-dma</uri>
     <description><![CDATA[This example demonstrates how to stream data using DMA via UART based on Universal Serial Interface Channel (USIC) to an external terminal.
-    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-xmc-uart-dma/blob/master/README.md">README on GitHub</a>.
-    <br><br><b>Note:</b>
-    This is Early Access Software for XMC devices in ModusToolbox.<br>
-    This software is made available for evaluation purposes only and is not recommended for production development.]]></description>
-    <req_capabilities>xmc xmc4000</req_capabilities>
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-xmc-uart-dma/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>xmc dma</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="2.2.1" req_capabilities_per_version="bsp_gen2">
         <num>Latest 0.X release</num>
@@ -1959,27 +1941,6 @@
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,psoc6,anycloud,mqtt,client,wifi,aws,mosquitto">
-    <name>AnyCloud MQTT Client</name>
-    <id>mtb-example-anycloud-mqtt-client</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-mqtt-client</uri>
-    <description><![CDATA[
-    This code example demonstrates implementing an MQTT client using the MQTT client library for the family of Cypress connectivity devices. This library uses the AWS IoT Device SDK that includes an MQTT 3.1.1 client.
-    <br><br><b>License Disclaimer:</b><br><br>
-    This code example makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license.<br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).
-    ]]></description>
-    <req_capabilities>psoc6 wifi cyw43xxx led switch anycloud</req_capabilities>
-    <versions>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
-        <num>Latest 2.X release</num>
-        <commit>latest-v2.X</commit>
-      </version>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
-        <num>2.0.0 release</num>
-        <commit>release-v2.0.0</commit>
-      </version>
-    </versions>
-  </app>
   <app keywords="psoc6,protection units,pc,smpu,dual cpu,memory,console,mtb-flow">
     <name>Protection Units FreeRTOS</name>
     <id>mtb-example-psoc6-dual-cpu-protection-units-freertos</id>
@@ -1993,6 +1954,42 @@
         <commit>latest-v1.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="pmg1,led,starter,hello world,mtb-flow">
+    <name>Hello World</name>
+    <id>mtb-example-pmg1-hello-world</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-pmg1-hello-world</uri>
+    <description><![CDATA[This code example demonstrates simple UART communication by printing a "Hello World" message on a terminal and blinking an LED using Power Delivery Microcontroller Generation 1 (PMG1) devices.
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-pmg1-hello-world/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>pmg1 led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="pmg1,usbpd,mtb-flow">
+    <name>USBPD Sink</name>
+    <id>mtb-example-pmg1-usbpd-sink</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-pmg1-usbpd-sink</uri>
+    <description><![CDATA[This code example demonstrates USB-C attach detection and USB Power Delivery contract negotiation using Power Delivery Microcontroller Generation 1 (PMG1) devices.
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-pmg1-usbpd-sink/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>usbpd pmg1 led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
