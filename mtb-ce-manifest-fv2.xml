@@ -1528,7 +1528,8 @@
     <id>mtb-example-xmc-empty-app</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-xmc-empty-app</uri>
     <description><![CDATA[This empty application provides a template for creating applications using XMC MCU.
-    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-xmc-empty-app/blob/master/README.md">README on GitHub</a>.]]></description>
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-xmc-empty-app/blob/master/README.md">README on GitHub</a>.
+    <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
     <req_capabilities>xmc</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="2.2.1" req_capabilities_per_version="bsp_gen2">
@@ -1546,7 +1547,8 @@
     <id>mtb-example-xmc-gpio-toggle</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-xmc-gpio-toggle</uri>
     <description><![CDATA[This code example demonstrates GPIO toggling by periodically blinking an LED using SysTick available in XMC MCU.
-    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-xmc-gpio-toggle/blob/master/README.md">README on GitHub</a>.]]></description>
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-xmc-gpio-toggle/blob/master/README.md">README on GitHub</a>.
+    <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
     <req_capabilities>xmc led</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="2.2.1" req_capabilities_per_version="bsp_gen2">
@@ -1564,7 +1566,8 @@
     <id>mtb-example-xmc-blinky-freertos</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-xmc-blinky-freertos</uri>
     <description><![CDATA[This code example demonstrates blinking LED functionality implemented by FreeRTOS tasks running on the XMC MCU.
-    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-xmc-blinky-freertos/blob/master/README.md">README on GitHub</a>.]]></description>
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-xmc-blinky-freertos/blob/master/README.md">README on GitHub</a>.
+    <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
     <req_capabilities>xmc led</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="2.2.1" req_capabilities_per_version="bsp_gen2">
@@ -1582,7 +1585,8 @@
     <id>mtb-example-xmc-ccu4-pwm</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-xmc-ccu4-pwm</uri>
     <description><![CDATA[This code example demonstrates the use of CCU4 module in XMC MCU to create a PWM signal. The CCU4 slice is configured in monoshot mode and is restarted on an external start event.
-    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-xmc-ccu4-pwm/blob/master/README.md">README on GitHub</a>.]]></description>
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-xmc-ccu4-pwm/blob/master/README.md">README on GitHub</a>.
+    <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
     <req_capabilities>xmc led</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="2.2.1" req_capabilities_per_version="bsp_gen2">
@@ -1600,7 +1604,8 @@
     <id>mtb-example-xmc-ccu4-capture</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-xmc-ccu4-capture</uri>
     <description><![CDATA[This code example demonstrates the capture features of the Capture and Compare Unit 4 (CCU4) slices available in XMC MCU.
-    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-xmc-ccu4-capture/blob/master/README.md">README on GitHub</a>.]]></description>
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-xmc-ccu4-capture/blob/master/README.md">README on GitHub</a>.
+    <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
     <req_capabilities>xmc</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="2.2.1" req_capabilities_per_version="bsp_gen2">
@@ -1618,7 +1623,8 @@
     <id>mtb-example-xmc-ccu4-timer-concatenation</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-xmc-ccu4-timer-concatenation</uri>
     <description><![CDATA[This code example demonstrates the concatenation or linking feature of the Capture and Compare Unit 4 (CCU4) slices available in XMC MCU.
-    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-xmc-ccu4-timer-concatenation/blob/master/README.md">README on GitHub</a>.]]></description>
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-xmc-ccu4-timer-concatenation/blob/master/README.md">README on GitHub</a>.
+    <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
     <req_capabilities>xmc led</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="2.2.1" req_capabilities_per_version="bsp_gen2">
@@ -1636,7 +1642,8 @@
     <id>mtb-example-xmc-ccu4-timer</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-xmc-ccu4-timer</uri>
     <description><![CDATA[This code example demonstrates the usage of the Capture and Compare Unit 4 (CCU4) timer by blinking an LED using CCU4 timer period match interrupt available in XMC MCU.
-    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-xmc-ccu4-timer/blob/master/README.md">README on GitHub</a>.]]></description>
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-xmc-ccu4-timer/blob/master/README.md">README on GitHub</a>.
+    <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
     <req_capabilities>xmc led</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="2.2.1" req_capabilities_per_version="bsp_gen2">
@@ -1654,7 +1661,8 @@
     <id>mtb-example-xmc-uart-printf</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-xmc-uart-printf</uri>
     <description><![CDATA[This example demonstrates how to use the printf function with a Universal Serial Interface Channel (USIC) based UART in XMC MCU.
-    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-xmc-uart-printf/blob/master/README.md">README on GitHub</a>.]]></description>
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-xmc-uart-printf/blob/master/README.md">README on GitHub</a>.
+    <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
     <req_capabilities>xmc</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="2.2.1" req_capabilities_per_version="bsp_gen2">
@@ -1672,7 +1680,8 @@
     <id>mtb-example-xmc-uart-shell</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-xmc-uart-shell</uri>
     <description><![CDATA[This code example demonstrates implementation of a shell on the UART communication interface including commands to toggle a LED using XMC MCU.
-    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-xmc-uart-shell/blob/master/README.md">README on GitHub</a>.]]></description>
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-xmc-uart-shell/blob/master/README.md">README on GitHub</a>.
+    <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
     <req_capabilities>xmc led</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="2.2.1" req_capabilities_per_version="bsp_gen2">
@@ -1690,7 +1699,8 @@
     <id>mtb-example-xmc-uart-dma</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-xmc-uart-dma</uri>
     <description><![CDATA[This example demonstrates how to stream data using DMA via UART based on Universal Serial Interface Channel (USIC) to an external terminal.
-    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-xmc-uart-dma/blob/master/README.md">README on GitHub</a>.]]></description>
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-xmc-uart-dma/blob/master/README.md">README on GitHub</a>.
+    <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
     <req_capabilities>xmc dma</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="2.2.1" req_capabilities_per_version="bsp_gen2">
@@ -2060,6 +2070,24 @@
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,mtb-flow,ml,nn,profiler">
+    <name>Machine Learning Neural Network Profiler</name>
+    <id>mtb-example-ml-profiler</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-ml-profiler</uri>
+    <description><![CDATA[This code example demonstrates how to run through the machine learning (ML) development flow with PSoC 6 MCU, where the end user has a pre-trained Neural Network (NN) model, which can be profiled and validated at the PC and target device.
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-ml-profiler/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>adc bt comp cyw43xxx dma i2c led lptimer mcu_gp memory memory_qspi nor_flash psoc6 qspi smart_io spi switch uart wifi</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.2.3" tools_max_version="2.2.3" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.3" tools_max_version="2.2.3" req_capabilities_per_version="bsp_gen2">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
       </version>
     </versions>
   </app>
