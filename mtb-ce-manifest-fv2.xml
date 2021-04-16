@@ -2406,4 +2406,40 @@
       </version>
     </versions>
   </app>
+  <app keywords="psoc6,mtb-flow,littlefs,filesystem,file,system,nor-flash,sd-card">
+    <name>Littlefs Filesystem</name>
+    <id>mtb-example-psoc6-filesystem-littlefs-freertos</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-filesystem-littlefs-freertos</uri>
+    <description><![CDATA[This example shows how to perform file I/O operations using the <a href="https://github.com/littlefs-project/littlefs">littlefs</a> filesystem API on storage devices such as SD card and NOR flash. This example uses the <a href="https://github.com/cypresssemiconductorco/mtb-littlefs">mtb-littlefs</a> library that implements the block device drivers for use with littlefs.
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-psoc6-filesystem-littlefs-freertos/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>psoc6 qspi nor_flash switch</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,mtb-flow,segger,emfile,FAT,filesystem,file,system,nor-flash,sd-card">
+    <name>emFile Filesystem</name>
+    <id>mtb-example-psoc6-filesystem-emfile-freertos</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-filesystem-emfile-freertos</uri>
+    <description><![CDATA[This example shows how to create a FAT filesystem on storage devices such as SD card and NOR flash using the SEGGER emFile library.
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-psoc6-filesystem-emfile-freertos/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>psoc6 qspi nor_flash switch</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
 </apps>
