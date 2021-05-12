@@ -2474,9 +2474,13 @@
     <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-ml-profiler/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>adc bt comp cyw43xxx dma i2c led lptimer mcu_gp memory memory_qspi nor_flash psoc6 qspi smart_io spi switch uart wifi</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="2.2.3" tools_max_version="2.2.3" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.1" req_capabilities_per_version="bsp_gen2">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.3.1" req_capabilities_per_version="bsp_gen2">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="2.2.3" tools_max_version="2.2.3" req_capabilities_per_version="bsp_gen2">
         <num>1.0.0 release</num>
@@ -2587,6 +2591,24 @@
         <commit>latest-v1.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,machine-learning,ml,bmx160,gesture,">
+    <name>Machine Learning Gesture Classification</name>
+    <id>mtb-example-ml-gesture-classification</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-ml-gesture-classification</uri>
+    <description><![CDATA[This code example demonstrates how to perform gesture classification based on motion sensor (accelerometer and gyroscope) data. The code example comes with a pre-trained model that classifies the following gestures: circle, square, and side-to-side.
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-ml-gesture-classification/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>psoc6 spi arduino</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.3.1" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.3.1" req_capabilities_per_version="bsp_gen2">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
