@@ -78,6 +78,10 @@
         <commit>latest-v2.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
@@ -282,6 +286,10 @@
         <commit>latest-v2.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
@@ -300,6 +308,10 @@
         <commit>latest-v2.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
@@ -316,6 +328,10 @@
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>2.0.0 release</num>
@@ -2148,6 +2164,24 @@
       </version>
     </versions>
   </app>
+  <app keywords="psoc6,usb,suspend,resume,mtb-flow">
+    <name>USB Suspend and Resume</name>
+    <id>mtb-example-psoc6-usb-suspend</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-usb-suspend</uri>
+    <description><![CDATA[This code example demonstrates how PSoC 6 USB detects a suspend condition, enters a low-power state, and restores normal operation when USB activity is resumed.
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-psoc6-usb-suspend/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>psoc6 led usb_device</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
   <app keywords="psoc6,button,led,ble,findme,FMP,GAP peripheral,mtb-flow">
     <name>BLE Find Me</name>
     <id>mtb-example-psoc6-ble-findme</id>
@@ -2349,6 +2383,10 @@
         <commit>latest-v2.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
@@ -2365,6 +2403,10 @@
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>2.0.0 release</num>
@@ -2439,6 +2481,10 @@
         <commit>latest-v1.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="2.2.1" req_capabilities_per_version="bsp_gen2">
+        <num>1.2.0 release</num>
+        <commit>release-v1.2.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.1" req_capabilities_per_version="bsp_gen2">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
@@ -2455,6 +2501,24 @@
     <description><![CDATA[This code example demonstrates emulation of EEPROM behavior in flash memory of PSoC 6 MCU using emeeprom middleware.
     <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-psoc6-emulated-eeprom/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,mcuboot,bootloader,mtb-flow">
+    <name>MCUboot-Based Basic Bootloader</name>
+    <id>mtb-example-psoc6-mcuboot-basic</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-mcuboot-basic</uri>
+    <description><![CDATA[This code example demonstrates building a simple bootloader application for PSoC 62/63 MCUs using the open-source library - MCUboot.
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-psoc6-mcuboot-basic/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>psoc6 std_crypto led qspi nor_flash</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 2.X release</num>
@@ -2485,24 +2549,6 @@
       <version flow_version="2.0" tools_min_version="2.2.3" tools_max_version="2.2.3" req_capabilities_per_version="bsp_gen2">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
-      </version>
-    </versions>
-  </app>
-  <app keywords="psoc6,mcuboot,bootloader,mtb-flow">
-    <name>MCUboot-Based Basic Bootloader</name>
-    <id>mtb-example-psoc6-mcuboot-basic</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-mcuboot-basic</uri>
-    <description><![CDATA[This code example demonstrates building a simple bootloader application for PSoC 62/63 MCUs using the open-source library - MCUboot.
-    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-psoc6-mcuboot-basic/blob/master/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>psoc6 std_crypto led qspi nor_flash</req_capabilities>
-    <versions>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
-        <num>Latest 2.X release</num>
-        <commit>latest-v2.X</commit>
-      </version>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
-        <num>2.0.0 release</num>
-        <commit>release-v2.0.0</commit>
       </version>
     </versions>
   </app>
@@ -2560,19 +2606,19 @@
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,usb,suspend,resume,mtb-flow">
-    <name>USB Suspend and Resume</name>
-    <id>mtb-example-psoc6-usb-suspend</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-usb-suspend</uri>
-    <description><![CDATA[This code example demonstrates how PSoC 6 USB detects a suspend condition, enters a low-power state, and restores normal operation when USB activity is resumed.
-    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-psoc6-usb-suspend/blob/master/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>psoc6 led usb_device</req_capabilities>
+  <app keywords="psoc6,machine-learning,ml,bmx160,gesture,motion sensor,mtb-flow">
+    <name>Machine Learning Gesture Classification</name>
+    <id>mtb-example-ml-gesture-classification</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-ml-gesture-classification</uri>
+    <description><![CDATA[This code example demonstrates how to perform gesture classification based on motion sensor (accelerometer and gyroscope) data. The code example comes with a pre-trained model that classifies the following gestures: circle, square, and side-to-side.
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-ml-gesture-classification/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>psoc6 spi arduino</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.1" req_capabilities_per_version="bsp_gen2">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.1" req_capabilities_per_version="bsp_gen2">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -2591,24 +2637,6 @@
         <commit>latest-v1.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
-        <num>1.0.0 release</num>
-        <commit>release-v1.0.0</commit>
-      </version>
-    </versions>
-  </app>
-  <app keywords="psoc6,machine-learning,ml,bmx160,gesture,">
-    <name>Machine Learning Gesture Classification</name>
-    <id>mtb-example-ml-gesture-classification</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-ml-gesture-classification</uri>
-    <description><![CDATA[This code example demonstrates how to perform gesture classification based on motion sensor (accelerometer and gyroscope) data. The code example comes with a pre-trained model that classifies the following gestures: circle, square, and side-to-side.
-    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-ml-gesture-classification/blob/master/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>psoc6 spi arduino</req_capabilities>
-    <versions>
-      <version flow_version="2.0" tools_min_version="2.3.1" req_capabilities_per_version="bsp_gen2">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
-      </version>
-      <version flow_version="2.0" tools_min_version="2.3.1" req_capabilities_per_version="bsp_gen2">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
