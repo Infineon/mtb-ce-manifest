@@ -1,5 +1,108 @@
 <apps>
   <app>
+    <name>Empty PSoC4 App</name>
+    <id>mtb-example-psoc4-empty-app</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc4-empty-app</uri>
+    <description>This empty application provides a template for creating applications using PSoC 4 devices.</description>
+    <req_capabilities>psoc4</req_capabilities>
+    <versions>
+      <version req_capabilities_per_version="bsp_gen1">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version req_capabilities_per_version="bsp_gen1">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app>
+    <name>I2C Slave Using Callbacks</name>
+    <id>mtb-example-psoc4-i2c-slave-callback</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc4-i2c-slave-callback</uri>
+    <description>This example demonstrates the operation of the I2C block for PSoC 4 in Slave mode using callbacks.</description>
+    <req_capabilities>psoc4 led</req_capabilities>
+    <versions>
+      <version req_capabilities_per_version="bsp_gen1">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version req_capabilities_per_version="bsp_gen1">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app>
+    <name>I2C Master EzI2C Slave</name>
+    <id>mtb-example-psoc4-i2c-master-slave</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc4-i2c-master-slave</uri>
+    <description>This example demonstrates the operation of I2C resource for PSoC 4 in Master mode with an EzI2C slave.</description>
+    <req_capabilities>psoc4 led</req_capabilities>
+    <versions>
+      <version req_capabilities_per_version="bsp_gen1">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version req_capabilities_per_version="bsp_gen1">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app>
+    <name>Periodic Interrupt Using TCPWM</name>
+    <id>mtb-example-psoc4-tcpwm-interrupt</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc4-tcpwm-interrupt</uri>
+    <description>This example uses the TCPWM Component in the Timer/Counter mode
+    to generate a periodic interrupt. An LED toggles whenever the interrupt occurs.</description>
+    <req_capabilities>psoc4 led</req_capabilities>
+    <versions>
+      <version req_capabilities_per_version="bsp_gen1">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version req_capabilities_per_version="bsp_gen1">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app>
+    <name>CapSense CSX Button Tuning</name>
+    <id>mtb-example-psoc4-capsense-csx-button-tuning</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc4-capsense-csx-button-tuning</uri>
+    <description>This code example demonstrates how to manually tune a mutual capacitance (CSX)-based button widget in PSoC 4 devices using CapSense Tuner GUI.</description>
+    <req_capabilities>psoc4 capsense_button</req_capabilities>
+    <versions>
+      <version req_capabilities_per_version="bsp_gen1">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version req_capabilities_per_version="bsp_gen1">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app>
+    <name>GPIO Interrupt</name>
+    <id>mtb-example-psoc4-gpio-interrupt</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc4-gpio-interrupt</uri>
+    <description>This example demonstrates the use of a GPIO configured as an input pin to generate interrupts on PSoC 4. The GPIO signal interrupts the CPU and executes a user-defined Interrupt Service Routine (ISR).</description>
+    <req_capabilities>psoc4 led</req_capabilities>
+    <versions>
+      <version req_capabilities_per_version="bsp_gen1">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version req_capabilities_per_version="bsp_gen1">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app>
     <name>Empty PSoC6 App</name>
     <id>mtb-example-psoc6-empty-app-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-empty-app</uri>
@@ -137,21 +240,21 @@
   </app>
   <app>
     <name>PWM Square Wave</name>
-    <id>mtb-example-psoc6-pwm-square-wave</id>
+    <id>mtb-example-psoc6-pwm-square-wave-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-pwm-square-wave</uri>
     <description><![CDATA[This code example generates a square wave using the PWM driver. An LED connected to the PWM output pin blinks at 2 Hz.
     <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-psoc6-pwm-square-wave/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 led</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -255,21 +358,21 @@
   </app>
   <app>
     <name>Cryptography AES Demonstration</name>
-    <id>mtb-example-psoc6-crypto-aes</id>
+    <id>mtb-example-psoc6-crypto-aes-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-crypto-aes</uri>
     <description><![CDATA[This code example encrypts and decrypts user input data using the AES algorithm using a 128-bit key. The encrypted and decrypted data are displayed on a UART terminal emulator.
     <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-psoc6-crypto-aes/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 std_crypto</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -591,21 +694,21 @@
   </app>
   <app>
     <name>Watchdog Timer</name>
-    <id>mtb-example-psoc6-wdt</id>
+    <id>mtb-example-psoc6-wdt-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-wdt</uri>
     <description><![CDATA[This example demonstrates the Watchdog Timer (WDT) in PSoC 6 MCU.
     <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-psoc6-wdt/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 led</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -613,21 +716,21 @@
   </app>
   <app>
     <name>Multi-Counter Watchdog Timer</name>
-    <id>mtb-example-psoc6-mcwdt</id>
+    <id>mtb-example-psoc6-mcwdt-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-mcwdt</uri>
     <description><![CDATA[This example explains how to setup a 32-bit free-running counter using two 16-bit counters of Multi-Counter Watchdog Timer (MCWDT) in PSoC 6 MCU.
     <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-psoc6-mcwdt/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 led</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -1540,92 +1643,6 @@
     </versions>
   </app>
   <app>
-    <name>Empty PSoC4 App</name>
-    <id>mtb-example-psoc4-empty-app</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc4-empty-app</uri>
-    <description>This empty application provides a template for creating applications using PSoC 4 devices.</description>
-    <req_capabilities>psoc4</req_capabilities>
-    <versions>
-      <version req_capabilities_per_version="bsp_gen1">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
-      </version>
-      <version req_capabilities_per_version="bsp_gen1">
-        <num>1.0.0 release</num>
-        <commit>release-v1.0.0</commit>
-      </version>
-    </versions>
-  </app>
-  <app>
-    <name>I2C Slave Using Callbacks</name>
-    <id>mtb-example-psoc4-i2c-slave-callback</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc4-i2c-slave-callback</uri>
-    <description>This example demonstrates the operation of the I2C block for PSoC 4 in Slave mode using callbacks.</description>
-    <req_capabilities>psoc4 led</req_capabilities>
-    <versions>
-      <version req_capabilities_per_version="bsp_gen1">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
-      </version>
-      <version req_capabilities_per_version="bsp_gen1">
-        <num>1.0.0 release</num>
-        <commit>release-v1.0.0</commit>
-      </version>
-    </versions>
-  </app>
-  <app>
-    <name>I2C Master EzI2C Slave</name>
-    <id>mtb-example-psoc4-i2c-master-slave</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc4-i2c-master-slave</uri>
-    <description>This example demonstrates the operation of I2C resource for PSoC 4 in Master mode with an EzI2C slave.</description>
-    <req_capabilities>psoc4 led</req_capabilities>
-    <versions>
-      <version req_capabilities_per_version="bsp_gen1">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
-      </version>
-      <version req_capabilities_per_version="bsp_gen1">
-        <num>1.0.0 release</num>
-        <commit>release-v1.0.0</commit>
-      </version>
-    </versions>
-  </app>
-  <app>
-    <name>Periodic Interrupt Using TCPWM</name>
-    <id>mtb-example-psoc4-tcpwm-interrupt</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc4-tcpwm-interrupt</uri>
-    <description>This example uses the TCPWM Component in the Timer/Counter mode
-    to generate a periodic interrupt. An LED toggles whenever the interrupt occurs.</description>
-    <req_capabilities>psoc4 led</req_capabilities>
-    <versions>
-      <version req_capabilities_per_version="bsp_gen1">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
-      </version>
-      <version req_capabilities_per_version="bsp_gen1">
-        <num>1.0.0 release</num>
-        <commit>release-v1.0.0</commit>
-      </version>
-    </versions>
-  </app>
-  <app>
-    <name>CapSense CSX Button Tuning</name>
-    <id>mtb-example-psoc4-capsense-csx-button-tuning</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc4-capsense-csx-button-tuning</uri>
-    <description>This code example demonstrates how to manually tune a mutual capacitance (CSX)-based button widget in PSoC 4 devices using CapSense Tuner GUI.</description>
-    <req_capabilities>psoc4 capsense_button</req_capabilities>
-    <versions>
-      <version req_capabilities_per_version="bsp_gen1">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
-      </version>
-      <version req_capabilities_per_version="bsp_gen1">
-        <num>1.0.0 release</num>
-        <commit>release-v1.0.0</commit>
-      </version>
-    </versions>
-  </app>
-  <app>
     <name>CapSense Tuning Over BLE - Server</name>
     <id>mtb-example-psoc6-ble-capsense-tuner-server-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-ble-capsense-tuner-server</uri>
@@ -1689,9 +1706,10 @@
   </app>
   <app>
     <name>USB Mass Storage File System</name>
-    <id>mtb-example-psoc6-usb-msc-file-system-0</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-usb-msc-file-system</uri>
-    <description>This example demonstrates how to configure the USB block in a PSoC 6 MCU device as a Mass Storage (MSC) device and run a file system (FatFs) through an external memory (microSD). This example uses FreeRTOS.</description>
+    <id>mtb-example-psoc6-usb-msc-filesystem-0</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-usb-msc-filesystem-freertos</uri>
+    <description><![CDATA[This example demonstrates how to configure the USB block in a PSoC 6 MCU device as a Mass Storage (MSC) device and run a file system (FatFs) through an external memory (microSD). This example uses FreeRTOS.
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-psoc6-usb-msc-filesystem-freertos/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 std_crypto usb_device switch led pdm sdhc</req_capabilities>
     <versions>
       <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
@@ -1699,23 +1717,6 @@
         <commit>latest-v1.X</commit>
       </version>
       <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
-        <num>1.0.0 release</num>
-        <commit>release-v1.0.0</commit>
-      </version>
-    </versions>
-  </app>
-  <app>
-    <name>GPIO Interrupt</name>
-    <id>mtb-example-psoc4-gpio-interrupt</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc4-gpio-interrupt</uri>
-    <description>This example demonstrates the use of a GPIO configured as an input pin to generate interrupts on PSoC 4. The GPIO signal interrupts the CPU and executes a user-defined Interrupt Service Routine (ISR).</description>
-    <req_capabilities>psoc4 led</req_capabilities>
-    <versions>
-      <version req_capabilities_per_version="bsp_gen1">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
-      </version>
-      <version req_capabilities_per_version="bsp_gen1">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
