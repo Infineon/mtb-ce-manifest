@@ -955,7 +955,7 @@
     <name>AnyCloud BLE Battery Server</name>
     <id>mtb-example-anycloud-ble-battery-server</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-ble-battery-server</uri>
-    <description><![CDATA[This code example demonstrates the implementation of a simple BLE Battery Service.
+    <description><![CDATA[This code example demonstrates the implementation of a simple Bluetooth LE Battery Service. The Battery Service exposes the Battery Level of the device and comes with support for OTA update over Bluetooth LE.
     <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-anycloud-ble-battery-server/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 bt led</req_capabilities>
     <versions>
