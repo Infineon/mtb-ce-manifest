@@ -2754,4 +2754,40 @@
       </version>
     </versions>
   </app>
+  <app keywords="psoc4,msc,capsense,csd,touchpad,tuning,mtb-flow">
+    <name>MSC CapSense CSD Touchpad Tuning</name>
+    <id>mtb-example-psoc4-msc-capsense-csd-touchpad-tuning</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc4-msc-capsense-csd-touchpad-tuning</uri>
+    <description><![CDATA[This code example demonstrates how to manually tune a self capacitance-based touchpad widget in PSoC 4 devices using the Multi Sense Converter (MSC) CSD-RM sensing technique and CapSense Tuner GUI. 
+<br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-psoc4-msc-capsense-csd-touchpad-tuning/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>psoc4 led msc_touchpad</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc4,msc,capsense,csx,touchpad,tuning,mtb-flow">
+    <name>MSC Multi-Touch CSX Touchpad Tuning</name>
+    <id>mtb-example-psoc4-msc-capsense-csx-touchpad-tuning</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc4-msc-capsense-csx-touchpad-tuning</uri>
+    <description><![CDATA[This code example demonstrates how to manually tune a mutual capacitance-based touchpad widget in PSoC 4 devices using the Multi Sense Converter (MSC) CSX-RM sensing technique and CapSense Tuner GUI. 
+<br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-psoc4-msc-capsense-csx-touchpad-tuning/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>psoc4 led msc_touchpad</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
 </apps>
