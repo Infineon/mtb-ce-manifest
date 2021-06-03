@@ -653,9 +653,13 @@
     <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-psoc6-ble-capsense-tuner-server/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 led ble capsense_button capsense_linear_slider</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+	  <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>2.0.0 release</num>
@@ -671,9 +675,13 @@
     <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-psoc6-ble-capsense-tuner-client/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 led ble</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+	  <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>2.0.0 release</num>
@@ -2790,4 +2798,23 @@
       </version>
     </versions>
   </app>
+  <app keywords="btsdk,mesh,ble,sensors,sensor hub,als,ambient,light,temperature,thermistor,i2c,adc,mtb-flow">
+    <name>Mesh SensorHub</name>
+    <id>mtb-example-btsdk-mesh-sensorhub</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-btsdk-mesh-sensorhub</uri>
+    <description><![CDATA[This example demonstrates the use of a Bluetooth Low Energy Mesh sensor model with Ambient Light and Temperature sensor interfaced with AIROC&#8482; CYW20835 Bluetooth&#174; LE system-on-chip using ModusToolbox&#8482; software.
+    <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-btsdk-mesh-sensorhub/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>mesh fw2 led2x ncu15wf104 button MAX44009EDT</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+
 </apps>
