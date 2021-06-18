@@ -1054,7 +1054,7 @@
     </versions>
   </app>
   <app keywords="mtb-flow,psoc6,tester,anycloud,wifi,wlan,certification,cert,tool">
-    <name>AnyCloud Tester Wi-Fi Cert Tool</name>
+    <name>AnyCloud Tester - Wi-Fi Cert Tool</name>
     <id>mtb-anycloud-wifi-cert-tester</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-anycloud-wifi-cert-tester</uri>
     <description><![CDATA[This AnyCloud Tester is a Wi-Fi Cert tool used for Wi-Fi 11n PSK/Enterprise Security certification for PSoC 6 MCU with 2 MB flash and CYW43xxx connectivity devices.
