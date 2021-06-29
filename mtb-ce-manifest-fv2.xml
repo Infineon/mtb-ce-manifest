@@ -223,11 +223,19 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-uart-transmit-receive-dma/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 led</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="2.2.0" tools_max_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.0" tools_max_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>2.3.0 release</num>
+        <commit>release-v2.3.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>2.2.0 release</num>
+        <commit>release-v2.2.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
       </version>
@@ -1445,7 +1453,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,i2s,audio,mtb-flow,smartio,spi">
+  <app keywords="psoc6,i2s,audio,mtb-flow,smartio,spi" req_capabilities_v2="[cy8ckit_062_ble, cy8ckit_062_wifi_bt, cy8ckit_062s2_43012, cy8ckit_064b0s2_4343w, cy8cproto_062_4343w, cy8cproto_063_ble]">
     <name>I2S Master using Smart IO and SPI</name>
     <id>mtb-example-psoc6-smartio-i2s</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-smartio-i2s</uri>
@@ -2732,7 +2740,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,mcuboot,bootloader,mtb-flow">
+  <app keywords="psoc6,mcuboot,bootloader,mtb-flow" req_capabilities_v2="[flash_2048k, flash_1024k, flash_512k]">
     <name>MCUboot-Based Basic Bootloader</name>
     <id>mtb-example-psoc6-mcuboot-basic</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-mcuboot-basic</uri>
