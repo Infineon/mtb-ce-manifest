@@ -524,6 +524,10 @@
         <commit>latest-v2.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>2.2.0 release</num>
+        <commit>release-v2.2.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
       </version>
@@ -995,7 +999,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,sgpio,target,mtb-flow,smartio,spi">
+  <app keywords="psoc6,sgpio,target,mtb-flow,smartio,spi" req_capabilities_v2="[cy8ckit_062_ble, cy8ckit_062_wifi_bt, cy8ckit_062s2_43012, cy8ckit_064b0s2_4343w, cy8cproto_062_4343w, cy8cproto_063_ble, cysbsyskit_01, cysbsyskit_dev_01]">
     <name>SGPIO Target Interface</name>
     <id>mtb-example-psoc6-smartio-sgpio-target</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-smartio-sgpio-target</uri>
@@ -3552,7 +3556,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,emwin,display,tft,freertos,mtb-flow">
+  <app keywords="psoc6,emwin,display,tft,freertos,mtb-flow" req_capabilities_v2="[cy8ckit_062_ble, cy8ckit_062_wifi_bt, cy8ckit_062s2_43012, cy8ckit_064b0s2_4343w, cyw9p62s1_43438evb_01]">
     <name>emWin TFT FreeRTOS</name>
     <id>mtb-example-psoc6-emwin-tft-freertos</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-emwin-tft-freertos</uri>
