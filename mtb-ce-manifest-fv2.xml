@@ -625,6 +625,24 @@
       </version>
     </versions>
   </app>
+  <app keywords="psoc6,mtb-flow,ble,bluetooth,anycloud,ess,4343w,43012">
+    <name>AnyCloud BLE Environmental Sensing Service</name>
+    <id>mtb-example-anycloud-ble-ess</id>
+    <uri>https://github.com/Infineon/mtb-example-anycloud-ble-ess</uri>
+    <description><![CDATA[This code example demonstrates the implementation of a simple BLE Environmental Sensing Profile. It shows how to send environmental parameters like temperature by sending simulated temperature values over the BLE connection using the Cypress WiFi-BT combo SoCs supported in AnyCloud-SDK.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-anycloud-ble-ess/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>psoc6 bt led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.3.1" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 2.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.3.1" req_capabilities_per_version="bsp_gen2">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
+    </versions>
+  </app>
   <app keywords="psoc6,mtb-flow,ble,bluetooth,anycloud,beacon,eddystone,multi-adv,4343w,43012">
     <name>AnyCloud BLE Multi Beacon</name>
     <id>mtb-example-anycloud-ble-multi-beacon</id>
