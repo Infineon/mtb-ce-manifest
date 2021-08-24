@@ -875,7 +875,7 @@
     </versions>
   </app>
   <app keywords="btsdk,sensors,sensor hub,motion,accelerometer,gyro,compass,temperature,thermistor,magnetic,3d magnetic,i2c,adc,mtb-flow">
-    <name>Bluetooth LE SensorHub</name>
+    <name>LE SensorHub</name>
     <id>mtb-example-btsdk-sensorhub</id>
     <category>Bluetooth</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-btsdk-sensorhub</uri>
@@ -3737,7 +3737,7 @@
     </versions>
   </app>
   <app keywords="measurement,ble,client,server,throughput,btsdk,mtb-flow">
-  <name>Bluetooth LE Throughput Measurement</name>
+  <name>LE Throughput Measurement</name>
   <id>mtb-example-btsdk-ble-throughput</id>
   <category>Bluetooth</category>
   <uri>https://github.com/cypresssemiconductorco/mtb-example-btsdk-ble-throughput</uri>
