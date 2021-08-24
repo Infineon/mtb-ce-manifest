@@ -812,6 +812,7 @@
   <app keywords="btsdk,spi,cyw208xx,data-logger,mtb-flow">
     <name>CYW208xx Data logger</name>
     <id>mtb-example-btsdk-cyw208xx-data-logger</id>
+    <category>Peripherals</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-btsdk-cyw208xx-data-logger</uri>
     <description><![CDATA[This code example includes two applications that demonstrate the operation of multiple Serial Peripheral Interface (SPI) interfaces using the CYW208xx Bluetooth SoC.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btsdk-cyw208xx-data-logger/blob/master/README.md">README on GitHub</a>.]]></description>
@@ -830,6 +831,7 @@
   <app keywords="btsdk,privacy,bonding,mtb-flow">
     <name>LE Peripheral Privacy</name>
     <id>mtb-example-btsdk-peripheral-privacy</id>
+    <category>Bluetooth</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-btsdk-peripheral-privacy</uri>
     <description><![CDATA[This code example demonstrates the privacy features available to users in Bluetooth 5.0 and above.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btsdk-peripheral-privacy/blob/master/README.md">README on GitHub</a>.]]></description>
@@ -852,6 +854,7 @@
   <app keywords="btsdk,spi,cyw20719b2,mtb-flow">
     <name>CYW20719B2 SPI</name>
     <id>mtb-example-btsdk-cyw20719b2-spi</id>
+    <category>Peripherals</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-btsdk-cyw20719b2-spi</uri>
     <description><![CDATA[This code example demonstrates the SPI interface using CYW20719B2 boards.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btsdk-cyw20719b2-spi/blob/master/README.md">README on GitHub</a>.]]></description>
@@ -874,6 +877,7 @@
   <app keywords="btsdk,sensors,sensor hub,motion,accelerometer,gyro,compass,temperature,thermistor,magnetic,3d magnetic,i2c,adc,mtb-flow">
     <name>Bluetooth LE SensorHub</name>
     <id>mtb-example-btsdk-sensorhub</id>
+    <category>Bluetooth</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-btsdk-sensorhub</uri>
     <description><![CDATA[This code example demonstrates the interfacing of Multiple sensors, Motion, Temperature, and 3D magnetic sensor and sends the data over GATT custom service.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btsdk-sensorhub/blob/master/README.md">README on GitHub</a>.]]></description>
@@ -896,6 +900,7 @@
   <app keywords="GPIO,PWM,btsdk,mtb-flow">
     <name>PWM GPIO</name>
     <id>mtb-example-btsdk-pwm-gpio</id>
+    <category>Peripherals</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-btsdk-pwm-gpio</uri>
     <description><![CDATA[This example demonstrates the configuration of PWM (pulse width modulation) to control the brightness of an LED, and configuration of GPIO to toggle an LED ON and OFF.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btsdk-pwm-gpio/blob/master/README.md">README on GitHub</a>.]]></description>
@@ -3677,6 +3682,7 @@
   <app keywords="btsdk,mesh,ble,sensors,sensor hub,als,ambient,light,temperature,thermistor,i2c,adc,mtb-flow">
     <name>Mesh SensorHub</name>
     <id>mtb-example-btsdk-mesh-sensorhub</id>
+    <category>Bluetooth</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-btsdk-mesh-sensorhub</uri>
     <description><![CDATA[This example demonstrates the use of a Bluetooth Low Energy Mesh sensor model with Ambient Light and Temperature sensor interfaced with AIROC&#8482; CYW20835 Bluetooth&#174; LE system-on-chip using ModusToolbox&#8482; software.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btsdk-mesh-sensorhub/blob/master/README.md">README on GitHub</a>.]]></description>
@@ -3733,6 +3739,7 @@
   <app keywords="measurement,ble,client,server,throughput,btsdk,mtb-flow">
   <name>Bluetooth LE Throughput Measurement</name>
   <id>mtb-example-btsdk-ble-throughput</id>
+  <category>Bluetooth</category>
   <uri>https://github.com/cypresssemiconductorco/mtb-example-btsdk-ble-throughput</uri>
   <description><![CDATA[This code example demonstrates the maximum Bluetooth&#174; LE throughput (using GATT layer notifications and write command) that can be obtained with Infineon AIROC&#8482; CYW20xxx Bluetooth&#174; devices.
   <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btsdk-ble-throughput/blob/master/README.md">README on GitHub</a>.]]></description>
