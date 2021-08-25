@@ -1482,17 +1482,17 @@
   </app>
   <app>
     <name>AnyCloud BLE Multi Beacon</name>
-    <id>mtb-example-anycloud-ble-multi-beacon</id>
+    <id>mtb-example-anycloud-ble-multi-beacon-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-ble-multi-beacon</uri>
     <description><![CDATA[This code example demonstrates the implementation of a beacon which advertises multiple Eddystone ADV data.
     <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-anycloud-ble-multi-beacon/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 bt</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -1500,17 +1500,17 @@
   </app>
   <app>
     <name>AnyCloud BLE Battery Server</name>
-    <id>mtb-example-anycloud-ble-battery-server</id>
+    <id>mtb-example-anycloud-ble-battery-server-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-ble-battery-server</uri>
     <description><![CDATA[This code example demonstrates the implementation of a simple BLE Battery Service.
     <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-anycloud-ble-battery-server/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 bt led</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -1518,17 +1518,17 @@
   </app>
   <app>
     <name>AnyCloud BLE Environmental Sensing Service</name>
-    <id>mtb-example-anycloud-ble-ess</id>
+    <id>mtb-example-anycloud-ble-ess-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-ble-ess</uri>
     <description><![CDATA[This code example demonstrates the implementation of a simple BLE Environmental Sensing Profile. It shows how to send environmental parameters like temperature by sending simulated temperature values over the BLE connection using the Cypress WiFi-BT combo SoCs supported in AnyCloud-SDK.
     <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-anycloud-ble-ess/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 bt led</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -1536,17 +1536,17 @@
   </app>
   <app>
     <name>AnyCloud Wi-Fi Onboarding Using BLE</name>
-    <id>mtb-example-anycloud-ble-wifi-onboarding</id>
+    <id>mtb-example-anycloud-ble-wifi-onboarding-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-ble-wifi-onboarding</uri>
     <description><![CDATA[This code example demonstrates WiFi Onboarding using BLE.
     <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-anycloud-ble-wifi-onboarding/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 wifi bt anycloud</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -1554,17 +1554,17 @@
   </app>
   <app>
     <name>AnyCloud BLE CapSense Buttons and Slider</name>
-    <id>mtb-example-anycloud-ble-capsense-buttons-slider</id>
+    <id>mtb-example-anycloud-ble-capsense-buttons-slider-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-ble-capsense-buttons-slider</uri>
     <description><![CDATA[This code example demonstrates the CapSense implementation using BLE Custom Service.
     <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-anycloud-ble-capsense-buttons-slider/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 bt capsense_button capsense_linear_slider led</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -1572,17 +1572,17 @@
   </app>
   <app>
     <name>AnyCloud BLE CTS Client</name>
-    <id>mtb-example-anycloud-ble-cts-client</id>
+    <id>mtb-example-anycloud-ble-cts-client-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-ble-cts-client</uri>
     <description><![CDATA[This code example demonstrates the implementation of a simple BLE GAP Peripheral - GATT Client with Current Time Service.
     <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-anycloud-ble-cts-client/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 bt led</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -1590,17 +1590,17 @@
   </app>
   <app>
     <name>AnyCloud BLE CTS Server</name>
-    <id>mtb-example-anycloud-ble-cts-server</id>
+    <id>mtb-example-anycloud-ble-cts-server-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-ble-cts-server</uri>
     <description><![CDATA[This code example demonstrates the implementation of a simple BLE GAP Central - GATT Server with Current Time Service.
     <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-anycloud-ble-cts-server/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 bt led</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
