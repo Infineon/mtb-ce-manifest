@@ -3171,6 +3171,26 @@
       </version>
     </versions>
   </app>
+  <app keywords="mtb-flow,psoc6,anycloud,http,softap,tft,server,wifi,AP+STA concurrent mode,web server">
+    <name>AnyCloud Wi-Fi Web Server</name>
+    <id>mtb-example-anycloud-wifi-web-server</id>
+    <uri>https://github.com/Infineon/mtb-example-anycloud-wifi-web-server</uri>
+    <description><![CDATA[This code example demonstrates Wi-Fi provisioning via a SoftAP interface and setting up a web server using PSoC&#8482; 6 MCU with AIROC&#8482; CYW43xxx Wi-Fi & Bluetooth&#174; combo chips. In this example, the PSoC&#8482; 6 MCU device is configured in AP+STA concurrent mode. It starts an HTTP web server while in AP+STA concurrent mode and hosts an HTTP web page. The kit can be connected to the desired Wi-Fi network by entering the credentials via this web page. After connecting to the specified Wi-Fi network, the device is reconfigured to start a new HTTP web server. The new web server hosts a web page that displays the device data containing ambient light sensor (ALS) value and provides a button to change the brightness of an LED.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-anycloud-wifi-web-server/blob/master/README.md">README on GitHub</a>.
+    <br><br><b>License Disclaimer:</b><br><br>
+    This code example makes use of the lwIP open-source TCP/IP stack and the Mbed TLS open-source TLS/SSL library which has cryptographic capabilities. Creating a project from this template will cause lwIP and Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the lwIP &amp; Mbed TLS licenses and regional use restrictions (including abiding by all applicable export control laws).]]></description>
+    <req_capabilities>psoc6 cyw43xxx led capsense_button capsense_linear_slider wifi anycloud</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
   <app keywords="mtb-flow,psoc6,anycloud,tcp,secure,client,wifi">
     <name>AnyCloud secure TCP client</name>
     <id>mtb-example-anycloud-secure-tcp-client</id>
@@ -3385,7 +3405,7 @@
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-dual-cpu-protection-units-freertos</uri>
     <description><![CDATA[This example demonstrates how to use the protection units to isolate the CM0+ CPU memory from CM4.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-dual-cpu-protection-units-freertos/blob/master/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>psoc6 std_crypto</req_capabilities>
+    <req_capabilities>psoc6 multi_core</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 1.X release</num>
@@ -3464,6 +3484,42 @@
     <description><![CDATA[This code example demonstrates CapSense functionality using a 5-segment CapSense slider and two CapSense buttons along with USB-C attach detection and USB Power Delivery contract negotiation using Power Delivery Microcontroller Generation 1 (PMG1) devices.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-usbpd-sink-capsense/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>usbpd pmg1 capsense led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="pmg1,usb,mtb-flow,hid,mouse">
+    <name>USB HID Mouse</name>
+    <id>mtb-example-pmg1-usb-hid-mouse</id>
+    <uri>https://github.com/Infineon/mtb-example-pmg1-usb-hid-mouse</uri>
+    <description><![CDATA[This code example demonstrates how to configure the USB block in a PMG1 MCU as a Human Interface Device (HID). The device enumerates as a 3-button mouse.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-usb-hid-mouse/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>pmg1 usb_device</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="pmg1,mtb-flow">
+    <name>Basic Device Firmware Upgrade</name>
+    <id>mtb-example-pmg1-dfu-basic</id>
+    <uri>https://github.com/Infineon/mtb-example-pmg1-dfu-basic</uri>
+    <description><![CDATA[This code example demonstrates Device Firmware Upgrade (DFU) with PMG1 MCU.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-dfu-basic/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>pmg1</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 1.X release</num>
