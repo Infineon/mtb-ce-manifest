@@ -3772,6 +3772,24 @@
       </version>
     </versions>
   </app>
+  <app keywords="psoc4,lin">
+    <name>LIN Slave</name>
+    <id>mtb-example-psoc4-lin-slave</id>
+    <uri>https://github.com/Infineon/mtb-example-psoc4-lin-slave</uri>
+    <description><![CDATA[This code example shows how to implement a basic LIN 2.2 slave using the LIN Middleware in PSoC 4. PSoC 4 responds to an external LIN Master's commands to either turn on the corresponding color LED on PSoC development kit or report the current LED color status.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-lin-slave/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>psoc4 lin</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.3.1" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.3.1" req_capabilities_per_version="bsp_gen2">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
   <app keywords="measurement,ble,client,server,throughput,btsdk,mtb-flow">
   <name>LE Throughput Measurement</name>
   <id>mtb-example-btsdk-ble-throughput</id>
