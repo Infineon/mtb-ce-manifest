@@ -1834,7 +1834,7 @@
   </app>
   <app>
     <name>AnyCloud MCUboot-Based Bootloader with Rollback</name>
-    <id>mtb-example-anycloud-mcuboot-rollback</id>
+    <id>mtb-example-anycloud-mcuboot-rollback-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-mcuboot-rollback</uri>
     <description><![CDATA[This code example demonstrates an MCUboot-based bootloader that can rollback to the factory application/image located in external flash. Rollback can be initiated by the user in case of unrecoverable error conditions or for the purpose of running diagnostic tests using a test image. Bootloader runs on CM0+ and the user and factory applications run on CM4.
     <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-anycloud-mcuboot-rollback/blob/master/README.md">README on GitHub</a>.
