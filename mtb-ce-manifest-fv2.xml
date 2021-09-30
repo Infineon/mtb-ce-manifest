@@ -3482,6 +3482,27 @@
       </version>
     </versions>
   </app>
+  <app keywords="mtb-flow,psoc6,wifi,anycloud,ota,mqtt,mcuboot,bootloader" req_capabilities_v2="[cy8ckit_062s2_43012, cy8cproto_062_4343w]">
+    <name>AnyCloud MCUboot-Based Bootloader with Rollback</name>
+    <id>mtb-example-anycloud-mcuboot-rollback</id>
+    <category>Wi-Fi</category>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-mcuboot-rollback</uri>
+    <description><![CDATA[This code example implements a bootloader based on MCUboot to demonstrate &#8216;Rollback&#8217; to a known good image ('factory_app_cm4') in case of unrecoverable error conditions in the current application. The bootloader can load the factory app from a known location in the external memory by directly copying it into the primary slot in the internal flash, based on user inputs during boot. The factory app can then perform the OTA to download an image over Wi-Fi and place it to the secondary slot of MCUboot.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-anycloud-mcuboot-rollback/blob/master/README.md">README on GitHub</a>.
+    <br><br><b>License Disclaimer:</b><br><br>
+    This code example makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license. <br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).]]></description>
+    <req_capabilities>psoc6 wifi cyw43xxx led std_crypto qspi nor_flash anycloud flash_2048k</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.3.1" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.3.1" req_capabilities_per_version="bsp_gen2">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
+    </versions>
+  </app>
   <app keywords="psoc6,usb,audio,freertos,mtb-flow">
     <name>USB Audio Device FreeRTOS</name>
     <id>mtb-example-psoc6-usb-audio-device-freertos</id>
