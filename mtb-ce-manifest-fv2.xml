@@ -4015,4 +4015,34 @@
     </version>
   </versions>
   </app>
+    <app keywords="psoc6,audio,voice,picovoice,wake word,intent,speech,demo">
+    <name>Picovoice E2E Voice Recognition Demo</name>
+    <category>Peripherals</category> 
+    <id>picovoice-demo-psoc6</id>
+    <uri>https://github.com/Picovoice/picovoice-demo-psoc6</uri>
+    <description><![CDATA[This package contains a demo project for the CY8CKIT-062S2-43012 kit using the Picovoice end-to-end voice recognition platform. The device will listen for a wake word and then extract intent from a spoken command.
+    <br><br>For more details, see the <a href="https://github.com/Picovoice/picovoice-demo-psoc6/blob/main/README.md">README on GitHub</a>.<br><br><a href="https://picovoice.ai/">Picovoice</a> is an end-to-end platform for building voice products on your terms. Unlike Alexa and Google services, Picovoice runs entirely on-device while being more accurate.<br> > <a href="https://picovoice.ai/docs/">Get Started</a><br> > <a href="https://picovoice.ai/contact/sales/">Talk to Sales</a>]]></description>
+    <req_capabilities>psoc6 pdm rgb_led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>Main</num>
+        <commit>main</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,audio,voice,porcupine,wake word,demo">
+    <name>Picovoice Porcupine Wake Word Demo</name>
+    <category>Peripherals</category> 
+    <id>porcupine-demo-psoc6</id>
+    <uri>https://github.com/Picovoice/porcupine-demo-psoc6</uri>
+    <description><![CDATA[This package contains a demo project for the CY8CKIT-062S2-43012 kit using the Picovoice Porcupine&trade; wake word engine. The device will listen for a wake word and trigger the led upon recognition.
+    <br><br>For more details, see the <a href="https://github.com/Picovoice/porcupine-demo-psoc6/blob/main/README.md">README on GitHub</a>.<br><br><a href="https://picovoice.ai/">Picovoice</a> is an end-to-end platform for building voice products on your terms. Unlike Alexa and Google services, Picovoice runs entirely on-device while being more accurate.<br> > <a href="https://picovoice.ai/docs/">Get Started</a><br> > <a href="https://picovoice.ai/contact/sales/">Talk to Sales</a>]]></description>
+    <req_capabilities>psoc6 pdm rgb_led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>Main</num>
+        <commit>main</commit>
+      </version>
+    </versions>
+  </app>
 </apps>
