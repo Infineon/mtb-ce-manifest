@@ -1168,7 +1168,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,mtb-flow,ble,bluetooth,anycloud,battery,4343w,43012">
+  <app keywords="psoc6,mtb-flow,ble,bluetooth,anycloud,battery,4343w,43012" req_capabilities_v2="[cy8ceval_062_s2_lai_4373m2, cy8ckit_062s2_43012, cy8cproto_062_4343w]">
     <name>AnyCloud BLE Battery Server</name>
     <id>mtb-example-anycloud-ble-battery-server</id>
     <category>Bluetooth</category>
@@ -1180,6 +1180,10 @@
       <version flow_version="2.0" tools_min_version="2.3.1" req_capabilities_per_version="bsp_gen2">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.3.1" req_capabilities_per_version="bsp_gen2">
+        <num>3.1.0 release</num>
+        <commit>release-v3.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="2.3.1" req_capabilities_per_version="bsp_gen2">
         <num>3.0.0 release</num>
@@ -4331,6 +4335,44 @@
       <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version_v2="[bsp_gen3]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="mtb-flow,anycloud,cts,server,bluetooth">
+    <name>AnyCloud BLE CTS Server</name>
+    <id>mtb-example-anycloud-ble-cts-server</id>
+    <category>Bluetooth&#174;</category>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-ble-cts-server</uri>
+    <description><![CDATA[This code example demonstrates the implementation of a simple AIROC&#8482; Bluetooth&#174; LE GAP central - GATT server with Current time service (CTS) using the Cypress Combo (Wi-Fi+Bluetooth&#174;) SoCs and ModusToolbox&#8482; Software Environment.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-anycloud-ble-cts-server/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>psoc6 bt led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.3.1" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.3.1" req_capabilities_per_version="bsp_gen2">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="mtb-flow,anycloud,cts,client,bluetooth">
+    <name>AnyCloud BLE CTS Client</name>
+    <id>mtb-example-anycloud-ble-cts-client</id>
+    <category>Bluetooth&#174;</category>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-ble-cts-client</uri>
+    <description><![CDATA[This code example demonstrates the implementation of a simple AIROC&#8482; Bluetooth&#174; LE GAP peripheral - GATT client with Current time service (CTS) using the Cypress Combo (Wi-Fi+Bluetooth&#174;) SoCs and ModusToolbox&#8482; Software Environment.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-anycloud-ble-cts-client/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>psoc6 bt led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.3.1" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.3.1" req_capabilities_per_version="bsp_gen2">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
       </version>
     </versions>
   </app>
