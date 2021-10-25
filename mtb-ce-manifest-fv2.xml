@@ -655,7 +655,7 @@
   <app keywords="psoc6,mtb-flow,ble,bluetooth,anycloud,ess,4343w,43012">
     <name>AnyCloud BLE Environmental Sensing Service</name>
     <id>mtb-example-anycloud-ble-ess</id>
-    <category>Bluetooth</category>
+    <category>Bluetooth&#174;</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-ble-ess</uri>
     <description><![CDATA[This code example demonstrates the implementation of a simple BLE Environmental Sensing Profile. It shows how to send environmental parameters like temperature by sending simulated temperature values over the BLE connection using the Cypress WiFi-BT combo SoCs supported in AnyCloud-SDK.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-anycloud-ble-ess/blob/master/README.md">README on GitHub</a>.]]></description>
@@ -674,7 +674,7 @@
   <app keywords="psoc6,mtb-flow,ble,bluetooth,anycloud,beacon,eddystone,multi-adv,4343w,43012">
     <name>AnyCloud BLE Multi Beacon</name>
     <id>mtb-example-anycloud-ble-multi-beacon</id>
-    <category>Bluetooth</category>
+    <category>Bluetooth&#174;</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-ble-multi-beacon</uri>
     <description><![CDATA[This code example demonstrates the implementation of a beacon which advertises multiple Eddystone ADV data.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-anycloud-ble-multi-beacon/blob/master/README.md">README on GitHub</a>.]]></description>
@@ -705,7 +705,7 @@
   <app keywords="psoc6,mtb-flow,ble,bluetooth,anycloud,onboarding,4343w,43012">
     <name>AnyCloud Wi-Fi Onboarding Using BLE</name>
     <id>mtb-example-anycloud-ble-wifi-onboarding</id>
-    <category>Bluetooth</category>
+    <category>Bluetooth&#174;</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-ble-wifi-onboarding</uri>
     <description><![CDATA[This code example demonstrates WiFi Onboarding using BLE.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-anycloud-ble-wifi-onboarding/blob/master/README.md">README on GitHub</a>.]]></description>
@@ -882,7 +882,7 @@
   <app keywords="btsdk,privacy,bonding,mtb-flow">
     <name>LE Peripheral Privacy</name>
     <id>mtb-example-btsdk-peripheral-privacy</id>
-    <category>Bluetooth</category>
+    <category>Bluetooth&#174;</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-btsdk-peripheral-privacy</uri>
     <description><![CDATA[This code example demonstrates the privacy features available to users in Bluetooth 5.0 and above.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btsdk-peripheral-privacy/blob/master/README.md">README on GitHub</a>.]]></description>
@@ -1171,7 +1171,7 @@
   <app keywords="psoc6,mtb-flow,ble,bluetooth,anycloud,battery,4343w,43012" req_capabilities_v2="[cy8ceval_062_s2_lai_4373m2, cy8ckit_062s2_43012, cy8cproto_062_4343w]">
     <name>AnyCloud BLE Battery Server</name>
     <id>mtb-example-anycloud-ble-battery-server</id>
-    <category>Bluetooth</category>
+    <category>Bluetooth&#174;</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-ble-battery-server</uri>
     <description><![CDATA[This code example demonstrates the implementation of a simple Bluetooth LE Battery Service. The Battery Service exposes the Battery Level of the device and comes with support for OTA update over Bluetooth LE.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-anycloud-ble-battery-server/blob/master/README.md">README on GitHub</a>.]]></description>
@@ -1202,7 +1202,7 @@
   <app keywords="psoc6,mtb-flow,ble,bluetooth,anycloud,findme,4343w,43012">
     <name>AnyCloud BLE Findme</name>
     <id>mtb-example-anycloud-ble-findme</id>
-    <category>Bluetooth</category>
+    <category>Bluetooth&#174;</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-ble-findme</uri>
     <description><![CDATA[This design implements a BLE FMP(Find Me Profile) that consists of an IAS(Immediate Alert Service). FMP and IAS are BLE standard Profile and Service respectively, as defined by the Bluetooth SIG.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-anycloud-ble-findme/blob/master/README.md">README on GitHub</a>.]]></description>
@@ -1233,7 +1233,7 @@
   <app keywords="psoc6,led,capsense,button,slider,i2c,tuner,ble,bluetooth,anycloud,4343w,43012,43438,mtb-flow">
     <name>AnyCloud BLE CapSense Buttons and Slider</name>
     <id>mtb-example-anycloud-ble-capsense-buttons-slider</id>
-    <category>Bluetooth</category>
+    <category>Bluetooth&#174;</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-ble-capsense-buttons-slider</uri>
     <description><![CDATA[This code example features a 5-segment CapSense slider and two CapSense buttons with BLE custom service. Button 0 turns the LED on, Button 1 turns the LED off and the slider controls the brightness of the LED. The LED status is notified to the client via BLE GATT profile.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-anycloud-ble-capsense-buttons-slider/blob/master/README.md">README on GitHub</a>.]]></description>
@@ -3430,7 +3430,7 @@
   <app keywords="psoc6,button,led,ble,findme,FMP,GAP peripheral,mtb-flow">
     <name>BLE Find Me</name>
     <id>mtb-example-psoc6-ble-findme</id>
-    <category>Bluetooth</category>
+    <category>Bluetooth&#174;</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-ble-findme</uri>
     <description><![CDATA[This code example demonstrates the implementation of a simple BLE Immediate Alert Service (IAS)-based Find Me Profile (FMP) using PSoC 6 MCU with Bluetooth Low Energy (BLE) Connectivity.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-ble-findme/blob/master/README.md">README on GitHub</a>.]]></description>
@@ -4141,7 +4141,7 @@
   <app keywords="btsdk,mesh,ble,sensors,sensor hub,als,ambient,light,temperature,thermistor,i2c,adc,mtb-flow">
     <name>Mesh SensorHub</name>
     <id>mtb-example-btsdk-mesh-sensorhub</id>
-    <category>Bluetooth</category>
+    <category>Bluetooth&#174;</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-btsdk-mesh-sensorhub</uri>
     <description><![CDATA[This example demonstrates the use of a Bluetooth Low Energy Mesh sensor model with Ambient Light and Temperature sensor interfaced with AIROC&#8482; CYW20835 Bluetooth&#174; LE system-on-chip using ModusToolbox&#8482; software.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btsdk-mesh-sensorhub/blob/master/README.md">README on GitHub</a>.]]></description>
@@ -4236,7 +4236,7 @@
   <app keywords="measurement,ble,client,server,throughput,btsdk,mtb-flow">
   <name>LE Throughput Measurement</name>
   <id>mtb-example-btsdk-ble-throughput</id>
-  <category>Bluetooth</category>
+  <category>Bluetooth&#174;</category>
   <uri>https://github.com/cypresssemiconductorco/mtb-example-btsdk-ble-throughput</uri>
   <description><![CDATA[This code example demonstrates the maximum Bluetooth&#174; LE throughput (using GATT layer notifications and write command) that can be obtained with Infineon AIROC&#8482; CYW20xxx Bluetooth&#174; devices.
   <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btsdk-ble-throughput/blob/master/README.md">README on GitHub</a>.]]></description>
