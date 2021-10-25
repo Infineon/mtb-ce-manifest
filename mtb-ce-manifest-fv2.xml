@@ -932,7 +932,7 @@
   <app keywords="btsdk,sensors,sensor hub,motion,accelerometer,gyro,compass,temperature,thermistor,magnetic,3d magnetic,i2c,adc,mtb-flow">
     <name>LE SensorHub</name>
     <id>mtb-example-btsdk-sensorhub</id>
-    <category>Bluetooth</category>
+    <category>Bluetooth&#174;</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-btsdk-sensorhub</uri>
     <description><![CDATA[This code example demonstrates the interfacing of Multiple sensors, Motion, Temperature, and 3D magnetic sensor and sends the data over GATT custom service.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btsdk-sensorhub/blob/master/README.md">README on GitHub</a>.]]></description>
