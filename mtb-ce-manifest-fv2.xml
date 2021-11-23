@@ -4553,4 +4553,23 @@
       </version>
     </versions>
   </app>
+  <app keywords="psoc6,usb,cdc,echo,mtb-flow">
+    <name>USB CDC echo</name>
+    <id>mtb-example-psoc6-usb-cdc-echo</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-usb-cdc-echo</uri>
+    <description><![CDATA[This example demonstrates how to configure the USB block in a PSoC&trade; 6 MCU for communication device class (CDC). When configured for a CDC, the PSoC&trade; 6 MCU device enumerates a virtual COM port, which can be read and written by a terminal emulator program on a PC.
+<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-usb-cdc-echo/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>psoc6 usb</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
+    </versions>
+  </app>
 </apps>
