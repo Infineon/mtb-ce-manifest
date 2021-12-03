@@ -169,11 +169,11 @@
     </versions>
   </app>
   <app keywords="psoc6,led,capsense,button,slider,i2c,tuner,mtb-flow">
-    <name>CapSense Buttons and Slider</name>
+    <name>CAPSENSE Buttons and Slider</name>
     <id>mtb-example-psoc6-capsense-buttons-slider</id>
     <category>Sensing</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-capsense-buttons-slider</uri>
-    <description><![CDATA[This code example features a 5-segment CapSense slider and two CapSense buttons. Button 0 turns the LED on, Button 1 turns the LED off and the slider controls the brightness of the LED. The code example also demonstrates interfacing with Tuner GUI using I2C interface.
+    <description><![CDATA[This code example features a 5-segment CAPSENSE&#8482; slider and two CAPSENSE&#8482; buttons. Button 0 turns the LED on, Button 1 turns the LED off and the slider controls the brightness of the LED. The code example also demonstrates interfacing with Tuner GUI using I2C interface.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-capsense-buttons-slider/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 led capsense_button capsense_linear_slider</req_capabilities>
     <versions>
@@ -188,11 +188,11 @@
     </versions>
   </app>
   <app keywords="psoc6,led,capsense,button,slider,i2c,tuner,rtos,mtb-flow">
-    <name>CapSense Buttons and Slider FreeRTOS</name>
+    <name>CAPSENSE Buttons and Slider FreeRTOS</name>
     <id>mtb-example-psoc6-capsense-buttons-slider-freertos</id>
     <category>Sensing</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-capsense-buttons-slider-freertos</uri>
-    <description><![CDATA[This code example features a 5-segment CapSense slider and two CapSense buttons. Button 0 turns the LED on, Button 1 turns the LED off and the slider controls the brightness of the LED. The code example also demonstrates interfacing with Tuner GUI using I2C interface.
+    <description><![CDATA[This code example features a 5-segment CAPSENSE&#8482; slider and two CAPSENSE&#8482; buttons. Button 0 turns the LED on, Button 1 turns the LED off and the slider controls the brightness of the LED. The code example also demonstrates interfacing with Tuner GUI using I2C interface.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-capsense-buttons-slider-freertos/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 led capsense_button capsense_linear_slider</req_capabilities>
     <versions>
@@ -693,7 +693,7 @@
     </versions>
   </app>
   <app keywords="psoc6,mtb-flow,ble,bluetooth,anycloud,ess,4343w,43012">
-    <name>AnyCloud BLE Environmental Sensing Service</name>
+    <name>AnyCloud Bluetooth LE Environmental Sensing Service</name>
     <id>mtb-example-anycloud-ble-ess</id>
     <category>Bluetooth&#174;</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-ble-ess</uri>
@@ -712,7 +712,7 @@
     </versions>
   </app>
   <app keywords="psoc6,mtb-flow,ble,bluetooth,anycloud,beacon,eddystone,multi-adv,4343w,43012">
-    <name>AnyCloud BLE Multi Beacon</name>
+    <name>AnyCloud Bluetooth LE Multi Beacon</name>
     <id>mtb-example-anycloud-ble-multi-beacon</id>
     <category>Bluetooth&#174;</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-ble-multi-beacon</uri>
@@ -743,13 +743,13 @@
     </versions>
   </app>
   <app keywords="psoc6,mtb-flow,ble,bluetooth,anycloud,onboarding,4343w,43012">
-    <name>AnyCloud Wi-Fi Onboarding Using BLE</name>
+    <name>AnyCloud Wi-Fi Onboarding Using Bluetooth LE</name>
     <id>mtb-example-anycloud-ble-wifi-onboarding</id>
     <category>Bluetooth&#174;</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-ble-wifi-onboarding</uri>
     <description><![CDATA[This code example demonstrates WiFi Onboarding using BLE.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-anycloud-ble-wifi-onboarding/blob/master/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>psoc6 wifi bt anycloud</req_capabilities>
+    <req_capabilities>psoc6 wifi bt low_power anycloud</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="2.3.1" req_capabilities_per_version="bsp_gen2">
         <num>Latest 3.X release</num>
@@ -820,11 +820,11 @@
     </versions>
   </app>
   <app keywords="psoc6,capsense,tuner,ble,server,tuning,mtb-flow">
-    <name>CapSense Tuning Over BLE - Server</name>
+    <name>CAPSENSE Tuning Over Bluetooth LE - Server</name>
     <id>mtb-example-psoc6-ble-capsense-tuner-server</id>
     <category>Sensing</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-ble-capsense-tuner-server</uri>
-    <description><![CDATA[This code example demonstrates how to monitor the CapSense data and tune the CapSense sensors over BLE communication with CapSense Tuner GUI using PSoC 6 BLE MCU. This is intended to be used with the CapSense Tuning Over BLE - Client example.
+    <description><![CDATA[This code example demonstrates how to monitor the CAPSENSE&#8482; data and tune the CAPSENSE&#8482; sensors over Bluetooth&#174; Low Energy communication with CAPSENSE&#8482; Tuner GUI using PSoC 6 Bluetooth&#174; Low Energy MCU. This is intended to be used with the CAPSENSE&#8482; Tuning Over Bluetooth&#174; LE - Client example.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-ble-capsense-tuner-server/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 led ble capsense_button capsense_linear_slider</req_capabilities>
     <versions>
@@ -843,11 +843,11 @@
     </versions>
   </app>
   <app keywords="psoc6,capsense,tuner,ble,client,tuning,ezi2c,mtb-flow">
-    <name>CapSense Tuning Over BLE - Client</name>
+    <name>CAPSENSE Tuning Over Bluetooth LE - Client</name>
     <id>mtb-example-psoc6-ble-capsense-tuner-client</id>
     <category>Sensing</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-ble-capsense-tuner-client</uri>
-    <description><![CDATA[This code example demonstrates how to monitor the CapSense data and tune the CapSense sensors over BLE communication with CapSense Tuner GUI using PSoC 6 BLE MCU. This is intended to be used with the CapSense Tuning Over BLE - Server example.
+    <description><![CDATA[This code example demonstrates how to monitor the CAPSENSE&#8482; data and tune the CAPSENSE&#8482; sensors over Bluetooth&#174; Low Energy communication with CAPSENSE&#8482; Tuner GUI using PSoC 6 Bluetooth&#174; Low Energy MCU. This is intended to be used with the CAPSENSE&#8482; Tuning Over Bluetooth&#174; LE - Server example.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-ble-capsense-tuner-client/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 led ble</req_capabilities>
     <versions>
@@ -897,7 +897,7 @@
     <id>mtb-example-btsdk-cyw208xx-data-logger</id>
     <category>Peripherals</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-btsdk-cyw208xx-data-logger</uri>
-    <description><![CDATA[This code example includes two applications that demonstrate the operation of multiple Serial Peripheral Interface (SPI) interfaces using the CYW208xx Bluetooth SoC.
+    <description><![CDATA[This code example includes two applications that demonstrate the operation of multiple Serial Peripheral Interface (SPI) interfaces using the CYW208xx Bluetooth&#174; SoC.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btsdk-cyw208xx-data-logger/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>CYW208XX ncu15wf104</req_capabilities>
     <versions>
@@ -924,7 +924,7 @@
     <id>mtb-example-btsdk-peripheral-privacy</id>
     <category>Bluetooth&#174;</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-btsdk-peripheral-privacy</uri>
-    <description><![CDATA[This code example demonstrates the privacy features available to users in Bluetooth 5.0 and above.
+    <description><![CDATA[This code example demonstrates the privacy features available to users in Bluetooth&#174; Low Energy 5.0 and above.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btsdk-peripheral-privacy/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>button fw2 btsdk</req_capabilities>
     <versions>
@@ -1039,11 +1039,11 @@
     </versions>
   </app>
   <app keywords="psoc6,led,capsense,custom scan,mtb-flow">
-    <name>CapSense Custom Scan</name>
+    <name>CAPSENSE Custom Scan</name>
     <id>mtb-example-psoc6-capsense-custom-scan</id>
     <category>Sensing</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-capsense-custom-scan</uri>
-    <description><![CDATA[This code example demonstrates CapSense custom scanning through CapSense Middleware's callback functions that allow altering the sensor parameters during runtime or synchronizing the CapSense scan with non-CapSense operations. In this code example, the callback function is used to change the inactive sensor state to either shield or ground depending on the sensor being scanned.
+    <description><![CDATA[This code example demonstrates CAPSENSE&#8482; custom scanning through CAPSENSE&#8482; Middleware's callback functions that allow altering the sensor parameters during runtime or synchronizing the CAPSENSE&#8482; scan with non-CapSense operations. In this code example, the callback function is used to change the inactive sensor state to either shield or ground depending on the sensor being scanned.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-capsense-custom-scan/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 led capsense_linear_slider</req_capabilities>
     <versions>
@@ -1194,11 +1194,11 @@
     </versions>
   </app>
   <app keywords="mtb-flow,psoc4,capsense,slider,linear slider,csd,tuning,i2c,tuner">
-    <name>CapSense CSD Slider Tuning</name>
+    <name>CAPSENSE CSD Slider Tuning</name>
     <id>mtb-example-psoc4-capsense-csd-slider-tuning</id>
     <category>Sensing</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc4-capsense-csd-slider-tuning</uri>
-    <description><![CDATA[This code example demonstrates how to manually tune Self Capacitance (CSD) based slider widget in PSoC 4 devices using CapSense Tuner GUI.
+    <description><![CDATA[This code example demonstrates how to manually tune Self Capacitance (CSD) based slider widget in PSoC 4 devices using CAPSENSE&#8482; Tuner GUI.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-capsense-csd-slider-tuning/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc4 capsense_linear_slider</req_capabilities>
     <versions>
@@ -1221,13 +1221,13 @@
     </versions>
   </app>
   <app keywords="psoc6,mtb-flow,ble,bluetooth,anycloud,battery,4343w,43012" req_capabilities_v2="[cy8ceval_062_s2_lai_4373m2, cy8ckit_062s2_43012, cy8cproto_062_4343w]">
-    <name>AnyCloud BLE Battery Server</name>
+    <name>AnyCloud Bluetooth LE Battery Server</name>
     <id>mtb-example-anycloud-ble-battery-server</id>
     <category>Bluetooth&#174;</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-ble-battery-server</uri>
-    <description><![CDATA[This code example demonstrates the implementation of a simple Bluetooth LE Battery Service. The Battery Service exposes the Battery Level of the device and comes with support for OTA update over Bluetooth LE.
+    <description><![CDATA[This code example demonstrates the implementation of a simple Bluetooth&#174; LE Battery Service. The Battery Service exposes the Battery Level of the device and comes with support for OTA update over Bluetooth&#174; LE.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-anycloud-ble-battery-server/blob/master/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>psoc6 bt led</req_capabilities>
+    <req_capabilities>psoc6 bt led multi_core</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="2.3.1" req_capabilities_per_version="bsp_gen2">
         <num>Latest 3.X release</num>
@@ -1252,11 +1252,11 @@
     </versions>
   </app>
   <app keywords="psoc6,mtb-flow,ble,bluetooth,anycloud,findme,4343w,43012">
-    <name>AnyCloud BLE Findme</name>
+    <name>AnyCloud Bluetooth LE Findme</name>
     <id>mtb-example-anycloud-ble-findme</id>
     <category>Bluetooth&#174;</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-ble-findme</uri>
-    <description><![CDATA[This design implements a BLE FMP(Find Me Profile) that consists of an IAS(Immediate Alert Service). FMP and IAS are BLE standard Profile and Service respectively, as defined by the Bluetooth SIG.
+    <description><![CDATA[This design implements a Bluetooth&#174; Low Energy FMP(Find Me Profile) that consists of an IAS(Immediate Alert Service). FMP and IAS are Bluetooth&#174; Low Energy standard Profile and Service respectively, as defined by the Bluetooth&#174; SIG.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-anycloud-ble-findme/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 bt led</req_capabilities>
     <versions>
@@ -1283,11 +1283,11 @@
     </versions>
   </app>
   <app keywords="psoc6,led,capsense,button,slider,i2c,tuner,ble,bluetooth,anycloud,4343w,43012,43438,mtb-flow">
-    <name>AnyCloud BLE CapSense Buttons and Slider</name>
+    <name>AnyCloud Bluetooth LE CAPSENSE Buttons and Slider</name>
     <id>mtb-example-anycloud-ble-capsense-buttons-slider</id>
     <category>Bluetooth&#174;</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-ble-capsense-buttons-slider</uri>
-    <description><![CDATA[This code example features a 5-segment CapSense slider and two CapSense buttons with BLE custom service. Button 0 turns the LED on, Button 1 turns the LED off and the slider controls the brightness of the LED. The LED status is notified to the client via BLE GATT profile.
+    <description><![CDATA[This code example features a 5-segment CAPSENSE&#8482; slider and two CAPSENSE&#8482; buttons with Bluetooth&#174; Low Energy custom service. Button 0 turns the LED on, Button 1 turns the LED off and the slider controls the brightness of the LED. The LED status is notified to the client via Bluetooth&#174; Low Energy GATT profile.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-anycloud-ble-capsense-buttons-slider/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 led bt capsense_button capsense_linear_slider</req_capabilities>
     <versions>
@@ -1347,7 +1347,7 @@
     <id>mtb-anycloud-bluetooth-mfg-tester</id>
     <category>Manufacturing</category>
     <uri>https://github.com/Infineon/mtb-anycloud-bluetooth-mfg-tester</uri>
-    <description><![CDATA[This application is used to validate the Bluetooth Firmware and RF performance for PSoC 6 MCU with Bluetooth BR/EDR/LE devices.
+    <description><![CDATA[This application is used to validate the Bluetooth&#174; Firmware and RF performance for PSoC 6 MCU with Bluetooth&#174; BR/EDR/LE devices.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-anycloud-bluetooth-mfg-tester/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 bt cyw43xxx anycloud</req_capabilities>
     <versions>
@@ -1403,7 +1403,7 @@
     <id>mtb-anycloud-wifi-bluetooth-tester</id>
     <category>Wi-Fi</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-anycloud-wifi-bluetooth-tester</uri>
-    <description><![CDATA[This application integrates command console library including Wi-Fi iPerf and Bluetooth BLE functionality. Using this application, the user can characterize the Wi-Fi/BLE functionality and performance.
+    <description><![CDATA[This application integrates command console library including Wi-Fi iPerf and Bluetooth&#174; Low Energy functionality. Using this application, the user can characterize the Wi-Fi/Bluetooth&#174; Low Energy functionality and performance.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-anycloud-wifi-bluetooth-tester/blob/master/README.md">README on GitHub</a>.
     <br><br><b>License Disclaimer:</b><br><br>
     This tester application makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license. <br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).]]></description>
@@ -1609,11 +1609,11 @@
     </versions>
   </app>
   <app keywords="psoc4,capsense,csx,button,tuning,ezi2c,mtb-flow">
-    <name>CapSense CSX Button Tuning</name>
+    <name>CAPSENSE CSX Button Tuning</name>
     <id>mtb-example-psoc4-capsense-csx-button-tuning</id>
     <category>Sensing</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc4-capsense-csx-button-tuning</uri>
-    <description><![CDATA[This code example demonstrates how to manually tune a mutual capacitance (CSX)-based button widget in PSoC 4 devices using CapSense Tuner GUI.
+    <description><![CDATA[This code example demonstrates how to manually tune a mutual capacitance (CSX)-based button widget in PSoC 4 devices using CAPSENSE&#8482; Tuner GUI.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-capsense-csx-button-tuning/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc4 capsense_button</req_capabilities>
     <versions>
@@ -2081,11 +2081,11 @@
     </versions>
   </app>
   <app keywords="psoc4,capsense,csd,button,tuning,ezi2c,mtb-flow">
-    <name>CapSense CSD Button Tuning</name>
+    <name>CAPSENSE CSD Button Tuning</name>
     <id>mtb-example-psoc4-capsense-csd-button-tuning</id>
     <category>Sensing</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc4-capsense-csd-button-tuning</uri>
-    <description><![CDATA[This code example demonstrates how to manually tune a self-capacitance (CSD) based button widget in PSoC 4 devices using CapSense Tuner GUI.
+    <description><![CDATA[This code example demonstrates how to manually tune a self-capacitance (CSD) based button widget in PSoC 4 devices using CAPSENSE&#8482; Tuner GUI.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-capsense-csd-button-tuning/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc4 led capsense_button</req_capabilities>
     <versions>
@@ -2108,11 +2108,11 @@
     </versions>
   </app>
   <app keywords="psoc4,msc,capsense,csd,button,tuning,mtb-flow">
-    <name>MSC CapSense CSD Button Tuning</name>
+    <name>MSC CAPSENSE CSD Button Tuning</name>
     <id>mtb-example-psoc4-msc-capsense-csd-button-tuning</id>
     <category>Sensing</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc4-msc-capsense-csd-button-tuning</uri>
-    <description><![CDATA[This code example demonstrates how to manually tune a self capacitance-based button widget in PSoC 4 devices using the Multi Sense Converter (MSC) CSD-RM sensing technique and CapSense Tuner GUI.
+    <description><![CDATA[This code example demonstrates how to manually tune a self capacitance-based button widget in PSoC 4 devices using the Multi Sense Converter (MSC) CSD-RM sensing technique and CAPSENSE&#8482; Tuner GUI.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-msc-capsense-csd-button-tuning/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc4 led msc_button</req_capabilities>
     <versions>
@@ -2135,11 +2135,11 @@
     </versions>
   </app>
   <app keywords="psoc4,msc,capsense,csx,button,tuning,mtb-flow">
-    <name>MSC CapSense CSX Button Tuning</name>
+    <name>MSC CAPSENSE CSX Button Tuning</name>
     <id>mtb-example-psoc4-msc-capsense-csx-button-tuning</id>
     <category>Sensing</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc4-msc-capsense-csx-button-tuning</uri>
-    <description><![CDATA[This code example demonstrates how to manually tune a mutual capacitance-based button widget in PSoC 4 devices using the Multi Sense Converter (MSC) CSX-RM sensing technique and CapSense Tuner GUI.
+    <description><![CDATA[This code example demonstrates how to manually tune a mutual capacitance-based button widget in PSoC 4 devices using the Multi Sense Converter (MSC) CSX-RM sensing technique and CAPSENSE&#8482; Tuner GUI.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-msc-capsense-csx-button-tuning/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc4 led msc_button</req_capabilities>
     <versions>
@@ -3437,11 +3437,11 @@
     </versions>
   </app>
   <app keywords="psoc6,uart,capsense,slider,ganged sensor,i2c,tuner,rtos,mtb-flow">
-    <name>Low-power CapSense FreeRTOS</name>
+    <name>Low-power CAPSENSE FreeRTOS</name>
     <id>mtb-example-psoc6-low-power-capsense-freertos</id>
     <category>Sensing</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-low-power-capsense-freertos</uri>
-    <description><![CDATA[This code example demonstrates how to create a low-power CapSense design using PSoC 6 MCU. This example features a 5-segment CapSense slider and a Ganged Sensor, and displays the detected touch position over the serial terminal.
+    <description><![CDATA[This code example demonstrates how to create a low-power CAPSENSE&#8482; design using PSoC 6 MCU. This example features a 5-segment CAPSENSE&#8482; slider and a Ganged Sensor, and displays the detected touch position over the serial terminal.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-low-power-capsense-freertos/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 capsense_linear_slider low_power</req_capabilities>
     <versions>
@@ -3532,11 +3532,11 @@
     </versions>
   </app>
   <app keywords="psoc6,button,led,ble,findme,FMP,GAP peripheral,mtb-flow">
-    <name>BLE Find Me</name>
+    <name>Bluetooth LE Find Me</name>
     <id>mtb-example-psoc6-ble-findme</id>
     <category>Bluetooth&#174;</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-ble-findme</uri>
-    <description><![CDATA[This code example demonstrates the implementation of a simple BLE Immediate Alert Service (IAS)-based Find Me Profile (FMP) using PSoC 6 MCU with Bluetooth Low Energy (BLE) Connectivity.
+    <description><![CDATA[This code example demonstrates the implementation of a simple Bluetooth&#174; Low Energy Immediate Alert Service (IAS)-based Find Me Profile (FMP) using PSoC 6 MCU with Bluetooth&#174; Low Energy Connectivity.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-ble-findme/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 led switch ble</req_capabilities>
     <versions>
@@ -3940,11 +3940,11 @@
     </versions>
   </app>
   <app keywords="pmg1,usbpd,capsense,mtb-flow">
-    <name>USBPD Sink CapSense</name>
+    <name>USBPD Sink CAPSENSE</name>
     <id>mtb-example-pmg1-usbpd-sink-capsense</id>
     <category>Sensing</category>
     <uri>https://github.com/Infineon/mtb-example-pmg1-usbpd-sink-capsense</uri>
-    <description><![CDATA[This code example demonstrates CapSense functionality using a 5-segment CapSense slider and two CapSense buttons along with USB-C attach detection and USB Power Delivery contract negotiation using Power Delivery Microcontroller Generation 1 (PMG1) devices.
+    <description><![CDATA[This code example demonstrates CAPSENSE&trade; functionality using a 5-segment CAPSENSE&trade; slider and two CAPSENSE&trade; buttons along with USB-C attach detection and USB Power Delivery contract negotiation using Power Delivery Microcontroller Generation 1 (PMG1) devices.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-usbpd-sink-capsense/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>usbpd pmg1 capsense led</req_capabilities>
     <versions>
@@ -4174,11 +4174,11 @@
     </versions>
   </app>
   <app keywords="psoc4,msc,capsense,csd,touchpad,tuning,mtb-flow">
-    <name>MSC CapSense CSD Touchpad Tuning</name>
+    <name>MSC CAPSENSE CSD Touchpad Tuning</name>
     <id>mtb-example-psoc4-msc-capsense-csd-touchpad-tuning</id>
     <category>Sensing</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc4-msc-capsense-csd-touchpad-tuning</uri>
-    <description><![CDATA[This code example demonstrates how to manually tune a self capacitance-based touchpad widget in PSoC 4 devices using the Multi Sense Converter (MSC) CSD-RM sensing technique and CapSense Tuner GUI. 
+    <description><![CDATA[This code example demonstrates how to manually tune a self capacitance-based touchpad widget in PSoC 4 devices using the Multi Sense Converter (MSC) CSD-RM sensing technique and CAPSENSE&#8482; Tuner GUI. 
 <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-msc-capsense-csd-touchpad-tuning/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc4 led msc_touchpad</req_capabilities>
     <versions>
@@ -4205,7 +4205,7 @@
     <id>mtb-example-psoc4-msc-capsense-csx-touchpad-tuning</id>
     <category>Sensing</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc4-msc-capsense-csx-touchpad-tuning</uri>
-    <description><![CDATA[This code example demonstrates how to manually tune a mutual capacitance-based touchpad widget in PSoC 4 devices using the Multi Sense Converter (MSC) CSX-RM sensing technique and CapSense Tuner GUI. 
+    <description><![CDATA[This code example demonstrates how to manually tune a mutual capacitance-based touchpad widget in PSoC 4 devices using the Multi Sense Converter (MSC) CSX-RM sensing technique and CAPSENSE&#8482; Tuner GUI. 
 <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-msc-capsense-csx-touchpad-tuning/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc4 led msc_touchpad</req_capabilities>
     <versions>
@@ -4263,7 +4263,7 @@
     <id>mtb-example-btsdk-mesh-sensorhub</id>
     <category>Bluetooth&#174;</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-btsdk-mesh-sensorhub</uri>
-    <description><![CDATA[This example demonstrates the use of a Bluetooth Low Energy Mesh sensor model with Ambient Light and Temperature sensor interfaced with AIROC&#8482; CYW20835 Bluetooth&#174; LE system-on-chip using ModusToolbox&#8482; software.
+    <description><![CDATA[This example demonstrates the use of a Bluetooth&#174; Low Energy Mesh sensor model with Ambient Light and Temperature sensor interfaced with AIROC&#8482; CYW20835 Bluetooth&#174; LE system-on-chip using ModusToolbox&#8482; software.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btsdk-mesh-sensorhub/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>mesh fw2 led2x ncu15wf104 button MAX44009EDT</req_capabilities>
     <versions>
@@ -4392,11 +4392,11 @@
     </versions>
   </app>
   <app keywords="psoc4,msc,capsense,csd,slider,tuning,mtb-flow">
-    <name>MSC CapSense CSD Slider Tuning</name>
+    <name>MSC CAPSENSE CSD Slider Tuning</name>
     <id>mtb-example-psoc4-msc-capsense-csd-slider-tuning</id>
     <category>Sensing</category>
     <uri>https://github.com/Infineon/mtb-example-psoc4-msc-capsense-csd-slider-tuning</uri>
-    <description><![CDATA[This code example demonstrates how to manually tune a self capacitance-based slider widget in PSoC 4 devices using the Multi Sense Converter (MSC) CSD-RM sensing technique and CapSense Tuner GUI. 
+    <description><![CDATA[This code example demonstrates how to manually tune a self capacitance-based slider widget in PSoC 4 devices using the Multi Sense Converter (MSC) CSD-RM sensing technique and CAPSENSE&#8482; Tuner GUI. 
 <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-msc-capsense-csd-slider-tuning/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc4 led msc_slider</req_capabilities>
     <versions>
@@ -4516,7 +4516,7 @@
     </versions>
   </app>
   <app keywords="mtb-flow,anycloud,cts,server,bluetooth">
-    <name>AnyCloud BLE CTS Server</name>
+    <name>AnyCloud Bluetooth LE CTS Server</name>
     <id>mtb-example-anycloud-ble-cts-server</id>
     <category>Bluetooth&#174;</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-ble-cts-server</uri>
@@ -4535,7 +4535,7 @@
     </versions>
   </app>
   <app keywords="mtb-flow,anycloud,cts,client,bluetooth">
-    <name>AnyCloud BLE CTS Client</name>
+    <name>AnyCloud Bluetooth LE CTS Client</name>
     <id>mtb-example-anycloud-ble-cts-client</id>
     <category>Bluetooth&#174;</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-ble-cts-client</uri>
