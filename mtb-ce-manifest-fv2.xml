@@ -697,7 +697,7 @@
     <id>mtb-example-anycloud-ble-ess</id>
     <category>Bluetooth&#174;</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-ble-ess</uri>
-    <description><![CDATA[This code example demonstrates the implementation of a simple BLE Environmental Sensing Profile. It shows how to send environmental parameters like temperature by sending simulated temperature values over the BLE connection using the Cypress WiFi-BT combo SoCs supported in AnyCloud-SDK.
+    <description><![CDATA[This code example demonstrates the implementation of a simple Bluetooth&#174; Low Energy Environmental Sensing Profile. It shows how to send environmental parameters like temperature by sending simulated temperature values over the Bluetooth&#174; Low Energy connection using the Cypress WiFi-BT combo SoCs supported in AnyCloud-SDK.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-anycloud-ble-ess/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 bt led</req_capabilities>
     <versions>
@@ -747,7 +747,7 @@
     <id>mtb-example-anycloud-ble-wifi-onboarding</id>
     <category>Bluetooth&#174;</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-ble-wifi-onboarding</uri>
-    <description><![CDATA[This code example demonstrates WiFi Onboarding using BLE.
+    <description><![CDATA[This code example demonstrates WiFi Onboarding using Bluetooth&#174; Low Energy.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-anycloud-ble-wifi-onboarding/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 wifi bt low_power anycloud</req_capabilities>
     <versions>
@@ -3745,27 +3745,6 @@
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,psoc6,wifi,anycloud,ota,mqtt,mcuboot,bootloader" req_capabilities_v2="[cy8ckit_062s2_43012, cy8cproto_062_4343w]">
-    <name>AnyCloud MCUboot-Based Bootloader with Rollback</name>
-    <id>mtb-example-anycloud-mcuboot-rollback</id>
-    <category>Wi-Fi</category>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-mcuboot-rollback</uri>
-    <description><![CDATA[This code example implements a bootloader based on MCUboot to demonstrate &#8216;Rollback&#8217; to a known good image ('factory_app_cm4') in case of unrecoverable error conditions in the current application. The bootloader can load the factory app from a known location in the external memory by directly copying it into the primary slot in the internal flash, based on user inputs during boot. The factory app can then perform the OTA to download an image over Wi-Fi and place it to the secondary slot of MCUboot.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-anycloud-mcuboot-rollback/blob/master/README.md">README on GitHub</a>.
-    <br><br><b>License Disclaimer:</b><br><br>
-    This code example makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license. <br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).]]></description>
-    <req_capabilities>psoc6 wifi cyw43xxx led std_crypto qspi nor_flash anycloud flash_2048k</req_capabilities>
-    <versions>
-      <version flow_version="2.0" tools_min_version="2.3.1" req_capabilities_per_version="bsp_gen2">
-        <num>Latest 2.X release</num>
-        <commit>latest-v2.X</commit>
-      </version>
-      <version flow_version="2.0" tools_min_version="2.3.1" req_capabilities_per_version="bsp_gen2">
-        <num>2.0.0 release</num>
-        <commit>release-v2.0.0</commit>
-      </version>
-    </versions>
-  </app>
   <app keywords="psoc6,usb,audio,freertos,mtb-flow" req_capabilities_v2="[cy8ceval_062s2, cy8ceval_062_s2_lai_4373m2, cy8ckit_062_wifi_bt, cy8ckit_062s2_43012, cy8cproto_062_4343w, cyw9p62s1_43012evb_01, cyw9p62s1_43438evb_01]">
     <name>USB Audio Device FreeRTOS</name>
     <id>mtb-example-psoc6-usb-audio-device-freertos</id>
@@ -4000,6 +3979,24 @@
       </version>
     </versions>
   </app>
+  <app keywords="pmg1,led,switch,gpio-interrupt,mtb-flow">
+    <name>LED Switch Interface</name>
+    <id>mtb-example-pmg1-led-sw-interface</id>
+    <uri>https://github.com/Infineon/mtb-example-pmg1-led-sw-interface</uri>
+    <description><![CDATA[This code example demonstrates simple Switch and LED interface on Power Delivery Microcontroller Generation 1 (PMG1) devices.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-led-sw-interface">README on GitHub</a>.]]></description>
+    <req_capabilities>pmg1 led switch</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
   <app keywords="psoc6,dfu,bootloader,mtb-flow" req_capabilities_v2="[cy8ceval_062s2, cy8ceval_062_s2_lai_4373m2, cy8ckit_062_ble, cy8ckit_062_wifi_bt, cy8ckit_062s2_43012, cy8cproto_062_4343w, cy8cproto_062s3_4343w, cy8cproto_063_ble, cy8ckit_062s4, cyw9p62s1_43012evb_01, cyw9p62s1_43438evb_01]">
     <name>Basic Device Firmware Upgrade</name>
     <id>mtb-example-psoc6-dfu-basic</id>
@@ -4178,7 +4175,7 @@
     <id>mtb-example-psoc4-msc-capsense-csd-touchpad-tuning</id>
     <category>Sensing</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc4-msc-capsense-csd-touchpad-tuning</uri>
-    <description><![CDATA[This code example demonstrates how to manually tune a self capacitance-based touchpad widget in PSoC 4 devices using the Multi Sense Converter (MSC) CSD-RM sensing technique and CAPSENSE&#8482; Tuner GUI. 
+    <description><![CDATA[This code example demonstrates how to manually tune a self capacitance-based touchpad widget in PSoC 4 devices using the Multi Sense Converter (MSC) CSD-RM sensing technique and CAPSENSE&#8482; Tuner GUI.
 <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-msc-capsense-csd-touchpad-tuning/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc4 led msc_touchpad</req_capabilities>
     <versions>
@@ -4205,7 +4202,7 @@
     <id>mtb-example-psoc4-msc-capsense-csx-touchpad-tuning</id>
     <category>Sensing</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc4-msc-capsense-csx-touchpad-tuning</uri>
-    <description><![CDATA[This code example demonstrates how to manually tune a mutual capacitance-based touchpad widget in PSoC 4 devices using the Multi Sense Converter (MSC) CSX-RM sensing technique and CAPSENSE&#8482; Tuner GUI. 
+    <description><![CDATA[This code example demonstrates how to manually tune a mutual capacitance-based touchpad widget in PSoC 4 devices using the Multi Sense Converter (MSC) CSX-RM sensing technique and CAPSENSE&#8482; Tuner GUI.
 <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-msc-capsense-csx-touchpad-tuning/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc4 led msc_touchpad</req_capabilities>
     <versions>
@@ -4396,7 +4393,7 @@
     <id>mtb-example-psoc4-msc-capsense-csd-slider-tuning</id>
     <category>Sensing</category>
     <uri>https://github.com/Infineon/mtb-example-psoc4-msc-capsense-csd-slider-tuning</uri>
-    <description><![CDATA[This code example demonstrates how to manually tune a self capacitance-based slider widget in PSoC 4 devices using the Multi Sense Converter (MSC) CSD-RM sensing technique and CAPSENSE&#8482; Tuner GUI. 
+    <description><![CDATA[This code example demonstrates how to manually tune a self capacitance-based slider widget in PSoC 4 devices using the Multi Sense Converter (MSC) CSD-RM sensing technique and CAPSENSE&#8482; Tuner GUI.
 <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-msc-capsense-csd-slider-tuning/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc4 led msc_slider</req_capabilities>
     <versions>
@@ -4411,27 +4408,48 @@
     </versions>
   </app>
   <app keywords="measurement,ble,client,server,throughput,btsdk,mtb-flow">
-  <name>LE Throughput Measurement</name>
-  <id>mtb-example-btsdk-ble-throughput</id>
-  <category>Bluetooth&#174;</category>
-  <uri>https://github.com/cypresssemiconductorco/mtb-example-btsdk-ble-throughput</uri>
-  <description><![CDATA[This code example demonstrates the maximum Bluetooth&#174; LE throughput (using GATT layer notifications and write command) that can be obtained with Infineon AIROC&#8482; CYW20xxx Bluetooth&#174; devices.
-  <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btsdk-ble-throughput/blob/master/README.md">README on GitHub</a>.]]></description>
-  <req_capabilities>fw2 btsdk led2x button</req_capabilities>
-  <versions>
-    <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
-      <num>Latest 2.X release</num>
-      <commit>latest-v2.X</commit>
-    </version>
-    <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
-      <num>2.0.0 release</num>
-      <commit>release-v2.0.0</commit>
-    </version>
-  </versions>
+    <name>LE Throughput Measurement</name>
+    <id>mtb-example-btsdk-ble-throughput</id>
+    <category>Bluetooth&#174;</category>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-btsdk-ble-throughput</uri>
+    <description><![CDATA[This code example demonstrates the maximum Bluetooth&#174; LE throughput (using GATT layer notifications and write command) that can be obtained with Infineon AIROC&#8482; CYW20xxx Bluetooth&#174; devices.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btsdk-ble-throughput/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>fw2 btsdk led2x button</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
+    </versions>
   </app>
-    <app keywords="psoc6,audio,voice,picovoice,wake word,intent,speech,demo">
+  <app keywords="mtb-flow,psoc6,wifi,anycloud,ota,mqtt,mcuboot,bootloader" req_capabilities_v2="[cy8ckit_062s2_43012, cy8cproto_062_4343w]">
+    <name>AnyCloud MCUboot-Based Bootloader with Rollback</name>
+    <id>mtb-example-anycloud-mcuboot-rollback</id>
+    <category>Wi-Fi</category>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-mcuboot-rollback</uri>
+    <description><![CDATA[This code example implements a bootloader based on MCUboot to demonstrate &#8216;Rollback&#8217; to a known good image ('factory_app_cm4') in case of unrecoverable error conditions in the current application. The bootloader can load the factory app from a known location in the external memory by directly copying it into the primary slot in the internal flash, based on user inputs during boot. The factory app can then perform the OTA to download an image over Wi-Fi and place it to the secondary slot of MCUboot.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-anycloud-mcuboot-rollback/blob/master/README.md">README on GitHub</a>.
+    <br><br><b>License Disclaimer:</b><br><br>
+    This code example makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license. <br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).]]></description>
+    <req_capabilities>psoc6 wifi cyw43xxx led std_crypto qspi nor_flash anycloud flash_2048k</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.3.1" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.3.1" req_capabilities_per_version="bsp_gen2">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,audio,voice,picovoice,wake word,intent,speech,demo">
     <name>Picovoice E2E Voice Recognition Demo</name>
-    <category>Peripherals</category> 
+    <category>Peripherals</category>
     <id>picovoice-demo-psoc6</id>
     <uri>https://github.com/Picovoice/picovoice-demo-psoc6</uri>
     <description><![CDATA[This package contains a demo project for the CY8CKIT-062S2-43012 kit using the Picovoice end-to-end voice recognition platform. The device will listen for a wake word and then extract intent from a spoken command.
@@ -4446,7 +4464,7 @@
   </app>
   <app keywords="psoc6,audio,voice,porcupine,wake word,demo">
     <name>Picovoice Porcupine Wake Word Demo</name>
-    <category>Peripherals</category> 
+    <category>Peripherals</category>
     <id>porcupine-demo-psoc6</id>
     <uri>https://github.com/Picovoice/porcupine-demo-psoc6</uri>
     <description><![CDATA[This package contains a demo project for the CY8CKIT-062S2-43012 kit using the Picovoice Porcupine&trade; wake word engine. The device will listen for a wake word and trigger the led upon recognition.
@@ -4456,24 +4474,6 @@
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>Main</num>
         <commit>main</commit>
-      </version>
-    </versions>
-  </app>
-  <app keywords="pmg1,led,switch,gpio-interrupt,mtb-flow">
-    <name>LED Switch Interface</name>
-    <id>mtb-example-pmg1-led-sw-interface</id>
-    <uri>https://github.com/Infineon/mtb-example-pmg1-led-sw-interface</uri>
-    <description><![CDATA[This code example demonstrates simple Switch and LED interface on Power Delivery Microcontroller Generation 1 (PMG1) devices.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-led-sw-interface">README on GitHub</a>.]]></description>
-    <req_capabilities>pmg1 led switch</req_capabilities>
-    <versions>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
-      </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
-        <num>1.0.0 release</num>
-        <commit>release-v1.0.0</commit>
       </version>
     </versions>
   </app>
@@ -4497,7 +4497,7 @@
     </versions>
   </app>
   <app keywords="psoc4,sar,adc,die temperature,opamp">
-    <name>SAR ADC</name>
+    <name>SAR ADC BASIC</name>
     <id>mtb-example-psoc4-sar-adc</id>
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-psoc4-sar-adc</uri>
