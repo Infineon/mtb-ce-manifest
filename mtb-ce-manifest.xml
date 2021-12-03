@@ -147,10 +147,10 @@
     </versions>
   </app>
   <app>
-    <name>CapSense Buttons and Slider</name>
+    <name>CAPSENSE Buttons and Slider</name>
     <id>mtb-example-psoc6-capsense-buttons-slider-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-capsense-buttons-slider</uri>
-    <description><![CDATA[This code example features a 5-segment CapSense slider and two CapSense buttons. Button 0 turns the LED on, Button 1 turns the LED off and the slider controls the brightness of the LED. The code example also demonstrates interfacing with Tuner GUI using I2C interface.
+    <description><![CDATA[This code example features a 5-segment CAPSENSE&#8482; slider and two CAPSENSE&#8482; buttons. Button 0 turns the LED on, Button 1 turns the LED off and the slider controls the brightness of the LED. The code example also demonstrates interfacing with Tuner GUI using I2C interface.
     <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-psoc6-capsense-buttons-slider/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 led capsense_button capsense_linear_slider</req_capabilities>
     <versions>
@@ -169,10 +169,10 @@
     </versions>
   </app>
   <app>
-    <name>BLE Battery Level FreeRTOS</name>
+    <name>Bluetooth LE Battery Level FreeRTOS</name>
     <id>mtb-example-psoc6-ble-battery-level-freertos</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-ble-battery-level-freertos</uri>
-    <description><![CDATA[This code example demonstrates the implementation of a BLE Battery Service using PSoC 6 MCU with Bluetooth Low Energy Connectivity (PSoC 6 BLE). This code example implements a GATT Server with the Battery Service and Device Information Service BLE standards. This code example uses FreeRTOS.
+    <description><![CDATA[This code example demonstrates the implementation of a Bluetooth&#174; Low Energy Battery Service using PSoC 6 MCU with Bluetooth&#174; Low Energy Connectivity (PSoC 6 Bluetooth&#174; LE). This code example implements a GATT Server with the Battery Service and Device Information Service Bluetooth&#174; Low Energy standards. This code example uses FreeRTOS.
     <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-psoc6-ble-battery-level-freertos/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 led switch ble</req_capabilities>
     <versions>
@@ -213,10 +213,10 @@
     </versions>
   </app>
   <app>
-    <name>BLE Find Me</name>
+    <name>Bluetooth LE Find Me</name>
     <id>mtb-example-psoc6-ble-findme-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-ble-findme</uri>
-    <description><![CDATA[This code example demonstrates the implementation of a simple BLE Immediate Alert Service (IAS)-based Find Me Profile (FMP) using PSoC 6 MCU with Bluetooth Low Energy (BLE) Connectivity.
+    <description><![CDATA[This code example demonstrates the implementation of a simple Bluetooth&#174; Low Energy Immediate Alert Service (IAS)-based Find Me Profile (FMP) using PSoC 6 MCU with Bluetooth&#174; Low Energy Connectivity.
     <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-psoc6-ble-findme/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 led switch ble</req_capabilities>
     <versions>
@@ -309,10 +309,10 @@
     </versions>
   </app>
   <app>
-    <name>CapSense Buttons and Slider FreeRTOS</name>
+    <name>CAPSENSE Buttons and Slider FreeRTOS</name>
     <id>mtb-example-psoc6-capsense-buttons-slider-freertos-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-capsense-buttons-slider-freertos</uri>
-    <description><![CDATA[This code example features a 5-segment CapSense slider and two CapSense buttons. Button 0 turns the LED on, Button 1 turns the LED off and the slider controls the brightness of the LED. The code example also demonstrates interfacing with Tuner GUI using I2C interface.
+    <description><![CDATA[This code example features a 5-segment CAPSENSE&#8482; slider and two CAPSENSE&#8482; buttons. Button 0 turns the LED on, Button 1 turns the LED off and the slider controls the brightness of the LED. The code example also demonstrates interfacing with Tuner GUI using I2C interface.
     <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-psoc6-capsense-buttons-slider-freertos/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 led capsense_button capsense_linear_slider</req_capabilities>
     <versions>
@@ -678,15 +678,15 @@
     <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-psoc6-qspi-readwrite/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 std_crypto led qspi nor_flash</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -762,7 +762,7 @@
     <name>Sensor Hub</name>
     <id>mtb-example-btsdk-sensorhub-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-btsdk-sensorhub</uri>
-    <description><![CDATA[This example demonstrates the interfacing of Multiple sensors, Motion, Temperature, and 3D magnetic sensor with CYW208xx and CYW207xx devices using ModusToolbox IDE.
+    <description><![CDATA[This example demonstrates the interfacing of Multiple sensors, Motion, Temperature, and 3D magnetic sensor with CYW208xx and CYW207xx devices using ModusToolbox&#8482; IDE.
     <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-btsdk-sensorhub/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>btsdk lsm9ds1 ncu15wf104 fw2</req_capabilities>
     <versions>
@@ -788,7 +788,7 @@
     <name>CYW208xx Data logger</name>
     <id>mtb-example-btsdk-cyw208xx-data-logger-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-btsdk-cyw208xx-data-logger</uri>
-    <description><![CDATA[This code example includes two applications that demonstrate the operation of multiple Serial Peripheral Interface (SPI) interfaces using the CYW208xx Bluetooth SoC.
+    <description><![CDATA[This code example includes two applications that demonstrate the operation of multiple Serial Peripheral Interface (SPI) interfaces using the CYW208xx Bluetooth&#174; SoC.
     <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-btsdk-cyw208xx-data-logger/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>CYW208XX ncu15wf104</req_capabilities>
     <versions>
@@ -910,15 +910,15 @@
     <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-psoc6-qspi-readwrite-sfdp/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 std_crypto led qspi nor_flash</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -1111,10 +1111,10 @@
     </versions>
   </app>
   <app>
-    <name>BLE Throughput Measurement</name>
+    <name>Bluetooth LE Throughput Measurement</name>
     <id>mtb-example-btsdk-ble-throughput-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-btsdk-ble-throughput</uri>
-    <description><![CDATA[This code example demonstrates the maximum BLE throughput (using GATT layer notifications and writes) that can be obtained with Cypress Bluetooth devices (CYW208xx and CYW207xx).
+    <description><![CDATA[This code example demonstrates the maximum Bluetooth&#174; Low Energy throughput (using GATT layer notifications and writes) that can be obtained with Cypress Bluetooth&#174; devices (CYW208xx and CYW207xx).
     <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-btsdk-ble-throughput/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>btsdk fw2 button</req_capabilities>
     <versions>
@@ -1177,10 +1177,10 @@
     </versions>
   </app>
   <app>
-    <name>BLE Peripheral Privacy</name>
+    <name>Bluetooth LE Peripheral Privacy</name>
     <id>mtb-example-btsdk-peripheral-privacy-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-btsdk-peripheral-privacy</uri>
-    <description><![CDATA[This code example demonstrates the privacy features available to users in Bluetooth 5.0 and above.
+    <description><![CDATA[This code example demonstrates the privacy features available to users in Bluetooth&#174; Low Energy 5.0 and above.
     <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-btsdk-peripheral-privacy/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>button fw2 btsdk</req_capabilities>
     <versions>
@@ -1323,10 +1323,10 @@
     </versions>
   </app>
   <app>
-    <name>BLE Throughput Measurement FreeRTOS</name>
+    <name>Bluetooth LE Throughput Measurement FreeRTOS</name>
     <id>mtb-example-psoc6-ble-throughput-freertos</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-ble-throughput-freertos</uri>
-    <description><![CDATA[This code example demonstrates BLE GATT throughput measurement (using GATT layer notifications and GATT write command) using PSoC 6 BLE MCU.
+    <description><![CDATA[This code example demonstrates Bluetooth&#174; Low Energy GATT throughput measurement (using GATT layer notifications and GATT write command) using PSoC 6 Bluetooth&#174; Low Energy MCU.
     <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-psoc6-ble-throughput-freertos/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 led switch ble</req_capabilities>
     <versions>
@@ -1481,7 +1481,7 @@
     </versions>
   </app>
   <app>
-    <name>AnyCloud BLE Multi Beacon</name>
+    <name>AnyCloud Bluetooth LE Multi Beacon</name>
     <id>mtb-example-anycloud-ble-multi-beacon-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-ble-multi-beacon</uri>
     <description><![CDATA[This code example demonstrates the implementation of a beacon which advertises multiple Eddystone ADV data.
@@ -1499,10 +1499,10 @@
     </versions>
   </app>
   <app>
-    <name>AnyCloud BLE Battery Server</name>
+    <name>AnyCloud Bluetooth LE Battery Server</name>
     <id>mtb-example-anycloud-ble-battery-server-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-ble-battery-server</uri>
-    <description><![CDATA[This code example demonstrates the implementation of a simple BLE Battery Service.
+    <description><![CDATA[This code example demonstrates the implementation of a simple Bluetooth&#174; LE Battery Service.
     <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-anycloud-ble-battery-server/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 bt led</req_capabilities>
     <versions>
@@ -1517,10 +1517,10 @@
     </versions>
   </app>
   <app>
-    <name>AnyCloud BLE Environmental Sensing Service</name>
+    <name>AnyCloud Bluetooth LE Environmental Sensing Service</name>
     <id>mtb-example-anycloud-ble-ess-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-ble-ess</uri>
-    <description><![CDATA[This code example demonstrates the implementation of a simple BLE Environmental Sensing Profile. It shows how to send environmental parameters like temperature by sending simulated temperature values over the BLE connection using the Cypress WiFi-BT combo SoCs supported in AnyCloud-SDK.
+    <description><![CDATA[This code example demonstrates the implementation of a simple Bluetooth&#174; LE Environmental Sensing Profile. It shows how to send environmental parameters like temperature by sending simulated temperature values over the Bluetooth&#174; LE connection using the Cypress WiFi-BT combo SoCs supported in AnyCloud-SDK.
     <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-anycloud-ble-ess/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 bt led</req_capabilities>
     <versions>
@@ -1535,10 +1535,10 @@
     </versions>
   </app>
   <app>
-    <name>AnyCloud Wi-Fi Onboarding Using BLE</name>
+    <name>AnyCloud Wi-Fi Onboarding Using Bluetooth LE</name>
     <id>mtb-example-anycloud-ble-wifi-onboarding-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-ble-wifi-onboarding</uri>
-    <description><![CDATA[This code example demonstrates WiFi Onboarding using BLE.
+    <description><![CDATA[This code example demonstrates WiFi Onboarding using Bluetooth&#174; Low Energy.
     <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-anycloud-ble-wifi-onboarding/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 wifi bt anycloud</req_capabilities>
     <versions>
@@ -1553,10 +1553,10 @@
     </versions>
   </app>
   <app>
-    <name>AnyCloud BLE CapSense Buttons and Slider</name>
+    <name>AnyCloud Bluetooth LE CAPSENSE Buttons and Slider</name>
     <id>mtb-example-anycloud-ble-capsense-buttons-slider-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-ble-capsense-buttons-slider</uri>
-    <description><![CDATA[This code example demonstrates the CapSense implementation using BLE Custom Service.
+    <description><![CDATA[This code example demonstrates the CAPSENSE&#8482; implementation using Bluetooth&#174; Low Energy Custom Service.
     <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-anycloud-ble-capsense-buttons-slider/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 bt capsense_button capsense_linear_slider led</req_capabilities>
     <versions>
@@ -1571,10 +1571,10 @@
     </versions>
   </app>
   <app>
-    <name>AnyCloud BLE CTS Client</name>
+    <name>AnyCloud Bluetooth LE CTS Client</name>
     <id>mtb-example-anycloud-ble-cts-client-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-ble-cts-client</uri>
-    <description><![CDATA[This code example demonstrates the implementation of a simple BLE GAP Peripheral - GATT Client with Current Time Service.
+    <description><![CDATA[This code example demonstrates the implementation of a simple Bluetooth&#174; Low Energy GAP Peripheral - GATT Client with Current Time Service.
     <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-anycloud-ble-cts-client/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 bt led</req_capabilities>
     <versions>
@@ -1589,10 +1589,10 @@
     </versions>
   </app>
   <app>
-    <name>AnyCloud BLE CTS Server</name>
+    <name>AnyCloud Bluetooth LE CTS Server</name>
     <id>mtb-example-anycloud-ble-cts-server-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-ble-cts-server</uri>
-    <description><![CDATA[This code example demonstrates the implementation of a simple BLE GAP Central - GATT Server with Current Time Service.
+    <description><![CDATA[This code example demonstrates the implementation of a simple Bluetooth&#174; Low Energy GAP Central - GATT Server with Current Time Service.
     <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-anycloud-ble-cts-server/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 bt led</req_capabilities>
     <versions>
@@ -1607,10 +1607,10 @@
     </versions>
   </app>
   <app>
-    <name>CapSense Custom Scan</name>
+    <name>CAPSENSE Custom Scan</name>
     <id>mtb-example-psoc6-capsense-custom-scan-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-capsense-custom-scan</uri>
-    <description><![CDATA[This code example demonstrates CapSense custom scanning through CapSense Middleware's callback functions that allow altering the sensor parameters during runtime or synchronizing the CapSense scan with non-CapSense operations. In this code example, the callback function is used to change the inactive sensor state to either shield or ground depending on the sensor being scanned.
+    <description><![CDATA[This code example demonstrates CAPSENSE&#8482; custom scanning through CAPSENSE&#8482; Middleware's callback functions that allow altering the sensor parameters during runtime or synchronizing the CAPSENSE&#8482; scan with non-CapSense operations. In this code example, the callback function is used to change the inactive sensor state to either shield or ground depending on the sensor being scanned.
     <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-psoc6-capsense-custom-scan/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 led capsense_linear_slider</req_capabilities>
     <versions>
@@ -1643,10 +1643,10 @@
     </versions>
   </app>
   <app>
-    <name>CapSense Tuning Over BLE - Server</name>
+    <name>CAPSENSE Tuning Over Bluetooth LE - Server</name>
     <id>mtb-example-psoc6-ble-capsense-tuner-server-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-ble-capsense-tuner-server</uri>
-    <description><![CDATA[This code example demonstrates how to monitor the CapSense data and tune the CapSense sensors over BLE communication with CapSense Tuner GUI using PSoC 6 BLE MCU. This is intended to be used with the CapSense Tuning Over BLE - Client example.
+    <description><![CDATA[This code example demonstrates how to monitor the CAPSENSE&#8482; data and tune the CAPSENSE&#8482; sensors over Bluetooth&#174; Low Energy communication with CAPSENSE&#8482; Tuner GUI using PSoC 6 Bluetooth&#174; Low Energy MCU. This is intended to be used with the CAPSENSE&#8482; Tuning Over Bluetooth&#174; Low Energy - Client example.
     <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-psoc6-ble-capsense-tuner-server/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 led ble capsense_button capsense_linear_slider</req_capabilities>
     <versions>
@@ -1743,10 +1743,10 @@
     </versions>
   </app>
   <app>
-    <name>CapSense Tuning Over BLE - Client</name>
+    <name>CAPSENSE Tuning Over Bluetooth LE - Client</name>
     <id>mtb-example-psoc6-ble-capsense-tuner-client-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-ble-capsense-tuner-client</uri>
-    <description><![CDATA[This code example demonstrates how to monitor the CapSense data and tune the CapSense sensors over BLE communication with CapSense Tuner GUI using PSoC 6 BLE MCU. This is intended to be used with the CapSense Tuning Over BLE - Server example.
+    <description><![CDATA[This code example demonstrates how to monitor the CAPSENSE&#8482; data and tune the CAPSENSE&#8482; sensors over Bluetooth&#174; Low Energy communication with CAPSENSE&#8482; Tuner GUI using PSoC 6 Bluetooth&#174; Low Energy MCU. This is intended to be used with the CAPSENSE&#8482; Tuning Over Bluetooth&#174; Low Energy - Server example.
     <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-psoc6-ble-capsense-tuner-client/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 led ble</req_capabilities>
     <versions>
