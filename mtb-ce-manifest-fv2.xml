@@ -4662,4 +4662,306 @@
       </version>
     </versions>
   </app>
+  <app keywords="cyw43907,uart,mtb-flow">
+    <name>UART Transmit and Receive</name>
+    <id>mtb-example-cyw43907-uart-tx-rx</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-cyw43907-uart-tx-rx</uri>
+    <description><![CDATA[This code example demonstrates the UART (HAL) transmit and receive operation in CYW43907. The application uses a serial terminal to read data and to echo back the received data. The UART resource is configured to do both transmit and receive operations.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-cyw43907-uart-tx-rx/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>cat4</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="cyw43907, hello world, led, timer, mtb-flow">
+    <name>Hello World</name>
+    <id>mtb-example-cyw43907-hello-world</id>
+    <category>Getting Started</category>
+    <uri>https://github.com/Infineon/mtb-example-cyw43907-hello-world</uri>
+    <description><![CDATA[This code example demonstrates the simple UART communication by printing a "Hello World" message on a terminal and blinks an LED using a Timer resource using CYW43907.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-cyw43907-hello-world/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>cat4</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="cyw43907, watchdog timer, mtb-flow">
+    <name>Watchdog Timer</name>
+    <id>mtb-example-cyw43907-wdt</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-cyw43907-wdt</uri>
+    <description><![CDATA[This code example explains how to set up a Watchdog Timer using the WDT HAL resource. The WDT resets the device if it is not serviced or "kicked" within the configured timeout interval. This helps in recovering the program from an unintended lock up.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-cyw43907-wdt/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>cat4</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="cyw43907, gpio, mtb-flow">
+    <name>GPIO</name>
+    <id>mtb-example-cyw43907-gpio</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-cyw43907-gpio</uri>
+    <description><![CDATA[This code example demonstrates the use of a GPIO configured as an input pin to generate interrupts on CYW43907. The GPIO signal interrupts the CPU and executes a user-defined Interrupt Service Routine (ISR).
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-cyw43907-gpio/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>cat4</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="cyw43907, pwm, mtb-flow">
+    <name>PWM Square Wave</name>
+    <id>mtb-example-cyw43907-pwm</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-cyw43907-pwm</uri>
+    <description><![CDATA[This code example generates a square wave using the PWM driver. An LED connected to the PWM output pin blinks at 1000 Hz with Variable Duty Cycle.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-cyw43907-pwm/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>cat4</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="cyw43907,tcp,client,wifi,mtb-flow">
+    <name>TCP Client</name>
+    <id>mtb-example-cyw43907-tcp-client</id>
+    <category>Wi-Fi</category>
+    <uri>https://github.com/Infineon/mtb-example-cyw43907-tcp-client</uri>
+    <description><![CDATA[This code example demonstrates the implementation of a TCP client.
+    The example establishes a connection with a remote TCP server and based on the command received from the TCP server,
+    turns the user LED ON or OFF.
+    Additionally, this code example can be configured to bring up the Wi-Fi device either in STA interface or in Soft AP interface mode.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-cyw43907-tcp-client/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>cat4</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="cyw43907,tcp,server,wifi,mtb-flow">
+    <name>TCP Server</name>
+    <id>mtb-example-cyw43907-tcp-server</id>
+    <category>Wi-Fi</category>
+    <uri>https://github.com/Infineon/mtb-example-cyw43907-tcp-server</uri>
+    <description><![CDATA[This code example demonstrates the implementation of a TCP server.
+    In this example, the TCP server establishes a connection with a TCP client. Once the connection completes successfully, the  server allows the user to send LED ON/OFF command to the TCP client and the client responds by sending an acknowledgement message to the server. Additionally, this code example can be configured to bring up the Wi-Fi device either in STA interface or in Soft AP interface mode.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-cyw43907-tcp-server/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>cat4</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="cyw43907,secure,tcp,client,wifi,mtb-flow">
+    <name>Secure TCP Client</name>
+    <id>mtb-example-cyw43907-secure-tcp-client</id>
+    <category>Wi-Fi</category>
+    <uri>https://github.com/Infineon/mtb-example-cyw43907-secure-tcp-client</uri>
+    <description><![CDATA[This code example demonstrates the implementation of a secure TCP client.
+    In this example, a TCP client establishes a secure connection with a TCP server through a SSL handshake.
+    Once the SSL handshake completes successfully, the TCP client turns ON or OFF the user LED based on the command received    from the TCP server. The Wi-Fi device can be brought up in either STA or Soft AP interface mode.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-cyw43907-secure-tcp-client/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>cat4</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="cyw43907,secure,tcp,server,wifi,mtb-flow">
+    <name>Secure TCP Server</name>
+    <id>mtb-example-cyw43907-secure-tcp-server</id>
+    <category>Wi-Fi</category>
+    <uri>https://github.com/Infineon/mtb-example-cyw43907-secure-tcp-server</uri>
+    <description><![CDATA[This code example demonstrates the implementation of a secure TCP server.
+    In this example, the TCP server establishes a secure connection with a TCP client through SSL handshake.
+    Once the SSL handshake completes successfully, the server allows the user to send LED ON/OFF command to the TCP client;
+    the client responds by sending an acknowledgement message to the server.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-cyw43907-secure-tcp-server/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>cat4</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="cyw43907,scan,wifi,mtb-flow">
+    <name>Wi-Fi Scan</name>
+    <id>mtb-example-cyw43907-wifi-scan</id>
+    <category>Wi-Fi</category>
+    <uri>https://github.com/Infineon/mtb-example-cyw43907-wifi-scan</uri>
+    <description><![CDATA[This example demonstrates how to configure different scan filters provided in the Wi-Fi connection manager (WCM) middleware and
+    scan for the available Wi-Fi networks. The example initializes the Wi-Fi device, starts a Wi-Fi scan without any filter, and prints the results on the serial terminal.
+    The example starts a scan every three seconds after the previous scan completes.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-cyw43907-wifi-scan/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>cat4</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="cyw43907,i2c,mtb-flow">
+    <name>I2C Master</name>
+    <id>mtb-example-cyw43907-i2c</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-cyw43907-i2c</uri>
+    <description><![CDATA[This code example demonstrates the I2C (HAL) operation in CYW43907 MCU. The application uses I2C to read data from CY8CKIT-032 PSoC Analog Front End (AFE) Arduino Shield and
+    display the result in the UART serial Terminal every time the user presses the button.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-cyw43907-i2c/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>cat4</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="cyw43907,mqtt,client,wifi,mtb-flow">
+    <name>MQTT Client</name>
+    <id>mtb-example-cyw43907-mqtt-client</id>
+    <category>Wi-Fi</category>
+    <uri>https://github.com/Infineon/mtb-example-cyw43907-mqtt-client</uri>
+    <description><![CDATA[This code example demonstrates implementing an MQTT client using the MQTT client library. The library uses the AWS IoT device SDK MQTT client library that includes an MQTT 3.1.1 client.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-cyw43907-mqtt-client/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>cat4</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="cyw43907,https,wifi,server,secure,mtb-flow">
+    <name>Secure HTTP Server</name>
+    <id>mtb-example-cyw43907-secure-http-server</id>
+    <category>Wi-Fi</category>
+    <uri>https://github.com/Infineon/mtb-example-cyw43907-secure-http-server</uri>
+    <description><![CDATA[This code example demonstrates the implementation of an HTTPS server with AIROC&#8482; CYW43907 MCU.It employs the HTTPS server middleware library,
+    which takes care of all the underlying socket connections with the HTTPS client.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-cyw43907-secure-http-server/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>cat4</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="cyw43907,udp,client,wifi,mtb-flow">
+    <name>UDP Client</name>
+    <id>mtb-example-cyw43907-udp-client</id>
+    <category>Wi-Fi</category>
+    <uri>https://github.com/Infineon/mtb-example-cyw43907-udp-client</uri>
+    <description><![CDATA[This code example demonstrates the implementation of a UDP client with CYW43907 connectivity device.
+    The example establishes a connection with a remote UDP server, and based on the command received from the UDP server,
+    turns the user LED ON or OFF.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-cyw43907-udp-client/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>cat4</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="cyw43907,udp,server,wifi,mtb-flow">
+    <name>UDP Server</name>
+    <id>mtb-example-cyw43907-udp-server</id>
+    <category>Wi-Fi</category>
+    <uri>https://github.com/Infineon/mtb-example-cyw43907-udp-server</uri>
+    <description><![CDATA[In this code example, the UDP server waits for the UDP client to establish connection.
+    Once the connection is established, the server allows the user to send the LED ON/OFF command to the UDP client through a button press;
+    the client responds by sending an acknowledgement message to the server.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-cyw43907-udp-server/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>cat4</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
 </apps>
