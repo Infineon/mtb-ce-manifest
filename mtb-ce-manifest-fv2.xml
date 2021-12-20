@@ -4,10 +4,18 @@
     <id>mtb-example-psoc6-empty-app</id>
     <category>Getting Started</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-empty-app</uri>
-    <description><![CDATA[This empty application provides a template for creating applications using PSoC 6 devices.
+    <description><![CDATA[This empty application provides a template for creating applications using PSoC&#8482; 6 devices.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-empty-app/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>3.0.0 release</num>
+        <commit>release-v3.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
@@ -27,10 +35,18 @@
     <id>mtb-example-psoc6-hello-world</id>
     <category>Getting Started</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-hello-world</uri>
-    <description><![CDATA[This code example demonstrates simple UART communication by printing a "Hello World" message on a terminal and blinks an LED using a Timer resource using PSoC 6 MCU.
+    <description><![CDATA[This code example demonstrates simple UART communication by printing a "Hello World" message on a terminal and blinks an LED using a Timer resource using PSoC&#8482; 6 MCU.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-hello-world/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 led</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>3.0.0 release</num>
+        <commit>release-v3.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
@@ -196,6 +212,14 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-capsense-buttons-slider-freertos/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 led capsense_button capsense_linear_slider</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>3.0.0 release</num>
+        <commit>release-v3.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
@@ -639,10 +663,18 @@
     <id>mtb-example-psoc6-dual-cpu-ipc-pipes</id>
     <category>Peripherals</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-dual-cpu-ipc-pipes</uri>
-    <description><![CDATA[This example demonstrates how to use the inter-processor communication (IPC) driver to implement a message pipe in PSoC 6 MCU. The pipe is used to send messages between CPUs.
+    <description><![CDATA[This example demonstrates how to use the inter-processor communication (IPC) driver to implement a message pipe in PSoC&#8482; 6 MCU. The pipe is used to send messages between CPUs.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-dual-cpu-ipc-pipes/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 multi_core switch</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>3.0.0 release</num>
+        <commit>release-v3.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
@@ -670,13 +702,25 @@
     <id>mtb-example-psoc6-dual-cpu-ipc-sema</id>
     <category>Peripherals</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-dual-cpu-ipc-sema</uri>
-    <description><![CDATA[This example demonstrates how to use the inter-processor communication (IPC) driver to implement a semaphore in PSoC 6 MCU. The semaphore is used as a lock to control access to a resource shared by the CPUs and synchronize the initialization instructions.
+    <description><![CDATA[This example demonstrates how to use the inter-processor communication (IPC) driver to implement a semaphore in PSoC&#8482; 6 MCU. The semaphore is used as a lock to control access to a resource shared by the CPUs and synchronize the initialization instructions.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-dual-cpu-ipc-sema/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 multi_core led switch</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>3.0.0 release</num>
+        <commit>release-v3.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>2.3.0 release</num>
+        <commit>release-v2.3.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>2.2.0 release</num>
@@ -1101,7 +1145,7 @@
     </versions>
   </app>
   <app keywords="psoc6,anycloud,wifi,mtb-flow,wifi-scan,wcm,scan filters">
-    <name>AnyCloud Wi-Fi Scan</name>
+    <name>Wi-Fi Scan</name>
     <id>mtb-example-anycloud-wifi-scan</id>
     <category>Wi-Fi</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-wifi-scan</uri>
@@ -1109,8 +1153,16 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-anycloud-wifi-scan/blob/master/README.md">README on GitHub</a>.
     <br><br><b>License Disclaimer:</b><br><br>
     This code example makes use of the lwIP open-source TCP/IP stack and the Mbed TLS open-source TLS/SSL library which has cryptographic capabilities. Creating a project from this template will cause lwIP and Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the lwIP &amp; Mbed TLS licenses and regional use restrictions (including abiding by all applicable export control laws).]]></description>
-    <req_capabilities>psoc6 wifi cyw43xxx led switch anycloud</req_capabilities>
+    <req_capabilities>psoc6 wifi cyw43xxx led switch</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>3.0.0 release</num>
+        <commit>release-v3.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
@@ -1313,17 +1365,25 @@
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,psoc6,lpa,anycloud,wifi,wlan,lowpower">
-    <name>AnyCloud WLAN Low Power</name>
+  <app keywords="mtb-flow,psoc6,lpa,anycloud,wifi,wlan,lowpower" req_capabilities_v2="[flash_2048k, flash_1024k, flash_512k, cy8ckit_064b0s2_4343w]">
+    <name>WLAN Low Power</name>
     <id>mtb-example-anycloud-wlan-lowpower</id>
     <category>Wi-Fi</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-wlan-lowpower</uri>
-    <description><![CDATA[This code example demonstrates the low-power operation of a host MCU and a WLAN device using the network activity handlers provided by the Low Power Assistant middleware for Cypress connectivity devices.
+    <description><![CDATA[This code example demonstrates the low-power operation of a host MCU and a WLAN device using the network activity handlers provided by the Low Power Assistant middleware for AIROC&#8482; Wi-Fi & Bluetooth&#174; combos.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-anycloud-wlan-lowpower/blob/master/README.md">README on GitHub</a>.
     <br><br><b>License Disclaimer:</b><br><br>
     This code example makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license. <br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).]]></description>
-    <req_capabilities>psoc6 wifi cyw43xxx led low_power anycloud</req_capabilities>
+    <req_capabilities>psoc6 wifi cyw43xxx led low_power</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>3.0.0 release</num>
+        <commit>release-v3.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
@@ -1464,17 +1524,25 @@
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,psoc6,lpa,anycloud,wifi,wlan,offload,tcp-keepalive">
-    <name>AnyCloud TCP Keepalive Offload</name>
+    <app keywords="mtb-flow,psoc6,lpa,anycloud,wifi,wlan,offload,tcp-keepalive" req_capabilities_v2="[flash_2048k, flash_1024k, flash_512k]">
+    <name>TCP Keepalive Offload</name>
     <id>mtb-example-anycloud-offload-tcp-keepalive</id>
     <category>Wi-Fi</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-offload-tcp-keepalive</uri>
-    <description><![CDATA[This code example demonstrates the TCP Keepalive Offload functionality offered by Cypress Wi-Fi devices using PSoC 6 MCU. It employs Low Power Assistant (LPA) middleware library which helps in developing low power applications for the Cypress devices.
+    <description><![CDATA[This code example demonstrates the TCP Keepalive Offload functionality offered by AIROC&#8482; Wi-Fi & Bluetooth&#174; combos using PSoC&#8482; 6 MCU. It employs Low Power Assistant (LPA) middleware library which helps in developing low power applications for the Infineon devices.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-anycloud-offload-tcp-keepalive/blob/master/README.md">README on GitHub</a>.
     <br><br><b>License Disclaimer:</b><br><br>
     This code example makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license. <br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).]]></description>
-    <req_capabilities>psoc6 wifi cyw43xxx low_power anycloud</req_capabilities>
+    <req_capabilities>psoc6 wifi cyw43xxx low_power</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>3.0.0 release</num>
+        <commit>release-v3.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
@@ -3341,17 +3409,25 @@
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,psoc6,anycloud,udp,client,wifi,led">
-    <name>AnyCloud UDP Client</name>
+    <app keywords="mtb-flow,psoc6,anycloud,udp,client,wifi,led">
+    <name>UDP Client</name>
     <id>mtb-example-anycloud-udp-client</id>
     <category>Wi-Fi</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-udp-client</uri>
-    <description><![CDATA[This code example demonstrates implementation of UDP Client using AnyCloud SDK. The UDP Client establishes a connection with a remote UDP server and based on the command received from the UDP server, turns the user LED ON or OFF using PSoC 6 MCU.
+    <description><![CDATA[This code example demonstrates implementation of UDP Client using AnyCloud SDK. The UDP Client establishes a connection with a remote UDP server and based on the command received from the UDP server, turns the user LED ON or OFF using PSoC&#8482; 6 MCU.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-anycloud-udp-client/blob/master/README.md">README on GitHub</a>.
     <br><br><b>License Disclaimer:</b><br><br>
     This code example makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license. <br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).]]></description>
-    <req_capabilities>psoc6 cyw43xxx wifi led anycloud</req_capabilities>
+    <req_capabilities>psoc6 cyw43xxx wifi led</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>3.0.0 release</num>
+        <commit>release-v3.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
@@ -3375,16 +3451,24 @@
     </versions>
   </app>
   <app keywords="mtb-flow,psoc6,anycloud,udp,server,wifi,switch">
-    <name>AnyCloud UDP Server</name>
+    <name>UDP Server</name>
     <id>mtb-example-anycloud-udp-server</id>
     <category>Wi-Fi</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-udp-server</uri>
-    <description><![CDATA[This code example demonstrates implementation of UDP Server using AnyCloud SDK. The UDP Server allows the user to send LED ON/OFF command to the UDP client using PSoC 6 MCU.
+    <description><![CDATA[This code example demonstrates implementation of UDP Server using AnyCloud SDK. The UDP Server allows the user to send LED ON/OFF command to the UDP client using PSoC&#8482; 6 MCU.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-anycloud-udp-server/blob/master/README.md">README on GitHub</a>.
     <br><br><b>License Disclaimer:</b><br><br>
     This code example makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license. <br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).]]></description>
-    <req_capabilities>psoc6 cyw43xxx wifi switch anycloud</req_capabilities>
+    <req_capabilities>psoc6 cyw43xxx wifi switch</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>3.0.0 release</num>
+        <commit>release-v3.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
@@ -3554,17 +3638,25 @@
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,psoc6,anycloud,http,https,server,wifi">
-    <name>AnyCloud HTTPS Server</name>
+  <app keywords="mtb-flow,psoc6,anycloud,http,https,server,wifi" req_capabilities_v2="[flash_2048k, flash_1024k, flash_512k]">
+    <name>HTTPS Server</name>
     <id>mtb-example-anycloud-https-server</id>
     <category>Wi-Fi</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-https-server</uri>
-    <description><![CDATA[This code example demonstrates the implementation of an HTTPS server with PSoC 6 MCU and CYW43xxx connectivity devices. It employs the HTTPS server middleware library, which takes care of all the underlying socket connections with the HTTPS client. This example establishes a secure connection with a HTTPS client through SSL handshake. Once the SSL handshake completes successfully, the HTTPS client can make GET, POST, and PUT requests with the server.
+    <description><![CDATA[This code example demonstrates the implementation of an HTTPS server with PSoC&#8482; 6 MCU and CYW43xxx connectivity devices. It employs the HTTPS server middleware library, which takes care of all the underlying socket connections with the HTTPS client. This example establishes a secure connection with a HTTPS client through SSL handshake. Once the SSL handshake completes successfully, the HTTPS client can make GET, POST, and PUT requests with the server.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-anycloud-https-server/blob/master/README.md">README on GitHub</a>.
     <br><br><b>License Disclaimer:</b><br><br>
     This code example makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license.<br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).]]></description>
-    <req_capabilities>psoc6 cyw43xxx led wifi anycloud</req_capabilities>
+    <req_capabilities>psoc6 cyw43xxx led wifi</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>3.0.0 release</num>
+        <commit>release-v3.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
@@ -3604,17 +3696,25 @@
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,psoc6,anycloud,tcp,secure,client,wifi">
-    <name>AnyCloud secure TCP client</name>
+    <app keywords="mtb-flow,psoc6,anycloud,tcp,secure,client,wifi" req_capabilities_v2="[flash_2048k, flash_1024k, flash_512k]">
+    <name>Secure TCP client</name>
     <id>mtb-example-anycloud-secure-tcp-client</id>
     <category>Wi-Fi</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-secure-tcp-client</uri>
-    <description><![CDATA[This code example demonstrates the implementation of a secure TCP client using PSoC&#8482; 6 MCU with AIROC&#8482; CYW43xxx Wi-Fi & Bluetooth&#174; combo chips.
+    <description><![CDATA[This code example demonstrates the implementation of a secure TCP client using PSoC&#8482;&#8482; 6 MCU with AIROC&#8482; CYW43xxx Wi-Fi & Bluetooth&#174; combo chips.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-anycloud-secure-tcp-client/blob/master/README.md">README on GitHub</a>.
     <br><br><b>License Disclaimer:</b><br><br>
     This code example makes use of the lwIP open-source TCP/IP stack and the Mbed TLS open-source TLS/SSL library which has cryptographic capabilities. Creating a project from this template will cause lwIP and Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the lwIP &amp; Mbed TLS licenses and regional use restrictions (including abiding by all applicable export control laws).]]></description>
-    <req_capabilities>psoc6 wifi cyw43xxx led switch anycloud</req_capabilities>
+    <req_capabilities>psoc6 wifi cyw43xxx led switch</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>3.0.0 release</num>
+        <commit>release-v3.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
@@ -3629,17 +3729,25 @@
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,psoc6,anycloud,tcp,secure,server,wifi">
-    <name>AnyCloud secure TCP server</name>
+  <app keywords="mtb-flow,psoc6,anycloud,tcp,secure,server,wifi" req_capabilities_v2="[flash_2048k, flash_1024k, flash_512k]">
+    <name>Secure TCP server</name>
     <id>mtb-example-anycloud-secure-tcp-server</id>
     <category>Wi-Fi</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-secure-tcp-server</uri>
-    <description><![CDATA[This code example demonstrates the implementation of a secure TCP server using PSoC&#8482; 6 MCU with AIROC&#8482; CYW43xxx Wi-Fi & Bluetooth&#174; combo chips.
+    <description><![CDATA[This code example demonstrates the implementation of a secure TCP server using PSoC&#8482;&#8482; 6 MCU with AIROC&#8482; CYW43xxx Wi-Fi & Bluetooth&#174; combo chips.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-anycloud-secure-tcp-server/blob/master/README.md">README on GitHub</a>.
     <br><br><b>License Disclaimer:</b><br><br>
     This code example makes use of the lwIP open-source TCP/IP stack and the Mbed TLS open-source TLS/SSL library which has cryptographic capabilities. Creating a project from this template will cause lwIP and Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the lwIP &amp; Mbed TLS licenses and regional use restrictions (including abiding by all applicable export control laws).]]></description>
-    <req_capabilities>psoc6 wifi cyw43xxx led switch anycloud</req_capabilities>
+    <req_capabilities>psoc6 wifi cyw43xxx led switch</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>3.0.0 release</num>
+        <commit>release-v3.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
@@ -3712,8 +3820,8 @@
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,psoc6,anycloud,mqtt,client,wifi,aws,mosquitto">
-    <name>AnyCloud MQTT Client</name>
+    <app keywords="mtb-flow,psoc6,anycloud,mqtt,client,wifi,aws,mosquitto" req_capabilities_v2="[flash_2048k, flash_1024k, flash_512k]">
+    <name>MQTT Client</name>
     <id>mtb-example-anycloud-mqtt-client</id>
     <category>Wi-Fi</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-mqtt-client</uri>
@@ -3721,8 +3829,16 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-anycloud-mqtt-client/blob/master/README.md">README on GitHub</a>.
     <br><br><b>License Disclaimer:</b><br><br>
     This code example makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license.<br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).]]></description>
-    <req_capabilities>psoc6 wifi cyw43xxx led switch anycloud</req_capabilities>
+    <req_capabilities>psoc6 wifi cyw43xxx led switch</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>Latest 4.X release</num>
+        <commit>latest-v4.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>4.0.0 release</num>
+        <commit>release-v4.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
@@ -4068,10 +4184,18 @@
     <id>mtb-example-psoc6-mcuboot-basic</id>
     <category>Peripherals</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-mcuboot-basic</uri>
-    <description><![CDATA[This code example demonstrates building a simple bootloader application for PSoC 62/63 MCUs using the open-source library - MCUboot.
+    <description><![CDATA[This code example demonstrates building a simple bootloader application for PSoC&#8482; 62/63 MCUs using the open-source library - MCUboot.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-mcuboot-basic/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 std_crypto led qspi nor_flash</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>3.0.0 release</num>
+        <commit>release-v3.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>

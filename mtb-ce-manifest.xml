@@ -1662,23 +1662,23 @@
   </app>
   <app>
     <name>AnyCloud UDP Client</name>
-    <id>mtb-example-anycloud-udp-client</id>
+    <id>mtb-example-anycloud-udp-client-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-udp-client</uri>
-    <description><![CDATA[This code example demonstrates implementation of UDP Client using AnyCloud SDK. The UDP Client establishes a connection with a remote UDP server and based on the command received from the UDP server, turns the user LED ON or OFF using PSoC 6 MCU.
+    <description><![CDATA[This code example demonstrates implementation of UDP Client using AnyCloud SDK. The UDP Client establishes a connection with a remote UDP server and based on the command received from the UDP server, turns the user LED ON or OFF using PSoC&#8482; 6 MCU.
     <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-anycloud-udp-client/blob/master/README.md">README on GitHub</a>.
     <br><br><b>License Disclaimer:</b><br><br>
     This code example makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license. <br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).]]></description>
     <req_capabilities>psoc6 cyw43xxx wifi led anycloud</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -1686,19 +1686,19 @@
   </app>
   <app>
     <name>AnyCloud UDP Server</name>
-    <id>mtb-example-anycloud-udp-server</id>
+    <id>mtb-example-anycloud-udp-server-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-udp-server</uri>
-    <description><![CDATA[This code example demonstrates implementation of UDP Server using AnyCloud SDK. The UDP Server allows the user to send LED ON/OFF command to the UDP client using PSoC 6 MCU.
+    <description><![CDATA[This code example demonstrates implementation of UDP Server using AnyCloud SDK. The UDP Server allows the user to send LED ON/OFF command to the UDP client using PSoC&#8482; 6 MCU.
     <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-anycloud-udp-server/blob/master/README.md">README on GitHub</a>.
     <br><br><b>License Disclaimer:</b><br><br>
     This code example makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license. <br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).]]></description>
     <req_capabilities>psoc6 cyw43xxx wifi switch anycloud</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
