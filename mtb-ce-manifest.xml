@@ -1114,7 +1114,7 @@
     <name>Bluetooth LE Throughput Measurement</name>
     <id>mtb-example-btsdk-ble-throughput-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-btsdk-ble-throughput</uri>
-    <description><![CDATA[This code example demonstrates the maximum Bluetooth&#174; Low Energy throughput (using GATT layer notifications and writes) that can be obtained with Cypress Bluetooth&#174; devices (CYW208xx and CYW207xx).
+    <description><![CDATA[This code example demonstrates the maximum Bluetooth&#174; Low Energy throughput (using GATT layer notifications and writes) that can be obtained with AIROC&#8482; Bluetooth&#174; devices (CYW208xx and CYW207xx).
     <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-btsdk-ble-throughput/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>btsdk fw2 button</req_capabilities>
     <versions>
@@ -1278,7 +1278,7 @@
     <name>AnyCloud MQTT Client</name>
     <id>mtb-example-anycloud-mqtt-client-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-mqtt-client</uri>
-    <description><![CDATA[This code example demonstrates implementing an MQTT client using the MQTT client library for the family of Cypress connectivity devices. This library uses the AWS IoT Device SDK that includes an MQTT 3.1.1 client.
+    <description><![CDATA[This code example demonstrates implementing an MQTT client using the MQTT client library for the family of AIROC&#8482; Wi-Fi & Bluetooth&#174; combos. This library uses the AWS IoT Device SDK that includes an MQTT 3.1.1 client.
     <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-anycloud-mqtt-client/blob/master/README.md">README on GitHub</a>.
     <br><br><b>License Disclaimer:</b><br><br>
     This code example makes use of the lwIP open-source TCP/IP stack and the Mbed TLS open-source TLS/SSL library which has cryptographic capabilities. Creating a project from this template will cause lwIP and Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the lwIP &amp; Mbed TLS licenses and regional use restrictions (including abiding by all applicable export control laws).]]></description>
@@ -1302,7 +1302,7 @@
     <name>AnyCloud WLAN Low Power</name>
     <id>mtb-example-anycloud-wlan-lowpower-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-wlan-lowpower</uri>
-    <description><![CDATA[This code example demonstrates the low-power operation of a host MCU and a WLAN device using the network activity handlers provided by the Low Power Assistant middleware for Cypress connectivity devices.
+    <description><![CDATA[This code example demonstrates the low-power operation of a host MCU and a WLAN device using the network activity handlers provided by the Low Power Assistant middleware for AIROC&#8482; Wi-Fi & Bluetooth&#174; combos.
     <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-anycloud-wlan-lowpower/blob/master/README.md">README on GitHub</a>.
     <br><br><b>License Disclaimer:</b><br><br>
     This code example makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license. <br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).]]></description>
@@ -1344,7 +1344,7 @@
     <name>AnyCloud TCP Keepalive Offload</name>
     <id>mtb-example-anycloud-offload-tcp-keepalive-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-offload-tcp-keepalive</uri>
-    <description><![CDATA[This code example demonstrates the TCP Keepalive Offload functionality offered by Cypress Wi-Fi devices using PSoC&#8482; 6 MCU. It employs Low Power Assistant (LPA) middleware library which helps in developing low power applications for the Cypress devices.
+    <description><![CDATA[This code example demonstrates the TCP Keepalive Offload functionality offered by AIROC&#8482; Wi-Fi & Bluetooth&#174; combos using PSoC&#8482; 6 MCU. It employs Low Power Assistant (LPA) middleware library which helps in developing low power applications for the Infineon devices.
     <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-anycloud-offload-tcp-keepalive/blob/master/README.md">README on GitHub</a>.
     <br><br><b>License Disclaimer:</b><br><br>
     This code example makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license. <br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).]]></description>
@@ -1520,7 +1520,7 @@
     <name>AnyCloud Bluetooth LE Environmental Sensing Service</name>
     <id>mtb-example-anycloud-ble-ess-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-ble-ess</uri>
-    <description><![CDATA[This code example demonstrates the implementation of a simple Bluetooth&#174; LE Environmental Sensing Profile. It shows how to send environmental parameters like temperature by sending simulated temperature values over the Bluetooth&#174; LE connection using the Cypress WiFi-BT combo SoCs supported in AnyCloud-SDK.
+    <description><![CDATA[This code example demonstrates the implementation of a simple Bluetooth&#174; LE Environmental Sensing Profile. It shows how to send environmental parameters like temperature by sending simulated temperature values over the Bluetooth&#174; LE connection using the AIROC&#8482; Wi-Fi & Bluetooth&#174; combos supported in AnyCloud-SDK.
     <br><br>For more details, see the <a href="https://github.com/cypresssemiconductorco/mtb-example-anycloud-ble-ess/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 bt led</req_capabilities>
     <versions>
