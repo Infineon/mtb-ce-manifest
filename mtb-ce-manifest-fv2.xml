@@ -745,7 +745,7 @@
     </versions>
   </app>
   <app keywords="psoc6,mtb-flow,ble,bluetooth,anycloud,ess,4343w,43012">
-    <name>AnyCloud Bluetooth LE Environmental Sensing Service</name>
+    <name>Bluetooth LE Environmental Sensing Service</name>
     <id>mtb-example-anycloud-ble-ess</id>
     <category>Bluetooth&#174;</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-ble-ess</uri>
@@ -753,6 +753,14 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-anycloud-ble-ess/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 bt led</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>3.0.0 release</num>
+        <commit>release-v3.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.3.1" req_capabilities_per_version="bsp_gen2">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
@@ -764,17 +772,22 @@
     </versions>
   </app>
   <app keywords="psoc6,mtb-flow,ble,bluetooth,anycloud,beacon,eddystone,multi-adv,4343w,43012">
-    <name>AnyCloud Bluetooth LE Multi Beacon</name>
+    <name>Bluetooth LE Multi Beacon</name>
     <id>mtb-example-anycloud-ble-multi-beacon</id>
     <category>Bluetooth&#174;</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-ble-multi-beacon</uri>
-    <description><![CDATA[This code example demonstrates the implementation of a beacon which advertises multiple Eddystone ADV data.
+    <description><![CDATA[This code example demonstrates the implementation of a beacon which advertises Eddystone and
+iBeacon UUID data.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-anycloud-ble-multi-beacon/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 bt</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="2.3.1" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>3.1.0 release</num>
+        <commit>release-v3.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="2.3.1" req_capabilities_per_version="bsp_gen2">
         <num>3.0.0 release</num>
@@ -795,7 +808,7 @@
     </versions>
   </app>
   <app keywords="psoc6,mtb-flow,ble,bluetooth,anycloud,onboarding,4343w,43012">
-    <name>AnyCloud Wi-Fi Onboarding Using Bluetooth LE</name>
+    <name>Wi-Fi Onboarding Using Bluetooth LE</name>
     <id>mtb-example-anycloud-ble-wifi-onboarding</id>
     <category>Bluetooth&#174;</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-ble-wifi-onboarding</uri>
@@ -803,9 +816,13 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-anycloud-ble-wifi-onboarding/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 wifi bt low_power anycloud</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="2.3.1" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>3.1.0 release</num>
+        <commit>release-v3.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="2.3.1" req_capabilities_per_version="bsp_gen2">
         <num>3.0.0 release</num>
@@ -1285,7 +1302,7 @@
     </versions>
   </app>
   <app keywords="psoc6,mtb-flow,ble,bluetooth,anycloud,battery,4343w,43012" req_capabilities_v2="[cy8ceval_062_s2_lai_4373m2, cy8ckit_062s2_43012, cy8cproto_062_4343w]">
-    <name>AnyCloud Bluetooth LE Battery Server</name>
+    <name>Bluetooth LE Battery Server</name>
     <id>mtb-example-anycloud-ble-battery-server</id>
     <category>Bluetooth&#174;</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-ble-battery-server</uri>
@@ -1316,7 +1333,7 @@
     </versions>
   </app>
   <app keywords="psoc6,mtb-flow,ble,bluetooth,anycloud,findme,4343w,43012">
-    <name>AnyCloud Bluetooth LE Findme</name>
+    <name>Bluetooth LE Findme</name>
     <id>mtb-example-anycloud-ble-findme</id>
     <category>Bluetooth&#174;</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-ble-findme</uri>
@@ -1347,7 +1364,7 @@
     </versions>
   </app>
   <app keywords="psoc6,led,capsense,button,slider,i2c,tuner,ble,bluetooth,anycloud,4343w,43012,43438,mtb-flow">
-    <name>AnyCloud Bluetooth LE CAPSENSE Buttons and Slider</name>
+    <name>Bluetooth LE CAPSENSE Buttons and Slider</name>
     <id>mtb-example-anycloud-ble-capsense-buttons-slider</id>
     <category>Bluetooth&#174;</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-ble-capsense-buttons-slider</uri>
@@ -4681,7 +4698,7 @@
     </versions>
   </app>
   <app keywords="mtb-flow,anycloud,cts,server,bluetooth">
-    <name>AnyCloud Bluetooth LE CTS Server</name>
+    <name>Bluetooth LE CTS Server</name>
     <id>mtb-example-anycloud-ble-cts-server</id>
     <category>Bluetooth&#174;</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-ble-cts-server</uri>
@@ -4689,6 +4706,14 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-anycloud-ble-cts-server/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 bt led</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>3.0.0 release</num>
+        <commit>release-v3.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.3.1" req_capabilities_per_version="bsp_gen2">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
@@ -4700,7 +4725,7 @@
     </versions>
   </app>
   <app keywords="mtb-flow,anycloud,cts,client,bluetooth">
-    <name>AnyCloud Bluetooth LE CTS Client</name>
+    <name>Bluetooth LE CTS Client</name>
     <id>mtb-example-anycloud-ble-cts-client</id>
     <category>Bluetooth&#174;</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-ble-cts-client</uri>
@@ -4708,6 +4733,14 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-anycloud-ble-cts-client/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 bt led</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>3.0.0 release</num>
+        <commit>release-v3.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.3.1" req_capabilities_per_version="bsp_gen2">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
@@ -5126,6 +5159,27 @@
       <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="mtb-flow,psoc6,anycloud,bluetooth,mqtt,client,wifi,aws,iot,mosquitto" req_capabilities_v2="[cy8ceval_062_mur_43439m2, cy8ckit_062s2_43012]">
+    <name>Bluetooth LE IoT Gateway</name>
+    <id>mtb-example-anycloud-ble-wifi-gateway</id>
+    <category>Bluetooth&#174;</category>
+    <uri>https://github.com/Infineon/mtb-example-anycloud-ble-wifi-gateway</uri>
+    <description><![CDATA[This code example demonstrates implementing a Bluetooth&#174; IoT gateway using the MQTT client library and Bluetooth&#174; LE host stack for Infineon connectivity devices. The MQTT client library uses the AWS IoT device SDK that includes an MQTT 3.1.1 client as well as libraries specific to AWS IoT such as Thing Shadows. The Bluetooth&#174; Mesh stack runs with FreeRTOS in the server and client model.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-anycloud-ble-wifi-gateway/blob/master/README.md">README on GitHub</a>.
+    <br><br><b>License Disclaimer:</b><br><br>
+    This code example makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license.<br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).]]></description>
+    <req_capabilities>psoc6 wifi bt cyw43xxx led switch anycloud</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
       </version>
     </versions>
   </app>
