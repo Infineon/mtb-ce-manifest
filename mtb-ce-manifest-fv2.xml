@@ -5237,4 +5237,23 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
+  <app keywords="optiga,security,crypto,ecc,rsa,ecdsa,ecdh,mtb-flow">
+    <name>OPTIGA Cryptography</name>
+    <id>mtb-example-optiga-crypto</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-optiga-crypto</uri>
+    <description><![CDATA[This example uses an Infineon OPTIGA&#8482; Trust Security Solution on a PSoC&#8482; 6 MCU to execute example code to perform available crypto operations on the Secure Element.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-optiga-crypto/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>optiga_trust_m</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
 </apps>
