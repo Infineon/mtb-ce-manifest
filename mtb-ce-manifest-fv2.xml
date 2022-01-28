@@ -4225,6 +4225,25 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
+  <app keywords="pmg1,led,switch,gpio-interrupt,i2c,pwm,dps310,mtb-flow">
+    <name>PMG1 USBPD Sink DPS310 I2C Sensor</name>
+    <id>mtb-example-pmg1-usbpd-sink-dps310-i2c-sensor</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-pmg1-usbpd-sink-dps310-i2c-sensor</uri>
+    <description><![CDATA[This code example demonstrates how the USB Type-C and Power delivery contract negotiation is achieved using PMG1 devices. It also shows how to integrate PMG1 with DPS310 external temperature and pressure sensor through an I2C interface.
+    <br><br>For more details, see the <a href="https://github.com/infineon/mtb-example-pmg1-usbpd-sink-dps310-i2c-sensor/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>pmg1 usbpd i2c uart switch led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
   <app keywords="psoc6,dfu,bootloader,mtb-flow" req_capabilities_v2="[cy8ceval_062s2, cy8ceval_062_s2_lai_4373m2, cy8ckit_062_ble, cy8ckit_062_wifi_bt, cy8ckit_062s2_43012, cy8cproto_062_4343w, cy8cproto_062s3_4343w, cy8cproto_063_ble, cy8ckit_062s4, cyw9p62s1_43012evb_01, cyw9p62s1_43438evb_01]">
     <name>Basic Device Firmware Upgrade</name>
     <id>mtb-example-psoc6-dfu-basic</id>
