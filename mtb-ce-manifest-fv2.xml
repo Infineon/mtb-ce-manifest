@@ -1,5 +1,5 @@
 <apps version="2.0">
-  <app keywords="psoc6,starter,template,empty,blank,mtb-flow">
+  <app keywords="psoc6,starter,template,empty,blank,mtb-flow" req_capabilities_v2="[flash_2048k, flash_1024k, flash_512k, flash_256k, flash_832k, flash_448k, cy8ckit_064b0s2_4343w]">
     <name>Empty PSoC6 App</name>
     <id>mtb-example-psoc6-empty-app</id>
     <category>Getting Started</category>
@@ -30,7 +30,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,led,starter,hello world,mtb-flow">
+  <app keywords="psoc6,led,starter,hello world,mtb-flow" req_capabilities_v2="[flash_2048k, flash_1024k, flash_512k, flash_256k, flash_832k, flash_448k, cy8ckit_064b0s2_4343w]">
     <name>Hello World</name>
     <id>mtb-example-psoc6-hello-world</id>
     <category>Getting Started</category>
@@ -184,7 +184,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,led,capsense,button,slider,i2c,tuner,mtb-flow">
+  <app keywords="psoc6,led,capsense,button,slider,i2c,tuner,mtb-flow" req_capabilities_v2="[flash_2048k, flash_1024k, flash_512k, flash_256k, cy8ckit_064b0s2_4343w]">
     <name>CAPSENSE Buttons and Slider</name>
     <id>mtb-example-psoc6-capsense-buttons-slider</id>
     <category>Sensing</category>
@@ -211,7 +211,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,led,capsense,button,slider,i2c,tuner,rtos,mtb-flow">
+  <app keywords="psoc6,led,capsense,button,slider,i2c,tuner,rtos,mtb-flow" req_capabilities_v2="[flash_2048k, flash_1024k, flash_512k, flash_256k, cy8ckit_064b0s2_4343w]">
     <name>CAPSENSE Buttons and Slider FreeRTOS</name>
     <id>mtb-example-psoc6-capsense-buttons-slider-freertos</id>
     <category>Sensing</category>
@@ -744,7 +744,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,mtb-flow,ble,bluetooth,anycloud,ess,4343w,43012">
+  <app keywords="psoc6,mtb-flow,ble,bluetooth,anycloud,ess,4343w,43012" req_capabilities_v2="[flash_2048k, flash_1024k, flash_512k, cy8ckit_064b0s2_4343w]">
     <name>Bluetooth LE Environmental Sensing Service</name>
     <id>mtb-example-anycloud-ble-ess</id>
     <category>Bluetooth&#174;</category>
@@ -771,7 +771,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,mtb-flow,ble,bluetooth,anycloud,beacon,eddystone,multi-adv,4343w,43012">
+  <app keywords="psoc6,mtb-flow,ble,bluetooth,anycloud,beacon,eddystone,multi-adv,4343w,43012" req_capabilities_v2="[flash_2048k, flash_1024k, flash_512k, cy8ckit_064b0s2_4343w]">
     <name>Bluetooth LE Multi Beacon</name>
     <id>mtb-example-anycloud-ble-multi-beacon</id>
     <category>Bluetooth&#174;</category>
@@ -4770,7 +4770,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,anycloud,cts,server,bluetooth">
+  <app keywords="mtb-flow,anycloud,cts,server,bluetooth" req_capabilities_v2="[flash_2048k, flash_1024k, flash_512k, cy8ckit_064b0s2_4343w]">
     <name>Bluetooth LE CTS Server</name>
     <id>mtb-example-anycloud-ble-cts-server</id>
     <category>Bluetooth&#174;</category>
@@ -4797,7 +4797,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,anycloud,cts,client,bluetooth">
+  <app keywords="mtb-flow,anycloud,cts,client,bluetooth" req_capabilities_v2="[flash_2048k, flash_1024k, flash_512k, cy8ckit_064b0s2_4343w]">
     <name>Bluetooth LE CTS Client</name>
     <id>mtb-example-anycloud-ble-cts-client</id>
     <category>Bluetooth&#174;</category>
