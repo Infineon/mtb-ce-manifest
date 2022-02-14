@@ -5299,4 +5299,23 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
+  <app keywords="privacy,bonding,mtb-flow,anycloud,bluetooth" req_capabilities_v2="[cyw9p62s1-43012evb-01,cyw9p62s1-43438evb-01,cy8ckit-062-wifi-bt,cy8ckit_062s2_43012,cy8cproto_062_4343w,cy8ceval-062s2-mur-43439m2]">
+    <name>Bluetooth LE Peripheral Privacy</name>
+    <id>mtb-example-anycloud-ble-peripheral-privacy</id>
+    <category>Bluetooth&#174;</category>
+    <uri>https://github.com/Infineon/mtb-example-anycloud-ble-peripheral-privacy</uri>
+    <description><![CDATA[This code example demonstrates the privacy features available to users in Bluetooth&#174; Low Energy 5.0 and above using ModusToolbox&#8482; software.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-anycloud-ble-peripheral-privacy/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>psoc6 bt led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
+      </version>
+    </versions>
+  </app>
 </apps>
