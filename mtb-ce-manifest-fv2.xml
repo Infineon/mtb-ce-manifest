@@ -4288,7 +4288,7 @@ iBeacon UUID data.
     <name>PMG1 Critical Section</name>
     <id>mtb-example-pmg1-critical-section</id>
     <category>Getting Started</category>
-    <uri>http://git-ore.aus.cypress.com/repo-staging/mtb-example-pmg1-critical-section</uri>
+    <uri>https://github.com/Infineon/mtb-example-pmg1-critical-section</uri>
     <description><![CDATA[This code example demonstrates the usage of critical section in the EZ-PD&#8482; PMG1 MCU device. Upon entering the critical section, the CPU will disable all interrupts and will not service any interrupt requests received. Interrupt requests are queued until the CPU exits the critical section; interrupts are enabled and serviced only after exit from the critical section.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-critical-section/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>pmg1 switch led</req_capabilities>
