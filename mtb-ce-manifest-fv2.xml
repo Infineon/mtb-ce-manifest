@@ -1340,7 +1340,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,mtb-flow,ble,bluetooth,anycloud,findme,4343w,43012">
+  <app keywords="psoc6,mtb-flow,ble,bluetooth,anycloud,findme,4343w,43012" req_capabilities_v2="[flash_2048k, flash_1024k, flash_512k, cy8ckit_064b0s2_4343w]">
     <name>Bluetooth LE Findme</name>
     <id>mtb-example-anycloud-ble-findme</id>
     <category>Bluetooth&#174;</category>
@@ -1379,7 +1379,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,led,capsense,button,slider,i2c,tuner,ble,bluetooth,anycloud,4343w,43012,43438,mtb-flow">
+  <app keywords="psoc6,led,capsense,button,slider,i2c,tuner,ble,bluetooth,anycloud,4343w,43012,43438,mtb-flow" req_capabilities_v2="[flash_2048k, flash_1024k, flash_512k, cy8ckit_064b0s2_4343w]">
     <name>Bluetooth LE CAPSENSE Buttons and Slider</name>
     <id>mtb-example-anycloud-ble-capsense-buttons-slider</id>
     <category>Bluetooth&#174;</category>
