@@ -4256,13 +4256,17 @@ iBeacon UUID data.
         <commit>latest-v1.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
     </versions>
   </app>
   <app keywords="pmg1,led,switch,gpio-interrupt,i2c,pwm,dps310,mtb-flow">
-    <name>USBPD Sink DPS310 I2C Sensor</name>
+    <name>PMG1 USBPD Sink DPS310 I2C Sensor</name>
     <id>mtb-example-pmg1-usbpd-sink-dps310-i2c-sensor</id>
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-pmg1-usbpd-sink-dps310-i2c-sensor</uri>
@@ -4292,6 +4296,25 @@ iBeacon UUID data.
     <description><![CDATA[This code example demonstrates the usage of critical section in the EZ-PD&#8482; PMG1 MCU device. Upon entering the critical section, the CPU will disable all interrupts and will not service any interrupt requests received. Interrupt requests are queued until the CPU exits the critical section; interrupts are enabled and serviced only after exit from the critical section.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-critical-section/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>pmg1 switch led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="pmg1,uart,starter,dma,mtb-flow" req_capabilities_v2="[pmg1_cy7113]">
+    <name>PMG1 UART Transmit Receive DMA</name>
+    <id>mtb-example-pmg1-uart-transmit-receive-dma</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-pmg1-uart-transmit-receive-dma</uri>
+    <description><![CDATA[This code example demonstrates the UART transmit and receive operation in PMG1 devices using DMA. The application uses a serial terminal to read data and echoes what is received. The UART is configured to do both transmit and receive operations.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-uart-transmit-receive-dma/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>pmg1 dma uart</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 1.X release</num>
@@ -5365,6 +5388,63 @@ iBeacon UUID data.
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>Main</num>
         <commit>main</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="pmg1,temp,sensor,adc,8-bit,temperature,mtb-flow" req_capabilities_v2="[pmg1_cy7110, pmg1_cy7111, pmg1_cy7112]">
+    <name>On Chip Temp Sensor 8 bit SAR ADC</name>
+    <id>mtb-example-pmg1-on-chip-temp-sensor-8-bit-saradc</id>
+    <category>Sensing</category>
+    <uri>https://github.com/Infineon/mtb-example-pmg1-on-chip-temp-sensor-8-bit-saradc</uri>
+    <description><![CDATA[This code example demonstrates the method of reading internal temperature through a BJT based on-chip temperature sensor provided on Power Delivery Microcontroller Generation 1 (PMG1) devices, using the 8-bit SAR ADC in USB PD block and to display the temperature value on a UART terminal on switch press.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-on-chip-temp-sensor-8-bit-saradc/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>pmg1 adc uart led switch</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="pmg1,temp,sensor,adc,12-bit,temperature,mtb-flow" req_capabilities_v2="[pmg1_cy7113]">
+    <name>On Chip Temp Sensor 12 bit SAR ADC</name>
+    <id>mtb-example-pmg1-on-chip-temp-sensor-12-bit-saradc</id>
+    <category>Sensing</category>
+    <uri>https://github.com/Infineon/mtb-example-pmg1-on-chip-temp-sensor-12-bit-saradc</uri>
+    <description><![CDATA[This code example demonstrates the method of reading internal temperature through BJT based on-chip temperature sensor provided on PMG1-S3 devices, using the programmable 12-bit SAR ADC and to display the temperature value on a UART terminal on switch press. This example also explains the steps for configuration of internal temperature sensor and analog signal routing using Device Configurator tool.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-on-chip-temp-sensor-12-bit-saradc/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>pmg1 adc uart led switch</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="pmg1,uart">
+    <name>PMG1 UART echo</name>
+    <id>mtb-example-pmg1-uart-echo</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-pmg1-uart-echo</uri>
+    <description><![CDATA[This code example demonstrates the UART transmit and receive operation in PMG1 devices. The application uses a serial terminal to write data and echoes what is received. The UART is configured to do both transmit and receive operations.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-uart-echo/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>pmg1 uart</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
       </version>
     </versions>
   </app>
