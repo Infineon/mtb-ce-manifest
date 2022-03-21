@@ -4246,6 +4246,7 @@ iBeacon UUID data.
   <app keywords="pmg1,led,switch,gpio-interrupt,mtb-flow">
     <name>LED Switch Interface</name>
     <id>mtb-example-pmg1-led-sw-interface</id>
+    <category>Getting Started</category>
     <uri>https://github.com/Infineon/mtb-example-pmg1-led-sw-interface</uri>
     <description><![CDATA[This code example demonstrates simple Switch and LED interface on Power Delivery Microcontroller Generation 1 (PMG1) devices.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-led-sw-interface">README on GitHub</a>.]]></description>
@@ -5394,7 +5395,7 @@ iBeacon UUID data.
   <app keywords="pmg1,temp,sensor,adc,8-bit,temperature,mtb-flow" req_capabilities_v2="[pmg1_cy7110, pmg1_cy7111, pmg1_cy7112]">
     <name>On Chip Temp Sensor 8 bit SAR ADC</name>
     <id>mtb-example-pmg1-on-chip-temp-sensor-8-bit-saradc</id>
-    <category>Sensing</category>
+    <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-pmg1-on-chip-temp-sensor-8-bit-saradc</uri>
     <description><![CDATA[This code example demonstrates the method of reading internal temperature through a BJT based on-chip temperature sensor provided on Power Delivery Microcontroller Generation 1 (PMG1) devices, using the 8-bit SAR ADC in USB PD block and to display the temperature value on a UART terminal on switch press.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-on-chip-temp-sensor-8-bit-saradc/blob/master/README.md">README on GitHub</a>.]]></description>
@@ -5413,7 +5414,7 @@ iBeacon UUID data.
   <app keywords="pmg1,temp,sensor,adc,12-bit,temperature,mtb-flow" req_capabilities_v2="[pmg1_cy7113]">
     <name>On Chip Temp Sensor 12 bit SAR ADC</name>
     <id>mtb-example-pmg1-on-chip-temp-sensor-12-bit-saradc</id>
-    <category>Sensing</category>
+    <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-pmg1-on-chip-temp-sensor-12-bit-saradc</uri>
     <description><![CDATA[This code example demonstrates the method of reading internal temperature through BJT based on-chip temperature sensor provided on PMG1-S3 devices, using the programmable 12-bit SAR ADC and to display the temperature value on a UART terminal on switch press. This example also explains the steps for configuration of internal temperature sensor and analog signal routing using Device Configurator tool.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-on-chip-temp-sensor-12-bit-saradc/blob/master/README.md">README on GitHub</a>.]]></description>
