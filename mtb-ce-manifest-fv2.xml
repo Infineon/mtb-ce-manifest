@@ -5399,7 +5399,7 @@ iBeacon UUID data.
     <uri>https://github.com/Infineon/mtb-example-pmg1-on-chip-temp-sensor-8-bit-saradc</uri>
     <description><![CDATA[This code example demonstrates the method of reading internal temperature through a BJT based on-chip temperature sensor provided on Power Delivery Microcontroller Generation 1 (PMG1) devices, using the 8-bit SAR ADC in USB PD block and to display the temperature value on a UART terminal on switch press.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-on-chip-temp-sensor-8-bit-saradc/blob/master/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>pmg1 adc</req_capabilities>
+    <req_capabilities>pmg1 usbpd uart led switch</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 1.X release</num>
