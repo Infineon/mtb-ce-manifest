@@ -5449,4 +5449,80 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
+  <app keywords="pmg1,analog,ctbm,ctb,opamp,comparator,mtb-flow" req_capabilities_v2="[pmg1_cy7113]">
+    <name>CTBm OpAmp comparator</name>
+    <id>mtb-example-pmg1-ctbm-opamp-comparator</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-pmg1-ctbm-opamp-comparator</uri>
+    <description><![CDATA[This code example demonstrates the method of using opamps in the Continuous Time Block mini (CTBm) resource on PMG1-S3 MCU devices for processing continuous-time signals. This includes the CTBm configuration as an opamp comparator and analog routing of inputs and the output. The output of the comparator is monitored by observing the state of an on-board LED.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-ctbm-opamp-comparator/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>pmg1 opamp</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="pmg1,adc,sar,12-bit,analog,pass,mtb-flow" req_capabilities_v2="[pmg1_cy7113]">
+    <name>12 bit SAR ADC</name>
+    <id>mtb-example-pmg1-12-bit-saradc-basic</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-pmg1-12-bit-saradc-basic</uri>
+    <description><![CDATA[This code example demonstrates the method of using the 12-bit SAR ADC on PMG1-S3 MCU to read the input voltage applied in both differential and single-ended modes and to display the measured voltage and corresponding output codes in signed/unsigned format. It also explains the configuration of PASS 0 12-bit SAR ADC 0 using the Device Configurator tool.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-12-bit-saradc-basic/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>pmg1 adc uart led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="pmg1,uart,flash">
+    <name>PMG1 Flash write</name>
+    <id>mtb-example-pmg1-flash-write</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-pmg1-flash-write</uri>
+    <description><![CDATA[This code example demonstrates writing to the flash and displaying the status through a UART terminal in PMG1 devices.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-flash-write/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>pmg1 uart</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="pmg1,usb,mtb-flow,cdc,echo">
+    <name>PMG1 USBFS CDC echo</name>
+    <id>mtb-example-pmg1-usbfs-cdc</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-pmg1-usbfs-cdc</uri>
+    <description><![CDATA[This code example demonstrates how to configure the USB block on PMG1 MCU as a Communication Device Class (CDC). When configured for CDC, the PMG1 MCU device enumerates as virtual COM port, which can be read and written using a terminal emulator program on a PC.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-usbfs-cdc/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>pmg1 usb_device</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
 </apps>
