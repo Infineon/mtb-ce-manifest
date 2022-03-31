@@ -5449,6 +5449,44 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
+  <app keywords="pmg1,spi">
+    <name>SPI Slave</name>
+    <id>mtb-example-pmg1-spi-slave</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-pmg1-spi-slave</uri>
+    <description><![CDATA[This code example demonstrates the SPI Slave in PMG1. The slave device's LED is toggled depending on the master's command. The master's LED is toggled depending on the slave's status reported.
+	<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-spi-slave/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>pmg1 spi</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="pmg1,spi">
+    <name>SPI Master</name>
+    <id>mtb-example-pmg1-spi-master</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-pmg1-spi-master</uri>
+    <description><![CDATA[This code example demonstrates the SPI Master in PMG1. The slave device's LED is toggled depending on the SPI master's command. The master's LED is toggled depending on the slave's status reported.
+	<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-spi-master/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>pmg1 spi</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
   <app keywords="pmg1,analog,ctbm,ctb,opamp,comparator,mtb-flow" req_capabilities_v2="[pmg1_cy7113]">
     <name>CTBm OpAmp comparator</name>
     <id>mtb-example-pmg1-ctbm-opamp-comparator</id>
