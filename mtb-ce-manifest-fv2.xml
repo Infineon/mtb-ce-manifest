@@ -4327,6 +4327,44 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
+  <app keywords="pmg1,powermodes,sleep,deepsleep">
+    <name>PMG1 Power Modes</name>
+    <id>mtb-example-pmg1-power-modes</id>
+    <category>Getting Started</category>
+    <uri>https://github.com/Infineon/mtb-example-pmg1-power-modes</uri>
+    <description><![CDATA[This code example shows how to enter system Sleep and Deep Sleep modes. After entering Deep Sleep or Sleep mode, the example also shows how to wake up from these low-power modes and return to the Active mode.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-power-modes/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>pmg1 uart led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen2">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="pmg1,eeprom,i2c-master">
+    <name>PMG1 I2C EEPROM</name>
+    <id>mtb-example-pmg1-i2c-eeprom</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-pmg1-i2c-eeprom</uri>
+    <description><![CDATA[This code example demonstrates the configuration and usage of serial communication block (SCB) as I2C master to write and read data to an I2C (slave) EEPROM (24LC128).
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-i2c-eeprom/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>pmg1 i2c led uart switch</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen2">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
   <app keywords="psoc6,dfu,bootloader,mtb-flow" req_capabilities_v2="[cy8ceval_062s2, cy8ceval_062_s2_lai_4373m2, cy8ckit_062_ble, cy8ckit_062_wifi_bt, cy8ckit_062s2_43012, cy8cproto_062_4343w, cy8cproto_062s3_4343w, cy8cproto_063_ble, cy8ckit_062s4, cyw9p62s1_43012evb_01, cyw9p62s1_43438evb_01]">
     <name>Basic Device Firmware Upgrade</name>
     <id>mtb-example-psoc6-dfu-basic</id>
@@ -5496,11 +5534,11 @@ iBeacon UUID data.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-ctbm-opamp-comparator/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>pmg1 opamp</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen2">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -5515,11 +5553,30 @@ iBeacon UUID data.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-12-bit-saradc-basic/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>pmg1 adc uart led</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen2">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="pmg1,adc,sar,8-bit,analog,mtb-flow">
+    <name>8 bit SAR ADC</name>
+    <id>mtb-example-pmg1-8-bit-saradc-basic</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-pmg1-8-bit-saradc-basic</uri>
+    <description><![CDATA[This code example demonstrates the method of using the 8-bit SAR ADC in the USBPD block on PMG1 MCU to measure the external input voltage. The measured voltage values and the corresponding ADC results are displayed on a UART terminal.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-8-bit-saradc-basic/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>pmg1 usbpd uart led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen2">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -5596,6 +5653,44 @@ iBeacon UUID data.
         <commit>latest-v1.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="pmg1,usb,i2c,multi,master,multi-master">
+    <name>PMG1 I2C multi-master</name>
+    <id>mtb-example-pmg1-i2c-multi-master</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-pmg1-i2c-multi-master</uri>
+    <description><![CDATA[This code example demonstrates how to use the SCB I2C component in master-slave configuration to send and receive I2C data to toggle the state of the onboard LEDs using PMG1 MCU devices.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-i2c-multi-master/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>pmg1 i2c</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen2">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="pmg1,watchdog,wdt,timer,reset,interrupt,mtb-flow">
+    <name>Watchdog Timer</name>
+    <id>mtb-example-pmg1-watchdog-timer</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-pmg1-watchdog-timer</uri>
+    <description><![CDATA[This code example demonstrates the method of using the watchdog timer (WDT) on PMG1 devices to automatically reset the device in the event of an unexpected firmware execution path that compromises the CPU functionality. It also explains the configuration of the watchdog timer as an interrupt source to generate a periodic interrupt that can be used to execute specific tasks..
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-watchdog-timer/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>pmg1 led switch</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen2">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
