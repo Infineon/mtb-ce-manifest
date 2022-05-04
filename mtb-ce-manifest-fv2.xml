@@ -3782,7 +3782,7 @@ iBeacon UUID data.
     <id>mtb-example-anycloud-secure-tcp-client</id>
     <category>Wi-Fi</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-secure-tcp-client</uri>
-    <description><![CDATA[This code example demonstrates the implementation of a secure TCP client using PSoC&#8482;&#8482;&#8482; 6 MCU with AIROC&#8482; CYW43xxx Wi-Fi & Bluetooth&#174; combo chips.
+    <description><![CDATA[This code example demonstrates the implementation of a secure TCP client using PSoC&#8482; 6 MCU with AIROC&#8482; CYW43xxx Wi-Fi & Bluetooth&#174; combo chips.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-anycloud-secure-tcp-client/blob/master/README.md">README on GitHub</a>.
     <br><br><b>License Disclaimer:</b><br><br>
     This code example makes use of the lwIP open-source TCP/IP stack and the Mbed TLS open-source TLS/SSL library which has cryptographic capabilities. Creating a project from this template will cause lwIP and Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the lwIP &amp; Mbed TLS licenses and regional use restrictions (including abiding by all applicable export control laws).]]></description>
@@ -3815,7 +3815,7 @@ iBeacon UUID data.
     <id>mtb-example-anycloud-secure-tcp-server</id>
     <category>Wi-Fi</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-secure-tcp-server</uri>
-    <description><![CDATA[This code example demonstrates the implementation of a secure TCP server using PSoC&#8482;&#8482;&#8482; 6 MCU with AIROC&#8482; CYW43xxx Wi-Fi & Bluetooth&#174; combo chips.
+    <description><![CDATA[This code example demonstrates the implementation of a secure TCP server using PSoC&#8482; 6 MCU with AIROC&#8482; CYW43xxx Wi-Fi & Bluetooth&#174; combo chips.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-anycloud-secure-tcp-server/blob/master/README.md">README on GitHub</a>.
     <br><br><b>License Disclaimer:</b><br><br>
     This code example makes use of the lwIP open-source TCP/IP stack and the Mbed TLS open-source TLS/SSL library which has cryptographic capabilities. Creating a project from this template will cause lwIP and Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the lwIP &amp; Mbed TLS licenses and regional use restrictions (including abiding by all applicable export control laws).]]></description>
@@ -3946,16 +3946,45 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,psoc6,anycloud,mqtt,azure-iot,azure,azure-sdk,wifi" req_capabilities_v2="[flash_2048k, flash_1024k, flash_1856k]">
+  <app keywords="mtb-flow,psoc6,mqtt,azure-iot,azure,azure-sdk,wifi" req_capabilities_v2="[flash_2048k, flash_1024k, cy8ckit_064s0s2_4343w]">
     <name>Connecting to Azure IoT</name>
-    <id>mtb-example-anycloud-azure-iot</id>
+    <id>mtb-example-azure-iot</id>
     <category>Wi-Fi</category>
-    <uri>https://github.com/Infineon/mtb-example-anycloud-azure-iot</uri>
+    <uri>https://github.com/Infineon/mtb-example-azure-iot</uri>
     <description><![CDATA[This code example demonstrates connecting to the Azure IoT services using the <a href="https://github.com/Azure/azure-sdk-for-c">Azure SDK for Embedded C</a> and Infineon's Wi-Fi connectivity SDK in ModusToolbox&#8482;. This code example demonstrates the features such as IoT hub - C2D (Cloud-to-Device messaging), Telemetry, Methods, Twin, Provisioning, and PnP (Plug and Play).
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-anycloud-azure-iot/blob/master/README.md">README on GitHub</a>.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-azure-iot/blob/master/README.md">README on GitHub</a>.
     <br><br><b>License Disclaimer:</b><br><br>
     This code example makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license.<br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).]]></description>
     <req_capabilities>psoc6 wifi cyw43xxx</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="mtb-flow,psoc6,wifi,aws,iot,ota,mqtt" req_capabilities_v2="[flash_2048k, flash_1856k]">
+    <name>AWS IoT OTA Using MQTT</name>
+    <id>mtb-example-aws-iot-ota-mqtt</id>
+    <category>Wi-Fi</category>
+    <uri>https://github.com/Infineon/mtb-example-aws-iot-ota-mqtt</uri>
+    <description><![CDATA[This code example demonstrates an OTA update with PSoC&#8482; 6 MCU and AIROC&#8482; CYW43xxx Wi-Fi & Bluetooth combo chips. The example uses the "AWS SDK for Embedded C" and "AWS IoT device sdk port" to connect and communicate with the AWS IoT MQTT core.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-aws-iot-ota-mqtt/blob/master/README.md">README on GitHub</a>.
+    <br><br><b>License Disclaimer:</b><br><br>
+    This code example makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license. <br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).]]></description>
+    <req_capabilities>psoc6 cyw43xxx wifi led</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
         <num>Latest 1.X release</num>
@@ -4658,15 +4687,23 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,emwin,display,tft,freertos,mtb-flow" req_capabilities_v2="[cy8ckit_062_ble, cy8ckit_062_wifi_bt, cy8ckit_062s2_43012, cy8ckit_064b0s2_4343w, cyw9p62s1_43438evb_01]">
+  <app keywords="psoc6,emwin,display,tft,freertos,mtb-flow,appwizard" req_capabilities_v2="[flash_2048k,flash_1856k,cy8ckit_062_wifi_bt,cy8ckit_062_ble,cyw9p62s1_43438evb_01]">
     <name>emWin TFT FreeRTOS</name>
     <id>mtb-example-psoc6-emwin-tft-freertos</id>
     <category>Graphics</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-emwin-tft-freertos</uri>
-    <description><![CDATA[This example demonstrates displaying 2D graphics on a TFT display using the emWin graphics library in FreeRTOS. The application initializes the system peripherals and creates a task that cycles through demo images in response to button presses.
+    <description><![CDATA[This example demonstrates displaying 2D graphics on a TFT display using the Segger emWin graphics library and the AppWizard GUI design tool in FreeRTOS. The application initializes the system peripherals and creates a task that cycles through demo images in response to button presses.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-emwin-tft-freertos/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 arduino switch</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
