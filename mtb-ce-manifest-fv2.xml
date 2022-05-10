@@ -4312,12 +4312,12 @@ iBeacon UUID data.
     </versions>
   </app>
   <app keywords="pmg1,led,switch,gpio-interrupt,i2c,pwm,dps310,mtb-flow">
-    <name>PMG1 USBPD Sink DPS310 I2C Sensor</name>
+    <name>USBPD Sink DPS310 I2C Sensor</name>
     <id>mtb-example-pmg1-usbpd-sink-dps310-i2c-sensor</id>
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-pmg1-usbpd-sink-dps310-i2c-sensor</uri>
     <description><![CDATA[This code example demonstrates how the USB Type-C and Power delivery contract negotiation is achieved using PMG1 devices. It also shows how to integrate PMG1 with DPS310 external temperature and pressure sensor through an I2C interface.
-    <br><br>For more details, see the <a href="https://github.com/infineon/mtb-example-pmg1-usbpd-sink-dps310-i2c-sensor/blob/master/README.md">README on GitHub</a>.]]></description>
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-usbpd-sink-dps310-i2c-sensor/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>pmg1 usbpd i2c uart switch led</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
@@ -4335,7 +4335,7 @@ iBeacon UUID data.
     </versions>
   </app>
   <app keywords="pmg1,led,starter,critical-section,mtb-flow">
-    <name>PMG1 Critical Section</name>
+    <name>Critical Section</name>
     <id>mtb-example-pmg1-critical-section</id>
     <category>Getting Started</category>
     <uri>https://github.com/Infineon/mtb-example-pmg1-critical-section</uri>
@@ -4354,7 +4354,7 @@ iBeacon UUID data.
     </versions>
   </app>
   <app keywords="pmg1,uart,starter,dma,mtb-flow" req_capabilities_v2="[pmg1_cy7113]">
-    <name>PMG1 UART Transmit Receive DMA</name>
+    <name>UART Transmit Receive DMA</name>
     <id>mtb-example-pmg1-uart-transmit-receive-dma</id>
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-pmg1-uart-transmit-receive-dma</uri>
@@ -4372,8 +4372,46 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
+  <app keywords="pmg1,counter,LED,mtb-flow">
+    <name>Counter LED</name>
+    <id>mtb-example-pmg1-counter-led</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-pmg1-counter-led</uri>
+    <description><![CDATA[This code example demonstrates how to toggle an LED whenever the timer/counter in a PMG1 device is triggered every 1 second.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-counter-led/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>pmg1 led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen2">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="pmg1,pwm,led,mtb-flow">
+    <name>PWM LED</name>
+    <id>mtb-example-pmg1-pwm-led</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-pmg1-pwm-led</uri>
+    <description><![CDATA[This code example shows the usage of the PWM block in the PMG1 MCU and how it can be used to toggle an LED.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-pwm-led/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>pmg1 led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen2">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
   <app keywords="pmg1,powermodes,sleep,deepsleep">
-    <name>PMG1 Power Modes</name>
+    <name>Power Modes</name>
     <id>mtb-example-pmg1-power-modes</id>
     <category>Getting Started</category>
     <uri>https://github.com/Infineon/mtb-example-pmg1-power-modes</uri>
@@ -4392,7 +4430,7 @@ iBeacon UUID data.
     </versions>
   </app>
   <app keywords="pmg1,eeprom,i2c-master">
-    <name>PMG1 I2C EEPROM</name>
+    <name>I2C EEPROM</name>
     <id>mtb-example-pmg1-i2c-eeprom</id>
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-pmg1-i2c-eeprom</uri>
