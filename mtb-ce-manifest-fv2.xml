@@ -5101,7 +5101,7 @@ iBeacon UUID data.
     </versions>
   </app>
   <app keywords="psoc6,usb,cdc,echo,mtb-flow">
-    <name>USB CDC echo</name>
+    <name>USB CDC Echo</name>
     <id>mtb-example-psoc6-usb-cdc-echo</id>
     <category>Peripherals</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-usb-cdc-echo</uri>
