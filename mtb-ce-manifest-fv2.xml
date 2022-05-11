@@ -4840,7 +4840,7 @@ iBeacon UUID data.
     <name>CAN FD</name>
     <id>mtb-example-canfd</id>
     <category>Peripherals</category>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-canfd</uri>
+    <uri>https://github.com/Infineon/mtb-example-canfd</uri>
     <description><![CDATA[This example demonstrates how to use CAN FD in Infineon's PSoC&#8482; 6 and PSoC&#8482; 4 MCU devices. In this example, the CANFD Node-1 sends a CAN FD frame to CANFD-Node-2 on pressing the user button and vice versa. Both the CAN FD nodes log the received data over UART serial terminal. Each time a CAN FD Frame is received, the user LED toggles.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-canfd/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>led can</req_capabilities>
