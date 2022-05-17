@@ -5553,18 +5553,18 @@ iBeacon UUID data.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-on-chip-temp-sensor-12-bit-saradc/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>pmg1 adc uart led switch</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen2">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
     </versions>
   </app>
   <app keywords="pmg1,uart">
-    <name>PMG1 UART echo</name>
+    <name>UART echo</name>
     <id>mtb-example-pmg1-uart-echo</id>
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-pmg1-uart-echo</uri>
@@ -5678,7 +5678,7 @@ iBeacon UUID data.
     </versions>
   </app>
   <app keywords="pmg1,uart,flash">
-    <name>PMG1 Flash write</name>
+    <name>Flash write</name>
     <id>mtb-example-pmg1-flash-write</id>
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-pmg1-flash-write</uri>
@@ -5697,7 +5697,7 @@ iBeacon UUID data.
     </versions>
   </app>
   <app keywords="pmg1,usb,mtb-flow,cdc,echo">
-    <name>PMG1 USBFS CDC echo</name>
+    <name>USBFS CDC echo</name>
     <id>mtb-example-pmg1-usbfs-cdc</id>
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-pmg1-usbfs-cdc</uri>
@@ -5710,6 +5710,44 @@ iBeacon UUID data.
         <commit>latest-v1.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="pmg1,usb,mtb-flow,msc,mass storage, file system">
+    <name>USBFS MSC File System in SRAM</name>
+    <id>mtb-example-pmg1-usbfs-msc-fs-sram</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-pmg1-usbfs-msc-fs-sram</uri>
+    <description><![CDATA[This code example demonstrates how to configure the USB block on EZ-PD&#8482; PMG1 MCU as a mass storage class (MSC) device and will emulate a file system in the SRAM memory.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-usbfs-msc-fs-sram/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>pmg1 usb_device switch</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen2">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="pmg1,i2c,slave,led">
+    <name>I2C Slave LED</name>
+    <id>mtb-example-pmg1-i2c-slave-led</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-pmg1-i2c-slave-led</uri>
+    <description><![CDATA[This code example demonstrates how the I2C block in the EZ-PD PMG1 MCU device can be used as a slave. An external I2C master sends commands, which are used to turn ON or OFF the user LED.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-i2c-slave-led/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>pmg1 i2c</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen2">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -5754,7 +5792,7 @@ iBeacon UUID data.
     </versions>
   </app>
   <app keywords="pmg1,usb,i2c,multi,master,multi-master">
-    <name>PMG1 I2C multi-master</name>
+    <name>I2C multi-master</name>
     <id>mtb-example-pmg1-i2c-multi-master</id>
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-pmg1-i2c-multi-master</uri>
