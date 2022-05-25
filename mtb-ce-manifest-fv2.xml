@@ -4209,7 +4209,7 @@ iBeacon UUID data.
     <id>mtb-example-pmg1-usbpd-sink-capsense</id>
     <category>Sensing</category>
     <uri>https://github.com/Infineon/mtb-example-pmg1-usbpd-sink-capsense</uri>
-    <description><![CDATA[This code example demonstrates CAPSENSE&trade; functionality using a 5-segment CAPSENSE&trade; slider and two CAPSENSE&trade; buttons along with USB-C attach detection and USB Power Delivery contract negotiation using Power Delivery Microcontroller Generation 1 (PMG1) devices.
+    <description><![CDATA[This code example demonstrates CAPSENSE&#8482; functionality using a 5-segment CAPSENSE&#8482; slider and two CAPSENSE&#8482; buttons along with USB-C attach detection and USB Power Delivery contract negotiation using Power Delivery Microcontroller Generation 1 (PMG1) devices.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-usbpd-sink-capsense/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>usbpd pmg1 capsense led</req_capabilities>
     <versions>
@@ -5519,7 +5519,7 @@ iBeacon UUID data.
     <category>Voice</category>
     <id>porcupine-demo-psoc6</id>
     <uri>https://github.com/Picovoice/porcupine-demo-psoc6</uri>
-    <description><![CDATA[This package contains a demo project for the CY8CKIT-062S2-43012 kit using the Picovoice Porcupine&trade; wake word engine. The device will listen for a wake word and trigger the led upon recognition.
+    <description><![CDATA[This package contains a demo project for the CY8CKIT-062S2-43012 kit using the Picovoice Porcupine&#8482; wake word engine. The device will listen for a wake word and trigger the led upon recognition.
     <br><br>For more details, see the <a href="https://github.com/Picovoice/porcupine-demo-psoc6/blob/main/README.md">README on GitHub</a>.<br><br><a href="https://picovoice.ai/">Picovoice</a> is an end-to-end platform for building voice products on your terms. Unlike Alexa and Google services, Picovoice runs entirely on-device while being more accurate.<br> > <a href="https://picovoice.ai/docs/">Get Started</a><br> > <a href="https://picovoice.ai/contact/sales/">Talk to Sales</a>]]></description>
     <req_capabilities>psoc6 pdm rgb_led</req_capabilities>
     <versions>
