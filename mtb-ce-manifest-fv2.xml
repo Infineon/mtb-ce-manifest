@@ -4514,15 +4514,23 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,mcuboot,bootloader,mtb-flow" req_capabilities_v2="[flash_2048k, flash_1024k, flash_512k]">
+  <app keywords="psoc6,mcuboot,bootloader,mtb-flow" req_capabilities_v2="[cy8ceval_062s2, cy8ceval_062_s2_lai_4373m2, cy8ceval_062_mur_43439m2, cy8ckit_062_ble, cy8ckit_062_wifi_bt, cy8ckit_062s2_43012, cy8cproto_062_4343w, cy8cproto_062s3_4343w, cyw9p62s1_43012evb_01, cyw9p62s1_43438evb_01]">
     <name>MCUboot-Based Basic Bootloader</name>
     <id>mtb-example-psoc6-mcuboot-basic</id>
     <category>Peripherals</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-mcuboot-basic</uri>
-    <description><![CDATA[This code example demonstrates building a simple bootloader application for PSoC&#8482; 62/63 MCUs using the open-source library - MCUboot.
+    <description><![CDATA[This code example demonstrates building a simple bootloader application for PSoC&#8482; 6 MCUs using the open-source library - MCUboot.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-mcuboot-basic/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 std_crypto led qspi nor_flash</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>Latest 4.X release</num>
+        <commit>latest-v4.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>4.0.0 release</num>
+        <commit>release-v4.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
@@ -5592,7 +5600,7 @@ iBeacon UUID data.
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-pmg1-spi-slave</uri>
     <description><![CDATA[This code example demonstrates the SPI Slave in PMG1. The slave device's LED is toggled depending on the master's command. The master's LED is toggled depending on the slave's status reported.
-	<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-spi-slave/blob/master/README.md">README on GitHub</a>.]]></description>
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-spi-slave/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>pmg1 spi</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
@@ -5611,7 +5619,7 @@ iBeacon UUID data.
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-pmg1-spi-master</uri>
     <description><![CDATA[This code example demonstrates the SPI Master in PMG1. The slave device's LED is toggled depending on the SPI master's command. The master's LED is toggled depending on the slave's status reported.
-	<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-spi-master/blob/master/README.md">README on GitHub</a>.]]></description>
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-spi-master/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>pmg1 spi</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
