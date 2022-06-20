@@ -986,9 +986,14 @@ iBeacon UUID data.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btsdk-cyw208xx-data-logger/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>CYW208XX ncu15wf104</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.2.0" tools_max_version="2.4.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.0" tools_max_version="2.4.0" req_capabilities_per_version="bsp_gen2">
+        <num>3.1.0 release</num>
+        <commit>release-v3.1.0</commit>
+      </version>
       </version>
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>3.0.0 release</num>
@@ -1017,6 +1022,10 @@ iBeacon UUID data.
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
+        <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>2.2.0 release</num>
+        <commit>release-v2.2.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
@@ -1036,11 +1045,11 @@ iBeacon UUID data.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btsdk-cyw20719b2-spi/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>ncu15wf104 CYW920719B2Q40EVB_01 fw2 btsdk</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.2.0" tools_max_version="2.4.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.2.0" tools_max_version="2.4.0" req_capabilities_per_version="bsp_gen2">
         <num>2.1.1 release</num>
         <commit>release-v2.1.1</commit>
       </version>
@@ -1089,6 +1098,10 @@ iBeacon UUID data.
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>2.0.1 release</num>
@@ -4911,9 +4924,13 @@ iBeacon UUID data.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btsdk-ble-throughput/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>fw2 btsdk led2x button</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.2.0" tools_max_version="2.4.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.0" tools_max_version="2.4.0" req_capabilities_per_version="bsp_gen2">
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>2.0.0 release</num>
@@ -5869,6 +5886,25 @@ iBeacon UUID data.
       <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="btsdk keyboard scanner cyw208xx row column">
+    <name>HAL Keyboard Scanner</name>
+    <id>mtb-example-btsdk-cyw208xx-keyboard-scanner</id>
+    <category>Bluetooth&#174;</category>
+    <uri>https://github.com/Infineon/mtb-example-btsdk-cyw208xx-keyboard-scanner</uri>
+    <description><![CDATA[This code example demonstrates the dedicated keyscan hardware, which processes key press events from proprietary GPIOs (LHL GPIOs) without interrupting the CPU core. This code example also demonstrates low power entry when the system is idle (no activity or keypress) and wake up when there is key press.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btsdk-cyw208xx-keyboard-scanner/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>fw2 btsdk CYW208XX_62fbga</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
       </version>
     </versions>
   </app>
