@@ -5907,4 +5907,22 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
+  <app keywords="psoc6,csdidac,mtb-flow" req_capabilities_v2="[flash_2048k,flash_1024k,flash_512k]" >
+    <name>CAPSENSE Sigma Delta(CSD) current digital to analog converter (IDAC)</name>
+    <id>mtb-example-psoc6-csdidac</id>
+    <category>Peripherals</category>
+    <uri>http://devops-git.aus.cypress.com/repo-staging/mtb-example-psoc6-csdidac</uri>
+    <description><![CDATA[This code example demonstrates the usage of CAPSENSE&#8482; Sigma Delta(CSD) current digital-to-analog converter (IDAC) in PSoC&#8482; 6 MCU. CSDIDAC measures the external current and displays the conversion result in the terminal application.]]></description>
+    <req_capabilities>psoc6 capsense</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>	  
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>	  
+    </versions>
+  </app>      
 </apps>
