@@ -5907,12 +5907,12 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,csdidac,mtb-flow" req_capabilities_v2="[flash_2048k,flash_1024k,flash_512k]" >
-    <name>CAPSENSE Sigma Delta current digital to analog converter </name>
+  <app keywords="psoc6,csdidac,mtb-flow,capsense,csd,dac" req_capabilities_v2="[flash_2048k,flash_1024k,flash_512k]" >
+    <name>CAPSENSE Sigma Delta Current Digital to Analog Converter</name>
     <id>mtb-example-psoc6-csdidac</id>
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-psoc6-csdidac</uri>
-    <description><![CDATA[This code example demonstrates the usage of CAPSENSE&#8482; Sigma Delta(CSD) current digital-to-analog converter (IDAC) in PSoC&#8482; 6 MCU. CSDIDAC measures the external current and displays the conversion result in the terminal application.]]></description>
+    <description><![CDATA[This code example demonstrates the usage of CAPSENSE&#8482; Sigma Delta (CSD) current digital-to-analog converter (IDAC) in PSoC&#8482; 6 MCU. It loops through the configured current settings and then drives current to the external pin as per the setting which can be verified through an external load resistor. The configured current setting is also displayed in the terminal application.]]></description>
     <req_capabilities>psoc6 capsense</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
