@@ -5799,7 +5799,7 @@ iBeacon UUID data.
     <category>Bluetooth&#174;</category>
     <uri>https://github.com/Infineon/mtb-example-btstack-freertos-extadv-beacon</uri>
     <description><![CDATA[This code example demonstrates the implementation of Bluetooth&#174; Low Energy extended advertisements and use of beacon library using ModusToolbox&#8482; software.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-extadv/blob/master/README.md">README on GitHub</a>.]]></description>
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-extadv-beacon/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>ble cyw920829m2evb_01</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
