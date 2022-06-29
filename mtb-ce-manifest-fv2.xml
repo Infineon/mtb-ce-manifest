@@ -5908,7 +5908,7 @@ iBeacon UUID data.
     </versions>
   </app>
   <app keywords="psoc6,csdidac,mtb-flow,capsense,csd,dac" req_capabilities_v2="[flash_2048k,flash_1024k,flash_512k]">
-    <name>CAPSENSE Sigma Delta Current Digital to Analog Converter</name>
+    <name>CSD Current DAC</name>
     <id>mtb-example-psoc6-csdidac</id>
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-psoc6-csdidac</uri>
