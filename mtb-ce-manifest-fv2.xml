@@ -5793,6 +5793,25 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
+  <app keywords="pmg1,crypto,trng,cryptolite,otp">
+    <name>Cryptography TRNG</name>
+    <id>mtb-example-pmg1-crypto-trng</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-pmg1-crypto-trng</uri>
+    <description><![CDATA[This code example demonstrates how to generate a 4-byte one-time password (OTP) with the true random number generation feature using the Cryptographic hardware block in PMG1 MCU. 
+      <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-crypto-trng/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>pmg1 crypto</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen2">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
   <app keywords="beacon,mtb-flow,bluetooth,ble">
     <name>Bluetooth LE Extended Advertisement Beacon</name>
     <id>mtb-example-btstack-freertos-extadv-beacon</id>
@@ -5869,6 +5888,25 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
+  <app keywords="pmg1,usb,mtb-flow,vendor interface,Bulkloop">
+    <name>USB FS vendor interface</name>
+    <id>mtb-example-pmg1-usbfs-vendor-interface</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-pmg1-usbfs-vendor-interface</uri>
+    <description><![CDATA[This code example demonstrates how to configure the USB block on EZ-PD&#8482; PMG1 MCU as a vendor interface. When configured for vendor interface, the EZ-PD&#8482; PMG1 MCU device enumerates as Cypress FX3 USB BulkloopExample Device, which can be read and written using a USB Control Center on a PC...
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-usbfs-vendor-interface/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>pmg1 usb_device</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen2">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
   <app keywords="pairing,mtb-flow,bluetooth,button" req_capabilities_v2="[cyw920829m2evb_01]">
     <name>Bluetooth LE Hello Sensor</name>
     <id>mtb-example-btstack-freertos-hello-sensor</id>
@@ -5904,6 +5942,25 @@ iBeacon UUID data.
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="pmg1,usb,mtb-flow,billboard">
+    <name>USBFS Billboard</name>
+    <id>mtb-example-pmg1-usbfs-billboard</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-pmg1-usbfs-billboard</uri>
+    <description><![CDATA[This code example demonstrates how to configure the USB block on PMG1 MCU as a Billboard device.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-usbfs-billboard/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>pmg1 usb_device</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen2">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
       </version>
     </versions>
   </app>
