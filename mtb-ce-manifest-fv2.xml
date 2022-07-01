@@ -5793,7 +5793,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="pmg1,crypto,trng,cryptolite,otp"  req_capabilities_v2="[pmg1_cy7113]">>
+  <app keywords="pmg1,crypto,trng,cryptolite,otp"  req_capabilities_v2="[pmg1_cy7113]">
     <name>Cryptography TRNG</name>
     <id>mtb-example-pmg1-crypto-trng</id>
     <category>Peripherals</category>
