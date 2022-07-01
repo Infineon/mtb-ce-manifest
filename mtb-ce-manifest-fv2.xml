@@ -5800,7 +5800,7 @@ iBeacon UUID data.
     <uri>https://github.com/Infineon/mtb-example-pmg1-crypto-trng</uri>
     <description><![CDATA[This code example demonstrates how to generate a 4-byte one-time password (OTP) with the true random number generation feature using the Cryptographic hardware block in PMG1 MCU. 
       <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-crypto-trng/blob/master/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>pmg1 crypto</req_capabilities>
+    <req_capabilities>pmg1 std_crypto</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 1.X release</num>
