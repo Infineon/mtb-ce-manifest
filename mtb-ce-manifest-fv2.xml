@@ -5501,6 +5501,44 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
+  <app keywords="optiga,power-management,hibernation,mtb-flow">
+    <name>OPTIGA Power management</name>
+    <id>mtb-example-optiga-power-management</id>
+    <category>Peripherals</category>
+    <uri>http://git-ore.aus.cypress.com/repo-staging/mtb-example-optiga-power-management</uri>
+    <description><![CDATA[This example uses an Infineon OPTIGA&#8482; Trust Security Solution on a PSoC&#8482; 6 MCU to execute example code to control the hibernation feature on the security solution.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-optiga-power-management/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>optiga_trust_m</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="optiga,security,crypto,ecc,mbedtls,ecdsa,ecdh,mqtt,aws,mtb-flow">
+    <name>OPTIGA MQTT Client</name>
+    <id>mtb-example-optiga-mqtt-client</id>
+    <category>Peripherals</category>
+    <uri>http://git-ore.aus.cypress.com/repo-staging/mtb-example-optiga-mqtt-client</uri>
+    <description><![CDATA[This example uses an Infineon OPTIGA&#8482; Trust Security Solution on a PSoC&#8482; 6 MCU to execute example code to perform an MQTT connection to the AWS IoT Cloud.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-optiga-mqtt-client/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>optiga_trust_m</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
   <app keywords="privacy,bonding,mtb-flow,anycloud,bluetooth" req_capabilities_v2="[cyw9p62s1-43012evb-01,cyw9p62s1-43438evb-01,cy8ckit-062-wifi-bt,cy8ckit_062s2_43012,cy8cproto_062_4343w,cy8ceval-062s2-mur-43439m2]">
     <name>Bluetooth LE Peripheral Privacy</name>
     <id>mtb-example-anycloud-ble-peripheral-privacy</id>
