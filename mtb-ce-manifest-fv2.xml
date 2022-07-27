@@ -5505,7 +5505,7 @@ iBeacon UUID data.
     <name>OPTIGA Power management</name>
     <id>mtb-example-optiga-power-management</id>
     <category>Peripherals</category>
-    <uri>http://git-ore.aus.cypress.com/repo-staging/mtb-example-optiga-power-management</uri>
+    <uri>https://github.com/Infineon/mtb-example-optiga-power-management</uri>
     <description><![CDATA[This example uses an Infineon OPTIGA&#8482; Trust Security Solution on a PSoC&#8482; 6 MCU to execute example code to control the hibernation feature on the security solution.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-optiga-power-management/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>optiga_trust_m</req_capabilities>
@@ -5524,7 +5524,7 @@ iBeacon UUID data.
     <name>OPTIGA MQTT Client</name>
     <id>mtb-example-optiga-mqtt-client</id>
     <category>Peripherals</category>
-    <uri>http://git-ore.aus.cypress.com/repo-staging/mtb-example-optiga-mqtt-client</uri>
+    <uri>https://github.com/Infineon/mtb-example-optiga-mqtt-client</uri>
     <description><![CDATA[This example uses an Infineon OPTIGA&#8482; Trust Security Solution on a PSoC&#8482; 6 MCU to execute example code to perform an MQTT connection to the AWS IoT Cloud.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-optiga-mqtt-client/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>optiga_trust_m</req_capabilities>
