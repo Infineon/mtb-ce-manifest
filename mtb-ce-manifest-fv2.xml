@@ -1,5 +1,5 @@
 <apps version="2.0">
-  <app keywords="psoc6,starter,template,empty,blank,mtb-flow" req_capabilities_v2="[flash_2048k, flash_1024k, flash_512k, flash_256k, flash_832k, flash_448k, cy8ckit_064b0s2_4343w]">
+  <app keywords="psoc6,starter,template,empty,blank,mtb-flow" req_capabilities_v2="psoc6 [flash_2048k, flash_1024k, flash_512k, flash_256k, flash_832k, flash_448k, cy8ckit_064b0s2_4343w]">
     <name>Empty PSoC6 App</name>
     <id>mtb-example-psoc6-empty-app</id>
     <category>Getting Started</category>
@@ -30,7 +30,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,led,starter,hello world,mtb-flow" req_capabilities_v2="[flash_2048k, flash_1024k, flash_512k, flash_256k, flash_832k, flash_448k, cy8ckit_064b0s2_4343w]">
+  <app keywords="psoc6,led,starter,hello world,mtb-flow" req_capabilities_v2="psoc6 led [flash_2048k, flash_1024k, flash_512k, flash_256k, flash_832k, flash_448k, cy8ckit_064b0s2_4343w]">
     <name>Hello World</name>
     <id>mtb-example-psoc6-hello-world</id>
     <category>Getting Started</category>
@@ -184,7 +184,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,led,capsense,button,slider,i2c,tuner,mtb-flow" req_capabilities_v2="[flash_2048k, flash_1024k, flash_512k, flash_256k, cy8ckit_064b0s2_4343w]">
+  <app keywords="psoc6,led,capsense,button,slider,i2c,tuner,mtb-flow" req_capabilities_v2="psoc6 led capsense_button capsense_linear_slider [flash_2048k, flash_1024k, flash_512k, flash_256k, cy8ckit_064b0s2_4343w]">
     <name>CAPSENSE Buttons and Slider</name>
     <id>mtb-example-psoc6-capsense-buttons-slider</id>
     <category>Sensing</category>
@@ -211,7 +211,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,led,capsense,button,slider,i2c,tuner,rtos,mtb-flow" req_capabilities_v2="[flash_2048k, flash_1024k, flash_512k, flash_256k, cy8ckit_064b0s2_4343w]">
+  <app keywords="psoc6,led,capsense,button,slider,i2c,tuner,rtos,mtb-flow" req_capabilities_v2="psoc6 led capsense_button capsense_linear_slider [flash_2048k, flash_1024k, flash_512k, flash_256k, cy8ckit_064b0s2_4343w]">
     <name>CAPSENSE Buttons and Slider FreeRTOS</name>
     <id>mtb-example-psoc6-capsense-buttons-slider-freertos</id>
     <category>Sensing</category>
@@ -265,7 +265,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,uart,transmit,receive,dma,mtb-flow" req_capabilities_v2="[cy8ceval_062s2, cy8ceval_062_s2_lai_4373m2, cy8ckit_062_ble, cy8ckit_062_wifi_bt, cy8ckit_062s2_43012, cy8cproto_062_4343w, cy8cproto_062s3_4343w, cy8cproto_063_ble, cysbsyskit_01, cysbsyskit_dev_01, cy8ckit_062s4, cyw9p62s1_43012evb_01, cyw9p62s1_43438evb_01]">
+  <app keywords="psoc6,uart,transmit,receive,dma,mtb-flow" req_capabilities_v2="psoc6 led [cy8ceval_062s2, cy8ceval_062_s2_lai_4373m2, cy8ckit_062_ble, cy8ckit_062_wifi_bt, cy8ckit_062s2_43012, cy8cproto_062_4343w, cy8cproto_062s3_4343w, cy8cproto_063_ble, cysbsyskit_01, cysbsyskit_dev_01, cy8ckit_062s4, cyw9p62s1_43012evb_01, cyw9p62s1_43438evb_01]">
     <name>SCB UART Transmit and Receive using DMA</name>
     <id>mtb-example-psoc6-uart-transmit-receive-dma</id>
     <category>Peripherals</category>
@@ -416,7 +416,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,spi,master,slave,dma,mtb-flow" req_capabilities_v2="[cy8ceval_062s2, cy8ceval_062_s2_lai_4373m2, cy8ckit_062_ble, cy8ckit_062_wifi_bt, cy8ckit_062s2_43012, cy8cproto_062_4343w, cy8cproto_062s3_4343w, cy8cproto_063_ble, cysbsyskit_01, cysbsyskit_dev_01, cy8ckit_062s4, cyw9p62s1_43012evb_01, cyw9p62s1_43438evb_01]">
+  <app keywords="psoc6,spi,master,slave,dma,mtb-flow" req_capabilities_v2="psoc6 led [cy8ceval_062s2, cy8ceval_062_s2_lai_4373m2, cy8ckit_062_ble, cy8ckit_062_wifi_bt, cy8ckit_062s2_43012, cy8cproto_062_4343w, cy8cproto_062s3_4343w, cy8cproto_063_ble, cysbsyskit_01, cysbsyskit_dev_01, cy8ckit_062s4, cyw9p62s1_43012evb_01, cyw9p62s1_43438evb_01]">
     <name>SCB SPI Master DMA</name>
     <id>mtb-example-psoc6-spi-master-dma</id>
     <category>Peripherals</category>
@@ -748,7 +748,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,mtb-flow,ble,bluetooth,anycloud,ess,4343w,43012" req_capabilities_v2="[flash_2048k, flash_1024k, flash_512k, cy8ckit_064b0s2_4343w]">
+  <app keywords="psoc6,mtb-flow,ble,bluetooth,anycloud,ess,4343w,43012" req_capabilities_v2="psoc6 bt led [flash_2048k, flash_1024k, flash_512k, cy8ckit_064b0s2_4343w]">
     <name>Bluetooth LE Environmental Sensing Service</name>
     <id>mtb-example-anycloud-ble-ess</id>
     <category>Bluetooth&#174;</category>
@@ -779,7 +779,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,mtb-flow,ble,bluetooth,anycloud,beacon,eddystone,multi-adv,4343w,43012" req_capabilities_v2="[flash_2048k, flash_1024k, flash_512k, cy8ckit_064b0s2_4343w]">
+  <app keywords="psoc6,mtb-flow,ble,bluetooth,anycloud,beacon,eddystone,multi-adv,4343w,43012" req_capabilities_v2="psoc6 bt [flash_2048k, flash_1024k, flash_512k, cy8ckit_064b0s2_4343w]">
     <name>Bluetooth LE Multi Beacon</name>
     <id>mtb-example-anycloud-ble-multi-beacon</id>
     <category>Bluetooth&#174;</category>
@@ -1193,7 +1193,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,anycloud,wifi,mtb-flow,wifi-scan,wcm,scan filters" req_capabilities_v2="[flash_2048k, flash_1024k, flash_512k, cy8ckit_064b0s2_4343w]">
+  <app keywords="psoc6,anycloud,wifi,mtb-flow,wifi-scan,wcm,scan filters" req_capabilities_v2="psoc6 wifi cyw43xxx led switch [flash_2048k, flash_1024k, flash_512k, cy8ckit_064b0s2_4343w]">
     <name>Wi-Fi Scan</name>
     <id>mtb-example-anycloud-wifi-scan</id>
     <category>Wi-Fi</category>
@@ -1234,7 +1234,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,anycloud,wifi,mtb-flow,wcm,wps,enrollee,wps-pbc,wps-sta-pin" req_capabilities_v2="[flash_2048k, flash_1024k]">
+  <app keywords="psoc6,anycloud,wifi,mtb-flow,wcm,wps,enrollee,wps-pbc,wps-sta-pin" req_capabilities_v2="psoc6 wifi cyw43xxx led switch [flash_2048k, flash_1024k]">
     <name>WPS Enrollee</name>
     <id>mtb-example-anycloud-wps-enrollee</id>
     <category>Wi-Fi</category>
@@ -1263,7 +1263,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,sgpio,target,mtb-flow,smartio,spi" req_capabilities_v2="[cy8ckit_062_ble, cy8ckit_062_wifi_bt, cy8ckit_062s2_43012, cy8ckit_064b0s2_4343w, cy8cproto_062_4343w, cy8cproto_063_ble, cysbsyskit_01, cysbsyskit_dev_01]">
+  <app keywords="psoc6,sgpio,target,mtb-flow,smartio,spi" req_capabilities_v2="psoc6 smart_io [cy8ckit_062_ble, cy8ckit_062_wifi_bt, cy8ckit_062s2_43012, cy8ckit_064b0s2_4343w, cy8cproto_062_4343w, cy8cproto_063_ble, cysbsyskit_01, cysbsyskit_dev_01]">
     <name>SGPIO Target Interface</name>
     <id>mtb-example-psoc6-smartio-sgpio-target</id>
     <category>Peripherals</category>
@@ -1325,7 +1325,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,mtb-flow,ble,bluetooth,anycloud,battery,4343w,43012" req_capabilities_v2="[cy8ceval_062_s2_lai_4373m2, cy8ckit_062s2_43012, cy8cproto_062_4343w]">
+  <app keywords="psoc6,mtb-flow,ble,bluetooth,anycloud,battery,4343w,43012" req_capabilities_v2="psoc6 bt led multi_core [cy8ceval_062_s2_lai_4373m2, cy8ckit_062s2_43012, cy8cproto_062_4343w]">
     <name>Bluetooth LE Battery Server</name>
     <id>mtb-example-anycloud-ble-battery-server</id>
     <category>Bluetooth&#174;</category>
@@ -1360,7 +1360,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,mtb-flow,ble,bluetooth,anycloud,findme,4343w,43012" req_capabilities_v2="[flash_2048k, flash_1024k, flash_512k, cy8ckit_064b0s2_4343w]">
+  <app keywords="psoc6,mtb-flow,ble,bluetooth,anycloud,findme,4343w,43012" req_capabilities_v2="psoc6 bt led [flash_2048k, flash_1024k, flash_512k, cy8ckit_064b0s2_4343w]">
     <name>Bluetooth LE Findme</name>
     <id>mtb-example-anycloud-ble-findme</id>
     <category>Bluetooth&#174;</category>
@@ -1399,7 +1399,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,led,capsense,button,slider,i2c,tuner,ble,bluetooth,anycloud,4343w,43012,43438,mtb-flow" req_capabilities_v2="[flash_2048k, flash_1024k, flash_512k, cy8ckit_064b0s2_4343w]">
+  <app keywords="psoc6,led,capsense,button,slider,i2c,tuner,ble,bluetooth,anycloud,4343w,43012,43438,mtb-flow" req_capabilities_v2="psoc6 led bt capsense_button capsense_linear_slider [flash_2048k, flash_1024k, flash_512k, cy8ckit_064b0s2_4343w]">
     <name>Bluetooth LE CAPSENSE Buttons and Slider</name>
     <id>mtb-example-anycloud-ble-capsense-buttons-slider</id>
     <category>Bluetooth&#174;</category>
@@ -1434,7 +1434,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,psoc6,lpa,anycloud,wifi,wlan,lowpower" req_capabilities_v2="[flash_2048k, flash_1024k, flash_512k, cy8ckit_064b0s2_4343w]">
+  <app keywords="mtb-flow,psoc6,lpa,anycloud,wifi,wlan,lowpower" req_capabilities_v2="psoc6 wifi cyw43xxx led low_power [flash_2048k, flash_1024k, flash_512k, cy8ckit_064b0s2_4343w]">
     <name>WLAN Low Power</name>
     <id>mtb-example-anycloud-wlan-lowpower</id>
     <category>Wi-Fi</category>
@@ -1621,7 +1621,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-    <app keywords="mtb-flow,psoc6,lpa,anycloud,wifi,wlan,offload,tcp-keepalive" req_capabilities_v2="[flash_2048k, flash_1024k, flash_512k]">
+    <app keywords="mtb-flow,psoc6,lpa,anycloud,wifi,wlan,offload,tcp-keepalive" req_capabilities_v2="psoc6 wifi cyw43xxx low_power [flash_2048k, flash_1024k, flash_512k]">
     <name>TCP Keepalive Offload</name>
     <id>mtb-example-anycloud-offload-tcp-keepalive</id>
     <category>Wi-Fi</category>
@@ -1942,7 +1942,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,i2s,audio,mtb-flow,smartio,spi" req_capabilities_v2="[cy8ckit_062_ble, cy8ckit_062_wifi_bt, cy8ckit_062s2_43012, cy8ckit_064b0s2_4343w, cy8cproto_062_4343w, cy8cproto_063_ble, cy8ckit_062s4]">
+  <app keywords="psoc6,i2s,audio,mtb-flow,smartio,spi" req_capabilities_v2="psoc6 smart_io [cy8ckit_062_ble, cy8ckit_062_wifi_bt, cy8ckit_062s2_43012, cy8ckit_064b0s2_4343w, cy8cproto_062_4343w, cy8cproto_063_ble, cy8ckit_062s4]">
     <name>I2S Master using Smart IO and SPI</name>
     <id>mtb-example-psoc6-smartio-i2s</id>
     <category>Peripherals</category>
@@ -3506,7 +3506,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-    <app keywords="mtb-flow,psoc6,anycloud,udp,client,wifi,led" req_capabilities_v2="[flash_2048k, flash_1024k, flash_512k, cy8ckit_064b0s2_4343w]">
+    <app keywords="mtb-flow,psoc6,anycloud,udp,client,wifi,led" req_capabilities_v2="psoc6 cyw43xxx wifi led [flash_2048k, flash_1024k, flash_512k, cy8ckit_064b0s2_4343w]">
     <name>UDP Client</name>
     <id>mtb-example-anycloud-udp-client</id>
     <category>Wi-Fi</category>
@@ -3547,7 +3547,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,psoc6,anycloud,udp,server,wifi,switch" req_capabilities_v2="[flash_2048k, flash_1024k, flash_512k, cy8ckit_064b0s2_4343w]">
+  <app keywords="mtb-flow,psoc6,anycloud,udp,server,wifi,switch" req_capabilities_v2="psoc6 cyw43xxx wifi switch [flash_2048k, flash_1024k, flash_512k, cy8ckit_064b0s2_4343w]">
     <name>UDP Server</name>
     <id>mtb-example-anycloud-udp-server</id>
     <category>Wi-Fi</category>
@@ -3588,7 +3588,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,psoc6,wifi,anycloud,ota,http,https" req_capabilities_v2="[cy8ceval_062_s2_lai_4373m2, cy8ceval_062_mur_43439m2, cy8ckit_062s2_43012, cy8cproto_062_4343w]">
+  <app keywords="mtb-flow,psoc6,wifi,anycloud,ota,http,https" req_capabilities_v2="psoc6 cyw43xxx wifi led flash_2048k [cy8ceval_062_s2_lai_4373m2, cy8ceval_062_mur_43439m2, cy8ckit_062s2_43012, cy8cproto_062_4343w]">
     <name>OTA Using HTTPS</name>
     <id>mtb-example-anycloud-ota-https</id>
     <category>Wi-Fi</category>
@@ -3751,7 +3751,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,psoc6,anycloud,http,https,server,wifi" req_capabilities_v2="[flash_2048k, flash_1024k, flash_512k]">
+  <app keywords="mtb-flow,psoc6,anycloud,http,https,server,wifi" req_capabilities_v2="psoc6 cyw43xxx led wifi [flash_2048k, flash_1024k, flash_512k]">
     <name>HTTPS Server</name>
     <id>mtb-example-anycloud-https-server</id>
     <category>Wi-Fi</category>
@@ -3788,7 +3788,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,psoc6,anycloud,http,softap,tft,server,wifi,AP+STA concurrent mode,web server" req_capabilities_v2="[flash_2048k, flash_1024k]">
+  <app keywords="mtb-flow,psoc6,anycloud,http,softap,tft,server,wifi,AP+STA concurrent mode,web server" req_capabilities_v2="psoc6 cyw43xxx led capsense_button capsense_linear_slider wifi [flash_2048k, flash_1024k]">
     <name>Wi-Fi Web Server</name>
     <id>mtb-example-anycloud-wifi-web-server</id>
     <category>Wi-Fi</category>
@@ -3809,7 +3809,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-    <app keywords="mtb-flow,psoc6,anycloud,tcp,secure,client,wifi" req_capabilities_v2="[flash_2048k, flash_1024k, flash_512k]">
+    <app keywords="mtb-flow,psoc6,anycloud,tcp,secure,client,wifi" req_capabilities_v2="psoc6 wifi cyw43xxx led switch [flash_2048k, flash_1024k, flash_512k]">
     <name>Secure TCP client</name>
     <id>mtb-example-anycloud-secure-tcp-client</id>
     <category>Wi-Fi</category>
@@ -3842,7 +3842,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,psoc6,anycloud,tcp,secure,server,wifi" req_capabilities_v2="[flash_2048k, flash_1024k, flash_512k]">
+  <app keywords="mtb-flow,psoc6,anycloud,tcp,secure,server,wifi" req_capabilities_v2="psoc6 wifi cyw43xxx led switch [flash_2048k, flash_1024k, flash_512k]">
     <name>Secure TCP server</name>
     <id>mtb-example-anycloud-secure-tcp-server</id>
     <category>Wi-Fi</category>
@@ -3875,7 +3875,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,psoc6,anycloud,tcp,client,wifi" req_capabilities_v2="[flash_2048k, flash_1024k]">
+  <app keywords="mtb-flow,psoc6,anycloud,tcp,client,wifi" req_capabilities_v2="psoc6 wifi cyw43xxx led switch [flash_2048k, flash_1024k]">
     <name>TCP Client</name>
     <id>mtb-example-anycloud-tcp-client</id>
     <category>Wi-Fi</category>
@@ -3904,7 +3904,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,psoc6,anycloud,tcp,server,wifi" req_capabilities_v2="[flash_2048k, flash_1024k]">
+  <app keywords="mtb-flow,psoc6,anycloud,tcp,server,wifi" req_capabilities_v2="psoc6 wifi cyw43xxx led switch [flash_2048k, flash_1024k]">
     <name>TCP Server</name>
     <id>mtb-example-anycloud-tcp-server</id>
     <category>Wi-Fi</category>
@@ -3933,7 +3933,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-    <app keywords="mtb-flow,psoc6,anycloud,mqtt,client,wifi,aws,mosquitto" req_capabilities_v2="[flash_2048k, flash_1024k, flash_512k]">
+    <app keywords="mtb-flow,psoc6,anycloud,mqtt,client,wifi,aws,mosquitto" req_capabilities_v2="psoc6 wifi cyw43xxx led switch [flash_2048k, flash_1024k, flash_512k]">
     <name>MQTT Client</name>
     <id>mtb-example-anycloud-mqtt-client</id>
     <category>Wi-Fi</category>
@@ -3978,7 +3978,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,psoc6,mqtt,azure-iot,azure,azure-sdk,wifi" req_capabilities_v2="[cy8cproto_062_4343W, cy8ckit_062_wifi_bt, cy8ckit_064s0s2_4343w, cy8ckit_062s2_43012, cyw9p62s1_43438evb_01, cyw9p62s1_43012evb_01, cy8ceval_062s2_lai_4373m2, cy8ceval_062s2_mur_43439m2]">
+  <app keywords="mtb-flow,psoc6,mqtt,azure-iot,azure,azure-sdk,wifi" req_capabilities_v2="psoc6 wifi cyw43xxx [cy8cproto_062_4343W, cy8ckit_062_wifi_bt, cy8ckit_064s0s2_4343w, cy8ckit_062s2_43012, cyw9p62s1_43438evb_01, cyw9p62s1_43012evb_01, cy8ceval_062s2_lai_4373m2, cy8ceval_062s2_mur_43439m2]">
     <name>Connecting to Azure IoT</name>
     <id>mtb-example-azure-iot</id>
     <category>Wi-Fi</category>
@@ -4011,7 +4011,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,psoc6,wifi,aws,iot,ota,mqtt" req_capabilities_v2="[flash_2048k, flash_1856k]">
+  <app keywords="mtb-flow,psoc6,wifi,aws,iot,ota,mqtt" req_capabilities_v2="psoc6 cyw43xxx wifi led [flash_2048k, flash_1856k]">
     <name>AWS IoT OTA Using MQTT</name>
     <id>mtb-example-aws-iot-ota-mqtt</id>
     <category>Wi-Fi</category>
@@ -4032,7 +4032,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,usb,audio,freertos,mtb-flow" req_capabilities_v2="[cy8ceval_062s2, cy8ceval_062_s2_lai_4373m2, cy8ckit_062_wifi_bt, cy8ckit_062s2_43012, cy8cproto_062_4343w, cyw9p62s1_43012evb_01, cyw9p62s1_43438evb_01]">
+  <app keywords="psoc6,usb,audio,freertos,mtb-flow" req_capabilities_v2="psoc6 usb_device capsense_button capsense_linear_slider i2s [cy8ceval_062s2, cy8ceval_062_s2_lai_4373m2, cy8ckit_062_wifi_bt, cy8ckit_062s2_43012, cy8cproto_062_4343w, cyw9p62s1_43012evb_01, cyw9p62s1_43438evb_01]">
     <name>USB Audio Device FreeRTOS</name>
     <id>mtb-example-psoc6-usb-audio-device-freertos</id>
     <category>Peripherals</category>
@@ -4209,7 +4209,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="pmg1,usbpd,mtb-flow" req_capabilities_v2="[pmg1_cy7113]">
+  <app keywords="pmg1,usbpd,mtb-flow" req_capabilities_v2="usbpd pmg1 led [pmg1_cy7113]">
     <name>USBPD DRP</name>
     <id>mtb-example-pmg1-usbpd-drp</id>
     <category>Peripherals</category>
@@ -4259,7 +4259,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="pmg1,usbpd,mtb-flow" req_capabilities_v2="[pmg1_cy7113]">
+  <app keywords="pmg1,usbpd,mtb-flow" req_capabilities_v2="usbpd pmg1 led [pmg1_cy7113]">
     <name>USBPD Sink using FreeRTOS</name>
     <id>mtb-example-pmg1-usbpd-sink-freertos</id>
     <category>Peripherals</category>
@@ -4381,7 +4381,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="pmg1,uart,starter,dma,mtb-flow" req_capabilities_v2="[pmg1_cy7113]">
+  <app keywords="pmg1,uart,starter,dma,mtb-flow" req_capabilities_v2="pmg1 dma uart [pmg1_cy7113]">
     <name>UART Transmit Receive DMA</name>
     <id>mtb-example-pmg1-uart-transmit-receive-dma</id>
     <category>Peripherals</category>
@@ -4476,7 +4476,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,dfu,bootloader,mtb-flow" req_capabilities_v2="[cy8ceval_062s2, cy8ceval_062_s2_lai_4373m2, cy8ckit_062_ble, cy8ckit_062_wifi_bt, cy8ckit_062s2_43012, cy8cproto_062_4343w, cy8cproto_062s3_4343w, cy8cproto_063_ble, cy8ckit_062s4, cyw9p62s1_43012evb_01, cyw9p62s1_43438evb_01]">
+  <app keywords="psoc6,dfu,bootloader,mtb-flow" req_capabilities_v2="psoc6 led switch std_crypto [cy8ceval_062s2, cy8ceval_062_s2_lai_4373m2, cy8ckit_062_ble, cy8ckit_062_wifi_bt, cy8ckit_062s2_43012, cy8cproto_062_4343w, cy8cproto_062s3_4343w, cy8cproto_063_ble, cy8ckit_062s4, cyw9p62s1_43012evb_01, cyw9p62s1_43438evb_01]">
     <name>Basic Device Firmware Upgrade</name>
     <id>mtb-example-psoc6-dfu-basic</id>
     <category>Peripherals</category>
@@ -4538,7 +4538,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,mcuboot,bootloader,mtb-flow" req_capabilities_v2="[cy8ceval_062s2, cy8ceval_062_s2_lai_4373m2, cy8ceval_062_mur_43439m2, cy8ckit_062_ble, cy8ckit_062_wifi_bt, cy8ckit_062s2_43012, cy8cproto_062_4343w, cy8cproto_062s3_4343w, cyw9p62s1_43012evb_01, cyw9p62s1_43438evb_01]">
+  <app keywords="psoc6,mcuboot,bootloader,mtb-flow" req_capabilities_v2="psoc6 std_crypto led qspi nor_flash [cy8ceval_062s2, cy8ceval_062_s2_lai_4373m2, cy8ceval_062_mur_43439m2, cy8ckit_062_ble, cy8ckit_062_wifi_bt, cy8ckit_062s2_43012, cy8cproto_062_4343w, cy8cproto_062s3_4343w, cyw9p62s1_43012evb_01, cyw9p62s1_43438evb_01]">
     <name>MCUboot-Based Basic Bootloader</name>
     <id>mtb-example-psoc6-mcuboot-basic</id>
     <category>Peripherals</category>
@@ -4577,7 +4577,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,mtb-flow,ml,nn,profiler" req_capabilities_v2="[flash_2048k, flash_1856k, flash_1024k, flash_832k, flash_512k]">
+  <app keywords="psoc6,mtb-flow,ml,nn,profiler" req_capabilities_v2="psoc6 uart [flash_2048k, flash_1856k, flash_1024k, flash_832k, flash_512k]">
     <name>Machine Learning Neural Network Profiler</name>
     <id>mtb-example-ml-profiler</id>
     <category>Machine Learning</category>
@@ -4769,7 +4769,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,emwin,display,tft,freertos,mtb-flow,appwizard" req_capabilities_v2="[flash_2048k,flash_1856k,cy8ckit_062_wifi_bt,cy8ckit_062_ble,cyw9p62s1_43438evb_01]">
+  <app keywords="psoc6,emwin,display,tft,freertos,mtb-flow,appwizard" req_capabilities_v2="psoc6 arduino switch [flash_2048k,flash_1856k,cy8ckit_062_wifi_bt,cy8ckit_062_ble,cyw9p62s1_43438evb_01]">
     <name>emWin TFT FreeRTOS</name>
     <id>mtb-example-psoc6-emwin-tft-freertos</id>
     <category>Graphics</category>
@@ -4872,7 +4872,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="psoc4,psoc6,canfd,mtb-flow" req_capabilities_v2="[psoc4,psoc6] [cy8ckit_041s_max,cy8ckit_062s4,cy8cproto_062s3_4343w]">
+  <app keywords="psoc4,psoc6,canfd,mtb-flow" req_capabilities_v2="led can [psoc4,psoc6] [cy8ckit_041s_max,cy8ckit_062s4,cy8cproto_062s3_4343w]">
     <name>CAN FD</name>
     <id>mtb-example-canfd</id>
     <category>Peripherals</category>
@@ -4937,7 +4937,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,psoc6,wifi,anycloud,ota,mqtt,mcuboot,bootloader" req_capabilities_v2="[cy8ckit_062s2_43012, cy8cproto_062_4343w]">
+  <app keywords="mtb-flow,psoc6,wifi,anycloud,ota,mqtt,mcuboot,bootloader" req_capabilities_v2="psoc6 wifi cyw43xxx led std_crypto qspi nor_flash flash_2048k [cy8ckit_062s2_43012, cy8cproto_062_4343w]">
     <name>MCUboot-Based Bootloader with Rollback</name>
     <id>mtb-example-anycloud-mcuboot-rollback</id>
     <category>Wi-Fi</category>
@@ -4996,7 +4996,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,anycloud,cts,server,bluetooth" req_capabilities_v2="[flash_2048k, flash_1024k, flash_512k, cy8ckit_064b0s2_4343w]">
+  <app keywords="mtb-flow,anycloud,cts,server,bluetooth" req_capabilities_v2="psoc6 bt led [flash_2048k, flash_1024k, flash_512k, cy8ckit_064b0s2_4343w]">
     <name>Bluetooth LE CTS Server</name>
     <id>mtb-example-anycloud-ble-cts-server</id>
     <category>Bluetooth&#174;</category>
@@ -5023,7 +5023,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,anycloud,cts,client,bluetooth" req_capabilities_v2="[flash_2048k, flash_1024k, flash_512k, cy8ckit_064b0s2_4343w]">
+  <app keywords="mtb-flow,anycloud,cts,client,bluetooth" req_capabilities_v2="psoc6 bt led [flash_2048k, flash_1024k, flash_512k, cy8ckit_064b0s2_4343w]">
     <name>Bluetooth LE CTS Client</name>
     <id>mtb-example-anycloud-ble-cts-client</id>
     <category>Bluetooth&#174;</category>
@@ -5461,7 +5461,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,psoc6,anycloud,bluetooth,mqtt,client,wifi,aws,iot,mosquitto" req_capabilities_v2="[cy8ceval_062_mur_43439m2, cy8ckit_062s2_43012]">
+  <app keywords="mtb-flow,psoc6,anycloud,bluetooth,mqtt,client,wifi,aws,iot,mosquitto" req_capabilities_v2="psoc6 wifi bt cyw43xxx led switch anycloud [cy8ceval_062_mur_43439m2, cy8ckit_062s2_43012]">
     <name>Bluetooth LE IoT Gateway</name>
     <id>mtb-example-anycloud-ble-wifi-gateway</id>
     <category>Bluetooth&#174;</category>
@@ -5539,7 +5539,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="privacy,bonding,mtb-flow,anycloud,bluetooth" req_capabilities_v2="[cyw9p62s1-43012evb-01,cyw9p62s1-43438evb-01,cy8ckit-062-wifi-bt,cy8ckit_062s2_43012,cy8cproto_062_4343w,cy8ceval-062s2-mur-43439m2]">
+  <app keywords="privacy,bonding,mtb-flow,anycloud,bluetooth" req_capabilities_v2="psoc6 bt led [cyw9p62s1-43012evb-01,cyw9p62s1-43438evb-01,cy8ckit-062-wifi-bt,cy8ckit_062s2_43012,cy8cproto_062_4343w,cy8ceval-062s2-mur-43439m2]">
     <name>Bluetooth LE Peripheral Privacy</name>
     <id>mtb-example-anycloud-ble-peripheral-privacy</id>
     <category>Bluetooth&#174;</category>
@@ -5603,7 +5603,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="pmg1,temp,sensor,adc,8-bit,temperature,mtb-flow" req_capabilities_v2="[pmg1_cy7110, pmg1_cy7111, pmg1_cy7112]">
+  <app keywords="pmg1,temp,sensor,adc,8-bit,temperature,mtb-flow" req_capabilities_v2="pmg1 usbpd uart led switch [pmg1_cy7110, pmg1_cy7111, pmg1_cy7112]">
     <name>On Chip Temp Sensor 8 bit SAR ADC</name>
     <id>mtb-example-pmg1-on-chip-temp-sensor-8-bit-saradc</id>
     <category>Peripherals</category>
@@ -5622,7 +5622,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="pmg1,temp,sensor,adc,12-bit,temperature,mtb-flow" req_capabilities_v2="[pmg1_cy7113]">
+  <app keywords="pmg1,temp,sensor,adc,12-bit,temperature,mtb-flow" req_capabilities_v2="pmg1 adc uart led switch [pmg1_cy7113]">
     <name>On Chip Temp Sensor 12 bit SAR ADC</name>
     <id>mtb-example-pmg1-on-chip-temp-sensor-12-bit-saradc</id>
     <category>Peripherals</category>
@@ -5698,7 +5698,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="pmg1,analog,ctbm,ctb,opamp,comparator,mtb-flow" req_capabilities_v2="[pmg1_cy7113]">
+  <app keywords="pmg1,analog,ctbm,ctb,opamp,comparator,mtb-flow" req_capabilities_v2="pmg1 opamp [pmg1_cy7113]">
     <name>CTBm OpAmp comparator</name>
     <id>mtb-example-pmg1-ctbm-opamp-comparator</id>
     <category>Peripherals</category>
@@ -5717,7 +5717,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="pmg1,adc,sar,12-bit,analog,pass,mtb-flow" req_capabilities_v2="[pmg1_cy7113]">
+  <app keywords="pmg1,adc,sar,12-bit,analog,pass,mtb-flow" req_capabilities_v2="pmg1 adc uart led [pmg1_cy7113]">
     <name>12 bit SAR ADC</name>
     <id>mtb-example-pmg1-12-bit-saradc-basic</id>
     <category>Peripherals</category>
@@ -5831,14 +5831,14 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="pmg1,crypto,trng,cryptolite,otp"  req_capabilities_v2="[pmg1_cy7113]">
+  <app keywords="pmg1,crypto,trng,cryptolite,otp"  req_capabilities_v2="pmg1 [pmg1_cy7113]">
     <name>Cryptography TRNG</name>
     <id>mtb-example-pmg1-crypto-trng</id>
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-pmg1-crypto-trng</uri>
     <description><![CDATA[This code example demonstrates how to generate a 4-byte one-time password (OTP) with the true random number generation feature using the Cryptographic hardware block in PMG1 MCU. 
       <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-crypto-trng/blob/master/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>pmg1 </req_capabilities>
+    <req_capabilities>pmg1</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 1.X release</num>
@@ -5869,7 +5869,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="pairing,mtb-flow,bluetooth,button" req_capabilities_v2="[cyw920829_vr]">
+  <app keywords="pairing,mtb-flow,bluetooth,button" req_capabilities_v2="bt cyw20829 [cyw920829_vr]">
     <name>AIROC LE CYW20829 Voice Remote</name>
     <id>mtb-example-btstack-freertos-cyw20829-voice-remote</id>
     <category>Bluetooth&#174;</category>
@@ -5945,7 +5945,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="pairing,mtb-flow,bluetooth,button" req_capabilities_v2="[cyw920829m2evb_01]">
+  <app keywords="pairing,mtb-flow,bluetooth,button" req_capabilities_v2="bt led [cyw920829m2evb_01]">
     <name>Bluetooth LE Hello Sensor</name>
     <id>mtb-example-btstack-freertos-hello-sensor</id>
     <category>Bluetooth&#174;</category>
@@ -6002,7 +6002,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,csdidac,mtb-flow,capsense,csd,dac" req_capabilities_v2="[flash_2048k,flash_1024k,flash_512k]">
+  <app keywords="psoc6,csdidac,mtb-flow,capsense,csd,dac" req_capabilities_v2="psoc6 capsense [flash_2048k,flash_1024k,flash_512k]">
     <name>CSD Current DAC</name>
     <id>mtb-example-psoc6-csdidac</id>
     <category>Peripherals</category>
@@ -6020,7 +6020,7 @@ iBeacon UUID data.
       </version>      
     </versions>
   </app>      
-  <app keywords="psoc6,smpu,ppu,ipc,mtb-flow,security" req_capabilities_v2="[cy8ckit_062_ble, cy8ckit_062_wifi_bt, cy8ckit_062s2_43012, cy8cproto_062_4343w, cy8cproto_062s3_4343w, cy8cproto_063_ble]">
+  <app keywords="psoc6,smpu,ppu,ipc,mtb-flow,security" req_capabilities_v2="psoc6 [cy8ckit_062_ble, cy8ckit_062_wifi_bt, cy8ckit_062s2_43012, cy8cproto_062_4343w, cy8cproto_062s3_4343w, cy8cproto_063_ble]">
     <name>Security App</name>
     <id>mtb-example-psoc6-security</id>
     <category>Getting Started</category>
