@@ -6058,4 +6058,23 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
+  <app keywords="psoc6,led,capsense,button,slider,i2c,tuner,mtb-flow,capsense-on-cm0+,dual-cpu-example" req_capabilities_v2="[flash_2048k,flash_1024k,flash_512k,flash_256k]">
+    <name>CAPSENSE on CM0p</name>
+    <id>mtb-example-psoc6-capsense-cm0p</id>
+    <category>Sensing</category>
+    <uri>https://github.com/Infineon/mtb-example-psoc6-capsense-cm0p</uri>
+    <description><![CDATA[This code example demonstrates how to create a CAPSENSE#8482; design using CM0+ CPU of PSoC#8482; 6 MCU, without utilizing CM4 CPU. The code example features CAPSENSE#8482; buttons, button 0 turns the LED ON while the button 1 turns the LED OFF and the slider controls the brightness of the LED using the CAPSENSE#8482; Middleware Library. The code example also demonstrates interfacing with Tuner GUI using I2C interface.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-capsense-cm0p/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>psoc6 led capsense_button capsense_linear_slider</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>  
 </apps>
