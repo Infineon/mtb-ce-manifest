@@ -6140,4 +6140,24 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
+  <app keywords="psoc6,motor-control,mtb-flow">
+    <name>Sensorless FOC</name>
+    <id>mtb-example-psoc6-motor-control-sensorless-foc</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-psoc6-motor-control-sensorless-foc</uri>
+    <description><![CDATA[The code example is built to demonstrate the sensorless FOC motor control solution with PSoC&#8482; 6 device, which is intended for those who want to get familiar with sensorless FOC permanent magnet synchronous motor (PMSM) motor control and also who are interested in PSoC&#8482; 6 devices.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-motor-control-sensorless-foc/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>psoc6 cy8ckit_062s4</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>      
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>      
+    </versions>
+  </app>   
 </apps>
+
