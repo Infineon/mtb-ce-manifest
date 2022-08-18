@@ -6076,5 +6076,24 @@ iBeacon UUID data.
         <commit>release-v1.0.0</commit>
       </version>
     </versions>
-  </app>  
+  </app>
+  <app keywords="pairing,mtb-flow,bluetooth,button,le-lr" req_capabilities_v2="bt led [cyw920829m2evb_01]">
+    <name>Bluetooth LE Long Range</name>
+    <id>mtb-example-btstack-freertos-le-lr</id>
+    <category>Bluetooth&#174;</category>
+    <uri>https://github.com/Infineon/mtb-example-btstack-freertos-le-lr</uri>
+    <description><![CDATA[This code example demonstrates the use of LE Long Range PHY with Infineon AIROC™ CYW20829 Bluetooth® devices using ModusToolbox&#8482; software.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-le-lr/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>bt led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
 </apps>
