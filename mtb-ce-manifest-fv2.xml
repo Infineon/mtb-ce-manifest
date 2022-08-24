@@ -1925,7 +1925,7 @@ iBeacon UUID data.
     <category>Peripherals</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc4-uart-transmit-receive</uri>
     <description><![CDATA[This example demonstrates the UART transmit and receive operation in PSoC&#8482; 4 device. The application uses a serial terminal to read data and to echo back the received data.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-uart-trasmit-receive/blob/master/README.md">README on GitHub</a>.]]></description>
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-uart-transmit-receive/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc4 led</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version_v2="[bsp_gen3]">
