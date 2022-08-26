@@ -1021,7 +1021,7 @@ iBeacon UUID data.
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
-        <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>2.2.0 release</num>
         <commit>release-v2.2.0</commit>
       </version>
@@ -1621,7 +1621,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-    <app keywords="mtb-flow,psoc6,lpa,anycloud,wifi,wlan,offload,tcp-keepalive" req_capabilities_v2="psoc6 wifi cyw43xxx low_power [flash_2048k, flash_1024k, flash_512k]">
+  <app keywords="mtb-flow,psoc6,lpa,anycloud,wifi,wlan,offload,tcp-keepalive" req_capabilities_v2="psoc6 wifi cyw43xxx low_power [flash_2048k, flash_1024k, flash_512k]">
     <name>TCP Keepalive Offload</name>
     <id>mtb-example-anycloud-offload-tcp-keepalive</id>
     <category>Wi-Fi</category>
@@ -3506,7 +3506,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-    <app keywords="mtb-flow,psoc6,anycloud,udp,client,wifi,led" req_capabilities_v2="psoc6 cyw43xxx wifi led [flash_2048k, flash_1024k, flash_512k, cy8ckit_064b0s2_4343w]">
+  <app keywords="mtb-flow,psoc6,anycloud,udp,client,wifi,led" req_capabilities_v2="psoc6 cyw43xxx wifi led [flash_2048k, flash_1024k, flash_512k, cy8ckit_064b0s2_4343w]">
     <name>UDP Client</name>
     <id>mtb-example-anycloud-udp-client</id>
     <category>Wi-Fi</category>
@@ -3809,7 +3809,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-    <app keywords="mtb-flow,psoc6,anycloud,tcp,secure,client,wifi" req_capabilities_v2="psoc6 wifi cyw43xxx led switch [flash_2048k, flash_1024k, flash_512k]">
+  <app keywords="mtb-flow,psoc6,anycloud,tcp,secure,client,wifi" req_capabilities_v2="psoc6 wifi cyw43xxx led switch [flash_2048k, flash_1024k, flash_512k]">
     <name>Secure TCP client</name>
     <id>mtb-example-anycloud-secure-tcp-client</id>
     <category>Wi-Fi</category>
@@ -3933,7 +3933,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-    <app keywords="mtb-flow,psoc6,anycloud,mqtt,client,wifi,aws,mosquitto" req_capabilities_v2="psoc6 wifi cyw43xxx led switch [flash_2048k, flash_1024k, flash_512k]">
+  <app keywords="mtb-flow,psoc6,anycloud,mqtt,client,wifi,aws,mosquitto" req_capabilities_v2="psoc6 wifi cyw43xxx led switch [flash_2048k, flash_1024k, flash_512k]">
     <name>MQTT Client</name>
     <id>mtb-example-anycloud-mqtt-client</id>
     <category>Wi-Fi</category>
@@ -5831,7 +5831,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="pmg1,crypto,trng,cryptolite,otp"  req_capabilities_v2="pmg1 [pmg1_cy7113]">
+  <app keywords="pmg1,crypto,trng,cryptolite,otp" req_capabilities_v2="pmg1 [pmg1_cy7113]">
     <name>Cryptography TRNG</name>
     <id>mtb-example-pmg1-crypto-trng</id>
     <category>Peripherals</category>
@@ -6013,13 +6013,13 @@ iBeacon UUID data.
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
-      </version>      
+      </version>
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
-      </version>      
+      </version>
     </versions>
-  </app>      
+  </app>
   <app keywords="psoc6,smpu,ppu,ipc,mtb-flow,security" req_capabilities_v2="psoc6 [cy8ckit_062_ble, cy8ckit_062_wifi_bt, cy8ckit_062s2_43012, cy8cproto_062_4343w, cy8cproto_062s3_4343w, cy8cproto_063_ble]">
     <name>Security App</name>
     <id>mtb-example-psoc6-security</id>
@@ -6032,13 +6032,13 @@ iBeacon UUID data.
       <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
-      </version>      
+      </version>
       <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
     </versions>
-  </app>  
+  </app>
   <app keywords="wlc1,usbpd,mtb-flow">
     <name>WLC1 EPP Power Transmitter</name>
     <id>mtb-example-wlc1-ptx-epp</id>
