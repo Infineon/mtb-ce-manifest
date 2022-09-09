@@ -5965,7 +5965,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="pairing,mtb-flow,bluetooth,button" req_capabilities_v2="bt led [cyw920829m2evb_01]">
+    <app keywords="pairing,mtb-flow,bluetooth,button" req_capabilities_v2="bt led [cyw920829m2evb_01, cy8ckit_062_ble, cy8cproto_063_ble, cyble_416045_eval]">
     <name>Bluetooth LE Hello Sensor</name>
     <id>mtb-example-btstack-freertos-hello-sensor</id>
     <category>Bluetooth&#174;</category>
@@ -5974,6 +5974,14 @@ iBeacon UUID data.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-hello-sensor/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>bt led</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
