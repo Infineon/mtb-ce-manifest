@@ -5965,7 +5965,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-    <app keywords="pairing,mtb-flow,bluetooth,button" req_capabilities_v2="bt led [cyw920829m2evb_01, cy8ckit_062_ble, cy8cproto_063_ble, cyble_416045_eval]">
+  <app keywords="pairing,mtb-flow,bluetooth,button" req_capabilities_v2="bt led [cyw920829m2evb_01, cy8ckit_062_ble, cy8cproto_063_ble, cyble_416045_eval]">
     <name>Bluetooth LE Hello Sensor</name>
     <id>mtb-example-btstack-freertos-hello-sensor</id>
     <category>Bluetooth&#174;</category>
