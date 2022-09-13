@@ -3590,15 +3590,23 @@ iBeacon UUID data.
   </app>
   <app keywords="mtb-flow,psoc6,wifi,anycloud,ota,http,https" req_capabilities_v2="psoc6 cyw43xxx wifi led flash_2048k [cy8ceval_062_s2_lai_4373m2, cy8ceval_062_mur_43439m2, cy8ckit_062s2_43012, cy8cproto_062_4343w]">
     <name>OTA Using HTTPS</name>
-    <id>mtb-example-anycloud-ota-https</id>
+    <id>mtb-example-ota-https</id>
     <category>Wi-Fi</category>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-ota-https</uri>
-    <description><![CDATA[This code example demonstrates OTA update with PSoC&#8482; 6 MCU and CYW43xxx connectivity devices. The device establishes a connection with the designated HTTPS server. It periodically checks the job document to see if a new update is available. When a new update is available, it will be downloaded and written to the secondary slot. On the next reboot, MCUBoot will copy the new image over to the primary slot and run the application.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-anycloud-ota-https/blob/master/README.md">README on GitHub</a>.
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-ota-https</uri>
+    <description><![CDATA[This code example demonstrates OTA update with PSoC&#8482; 6 MCU and AIROC&#8482; CYW43xxx Wi-Fi & Bluetooth&#174; combo chips. The device establishes a connection with the designated HTTPS server. It periodically checks the job document to see if a new update is available. When a new update is available, it is downloaded and written to the secondary slot. On the next reboot, MCUboot swaps the new image in the secondary slot with the primary slot image and runs the application. If the new image is not validated in runtime, on the next reboot, MCUboot reverts to the previously validated image.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ota-https/blob/master/README.md">README on GitHub</a>.
     <br><br><b>License Disclaimer:</b><br><br>
     This code example makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license. <br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).]]></description>
     <req_capabilities>psoc6 cyw43xxx wifi led flash_2048k</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>Latest 4.X release</num>
+        <commit>latest-v4.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>4.0.0 release</num>
+        <commit>release-v4.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
@@ -3656,17 +3664,25 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,psoc6,wifi,anycloud,ota,mqtt">
+  <app keywords="mtb-flow,psoc6,wifi,ota,mqtt" req_capabilities_v2="psoc6 cyw43xxx wifi led flash_2048k [cy8ceval_062_s2_lai_4373m2, cy8ceval_062_mur_43439m2, cy8ckit_062s2_43012, cy8cproto_062_4343w]">
     <name>OTA Using MQTT</name>
-    <id>mtb-example-anycloud-ota-mqtt</id>
+    <id>mtb-example-ota-mqtt</id>
     <category>Wi-Fi</category>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-ota-mqtt</uri>
-    <description><![CDATA[This code example demonstrates OTA update with PSoC&#8482; 6 MCU and CYW43xxx connectivity devices. The device establishes a connection with the designated MQTT broker. It periodically checks the job document to see if a new update is available. When a new update is available, it will be downloaded and written to the secondary slot. On the next reboot, MCUBoot will copy the new image over to the primary slot and run the application.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-anycloud-ota-mqtt/blob/master/README.md">README on GitHub</a>.
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-ota-mqtt</uri>
+    <description><![CDATA[This code example demonstrates OTA update with PSoC&#8482; 6 MCU and AIROC&#8482 CYW43xxx Wi-Fi & Bluetooth&#174; combo chips. The device establishes a connection with the designated MQTT broker (this example uses a local Mosquitto broker). It periodically checks the job document to see if a new update is available. When a new update is available, it is downloaded and written to the secondary slot. On the next reboot, MCUboot swaps the new image in the secondary slot with the primary slot image and runs the application. If the new image is not validated in runtime, on the next reboot MCUboot reverts to the previously validated image.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ota-mqtt/blob/master/README.md">README on GitHub</a>.
     <br><br><b>License Disclaimer:</b><br><br>
     This code example makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license. <br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).]]></description>
     <req_capabilities>psoc6 cyw43xxx wifi led flash_2048k</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>Latest 5.X release</num>
+        <commit>latest-v5.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>5.0.0 release</num>
+        <commit>release-v5.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
         <num>Latest 4.X release</num>
         <commit>latest-v4.X</commit>
