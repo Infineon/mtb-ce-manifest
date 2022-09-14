@@ -3592,7 +3592,7 @@ iBeacon UUID data.
     <name>OTA Using HTTPS</name>
     <id>mtb-example-ota-https</id>
     <category>Wi-Fi</category>
-    <uri>https://github.com/Infineon/mtb-example-ota-https</uri>    
+    <uri>https://github.com/Infineon/mtb-example-ota-https</uri>
     <description><![CDATA[This code example demonstrates OTA update with PSoC&#8482; 6 MCU and AIROC&#8482; CYW43xxx Wi-Fi & Bluetooth&#174; combo chips. The device establishes a connection with the designated HTTPS server. It periodically checks the job document to see if a new update is available. When a new update is available, it is downloaded and written to the secondary slot. On the next reboot, MCUboot swaps the new image in the secondary slot with the primary slot image and runs the application. If the new image is not validated in runtime, on the next reboot, MCUboot reverts to the previously validated image.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ota-https/blob/master/README.md">README on GitHub</a>.
     <br><br><b>License Disclaimer:</b><br><br>
