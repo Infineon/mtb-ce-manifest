@@ -748,14 +748,14 @@
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,mtb-flow,ble,bluetooth,anycloud,ess,4343w,43012" req_capabilities_v2="psoc6 bt led [flash_2048k, flash_1024k, flash_512k, cy8ckit_064b0s2_4343w]">
+  <app keywords="psoc6,mtb-flow,ble,bluetooth,anycloud,ess,4343w,43012" req_capabilities_v2="psoc6 bt led cyw43xxx [flash_2048k, flash_1024k, flash_512k, cy8ckit_064b0s2_4343w]">
     <name>Bluetooth LE Environmental Sensing Service</name>
     <id>mtb-example-anycloud-ble-ess</id>
     <category>Bluetooth&#174;</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-ble-ess</uri>
     <description><![CDATA[This code example demonstrates the implementation of a simple Bluetooth&#174; Low Energy Environmental Sensing Profile. It shows how to send environmental parameters like temperature by sending simulated temperature values over the Bluetooth&#174; Low Energy connection using the AIROC&#8482; Wi-Fi & Bluetooth&#174; combos supported in AnyCloud-SDK.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-anycloud-ble-ess/blob/master/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>psoc6 bt led</req_capabilities>
+    <req_capabilities>psoc6 bt led cyw43xxx</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
         <num>Latest 3.X release</num>
@@ -779,7 +779,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,mtb-flow,ble,bluetooth,anycloud,beacon,eddystone,multi-adv,4343w,43012" req_capabilities_v2="psoc6 bt [flash_2048k, flash_1024k, flash_512k, cy8ckit_064b0s2_4343w]">
+  <app keywords="psoc6,mtb-flow,ble,bluetooth,anycloud,beacon,eddystone,multi-adv,4343w,43012" req_capabilities_v2="psoc6 bt cyw43xxx [flash_2048k, flash_1024k, flash_512k, cy8ckit_064b0s2_4343w]">
     <name>Bluetooth LE Multi Beacon</name>
     <id>mtb-example-anycloud-ble-multi-beacon</id>
     <category>Bluetooth&#174;</category>
@@ -787,7 +787,7 @@
     <description><![CDATA[This code example demonstrates the implementation of a beacon which advertises Eddystone and
 iBeacon UUID data.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-anycloud-ble-multi-beacon/blob/master/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>psoc6 bt</req_capabilities>
+    <req_capabilities>psoc6 bt cyw43xxx</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
         <num>Latest 3.X release</num>
@@ -1360,14 +1360,14 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,mtb-flow,ble,bluetooth,anycloud,findme,4343w,43012" req_capabilities_v2="psoc6 bt led [flash_2048k, flash_1024k, flash_512k, cy8ckit_064b0s2_4343w]">
+  <app keywords="psoc6,mtb-flow,ble,bluetooth,anycloud,findme,4343w,43012" req_capabilities_v2="psoc6 bt led cyw43xxx [flash_2048k, flash_1024k, flash_512k, cy8ckit_064b0s2_4343w]">
     <name>Bluetooth LE Findme</name>
     <id>mtb-example-anycloud-ble-findme</id>
     <category>Bluetooth&#174;</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-ble-findme</uri>
     <description><![CDATA[This design implements a Bluetooth&#174; Low Energy FMP(Find Me Profile) that consists of an IAS(Immediate Alert Service). FMP and IAS are Bluetooth&#174; Low Energy standard Profile and Service respectively, as defined by the Bluetooth&#174; SIG.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-anycloud-ble-findme/blob/master/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>psoc6 bt led</req_capabilities>
+    <req_capabilities>psoc6 bt led cyw43xxx</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
         <num>Latest 3.X release</num>
@@ -1399,14 +1399,14 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,led,capsense,button,slider,i2c,tuner,ble,bluetooth,anycloud,4343w,43012,43438,mtb-flow" req_capabilities_v2="psoc6 led bt capsense_button capsense_linear_slider [flash_2048k, flash_1024k, flash_512k, cy8ckit_064b0s2_4343w]">
+  <app keywords="psoc6,led,capsense,button,slider,i2c,tuner,ble,bluetooth,anycloud,4343w,43012,43438,mtb-flow" req_capabilities_v2="psoc6 led bt cyw43xxx capsense_button capsense_linear_slider [flash_2048k, flash_1024k, flash_512k, cy8ckit_064b0s2_4343w]">
     <name>Bluetooth LE CAPSENSE Buttons and Slider</name>
     <id>mtb-example-anycloud-ble-capsense-buttons-slider</id>
     <category>Bluetooth&#174;</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-ble-capsense-buttons-slider</uri>
     <description><![CDATA[This code example features a 5-segment CAPSENSE&#8482; slider and two CAPSENSE&#8482; buttons with Bluetooth&#174; Low Energy custom service. Button 0 turns the LED on, Button 1 turns the LED off and the slider controls the brightness of the LED. The LED status is notified to the client via Bluetooth&#174; Low Energy GATT profile.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-anycloud-ble-capsense-buttons-slider/blob/master/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>psoc6 led bt capsense_button capsense_linear_slider</req_capabilities>
+    <req_capabilities>psoc6 led bt capsense_button capsense_linear_slider cyw43xxx</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
         <num>Latest 4.X release</num>
@@ -5012,14 +5012,14 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,anycloud,cts,server,bluetooth" req_capabilities_v2="psoc6 bt led [flash_2048k, flash_1024k, flash_512k, cy8ckit_064b0s2_4343w]">
+  <app keywords="mtb-flow,anycloud,cts,server,bluetooth" req_capabilities_v2="psoc6 bt led cyw43xxx [flash_2048k, flash_1024k, flash_512k, cy8ckit_064b0s2_4343w]">
     <name>Bluetooth LE CTS Server</name>
     <id>mtb-example-anycloud-ble-cts-server</id>
     <category>Bluetooth&#174;</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-ble-cts-server</uri>
     <description><![CDATA[This code example demonstrates the implementation of a simple AIROC&#8482; Bluetooth&#174; LE GAP central - GATT server with Current time service (CTS) using the AIROC&#8482; Wi-Fi & Bluetooth&#174; combos and ModusToolbox&#8482; Software Environment.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-anycloud-ble-cts-server/blob/master/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>psoc6 bt led</req_capabilities>
+    <req_capabilities>psoc6 bt led cyw43xxx</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
         <num>Latest 3.X release</num>
@@ -5039,14 +5039,14 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,anycloud,cts,client,bluetooth" req_capabilities_v2="psoc6 bt led [flash_2048k, flash_1024k, flash_512k, cy8ckit_064b0s2_4343w]">
+  <app keywords="mtb-flow,anycloud,cts,client,bluetooth" req_capabilities_v2="psoc6 bt led cyw43xxx [flash_2048k, flash_1024k, flash_512k, cy8ckit_064b0s2_4343w]">
     <name>Bluetooth LE CTS Client</name>
     <id>mtb-example-anycloud-ble-cts-client</id>
     <category>Bluetooth&#174;</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-ble-cts-client</uri>
     <description><![CDATA[This code example demonstrates the implementation of a simple AIROC&#8482; Bluetooth&#174; LE GAP peripheral - GATT client with Current time service (CTS) using the AIROC&#8482; Wi-Fi & Bluetooth&#174; combos and ModusToolbox&#8482; Software Environment.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-anycloud-ble-cts-client/blob/master/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>psoc6 bt led</req_capabilities>
+    <req_capabilities>psoc6 bt led cyw43xxx</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
         <num>Latest 3.X release</num>
