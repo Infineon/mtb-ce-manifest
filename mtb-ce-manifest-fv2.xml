@@ -1,11 +1,11 @@
 <apps version="2.0">
   <app keywords="psoc6,starter,template,empty,blank,mtb-flow" req_capabilities_v2="psoc6 [flash_2048k, flash_1024k, flash_512k, flash_256k, flash_832k, flash_448k, cy8ckit_064b0s2_4343w]">
     <name>Empty PSoC6 App</name>
-    <id>mtb-example-psoc6-empty-app</id>
+    <id>mtb-example-empty-app</id>
     <category>Getting Started</category>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-empty-app</uri>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-empty-app</uri>
     <description><![CDATA[This empty application provides a template for creating applications using PSoC&#8482; 6 devices.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-empty-app/blob/master/README.md">README on GitHub</a>.]]></description>
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-empty-app/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
@@ -32,11 +32,11 @@
   </app>
   <app keywords="psoc6,led,starter,hello world,mtb-flow" req_capabilities_v2="psoc6 led [flash_2048k, flash_1024k, flash_512k, flash_256k, flash_832k, flash_448k, cy8ckit_064b0s2_4343w]">
     <name>Hello World</name>
-    <id>mtb-example-psoc6-hello-world</id>
+    <id>mtb-example-hal-hello-world</id>
     <category>Getting Started</category>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-hello-world</uri>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-hal-hello-world</uri>
     <description><![CDATA[This code example demonstrates simple UART communication by printing a "Hello World" message on a terminal and blinks an LED using a Timer resource using PSoC&#8482; 6 MCU.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-hello-world/blob/master/README.md">README on GitHub</a>.]]></description>
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-hal-hello-world/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 led</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
@@ -5872,7 +5872,7 @@ iBeacon UUID data.
     <id>mtb-example-pmg1-crypto-trng</id>
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-pmg1-crypto-trng</uri>
-    <description><![CDATA[This code example demonstrates how to generate a 4-byte one-time password (OTP) with the true random number generation feature using the Cryptographic hardware block in PMG1 MCU. 
+    <description><![CDATA[This code example demonstrates how to generate a 4-byte one-time password (OTP) with the true random number generation feature using the Cryptographic hardware block in PMG1 MCU.
       <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-crypto-trng/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>pmg1</req_capabilities>
     <versions>
