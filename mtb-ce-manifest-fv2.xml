@@ -3,7 +3,7 @@
     <name>Empty PSoC6 App</name>
     <id>mtb-example-empty-app</id>
     <category>Getting Started</category>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-empty-app</uri>
+    <uri>https://github.com/Infineon/mtb-example-empty-app</uri>
     <description><![CDATA[This empty application provides a template for creating applications using PSoC&#8482; 6 devices.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-empty-app/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6</req_capabilities>
@@ -34,7 +34,7 @@
     <name>Hello World</name>
     <id>mtb-example-hal-hello-world</id>
     <category>Getting Started</category>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-hal-hello-world</uri>
+    <uri>https://github.com/Infineon/mtb-example-hal-hello-world</uri>
     <description><![CDATA[This code example demonstrates simple UART communication by printing a "Hello World" message on a terminal and blinks an LED using a Timer resource using PSoC&#8482; 6 MCU.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-hal-hello-world/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 led</req_capabilities>
