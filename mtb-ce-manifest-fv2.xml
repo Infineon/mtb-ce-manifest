@@ -102,6 +102,10 @@
         <commit>latest-v2.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>2.2.0 release</num>
+        <commit>release-v2.2.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>2.1.1 release</num>
         <commit>release-v2.1.1</commit>
       </version>
@@ -139,7 +143,7 @@
     <id>mtb-example-psoc6-mcwdt</id>
     <category>Peripherals</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-mcwdt</uri>
-    <description><![CDATA[This example explains how to set up a Multi-Counter Watchdog Timer (MCWDT) using the MCWDT PDL resource to measure the timing between events in free-running mode on PSoC6 MCU.
+    <description><![CDATA[This example explains how to set up a Multi-Counter Watchdog Timer (MCWDT) using the MCWDT PDL resource to measure the timing between events in free-running mode on PSoC&#8482; 6 MCU.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-mcwdt/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6</req_capabilities>
     <versions>
@@ -184,7 +188,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,led,capsense,button,slider,i2c,tuner,mtb-flow" req_capabilities_v2="psoc6 led capsense_button capsense_linear_slider [flash_2048k, flash_1024k, flash_512k, flash_256k, cy8ckit_064b0s2_4343w]">
+  <app keywords="psoc6,led,capsense,button,slider,i2c,tuner,mtb-flow" req_capabilities_v2="psoc6 led capsense_button capsense_linear_slider [flash_2048k,flash_1024k,flash_512k,flash_256k,cy8ckit_064b0s2_4343w]">
     <name>CAPSENSE Buttons and Slider</name>
     <id>mtb-example-psoc6-capsense-buttons-slider</id>
     <category>Sensing</category>
@@ -211,7 +215,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,led,capsense,button,slider,i2c,tuner,rtos,mtb-flow" req_capabilities_v2="psoc6 led capsense_button capsense_linear_slider [flash_2048k, flash_1024k, flash_512k, flash_256k, cy8ckit_064b0s2_4343w]">
+  <app keywords="psoc6,led,capsense,button,slider,i2c,tuner,rtos,mtb-flow" req_capabilities_v2="psoc6 led capsense_button capsense_linear_slider [flash_2048k,flash_1024k,flash_512k,flash_256k,cy8ckit_064b0s2_4343w]">
     <name>CAPSENSE Buttons and Slider FreeRTOS</name>
     <id>mtb-example-psoc6-capsense-buttons-slider-freertos</id>
     <category>Sensing</category>
@@ -994,15 +998,15 @@ iBeacon UUID data.
         <num>3.1.0 release</num>
         <commit>release-v3.1.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.2.0" tools_max_version="2.4.0" req_capabilities_per_version="bsp_gen2">
         <num>3.0.0 release</num>
         <commit>release-v3.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.2.0" tools_max_version="2.4.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.2.0" tools_max_version="2.4.0" req_capabilities_per_version="bsp_gen2">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
@@ -1052,11 +1056,11 @@ iBeacon UUID data.
         <num>2.1.1 release</num>
         <commit>release-v2.1.1</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.2.0" tools_max_version="2.4.0" req_capabilities_per_version="bsp_gen2">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.2.0" tools_max_version="2.4.0" req_capabilities_per_version="bsp_gen2">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
@@ -1399,7 +1403,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,led,capsense,button,slider,i2c,tuner,ble,bluetooth,anycloud,4343w,43012,43438,mtb-flow" req_capabilities_v2="psoc6 led bt cyw43xxx capsense_button capsense_linear_slider [flash_2048k, flash_1024k, flash_512k, cy8ckit_064b0s2_4343w]">
+  <app keywords="psoc6,led,capsense,button,slider,i2c,tuner,ble,bluetooth,anycloud,4343w,43012,43438,mtb-flow" req_capabilities_v2="psoc6 led bt capsense_button capsense_linear_slider cyw43xxx [flash_2048k, flash_1024k, flash_512k, cy8ckit_064b0s2_4343w]">
     <name>Bluetooth LE CAPSENSE Buttons and Slider</name>
     <id>mtb-example-anycloud-ble-capsense-buttons-slider</id>
     <category>Bluetooth&#174;</category>
@@ -4027,27 +4031,6 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,psoc6,wifi,aws,iot,ota,mqtt" req_capabilities_v2="psoc6 cyw43xxx wifi led [flash_2048k, flash_1856k]">
-    <name>AWS IoT OTA Using MQTT</name>
-    <id>mtb-example-aws-iot-ota-mqtt</id>
-    <category>Wi-Fi</category>
-    <uri>https://github.com/Infineon/mtb-example-aws-iot-ota-mqtt</uri>
-    <description><![CDATA[This code example demonstrates an OTA update with PSoC&#8482; 6 MCU and AIROC&#8482; CYW43xxx Wi-Fi & Bluetooth combo chips. The example uses the "AWS SDK for Embedded C" and "AWS IoT device sdk port" to connect and communicate with the AWS IoT MQTT core.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-aws-iot-ota-mqtt/blob/master/README.md">README on GitHub</a>.
-    <br><br><b>License Disclaimer:</b><br><br>
-    This code example makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license. <br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).]]></description>
-    <req_capabilities>psoc6 cyw43xxx wifi led</req_capabilities>
-    <versions>
-      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
-      </version>
-      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
-        <num>1.0.0 release</num>
-        <commit>release-v1.0.0</commit>
-      </version>
-    </versions>
-  </app>
   <app keywords="psoc6,usb,audio,freertos,mtb-flow" req_capabilities_v2="psoc6 usb_device capsense_button capsense_linear_slider i2s [cy8ceval_062s2, cy8ceval_062_s2_lai_4373m2, cy8ckit_062_wifi_bt, cy8ckit_062s2_43012, cy8cproto_062_4343w, cyw9p62s1_43012evb_01, cyw9p62s1_43438evb_01]">
     <name>USB Audio Device FreeRTOS</name>
     <id>mtb-example-psoc6-usb-audio-device-freertos</id>
@@ -4497,7 +4480,7 @@ iBeacon UUID data.
     <id>mtb-example-psoc6-dfu-basic</id>
     <category>Peripherals</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-dfu-basic</uri>
-    <description><![CDATA[This example demonstrates Device Firmware Upgrade (DFU) with PSoC6 MCU.
+    <description><![CDATA[This example demonstrates Device Firmware Upgrade (DFU) with PSoC&#8482; 6 MCU.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-dfu-basic/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 led switch std_crypto</req_capabilities>
     <versions>
@@ -4687,7 +4670,7 @@ iBeacon UUID data.
     <category>Sensing</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc4-msc-capsense-csd-touchpad-tuning</uri>
     <description><![CDATA[This code example demonstrates how to manually tune a self capacitance-based touchpad widget in PSoC&#8482; 4 devices using the Multi Sense Converter (MSC) CSD-RM sensing technique and CAPSENSE&#8482; Tuner GUI.
-<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-msc-capsense-csd-touchpad-tuning/blob/master/README.md">README on GitHub</a>.]]></description>
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-msc-capsense-csd-touchpad-tuning/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc4 led msc_touchpad</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version_v2="[bsp_gen3]">
@@ -4714,7 +4697,7 @@ iBeacon UUID data.
     <category>Sensing</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc4-msc-capsense-csx-touchpad-tuning</uri>
     <description><![CDATA[This code example demonstrates how to manually tune a mutual capacitance-based touchpad widget in PSoC&#8482; 4 devices using the Multi Sense Converter (MSC) CSX-RM sensing technique and CAPSENSE&#8482; Tuner GUI.
-<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-msc-capsense-csx-touchpad-tuning/blob/master/README.md">README on GitHub</a>.]]></description>
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-msc-capsense-csx-touchpad-tuning/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc4 led msc_touchpad</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version_v2="[bsp_gen3]">
@@ -4917,7 +4900,7 @@ iBeacon UUID data.
     <category>Sensing</category>
     <uri>https://github.com/Infineon/mtb-example-psoc4-msc-capsense-csd-slider-tuning</uri>
     <description><![CDATA[This code example demonstrates how to manually tune a self capacitance-based slider widget in PSoC&#8482; 4 devices using the Multi Sense Converter (MSC) CSD-RM sensing technique and CAPSENSE&#8482; Tuner GUI.
-<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-msc-capsense-csd-slider-tuning/blob/master/README.md">README on GitHub</a>.]]></description>
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-msc-capsense-csd-slider-tuning/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc4 led msc_slider</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version_v2="[bsp_gen3]">
@@ -4931,7 +4914,7 @@ iBeacon UUID data.
     </versions>
   </app>
   <app keywords="measurement,ble,client,server,throughput,btsdk,mtb-flow">
-    <name>LE Throughput Measurement</name>
+    <name>LE Throughput</name>
     <id>mtb-example-btsdk-ble-throughput</id>
     <category>Bluetooth&#174;</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-btsdk-ble-throughput</uri>
@@ -4946,6 +4929,82 @@ iBeacon UUID data.
       <version flow_version="2.0" tools_min_version="2.2.0" tools_max_version="2.4.0" req_capabilities_per_version="bsp_gen2">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.0" tools_max_version="2.4.0" req_capabilities_per_version="bsp_gen2">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="optiga,security,crypto,ecc,rsa,ecdsa,ecdh,mtb-flow">
+    <name>OPTIGA Cryptography</name>
+    <id>mtb-example-optiga-crypto</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-optiga-crypto</uri>
+    <description><![CDATA[This example uses an Infineon OPTIGA&#8482; Trust Security Solution on a PSoC&#8482; 6 MCU to execute example code to perform available crypto operations on the Secure Element.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-optiga-crypto/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>optiga_trust_m</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="optiga,power-management,hibernation,mtb-flow">
+    <name>OPTIGA Power management</name>
+    <id>mtb-example-optiga-power-management</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-optiga-power-management</uri>
+    <description><![CDATA[This example uses an Infineon OPTIGA&#8482; Trust Security Solution on a PSoC&#8482; 6 MCU to execute example code to control the hibernation feature on the security solution.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-optiga-power-management/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>optiga_trust_m</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="optiga,security,crypto,ecc,mbedtls,ecdsa,ecdh,mqtt,aws,mtb-flow">
+    <name>OPTIGA MQTT Client</name>
+    <id>mtb-example-optiga-mqtt-client</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-optiga-mqtt-client</uri>
+    <description><![CDATA[This example uses an Infineon OPTIGA&#8482; Trust Security Solution on a PSoC&#8482; 6 MCU to execute example code to perform an MQTT connection to the AWS IoT Cloud.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-optiga-mqtt-client/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>optiga_trust_m wifi</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="btsdk keyboard scanner cyw208xx row column">
+    <name>HAL Keyboard Scanner</name>
+    <id>mtb-example-btsdk-cyw208xx-keyboard-scanner</id>
+    <category>Bluetooth&#174;</category>
+    <uri>https://github.com/Infineon/mtb-example-btsdk-cyw208xx-keyboard-scanner</uri>
+    <description><![CDATA[This code example demonstrates the dedicated keyscan hardware, which processes key press events from proprietary GPIOs (LHL GPIOs) without interrupting the CPU core. This code example also demonstrates low power entry when the system is idle (no activity or keypress) and wake up when there is key press.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btsdk-cyw208xx-keyboard-scanner/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>fw2 btsdk CYW208XX_62fbga</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>2.0.0 release</num>
@@ -5173,25 +5232,6 @@ iBeacon UUID data.
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
-      </version>
-    </versions>
-  </app>
-  <app keywords="psoc6,usb,cdc,echo,mtb-flow">
-    <name>USB CDC echo</name>
-    <id>mtb-example-psoc6-usb-cdc-echo</id>
-    <category>Peripherals</category>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-usb-cdc-echo</uri>
-    <description><![CDATA[This example demonstrates how to configure the USB block in a PSoC&#8482;&trade; 6 MCU for communication device class (CDC). When configured for a CDC, the PSoC&#8482;&trade; 6 MCU device enumerates a virtual COM port, which can be read and written by a terminal emulator program on a PC.
-<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-usb-cdc-echo/blob/master/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>psoc6 usb</req_capabilities>
-    <versions>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
-        <num>Latest 2.X release</num>
-        <commit>latest-v2.X</commit>
-      </version>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
-        <num>2.0.0 release</num>
-        <commit>release-v2.0.0</commit>
       </version>
     </versions>
   </app>
@@ -5497,81 +5537,22 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,psoc6,anycloud,bluetooth,mqtt,client,wifi,aws,iot,mosquitto" req_capabilities_v2="psoc6 wifi bt cyw43xxx led switch anycloud [cy8ceval_062_mur_43439m2, cy8ckit_062s2_43012]">
-    <name>Bluetooth LE IoT Gateway</name>
-    <id>mtb-example-anycloud-ble-wifi-gateway</id>
-    <category>Bluetooth&#174;</category>
-    <uri>https://github.com/Infineon/mtb-example-anycloud-ble-wifi-gateway</uri>
-    <description><![CDATA[This code example demonstrates implementing a Bluetooth&#174; IoT gateway using the MQTT client library and Bluetooth&#174; LE host stack for Infineon connectivity devices. The MQTT client library uses the AWS IoT device SDK that includes an MQTT 3.1.1 client as well as libraries specific to AWS IoT such as Thing Shadows. The Bluetooth&#174; Mesh stack runs with FreeRTOS in the server and client model.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-anycloud-ble-wifi-gateway/blob/master/README.md">README on GitHub</a>.
-    <br><br><b>License Disclaimer:</b><br><br>
-    This code example makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license.<br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).]]></description>
-    <req_capabilities>psoc6 wifi bt cyw43xxx led switch anycloud</req_capabilities>
-    <versions>
-      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
-      </version>
-      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
-        <num>1.1.0 release</num>
-        <commit>release-v1.1.0</commit>
-      </version>
-    </versions>
-  </app>
-  <app keywords="optiga,security,crypto,ecc,rsa,ecdsa,ecdh,mtb-flow">
-    <name>OPTIGA Cryptography</name>
-    <id>mtb-example-optiga-crypto</id>
+  <app keywords="psoc6,usb,cdc,echo,mtb-flow">
+    <name>USB CDC echo</name>
+    <id>mtb-example-psoc6-usb-cdc-echo</id>
     <category>Peripherals</category>
-    <uri>https://github.com/Infineon/mtb-example-optiga-crypto</uri>
-    <description><![CDATA[This example uses an Infineon OPTIGA&#8482; Trust Security Solution on a PSoC&#8482; 6 MCU to execute example code to perform available crypto operations on the Secure Element.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-optiga-crypto/blob/master/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>optiga_trust_m</req_capabilities>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-usb-cdc-echo</uri>
+    <description><![CDATA[This example demonstrates how to configure the USB block in a PSoC&#8482;&trade; 6 MCU for communication device class (CDC). When configured for a CDC, the PSoC&#8482;&trade; 6 MCU device enumerates a virtual COM port, which can be read and written by a terminal emulator program on a PC.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-usb-cdc-echo/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>psoc6 usb</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
-        <num>1.0.0 release</num>
-        <commit>release-v1.0.0</commit>
-      </version>
-    </versions>
-  </app>
-  <app keywords="optiga,power-management,hibernation,mtb-flow">
-    <name>OPTIGA Power management</name>
-    <id>mtb-example-optiga-power-management</id>
-    <category>Peripherals</category>
-    <uri>https://github.com/Infineon/mtb-example-optiga-power-management</uri>
-    <description><![CDATA[This example uses an Infineon OPTIGA&#8482; Trust Security Solution on a PSoC&#8482; 6 MCU to execute example code to control the hibernation feature on the security solution.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-optiga-power-management/blob/master/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>optiga_trust_m</req_capabilities>
-    <versions>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
-      </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
-        <num>1.0.0 release</num>
-        <commit>release-v1.0.0</commit>
-      </version>
-    </versions>
-  </app>
-  <app keywords="optiga,security,crypto,ecc,mbedtls,ecdsa,ecdh,mqtt,aws,mtb-flow">
-    <name>OPTIGA MQTT Client</name>
-    <id>mtb-example-optiga-mqtt-client</id>
-    <category>Peripherals</category>
-    <uri>https://github.com/Infineon/mtb-example-optiga-mqtt-client</uri>
-    <description><![CDATA[This example uses an Infineon OPTIGA&#8482; Trust Security Solution on a PSoC&#8482; 6 MCU to execute example code to perform an MQTT connection to the AWS IoT Cloud.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-optiga-mqtt-client/blob/master/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>optiga_trust_m</req_capabilities>
-    <versions>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
-      </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
-        <num>1.0.0 release</num>
-        <commit>release-v1.0.0</commit>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
       </version>
     </versions>
   </app>
@@ -5583,6 +5564,27 @@ iBeacon UUID data.
     <description><![CDATA[This code example demonstrates the privacy features available to users in Bluetooth&#174; Low Energy 5.0 and above using ModusToolbox&#8482; software.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-anycloud-ble-peripheral-privacy/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 bt led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="mtb-flow,psoc6,anycloud,bluetooth,mqtt,client,wifi,aws,iot,mosquitto" req_capabilities_v2="psoc6 wifi bt cyw43xxx led switch anycloud [cy8ceval_062_mur_43439m2, cy8ckit_062s2_43012]">
+    <name>Bluetooth LE IoT Gateway</name>
+    <id>mtb-example-anycloud-ble-wifi-gateway</id>
+    <category>Bluetooth&#174;</category>
+    <uri>https://github.com/Infineon/mtb-example-anycloud-ble-wifi-gateway</uri>
+    <description><![CDATA[This code example demonstrates implementing a Bluetooth&#174; IoT gateway using the MQTT client library and Bluetooth&#174; LE host stack for Infineon connectivity devices. The MQTT client library uses the AWS IoT device SDK that includes an MQTT 3.1.1 client as well as libraries specific to AWS IoT such as Thing Shadows. The Bluetooth&#174; Mesh stack runs with FreeRTOS in the server and client model.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-anycloud-ble-wifi-gateway/blob/master/README.md">README on GitHub</a>.
+    <br><br><b>License Disclaimer:</b><br><br>
+    This code example makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license.<br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).]]></description>
+    <req_capabilities>psoc6 wifi bt cyw43xxx led switch anycloud</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
         <num>Latest 1.X release</num>
@@ -5691,6 +5693,33 @@ iBeacon UUID data.
         <commit>latest-v1.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="pairing,mtb-flow,bluetooth,button" req_capabilities_v2="bt led [cyw920829m2evb_01, cy8ckit_062_ble, cy8cproto_063_ble, cyble_416045_eval]">
+    <name>Bluetooth LE Hello Sensor</name>
+    <id>mtb-example-btstack-freertos-hello-sensor</id>
+    <category>Bluetooth&#174;</category>
+    <uri>https://github.com/Infineon/mtb-example-btstack-freertos-hello-sensor</uri>
+    <description><![CDATA[This code example demonstrates the basic features available of device pair and notification to users in Bluetooth&#174; Low Energy 5.3 and above using ModusToolbox&#8482; software.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-hello-sensor/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>bt led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -5981,23 +6010,17 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="pairing,mtb-flow,bluetooth,button" req_capabilities_v2="bt led [cyw920829m2evb_01, cy8ckit_062_ble, cy8cproto_063_ble, cyble_416045_eval]">
-    <name>Bluetooth LE Hello Sensor</name>
-    <id>mtb-example-btstack-freertos-hello-sensor</id>
-    <category>Bluetooth&#174;</category>
-    <uri>https://github.com/Infineon/mtb-example-btstack-freertos-hello-sensor</uri>
-    <description><![CDATA[This code example demonstrates the basic features available of device pair and notification to users in Bluetooth&#174; Low Energy 5.3 and above using ModusToolbox&#8482; software.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-hello-sensor/blob/master/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>bt led</req_capabilities>
+  <app keywords="mtb-flow,psoc6,wifi,aws,iot,ota,mqtt" req_capabilities_v2="psoc6 cyw43xxx wifi led [flash_2048k, flash_1856k]">
+    <name>AWS IoT OTA Using MQTT</name>
+    <id>mtb-example-aws-iot-ota-mqtt</id>
+    <category>Wi-Fi</category>
+    <uri>https://github.com/Infineon/mtb-example-aws-iot-ota-mqtt</uri>
+    <description><![CDATA[This code example demonstrates an OTA update with PSoC&#8482; 6 MCU and AIROC&#8482; CYW43xxx Wi-Fi & Bluetooth combo chips. The example uses the "AWS SDK for Embedded C" and "AWS IoT device sdk port" to connect and communicate with the AWS IoT MQTT core.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-aws-iot-ota-mqtt/blob/master/README.md">README on GitHub</a>.
+    <br><br><b>License Disclaimer:</b><br><br>
+    This code example makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license. <br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).]]></description>
+    <req_capabilities>psoc6 cyw43xxx wifi led</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
-        <num>Latest 2.X release</num>
-        <commit>latest-v2.X</commit>
-      </version>
-      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
-        <num>2.1.0 release</num>
-        <commit>release-v2.1.0</commit>
-      </version>
       <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -6005,25 +6028,6 @@ iBeacon UUID data.
       <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
-      </version>
-    </versions>
-  </app>
-  <app keywords="btsdk keyboard scanner cyw208xx row column">
-    <name>HAL Keyboard Scanner</name>
-    <id>mtb-example-btsdk-cyw208xx-keyboard-scanner</id>
-    <category>Bluetooth&#174;</category>
-    <uri>https://github.com/Infineon/mtb-example-btsdk-cyw208xx-keyboard-scanner</uri>
-    <description><![CDATA[This code example demonstrates the dedicated keyscan hardware, which processes key press events from proprietary GPIOs (LHL GPIOs) without interrupting the CPU core. This code example also demonstrates low power entry when the system is idle (no activity or keypress) and wake up when there is key press.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btsdk-cyw208xx-keyboard-scanner/blob/master/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>fw2 btsdk CYW208XX_62fbga</req_capabilities>
-    <versions>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
-        <num>Latest 2.X release</num>
-        <commit>latest-v2.X</commit>
-      </version>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
-        <num>2.0.0 release</num>
-        <commit>release-v2.0.0</commit>
       </version>
     </versions>
   </app>
@@ -6051,7 +6055,7 @@ iBeacon UUID data.
     <id>mtb-example-psoc6-csdidac</id>
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-psoc6-csdidac</uri>
-    <description><![CDATA[This code example demonstrates the usage of CAPSENSE&#8482; Sigma Delta (CSD) current digital-to-analog converter (IDAC) in PSoC&#8482; 6 MCU. It loops through the configured current settings and then drives current to the external pin as per the setting which can be verified through an external load resistor. The configured current setting is also displayed in the terminal application.]]></description>
+    <description><![CDATA[This code example demonstrates the usage of CAPSENSE&#8482; Sigma Delta (CSD) current digital-to-analog converter (IDAC) in PSoC&#8482; 6 MCU. It loops through the configured current settings and then drives the external pin as per the setting which can be verified through an external load resistor. The configured current setting is also displayed in the terminal application.]]></description>
     <req_capabilities>psoc6 capsense</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
@@ -6059,6 +6063,25 @@ iBeacon UUID data.
         <commit>latest-v1.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,led,capsense,button,slider,i2c,tuner,mtb-flow,capsense-on-cm0+,dual-cpu-example" req_capabilities_v2="[flash_2048k,flash_1024k,flash_512k,flash_256k]">
+    <name>CAPSENSE on CM0p</name>
+    <id>mtb-example-psoc6-capsense-cm0p</id>
+    <category>Sensing</category>
+    <uri>https://github.com/Infineon/mtb-example-psoc6-capsense-cm0p</uri>
+    <description><![CDATA[This code example demonstrates how to create a CAPSENSE#8482; design using CM0+ CPU of PSoC#8482; 6 MCU, without utilizing CM4 CPU. The code example features CAPSENSE#8482; buttons, button 0 turns the LED ON while the button 1 turns the LED OFF and the slider controls the brightness of the LED using the CAPSENSE#8482; Middleware Library. The code example also demonstrates interfacing with Tuner GUI using I2C interface.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-capsense-cm0p/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>psoc6 led capsense_button capsense_linear_slider</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -6102,31 +6125,12 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,led,capsense,button,slider,i2c,tuner,mtb-flow,capsense-on-cm0+,dual-cpu-example" req_capabilities_v2="[flash_2048k,flash_1024k,flash_512k,flash_256k]">
-    <name>CAPSENSE on CM0p</name>
-    <id>mtb-example-psoc6-capsense-cm0p</id>
-    <category>Sensing</category>
-    <uri>https://github.com/Infineon/mtb-example-psoc6-capsense-cm0p</uri>
-    <description><![CDATA[This code example demonstrates how to create a CAPSENSE#8482; design using CM0+ CPU of PSoC#8482; 6 MCU, without utilizing CM4 CPU. The code example features CAPSENSE#8482; buttons, button 0 turns the LED ON while the button 1 turns the LED OFF and the slider controls the brightness of the LED using the CAPSENSE#8482; Middleware Library. The code example also demonstrates interfacing with Tuner GUI using I2C interface.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-capsense-cm0p/blob/master/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>psoc6 led capsense_button capsense_linear_slider</req_capabilities>
-    <versions>
-      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
-      </version>
-      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
-        <num>1.0.0 release</num>
-        <commit>release-v1.0.0</commit>
-      </version>
-    </versions>
-  </app>
   <app keywords="pairing,mtb-flow,bluetooth,button,le-lr" req_capabilities_v2="bt led [cyw920829m2evb_01]">
     <name>Bluetooth LE Long Range</name>
     <id>mtb-example-btstack-freertos-le-lr</id>
     <category>Bluetooth&#174;</category>
     <uri>https://github.com/Infineon/mtb-example-btstack-freertos-le-lr</uri>
-    <description><![CDATA[This code example demonstrates the use of LE Long Range PHY with Infineon AIROC™ CYW20829 Bluetooth® devices using ModusToolbox&#8482; software.
+    <description><![CDATA[This code example demonstrates the use of LE Long Range PHY with Infineon AIROC&#8482; CYW20829 Bluetooth&#174; devices using ModusToolbox&#8482; software.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-le-lr/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>bt led</req_capabilities>
     <versions>
