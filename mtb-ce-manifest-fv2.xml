@@ -6148,4 +6148,63 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
+  <app keywords="psoc6,CCM,capsense" req_capabilities_v2="psoc6 capsense_linear_slider">
+    <name>CCM CAPSENSE Publish</name>
+    <id>mtb-example-ccm-mqtt-publish-capsense-slider</id>
+    <category>Wi-Fi</category>
+    <uri>https://github.com/Infineon/mtb-example-ccm-mqtt-publish-capsense-slider</uri>
+    <description><![CDATA[This code example demonstrates publishing MQTT messages to AWS IoT Core with the help of Cloud Connectivity Manager (CCM) evaluation kit.
+    This code example features a 5-segment CAPSENSE&#8482; slider. The brightness of the LED is calculated based on the position in linear slider and
+    the brightness is published to the topic "MySubTopic" in AWS IoT core.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ccm-mqtt-publish-capsense-slider/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>psoc6 capsense_linear_slider</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,CCM,OTA,subscribe" req_capabilities_v2="psoc6 capsense_linear_slider">
+    <name>CCM Subscribe OTA</name>
+    <id>mtb-example-ccm-mqtt-ota-subscribe</id>
+    <category>Wi-Fi</category>
+    <uri>https://github.com/Infineon/mtb-example-ccm-mqtt-ota-subscribe</uri>
+    <description><![CDATA[This code example demonstrates MQTT Subscribe and OTA from AWS IoT Core with the help of the Cloud Connectivity Manager (CCM) evaluation kit.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ccm-mqtt-ota-subscribe/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>psoc6 capsense_linear_slider</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,CCM,helloworld" req_capabilities_v2="psoc6">
+    <name>CCM hello world</name>
+    <id>mtb-example-ccm-mqtt-helloworld</id>
+    <category>Wi-Fi</category>
+    <uri>https://github.com/Infineon/mtb-example-ccm-mqtt-helloworld</uri>
+    <description><![CDATA[This code example demonstrates publishing MQTT messages to the AWS IoT Core with the help of the Cloud Connectivity Manager (CCM) evaluation kit.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ccm-mqtt-helloworld/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>psoc6</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
 </apps>
