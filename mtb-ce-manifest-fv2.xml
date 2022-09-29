@@ -6187,7 +6187,7 @@ iBeacon UUID data.
         <commit>release-v1.0.0</commit>
       </version>
     </versions>
-  </app>    
+  </app>
   <app keywords="psoc6,CCM,helloworld" req_capabilities_v2="psoc6">
     <name>CCM hello world</name>
     <id>mtb-example-ccm-mqtt-helloworld</id>
