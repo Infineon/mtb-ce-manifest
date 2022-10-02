@@ -1,13 +1,20 @@
 <apps version="2.0">
-  <app keywords="psoc6,starter,template,empty,blank,mtb-flow" req_capabilities_v2="psoc6 [flash_2048k, flash_1024k, flash_512k, flash_256k, flash_832k, flash_448k, cy8ckit_064b0s2_4343w]">
-    <name>Empty PSoC6 App</name>
+  <app keywords="starter,template,empty,blank,mtb-flow" req_capabilities_v2="[psoc6,xmc7000,cyw920829m2evb_01,cat1d]">
+    <name>Empty App</name>
     <id>mtb-example-empty-app</id>
     <category>Getting Started</category>
     <uri>https://github.com/Infineon/mtb-example-empty-app</uri>
-    <description><![CDATA[This empty application provides a template for creating applications using PSoC&#8482; 6 devices.
+    <description><![CDATA[This empty application provides a template for creating applications.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-empty-app/blob/master/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>psoc6</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 4.X release</num>
+        <commit>latest-v4.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>4.0.0 release</num>
+        <commit>release-v4.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
@@ -30,15 +37,23 @@
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,led,starter,hello world,mtb-flow" req_capabilities_v2="psoc6 led [flash_2048k, flash_1024k, flash_512k, flash_256k, flash_832k, flash_448k, cy8ckit_064b0s2_4343w]">
+  <app keywords="led,starter,hello world,mtb-flow" req_capabilities_v2="hal led [psoc6,xmc7000] [flash_8384k,flash_2048k,flash_1024k,flash_512k,flash_256k,flash_832k,flash_448k,cy8ckit_064b0s2_4343w]">
     <name>Hello World</name>
     <id>mtb-example-hal-hello-world</id>
     <category>Getting Started</category>
     <uri>https://github.com/Infineon/mtb-example-hal-hello-world</uri>
-    <description><![CDATA[This code example demonstrates simple UART communication by printing a "Hello World" message on a terminal and blinks an LED using a Timer resource using PSoC&#8482; 6 MCU.
+    <description><![CDATA[This code example demonstrates simple UART communication by printing a "Hello World" message on a terminal and blinks an LED using a Timer resource.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-hal-hello-world/blob/master/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>psoc6 led</req_capabilities>
+    <req_capabilities>hal led</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 4.X release</num>
+        <commit>latest-v4.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>4.0.0 release</num>
+        <commit>release-v4.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
@@ -3641,7 +3656,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,uart,capsense,slider,ganged sensor,i2c,tuner,rtos,mtb-flow">
+  <app keywords="psoc6,uart,capsense,slider,ganged sensor,i2c,tuner,rtos,mtb-flow" req_capabilities_v2="psoc6 capsense_linear_slider low_power">
     <name>Low-power CAPSENSE FreeRTOS</name>
     <id>mtb-example-psoc6-low-power-capsense-freertos</id>
     <category>Sensing</category>
@@ -3650,6 +3665,14 @@ iBeacon UUID data.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-low-power-capsense-freertos/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 capsense_linear_slider low_power</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -4009,6 +4032,14 @@ iBeacon UUID data.
     This code example makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license.<br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).]]></description>
     <req_capabilities>psoc6 wifi cyw43xxx</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>3.0.0 release</num>
+        <commit>release-v3.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
@@ -4768,7 +4799,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,emwin,display,tft,freertos,mtb-flow,appwizard" req_capabilities_v2="psoc6 arduino switch [flash_2048k,flash_1856k,cy8ckit_062_wifi_bt,cy8ckit_062_ble,cyw9p62s1_43438evb_01]">
+  <app keywords="psoc6,emwin,display,tft,freertos,mtb-flow,appwizard" req_capabilities_v2="psoc6 arduino switch">
     <name>emWin TFT FreeRTOS</name>
     <id>mtb-example-psoc6-emwin-tft-freertos</id>
     <category>Graphics</category>
@@ -4777,19 +4808,27 @@ iBeacon UUID data.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-emwin-tft-freertos/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 arduino switch</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="bsp_gen4 [cy8ckit_062_wifi_bt, cy8ckit_062_ble, cyw9p62s1_43438evb_01, cy8ckit_062s2_43012, cy8ceval_062_s2, cy8ceval_062_s2_lai_4373m2, cy8ceval_062_mur_43439m2]">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="bsp_gen4 [cy8ckit_062_wifi_bt, cy8ckit_062_ble, cyw9p62s1_43438evb_01, cy8ckit_062s2_43012, cy8ceval_062_s2, cy8ceval_062_s2_lai_4373m2, cy8ceval_062_mur_43439m2]">
+        <num>3.0.0 release</num>
+        <commit>release-v3.0.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.4.0" tools_max_version="2.4.0" req_capabilities_per_version_v2="bsp_gen3 [cy8ckit_062_wifi_bt, cy8ckit_062_ble, cyw9p62s1_43438evb_01, cy8ckit_062s2_43012, cy8ceval_062_s2, cy8ceval_062_s2_lai_4373m2, cy8ceval_062_mur_43439m2, cy8ckit_064s0s2_4343w, cy8ckit_064b0s2_4343w]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+      <version flow_version="2.0" tools_min_version="2.4.0" tools_max_version="2.4.0" req_capabilities_per_version_v2="bsp_gen3 [cy8ckit_062_wifi_bt, cy8ckit_062_ble, cyw9p62s1_43438evb_01, cy8ckit_062s2_43012, cy8ceval_062_s2, cy8ceval_062_s2_lai_4373m2, cy8ceval_062_mur_43439m2, cy8ckit_064s0s2_4343w, cy8ckit_064b0s2_4343w]">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.2.0" tools_max_version="2.2.0" req_capabilities_per_version_v2="bsp_gen2 [cy8ckit_062_wifi_bt, cy8ckit_062_ble, cyw9p62s1_43438evb_01, cy8ckit_062s2_43012, cy8ckit_064b0s2_4343w]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.2.0" tools_max_version="2.2.0" req_capabilities_per_version_v2="bsp_gen2 [cy8ckit_062_wifi_bt, cy8ckit_062_ble, cyw9p62s1_43438evb_01, cy8ckit_062s2_43012, cy8ckit_064b0s2_4343w]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
