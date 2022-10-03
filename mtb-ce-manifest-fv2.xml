@@ -620,7 +620,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,dual cpu,starter,template,empty,blank,mtb-flow">
+  <app keywords="psoc6,dual cpu,starter,template,empty,blank,mtb-flow" req_capabilities_v2="psoc6 multi_core">
     <name>Dual-CPU Empty PSoC6 App</name>
     <id>mtb-example-psoc6-dual-cpu-empty-app</id>
     <category>Getting Started</category>
@@ -629,23 +629,31 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-dual-cpu-empty-app/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 multi_core</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>3.0.0 release</num>
+        <commit>release-v3.0.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.0" tools_max_version="2.4.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.2.0" tools_max_version="2.4.0" req_capabilities_per_version="bsp_gen2">
         <num>2.3.0 release</num>
         <commit>release-v2.3.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.2.0" tools_max_version="2.4.0" req_capabilities_per_version="bsp_gen2">
         <num>2.2.0 release</num>
         <commit>release-v2.2.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.2.0" tools_max_version="2.4.0" req_capabilities_per_version="bsp_gen2">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.2.0" tools_max_version="2.4.0" req_capabilities_per_version="bsp_gen2">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
@@ -3664,7 +3672,15 @@ iBeacon UUID data.
     <description><![CDATA[This code example demonstrates how to create a low-power CAPSENSE&#8482; design using PSoC&#8482; 6 MCU. This example features a 5-segment CAPSENSE&#8482; slider and a Ganged Sensor, and displays the detected touch position over the serial terminal.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-low-power-capsense-freertos/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 capsense_linear_slider low_power</req_capabilities>
-    <versions>      
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
