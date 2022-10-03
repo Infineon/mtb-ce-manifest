@@ -3672,7 +3672,7 @@ iBeacon UUID data.
     <description><![CDATA[This code example demonstrates how to create a low-power CAPSENSE&#8482; design using PSoC&#8482; 6 MCU. This example features a 5-segment CAPSENSE&#8482; slider and a Ganged Sensor, and displays the detected touch position over the serial terminal.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-low-power-capsense-freertos/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 capsense_linear_slider low_power</req_capabilities>
-    <versions>      
+    <versions>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
