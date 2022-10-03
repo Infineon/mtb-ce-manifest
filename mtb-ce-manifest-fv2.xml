@@ -153,14 +153,14 @@
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,mcwdt,mtb-flow">
+  <app keywords="psoc6,mcwdt,mtb-flow" req_capabilities_v2="psoc6 capsense [std_crypto,flash_2048k,flash_1024k,flash_512k,flash_256k]">
     <name>Free-Running Multi-Counter Watchdog Timer</name>
     <id>mtb-example-psoc6-mcwdt</id>
     <category>Peripherals</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-mcwdt</uri>
     <description><![CDATA[This example explains how to set up a Multi-Counter Watchdog Timer (MCWDT) using the MCWDT PDL resource to measure the timing between events in free-running mode on PSoC&#8482; 6 MCU.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-mcwdt/blob/master/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>psoc6</req_capabilities>
+    <req_capabilities>psoc6 capsense</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 2.X release</num>
@@ -462,15 +462,23 @@
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,led,smartio,smart io,pwm,mtb-flow">
+  <app keywords="led,smartio,smart io,pwm,mtb-flow" req_capabilities_v2="led smart_io [psoc6]">
     <name>Ramping LED using Smart IO</name>
     <id>mtb-example-psoc6-smartio-ramping-led</id>
     <category>Peripherals</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-smartio-ramping-led</uri>
     <description><![CDATA[This example uses a PWM resource and Smart I/O in PSoC&#8482; 6 MCU to implement a ramping LED, where an LED gradually cycles through increasing and decreasing brightness levels. There is no CPU usage except for the initialization of PWM and Smart I/O.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-smartio-ramping-led/blob/master/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>psoc6 led smart_io</req_capabilities>
+    <req_capabilities>led smart_io</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>3.0.0 release</num>
+        <commit>release-v3.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
@@ -539,15 +547,23 @@
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,pwm,tcpwm,asymmetric,mtb-flow">
+  <app keywords="pwm,tcpwm,asymmetric,mtb-flow" req_capabilities_v2="uart [cy8ckit_062s4]">
     <name>Asymmetric PWM Generation</name>
     <id>mtb-example-psoc6-pwm-dual-compare-capture</id>
     <category>Peripherals</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-pwm-dual-compare-capture</uri>
     <description><![CDATA[This code example demonstrates the generation of asymmetric PWM signals using two compare/capture registers available in the TCPWM block of the PSoC&#8482; 6 MCU devices.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-pwm-dual-compare-capture/blob/master/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>psoc6 cy8ckit_062s4</req_capabilities>
+    <req_capabilities>uart</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>3.0.0 release</num>
+        <commit>release-v3.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
@@ -904,7 +920,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,sar,analog,sensor,mtb-flow">
+  <app keywords="psoc6,sar,analog,sensor,mtb-flow" req_capabilities_v2="psoc6 cy8ckit_062s4">
     <name>SAR ADC Low Power Sensing - Thermistor and ALS</name>
     <id>mtb-example-psoc6-low-power-sar-adc-thermistor-als</id>
     <category>Sensing</category>
@@ -913,6 +929,14 @@ iBeacon UUID data.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-low-power-sar-adc-thermistor-als/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 cy8ckit_062s4</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>3.0.0 release</num>
+        <commit>release-v3.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
@@ -920,6 +944,10 @@ iBeacon UUID data.
       <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 1.X release</num>
@@ -977,7 +1005,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,sar,adc,simultaneous sampling,mtb-flow">
+  <app keywords="psoc6,sar,adc,simultaneous sampling,mtb-flow" req_capabilities_v2="psoc6 cy8ckit_062s4">
     <name>SAR ADC Simultaneous Sampling</name>
     <id>mtb-example-psoc6-sar-adc-simultaneous-sampling</id>
     <category>Sensing</category>
@@ -986,6 +1014,14 @@ iBeacon UUID data.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-sar-adc-simultaneous-sampling/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 cy8ckit_062s4</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -1978,6 +2014,14 @@ iBeacon UUID data.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-smartio-i2s/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 smart_io</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -2226,7 +2270,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,led,power,sleep,mtb-flow">
+  <app keywords="psoc6,led,power,sleep,mtb-flow" req_capabilities_v2="psoc6 led low_power">
     <name>Switching Power Modes</name>
     <id>mtb-example-psoc6-switching-power-modes</id>
     <category>Getting Started</category>
@@ -2235,6 +2279,14 @@ iBeacon UUID data.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-switching-power-modes/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 led low_power</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>3.0.0 release</num>
+        <commit>release-v3.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
@@ -3615,7 +3667,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,psoc6,wifi,anycloud,ota,http,https" req_capabilities_v2="psoc6 cyw43xxx wifi led flash_2048k [cy8ceval_062_s2_lai_4373m2, cy8ceval_062_mur_43439m2, cy8ckit_062s2_43012, cy8cproto_062_4343w]">
+  <app keywords="mtb-flow,psoc6,wifi,ota,http,https">
     <name>OTA Using HTTPS</name>
     <id>mtb-example-ota-https</id>
     <category>Wi-Fi</category>
@@ -3624,41 +3676,49 @@ iBeacon UUID data.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ota-https/blob/master/README.md">README on GitHub</a>.
     <br><br><b>License Disclaimer:</b><br><br>
     This code example makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license. <br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).]]></description>
-    <req_capabilities>psoc6 cyw43xxx wifi led flash_2048k</req_capabilities>
+    <req_capabilities>psoc6 cyw43xxx wifi led</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="bsp_gen4 [cy8ceval_062_s2_lai_4373m2, cy8ceval_062_mur_43439m2, cy8ckit_062s2_43012, cy8cproto_062_4343w, cy8cproto_062s3_4343w]">
+        <num>Latest 5.X release</num>
+        <commit>latest-v5.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="bsp_gen4 [cy8ceval_062_s2_lai_4373m2, cy8ceval_062_mur_43439m2, cy8ckit_062s2_43012, cy8cproto_062_4343w, cy8cproto_062s3_4343w]">
+        <num>5.0.0 release</num>
+        <commit>release-v5.0.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version_v2="bsp_gen3 [cy8ckit_062s2_43012, cy8cproto_062_4343w, cy8ceval_062_s2_lai_4373m2, cy8ceval_062_mur_43439m2]">
         <num>Latest 4.X release</num>
         <commit>latest-v4.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version_v2="bsp_gen3 [cy8ckit_062s2_43012, cy8cproto_062_4343w, cy8ceval_062_s2_lai_4373m2, cy8ceval_062_mur_43439m2]">
         <num>4.0.0 release</num>
         <commit>release-v4.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version_v2="bsp_gen3 [cy8ckit_062s2_43012, cy8cproto_062_4343w, cy8ceval_062_s2_lai_4373m2, cy8ceval_062_mur_43439m2]">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version_v2="bsp_gen3 [cy8ckit_062s2_43012, cy8cproto_062_4343w, cy8ceval_062_s2_lai_4373m2, cy8ceval_062_mur_43439m2]">
         <num>3.0.0 release</num>
         <commit>release-v3.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version_v2="bsp_gen2 [cy8ckit_062s2_43012, cy8cproto_062_4343w]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version_v2="bsp_gen2 [cy8ckit_062s2_43012, cy8cproto_062_4343w]">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version_v2="bsp_gen2 [cy8ckit_062s2_43012, cy8cproto_062_4343w]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version_v2="bsp_gen2 [cy8ckit_062s2_43012, cy8cproto_062_4343w]">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version_v2="bsp_gen2 [cy8ckit_062s2_43012, cy8cproto_062_4343w]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -3699,7 +3759,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,psoc6,wifi,ota,mqtt" req_capabilities_v2="psoc6 cyw43xxx wifi led flash_2048k [cy8ceval_062_s2_lai_4373m2, cy8ceval_062_mur_43439m2, cy8ckit_062s2_43012, cy8cproto_062_4343w]">
+  <app keywords="mtb-flow,psoc6,wifi,ota,mqtt">
     <name>OTA Using MQTT</name>
     <id>mtb-example-ota-mqtt</id>
     <category>Wi-Fi</category>
@@ -3708,49 +3768,57 @@ iBeacon UUID data.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ota-mqtt/blob/master/README.md">README on GitHub</a>.
     <br><br><b>License Disclaimer:</b><br><br>
     This code example makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license. <br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).]]></description>
-    <req_capabilities>psoc6 cyw43xxx wifi led flash_2048k</req_capabilities>
+    <req_capabilities>psoc6 cyw43xxx wifi led</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="bsp_gen4 [cy8ceval_062_s2_lai_4373m2, cy8ceval_062_mur_43439m2, cy8ckit_062s2_43012, cy8cproto_062_4343w, cy8cproto_062s3_4343w]">
+        <num>Latest 6.X release</num>
+        <commit>latest-v6.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="bsp_gen4 [cy8ceval_062_s2_lai_4373m2, cy8ceval_062_mur_43439m2, cy8ckit_062s2_43012, cy8cproto_062_4343w, cy8cproto_062s3_4343w]">
+        <num>6.0.0 release</num>
+        <commit>release-v6.0.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version_v2="bsp_gen3 [cy8ckit_062s2_43012, cy8cproto_062_4343w, cy8ceval_062_s2_lai_4373m2, cy8ceval_062_mur_43439m2]">
         <num>Latest 5.X release</num>
         <commit>latest-v5.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version_v2="bsp_gen3 [cy8ckit_062s2_43012, cy8cproto_062_4343w, cy8ceval_062_s2_lai_4373m2, cy8ceval_062_mur_43439m2]">
         <num>5.0.0 release</num>
         <commit>release-v5.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version_v2="bsp_gen3 [cy8ckit_062s2_43012, cy8cproto_062_4343w, cy8ceval_062_s2_lai_4373m2, cy8ceval_062_mur_43439m2]">
         <num>Latest 4.X release</num>
         <commit>latest-v4.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version_v2="bsp_gen3 [cy8ckit_062s2_43012, cy8cproto_062_4343w, cy8ceval_062_s2_lai_4373m2, cy8ceval_062_mur_43439m2]">
         <num>4.0.0 release</num>
         <commit>release-v4.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version_v2="bsp_gen2 [cy8ckit_062s2_43012, cy8cproto_062_4343w, cy8ceval_062_s2_lai_4373m2]">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version_v2="bsp_gen2 [cy8ckit_062s2_43012, cy8cproto_062_4343w, cy8ceval_062_s2_lai_4373m2]">
         <num>3.1.0 release</num>
         <commit>release-v3.1.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version_v2="bsp_gen2 [cy8ckit_062s2_43012, cy8cproto_062_4343w]">
         <num>3.0.0 release</num>
         <commit>release-v3.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version_v2="bsp_gen2 [cy8ckit_062s2_43012, cy8cproto_062_4343w]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version_v2="bsp_gen2 [cy8ckit_062s2_43012, cy8cproto_062_4343w]">
         <num>2.2.0 release</num>
         <commit>release-v2.2.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version_v2="bsp_gen2 [cy8ckit_062s2_43012, cy8cproto_062_4343w]">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version_v2="bsp_gen2 [cy8ckit_062s2_43012, cy8cproto_062_4343w]">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
@@ -4585,31 +4653,39 @@ iBeacon UUID data.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-mcuboot-basic/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 std_crypto led qspi nor_flash</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 5.X release</num>
+        <commit>latest-v5.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>5.0.0 release</num>
+        <commit>release-v5.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
         <num>Latest 4.X release</num>
         <commit>latest-v4.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+      <version flow_version="2.0" tools_min_version="2.4.0" tools_max_version="2.4.0" req_capabilities_per_version="bsp_gen3">
         <num>4.0.0 release</num>
         <commit>release-v4.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+      <version flow_version="2.0" tools_min_version="2.4.0" tools_max_version="2.4.0" req_capabilities_per_version="bsp_gen3">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+      <version flow_version="2.0" tools_min_version="2.4.0" tools_max_version="2.4.0" req_capabilities_per_version="bsp_gen3">
         <num>3.0.0 release</num>
         <commit>release-v3.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.2.0" tools_max_version="2.4.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.2.0" tools_max_version="2.4.0" req_capabilities_per_version="bsp_gen2">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.2.0" tools_max_version="2.4.0" req_capabilities_per_version="bsp_gen2">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
@@ -4861,15 +4937,23 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,qspi-flash,flash,qspi,spi-qspi-flash,led,mtb-flow">
+  <app keywords="psoc6,qspi-flash,flash,qspi,spi-qspi-flash,led,mtb-flow" req_capabilities_v2="psoc6 led qspi nor_flash [cy8ceval_062s2, cy8ceval_062_s2_lai_4373m2, cy8ckit_062_ble, cy8ckit_062_wifi_bt, cy8ckit_062s2_43012,cy8cproto_062_4343w, cy8cproto_062s3_4343w, cyw9p62s1_43012evb_01, cyw9p62s1_43438evb_01, cy8ckit_062s4]">
     <name>QSPI XIP</name>
     <id>mtb-example-psoc6-qspi-xip</id>
     <category>Peripherals</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-qspi-xip</uri>
     <description><![CDATA[This example demonstrates how to use the QSPI block of the PSoC&#8482; 6 MCU in execute-in-place (XIP) mode with an external flash memory device.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-qspi-xip/blob/master/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>psoc6 multi_core led qspi nor_flash</req_capabilities>
+    <req_capabilities>psoc6 led qspi nor_flash</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>3.0.0 release</num>
+        <commit>release-v3.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
@@ -4899,7 +4983,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,qspi,spi,nor,flash,smif,serial-flash,mtb-flow">
+  <app keywords="psoc6,qspi,spi,nor,flash,smif,serial-flash,mtb-flow" req_capabilities_v2="psoc6 std_crypto led qspi nor_flash">
     <name>QSPI Flash Read Write</name>
     <id>mtb-example-psoc6-qspi-readwrite</id>
     <category>Peripherals</category>
@@ -4908,6 +4992,14 @@ iBeacon UUID data.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-qspi-readwrite/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 std_crypto led qspi nor_flash</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>3.0.0 release</num>
+        <commit>release-v3.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
@@ -6105,6 +6197,14 @@ iBeacon UUID data.
     <description><![CDATA[This code example demonstrates the usage of CAPSENSE&#8482; Sigma Delta (CSD) current digital-to-analog converter (IDAC) in PSoC&#8482; 6 MCU. It loops through the configured current settings and then drives the external pin as per the setting which can be verified through an external load resistor. The configured current setting is also displayed in the terminal application.]]></description>
     <req_capabilities>psoc6 capsense</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
