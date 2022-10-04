@@ -706,31 +706,31 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-dual-cpu-ipc-pipes/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 multi_core switch</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+      <version flow_version="2.0" tools_min_version="2.4.0" tools_max_version="2.4.0" req_capabilities_per_version="bsp_gen3">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+      <version flow_version="2.0" tools_min_version="2.4.0" tools_max_version="2.4.0" req_capabilities_per_version="bsp_gen3">
         <num>3.0.0 release</num>
         <commit>release-v3.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.2.0" tools_max_version="2.4.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.2.0" tools_max_version="2.4.0" req_capabilities_per_version="bsp_gen2">
         <num>2.3.0 release</num>
         <commit>release-v2.3.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.2.0" tools_max_version="2.4.0" req_capabilities_per_version="bsp_gen2">
         <num>2.2.0 release</num>
         <commit>release-v2.2.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.2.0" tools_max_version="2.4.0" req_capabilities_per_version="bsp_gen2">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.2.0" tools_max_version="2.4.0" req_capabilities_per_version="bsp_gen2">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
@@ -745,31 +745,31 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-dual-cpu-ipc-sema/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 multi_core led switch</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+      <version flow_version="2.0" tools_min_version="2.4.0" tools_max_version="2.4.0" req_capabilities_per_version="bsp_gen3">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+      <version flow_version="2.0" tools_min_version="2.4.0" tools_max_version="2.4.0" req_capabilities_per_version="bsp_gen3">
         <num>3.0.0 release</num>
         <commit>release-v3.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.2.0" tools_max_version="2.4.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.2.0" tools_max_version="2.4.0" req_capabilities_per_version="bsp_gen2">
         <num>2.3.0 release</num>
         <commit>release-v2.3.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.2.0" tools_max_version="2.4.0" req_capabilities_per_version="bsp_gen2">
         <num>2.2.0 release</num>
         <commit>release-v2.2.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.2.0" tools_max_version="2.4.0" req_capabilities_per_version="bsp_gen2">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.2.0" tools_max_version="2.4.0" req_capabilities_per_version="bsp_gen2">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
@@ -4171,19 +4171,19 @@ iBeacon UUID data.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-dual-cpu-protection-units-freertos/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 multi_core</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.2.0" tools_max_version="2.4.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.2.0" tools_max_version="2.4.0" req_capabilities_per_version="bsp_gen2">
         <num>1.2.0 release</num>
         <commit>release-v1.2.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.2.0" tools_max_version="2.4.0" req_capabilities_per_version="bsp_gen2">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.2.0" tools_max_version="2.4.0" req_capabilities_per_version="bsp_gen2">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -4523,27 +4523,27 @@ iBeacon UUID data.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-dfu-basic/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 led switch std_crypto</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="2.2.1" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.2.1" tools_max_version="2.4.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.1" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.2.1" tools_max_version="2.4.0" req_capabilities_per_version="bsp_gen2">
         <num>1.4.0 release</num>
         <commit>release-v1.4.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.1" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.2.1" tools_max_version="2.4.0" req_capabilities_per_version="bsp_gen2">
         <num>1.3.0 release</num>
         <commit>release-v1.3.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.1" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.2.1" tools_max_version="2.4.0" req_capabilities_per_version="bsp_gen2">
         <num>1.2.0 release</num>
         <commit>release-v1.2.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.1" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.2.1" tools_max_version="2.4.0" req_capabilities_per_version="bsp_gen2">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.1" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.2.1" tools_max_version="2.4.0" req_capabilities_per_version="bsp_gen2">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -4585,31 +4585,31 @@ iBeacon UUID data.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-mcuboot-basic/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 std_crypto led qspi nor_flash</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+      <version flow_version="2.0" tools_min_version="2.4.0" tools_max_version="2.4.0" req_capabilities_per_version="bsp_gen3">
         <num>Latest 4.X release</num>
         <commit>latest-v4.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+      <version flow_version="2.0" tools_min_version="2.4.0" tools_max_version="2.4.0" req_capabilities_per_version="bsp_gen3">
         <num>4.0.0 release</num>
         <commit>release-v4.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+      <version flow_version="2.0" tools_min_version="2.4.0" tools_max_version="2.4.0" req_capabilities_per_version="bsp_gen3">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+      <version flow_version="2.0" tools_min_version="2.4.0" tools_max_version="2.4.0" req_capabilities_per_version="bsp_gen3">
         <num>3.0.0 release</num>
         <commit>release-v3.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.2.0" tools_max_version="2.4.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.2.0" tools_max_version="2.4.0" req_capabilities_per_version="bsp_gen2">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.2.0" tools_max_version="2.4.0" req_capabilities_per_version="bsp_gen2">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
@@ -5093,11 +5093,11 @@ iBeacon UUID data.
     This code example makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license. <br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).]]></description>
     <req_capabilities>psoc6 wifi cyw43xxx led std_crypto qspi nor_flash flash_2048k</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="2.3.1" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.1" tools_max_version="2.4.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.1" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.1" tools_max_version="2.4.0" req_capabilities_per_version="bsp_gen2">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
@@ -6147,11 +6147,11 @@ iBeacon UUID data.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-capsense-cm0p/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 led capsense_button capsense_linear_slider</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+      <version flow_version="2.0" tools_min_version="2.4.0" tools_max_version="2.4.0" req_capabilities_per_version="bsp_gen3">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+      <version flow_version="2.0" tools_min_version="2.4.0" tools_max_version="2.4.0" req_capabilities_per_version="bsp_gen3">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -6166,11 +6166,11 @@ iBeacon UUID data.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-security/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+      <version flow_version="2.0" tools_min_version="2.4.0" tools_max_version="2.4.0" req_capabilities_per_version="bsp_gen3">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+      <version flow_version="2.0" tools_min_version="2.4.0" tools_max_version="2.4.0" req_capabilities_per_version="bsp_gen3">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
