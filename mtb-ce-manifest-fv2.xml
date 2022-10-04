@@ -5035,6 +5035,29 @@ iBeacon UUID data.
         <commit>latest-v1.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="optiga,security,management,python,crypto,ecc,rsa,ecdsa,ecdh,mtb-flow">
+    <name>OPTIGA Trust M Data and certificates management</name>
+    <id>mtb-example-optiga-data-management</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-optiga-data-management</uri>
+    <description><![CDATA[This example uses an Infineon OPTIGA&#8482; Trust Security Solution on a PSoC&#8482; 6 MCU to execute example code to manage internal aata or key Objects including its Update.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-optiga-data-management/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>optiga_trust_m</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -6153,25 +6176,6 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="wlc1,usbpd,mtb-flow">
-    <name>WLC1 EPP Power Transmitter</name>
-    <id>mtb-example-wlc1-ptx-epp</id>
-    <category>Peripherals</category>
-    <uri>https://github.com/Infineon/mtb-example-wlc1-ptx-epp</uri>
-    <description><![CDATA[This code example demonstrates the wireless charging power transmitter EPP function with USB-PD sink as the power input.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-wlc1-ptx-epp/blob/master/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>usbpd</req_capabilities>
-    <versions>
-      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
-      </version>
-      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
-        <num>1.0.0 release</num>
-        <commit>release-v1.0.0</commit>
-      </version>
-    </versions>
-  </app>
   <app keywords="pairing,mtb-flow,bluetooth,button,le-lr" req_capabilities_v2="bt led [cyw920829m2evb_01]">
     <name>Bluetooth LE Long Range</name>
     <id>mtb-example-btstack-freertos-le-lr</id>
@@ -6190,6 +6194,25 @@ iBeacon UUID data.
         <commit>release-v1.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="2.4.0" tools_max_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,CCM,helloworld" req_capabilities_v2="psoc6">
+    <name>CCM hello world</name>
+    <id>mtb-example-ccm-mqtt-helloworld</id>
+    <category>Wi-Fi</category>
+    <uri>https://github.com/Infineon/mtb-example-ccm-mqtt-helloworld</uri>
+    <description><![CDATA[This code example demonstrates publishing MQTT messages to the AWS IoT Core with the help of the Cloud Connectivity Manager (CCM) evaluation kit.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ccm-mqtt-helloworld/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>psoc6</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -6235,14 +6258,14 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,CCM,helloworld" req_capabilities_v2="psoc6">
-    <name>CCM hello world</name>
-    <id>mtb-example-ccm-mqtt-helloworld</id>
-    <category>Wi-Fi</category>
-    <uri>https://github.com/Infineon/mtb-example-ccm-mqtt-helloworld</uri>
-    <description><![CDATA[This code example demonstrates publishing MQTT messages to the AWS IoT Core with the help of the Cloud Connectivity Manager (CCM) evaluation kit.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ccm-mqtt-helloworld/blob/master/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>psoc6</req_capabilities>
+  <app keywords="wlc1,usbpd,mtb-flow">
+    <name>WLC1 EPP Power Transmitter</name>
+    <id>mtb-example-wlc1-ptx-epp</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-wlc1-ptx-epp</uri>
+    <description><![CDATA[This code example demonstrates the wireless charging power transmitter EPP function with USB-PD sink as the power input.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-wlc1-ptx-epp/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>usbpd</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
         <num>Latest 1.X release</num>
