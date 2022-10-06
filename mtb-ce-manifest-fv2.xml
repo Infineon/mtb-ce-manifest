@@ -1270,11 +1270,11 @@ iBeacon UUID data.
   </app>
   <app keywords="psoc6,anycloud,wifi,mtb-flow,wifi-scan,wcm,scan filters" req_capabilities_v2="psoc6 wifi cyw43xxx led switch [flash_2048k, flash_1024k, flash_512k, cy8ckit_064b0s2_4343w]">
     <name>Wi-Fi Scan</name>
-    <id>mtb-example-anycloud-wifi-scan</id>
+    <id>mtb-example-wifi-scan</id>
     <category>Wi-Fi</category>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-wifi-scan</uri>
+    <uri>https://github.com/Infineon/mtb-example-wifi-scan</uri>
     <description><![CDATA[This code example demonstrates how to configure different scan filters provided in the Wi-Fi Connection Manager (WCM) middleware and scan for the available Wi-Fi networks.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-anycloud-wifi-scan/blob/master/README.md">README on GitHub</a>.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-wifi-scan/blob/master/README.md">README on GitHub</a>.
     <br><br><b>License Disclaimer:</b><br><br>
     This code example makes use of the lwIP open-source TCP/IP stack and the Mbed TLS open-source TLS/SSL library which has cryptographic capabilities. Creating a project from this template will cause lwIP and Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the lwIP &amp; Mbed TLS licenses and regional use restrictions (including abiding by all applicable export control laws).]]></description>
     <req_capabilities>psoc6 wifi cyw43xxx led switch</req_capabilities>
