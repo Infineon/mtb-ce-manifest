@@ -4399,7 +4399,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="pmg1,mtb-flow">
+  <app keywords="pmg1,mtb-flow" req_capabilities_v2="pmg1">
     <name>Basic Device Firmware Upgrade</name>
     <id>mtb-example-pmg1-dfu-basic</id>
     <category>Peripherals</category>
@@ -4408,11 +4408,11 @@ iBeacon UUID data.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-dfu-basic/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>pmg1</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" tools_max_version="2.4.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" tools_max_version="2.4.0" req_capabilities_per_version="bsp_gen2">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -5695,14 +5695,14 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,usb,cdc,echo,mtb-flow">
+  <app keywords="psoc6,usb,cdc,echo,mtb-flow" req_capabilities_v2="psoc6 usb_device">
     <name>USB CDC echo</name>
     <id>mtb-example-psoc6-usb-cdc-echo</id>
     <category>Peripherals</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-usb-cdc-echo</uri>
     <description><![CDATA[This example demonstrates how to configure the USB block in a PSoC&#8482;&trade; 6 MCU for communication device class (CDC). When configured for a CDC, the PSoC&#8482;&trade; 6 MCU device enumerates a virtual COM port, which can be read and written by a terminal emulator program on a PC.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-usb-cdc-echo/blob/master/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>psoc6 usb</req_capabilities>
+    <req_capabilities>psoc6 usb_device</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 2.X release</num>
