@@ -5909,7 +5909,7 @@ iBeacon UUID data.
     <id>mtb-example-btstack-freertos-hello-sensor</id>
     <category>Bluetooth&#174;</category>
     <uri>https://github.com/Infineon/mtb-example-btstack-freertos-hello-sensor</uri>
-    <description><![CDATA[This code example demonstrates the basic features available of device pair and notification to users in Bluetooth&#174; Low Energy 5.3 and above using ModusToolbox&#8482; software.
+    <description><![CDATA[This code example demonstrates the implementation of Bluetooth&#174; LE custom service with Bluetooth&#174; security using AIROC&#8482; CYW20829, PSoC&#8482; 6 , and ModusToolbox&#8482; software.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-hello-sensor/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>bt led</req_capabilities>
     <versions>
@@ -6261,7 +6261,8 @@ iBeacon UUID data.
     <id>mtb-example-psoc6-csdidac</id>
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-psoc6-csdidac</uri>
-    <description><![CDATA[This code example demonstrates the usage of CAPSENSE&#8482; Sigma Delta (CSD) current digital-to-analog converter (IDAC) in PSoC&#8482; 6 MCU. It loops through the configured current settings and then drives the external pin as per the setting which can be verified through an external load resistor. The configured current setting is also displayed in the terminal application.]]></description>
+    <description><![CDATA[This code example demonstrates the usage of CAPSENSE&#8482; Sigma Delta (CSD) current digital-to-analog converter (IDAC) in PSoC&#8482; 6 MCU. It loops through the configured current settings and then drives the external pin as per the setting which can be verified through an external load resistor. The configured current setting is also displayed in the terminal application.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-csdidac/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 capsense</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
@@ -6409,7 +6410,7 @@ iBeacon UUID data.
     <uri>https://github.com/Infineon/mtb-example-wlc1-ptx-epp</uri>
     <description><![CDATA[This code example demonstrates the wireless charging power transmitter EPP function with USB-PD sink as the power input.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-wlc1-ptx-epp/blob/master/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>usbpd</req_capabilities>
+    <req_capabilities>usbpd wlc1</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
         <num>Latest 1.X release</num>
