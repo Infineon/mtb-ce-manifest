@@ -4193,7 +4193,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,cryptography,trng,mtb-flow" req_capabilities_v2="hal [psoc6,xmc7000]>
+  <app keywords="psoc6,cryptography,trng,mtb-flow" req_capabilities_v2="hal [psoc6,xmc7000]">
     <name>Cryptography TRNG Demonstration</name>
     <id>mtb-example-psoc6-crypto-trng</id>
     <category>Peripherals</category>
