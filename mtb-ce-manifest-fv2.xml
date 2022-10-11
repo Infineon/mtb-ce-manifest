@@ -4310,19 +4310,19 @@ iBeacon UUID data.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-hello-world/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>pmg1 led</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" tools_max_version="2.4.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" tools_max_version="2.4.0" req_capabilities_per_version="bsp_gen2">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" tools_max_version="2.4.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" tools_max_version="2.4.0" req_capabilities_per_version="bsp_gen2">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -4337,23 +4337,23 @@ iBeacon UUID data.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-usbpd-sink/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>usbpd pmg1 led</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" tools_max_version="2.4.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" tools_max_version="2.4.0" req_capabilities_per_version="bsp_gen2">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" tools_max_version="2.4.0" req_capabilities_per_version="bsp_gen2">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" tools_max_version="2.4.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" tools_max_version="2.4.0" req_capabilities_per_version="bsp_gen2">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -4368,11 +4368,11 @@ iBeacon UUID data.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-usbpd-drp/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>usbpd pmg1 led</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" tools_max_version="2.4.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" tools_max_version="2.4.0" req_capabilities_per_version="bsp_gen2">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -4387,23 +4387,23 @@ iBeacon UUID data.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-usbpd-sink-capsense/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>usbpd pmg1 capsense led</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" tools_max_version="2.4.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" tools_max_version="2.4.0" req_capabilities_per_version="bsp_gen2">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" tools_max_version="2.4.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" tools_max_version="2.4.0" req_capabilities_per_version="bsp_gen2">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" tools_max_version="2.4.0" req_capabilities_per_version="bsp_gen2">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -4418,11 +4418,11 @@ iBeacon UUID data.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-usbpd-sink-freertos/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>usbpd pmg1 led</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" tools_max_version="2.4.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" tools_max_version="2.4.0" req_capabilities_per_version="bsp_gen2">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -4437,11 +4437,11 @@ iBeacon UUID data.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-usb-hid-mouse/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>pmg1 usb_device</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" tools_max_version="2.4.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" tools_max_version="2.4.0" req_capabilities_per_version="bsp_gen2">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -4498,15 +4498,15 @@ iBeacon UUID data.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-usbpd-sink-dps310-i2c-sensor/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>pmg1 usbpd i2c uart switch led</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" tools_max_version="2.4.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" tools_max_version="2.4.0" req_capabilities_per_version="bsp_gen2">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" tools_max_version="2.4.0" req_capabilities_per_version="bsp_gen2">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
