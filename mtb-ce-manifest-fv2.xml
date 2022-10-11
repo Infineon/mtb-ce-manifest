@@ -611,7 +611,7 @@
     <id>mtb-example-psoc6-crypto-sha</id>
     <category>Peripherals</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-crypto-sha</uri>
-    <description><![CDATA[This code example shows how to generate a 32-byte hash value or message digest for an arbitrary user input message with the SHA2 algorithm using the Cryptographic hardware block in PSoC&#8482; 6 MCU.
+    <description><![CDATA[This code example shows how to generate a 32-byte hash value or message digest for an arbitrary user input message with the SHA2 algorithm using the Cryptographic hardware block.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-crypto-sha/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>uart</req_capabilities>
     <versions>
@@ -4198,7 +4198,7 @@ iBeacon UUID data.
     <id>mtb-example-psoc6-crypto-trng</id>
     <category>Peripherals</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-crypto-trng</uri>
-    <description><![CDATA[This code example demonstrates generating a One-Time Password (OTP) using the True Random Number generation feature of PSoC&#8482; 6 MCU cryptography block.
+    <description><![CDATA[This code example demonstrates generating a One-Time Password (OTP) using the True Random Number generation feature of cryptography block.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-crypto-trng/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>hal</req_capabilities>
     <versions>
