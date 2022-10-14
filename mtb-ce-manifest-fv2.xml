@@ -331,7 +331,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,uart,transmit,receive,dma,mtb-flow" req_capabilities_v2="psoc6 led [cy8ceval_062s2, cy8ceval_062_s2_lai_4373m2, cy8ckit_062_ble, cy8ckit_062_wifi_bt, cy8ckit_062s2_43012, cy8cproto_062_4343w, cy8cproto_062s3_4343w, cy8cproto_063_ble, cysbsyskit_01, cysbsyskit_dev_01, cy8ckit_062s4, cyw9p62s1_43012evb_01, cyw9p62s1_43438evb_01]">
+  <app keywords="psoc6,uart,transmit,receive,dma,mtb-flow" req_capabilities_v2="psoc6 led [cy8ceval_062s2,cy8ceval_062_s2_lai_4373m2,cy8ckit_062_ble,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cy8cproto_062_4343w,cy8cproto_062s3_4343w,cy8cproto_063_ble,cysbsyskit_01,cysbsyskit_dev_01,cy8ckit_062s4,cyw9p62s1_43012evb_01,cyw9p62s1_43438evb_01]">
     <name>SCB UART Transmit and Receive using DMA</name>
     <id>mtb-example-psoc6-uart-transmit-receive-dma</id>
     <category>Peripherals</category>
@@ -522,7 +522,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,spi,master,slave,dma,mtb-flow" req_capabilities_v2="psoc6 led [cy8ceval_062s2, cy8ceval_062_s2_lai_4373m2, cy8ckit_062_ble, cy8ckit_062_wifi_bt, cy8ckit_062s2_43012, cy8cproto_062_4343w, cy8cproto_062s3_4343w, cy8cproto_063_ble, cysbsyskit_01, cysbsyskit_dev_01, cy8ckit_062s4, cyw9p62s1_43012evb_01, cyw9p62s1_43438evb_01]">
+  <app keywords="psoc6,spi,master,slave,dma,mtb-flow" req_capabilities_v2="psoc6 led [cy8ceval_062s2,cy8ceval_062_s2_lai_4373m2,cy8ckit_062_ble,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cy8cproto_062_4343w,cy8cproto_062s3_4343w,cy8cproto_063_ble,cysbsyskit_01,cysbsyskit_dev_01,cy8ckit_062s4,cyw9p62s1_43012evb_01,cyw9p62s1_43438evb_01]">
     <name>SCB SPI Master DMA</name>
     <id>mtb-example-psoc6-spi-master-dma</id>
     <category>Peripherals</category>
