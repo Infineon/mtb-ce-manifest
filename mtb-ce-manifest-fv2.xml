@@ -2258,17 +2258,25 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,psoc6,tester,anycloud,wifi,wlan,tool,manufacturing">
+  <app keywords="mtb-flow,psoc6,tester,anycloud,wifi,wlan,tool,manufacturing" req_capabilities_v2="[cat4, cy8ceval_062_mur_43439m2, cy8ceval_062_s2_lai_4373m2, cy8ckit_062s2_43012, cy8cproto_062_4343w] wifi low_power anycloud [flash_2048k, sram_2048k]">
     <name>Tester - Wi-Fi Bluetooth Console</name>
-    <id>mtb-anycloud-wifi-bluetooth-tester</id>
+    <id>mtb-wifi-bluetooth-tester</id>
     <category>Wi-Fi</category>
-    <uri>https://github.com/cypresssemiconductorco/mtb-anycloud-wifi-bluetooth-tester</uri>
+    <uri>https://github.com/Infineon/mtb-wifi-bluetooth-tester</uri>
     <description><![CDATA[This application integrates command console library including Wi-Fi iPerf and Bluetooth&#174; Low Energy functionality. Using this application, the user can characterize the Wi-Fi/Bluetooth&#174; Low Energy functionality and performance.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-anycloud-wifi-bluetooth-tester/blob/master/README.md">README on GitHub</a>.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-wifi-bluetooth-tester/blob/master/README.md">README on GitHub</a>.
     <br><br><b>License Disclaimer:</b><br><br>
     This tester application makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license. <br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).]]></description>
-    <req_capabilities>psoc6 wifi cyw43xxx low_power anycloud flash_2048k</req_capabilities>
+    <req_capabilities>wifi low_power anycloud</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -2296,43 +2304,6 @@ iBeacon UUID data.
       <version flow_version="1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
-      </version>
-    </versions>
-  </app>
-  <app keywords="mtb-flow,psoc6,tester,anycloud,wifi,wlan,tool,manufacturing">
-    <name>Tester - Wi-Fi MFG Tool</name>
-    <id>mtb-anycloud-wifi-mfg-tester</id>
-    <category>Manufacturing</category>
-    <uri>https://github.com/cypresssemiconductorco/mtb-anycloud-wifi-mfg-tester</uri>
-    <description><![CDATA[This tester is a tool used for Wi-Fi manufacturing tests with PSoC&#8482; 6 MCU and CYW43xxx connectivity devices.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-anycloud-wifi-mfg-tester/blob/master/README.md">README on GitHub</a>.
-    <br><br><b>License Disclaimer:</b><br><br>
-    This tester application makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license. <br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).]]></description>
-    <req_capabilities>psoc6 wifi cyw43xxx low_power anycloud</req_capabilities>
-    <versions>
-      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
-        <num>Latest 3.X release</num>
-        <commit>latest-v3.X</commit>
-      </version>
-      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
-        <num>3.3.0 release</num>
-        <commit>release-v3.3.0</commit>
-      </version>
-      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
-        <num>3.2.0 release</num>
-        <commit>release-v3.2.0</commit>
-      </version>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
-        <num>3.1.0 release</num>
-        <commit>release-v3.1.0</commit>
-      </version>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
-        <num>3.0.1 release</num>
-        <commit>release-v3.0.1</commit>
-      </version>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
-        <num>3.0.0 release</num>
-        <commit>release-v3.0.0</commit>
       </version>
     </versions>
   </app>
