@@ -2311,7 +2311,7 @@ iBeacon UUID data.
     <name>Tester - Wi-Fi MFG Tool</name>
     <id>mtb-anycloud-wifi-mfg-tester</id>
     <category>Manufacturing</category>
-    <uri>https://github.com/Infineon/mtb-anycloud-wifi-mfg-tester</uri>
+    <uri>https://github.com/cypresssemiconductorco/mtb-anycloud-wifi-mfg-tester</uri>
     <description><![CDATA[This tester is a tool used for Wi-Fi manufacturing tests with PSoC&#8482; 6 MCU and CYW43xxx connectivity devices.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-anycloud-wifi-mfg-tester/blob/master/README.md">README on GitHub</a>.
     <br><br><b>License Disclaimer:</b><br><br>
