@@ -2307,6 +2307,51 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
+  <app keywords="mtb-flow,psoc6,tester,anycloud,wifi,wlan,tool,manufacturing" req_capabilities_v2="psoc6 wifi cyw43xxx low_power anycloud">
+    <name>Tester - Wi-Fi MFG Tool</name>
+    <id>mtb-anycloud-wifi-mfg-tester</id>
+    <category>Manufacturing</category>
+    <uri>https://github.com/Infineon/mtb-anycloud-wifi-mfg-tester</uri>
+    <description><![CDATA[This tester is a tool used for Wi-Fi manufacturing tests with PSoC&#8482; 6 MCU and CYW43xxx connectivity devices.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-anycloud-wifi-mfg-tester/blob/master/README.md">README on GitHub</a>.
+    <br><br><b>License Disclaimer:</b><br><br>
+    This tester application makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license. <br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).]]></description>
+    <req_capabilities>psoc6 wifi cyw43xxx low_power anycloud</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 4.X release</num>
+        <commit>latest-v4.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>4.0.0 release</num>
+        <commit>release-v4.0.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>3.3.0 release</num>
+        <commit>release-v3.3.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>3.2.0 release</num>
+        <commit>release-v3.2.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>3.1.0 release</num>
+        <commit>release-v3.1.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>3.0.1 release</num>
+        <commit>release-v3.0.1</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>3.0.0 release</num>
+        <commit>release-v3.0.0</commit>
+      </version>
+    </versions>
+  </app>
   <app keywords="mtb-flow,psoc6,lpa,anycloud,wifi,wlan,offload,tcp-keepalive" req_capabilities_v2="psoc6 wifi cyw43xxx low_power [flash_2048k, flash_1024k, flash_512k]">
     <name>TCP Keepalive Offload</name>
     <id>mtb-example-anycloud-offload-tcp-keepalive</id>
@@ -7238,51 +7283,6 @@ iBeacon UUID data.
       <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
-      </version>
-    </versions>
-  </app>
-  <app keywords="mtb-flow,psoc6,tester,anycloud,wifi,wlan,tool,manufacturing" req_capabilities_v2="psoc6 wifi cyw43xxx low_power anycloud">
-    <name>Tester - Wi-Fi MFG Tool</name>
-    <id>mtb-anycloud-wifi-mfg-tester</id>
-    <category>Manufacturing</category>
-    <uri>https://github.com/Infineon/mtb-anycloud-wifi-mfg-tester</uri>
-    <description><![CDATA[This tester is a tool used for Wi-Fi manufacturing tests with PSoC&#8482; 6 MCU and CYW43xxx connectivity devices.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-anycloud-wifi-mfg-tester/blob/master/README.md">README on GitHub</a>.
-    <br><br><b>License Disclaimer:</b><br><br>
-    This tester application makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license. <br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).]]></description>
-    <req_capabilities>psoc6 wifi cyw43xxx low_power anycloud</req_capabilities>
-    <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
-        <num>Latest 4.X release</num>
-        <commit>latest-v4.X</commit>
-      </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
-        <num>4.0.0 release</num>
-        <commit>release-v4.0.0</commit>
-      </version>
-      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
-        <num>Latest 3.X release</num>
-        <commit>latest-v3.X</commit>
-      </version>
-      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
-        <num>3.3.0 release</num>
-        <commit>release-v3.3.0</commit>
-      </version>
-      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
-        <num>3.2.0 release</num>
-        <commit>release-v3.2.0</commit>
-      </version>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
-        <num>3.1.0 release</num>
-        <commit>release-v3.1.0</commit>
-      </version>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
-        <num>3.0.1 release</num>
-        <commit>release-v3.0.1</commit>
-      </version>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
-        <num>3.0.0 release</num>
-        <commit>release-v3.0.0</commit>
       </version>
     </versions>
   </app>
