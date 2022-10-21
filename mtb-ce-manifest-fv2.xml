@@ -1368,15 +1368,23 @@
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,mtb-flow,ble,bluetooth,anycloud,ess,4343w,43012" req_capabilities_v2="psoc6 bt led cyw43xxx [flash_2048k, flash_1024k, flash_512k, cy8ckit_064b0s2_4343w]">
+  <app keywords="psoc6,mtb-flow,ble,bluetooth,btstack,freertos,ess,4343w,43012" req_capabilities_v2="psoc6 bt led cyw43xxx [flash_2048k, flash_1024k, flash_512k, cy8ckit_064b0s2_4343w]">
     <name>Bluetooth LE Environmental Sensing Service</name>
-    <id>mtb-example-anycloud-ble-ess</id>
+    <id>mtb-example-btstack-freertos-ess</id>
     <category>Bluetooth&#174;</category>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-ble-ess</uri>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-btstack-freertos-ess</uri>
     <description><![CDATA[This code example demonstrates the implementation of a simple Bluetooth&#174; Low Energy Environmental Sensing Profile. It shows how to send environmental parameters like temperature by sending simulated temperature values over the Bluetooth&#174; Low Energy connection using the AIROC&#8482; Wi-Fi & Bluetooth&#174; combos supported in AnyCloud-SDK.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-anycloud-ble-ess/blob/master/README.md">README on GitHub</a>.]]></description>
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-ess/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 bt led cyw43xxx</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 4.X release</num>
+        <commit>latest-v4.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>4.0.0 release</num>
+        <commit>release-v4.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
@@ -1399,16 +1407,24 @@
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,mtb-flow,ble,bluetooth,anycloud,beacon,eddystone,multi-adv,4343w,43012" req_capabilities_v2="psoc6 bt cyw43xxx [flash_2048k, flash_1024k, flash_512k, cy8ckit_064b0s2_4343w]">
+  <app keywords="psoc6,mtb-flow,ble,bluetooth,btstack,freertos,beacon,eddystone,multi-adv,4343w,43012" req_capabilities_v2="psoc6 bt cyw43xxx [flash_2048k, flash_1024k, flash_512k, cy8ckit_064b0s2_4343w]">
     <name>Bluetooth LE Multi Beacon</name>
-    <id>mtb-example-anycloud-ble-multi-beacon</id>
+    <id>mtb-example-btstack-freertos-multi-beacon</id>
     <category>Bluetooth&#174;</category>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-ble-multi-beacon</uri>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-btstack-freertos-multi-beacon</uri>
     <description><![CDATA[This code example demonstrates the implementation of a beacon which advertises Eddystone and
 iBeacon UUID data.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-anycloud-ble-multi-beacon/blob/master/README.md">README on GitHub</a>.]]></description>
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-multi-beacon/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 bt cyw43xxx</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 4.X release</num>
+        <commit>latest-v4.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>4.0.0 release</num>
+        <commit>release-v4.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
@@ -2028,15 +2044,23 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,mtb-flow,ble,bluetooth,anycloud,findme,4343w,43012" req_capabilities_v2="psoc6 bt led cyw43xxx [flash_2048k, flash_1024k, flash_512k, cy8ckit_064b0s2_4343w]">
+  <app keywords="psoc6,mtb-flow,ble,bluetooth,btstack,freertos,findme,4343w,43012" req_capabilities_v2="psoc6 bt led cyw43xxx [cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43012evb_01,cyw9p62s1_43438evb_01,cy8cproto_062s3_4343w,cysbsyskit_dev_01,cysbsyskit_01,cy8ceval_062_s2_lai_4373m2,cy8ceval_062_mur_43439m2]">
     <name>Bluetooth LE Findme</name>
-    <id>mtb-example-anycloud-ble-findme</id>
+    <id>mtb-example-btstack-freertos-findme</id>
     <category>Bluetooth&#174;</category>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-ble-findme</uri>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-btstack-freertos-findme</uri>
     <description><![CDATA[This design implements a Bluetooth&#174; Low Energy FMP(Find Me Profile) that consists of an IAS(Immediate Alert Service). FMP and IAS are Bluetooth&#174; Low Energy standard Profile and Service respectively, as defined by the Bluetooth&#174; SIG.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-anycloud-ble-findme/blob/master/README.md">README on GitHub</a>.]]></description>
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-findme/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 bt led cyw43xxx</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 4.X release</num>
+        <commit>latest-v4.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>4.0.0 release</num>
+        <commit>release-v4.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
@@ -6094,15 +6118,23 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,anycloud,cts,server,bluetooth" req_capabilities_v2="psoc6 bt led cyw43xxx [flash_2048k, flash_1024k, flash_512k, cy8ckit_064b0s2_4343w]">
+  <app keywords="mtb-flow,btstack,freertos,cts,server,bluetooth" req_capabilities_v2="psoc6 bt led cyw43xxx [flash_2048k, flash_1024k, flash_512k, cy8ckit_064b0s2_4343w]">
     <name>Bluetooth LE CTS Server</name>
-    <id>mtb-example-anycloud-ble-cts-server</id>
+    <id>mtb-example-btstack-freertos-cts-server</id>
     <category>Bluetooth&#174;</category>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-ble-cts-server</uri>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-btstack-freertos-cts-server</uri>
     <description><![CDATA[This code example demonstrates the implementation of a simple AIROC&#8482; Bluetooth&#174; LE GAP central - GATT server with Current time service (CTS) using the AIROC&#8482; Wi-Fi & Bluetooth&#174; combos and ModusToolbox&#8482; Software Environment.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-anycloud-ble-cts-server/blob/master/README.md">README on GitHub</a>.]]></description>
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-cts-server/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 bt led cyw43xxx</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 4.X release</num>
+        <commit>latest-v4.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>4.0.0 release</num>
+        <commit>release-v4.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
@@ -6121,15 +6153,23 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,anycloud,cts,client,bluetooth" req_capabilities_v2="psoc6 bt led cyw43xxx [flash_2048k, flash_1024k, flash_512k, cy8ckit_064b0s2_4343w]">
+  <app keywords="mtb-flow,btstack,freertos,cts,client,bluetooth" req_capabilities_v2="psoc6 bt led cyw43xxx [flash_2048k, flash_1024k, flash_512k, cy8ckit_064b0s2_4343w]">
     <name>Bluetooth LE CTS Client</name>
-    <id>mtb-example-anycloud-ble-cts-client</id>
+    <id>mtb-example-btstack-freertos-cts-client</id>
     <category>Bluetooth&#174;</category>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-ble-cts-client</uri>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-btstack-freertos-cts-client</uri>
     <description><![CDATA[This code example demonstrates the implementation of a simple AIROC&#8482; Bluetooth&#174; LE GAP peripheral - GATT client with Current time service (CTS) using the AIROC&#8482; Wi-Fi & Bluetooth&#174; combos and ModusToolbox&#8482; Software Environment.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-anycloud-ble-cts-client/blob/master/README.md">README on GitHub</a>.]]></description>
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-cts-client/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 bt led cyw43xxx</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 4.X release</num>
+        <commit>latest-v4.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>4.0.0 release</num>
+        <commit>release-v4.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
@@ -6579,15 +6619,23 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="privacy,bonding,mtb-flow,anycloud,bluetooth" req_capabilities_v2="psoc6 bt led [cyw9p62s1-43012evb-01,cyw9p62s1-43438evb-01,cy8ckit-062-wifi-bt,cy8ckit_062s2_43012,cy8cproto_062_4343w,cy8ceval-062s2-mur-43439m2]">
+  <app keywords="privacy,bonding,mtb-flow,btstack,freertos,bluetooth" req_capabilities_v2="psoc6 bt led [cyw9p62s1_43012evb_01,cyw9p62s1_43438evb_01,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cy8cproto_062_4343w,cy8ceval_062_mur_43439m2,cy8ceval_062_s2_lai_4373m2]">
     <name>Bluetooth LE Peripheral Privacy</name>
-    <id>mtb-example-anycloud-ble-peripheral-privacy</id>
+    <id>mtb-example-btstack-freertos-peripheral-privacy</id>
     <category>Bluetooth&#174;</category>
-    <uri>https://github.com/Infineon/mtb-example-anycloud-ble-peripheral-privacy</uri>
+    <uri>https://github.com/Infineon/mtb-example-btstack-freertos-peripheral-privacy</uri>
     <description><![CDATA[This code example demonstrates the privacy features available to users in Bluetooth&#174; Low Energy 5.0 and above using ModusToolbox&#8482; software.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-anycloud-ble-peripheral-privacy/blob/master/README.md">README on GitHub</a>.]]></description>
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-peripheral-privacy/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 bt led</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -6730,6 +6778,14 @@ iBeacon UUID data.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-hello-sensor/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>bt led</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>3.0.0 release</num>
+        <commit>release-v3.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
