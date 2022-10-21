@@ -528,32 +528,6 @@
     </versions>
   </app>
   <app>
-    <name>Ramping LED using Smart IO</name>
-    <id>mtb-example-psoc6-smartio-ramping-led-0</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-smartio-ramping-led</uri>
-    <description><![CDATA[This example uses a PWM resource and Smart I/O in PSoC&#8482; 6 MCU to implement a ramping LED, where an LED gradually cycles through increasing and decreasing brightness levels. There is no CPU usage except for the initialization of PWM and Smart I/O.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-smartio-ramping-led/blob/master/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>psoc6 std_crypto led smart_io</req_capabilities>
-    <versions>
-      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
-      </version>
-      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
-        <num>1.2.0 release</num>
-        <commit>release-v1.2.0</commit>
-      </version>
-      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
-        <num>1.1.0 release</num>
-        <commit>release-v1.1.0</commit>
-      </version>
-      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
-        <num>1.0.0 release</num>
-        <commit>release-v1.0.0</commit>
-      </version>
-    </versions>
-  </app>
-  <app>
     <name>emWin E-Ink FreeRTOS</name>
     <id>mtb-example-psoc6-emwin-eink-freertos-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-emwin-eink-freertos</uri>
