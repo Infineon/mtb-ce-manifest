@@ -1372,7 +1372,7 @@
     <name>Bluetooth LE Environmental Sensing Service</name>
     <id>mtb-example-btstack-freertos-ess</id>
     <category>Bluetooth&#174;</category>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-btstack-freertos-ess</uri>
+    <uri>https://github.com/Infineon/mtb-example-btstack-freertos-ess</uri>
     <description><![CDATA[This code example demonstrates the implementation of a simple Bluetooth&#174; Low Energy Environmental Sensing Profile. It shows how to send environmental parameters like temperature by sending simulated temperature values over the Bluetooth&#174; Low Energy connection using the AIROC&#8482; Wi-Fi & Bluetooth&#174; combos supported in AnyCloud-SDK.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-ess/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 bt led cyw43xxx</req_capabilities>
@@ -1411,7 +1411,7 @@
     <name>Bluetooth LE Multi Beacon</name>
     <id>mtb-example-btstack-freertos-multi-beacon</id>
     <category>Bluetooth&#174;</category>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-btstack-freertos-multi-beacon</uri>
+    <uri>https://github.com/Infineon/mtb-example-btstack-freertos-multi-beacon</uri>
     <description><![CDATA[This code example demonstrates the implementation of a beacon which advertises Eddystone and
 iBeacon UUID data.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-multi-beacon/blob/master/README.md">README on GitHub</a>.]]></description>
@@ -2048,7 +2048,7 @@ iBeacon UUID data.
     <name>Bluetooth LE Findme</name>
     <id>mtb-example-btstack-freertos-findme</id>
     <category>Bluetooth&#174;</category>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-btstack-freertos-findme</uri>
+    <uri>https://github.com/Infineon/mtb-example-btstack-freertos-findme</uri>
     <description><![CDATA[This design implements a Bluetooth&#174; Low Energy FMP(Find Me Profile) that consists of an IAS(Immediate Alert Service). FMP and IAS are Bluetooth&#174; Low Energy standard Profile and Service respectively, as defined by the Bluetooth&#174; SIG.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-findme/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 bt led cyw43xxx</req_capabilities>
@@ -6122,7 +6122,7 @@ iBeacon UUID data.
     <name>Bluetooth LE CTS Server</name>
     <id>mtb-example-btstack-freertos-cts-server</id>
     <category>Bluetooth&#174;</category>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-btstack-freertos-cts-server</uri>
+    <uri>https://github.com/Infineon/mtb-example-btstack-freertos-cts-server</uri>
     <description><![CDATA[This code example demonstrates the implementation of a simple AIROC&#8482; Bluetooth&#174; LE GAP central - GATT server with Current time service (CTS) using the AIROC&#8482; Wi-Fi & Bluetooth&#174; combos and ModusToolbox&#8482; Software Environment.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-cts-server/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 bt led cyw43xxx</req_capabilities>
@@ -6157,7 +6157,7 @@ iBeacon UUID data.
     <name>Bluetooth LE CTS Client</name>
     <id>mtb-example-btstack-freertos-cts-client</id>
     <category>Bluetooth&#174;</category>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-btstack-freertos-cts-client</uri>
+    <uri>https://github.com/Infineon/mtb-example-btstack-freertos-cts-client</uri>
     <description><![CDATA[This code example demonstrates the implementation of a simple AIROC&#8482; Bluetooth&#174; LE GAP peripheral - GATT client with Current time service (CTS) using the AIROC&#8482; Wi-Fi & Bluetooth&#174; combos and ModusToolbox&#8482; Software Environment.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-cts-client/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 bt led cyw43xxx</req_capabilities>
