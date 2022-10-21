@@ -1,5 +1,5 @@
 <apps version="2.0">
-  <app keywords="starter,template,empty,blank,mtb-flow" req_capabilities_v2="[psoc6,xmc7000,cyw920829m2evb_01,cat1d]">
+  <app keywords="starter,template,empty,blank,mtb-flow" req_capabilities_v2="[psoc6,xmc7000,t2gbh,cyw920829m2evb_01,cat1d]">
     <name>Empty App</name>
     <id>mtb-example-empty-app</id>
     <category>Getting Started</category>
@@ -37,7 +37,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="led,starter,hello world,mtb-flow" req_capabilities_v2="hal led [psoc6,xmc7000] [flash_8384k,flash_2048k,flash_1024k,flash_512k,flash_256k,flash_832k,flash_448k,cy8ckit_064b0s2_4343w]">
+  <app keywords="led,starter,hello world,mtb-flow" req_capabilities_v2="hal led [psoc6,xmc7000,t2gbh,] [flash_8384k,flash_2048k,flash_1024k,flash_512k,flash_256k,flash_832k,flash_448k,cy8ckit_064b0s2_4343w]">
     <name>Hello World</name>
     <id>mtb-example-hal-hello-world</id>
     <category>Getting Started</category>
@@ -150,7 +150,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="wdt,mtb-flow" req_capabilities_v2="[psoc6,xmc7000]">
+  <app keywords="wdt,mtb-flow" req_capabilities_v2="[psoc6,xmc7000,t2gbh]">
     <name>Watchdog Timer</name>
     <id>mtb-example-psoc6-wdt</id>
     <category>Peripherals</category>
@@ -211,7 +211,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,led,pwm,square wave,frequency,duty cycle,blinky,blinking" req_capabilities_v2="hal led [psoc6,xmc7000,cyw920829m2evb_01]">
+  <app keywords="mtb-flow,led,pwm,square wave,frequency,duty cycle,blinky,blinking" req_capabilities_v2="hal led [psoc6,xmc7000,t2gbh,cyw920829m2evb_01]">
     <name>PWM Square Wave</name>
     <id>mtb-example-hal-pwm-square-wave</id>
     <category>Peripherals</category>
@@ -308,7 +308,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="uart,transmit,receive,mtb-flow" req_capabilities_v2="hal led [psoc6,xmc7000]">
+  <app keywords="uart,transmit,receive,mtb-flow" req_capabilities_v2="hal led [psoc6,xmc7000,t2gbh]">
     <name>UART Transmit and Receive</name>
     <id>mtb-example-psoc6-uart-transmit-receive</id>
     <category>Peripherals</category>
@@ -382,7 +382,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="i2c,master,slave,mtb-flow" req_capabilities_v2="hal led [psoc6,xmc7000]">
+  <app keywords="i2c,master,slave,mtb-flow" req_capabilities_v2="hal led [psoc6,xmc7000,t2gbh]">
     <name>I2C Master</name>
     <id>mtb-example-psoc6-i2c-master</id>
     <category>Peripherals</category>
@@ -421,7 +421,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="i2c,ezi2c,master,slave,mtb-flow" req_capabilities_v2="hal led [psoc6,xmc7000]">
+  <app keywords="i2c,ezi2c,master,slave,mtb-flow" req_capabilities_v2="hal led [psoc6,xmc7000,t2gbh]">
     <name>I2C Master EzI2C Slave</name>
     <id>mtb-example-psoc6-i2c-master-ezi2c-slave</id>
     <category>Peripherals</category>
@@ -460,7 +460,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="i2c,slave,mtb-flow" req_capabilities_v2="hal led [psoc6,xmc7000]">
+  <app keywords="i2c,slave,mtb-flow" req_capabilities_v2="hal led [psoc6,xmc7000,t2gbh]">
     <name>I2C Slave Using Callbacks</name>
     <id>mtb-example-psoc6-i2c-slave-callback</id>
     <category>Peripherals</category>
@@ -491,7 +491,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="spi,master,slave,mtb-flow" req_capabilities_v2="hal led [psoc6,xmc7000]">
+  <app keywords="spi,master,slave,mtb-flow" req_capabilities_v2="hal led [psoc6,xmc7000,t2gbh]">
     <name>SPI Master</name>
     <id>mtb-example-psoc6-spi-master</id>
     <category>Peripherals</category>
@@ -616,7 +616,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="oob,led,starter,hello world,mtb-flow" req_capabilities_v2="hal led uart switch [xmc7000] [kit_xmc72_evk]">
+  <app keywords="oob,led,starter,hello world,mtb-flow" req_capabilities_v2="hal led uart switch [xmc7000,t2gbh] [kit_xmc72_evk,kit_t2g_b_h_evk]">
     <name>XMC7000 OOB Demo</name>
     <id>mtb-example-xmc7000-oob-demo</id>
     <category>Getting Started</category>
@@ -635,7 +635,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="pwm,tcpwm,timer,mtb-flow" req_capabilities_v2="hal led [xmc7000]">
+  <app keywords="pwm,tcpwm,timer,mtb-flow" req_capabilities_v2="hal led [xmc7000,t2gbh]">
     <name>TCPWM Timer</name>
     <id>mtb-example-hal-tcpwm-timer</id>
     <category>Peripherals</category>
@@ -654,7 +654,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="pwm,tcpwm,dead time,mtb-flow" req_capabilities_v2="hal [xmc7000]">
+  <app keywords="pwm,tcpwm,dead time,mtb-flow" req_capabilities_v2="hal [xmc7000,t2gbh]">
     <name>TCPWM Dead Time Mode</name>
     <id>mtb-example-hal-tcpwm-dt</id>
     <category>Peripherals</category>
@@ -673,7 +673,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="led,smartio,smart io,mtb-flow" req_capabilities_v2="switch led smart_io [xmc7000]">
+  <app keywords="led,smartio,smart io,mtb-flow" req_capabilities_v2="switch led smart_io [xmc7000,t2gbh]">
     <name>Smart IO with GPIO</name>
     <id>mtb-example-pdl-xmc7000-smartio-gpio</id>
     <category>Peripherals</category>
@@ -692,7 +692,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="led,button,mtb-flow" req_capabilities_v2="switch led [xmc7000]">
+  <app keywords="led,button,mtb-flow" req_capabilities_v2="switch led [xmc7000,t2gbh]">
     <name>GPIO Pins</name>
     <id>mtb-example-pdl-xmc7000-gpio-pins</id>
     <category>Peripherals</category>
@@ -711,7 +711,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="pwm,tcpwm,asymmetric,mtb-flow" req_capabilities_v2="uart [xmc7000]">
+  <app keywords="pwm,tcpwm,asymmetric,mtb-flow" req_capabilities_v2="uart [xmc7000,t2gbh]">
     <name>Asymmetric PWM Generation</name>
     <id>mtb-example-pdl-xmc7000-pwm-dual-compare-capture</id>
     <category>Peripherals</category>
@@ -730,7 +730,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="uart,transmit,receive,dma,mtb-flow" req_capabilities_v2="led [xmc7000]">
+  <app keywords="uart,transmit,receive,dma,mtb-flow" req_capabilities_v2="led [xmc7000,t2gbh]">
     <name>SCB UART Transmit and Receive using DMA</name>
     <id>mtb-example-pdl-xmc7000-uart-transmit-receive-dma</id>
     <category>Peripherals</category>
@@ -749,7 +749,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="systick,timer,toggle,led,mtb-flow" req_capabilities_v2="led [xmc7000]">
+  <app keywords="systick,timer,toggle,led,mtb-flow" req_capabilities_v2="led [xmc7000,t2gbh]">
     <name>Toggle LED with SysTick Timer</name>
     <id>mtb-example-pdl-xmc7000-systick-led</id>
     <category>Peripherals</category>
@@ -768,7 +768,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="cryptography,sha2,message digest,hash,mtb-flow" req_capabilities_v2="uart [xmc7000]">
+  <app keywords="cryptography,sha2,message digest,hash,mtb-flow" req_capabilities_v2="uart [xmc7000,t2gbh]">
     <name>Cryptography SHA Demonstration</name>
     <id>mtb-example-pdl-xmc7000-crypto-sha</id>
     <category>Peripherals</category>
@@ -787,7 +787,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="cryptography,aes,mtb-flow" req_capabilities_v2="uart [xmc7000]">
+  <app keywords="cryptography,aes,mtb-flow" req_capabilities_v2="uart [xmc7000,t2gbh]">
     <name>Cryptography AES Demonstration</name>
     <id>mtb-example-pdl-xmc7000-crypto-aes</id>
     <category>Peripherals</category>
@@ -806,7 +806,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="canfd,can,mtb-flow" req_capabilities_v2="led [xmc7000] [kit_xmc72_evk]">
+  <app keywords="canfd,can,mtb-flow" req_capabilities_v2="led [xmc7000,t2gbh] [kit_xmc72_evk,kit_t2g_b_h_evk]">
     <name>CAN FD</name>
     <id>mtb-example-pdl-xmc7000-canfd</id>
     <category>Peripherals</category>
@@ -825,7 +825,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="tcpwm,counter,mtb-flow" req_capabilities_v2="led [xmc7000]">
+  <app keywords="tcpwm,counter,mtb-flow" req_capabilities_v2="led [xmc7000,t2gbh]">
     <name>TCPWM Counter</name>
     <id>mtb-example-pdl-xmc7000-tcpwm-counter</id>
     <category>Peripherals</category>
@@ -844,7 +844,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="gpio,led,freertos,mtb-flow" req_capabilities_v2="led [xmc7000]">
+  <app keywords="gpio,led,freertos,mtb-flow" req_capabilities_v2="led [xmc7000,t2gbh]">
     <name>FreeRTOS Blinky</name>
     <id>mtb-example-xmc7000-blinky-freertos</id>
     <category>Getting Started</category>
@@ -863,7 +863,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="spi,master,slave,dma,mtb-flow" req_capabilities_v2="led [xmc7000]">
+  <app keywords="spi,master,slave,dma,mtb-flow" req_capabilities_v2="led [xmc7000,t2gbh]">
     <name>SCB SPI Master DMA</name>
     <id>mtb-example-pdl-xmc7000-spi-master-dma</id>
     <category>Peripherals</category>
@@ -882,7 +882,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="led,power,sleep,mtb-flow" req_capabilities_v2="led low_power [xmc7000]">
+  <app keywords="led,power,sleep,mtb-flow" req_capabilities_v2="led low_power [xmc7000,t2gbh]">
     <name>Switching Power Modes</name>
     <id>mtb-example-xmc7000-switching-power-modes</id>
     <category>Getting Started</category>
@@ -901,7 +901,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="low power,sleep,mtb-flow" req_capabilities_v2="uart low_power [xmc7000]">
+  <app keywords="low power,sleep,mtb-flow" req_capabilities_v2="uart low_power [xmc7000,t2gbh]">
     <name>Low-Power Wakeup from RTC Alarm</name>
     <id>mtb-example-xmc7000-low-power-wakeup-from-rtc-alarm</id>
     <category>Peripherals</category>
@@ -920,7 +920,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="multicore,starter,template,empty,blank,mtb-flow" req_capabilities_v2="[xmc7000]">
+  <app keywords="multicore,starter,template,empty,blank,mtb-flow" req_capabilities_v2="[xmc7000,t2gbh]">
     <name>Multicore Empty App</name>
     <id>mtb-example-xmc7000-multicore-empty-app</id>
     <category>Getting Started</category>
@@ -938,7 +938,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="multicore,ipc,mtb-flow,pipes" req_capabilities_v2="multi_core [xmc7000]">
+  <app keywords="multicore,ipc,mtb-flow,pipes" req_capabilities_v2="multi_core [xmc7000,t2gbh]">
     <name>Multicore IPC Pipes</name>
     <id>mtb-example-xmc7000-multicore-ipc-pipes</id>
     <category>Peripherals</category>
@@ -957,7 +957,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="mcwdt,mtb-flow" req_capabilities_v2="uart [xmc7000]">
+  <app keywords="mcwdt,mtb-flow" req_capabilities_v2="uart [xmc7000,t2gbh]">
     <name>MCWDT Interrupt</name>
     <id>mtb-example-pdl-xmc7000-mcwdt</id>
     <category>Peripherals</category>
@@ -976,7 +976,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="lvd,interrupt,mtb-flow" req_capabilities_v2="led [xmc7000]">
+  <app keywords="lvd,interrupt,mtb-flow" req_capabilities_v2="led [xmc7000,t2gbh]">
     <name>LVD Interrupt</name>
     <id>mtb-example-pdl-xmc7000-lvd-interrupt</id>
     <category>Peripherals</category>
@@ -995,7 +995,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="emulated,eeprom,flash,mtb-flow" req_capabilities_v2="led uart [xmc7000]">
+  <app keywords="emulated,eeprom,flash,mtb-flow" req_capabilities_v2="led uart [xmc7000,t2gbh]">
     <name>Emulated EEPROM</name>
     <id>mtb-example-xmc7000-emulated-eeprom</id>
     <category>Peripherals</category>
@@ -1014,7 +1014,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="fault handling,mtb-flow" req_capabilities_v2="uart [xmc7000]">
+  <app keywords="fault handling,mtb-flow" req_capabilities_v2="uart [xmc7000,t2gbh]">
     <name>Fault Handling</name>
     <id>mtb-example-pdl-xmc7000-fault-handling</id>
     <category>Peripherals</category>
@@ -1033,7 +1033,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="qspi,spi,nor,flash,smif,serial-flash,mtb-flow" req_capabilities_v2="hal uart led qspi nor_flash [xmc7000]">
+  <app keywords="qspi,spi,nor,flash,smif,serial-flash,mtb-flow" req_capabilities_v2="hal uart led qspi nor_flash [xmc7000,t2gbh]">
     <name>QSPI Flash Read Write</name>
     <id>mtb-example-hal-qspi-readwrite</id>
     <category>Peripherals</category>
@@ -1052,7 +1052,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,adc,hal" req_capabilities_v2="hal uart [xmc7000]">
+  <app keywords="mtb-flow,adc,hal" req_capabilities_v2="hal uart [xmc7000,t2gbh]">
     <name>ADC basic</name>
     <id>mtb-example-xmc7000-adc-basic</id>
     <category>Peripherals</category>
@@ -1071,7 +1071,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="evtgen,event generator,mtb-flow" req_capabilities_v2="uart [xmc7000]">
+  <app keywords="evtgen,event generator,mtb-flow" req_capabilities_v2="uart [xmc7000,t2gbh]">
     <name>EVTGEN trigger ADC</name>
     <id>mtb-example-pdl-xmc7000-evtgen-active-trigger-adc</id>
     <category>Peripherals</category>
@@ -1090,7 +1090,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,flash,code flash,hal" req_capabilities_v2="hal uart [xmc7000]">
+  <app keywords="mtb-flow,flash,code flash,hal" req_capabilities_v2="hal uart [xmc7000,t2gbh]">
     <name>Code Flash Sector Data Updating</name>
     <id>mtb-example-hal-code-flash-sector-data-updating</id>
     <category>Peripherals</category>
@@ -2232,7 +2232,7 @@ iBeacon UUID data.
     This tester application makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license. <br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).]]></description>
     <req_capabilities>psoc6 wifi cyw43xxx low_power anycloud</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+	  <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>Latest 4.X release</num>
         <commit>latest-v4.X</commit>
       </version>
@@ -2240,7 +2240,7 @@ iBeacon UUID data.
         <num>4.0.0 release</num>
         <commit>release-v4.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+	  <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
       </version>
@@ -2272,19 +2272,11 @@ iBeacon UUID data.
     <category>Wi-Fi</category>
     <uri>https://github.com/Infineon/mtb-wifi-bluetooth-tester</uri>
     <description><![CDATA[This application integrates command console library including Wi-Fi iPerf and Bluetooth&#174; Low Energy functionality. Using this application, the user can characterize the Wi-Fi/Bluetooth&#174; Low Energy functionality and performance.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-wifi-bluetooth-tester/blob/master/README.md">README on GitHub</a>.
+     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-wifi-bluetooth-tester/blob/master/README.md">README on GitHub</a>.
     <br><br><b>License Disclaimer:</b><br><br>
     This tester application makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license. <br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).]]></description>
     <req_capabilities>wifi low_power anycloud</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
-        <num>Latest 2.X release</num>
-        <commit>latest-v2.X</commit>
-      </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
-        <num>2.0.0 release</num>
-        <commit>release-v2.0.0</commit>
-      </version>
       <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -2334,7 +2326,7 @@ iBeacon UUID data.
         <num>4.0.0 release</num>
         <commit>release-v4.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+	  <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
       </version>
@@ -2881,7 +2873,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,gpio,interrupt,switch" req_capabilities_v2="hal led switch low_power [psoc6,xmc7000]">
+  <app keywords="mtb-flow,gpio,interrupt,switch" req_capabilities_v2="hal led switch low_power [psoc6,xmc7000,t2gbh]">
     <name>GPIO Interrupt</name>
     <id>mtb-example-psoc6-gpio-interrupt</id>
     <category>Peripherals</category>
@@ -2916,7 +2908,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,rtc" req_capabilities_v2="hal rtc [psoc6,xmc7000]">
+  <app keywords="mtb-flow,rtc" req_capabilities_v2="hal rtc [psoc6,xmc7000,t2gbh]">
     <name>RTC Basics</name>
     <id>mtb-example-psoc6-rtc-basics</id>
     <category>Peripherals</category>
@@ -5045,7 +5037,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="cryptography,trng,mtb-flow" req_capabilities_v2="hal [psoc6,xmc7000]">
+  <app keywords="cryptography,trng,mtb-flow" req_capabilities_v2="hal [psoc6,xmc7000,t2gbh]">
     <name>Cryptography TRNG Demonstration</name>
     <id>mtb-example-psoc6-crypto-trng</id>
     <category>Peripherals</category>
