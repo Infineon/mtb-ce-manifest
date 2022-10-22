@@ -852,14 +852,14 @@
     </versions>
   </app>
   <app>
-    <name>AnyCloud TCP Client</name>
-    <id>mtb-example-anycloud-tcp-client-0</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-tcp-client</uri>
+    <name>WiFi TCP Client</name>
+    <id>mtb-example-wifi-tcp-client-0</id>
+    <uri>https://github.com/Infineon/mtb-example-wifi-tcp-client</uri>
     <description><![CDATA[This code example demonstrates implementation of TCP client with PSoC&#8482; 6 MCU and CYW43xxx connectivity devices.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-anycloud-tcp-client/blob/master/README.md">README on GitHub</a>.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-wifi-tcp-client/blob/master/README.md">README on GitHub</a>.
     <br><br><b>License Disclaimer:</b><br><br>
     This code example makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license. <br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).]]></description>
-    <req_capabilities>psoc6 wifi cyw43xxx led switch anycloud</req_capabilities>
+    <req_capabilities>psoc6 wifi cyw43xxx led switch</req_capabilities>
     <versions>
       <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
         <num>Latest 1.X release</num>
@@ -912,14 +912,14 @@
     </versions>
   </app>
   <app>
-    <name>AnyCloud Secure TCP Server</name>
-    <id>mtb-example-anycloud-secure-tcp-server-0</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-secure-tcp-server</uri>
+    <name>WiFi Secure TCP Server</name>
+    <id>mtb-example-wifi-secure-tcp-server-0</id>
+    <uri>https://github.com/Infineon/mtb-example-wifi-secure-tcp-server</uri>
     <description><![CDATA[This code example demonstrates implementation of a secure TCP server with PSoC&#8482; 6 MCU and CYW43xxx connectivity devices.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-anycloud-secure-tcp-server/blob/master/README.md">README on GitHub</a>.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-wifi-secure-tcp-server/blob/master/README.md">README on GitHub</a>.
     <br><br><b>License Disclaimer:</b><br><br>
     This code example makes use of the lwIP open-source TCP/IP stack and the Mbed TLS open-source TLS/SSL library which has cryptographic capabilities. Creating a project from this template will cause lwIP and Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the lwIP &amp; Mbed TLS licenses and regional use restrictions (including abiding by all applicable export control laws).]]></description>
-    <req_capabilities>psoc6 wifi cyw43xxx led switch anycloud</req_capabilities>
+    <req_capabilities>psoc6 wifi cyw43xxx led switch</req_capabilities>
     <versions>
       <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
         <num>Latest 1.X release</num>
@@ -962,14 +962,14 @@
     </versions>
   </app>
   <app>
-    <name>AnyCloud TCP Server</name>
-    <id>mtb-example-anycloud-tcp-server-0</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-tcp-server</uri>
+    <name>WiFi TCP Server</name>
+    <id>mtb-example-wifi-tcp-server-0</id>
+    <uri>https://github.com/Infineon/mtb-example-wifi-tcp-server</uri>
     <description><![CDATA[This code example demonstrates implementation of a TCP server with PSoC&#8482; 6 MCU and CYW43xxx connectivity devices.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-anycloud-tcp-server/blob/master/README.md">README on GitHub</a>.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-wifi-tcp-server/blob/master/README.md">README on GitHub</a>.
     <br><br><b>License Disclaimer:</b><br><br>
     This code example makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license. <br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).]]></description>
-    <req_capabilities>psoc6 wifi cyw43xxx led switch anycloud</req_capabilities>
+    <req_capabilities>psoc6 wifi cyw43xxx led switch</req_capabilities>
     <versions>
       <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
         <num>Latest 1.X release</num>
@@ -1202,14 +1202,14 @@
     </versions>
   </app>
   <app>
-    <name>AnyCloud MQTT Client</name>
-    <id>mtb-example-anycloud-mqtt-client-0</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-mqtt-client</uri>
+    <name>WiFi MQTT Client</name>
+    <id>mtb-example-wifi-mqtt-client-0</id>
+    <uri>https://github.com/Infineon/mtb-example-wifi-mqtt-client</uri>
     <description><![CDATA[This code example demonstrates implementing an MQTT client using the MQTT client library for the family of AIROC&#8482; Wi-Fi & Bluetooth&#174; combos. This library uses the AWS IoT Device SDK that includes an MQTT 3.1.1 client.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-anycloud-mqtt-client/blob/master/README.md">README on GitHub</a>.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-wifi-mqtt-client/blob/master/README.md">README on GitHub</a>.
     <br><br><b>License Disclaimer:</b><br><br>
     This code example makes use of the lwIP open-source TCP/IP stack and the Mbed TLS open-source TLS/SSL library which has cryptographic capabilities. Creating a project from this template will cause lwIP and Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the lwIP &amp; Mbed TLS licenses and regional use restrictions (including abiding by all applicable export control laws).]]></description>
-    <req_capabilities>psoc6 wifi cyw43xxx led switch anycloud</req_capabilities>
+    <req_capabilities>psoc6 wifi cyw43xxx led switch</req_capabilities>
     <versions>
       <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
         <num>Latest 1.X release</num>
@@ -1314,14 +1314,14 @@
     </versions>
   </app>
   <app>
-    <name>AnyCloud OTA Using MQTT</name>
-    <id>mtb-example-anycloud-ota-mqtt-0</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-ota-mqtt</uri>
+    <name>OTA Using MQTT</name>
+    <id>mtb-example-ota-mqtt-0</id>
+    <uri>https://github.com/Infineon/mtb-example-ota-mqtt</uri>
     <description><![CDATA[This code example demonstrates OTA update with PSoC&#8482; 6 MCU and CYW43xxx connectivity devices. The device establishes a connection with the designated MQTT Broker (Mosquitto is used in this example) and subscribes to a topic. When an OTA image is published to that topic, the device automatically pulls the OTA image over MQTT and saves it to the the flash memory. This example uses MCUBoot based bootloader which boots the new application on next boot-up.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-anycloud-ota-mqtt/blob/master/README.md">README on GitHub</a>.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ota-mqtt/blob/master/README.md">README on GitHub</a>.
     <br><br><b>License Disclaimer:</b><br><br>
     This code example makes use of the lwIP open-source TCP/IP stack and the Mbed TLS open-source TLS/SSL library which has cryptographic capabilities. Creating a project from this template will cause lwIP and Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the lwIP &amp; Mbed TLS licenses and regional use restrictions (including abiding by all applicable export control laws).]]></description>
-    <req_capabilities>psoc6 wifi cyw43xxx led anycloud</req_capabilities>
+    <req_capabilities>psoc6 wifi cyw43xxx led</req_capabilities>
     <versions>
       <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
         <num>Latest 1.X release</num>
@@ -1588,14 +1588,14 @@
     </versions>
   </app>
   <app>
-    <name>AnyCloud UDP Client</name>
-    <id>mtb-example-anycloud-udp-client-0</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-udp-client</uri>
+    <name>WiFi UDP Client</name>
+    <id>mtb-example-wifi-udp-client-0</id>
+    <uri>https://github.com/Infineon/mtb-example-wifi-udp-client</uri>
     <description><![CDATA[This code example demonstrates implementation of UDP Client using AnyCloud SDK. The UDP Client establishes a connection with a remote UDP server and based on the command received from the UDP server, turns the user LED ON or OFF using PSoC&#8482; 6 MCU.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-anycloud-udp-client/blob/master/README.md">README on GitHub</a>.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-wifi-udp-client/blob/master/README.md">README on GitHub</a>.
     <br><br><b>License Disclaimer:</b><br><br>
     This code example makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license. <br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).]]></description>
-    <req_capabilities>psoc6 cyw43xxx wifi led anycloud</req_capabilities>
+    <req_capabilities>psoc6 cyw43xxx wifi led</req_capabilities>
     <versions>
       <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
         <num>Latest 1.X release</num>
@@ -1612,14 +1612,14 @@
     </versions>
   </app>
   <app>
-    <name>AnyCloud UDP Server</name>
-    <id>mtb-example-anycloud-udp-server-0</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-udp-server</uri>
+    <name>WiFi UDP Server</name>
+    <id>mtb-example-wifi-udp-server-0</id>
+    <uri>https://github.com/Infineon/mtb-example-wifi-udp-server</uri>
     <description><![CDATA[This code example demonstrates implementation of UDP Server using AnyCloud SDK. The UDP Server allows the user to send LED ON/OFF command to the UDP client using PSoC&#8482; 6 MCU.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-anycloud-udp-server/blob/master/README.md">README on GitHub</a>.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-wifi-udp-server/blob/master/README.md">README on GitHub</a>.
     <br><br><b>License Disclaimer:</b><br><br>
     This code example makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license. <br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).]]></description>
-    <req_capabilities>psoc6 cyw43xxx wifi switch anycloud</req_capabilities>
+    <req_capabilities>psoc6 cyw43xxx wifi switch</req_capabilities>
     <versions>
       <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
         <num>Latest 1.X release</num>
