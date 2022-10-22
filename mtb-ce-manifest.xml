@@ -1014,7 +1014,7 @@
   <app>
     <name>USB Audio Device FreeRTOS</name>
     <id>mtb-example-psoc6-usb-audio-device-freertos-0</id>
-    <uri>http://git-ore.aus.cypress.com/repo-staging/mtb-example-psoc6-usb-audio-device-freertos</uri>
+    <uri>http://github.com/cypresssemiconductorco/mtb-example-psoc6-usb-audio-device-freertos</uri>
     <description><![CDATA[This example demonstrates how to use PSoC&#8482; 6 MCU to implement a USB Audio Device and HID Audio Playback Control that connects to the PC via the USB interface. The example also uses FreeRTOS.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-usb-audio-device-freertos/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 std_crypto usb_device capsense_button capsense_linear_slider i2s</req_capabilities>
