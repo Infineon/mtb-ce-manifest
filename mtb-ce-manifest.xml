@@ -990,34 +990,6 @@
     </versions>
   </app>
   <app>
-    <name>AnyCloud TCP Server</name>
-    <id>mtb-example-anycloud-tcp-server-0</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-tcp-server</uri>
-    <description><![CDATA[This code example demonstrates implementation of a TCP server with PSoC&#8482; 6 MCU and CYW43xxx connectivity devices.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-anycloud-tcp-server/blob/master/README.md">README on GitHub</a>.
-    <br><br><b>License Disclaimer:</b><br><br>
-    This code example makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license. <br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).]]></description>
-    <req_capabilities>psoc6 wifi cyw43xxx led switch anycloud</req_capabilities>
-    <versions>
-      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
-      </version>
-      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
-        <num>1.2.0 release</num>
-        <commit>release-v1.2.0</commit>
-      </version>
-      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
-        <num>1.1.0 release</num>
-        <commit>release-v1.1.0</commit>
-      </version>
-      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
-        <num>1.0.0 release</num>
-        <commit>release-v1.0.0</commit>
-      </version>
-    </versions>
-  </app>
-  <app>
     <name>USB Audio Recorder</name>
     <id>mtb-example-psoc6-usb-audio-recorder-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-usb-audio-recorder</uri>

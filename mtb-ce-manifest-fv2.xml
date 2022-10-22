@@ -246,7 +246,7 @@
     <name>CAPSENSE Buttons and Slider</name>
     <id>mtb-example-psoc6-capsense-buttons-slider</id>
     <category>Sensing</category>
-    <uri>https://github.com/Infineon/mtb-example-psoc6-capsense-buttons-slider</uri>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-capsense-buttons-slider</uri>
     <description><![CDATA[This code example features a 5-segment CAPSENSE&#8482; slider and two CAPSENSE&#8482; buttons. Button 0 turns the LED on, Button 1 turns the LED off and the slider controls the brightness of the LED. The code example also demonstrates interfacing with Tuner GUI using I2C interface.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-capsense-buttons-slider/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 led capsense_button capsense_linear_slider</req_capabilities>
@@ -4703,7 +4703,7 @@ iBeacon UUID data.
     <name>OTA Using MQTT</name>
     <id>mtb-example-ota-mqtt</id>
     <category>Wi-Fi</category>
-    <uri>https://github.com/Infineon/repo-staging/mtb-example-ota-mqtt</uri>
+    <uri>https://github.com/Infineon/mtb-example-ota-mqtt</uri>
     <description><![CDATA[This code example demonstrates OTA update with PSoC&#8482; 6 MCU and AIROC&#8482 CYW43xxx Wi-Fi & Bluetooth&#174; combo chips. The device establishes a connection with the designated MQTT broker (this example uses a local Mosquitto broker). It periodically checks the job document to see if a new update is available. When a new update is available, it is downloaded and written to the secondary slot. On the next reboot, MCUboot swaps the new image in the secondary slot with the primary slot image and runs the application. If the new image is not validated in runtime, on the next reboot MCUboot reverts to the previously validated image.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ota-mqtt/blob/master/README.md">README on GitHub</a>.
     <br><br><b>License Disclaimer:</b><br><br>
@@ -5968,7 +5968,7 @@ iBeacon UUID data.
     <name>QSPI Flash Read Write Using SFDP</name>
     <id>mtb-example-psoc6-qspi-readwrite-sfdp</id>
     <category>Peripherals</category>
-    <uri>https://github.com/Infineon/mtb-example-psoc6-qspi-readwrite-sfdp</uri>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-qspi-readwrite-sfdp</uri>
     <description><![CDATA[This example demonstrates interfacing with an external NOR flash memory in Quad-SPI mode using the Serial Memory Interface (SMIF) block in PSoC&#8482; 6 MCU. This example uses the Serial Flash Discoverable Parameters (SFDP) standard to auto-discover the flash parameters and the commands for read, program, and erase operations.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-qspi-readwrite-sfdp/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 std_crypto led qspi nor_flash</req_capabilities>
