@@ -3160,6 +3160,14 @@ iBeacon UUID data.
     <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
     <req_capabilities>xmc</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -3228,6 +3236,14 @@ iBeacon UUID data.
     <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
     <req_capabilities>xmc led</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -3412,6 +3428,14 @@ iBeacon UUID data.
     <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
     <req_capabilities>xmc</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -3444,6 +3468,14 @@ iBeacon UUID data.
     <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
     <req_capabilities>xmc led</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -3516,6 +3548,14 @@ iBeacon UUID data.
     <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
     <req_capabilities>xmc dma</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -3540,6 +3580,14 @@ iBeacon UUID data.
     <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
     <req_capabilities>xmc i2c led</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -3560,6 +3608,14 @@ iBeacon UUID data.
     <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
     <req_capabilities>xmc led</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -3616,6 +3672,18 @@ iBeacon UUID data.
     <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
     <req_capabilities>xmc led adc</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>2.0.1 release</num>
+        <commit>release-v2.0.1</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -3640,6 +3708,14 @@ iBeacon UUID data.
     <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
     <req_capabilities>xmc rtc led</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -3760,6 +3836,14 @@ iBeacon UUID data.
     <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
     <req_capabilities>xmc dac</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -3816,6 +3900,14 @@ iBeacon UUID data.
     <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
     <req_capabilities>xmc</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -3836,6 +3928,14 @@ iBeacon UUID data.
     <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
     <req_capabilities>xmc can led</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -3912,6 +4012,14 @@ iBeacon UUID data.
     <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
     <req_capabilities>xmc dma spi led</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -3960,6 +4068,14 @@ iBeacon UUID data.
     <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
     <req_capabilities>xmc can led</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -3980,6 +4096,14 @@ iBeacon UUID data.
     <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
     <req_capabilities>xmc led</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -4048,6 +4172,14 @@ iBeacon UUID data.
     <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
     <req_capabilities>xmc led</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -4230,6 +4362,14 @@ iBeacon UUID data.
     <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
     <req_capabilities>xmc xmc4000</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -4250,6 +4390,14 @@ iBeacon UUID data.
     <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
     <req_capabilities>xmc led</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -4270,6 +4418,14 @@ iBeacon UUID data.
     <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
     <req_capabilities>xmc led xmc1000</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -4443,6 +4599,14 @@ iBeacon UUID data.
     <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
     <req_capabilities>xmc led</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -4463,6 +4627,14 @@ iBeacon UUID data.
     <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
     <req_capabilities>xmc adc</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -4504,6 +4676,14 @@ iBeacon UUID data.
     <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
     <req_capabilities>xmc</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
