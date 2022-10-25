@@ -125,19 +125,19 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-ble-battery-level-freertos/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 led switch ble</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.4.0">
+      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.4.1">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.4.0">
+      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.4.1">
         <num>1.2.0 release</num>
         <commit>release-v1.2.0</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.4.0">
+      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.4.1">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.4.0">
+      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.4.1">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -1257,11 +1257,11 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-ble-throughput-freertos/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 led switch ble</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.4.0">
+      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.4.1">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.4.0">
+      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.4.1">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
