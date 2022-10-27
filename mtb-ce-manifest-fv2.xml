@@ -577,7 +577,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="oob,led,starter,hello world,mtb-flow" req_capabilities_v2="hal led uart switch [xmc7000] [kit_xmc72_evk]">
+  <app keywords="oob,led,starter,hello world,mtb-flow" req_capabilities_v2="hal led uart switch [xmc7000,t2gbh] [kit_xmc72_evk,kit_t2g_b_h_evk]">
     <name>XMC7000 OOB Demo</name>
     <id>mtb-example-xmc7000-oob-demo</id>
     <category>Getting Started</category>
