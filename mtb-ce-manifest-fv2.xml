@@ -2014,7 +2014,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,psoc4,capsense,slider,linear slider,csd,tuning,i2c,tuner">
+  <app keywords="mtb-flow,psoc4,capsense,slider,linear slider,csd,tuning,i2c,tuner" req_capabilities_v2="psoc4 capsense_linear_slider">
     <name>CAPSENSE CSD Slider Tuning</name>
     <id>mtb-example-psoc4-capsense-csd-slider-tuning</id>
     <category>Sensing</category>
@@ -2023,6 +2023,14 @@ iBeacon UUID data.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-capsense-csd-slider-tuning/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc4 capsense_linear_slider</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>3.0.0 release</num>
+        <commit>release-v3.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version_v2="[bsp_gen3]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
@@ -2449,7 +2457,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="psoc4,i2c,i2c-slave,callback,pwm,mtb-flow">
+  <app keywords="psoc4,i2c,i2c-slave,callback,pwm,mtb-flow" req_capabilities_v2="psoc4 led">
     <name>I2C Slave Using Callbacks</name>
     <id>mtb-example-psoc4-i2c-slave-callback</id>
     <category>Peripherals</category>
@@ -2458,6 +2466,14 @@ iBeacon UUID data.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-i2c-slave-callback/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc4 led</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>3.0.0 release</num>
+        <commit>release-v3.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version_v2="[bsp_gen3]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
@@ -2472,7 +2488,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,psoc4,tcpwm,interrupt">
+  <app keywords="mtb-flow,psoc4,tcpwm,interrupt" req_capabilities_v2="psoc4 led">
     <name>Periodic Interrupt Using TCPWM</name>
     <id>mtb-example-psoc4-tcpwm-interrupt</id>
     <category>Peripherals</category>
@@ -2481,6 +2497,14 @@ iBeacon UUID data.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-tcpwm-interrupt/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc4 led</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>3.0.0 release</num>
+        <commit>release-v3.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version_v2="[bsp_gen3]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
@@ -2518,7 +2542,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="psoc4,mtb-flow,gpio,interrupt,isr,led,deep sleep">
+  <app keywords="psoc4,mtb-flow,gpio,interrupt,isr,led,deep sleep" req_capabilities_v2="psoc4 led">
     <name>GPIO Interrupt</name>
     <id>mtb-example-psoc4-gpio-interrupt</id>
     <category>Peripherals</category>
@@ -2527,6 +2551,14 @@ iBeacon UUID data.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-gpio-interrupt/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc4 led</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>3.0.0 release</num>
+        <commit>release-v3.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version_v2="[bsp_gen3]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
@@ -2541,7 +2573,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="psoc4,capsense,csx,button,tuning,ezi2c,mtb-flow">
+  <app keywords="psoc4,capsense,csx,button,tuning,ezi2c,mtb-flow" req_capabilities_v2="psoc4 capsense_button">
     <name>CAPSENSE CSX Button Tuning</name>
     <id>mtb-example-psoc4-capsense-csx-button-tuning</id>
     <category>Sensing</category>
@@ -2550,6 +2582,14 @@ iBeacon UUID data.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-capsense-csx-button-tuning/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc4 capsense_button</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 4.X release</num>
+        <commit>latest-v4.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>4.0.0 release</num>
+        <commit>release-v4.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version_v2="[bsp_gen3]">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
@@ -2568,7 +2608,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="psoc4,i2c,i2c-master,ezi2c-slave,mtb-flow">
+  <app keywords="psoc4,i2c,i2c-master,ezi2c-slave,mtb-flow" req_capabilities_v2="psoc4 led">
     <name>I2C Master EzI2C Slave</name>
     <id>mtb-example-psoc4-i2c-master-slave</id>
     <category>Peripherals</category>
@@ -2577,6 +2617,14 @@ iBeacon UUID data.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-i2c-master-slave/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc4 led</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>3.0.0 release</num>
+        <commit>release-v3.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version_v2="[bsp_gen3]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
@@ -2591,7 +2639,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,psoc4,spi,master">
+  <app keywords="mtb-flow,psoc4,spi,master" req_capabilities_v2="psoc4">
     <name>SPI Master</name>
     <id>mtb-example-psoc4-spi-master</id>
     <category>Peripherals</category>
@@ -2600,6 +2648,14 @@ iBeacon UUID data.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-spi-master/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc4</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version_v2="[bsp_gen3]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -2614,7 +2670,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,psoc4,spi,slave">
+  <app keywords="mtb-flow,psoc4,spi,slave" req_capabilities_v2="psoc4 led">
     <name>SPI Slave</name>
     <id>mtb-example-psoc4-spi-slave</id>
     <category>Peripherals</category>
@@ -2623,6 +2679,14 @@ iBeacon UUID data.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-spi-slave/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc4 led</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version_v2="[bsp_gen3]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -2637,7 +2701,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,psoc4,uart,dma">
+  <app keywords="mtb-flow,psoc4,uart,dma" req_capabilities_v2="psoc4 dma">
     <name>SCB UART Transmit and Receive with DMA</name>
     <id>mtb-example-psoc4-uart-transmit-receive-dma</id>
     <category>Peripherals</category>
@@ -2646,6 +2710,14 @@ iBeacon UUID data.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-uart-transmit-receive-dma/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc4 dma</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version_v2="[bsp_gen3]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -2864,7 +2936,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,psoc4,wdc,interrupt">
+  <app keywords="mtb-flow,psoc4,wdc,interrupt" req_capabilities_v2="psoc4 lptimer led">
     <name>Watchdog Counter Interrupts</name>
     <id>mtb-example-psoc4-wdc</id>
     <category>Peripherals</category>
@@ -2873,6 +2945,14 @@ iBeacon UUID data.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-wdc/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc4 lptimer led</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version_v2="[bsp_gen3]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -3065,7 +3145,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="psoc4,capsense,csd,button,tuning,ezi2c,mtb-flow">
+  <app keywords="psoc4,capsense,csd,button,tuning,ezi2c,mtb-flow" req_capabilities_v2="psoc4 led capsense_button">
     <name>CAPSENSE CSD Button Tuning</name>
     <id>mtb-example-psoc4-capsense-csd-button-tuning</id>
     <category>Sensing</category>
@@ -3074,6 +3154,14 @@ iBeacon UUID data.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-capsense-csd-button-tuning/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc4 led capsense_button</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>3.0.0 release</num>
+        <commit>release-v3.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version_v2="[bsp_gen3]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
@@ -3092,7 +3180,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="psoc4,msc,capsense,csd,button,tuning,mtb-flow">
+  <app keywords="psoc4,msc,capsense,csd,button,tuning,mtb-flow" req_capabilities_v2="psoc4 led msc_button">
     <name>MSC CAPSENSE CSD Button Tuning</name>
     <id>mtb-example-psoc4-msc-capsense-csd-button-tuning</id>
     <category>Sensing</category>
@@ -3101,6 +3189,14 @@ iBeacon UUID data.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-msc-capsense-csd-button-tuning/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc4 led msc_button</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>3.0.0 release</num>
+        <commit>release-v3.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version_v2="[bsp_gen3]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
@@ -3119,7 +3215,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="psoc4,msc,capsense,csx,button,tuning,mtb-flow">
+  <app keywords="psoc4,msc,capsense,csx,button,tuning,mtb-flow" req_capabilities_v2="psoc4 led msc_button">
     <name>MSC CAPSENSE CSX Button Tuning</name>
     <id>mtb-example-psoc4-msc-capsense-csx-button-tuning</id>
     <category>Sensing</category>
@@ -3128,6 +3224,14 @@ iBeacon UUID data.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-msc-capsense-csx-button-tuning/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc4 led msc_button</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>3.0.0 release</num>
+        <commit>release-v3.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version_v2="[bsp_gen3]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
@@ -5349,7 +5453,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,bmi160,motion,motion-sensor,bmi160,freertos,mtb-flow">
+  <app keywords="psoc6,bmi160,motion,motion-sensor,bmi160,freertos,mtb-flow" req_capabilities_v2="psoc6">
     <name>BMI160 Motion Sensor over I2C FreeRTOS</name>
     <id>mtb-example-psoc6-bmi160-motion-sensor-freertos</id>
     <category>Sensing</category>
@@ -5358,9 +5462,21 @@ iBeacon UUID data.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-bmi160-motion-sensor-freertos/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>1.0.0 release</num>
@@ -5790,7 +5906,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,emulated,eeprom,flash,mtb-flow">
+  <app keywords="psoc6,emulated,eeprom,flash,mtb-flow" req_capabilities_v2="psoc6 led">
     <name>Emulated EEPROM</name>
     <id>mtb-example-psoc6-emulated-eeprom</id>
     <category>Peripherals</category>
@@ -5799,6 +5915,14 @@ iBeacon UUID data.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-emulated-eeprom/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 led</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>3.0.0 release</num>
+        <commit>release-v3.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
@@ -6407,7 +6531,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="psoc4,sar,adc,die temperature,opamp">
+  <app keywords="psoc4,sar,adc,die temperature,opamp" req_capabilities_v2="psoc4 adc opamp">
     <name>SAR ADC BASIC</name>
     <id>mtb-example-psoc4-sar-adc</id>
     <category>Peripherals</category>
@@ -6416,6 +6540,14 @@ iBeacon UUID data.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-sar-adc/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc4 adc opamp</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version_v2="[bsp_gen3]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
