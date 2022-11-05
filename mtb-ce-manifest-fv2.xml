@@ -2732,7 +2732,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,psoc4,led,pwm,tcpwm,dma,breathing">
+  <app keywords="mtb-flow,psoc4,led,pwm,tcpwm,dma,breathing" req_capabilities_v2="psoc4 led dma">
     <name>PWM Triggering a DMA Channel</name>
     <id>mtb-example-psoc4-pwm-trigger-dma</id>
     <category>Peripherals</category>
@@ -2741,6 +2741,14 @@ iBeacon UUID data.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-pwm-trigger-dma/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc4 led dma</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version_v2="[bsp_gen3]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -2755,15 +2763,23 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,psoc4,uart,transmit,receive">
+  <app keywords="mtb-flow,psoc4,uart,transmit,receive" req_capabilities_v2="psoc4 led">
     <name>UART Transmit and Receive</name>
-    <id>mtb-example-psoc4-uart-trasmit-receive</id>
+    <id>mtb-example-psoc4-uart-transmit-receive</id>
     <category>Peripherals</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc4-uart-transmit-receive</uri>
     <description><![CDATA[This example demonstrates the UART transmit and receive operation in PSoC&#8482; 4 device. The application uses a serial terminal to read data and to echo back the received data.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-uart-transmit-receive/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc4 led</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version_v2="[bsp_gen3]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -2913,7 +2929,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="psoc4,wdt,interrupt,reset,deepsleep,mtb-flow">
+  <app keywords="psoc4,wdt,interrupt,reset,deepsleep,mtb-flow" req_capabilities_v2="psoc4">
     <name>Watchdog timer interrupt and reset</name>
     <id>mtb-example-psoc4-wdt</id>
     <category>Peripherals</category>
@@ -2922,6 +2938,14 @@ iBeacon UUID data.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-wdt/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc4</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version_v2="[bsp_gen3]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -2967,7 +2991,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,psoc4,gpio,pins">
+  <app keywords="mtb-flow,psoc4,gpio,pins" req_capabilities_v2="psoc4 led">
     <name>GPIO Pins</name>
     <id>mtb-example-psoc4-gpio</id>
     <category>Peripherals</category>
@@ -2976,6 +3000,14 @@ iBeacon UUID data.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-gpio/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc4 led</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version_v2="[bsp_gen3]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -3122,7 +3154,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow, psoc4, low power, uart, led">
+  <app keywords="mtb-flow, psoc4, low power, uart, led" req_capabilities_v2="psoc4 led">
     <name>Power Modes</name>
     <id>mtb-example-psoc4-power-modes</id>
     <category>Getting Started</category>
@@ -3131,6 +3163,14 @@ iBeacon UUID data.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-power-modes/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc4 led</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version_v2="[bsp_gen3]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
