@@ -1151,7 +1151,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,cryptography,sha2,message digest,hash,mtb-flow" req_capabilities_v2="uart [psoc6]">
+  <app keywords="cryptography,sha2,message digest,hash,mtb-flow" req_capabilities_v2="uart [psoc6]">
     <name>Cryptography SHA Demonstration</name>
     <id>mtb-example-psoc6-crypto-sha</id>
     <category>Peripherals</category>
@@ -1160,6 +1160,14 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-crypto-sha/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>uart</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>3.0.0 release</num>
+        <commit>release-v3.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
@@ -1934,17 +1942,25 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,anycloud,wifi,mtb-flow,wcm,wps,enrollee,wps-pbc,wps-sta-pin" req_capabilities_v2="psoc6 wifi cyw43xxx led switch [flash_2048k, flash_1024k]">
+  <app keywords="psoc6,wifi,mtb-flow,wcm,wps,enrollee,wps-pbc,wps-sta-pin" req_capabilities_v2="psoc6 wifi cyw43xxx led switch [flash_2048k,flash_1024k]">
     <name>WPS Enrollee</name>
-    <id>mtb-example-anycloud-wps-enrollee</id>
+    <id>mtb-example-wifi-wps-enrollee</id>
     <category>Wi-Fi</category>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-wps-enrollee</uri>
+    <uri>https://github.com/Infineon/mtb-example-wifi-wps-enrollee</uri>
     <description><![CDATA[This code example demonstrates how to use the connection management and WPS Enrollee feature provided in the Wi-Fi Connection Manager (WCM) middleware.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-anycloud-wps-enrollee/blob/master/README.md">README on GitHub</a>.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-wifi-wps-enrollee/blob/master/README.md">README on GitHub</a>.
     <br><br><b>License Disclaimer:</b><br><br>
     This code example makes use of the lwIP open-source TCP/IP stack and the Mbed TLS open-source TLS/SSL library which has cryptographic capabilities. Creating a project from this template will cause lwIP and Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the lwIP &amp; Mbed TLS licenses and regional use restrictions (including abiding by all applicable export control laws).]]></description>
     <req_capabilities>psoc6 wifi cyw43xxx led switch</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>3.0.0 release</num>
+        <commit>release-v3.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
@@ -2519,7 +2535,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="psoc4,uart,led,mtb-flow">
+  <app keywords="psoc4,uart,led,mtb-flow" req_capabilities_v2="psoc4 led">
     <name>Hello World</name>
     <id>mtb-example-psoc4-hello-world</id>
     <category>Getting Started</category>
@@ -2528,6 +2544,14 @@ iBeacon UUID data.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-hello-world/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc4 led</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version_v2="[bsp_gen3]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -5139,17 +5163,25 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,psoc6,anycloud,http,https,server,wifi" req_capabilities_v2="psoc6 cyw43xxx led wifi [flash_2048k, flash_1024k, flash_512k]">
-    <name>HTTPS Server</name>
-    <id>mtb-example-anycloud-https-server</id>
+  <app keywords="mtb-flow,psoc6,http,https,server,wifi" req_capabilities_v2="psoc6 cyw43xxx led wifi [flash_2048k,flash_1024k,flash_512k]">
+    <name>WiFi HTTPS Server</name>
+    <id>mtb-example-wifi-https-server</id>
     <category>Wi-Fi</category>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-https-server</uri>
+    <uri>https://github.com/Infineon/mtb-example-wifi-https-server</uri>
     <description><![CDATA[This code example demonstrates the implementation of an HTTPS server with PSoC&#8482; 6 MCU and CYW43xxx connectivity devices. It employs the HTTPS server middleware library, which takes care of all the underlying socket connections with the HTTPS client. This example establishes a secure connection with a HTTPS client through SSL handshake. Once the SSL handshake completes successfully, the HTTPS client can make GET, POST, and PUT requests with the server.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-anycloud-https-server/blob/master/README.md">README on GitHub</a>.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-wifi-https-server/blob/master/README.md">README on GitHub</a>.
     <br><br><b>License Disclaimer:</b><br><br>
     This code example makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license.<br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).]]></description>
     <req_capabilities>psoc6 cyw43xxx led wifi</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 4.X release</num>
+        <commit>latest-v4.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>4.0.0 release</num>
+        <commit>release-v4.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
@@ -5524,15 +5556,23 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,cryptography,aes,mtb-flow" req_capabilities_v2="uart [psoc6]">
+  <app keywords="cryptography,aes,mtb-flow" req_capabilities_v2="uart [psoc6]">
     <name>Cryptography AES Demonstration</name>
     <id>mtb-example-psoc6-crypto-aes</id>
     <category>Peripherals</category>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-crypto-aes</uri>
+    <uri>https://github.com/Infineon/mtb-example-psoc6-crypto-aes</uri>
     <description><![CDATA[This code example encrypts and decrypts user input data using the AES algorithm using a 128-bit key. The encrypted and decrypted data are displayed on a UART terminal emulator.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-crypto-aes/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>uart</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>3.0.0 release</num>
+        <commit>release-v3.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
@@ -6267,15 +6307,23 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="psoc4,lin">
+  <app keywords="psoc4,lin" req_capabilities_v2="psoc4 lin rgb_led">
     <name>LIN Slave</name>
     <id>mtb-example-psoc4-lin-slave</id>
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-psoc4-lin-slave</uri>
     <description><![CDATA[This code example shows how to implement a basic LIN 2.2 slave using the LIN Middleware in PSoC&#8482; 4. PSoC&#8482; 4 responds to an external LIN Master's commands to either turn on the corresponding color LED on PSoC&#8482; development kit or report the current LED color status.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-lin-slave/blob/master/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>psoc4 lin</req_capabilities>
+    <req_capabilities>psoc4 lin rgb_led</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.3.1" req_capabilities_per_version="bsp_gen2">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
