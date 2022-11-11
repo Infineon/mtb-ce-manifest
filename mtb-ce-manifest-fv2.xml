@@ -5560,7 +5560,7 @@ iBeacon UUID data.
     <name>Cryptography AES Demonstration</name>
     <id>mtb-example-psoc6-crypto-aes</id>
     <category>Peripherals</category>
-    <uri>https://github.com/Infineon/mtb-example-psoc6-crypto-aes</uri>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-crypto-aes</uri>
     <description><![CDATA[This code example encrypts and decrypts user input data using the AES algorithm using a 128-bit key. The encrypted and decrypted data are displayed on a UART terminal emulator.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-crypto-aes/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>uart</req_capabilities>
