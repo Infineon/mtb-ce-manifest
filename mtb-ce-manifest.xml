@@ -1360,14 +1360,14 @@
     </versions>
   </app>
   <app>
-    <name>AnyCloud WPS Enrollee</name>
-    <id>mtb-example-anycloud-wps-enrollee-0</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-wps-enrollee</uri>
+    <name>WPS Enrollee</name>
+    <id>mtb-example-wifi-wps-enrollee-0</id>
+    <uri>https://github.com/Infineon/mtb-example-wifi-wps-enrollee</uri>
     <description><![CDATA[This code example demonstrates how to use the connection management and WPS Enrollee feature provided in the Wi-Fi Connection Manager (WCM) middleware.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-anycloud-wps-enrollee/blob/master/README.md">README on GitHub</a>.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-wifi-wps-enrollee/blob/master/README.md">README on GitHub</a>.
     <br><br><b>License Disclaimer:</b><br><br>
     This code example makes use of the lwIP open-source TCP/IP stack and the Mbed TLS open-source TLS/SSL library which has cryptographic capabilities. Creating a project from this template will cause lwIP and Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the lwIP &amp; Mbed TLS licenses and regional use restrictions (including abiding by all applicable export control laws).]]></description>
-    <req_capabilities>psoc6 wifi cyw43xxx led switch anycloud</req_capabilities>
+    <req_capabilities>psoc6 wifi cyw43xxx led switch</req_capabilities>
     <versions>
       <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
         <num>Latest 1.X release</num>
@@ -1384,14 +1384,14 @@
     </versions>
   </app>
   <app>
-    <name>AnyCloud Wi-Fi Scan</name>
+    <name>Wi-Fi Scan</name>
     <id>mtb-example-wifi-scan-0</id>
     <uri>https://github.com/Infineon/mtb-example-wifi-scan</uri>
     <description><![CDATA[This code example demonstrates how to configure different scan filters provided in the Wi-Fi Connection Manager (WCM) middleware and scan for the available Wi-Fi networks.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-wifi-scan/blob/master/README.md">README on GitHub</a>.
     <br><br><b>License Disclaimer:</b><br><br>
     This code example makes use of the lwIP open-source TCP/IP stack and the Mbed TLS open-source TLS/SSL library which has cryptographic capabilities. Creating a project from this template will cause lwIP and Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the lwIP &amp; Mbed TLS licenses and regional use restrictions (including abiding by all applicable export control laws).]]></description>
-    <req_capabilities>psoc6 wifi cyw43xxx led switch anycloud</req_capabilities>
+    <req_capabilities>psoc6 wifi cyw43xxx led switch</req_capabilities>
     <versions>
       <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
         <num>Latest 1.X release</num>
@@ -1650,14 +1650,14 @@
     </versions>
   </app>
   <app>
-    <name>AnyCloud HTTPS Server</name>
-    <id>mtb-example-anycloud-https-server-0</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-https-server</uri>
+    <name>WiFi HTTPS Server</name>
+    <id>mtb-example-wifi-https-server-0</id>
+    <uri>https://github.com/Infineon/mtb-example-wifi-https-server</uri>
     <description><![CDATA[This code example demonstrates the implementation of an HTTPS server with PSoC&#8482; 6 MCU and CYW43xxx connectivity devices. It employs the HTTPS server middleware library, which takes care of all the underlying socket connections with the HTTPS client. This example establishes a secure connection with a HTTPS client through SSL handshake. Once the SSL handshake completes successfully, the HTTPS client can make GET, POST, and PUT requests with the server.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-anycloud-https-server/blob/master/README.md">README on GitHub</a>.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-wifi-https-server/blob/master/README.md">README on GitHub</a>.
     <br><br><b>License Disclaimer:</b><br><br>
     This code example makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license. <br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).]]></description>
-    <req_capabilities>psoc6 cyw43xxx led wifi anycloud</req_capabilities>
+    <req_capabilities>psoc6 cyw43xxx led wifi</req_capabilities>
     <versions>
       <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
         <num>Latest 1.X release</num>
