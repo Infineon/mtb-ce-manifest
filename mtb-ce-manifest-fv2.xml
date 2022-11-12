@@ -2543,14 +2543,14 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="psoc4,uart,led,mtb-flow" req_capabilities_v2="cat2 led psoc4">
+  <app keywords="psoc4,uart,led,mtb-flow" req_capabilities_v2="cat2 hal led psoc4">
     <name>Hello World</name>
     <id>mtb-example-psoc4-hello-world</id>
     <category>Getting Started</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc4-hello-world</uri>
     <description><![CDATA[This code example demonstrates simple UART communication by printing a "Hello world" message on a terminal and blinks an LED using PSoC&#8482; 4 devices.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-hello-world/blob/master/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>cat2 led psoc4</req_capabilities>
+    <req_capabilities>cat2 hal led psoc4</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>Latest 2.X release</num>
