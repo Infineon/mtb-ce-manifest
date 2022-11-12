@@ -6572,7 +6572,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="btsdk keyboard scanner cyw208xx row column">
+  <app keywords="btsdk keyboard scanner cyw208xx row column" req_capabilities_v2="fw2 btsdk CYW208XX_62fbga [CYW920819EVB_02, CYW920820EVB_02, CYW920820M2EVB_01]">
     <name>HAL Keyboard Scanner</name>
     <id>mtb-example-btsdk-cyw208xx-keyboard-scanner</id>
     <category>Bluetooth&#174;</category>
