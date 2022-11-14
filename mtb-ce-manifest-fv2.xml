@@ -7817,4 +7817,23 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
+  <app keywords="btsdk,findme,bluetooth,profile" req_capabilities_v2="fw2 btsdk [CYW920819EVB_02, CYW920819M2EVB_01, CYW920820EVB_02, CYW920820M2EVB_01, CYW920835M2EVB_01, CYW920719B2Q40EVB_01]">
+    <name>LE Find Me</name>
+    <id>mtb-example-btsdk-ble-findme</id>
+    <category>Bluetooth&#174;</category>
+    <uri>https://github.com/Infineon/mtb-example-btsdk-ble-findme</uri>
+    <description><![CDATA[This application demonstrates the implementation of a simple LE Immediate Alert Service (IAS)-based Find Me Profile (FMP).
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btsdk-ble-findme/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>fw2 btsdk</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen2">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>  
 </apps>
