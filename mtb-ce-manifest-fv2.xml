@@ -7643,6 +7643,24 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
+  <app keywords="motor-control,mtb-flow">
+    <name>Multi Half-Bridge</name>
+    <id>mtb-example-multi-half-bridge</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-multi-half-bridge</uri>
+    <description><![CDATA[This example shows the usage of the Infineon multi half-bridge library with several application examples.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-multi-half-bridge/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>spi hal</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen2">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
   <app keywords="psoc6,csdidac,mtb-flow,capsense,csd,dac" req_capabilities_v2="psoc6 capsense [flash_2048k,flash_1024k,flash_512k]">
     <name>CSD Current DAC</name>
     <id>mtb-example-psoc6-csdidac</id>
