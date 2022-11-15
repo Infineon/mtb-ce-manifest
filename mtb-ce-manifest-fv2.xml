@@ -3186,14 +3186,14 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow, psoc4, low power, uart, led" req_capabilities_v2="psoc4 led">
+  <app keywords="mtb-flow, psoc4, low power, uart, led" req_capabilities_v2="capsense led psoc4">
     <name>Power Modes</name>
     <id>mtb-example-psoc4-power-modes</id>
     <category>Getting Started</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc4-power-modes</uri>
     <description><![CDATA[This code example shows how to enter system Sleep and Deep Sleep modes. After entering Deep Sleep or Sleep mode, the example also shows how to wake up from these low-power modes and return to normal Active mode.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-power-modes/blob/master/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>psoc4 led</req_capabilities>
+    <req_capabilities>capsense led psoc4</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>Latest 2.X release</num>
