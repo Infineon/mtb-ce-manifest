@@ -5508,13 +5508,21 @@ iBeacon UUID data.
   </app>
   <app keywords="cryptography,trng,mtb-flow" req_capabilities_v2="hal [psoc6,xmc7000,t2gbh]">
     <name>Cryptography TRNG Demonstration</name>
-    <id>mtb-example-psoc6-crypto-trng</id>
+    <id>mtb-example-hal-crypto-trng</id>
     <category>Peripherals</category>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-crypto-trng</uri>
+    <uri>https://github.com/Infineon/mtb-example-hal-crypto-trng</uri>
     <description><![CDATA[This code example demonstrates generating a One-Time Password (OTP) using the True Random Number generation feature of MCU cryptography block.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-crypto-trng/blob/master/README.md">README on GitHub</a>.]]></description>
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-hal-crypto-trng/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>hal</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>3.0.0 release</num>
+        <commit>release-v3.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
@@ -6089,19 +6097,31 @@ iBeacon UUID data.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ml-profiler/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 uart</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>3.1.0 release</num>
+        <commit>release-v3.1.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>3.0.0 release</num>
+        <commit>release-v3.1.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.4.0" tools_max_version="2.4.1" req_capabilities_per_version="bsp_gen2">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.4.0" tools_max_version="2.4.1" req_capabilities_per_version="bsp_gen2">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.1" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.1" tools_max_version="2.4.1" req_capabilities_per_version="bsp_gen2">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.1" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.1" tools_max_version="2.4.1" req_capabilities_per_version="bsp_gen2">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
@@ -6230,7 +6250,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,machine-learning,ml,bmx160,gesture,motion sensor,mtb-flow">
+  <app keywords="psoc6,machine-learning,ml,bmx160,gesture,motion sensor,mtb-flow" req_capabilities_v2="psoc6 spi arduino cyw43xxx">
     <name>Machine Learning Gesture Classification</name>
     <id>mtb-example-ml-gesture-classification</id>
     <category>Machine Learning</category>
@@ -6239,23 +6259,31 @@ iBeacon UUID data.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ml-gesture-classification/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 spi arduino cyw43xxx</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>3.0.0 release</num>
+        <commit>release-v3.0.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.4.0" tools_max_version="2.4.1" req_capabilities_per_version="bsp_gen2">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.4.0" tools_max_version="2.4.1" req_capabilities_per_version="bsp_gen2">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.1" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.1" tools_max_version="2.4.1" req_capabilities_per_version="bsp_gen2">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.1" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.1" tools_max_version="2.4.1" req_capabilities_per_version="bsp_gen2">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.1" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.1" tools_max_version="2.4.1" req_capabilities_per_version="bsp_gen2">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
