@@ -5545,14 +5545,14 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,bmi160,motion,motion-sensor,bmi160,freertos,mtb-flow" req_capabilities_v2="psoc6">
+  <app keywords="psoc6,bmi160,motion,motion-sensor,bmi160,freertos,mtb-flow" req_capabilities_v2="psoc6 i2c">
     <name>BMI160 Motion Sensor over I2C FreeRTOS</name>
     <id>mtb-example-psoc6-bmi160-motion-sensor-freertos</id>
     <category>Sensing</category>
     <uri>https://github.com/Infineon/mtb-example-psoc6-bmi160-motion-sensor-freertos</uri>
     <description><![CDATA[This code example demonstrates interfacing of the BMI160 Motion Sensor with PSoC&#8482; 6 MCU over an I2C interface within a FreeRTOS task. This example reads the raw motion data and estimates the orientation of the board.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-bmi160-motion-sensor-freertos/blob/master/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>psoc6</req_capabilities>
+    <req_capabilities>psoc6 i2c</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>Latest 2.X release</num>
