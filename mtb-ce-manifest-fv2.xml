@@ -1093,7 +1093,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,oled,emwin,freertos,display,mtb-flow" req_capabilities_v2="psoc6 arduino switch">
+  <app keywords="psoc6,oled,emwin,freertos,display,mtb-flow" req_capabilities_v2="psoc6 arduino switch [flash_2048k,flash_1856k,flash_1024k]">
     <name>emWin OLED FreeRTOS</name>
     <id>mtb-example-psoc6-emwin-oled-freertos</id>
     <category>Graphics</category>
