@@ -2202,17 +2202,25 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,psoc6,lpa,anycloud,wifi,wlan,lowpower" req_capabilities_v2="psoc6 wifi cyw43xxx led low_power [flash_2048k, flash_1024k, flash_512k, cy8ckit_064b0s2_4343w]">
+  <app keywords="mtb-flow,psoc6,lpa,wifi,wlan,lowpower" req_capabilities_v2="psoc6 wifi cyw43xxx led low_power [flash_2048k, flash_1024k, flash_512k, cy8ckit_064b0s2_4343w]">
     <name>WLAN Low Power</name>
-    <id>mtb-example-anycloud-wlan-lowpower</id>
+    <id>mtb-example-wifi-wlan-lowpower</id>
     <category>Wi-Fi</category>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-wlan-lowpower</uri>
+    <uri>https://github.com/Infineon/mtb-example-wifi-wlan-lowpower</uri>
     <description><![CDATA[This code example demonstrates the low-power operation of a host MCU and a WLAN device using the network activity handlers provided by the Low Power Assistant middleware for AIROC&#8482; Wi-Fi & Bluetooth&#174; combos.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-anycloud-wlan-lowpower/blob/master/README.md">README on GitHub</a>.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-wifi-wlan-lowpower/blob/master/README.md">README on GitHub</a>.
     <br><br><b>License Disclaimer:</b><br><br>
     This code example makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license. <br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).]]></description>
     <req_capabilities>psoc6 wifi cyw43xxx led low_power</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 4.X release</num>
+        <commit>latest-v4.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>4.0.0 release</num>
+        <commit>release-v4.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
