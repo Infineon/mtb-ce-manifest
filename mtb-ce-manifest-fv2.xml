@@ -1,5 +1,5 @@
 <apps version="2.0">
-  <app keywords="starter,template,empty,blank,mtb-flow" req_capabilities_v2="[psoc6,xmc7000,t2gbh,cyw920829m2evb_01,cat1d]">
+  <app keywords="starter,template,empty,blank,mtb-flow" req_capabilities_v2="[psoc6, xmc7000, t2gbh, cyw920829m2evb_01, cat1d]">
     <name>Empty App</name>
     <id>mtb-example-empty-app</id>
     <category>Getting Started</category>
@@ -88,18 +88,22 @@
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,led,lptimer,mtb-flow" req_capabilities_v2="psoc6 led low_power">
-    <name>Low-Power Timer</name>
-    <id>mtb-example-psoc6-lptimer</id>
+  <app keywords="psoc6,led,lptimer,mtb-flow" req_capabilities_v2="led low_power [psoc6, cyw920829m2evb_01]">
+    <name>HAL Low-Power Timer</name>
+    <id>mtb-example-hal-lptimer</id>
     <category>Peripherals</category>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-lptimer</uri>
-    <description><![CDATA[This example explains how to set up a low-power timer using the LPTimer HAL resource to measure the timing between events in free-running mode on PSoC&#8482; 6 MCU.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-lptimer/blob/master/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>psoc6 led low_power</req_capabilities>
+    <uri>https://github.com/Infineon/mtb-example-hal-lptimer</uri>
+    <description><![CDATA[This example explains how to configure up a low-power timer using the LPTimer HAL resource to measure the timing between events in free-running mode.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-hal-lptimer/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>led low_power</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>2.0.0 release</num>
@@ -154,17 +158,21 @@
       </version>
     </versions>
   </app>
-  <app keywords="wdt,mtb-flow" req_capabilities_v2="[psoc6,xmc7000,t2gbh]">
-    <name>Watchdog Timer</name>
-    <id>mtb-example-psoc6-wdt</id>
+  <app keywords="wdt,mtb-flow" req_capabilities_v2="[psoc6, xmc7000, t2gbh, cyw920829m2evb_01]">
+    <name>HAL Watchdog Timer</name>
+    <id>mtb-example-hal-wdt</id>
     <category>Peripherals</category>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-wdt</uri>
+    <uri>https://github.com/Infineon/mtb-example-hal-wdt</uri>
     <description><![CDATA[This example explains how to set up a Watchdog Timer (WDT) using the WDT HAL resource. The WDT resets the device if it is not serviced or "kicked" within the configured timeout interval. This helps in recovering the program from an unintended lock up.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-wdt/blob/master/README.md">README on GitHub</a>.]]></description>
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-hal-wdt/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>3.1.0 release</num>
+        <commit>release-v3.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>3.0.0 release</num>
@@ -215,8 +223,8 @@
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,led,pwm,square wave,frequency,duty cycle,blinky,blinking" req_capabilities_v2="hal led [psoc6,xmc7000,t2gbh,cyw920829m2evb_01]">
-    <name>PWM Square Wave</name>
+  <app keywords="mtb-flow,led,pwm,square wave,frequency,duty cycle,blinky,blinking" req_capabilities_v2="hal led [psoc6, xmc7000, t2gbh, cyw920829m2evb_01]">
+    <name>HAL PWM Square Wave</name>
     <id>mtb-example-hal-pwm-square-wave</id>
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-hal-pwm-square-wave</uri>
@@ -227,6 +235,10 @@
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>3.1.0 release</num>
+        <commit>release-v3.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>3.0.0 release</num>
@@ -394,18 +406,22 @@
       </version>
     </versions>
   </app>
-  <app keywords="i2c,master,slave,mtb-flow" req_capabilities_v2="hal led [psoc6,xmc7000,t2gbh]">
-    <name>I2C Master</name>
-    <id>mtb-example-psoc6-i2c-master</id>
+  <app keywords="i2c,master,slave,mtb-flow" req_capabilities_v2="hal led [psoc6, xmc7000, t2gbh, cyw920829m2evb_01]">
+    <name>HAL I2C Master</name>
+    <id>mtb-example-hal-i2c-master</id>
     <category>Peripherals</category>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-i2c-master</uri>
+    <uri>https://github.com/Infineon/mtb-example-hal-i2c-master</uri>
     <description><![CDATA[This example demonstrates the use of I2C (HAL) resource in Master mode.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-i2c-master/blob/master/README.md">README on GitHub</a>.]]></description>
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-hal-i2c-master/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>hal led</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>3.1.0 release</num>
+        <commit>release-v3.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>3.0.0 release</num>
@@ -503,15 +519,23 @@
       </version>
     </versions>
   </app>
-  <app keywords="spi,master,slave,mtb-flow" req_capabilities_v2="hal led [psoc6,xmc7000,t2gbh]">
-    <name>SPI Master</name>
-    <id>mtb-example-psoc6-spi-master</id>
+  <app keywords="spi,master,mtb-flow" req_capabilities_v2="hal led [psoc6, xmc7000, t2gbh, cyw920829m2evb_01]">
+    <name>HAL SPI Master</name>
+    <id>mtb-example-hal-spi-master</id>
     <category>Peripherals</category>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-spi-master</uri>
+    <uri>https://github.com/Infineon/mtb-example-hal-spi-master</uri>
     <description><![CDATA[This example demonstrates the use of SPI (HAL) resource in Master mode.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-spi-master/blob/master/README.md">README on GitHub</a>.]]></description>
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-hal-spi-master/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>hal led</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>3.0.0 release</num>
+        <commit>release-v3.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
@@ -592,8 +616,8 @@
       </version>
     </versions>
   </app>
-  <app keywords="pwm,tcpwm,timer,mtb-flow" req_capabilities_v2="hal led [xmc7000,t2gbh]">
-    <name>TCPWM Timer</name>
+  <app keywords="pwm,tcpwm,timer,mtb-flow" req_capabilities_v2="hal led [xmc7000, t2gbh, cyw920829m2evb_01]">
+    <name>HAL TCPWM Timer</name>
     <id>mtb-example-hal-tcpwm-timer</id>
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-hal-tcpwm-timer</uri>
@@ -604,6 +628,10 @@
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>1.0.0 release</num>
@@ -3062,18 +3090,22 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,gpio,interrupt,switch" req_capabilities_v2="hal led switch low_power [psoc6,xmc7000,t2gbh]">
-    <name>GPIO Interrupt</name>
-    <id>mtb-example-psoc6-gpio-interrupt</id>
+  <app keywords="mtb-flow,gpio,interrupt,switch" req_capabilities_v2="hal led switch low_power [psoc6, xmc7000, t2gbh, cyw920829m2evb_01]">
+    <name>HAL GPIO Interrupt</name>
+    <id>mtb-example-hal-gpio-interrupt</id>
     <category>Peripherals</category>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-gpio-interrupt</uri>
+    <uri>https://github.com/Infineon/mtb-example-hal-gpio-interrupt</uri>
     <description><![CDATA[This example demonstrates how to configure a GPIO to generate an interrupt.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-gpio-interrupt/blob/master/README.md">README on GitHub</a>.]]></description>
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-hal-gpio-interrupt/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>hal led switch low_power</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>3.1.0 release</num>
+        <commit>release-v3.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>3.0.0 release</num>
@@ -6424,18 +6456,22 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,qspi,spi,nor,flash,smif,serial-flash,mtb-flow" req_capabilities_v2="psoc6 std_crypto led qspi nor_flash">
-    <name>QSPI Flash Read Write</name>
-    <id>mtb-example-psoc6-qspi-readwrite</id>
+  <app keywords="psoc6,qspi,spi,nor,flash,smif,serial-flash,mtb-flow" req_capabilities_v2="std_crypto led qspi nor_flash [psoc6, cyw920829m2evb_01]">
+    <name>Serial Flash Read Write</name>
+    <id>mtb-example-serial-flash-readwrite</id>
     <category>Peripherals</category>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-qspi-readwrite</uri>
-    <description><![CDATA[This example demonstrates interfacing with an external NOR flash memory in Quad SPI (QSPI) mode using the serial memory interface (SMIF) block in PSoC&#8482;&trade; 6 MCU.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-qspi-readwrite/blob/master/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>psoc6 std_crypto led qspi nor_flash</req_capabilities>
+    <uri>https://github.com/Infineon/mtb-example-serial-flash-readwrite</uri>
+    <description><![CDATA[This example demonstrates interfacing with an external NOR flash memory using the serial flash library.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-serial-flash-readwrite/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>std_crypto led qspi nor_flash</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>3.1.0 release</num>
+        <commit>release-v3.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>3.0.0 release</num>
@@ -7549,6 +7585,14 @@ iBeacon UUID data.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-extadv-beacon/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>ble cyw920829m2evb_01</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -7559,7 +7603,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="pairing,mtb-flow,bluetooth,button" req_capabilities_v2="bt cyw20829 [cyw920829_vr]">
+  <app keywords="pairing,mtb-flow,bluetooth,button" req_capabilities_v2="bt cyw20829 [cyw920829_vr, cyw920829m2evb_01]">
     <name>AIROC LE CYW20829 Voice Remote</name>
     <id>mtb-example-btstack-freertos-cyw20829-voice-remote</id>
     <category>Bluetooth&#174;</category>
@@ -7568,6 +7612,14 @@ iBeacon UUID data.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-cyw20829-voice-remote/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>bt cyw20829</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -7881,6 +7933,101 @@ iBeacon UUID data.
         <commit>latest-v1.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen2">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="pairing,mtb-flow,bluetooth,ble,hello,sensor,le-lr,central,client,button" req_capabilities_v2="ble led cyw920829m2evb_01">
+    <name>Bluetooth LE Long Range Central</name>
+    <id>mtb-example-btstack-freertos-le-lr-central</id>
+    <category>Bluetooth&#174;</category>
+    <uri>https://github.com/Infineon/mtb-example-btstack-freertos-le-lr-central</uri>
+    <description><![CDATA[This code example demonstrates the use of LE Long Range PHY as a central (GATT Client) application with Infineon AIROC&#8482; CYW20829 Bluetooth&#174; devices and ModusToolbox&#8482; software environment.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-le-lr-central/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>ble led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="pairing,mtb-flow,bluetooth,ble,hello,sensor,le-lr,peripheral,server,button" req_capabilities_v2="ble led cyw920829m2evb_01">
+    <name>Bluetooth LE Long Range Peripheral</name>
+    <id>mtb-example-btstack-freertos-le-lr-peripheral</id>
+    <category>Bluetooth&#174;</category>
+    <uri>https://github.com/Infineon/mtb-example-btstack-freertos-le-lr-peripheral</uri>
+    <description><![CDATA[This code example demonstrates the use of LE Long Range PHY as a peripheral (GATT Sever) application with Infineon AIROC&#8482; CYW20829 Bluetooth&#174; devices and ModusToolbox&#8482; software environment.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-le-lr-peripheral/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>ble led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="i2c,slave,mtb-flow" req_capabilities_v2="hal led [psoc6, xmc7000, t2gbh, cyw920829m2evb_01]">
+    <name>HAL I2C Slave</name>
+    <id>mtb-example-hal-i2c-slave</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-hal-i2c-slave</uri>
+    <description><![CDATA[This example demonstrates the use of I2C (HAL) resource in Slave mode.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-hal-i2c-slave/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>hal led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="cyw20829,clk,freq" req_capabilities_v2="cyw20829, cyw920829m2evb_01">
+    <name>CYW20829 Clock Frequency Measurement</name>
+    <id>mtb-example-cyw20829-clk-freq-measurement</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-cyw20829-clk-freq-measurement</uri>
+    <description><![CDATA[This example demonstrates how a clock measurement counter can be used to measure the internal clock signals using another clock signal as reference.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-cyw20829-clk-freq-measurement/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>cyw20829</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="spi,slave,mtb-flow" req_capabilities_v2="hal led [psoc6, xmc7000, t2gbh, cyw920829m2evb_01]">
+    <name>HAL SPI Slave</name>
+    <id>mtb-example-hal-spi-slave</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-hal-spi-slave</uri>
+    <description><![CDATA[This example demonstrates the use of SPI (HAL) resource in Slave mode.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-hal-spi-slave/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>hal led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
