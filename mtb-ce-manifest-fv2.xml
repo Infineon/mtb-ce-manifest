@@ -8068,7 +8068,7 @@ iBeacon UUID data.
     <name>AIROC LE CYW20829 Mouse</name>
     <id>mtb-example-btstack-freertos-cyw20829-mouse</id>
     <category>Bluetooth&#174;</category>
-    <uri>https://github.com/Infineonmtb-example-btstack-freertos-cyw20829-mouse</uri>
+    <uri>https://github.com/Infineon/mtb-example-btstack-freertos-cyw20829-mouse</uri>
     <description><![CDATA[This code example demonstrates a mouse solution using HID (Human Interface Device) Profile from Bluetooth&#174; Low Energy with Windows, Android and IOS.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-cyw20829-mouse/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>bt cyw20829</req_capabilities>
