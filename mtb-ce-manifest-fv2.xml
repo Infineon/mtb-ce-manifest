@@ -7950,6 +7950,25 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
+  <app keywords="pairing,mtb-flow,bluetooth,ble,battery,client,button" req_capabilities_v2="ble led cyw920829m2evb_01">
+    <name>Bluetooth LE Battery Client</name>
+    <id>mtb-example-btstack-freertos-battery-client</id>
+    <category>Bluetooth&#174;</category>
+    <uri>https://github.com/Infineon/mtb-example-btstack-freertos-battery-client</uri>
+    <description><![CDATA[This code example demonstrates the implementation of the Bluetooth&#174; LE Battery Service client using the AIROC&#8482; CYW20829 Bluetooth&#174; chip and ModusToolbox&#8482; software environment.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-battery-client/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>ble led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
   <app keywords="pairing,mtb-flow,bluetooth,ble,hello,sensor,le-lr,central,client,button" req_capabilities_v2="ble led cyw920829m2evb_01">
     <name>Bluetooth LE Long Range Central</name>
     <id>mtb-example-btstack-freertos-le-lr-central</id>
@@ -8015,6 +8034,44 @@ iBeacon UUID data.
     <description><![CDATA[This example demonstrates how a clock measurement counter can be used to measure the internal clock signals using another clock signal as reference.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-cyw20829-clk-freq-measurement/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>cyw20829</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="hid,keyboard,bluetooth,button" req_capabilities_v2="bt cyw20829 [cyw920829_keyboard]">
+    <name>AIROC LE CYW20829 Keyboard</name>
+    <id>mtb-example-btstack-freertos-cyw20829-keyboard</id>
+    <category>Bluetooth&#174;</category>
+    <uri>https://github.com/Infineon/mtb-example-btstack-freertos-cyw20829-keyboard</uri>
+    <description><![CDATA[This code example demonstrates a keyboard solution using HID (Human Interface Device) Profile from Bluetooth&#174; Low Energy with Windows, Android and IOS.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-cyw20829-keyboard/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>bt cyw20829</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="hid,mouse,bluetooth,button" req_capabilities_v2="bt cyw20829 [cyw920829_mouse]">
+    <name>AIROC LE CYW20829 Mouse</name>
+    <id>mtb-example-btstack-freertos-cyw20829-mouse</id>
+    <category>Bluetooth&#174;</category>
+    <uri>https://github.com/Infineonmtb-example-btstack-freertos-cyw20829-mouse</uri>
+    <description><![CDATA[This code example demonstrates a mouse solution using HID (Human Interface Device) Profile from Bluetooth&#174; Low Energy with Windows, Android and IOS.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-cyw20829-mouse/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>bt cyw20829</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>Latest 1.X release</num>
