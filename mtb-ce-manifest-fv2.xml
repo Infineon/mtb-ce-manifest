@@ -5791,6 +5791,25 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
+  <app keywords="pmg1,usbpd,mtb-flow" req_capabilities_v2="usbpd pmg1 led [pmg1s3dual]">
+    <name>USBPD DRP EPR</name>
+    <id>mtb-example-pmg1-usbpd-drp-epr</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-pmg1-usbpd-drp-epr</uri>
+    <description><![CDATA[This code example demonstrates USB-C attach/detach detection and USB Power Delivery contract negotiation using Power Delivery Microcontroller Generation 1 (PMG1) devices in DRP role with Extended Power Range(EPR) operation.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-usbpd-drp-epr/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>usbpd pmg1 led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
   <app keywords="pmg1,usbpd,capsense,mtb-flow" req_capabilities_v2="usbpd pmg1 capsense led [pmg1_cy7113]">
     <name>USBPD Sink CAPSENSE</name>
     <id>mtb-example-pmg1-usbpd-sink-capsense</id>
@@ -5898,6 +5917,44 @@ iBeacon UUID data.
         <commit>latest-v1.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="2.3.0" tools_max_version="2.4.1" req_capabilities_per_version="bsp_gen2">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="pmg1,mtb-flow" req_capabilities_v2="pmg1 [pmg1_cy7110, pmg1_cy7111, pmg1_cy7112, pmg1_cy7113]">
+    <name>DFU Bootloader</name>
+    <id>mtb-example-pmg1-dfu-bootloader</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-pmg1-dfu-bootloader</uri>
+    <description><![CDATA[This code example demonstrates Device Firmware Upgrade (DFU) with PMG1 MCU.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-dfu-bootloader/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>pmg1</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="pmg1,mtb-flow" req_capabilities_v2="pmg1 [pmg1_cy7110, pmg1_cy7111, pmg1_cy7112, pmg1_cy7113]">
+    <name>DFU Blinky LED</name>
+    <id>mtb-example-pmg1-dfu-blinky-led</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-pmg1-dfu-blinky-led</uri>
+    <description><![CDATA[This code example demonstrates the bootloadable application in basic Device Firmware Upgrade (DFU), also known as bootloading with PMG1 MCU.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-dfu-blinky-led/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>pmg1</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
