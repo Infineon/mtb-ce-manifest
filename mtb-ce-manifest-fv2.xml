@@ -6935,6 +6935,24 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
+  <app keywords="psoc6,sensor,xensiv,radar,presence,csk">
+    <name>Radar Presence Detection</name>
+    <id>mtb-example-psoc6-radar-presence</id>
+    <category>Sensing</category>
+    <uri>https://github.com/Infineon/mtb-example-psoc6-radar-presence</uri>
+    <description><![CDATA[This application demonstrates the use of the radar presence detection.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-radar-presence/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>psoc6 hal spi feather multi_core</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>Latest 0.X release</num>
+        <commit>latest-v0.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+        <num>0.5.0 release</num>
+        <commit>release-v0.5.0</commit>
+      </version>
+    </versions>
+  </app>
   <app keywords="psoc6,sensor,xensiv,radar,entrance counter,csk">
     <name>Radar Entrance Counter Application</name>
     <id>mtb-example-sensors-radar-entrancecounter</id>
@@ -6998,6 +7016,42 @@ iBeacon UUID data.
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,sensor,xensiv,radar,csk">
+    <name>Radar Sensor UDP Server</name>
+    <id>mtb-example-anycloud-radar-udp-server</id>
+    <category>Sensing</category>
+    <uri>https://github.com/Infineon/mtb-example-anycloud-radar-udp-server</uri>
+    <description><![CDATA[This application demonstrates how to implement a UDP server to download radar data.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-anycloud-radar-udp-server/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>cysbsyskit_dev_01</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 0.X release</num>
+        <commit>latest-v0.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>0.5.0 release</num>
+        <commit>release-v0.5.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,sensor,xensiv,radar,presence,csk">
+    <name>MQTT Client with Presence Detection</name>
+    <id>mtb-example-anycloud-mqtt-radar-presence</id>
+    <category>Sensing</category>
+    <uri>https://github.com/Infineon/mtb-example-anycloud-mqtt-radar-presence</uri>
+    <description><![CDATA[This application demonstrates how to implement an MQTT client for publishing presence events.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-anycloud-mqtt-radar-presence/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>cysbsyskit_dev_01</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 0.X release</num>
+        <commit>latest-v0.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+        <num>0.5.0 release</num>
+        <commit>release-v0.5.0</commit>
       </version>
     </versions>
   </app>
