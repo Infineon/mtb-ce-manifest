@@ -55,6 +55,10 @@
         <commit>latest-v4.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>4.1.0 release</num>
+        <commit>release-v4.1.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>4.0.0 release</num>
         <commit>release-v4.0.0</commit>
       </version>
