@@ -8273,4 +8273,23 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
+  <app keywords="psoc6,lz4,compression,decompression,mtb-flow" req_capabilities_v2="[psoc6] [flash_8384k,flash_2048k,flash_1024k,flash_512k,flash_256k,flash_832k,flash_448k,cy8ckit_064b0s2_4343w]">
+    <name>LZ4 compression and decompression demo</name>
+    <id>mtb-example-lz4-demo</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-lz4-demo</uri>
+    <description><![CDATA[This code example demonstrates a simple LZ4 compression and decompression on a byte array. The byte array included with this application is the pre-built image of the <a href="https://github.com/Infineon/mtb-example-hal-hello-world/blob/master/README.md">README on GitHub</a>. application. The application boots the decompressed byte array on a user command.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-lz4-demo/blob/main/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>psoc6</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
 </apps>
