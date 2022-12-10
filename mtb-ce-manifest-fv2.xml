@@ -8292,4 +8292,61 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
+  <app keywords="cyw20829,adc,mtb-flow" req_capabilities_v2="cyw20829 cyw920829m2evb_01">
+    <name>DC Monitoring</name>
+    <id>mtb-example-cyw20829-dc-monitoring</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-cyw20829-dc-monitoring</uri>
+    <description><![CDATA[This example demonstrates how to configure and use ADC in CYW920829M2EVB-01 board to measure DC voltage.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-cyw20829-dc-monitoring/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>cyw20829</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="btsdk,lowpower,bluetooth,profile" req_capabilities_v2="fw2 btsdk [CYW920819M2EVB_01, CYW920820M2EVB_01]">
+    <name>HAL Low Power</name>
+    <id>mtb-example-btsdk-low-power-20819</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-btsdk-low-power-20819</uri>
+    <description><![CDATA[This example demonstrates low-power modes on CYW20819 and CYW20820 using ModusToolbox&#8482;.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btsdk-low-power-20819/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>fw2 btsdk</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen2">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen2">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="mesh,switch,bluetooth,dimmer,client" req_capabilities_v2="bt led cyw20829 [cyw920829m2evb_01]">
+    <name>Bluetooth LE Mesh Switch Dimmer</name>
+    <id>mtb-example-btstack-freertos-mesh-switch-dimmer</id>
+    <category>Bluetooth&#174;</category>
+    <uri>https://github.com/Infineon/mtb-example-btstack-freertos-mesh-switch-dimmer</uri>
+    <description><![CDATA[This code example demonstrates the implementation of Bluetooth&#174; LE Mesh Switch Dimmer application using AIROC&#8482; CYW20829 and and ModusToolbox&#8482; software environment.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-mesh-switch-dimmer/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>bt led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
 </apps>
