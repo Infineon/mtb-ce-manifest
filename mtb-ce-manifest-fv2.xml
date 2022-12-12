@@ -7040,8 +7040,8 @@ iBeacon UUID data.
         <commit>latest-v0.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
-        <num>0.5.0 release</num>
-        <commit>release-v0.5.0</commit>
+        <num>0.5.1 release</num>
+        <commit>release-v0.5.1</commit>
       </version>
     </versions>
   </app>
