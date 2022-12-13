@@ -8349,4 +8349,23 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
+  <app keywords="mesh,light,bluetooth,dimmable,server" req_capabilities_v2="bt led cyw20829 [cyw920829m2evb_01]">
+    <name>Bluetooth LE Mesh Light Dimmable</name>
+    <id>mtb-example-btstack-freertos-mesh-light-dimmable</id>
+    <category>Bluetooth&#174;</category>
+    <uri>https://github.com/Infineon/mtb-example-btstack-freertos-mesh-light-dimmable</uri>
+    <description><![CDATA[This code example demonstrates the implementation of the Bluetooth&#174; LE Mesh Light Dimmable application using the AIROC&#8482; CYW20829 Bluetooth&#174; LE SoC and ModusToolbox&#8482; software environment.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-mesh-light-dimmable/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>bt led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
 </apps>
