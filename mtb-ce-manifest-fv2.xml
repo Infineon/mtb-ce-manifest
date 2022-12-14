@@ -1079,6 +1079,130 @@
       </version>
     </versions>
   </app>
+  <app keywords="mtb-flow,tcp,client,ethernet" req_capabilities_v2="ethernet led uart [xmc7000,t2gbh]">
+    <name>Ethernet TCP Client</name>
+    <id>mtb-example-ethernet-tcp-client</id>
+    <category>Connectivity</category>
+    <uri>https://github.com/Infineon/mtb-example-ethernet-tcp-client</uri>
+    <description><![CDATA[This code example demonstrates implementation of TCP client with XMC7000 MCU. The example establishes a connection with a remote TCP server and based on the command received from the TCP server, turns the user LED ON or OFF.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ethernet-tcp-client/blob/master/README.md">README on GitHub</a>.
+    <br><br><b>License Disclaimer:</b><br><br>
+    This code example makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license. <br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).]]></description>
+    <req_capabilities>ethernet led uart</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="mtb-flow,tcp,server,ethernet" req_capabilities_v2="ethernet switch uart [xmc7000,t2gbh]">
+    <name>Ethernet TCP Server</name>
+    <id>mtb-example-ethernet-tcp-server</id>
+    <category>Connectivity</category>
+    <uri>https://github.com/Infineon/mtb-example-ethernet-tcp-server</uri>
+    <description><![CDATA[This code example demonstrates implementation of a TCP server with XMC7000 MCU. In this example, the TCP server establishes a connection with a TCP client. Once the connection completes successfully, the server allows the user to send LED ON/OFF command to the TCP client, and the client responds by sending an acknowledgment message to the server.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ethernet-tcp-server/blob/master/README.md">README on GitHub</a>.
+    <br><br><b>License Disclaimer:</b><br><br>
+    This code example makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license. <br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).]]></description>
+    <req_capabilities>ethernet switch uart</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="mtb-flow,udp,client,ethernet" req_capabilities_v2="ethernet led uart [xmc7000,t2gbh]">
+    <name>Ethernet UDP Client</name>
+    <id>mtb-example-ethernet-udp-client</id>
+    <category>Connectivity</category>
+    <uri>https://github.com/Infineon/mtb-example-ethernet-udp-client</uri>
+    <description><![CDATA[This code example demonstrates implementation of UDP client with XMC7000 MCU. The example establishes a connection with a remote UDP server and turns the user LED ON or OFF based on the command received from the UDP server.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ethernet-udp-client/blob/master/README.md">README on GitHub</a>.
+    <br><br><b>License Disclaimer:</b><br><br>
+    This code example makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license. <br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).]]></description>
+    <req_capabilities>ethernet led uart</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="mtb-flow,udp,server,ethernet" req_capabilities_v2="ethernet uart switch [xmc7000,t2gbh]">
+    <name>Ethernet UDP Server</name>
+    <id>mtb-example-ethernet-udp-server</id>
+    <category>Connectivity</category>
+    <uri>https://github.com/Infineon/mtb-example-ethernet-udp-server</uri>
+    <description><![CDATA[This code example demonstrates implementation of UDP Server with XMC7000 MCU. In this example, the UDP server waits for the UDP client to establish a connection. Once a connection is established, the server allows the user to send the LED ON/OFF command to the UDP client through a button press; the client responds by sending an acknowledgement message to the server.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ethernet-udp-server/blob/master/README.md">README on GitHub</a>.
+    <br><br><b>License Disclaimer:</b><br><br>
+    This code example makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license. <br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).]]></description>
+    <req_capabilities>ethernet uart switch</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="mtb-flow,tcp,secure,client,ethernet" req_capabilities_v2="ethernet led uart [xmc7000,t2gbh]">
+    <name>Ethernet Secure TCP Client</name>
+    <id>mtb-example-ethernet-secure-tcp-client</id>
+    <category>Connectivity</category>
+    <uri>https://github.com/Infineon/mtb-example-ethernet-secure-tcp-client</uri>
+    <description><![CDATA[This code example demonstrates implementation of a secure TCP client with XMC7000 MCU. In this example, a TCP client establishes a secure connection with a TCP server through an SSL handshake. Once the SSL handshake completes successfully, the TCP client turns ON or OFF the user LED based on the command received from the TCP server.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ethernet-secure-tcp-client/blob/master/README.md">README on GitHub</a>.
+    <br><br><b>License Disclaimer:</b><br><br>
+    This code example makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license. <br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).]]></description>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="mtb-flow,tcp,secure,server,ethernet" req_capabilities_v2="ethernet uart switch [xmc7000,t2gbh]">
+    <name>Ethernet Secure TCP Server</name>
+    <id>mtb-example-ethernet-secure-tcp-server</id>
+    <category>Connectivity</category>
+    <uri>https://github.com/Infineon/mtb-example-ethernet-secure-tcp-server</uri>
+    <description><![CDATA[This code example demonstrates implementation of a secure TCP Server with XMC7000 MCU. In this example, the TCP server establishes a secure connection with a TCP client through SSL handshake. Once the SSL handshake completes successfully, the server allows the user to send LED ON/OFF command to the TCP client; the client responds by sending an acknowledgement message to the server.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ethernet-secure-tcp-server/blob/master/README.md">README on GitHub</a>.
+    <br><br><b>License Disclaimer:</b><br><br>
+    This code example makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license. <br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).]]></description>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
   <app keywords="mtb-flow,flash,code flash,hal" req_capabilities_v2="hal uart [xmc7000,t2gbh]">
     <name>Code Flash Sector Data Updating</name>
     <id>mtb-example-hal-code-flash-sector-data-updating</id>
