@@ -1325,6 +1325,10 @@
         <commit>latest-v3.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>3.1.0 release</num>
+        <commit>release-v3.1.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>3.0.0 release</num>
         <commit>release-v3.0.0</commit>
       </version>
@@ -3091,7 +3095,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,usb,mtb-flow,hid,mouse">
+  <app keywords="psoc6,usb,mtb-flow,hid,mouse" req_capabilities_v2="psoc6 usb_device pdm">
     <name>USB HID Mouse</name>
     <id>mtb-example-psoc6-usb-hid-mouse</id>
     <category>Peripherals</category>
@@ -3100,15 +3104,15 @@ iBeacon UUID data.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-usb-hid-mouse/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 usb_device pdm</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.2.0" tools_max_version="2.4.1" req_capabilities_per_version="bsp_gen2">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.2.0" tools_max_version="2.4.1" req_capabilities_per_version="bsp_gen2">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.2.0" tools_max_version="2.4.1" req_capabilities_per_version="bsp_gen2">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
@@ -5696,6 +5700,10 @@ iBeacon UUID data.
         <commit>latest-v3.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>3.1.0 release</num>
+        <commit>release-v3.1.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>3.0.0 release</num>
         <commit>release-v3.0.0</commit>
       </version>
@@ -5760,6 +5768,10 @@ iBeacon UUID data.
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>3.1.0 release</num>
+        <commit>release-v3.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>3.0.0 release</num>
@@ -7516,11 +7528,11 @@ iBeacon UUID data.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-usb-cdc-echo/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 usb_device</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.2.0" tools_max_version="2.4.1" req_capabilities_per_version="bsp_gen2">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.2.0" tools_max_version="2.4.1" req_capabilities_per_version="bsp_gen2">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
@@ -8533,6 +8545,63 @@ iBeacon UUID data.
     <uri>https://github.com/Infineon/mtb-example-usb-device-msc-filesystem-freertos</uri>
     <description><![CDATA[This example demonstrates how to configure the USB block in a PSoC&#8482;  6 MCU device as a Mass Storage (MSC) device and run a file system (FatFs) through an external memory (microSD). This example uses FreeRTOS and Segger's emUSB-Device middleware.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-usb-device-msc-filesystem-freertos/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>usb_device</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,usb,cdc,echo,mtb-flow,emusb-Host" req_capabilities_v2="[psoc6] usb_host [cyw4343w] [flash_1024k]">
+    <name>emUSB-Host CDC echo</name>
+    <id>mtb-example-usb-host-cdc-echo</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-usb-host-cdc-echo</uri>
+    <description><![CDATA[This example demonstrates how to configure the USB block in a PSoC&#8482;  6 MCU as a communication device class (CDC) host using Segger's emUSB-Host middleware. When configured as a CDC host, the PSoC&#8482;  6 MCU device enumerates the CDC device as a virtual COM port and echoes back the incoming data from the device.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-usb-host-cdc-echo/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>usb_host</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,usb,cdc,echo,mtb-flow,emUSB-Device" req_capabilities_v2="[psoc6] usb_device [flash_2048k,flash_1024k,flash_512k,flash_256k]">
+    <name>emUSB-Device CDC echo</name>
+    <id>mtb-example-usb-device-cdc-echo</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-usb-device-cdc-echo</uri>
+    <description><![CDATA[This example demonstrates how to configure the USB block in a PSoC&#8482;  6 MCU for communication device class (CDC) using Segger's emUSB-Device middleware. When configured for a CDC, the PSoC&#8482;  6 MCU device gets enumerated as a virtual COM port, which can be read and written by a terminal emulator program on a PC.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-usb-device-cdc-echo/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>usb_device</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,usb,mtb-flow,hid,mouse,emUSB-Device" req_capabilities_v2="[psoc6] usb_device [flash_2048k,flash_1024k,flash_512k,flash_256k]">
+    <name>emUSB-Device HID Mouse</name>
+    <id>mtb-example-usb-device-hid-mouse</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-usb-device-hid-mouse</uri>
+    <description><![CDATA[This example demonstrates how to configure the USB block in a PSoC&#8482;  6 MCU as a HID using Segger's emUSB-Device middleware. The device enumerates as a 3-button mouse.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-usb-device-hid-mouse/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>usb_device</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
