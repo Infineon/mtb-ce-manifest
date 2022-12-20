@@ -8614,4 +8614,23 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
+  <app keywords="psoc6,audio,streaming">
+    <name>Audio Streaming</name>
+    <id>mtb-example-audio-streaming</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-audio-streaming</uri>
+    <description><![CDATA[This example, which is based on FreeRTOS, demonstrates how to stream audio data, with a publicly available and widely used protocol <a href="https://github.com/cmcqueen/cobs-c">Constant Overhead Byte Stuffing (COBS)</a>, from a micro controller to a host system.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-audio-streaming/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>psoc6 pdm cy8cproto_062_4343w</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
 </apps>
