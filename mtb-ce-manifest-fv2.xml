@@ -3271,16 +3271,20 @@ iBeacon UUID data.
   </app>
   <app keywords="mtb-flow,rtc" req_capabilities_v2="hal rtc [psoc6,xmc7000,t2gbh]">
     <name>RTC Basics</name>
-    <id>mtb-example-psoc6-rtc-basics</id>
+    <id>mtb-example-hal-rtc-basics</id>
     <category>Peripherals</category>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-rtc-basics</uri>
+    <uri>https://github.com/Infineon/mtb-example-hal-rtc-basics</uri>
     <description><![CDATA[This example demonstrates the usage of the real-time clock (RTC).
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-rtc-basics/blob/master/README.md">README on GitHub</a>.]]></description>
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-hal-rtc-basics/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>hal rtc</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>3.1.0 release</num>
+        <commit>release-v3.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>3.0.0 release</num>

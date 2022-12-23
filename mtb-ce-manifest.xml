@@ -215,10 +215,10 @@
   </app>
   <app>
     <name>RTC Basics</name>
-    <id>mtb-example-psoc6-rtc-basics-0</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-rtc-basics</uri>
+    <id>mtb-example-hal-rtc-basics-0</id>
+    <uri>https://github.com/Infineon/mtb-example-hal-rtc-basics</uri>
     <description><![CDATA[This example demonstrates the usage of the real-time clock (RTC) in PSoC&#8482; 6 MCU.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-rtc-basics/blob/master/README.md">README on GitHub</a>.]]></description>
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-hal-rtc-basics/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6</req_capabilities>
     <versions>
       <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
