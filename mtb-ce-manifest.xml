@@ -145,10 +145,10 @@
   </app>
   <app>
     <name>GPIO Interrupt</name>
-    <id>mtb-example-psoc6-gpio-interrupt-0</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-gpio-interrupt</uri>
-    <description><![CDATA[This example demonstrates how to configure a GPIO to generate an interrupt in PSoC&#8482; 6 MCU.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-gpio-interrupt/blob/master/README.md">README on GitHub</a>.]]></description>
+    <id>mtb-example-hal-gpio-interrupt-0</id>
+    <uri>https://github.com/Infineon/mtb-example-hal-gpio-interrupt</uri>
+    <description><![CDATA[This example demonstrates how to configure a GPIO to generate an interrupt.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-hal-gpio-interrupt/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 led switch</req_capabilities>
     <versions>
       <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
