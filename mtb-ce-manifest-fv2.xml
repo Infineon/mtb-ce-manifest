@@ -601,7 +601,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="oob,led,starter,hello world,mtb-flow" req_capabilities_v2="hal led uart switch [xmc7000,t2gbh] [kit_xmc72_evk,kit_t2g_b_h_evk]">
+  <app keywords="oob,led,starter,hello world,mtb-flow" req_capabilities_v2="hal led uart switch [xmc7000] [kit_xmc72_evk]">
     <name>XMC7000 OOB Demo</name>
     <id>mtb-example-xmc7000-oob-demo</id>
     <category>Getting Started</category>
@@ -662,7 +662,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="led,smartio,smart io,mtb-flow" req_capabilities_v2="switch led smart_io [xmc7000,t2gbh]">
+  <app keywords="led,smartio,smart io,mtb-flow" req_capabilities_v2="switch led smart_io [xmc7000]">
     <name>Smart IO with GPIO</name>
     <id>mtb-example-pdl-xmc7000-smartio-gpio</id>
     <category>Peripherals</category>
@@ -681,7 +681,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="led,button,mtb-flow" req_capabilities_v2="switch led [xmc7000,t2gbh]">
+  <app keywords="led,button,mtb-flow" req_capabilities_v2="switch led [xmc7000]">
     <name>GPIO Pins</name>
     <id>mtb-example-pdl-xmc7000-gpio-pins</id>
     <category>Peripherals</category>
@@ -700,7 +700,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="pwm,tcpwm,asymmetric,mtb-flow" req_capabilities_v2="uart [xmc7000,t2gbh]">
+  <app keywords="pwm,tcpwm,asymmetric,mtb-flow" req_capabilities_v2="uart [xmc7000]">
     <name>Asymmetric PWM Generation</name>
     <id>mtb-example-pdl-xmc7000-pwm-dual-compare-capture</id>
     <category>Peripherals</category>
@@ -719,7 +719,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="uart,transmit,receive,dma,mtb-flow" req_capabilities_v2="led [xmc7000,t2gbh]">
+  <app keywords="uart,transmit,receive,dma,mtb-flow" req_capabilities_v2="led [xmc7000]">
     <name>SCB UART Transmit and Receive using DMA</name>
     <id>mtb-example-pdl-xmc7000-uart-transmit-receive-dma</id>
     <category>Peripherals</category>
@@ -795,7 +795,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="canfd,can,mtb-flow" req_capabilities_v2="led [xmc7000,t2gbh] [kit_xmc72_evk,kit_t2g_b_h_evk]">
+  <app keywords="canfd,can,mtb-flow" req_capabilities_v2="led [xmc7000,t2gbh] [kit_xmc72_evk]">
     <name>CAN FD</name>
     <id>mtb-example-pdl-xmc7000-canfd</id>
     <category>Peripherals</category>
@@ -814,7 +814,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="tcpwm,counter,mtb-flow" req_capabilities_v2="led [xmc7000,t2gbh]">
+  <app keywords="tcpwm,counter,mtb-flow" req_capabilities_v2="led [xmc7000]">
     <name>TCPWM Counter</name>
     <id>mtb-example-pdl-xmc7000-tcpwm-counter</id>
     <category>Peripherals</category>
@@ -852,7 +852,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="spi,master,slave,dma,mtb-flow" req_capabilities_v2="led [xmc7000,t2gbh]">
+  <app keywords="spi,master,slave,dma,mtb-flow" req_capabilities_v2="led [xmc7000]">
     <name>SCB SPI Master DMA</name>
     <id>mtb-example-pdl-xmc7000-spi-master-dma</id>
     <category>Peripherals</category>
@@ -946,7 +946,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="mcwdt,mtb-flow" req_capabilities_v2="uart [xmc7000,t2gbh]">
+  <app keywords="mcwdt,mtb-flow" req_capabilities_v2="uart [xmc7000]">
     <name>MCWDT Interrupt</name>
     <id>mtb-example-pdl-xmc7000-mcwdt</id>
     <category>Peripherals</category>
@@ -984,7 +984,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="emulated,eeprom,flash,mtb-flow" req_capabilities_v2="led uart [xmc7000,t2gbh]">
+  <app keywords="emulated,eeprom,flash,mtb-flow" req_capabilities_v2="led uart [xmc7000]">
     <name>Emulated EEPROM</name>
     <id>mtb-example-xmc7000-emulated-eeprom</id>
     <category>Peripherals</category>
@@ -1060,7 +1060,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="evtgen,event generator,mtb-flow" req_capabilities_v2="uart [xmc7000,t2gbh]">
+  <app keywords="evtgen,event generator,mtb-flow" req_capabilities_v2="uart [xmc7000]">
     <name>EVTGEN trigger ADC</name>
     <id>mtb-example-pdl-xmc7000-evtgen-active-trigger-adc</id>
     <category>Peripherals</category>
