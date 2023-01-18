@@ -473,10 +473,10 @@
   </app>
   <app>
     <name>SPI Master</name>
-    <id>mtb-example-psoc6-spi-master-0</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-spi-master</uri>
+    <id>mtb-example-hal-spi-master-0</id>
+    <uri>https://github.com/Infineon/mtb-example-hal-spi-master</uri>
     <description><![CDATA[This example demonstrates the use of SPI (HAL) resource for PSoC&#8482; 6 MCU in Master mode.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-spi-master/blob/master/README.md">README on GitHub</a>.]]></description>
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-hal-spi-master/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 std_crypto led</req_capabilities>
     <versions>
       <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
@@ -621,10 +621,10 @@
   </app>
   <app>
     <name>Watchdog Timer</name>
-    <id>mtb-example-psoc6-wdt-0</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-wdt</uri>
+    <id>mtb-example-hal-wdt-0</id>
+    <uri>https://github.com/Infineon/mtb-example-hal-wdt</uri>
     <description><![CDATA[This example demonstrates the Watchdog Timer (WDT) in PSoC&#8482; 6 MCU.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-wdt/blob/master/README.md">README on GitHub</a>.]]></description>
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-hal-wdt/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 led</req_capabilities>
     <versions>
       <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
@@ -852,7 +852,7 @@
     </versions>
   </app>
   <app>
-    <name>WiFi TCP Client</name>
+    <name>Wi-Fi TCP Client</name>
     <id>mtb-example-wifi-tcp-client-0</id>
     <uri>https://github.com/Infineon/mtb-example-wifi-tcp-client</uri>
     <description><![CDATA[This code example demonstrates implementation of TCP client with PSoC&#8482; 6 MCU and CYW43xxx connectivity devices.
@@ -880,14 +880,14 @@
     </versions>
   </app>
   <app>
-    <name>AnyCloud Secure TCP Client</name>
-    <id>mtb-example-anycloud-secure-tcp-client-0</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-secure-tcp-client</uri>
+    <name>Wi-Fi Secure TCP Client</name>
+    <id>mtb-example-wifi-secure-tcp-client-0</id>
+    <uri>https://github.com/Infineon/mtb-example-wifi-secure-tcp-client</uri>
     <description><![CDATA[This code example demonstrates implementation of a secure TCP client with PSoC&#8482; 6 MCU and CYW43xxx connectivity devices.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-anycloud-secure-tcp-client/blob/master/README.md">README on GitHub</a>.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-wifi-secure-tcp-client/blob/master/README.md">README on GitHub</a>.
     <br><br><b>License Disclaimer:</b><br><br>
     This code example makes use of the lwIP open-source TCP/IP stack and the Mbed TLS open-source TLS/SSL library which has cryptographic capabilities. Creating a project from this template will cause lwIP and Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the lwIP &amp; Mbed TLS licenses and regional use restrictions (including abiding by all applicable export control laws).]]></description>
-    <req_capabilities>psoc6 wifi cyw43xxx led switch anycloud</req_capabilities>
+    <req_capabilities>psoc6 wifi cyw43xxx led switch</req_capabilities>
     <versions>
       <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
         <num>Latest 1.X release</num>
@@ -912,7 +912,7 @@
     </versions>
   </app>
   <app>
-    <name>WiFi Secure TCP Server</name>
+    <name>Wi-Fi Secure TCP Server</name>
     <id>mtb-example-wifi-secure-tcp-server-0</id>
     <uri>https://github.com/Infineon/mtb-example-wifi-secure-tcp-server</uri>
     <description><![CDATA[This code example demonstrates implementation of a secure TCP server with PSoC&#8482; 6 MCU and CYW43xxx connectivity devices.
@@ -962,7 +962,7 @@
     </versions>
   </app>
   <app>
-    <name>WiFi TCP Server</name>
+    <name>Wi-Fi TCP Server</name>
     <id>mtb-example-wifi-tcp-server-0</id>
     <uri>https://github.com/Infineon/mtb-example-wifi-tcp-server</uri>
     <description><![CDATA[This code example demonstrates implementation of a TCP server with PSoC&#8482; 6 MCU and CYW43xxx connectivity devices.
@@ -1202,7 +1202,7 @@
     </versions>
   </app>
   <app>
-    <name>WiFi MQTT Client</name>
+    <name>Wi-Fi MQTT Client</name>
     <id>mtb-example-wifi-mqtt-client-0</id>
     <uri>https://github.com/Infineon/mtb-example-wifi-mqtt-client</uri>
     <description><![CDATA[This code example demonstrates implementing an MQTT client using the MQTT client library for the family of AIROC&#8482; Wi-Fi & Bluetooth&#174; combos. This library uses the AWS IoT Device SDK that includes an MQTT 3.1.1 client.
@@ -1462,11 +1462,11 @@
     </versions>
   </app>
   <app>
-    <name>AnyCloud Wi-Fi Onboarding Using Bluetooth LE</name>
-    <id>mtb-example-anycloud-ble-wifi-onboarding-0</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-ble-wifi-onboarding</uri>
-    <description><![CDATA[This code example demonstrates WiFi Onboarding using Bluetooth&#174; Low Energy.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-anycloud-ble-wifi-onboarding/blob/master/README.md">README on GitHub</a>.]]></description>
+    <name>Wi-Fi Onboarding Using Bluetooth LE</name>
+    <id>mtb-example-btstack-freertos-wifi-onboarding-0</id>
+    <uri>https://github.com/Infineon/mtb-example-btstack-freertos-wifi-onboarding</uri>
+    <description><![CDATA[This code example demonstrates Wi-Fi Onboarding using Bluetooth&#174; Low Energy.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-wifi-onboarding/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 wifi bt anycloud</req_capabilities>
     <versions>
       <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
@@ -1588,7 +1588,7 @@
     </versions>
   </app>
   <app>
-    <name>WiFi UDP Client</name>
+    <name>Wi-Fi UDP Client</name>
     <id>mtb-example-wifi-udp-client-0</id>
     <uri>https://github.com/Infineon/mtb-example-wifi-udp-client</uri>
     <description><![CDATA[This code example demonstrates implementation of UDP Client using AnyCloud SDK. The UDP Client establishes a connection with a remote UDP server and based on the command received from the UDP server, turns the user LED ON or OFF using PSoC&#8482; 6 MCU.
@@ -1612,7 +1612,7 @@
     </versions>
   </app>
   <app>
-    <name>WiFi UDP Server</name>
+    <name>Wi-Fi UDP Server</name>
     <id>mtb-example-wifi-udp-server-0</id>
     <uri>https://github.com/Infineon/mtb-example-wifi-udp-server</uri>
     <description><![CDATA[This code example demonstrates implementation of UDP Server using AnyCloud SDK. The UDP Server allows the user to send LED ON/OFF command to the UDP client using PSoC&#8482; 6 MCU.
@@ -1650,7 +1650,7 @@
     </versions>
   </app>
   <app>
-    <name>WiFi HTTPS Server</name>
+    <name>Wi-Fi HTTPS Server</name>
     <id>mtb-example-wifi-https-server-0</id>
     <uri>https://github.com/Infineon/mtb-example-wifi-https-server</uri>
     <description><![CDATA[This code example demonstrates the implementation of an HTTPS server with PSoC&#8482; 6 MCU and CYW43xxx connectivity devices. It employs the HTTPS server middleware library, which takes care of all the underlying socket connections with the HTTPS client. This example establishes a secure connection with a HTTPS client through SSL handshake. Once the SSL handshake completes successfully, the HTTPS client can make GET, POST, and PUT requests with the server.
@@ -1760,7 +1760,7 @@
     </versions>
   </app>
   <app>
-    <name>WiFi MCUboot-Based Bootloader with Rollback</name>
+    <name>Wi-Fi MCUboot-Based Bootloader with Rollback</name>
     <id>mtb-example-wifi-mcuboot-rollback-0</id>
     <uri>https://github.com/Infineon/mtb-example-wifi-mcuboot-rollback</uri>
     <description><![CDATA[This code example demonstrates an MCUboot-based bootloader that can rollback to the factory application/image located in external flash. Rollback can be initiated by the user in case of unrecoverable error conditions or for the purpose of running diagnostic tests using a test image. Bootloader runs on CM0+ and the user and factory applications run on CM4.

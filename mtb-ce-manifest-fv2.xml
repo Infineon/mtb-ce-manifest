@@ -123,14 +123,14 @@
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,fault handling,mtb-flow" req_capabilities_v2="psoc6">
+  <app keywords="psoc6,fault handling,mtb-flow" req_capabilities_v2="psoc6 uart">
     <name>Fault Handling</name>
     <id>mtb-example-psoc6-fault-handling</id>
     <category>Peripherals</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-fault-handling</uri>
     <description><![CDATA[This example demonstrates the fault handling functionality of PSoC&#8482; 6 MCU using Peripheral Driver Library (PDL) System Library (SysLib).
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-fault-handling/blob/master/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>psoc6</req_capabilities>
+    <req_capabilities>psoc6 uart</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>Latest 3.X release</num>
@@ -162,7 +162,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="wdt,mtb-flow" req_capabilities_v2="[psoc6, xmc7000, t2gbh, cyw920829m2evb_01]">
+  <app keywords="wdt,mtb-flow" req_capabilities_v2="led [psoc6,xmc7000,t2gbh,cyw920829m2evb_01]">
     <name>HAL Watchdog Timer</name>
     <id>mtb-example-hal-wdt</id>
     <category>Peripherals</category>
@@ -192,7 +192,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,mcwdt,mtb-flow" req_capabilities_v2="psoc6 capsense [std_crypto,flash_2048k,flash_1024k,flash_512k,flash_256k]">
+  <app keywords="psoc6,mcwdt,mtb-flow" req_capabilities_v2="psoc6 capsense [std_crypto,flash_2048k,flash_1024k,flash_512k,flash_256k] [cy8cproto_062_4343W,cy8ckit_062_wifi_bt,cy8ckit_062_ble,cy8cproto_063_ble,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01,cy8ckit_062s2_43012,cy8cproto_062s3_4343w,cy8ckit_064b0s2_4343w,cy8cproto_064b0s3,cy8cproto_064s1_sb,cy8ckit_062s4,cy8ceval_062s2,cy8ceval_062_s2_lai_4373m2]">
     <name>Free-Running Multi-Counter Watchdog Timer</name>
     <id>mtb-example-psoc6-mcwdt</id>
     <category>Peripherals</category>
@@ -367,7 +367,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,uart,transmit,receive,dma,mtb-flow" req_capabilities_v2="psoc6 led [cy8ceval_062s2,cy8ceval_062_s2_lai_4373m2,cy8ckit_062_ble,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cy8cproto_062_4343w,cy8cproto_062s3_4343w,cy8cproto_063_ble,cysbsyskit_01,cysbsyskit_dev_01,cy8ckit_062s4,cyw9p62s1_43012evb_01,cyw9p62s1_43438evb_01]">
+  <app keywords="psoc6,uart,transmit,receive,dma,mtb-flow" req_capabilities_v2="psoc6 led [cy8ceval_062s2,cy8ceval_062_s2_lai_4373m2,cy8ckit_062_ble,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cy8cproto_062_4343w,cy8cproto_062s3_4343w,cy8cproto_063_ble,cy8ckit_062s4,cyw9p62s1_43012evb_01,cyw9p62s1_43438evb_01]">
     <name>SCB UART Transmit and Receive using DMA</name>
     <id>mtb-example-psoc6-uart-transmit-receive-dma</id>
     <category>Peripherals</category>
@@ -523,7 +523,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="spi,master,mtb-flow" req_capabilities_v2="hal led [psoc6, xmc7000, t2gbh, cyw920829m2evb_01]">
+  <app keywords="spi,master,mtb-flow" req_capabilities_v2="hal led [psoc6,xmc7000,t2gbh,cyw920829m2evb_01] [cy8ceval_062s2,cy8ceval_062_s2_lai_4373m2,cy8ckit_062_ble,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cy8cproto_062_4343w,cy8cproto_062s3_4343w,cy8cproto_063_ble,cy8ckit_062s4,cyw9p62s1_43012evb_01,cyw9p62s1_43438evb_01,cy8ckit_064b0s2_4343w,cy8ceval_062_mur_43439m2,cy8cproto_064b0s3,cy8cproto_064s1_sb,kit_xmc72_evk,cyw920829m2evb_01]">
     <name>HAL SPI Master</name>
     <id>mtb-example-hal-spi-master</id>
     <category>Peripherals</category>
@@ -562,7 +562,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,spi,master,slave,dma,mtb-flow" req_capabilities_v2="psoc6 led [cy8ceval_062s2,cy8ceval_062_s2_lai_4373m2,cy8ckit_062_ble,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cy8cproto_062_4343w,cy8cproto_062s3_4343w,cy8cproto_063_ble,cysbsyskit_01,cysbsyskit_dev_01,cy8ckit_062s4,cyw9p62s1_43012evb_01,cyw9p62s1_43438evb_01]">
+  <app keywords="psoc6,spi,master,slave,dma,mtb-flow" req_capabilities_v2="psoc6 led [cy8ceval_062s2,cy8ceval_062_s2_lai_4373m2,cy8ckit_062_ble,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cy8cproto_062_4343w,cy8cproto_062s3_4343w,cy8cproto_063_ble,cy8ckit_062s4,cyw9p62s1_43012evb_01,cyw9p62s1_43438evb_01]">
     <name>SCB SPI Master DMA</name>
     <id>mtb-example-psoc6-spi-master-dma</id>
     <category>Peripherals</category>
@@ -795,7 +795,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="canfd,can,mtb-flow" req_capabilities_v2="led [xmc7000,t2gbh] [kit_xmc72_evk]">
+  <app keywords="canfd,can,mtb-flow" req_capabilities_v2="led [xmc7000] [kit_xmc72_evk]">
     <name>CAN FD</name>
     <id>mtb-example-pdl-xmc7000-canfd</id>
     <category>Peripherals</category>
@@ -1315,14 +1315,14 @@
       </version>
     </versions>
   </app>
-  <app keywords="cryptography,sha2,message digest,hash,mtb-flow" req_capabilities_v2="uart [psoc6]">
+  <app keywords="cryptography,sha2,message digest,hash,mtb-flow" req_capabilities_v2="uart std_crypto [psoc6]">
     <name>Cryptography SHA Demonstration</name>
     <id>mtb-example-psoc6-crypto-sha</id>
     <category>Peripherals</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-crypto-sha</uri>
     <description><![CDATA[This code example shows how to generate a 32-byte hash value or message digest for an arbitrary user input message with the SHA2 algorithm using the Cryptographic hardware block.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-crypto-sha/blob/master/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>uart</req_capabilities>
+    <req_capabilities>uart std_crypto</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>Latest 3.X release</num>
@@ -1354,7 +1354,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,csdadc,mtb-flow" req_capabilities_v2="psoc6 capsense">
+  <app keywords="psoc6,csdadc,mtb-flow" req_capabilities_v2="psoc6 capsense [cy8ceval_062s2,cy8ceval_062_s2_lai_4373m2,cy8ckit_062_ble,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cy8cproto_062_4343w,cy8cproto_062s3_4343w,cy8cproto_063_ble,cy8ckit_062s4,cyw9p62s1_43012evb_01,cyw9p62s1_43438evb_01,cy8ckit_064b0s2_4343w,cy8ceval_062_mur_43439m2,cy8cproto_064b0s3,cy8cproto_064s1_sb]">
     <name>CSDADC</name>
     <id>mtb-example-psoc6-csdadc</id>
     <category>Peripherals</category>
@@ -1393,7 +1393,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,dual cpu,starter,template,empty,blank,mtb-flow" req_capabilities_v2="psoc6 multi_core">
+  <app keywords="psoc6,dual cpu,starter,template,empty,blank,mtb-flow" req_capabilities_v2="psoc6 multi_core [cy8ceval_062s2,cy8ceval_062_s2_lai_4373m2,cy8ckit_062_ble,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cy8cproto_062_4343w,cy8cproto_062s3_4343w,cy8cproto_063_ble,cy8ckit_062s4,cyw9p62s1_43012evb_01,cyw9p62s1_43438evb_01,cy8ceval_062_mur_43439m2,cysbsyskit_dev_01]">
     <name>Dual-CPU Empty PSoC6 App</name>
     <id>mtb-example-psoc6-dual-cpu-empty-app</id>
     <category>Getting Started</category>
@@ -1659,14 +1659,14 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,mtb-flow,ble,bluetooth,anycloud,onboarding,4343w,43012">
+  <app keywords="psoc6,mtb-flow,ble,bluetooth,btstack,freertos,onboarding,4343w,43012">
     <name>Wi-Fi Onboarding Using Bluetooth LE</name>
-    <id>mtb-example-anycloud-ble-wifi-onboarding</id>
+    <id>mtb-example-btstack-freertos-wifi-onboarding</id>
     <category>Bluetooth&#174;</category>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-ble-wifi-onboarding</uri>
-    <description><![CDATA[This code example demonstrates WiFi Onboarding using Bluetooth&#174; Low Energy.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-anycloud-ble-wifi-onboarding/blob/master/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>psoc6 wifi bt low_power anycloud</req_capabilities>
+    <uri>https://github.com/Infineon/mtb-example-btstack-freertos-wifi-onboarding</uri>
+    <description><![CDATA[This code example demonstrates Wi-Fi Onboarding using Bluetooth&#174; Low Energy.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-wifi-onboarding/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>psoc6 wifi bt low_power btstack</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
         <num>Latest 3.X release</num>
@@ -1787,7 +1787,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,capsense,tuner,ble,client,tuning,ezi2c,mtb-flow">
+  <app keywords="psoc6,capsense,tuner,ble,client,tuning,ezi2c,mtb-flow" req_capabilities_v2="[cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval]">
     <name>CAPSENSE Tuning Over Bluetooth LE - Client</name>
     <id>mtb-example-psoc6-ble-capsense-tuner-client</id>
     <category>Sensing</category>
@@ -1961,7 +1961,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="GPIO,PWM,btsdk,mtb-flow">
+  <app keywords="GPIO,PWM,btsdk,mtb-flow" req_capabilities_v2="[CYW920820M2EVB_01,CYW920835M2EVB_01,CYW920719B2Q40EVB_01,CYW920735Q60EVB_01,CYW920819EVB_02,CYW920820EVB_02]">
     <name>PWM GPIO</name>
     <id>mtb-example-btsdk-pwm-gpio</id>
     <category>Peripherals</category>
@@ -3277,14 +3277,14 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,rtc" req_capabilities_v2="hal rtc [psoc6,xmc7000,t2gbh]">
+  <app keywords="mtb-flow,rtc" req_capabilities_v2="hal rtc uart [psoc6,xmc7000,t2gbh]">
     <name>RTC Basics</name>
     <id>mtb-example-hal-rtc-basics</id>
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-hal-rtc-basics</uri>
     <description><![CDATA[This example demonstrates the usage of the real-time clock (RTC).
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-hal-rtc-basics/blob/master/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>hal rtc</req_capabilities>
+    <req_capabilities>hal rtc uart</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>Latest 3.X release</num>
@@ -3316,14 +3316,14 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,psoc6,adc,hal" req_capabilities_v2="psoc6">
+  <app keywords="mtb-flow,psoc6,adc,hal" req_capabilities_v2="psoc6 uart">
     <name>ADC basic</name>
     <id>mtb-example-psoc6-adc-basic</id>
     <category>Peripherals</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-adc-basic</uri>
     <description><![CDATA[This example demonstrates use of the ADC (Analog to Digital Converter) HAL driver to perform voltage measurements.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-adc-basic/blob/master/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>psoc6</req_capabilities>
+    <req_capabilities>psoc6 uart</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>Latest 2.X release</num>
@@ -3693,7 +3693,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="xmc,ccu,ccu4,capture,mtb-flow" req_capabilities_v2="xmc ccu4_capture">
+  <app keywords="xmc,ccu,ccu4,capture,mtb-flow" req_capabilities_v2="xmc ccu4_capture uart">
     <name>CCU4 Capture</name>
     <id>mtb-example-xmc-ccu4-capture</id>
     <category>Peripherals</category>
@@ -3814,7 +3814,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="xmc,uart,printf,hello world,usic,mtb-flow">
+  <app keywords="xmc,uart,printf,hello world,usic,mtb-flow" req_capabilities_v2="xmc uart">
     <name>UART Printf</name>
     <id>mtb-example-xmc-uart-printf</id>
     <category>Peripherals</category>
@@ -3822,7 +3822,7 @@ iBeacon UUID data.
     <description><![CDATA[This example demonstrates how to use the printf function with a Universal Serial Interface Channel (USIC) based UART in XMC MCU.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-xmc-uart-printf/blob/master/README.md">README on GitHub</a>.
     <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
-    <req_capabilities>xmc</req_capabilities>
+    <req_capabilities>xmc uart</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>Latest 2.X release</num>
@@ -4231,7 +4231,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="xmc,ccu,ccu8,pwm,mtb-flow" req_capabilities_v2="xmc ccu8">
+  <app keywords="xmc,ccu,ccu8,pwm,mtb-flow" req_capabilities_v2="xmc ccu8 uart">
     <name>CCU8 PWM Complementary</name>
     <id>mtb-example-xmc-ccu8-pwm-complementary</id>
     <category>Peripherals</category>
@@ -4337,7 +4337,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="xmc,flash,emulated,eeprom,mtb-flow">
+  <app keywords="xmc,flash,emulated,eeprom,mtb-flow" req_capabilities_v2="xmc uart">
     <name>Flash EEPROM</name>
     <id>mtb-example-xmc-flash-eeprom</id>
     <category>Peripherals</category>
@@ -4345,7 +4345,7 @@ iBeacon UUID data.
     <description><![CDATA[This code example shows how to use a portion of the internal flash memory of XMC MCUs as emulated EEPROM memory, and provides necessary APIs to perform read and write operations to the emulated EEPROM.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-xmc-flash-eeprom/blob/master/README.md">README on GitHub</a>.
     <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
-    <req_capabilities>xmc</req_capabilities>
+    <req_capabilities>xmc uart</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>Latest 2.X release</num>
@@ -5236,7 +5236,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="xmc,posif,hall,uart,led,mtb-flow" req_capabilities_v2="xmc posif">
+  <app keywords="xmc,posif,hall,uart,led,mtb-flow" req_capabilities_v2="xmc posif uart">
     <name>POSIF Hall</name>
     <id>mtb-example-xmc-posif-hall</id>
     <category>Peripherals</category>
@@ -5268,7 +5268,7 @@ iBeacon UUID data.
     </versions>
   </app>
   <app keywords="mtb-flow,psoc6,udp,client,wifi,led" req_capabilities_v2="psoc6 cyw43xxx wifi led [flash_2048k, flash_1024k, flash_512k, cy8ckit_064b0s2_4343w]">
-    <name>WiFi UDP Client</name>
+    <name>Wi-Fi UDP Client</name>
     <id>mtb-example-wifi-udp-client</id>
     <category>Wi-Fi</category>
     <uri>https://github.com/Infineon/mtb-example-wifi-udp-client</uri>
@@ -5317,7 +5317,7 @@ iBeacon UUID data.
     </versions>
   </app>
   <app keywords="mtb-flow,psoc6,udp,server,wifi,switch" req_capabilities_v2="psoc6 cyw43xxx wifi switch [flash_2048k,flash_1024k,flash_512k,cy8ckit_064b0s2_4343w]">
-    <name>WiFi UDP Server</name>
+    <name>Wi-Fi UDP Server</name>
     <id>mtb-example-wifi-udp-server</id>
     <category>Wi-Fi</category>
     <uri>https://github.com/Infineon/mtb-example-wifi-udp-server</uri>
@@ -5569,7 +5569,7 @@ iBeacon UUID data.
     </versions>
   </app>
   <app keywords="mtb-flow,psoc6,http,https,server,wifi" req_capabilities_v2="psoc6 cyw43xxx led wifi [flash_2048k,flash_1024k,flash_512k]">
-    <name>WiFi HTTPS Server</name>
+    <name>Wi-Fi HTTPS Server</name>
     <id>mtb-example-wifi-https-server</id>
     <category>Wi-Fi</category>
     <uri>https://github.com/Infineon/mtb-example-wifi-https-server</uri>
@@ -5635,7 +5635,7 @@ iBeacon UUID data.
     </versions>
   </app>
   <app keywords="mtb-flow,psoc6,tcp,secure,client,wifi" req_capabilities_v2="psoc6 wifi cyw43xxx led switch [flash_2048k,flash_1024k,flash_512k]">
-    <name>WiFi Secure TCP client</name>
+    <name>Wi-Fi Secure TCP client</name>
     <id>mtb-example-wifi-secure-tcp-client</id>
     <category>Wi-Fi</category>
     <uri>https://github.com/Infineon/mtb-example-wifi-secure-tcp-client</uri>
@@ -5676,7 +5676,7 @@ iBeacon UUID data.
     </versions>
   </app>
   <app keywords="mtb-flow,psoc6,tcp,secure,server,wifi" req_capabilities_v2="psoc6 wifi cyw43xxx led switch [flash_2048k, flash_1024k, flash_512k]">
-    <name>WiFi Secure TCP server</name>
+    <name>Wi-Fi Secure TCP server</name>
     <id>mtb-example-wifi-secure-tcp-server</id>
     <category>Wi-Fi</category>
     <uri>https://github.com/Infineon/mtb-example-wifi-secure-tcp-server</uri>
@@ -5717,7 +5717,7 @@ iBeacon UUID data.
     </versions>
   </app>
   <app keywords="mtb-flow,psoc6,tcp,client,wifi" req_capabilities_v2="psoc6 wifi cyw43xxx led switch [flash_2048k,flash_1024k]">
-    <name>WiFi TCP Client</name>
+    <name>Wi-Fi TCP Client</name>
     <id>mtb-example-wifi-tcp-client</id>
     <category>Wi-Fi</category>
     <uri>https://github.com/Infineon/mtb-example-wifi-tcp-client</uri>
@@ -5754,7 +5754,7 @@ iBeacon UUID data.
     </versions>
   </app>
   <app keywords="mtb-flow,psoc6,tcp,server,wifi" req_capabilities_v2="psoc6 wifi cyw43xxx led switch [flash_2048k,flash_1024k]">
-    <name>WiFi TCP Server</name>
+    <name>Wi-Fi TCP Server</name>
     <id>mtb-example-wifi-tcp-server</id>
     <category>Wi-Fi</category>
     <uri>https://github.com/Infineon/mtb-example-wifi-tcp-server</uri>
@@ -5791,7 +5791,7 @@ iBeacon UUID data.
     </versions>
   </app>
   <app keywords="mtb-flow,psoc6,mqtt,client,wifi,aws,mosquitto" req_capabilities_v2="psoc6 wifi cyw43xxx led switch [flash_2048k, flash_1024k, flash_512k]">
-    <name>WiFi MQTT Client</name>
+    <name>Wi-Fi MQTT Client</name>
     <id>mtb-example-wifi-mqtt-client</id>
     <category>Wi-Fi</category>
     <uri>https://github.com/Infineon/mtb-example-wifi-mqtt-client</uri>
@@ -5843,7 +5843,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,psoc6,mqtt,azure-iot,azure,azure-sdk,wifi" req_capabilities_v2="psoc6 wifi cyw43xxx [cy8cproto_062_4343W, cy8ckit_062_wifi_bt, cy8ckit_064s0s2_4343w, cy8ckit_062s2_43012, cyw9p62s1_43438evb_01, cyw9p62s1_43012evb_01, cy8ceval_062s2_lai_4373m2, cy8ceval_062s2_mur_43439m2]">
+  <app keywords="mtb-flow,psoc6,mqtt,azure-iot,azure,azure-sdk,wifi" req_capabilities_v2="psoc6 wifi cyw43xxx [cy8cproto_062_4343W, cy8ckit_062_wifi_bt, cy8ckit_064s0s2_4343w, cy8ckit_062s2_43012, cyw9p62s1_43438evb_01, cyw9p62s1_43012evb_01, cy8ceval_062_s2_lai_4373m2, cy8ceval_062_mur_43439m2]">
     <name>Connecting to Azure IoT</name>
     <id>mtb-example-azure-iot</id>
     <category>Wi-Fi</category>
@@ -5901,24 +5901,24 @@ iBeacon UUID data.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-usb-audio-device-freertos/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 usb_device capsense_button capsense_linear_slider i2s</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.2.0" tools_max_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.2.0" tools_max_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
     </versions>
   </app>
-  <app keywords="cryptography,trng,mtb-flow" req_capabilities_v2="hal [psoc6,xmc7000,t2gbh]">
+  <app keywords="cryptography,trng,mtb-flow" req_capabilities_v2="hal uart std_crypto [psoc6,xmc7000,t2gbh]">
     <name>Cryptography TRNG Demonstration</name>
     <id>mtb-example-hal-crypto-trng</id>
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-hal-crypto-trng</uri>
     <description><![CDATA[This code example demonstrates generating a One-Time Password (OTP) using the True Random Number generation feature of MCU cryptography block.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-hal-crypto-trng/blob/master/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>hal</req_capabilities>
+    <req_capabilities>hal uart std_crypto</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>Latest 3.X release</num>
@@ -5981,14 +5981,14 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="cryptography,aes,mtb-flow" req_capabilities_v2="uart [psoc6]">
+  <app keywords="cryptography,aes,mtb-flow" req_capabilities_v2="uart std_crypto [psoc6]">
     <name>Cryptography AES Demonstration</name>
     <id>mtb-example-psoc6-crypto-aes</id>
     <category>Peripherals</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-crypto-aes</uri>
     <description><![CDATA[This code example encrypts and decrypts user input data using the AES algorithm using a 128-bit key. The encrypted and decrypted data are displayed on a UART terminal emulator.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-crypto-aes/blob/master/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>uart</req_capabilities>
+    <req_capabilities>uart std_crypto</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>Latest 3.X release</num>
@@ -6528,7 +6528,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,emulated,eeprom,flash,mtb-flow" req_capabilities_v2="psoc6 led">
+  <app keywords="psoc6,emulated,eeprom,flash,mtb-flow" req_capabilities_v2="psoc6 led [cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062_ble,cy8cproto_063_ble,cy8ckit_062s2_43012,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01,cy8cproto_062s3_4343w,cy8ckit-064b0S2-4343w,cy8ckit_062s4,cy8ceval_062s2,cy8ceval_062_s2_lai_4373m2]">
     <name>Emulated EEPROM</name>
     <id>mtb-example-psoc6-emulated-eeprom</id>
     <category>Peripherals</category>
@@ -6803,7 +6803,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="btsdk,mesh,ble,sensors,sensor hub,als,ambient,light,temperature,thermistor,i2c,adc,mtb-flow">
+  <app keywords="btsdk,mesh,ble,sensors,sensor hub,als,ambient,light,temperature,thermistor,i2c,adc,mtb-flow" req_capabilities_v2="[CYW920835M2EVB_01]">
     <name>Mesh SensorHub</name>
     <id>mtb-example-btsdk-mesh-sensorhub</id>
     <category>Bluetooth&#174;</category>
@@ -7138,7 +7138,7 @@ iBeacon UUID data.
     </versions>
   </app>
   <app keywords="mtb-flow,psoc6,wifi,ota,mqtt,mcuboot,bootloader" req_capabilities_v2="psoc6 wifi cyw43xxx led std_crypto qspi nor_flash flash_2048k [cy8ckit_062s2_43012, cy8cproto_062_4343w]">
-    <name>WiFi MCUboot-Based Bootloader with Rollback</name>
+    <name>Wi-Fi MCUboot-Based Bootloader with Rollback</name>
     <id>mtb-example-wifi-mcuboot-rollback</id>
     <category>Wi-Fi</category>
     <uri>https://github.com/Infineon/mtb-example-wifi-mcuboot-rollback</uri>
@@ -8397,14 +8397,14 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,CCM,helloworld" req_capabilities_v2="psoc6">
+  <app keywords="psoc6,CCM,helloworld" req_capabilities_v2="psoc6 uart">
     <name>CCM hello world</name>
     <id>mtb-example-ccm-mqtt-helloworld</id>
     <category>Wi-Fi</category>
     <uri>https://github.com/Infineon/mtb-example-ccm-mqtt-helloworld</uri>
     <description><![CDATA[This code example demonstrates publishing MQTT messages to the AWS IoT Core with the help of the Cloud Connectivity Manager (CCM) evaluation kit.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ccm-mqtt-helloworld/blob/master/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>psoc6</req_capabilities>
+    <req_capabilities>psoc6 uart</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
         <num>Latest 1.X release</num>
@@ -8627,7 +8627,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="spi,slave,mtb-flow" req_capabilities_v2="hal led [psoc6, xmc7000, t2gbh, cyw920829m2evb_01]">
+  <app keywords="spi,slave,mtb-flow" req_capabilities_v2="hal led [psoc6,xmc7000,t2gbh] [cy8ceval_062s2,cy8ceval_062_s2_lai_4373m2,cy8ckit_062_ble,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cy8cproto_062_4343w,cy8cproto_062s3_4343w,cy8cproto_063_ble,cy8ckit_062s4,cyw9p62s1_43012evb_01,cyw9p62s1_43438evb_01,cy8ckit_064b0s2_4343w,cy8ceval_062_mur_43439m2,cy8cproto_064b0s3,cy8cproto_064s1_sb,kit_xmc72_evk]">
     <name>HAL SPI Slave</name>
     <id>mtb-example-hal-spi-slave</id>
     <category>Peripherals</category>
