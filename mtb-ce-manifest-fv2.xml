@@ -5650,6 +5650,10 @@ iBeacon UUID data.
         <commit>latest-v4.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>4.1.0 release</num>
+        <commit>release-v4.1.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>4.0.0 release</num>
         <commit>release-v4.0.0</commit>
       </version>
@@ -5689,6 +5693,10 @@ iBeacon UUID data.
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>Latest 4.X release</num>
         <commit>latest-v4.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>4.1.0 release</num>
+        <commit>release-v4.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>4.0.0 release</num>
@@ -5732,6 +5740,10 @@ iBeacon UUID data.
         <commit>latest-v3.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>3.1.0 release</num>
+        <commit>release-v3.1.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>3.0.0 release</num>
         <commit>release-v3.0.0</commit>
       </version>
@@ -5767,6 +5779,10 @@ iBeacon UUID data.
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>3.1.0 release</num>
+        <commit>release-v3.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>3.0.0 release</num>
