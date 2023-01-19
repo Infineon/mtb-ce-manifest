@@ -5859,7 +5859,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,psoc6,mqtt,azure-iot,azure,azure-sdk,wifi" req_capabilities_v2="psoc6 wifi cyw43xxx [cy8cproto_062_4343W, cy8ckit_062_wifi_bt, cy8ckit_064s0s2_4343w, cy8ckit_062s2_43012, cyw9p62s1_43438evb_01, cyw9p62s1_43012evb_01, cy8ceval_062_s2_lai_4373m2, cy8ceval_062_mur_43439m2]">
+  <app keywords="mtb-flow,psoc6,mqtt,azure-iot,azure,azure-sdk,wifi" req_capabilities_v2="psoc6 wifi cyw43xxx [cy8cproto_062_4343W, cy8ckit_062_wifi_bt, cy8ckit_064s0s2_4343w, cy8ckit_062s2_43012, cyw9p62s1_43438evb_01, cyw9p62s1_43012evb_01, cy8ceval_062_s2_lai_4373m2, cy8ceval_062_mur_43439m2, cy8ckit_064b0s2_4343w]">
     <name>Connecting to Azure IoT</name>
     <id>mtb-example-azure-iot</id>
     <category>Wi-Fi</category>
