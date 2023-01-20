@@ -1408,7 +1408,7 @@
     </versions>
   </app>
   <app>
-    <name>AnyCloud Bluetooth LE Multi Beacon</name>
+    <name>Bluetooth LE Multi Beacon</name>
     <id>mtb-example-btstack-freertos-multi-beacon-0</id>
     <uri>https://github.com/Infineon/mtb-example-btstack-freertos-multi-beacon</uri>
     <description><![CDATA[This code example demonstrates the implementation of a beacon which advertises multiple Eddystone ADV data.
@@ -1426,11 +1426,11 @@
     </versions>
   </app>
   <app>
-    <name>AnyCloud Bluetooth LE Battery Server</name>
-    <id>mtb-example-anycloud-ble-battery-server-0</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-ble-battery-server</uri>
+    <name>Bluetooth LE Battery Server</name>
+    <id>mtb-example-btstack-freertos-battery-server-0</id>
+    <uri>https://github.com/Infineon/mtb-example-btstack-freertos-battery-server</uri>
     <description><![CDATA[This code example demonstrates the implementation of a simple Bluetooth&#174; LE Battery Service.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-anycloud-ble-battery-server/blob/master/README.md">README on GitHub</a>.]]></description>
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-battery-server/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 bt led</req_capabilities>
     <versions>
       <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
@@ -1444,7 +1444,7 @@
     </versions>
   </app>
   <app>
-    <name>AnyCloud Bluetooth LE Environmental Sensing Service</name>
+    <name>Bluetooth LE Environmental Sensing Service</name>
     <id>mtb-example-btstack-freertos-ess-0</id>
     <uri>https://github.com/Infineon/mtb-example-btstack-freertos-ess</uri>
     <description><![CDATA[This code example demonstrates the implementation of a simple Bluetooth&#174; LE Environmental Sensing Profile. It shows how to send environmental parameters like temperature by sending simulated temperature values over the Bluetooth&#174; LE connection using the AIROC&#8482; Wi-Fi & Bluetooth&#174; combos supported in AnyCloud-SDK.
@@ -1480,11 +1480,11 @@
     </versions>
   </app>
   <app>
-    <name>AnyCloud Bluetooth LE CAPSENSE Buttons and Slider</name>
-    <id>mtb-example-anycloud-ble-capsense-buttons-slider-0</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-ble-capsense-buttons-slider</uri>
+    <name>Bluetooth LE CAPSENSE Buttons and Slider</name>
+    <id>mtb-example-btstack-freertos-capsense-buttons-slider-0</id>
+    <uri>https://github.com/Infineon/mtb-example-btstack-freertos-capsense-buttons-slider</uri>
     <description><![CDATA[This code example demonstrates the CAPSENSE&#8482; implementation using Bluetooth&#174; Low Energy Custom Service.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-anycloud-ble-capsense-buttons-slider/blob/master/README.md">README on GitHub</a>.]]></description>
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-capsense-buttons-slider/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 bt capsense_button capsense_linear_slider led</req_capabilities>
     <versions>
       <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
@@ -1498,7 +1498,7 @@
     </versions>
   </app>
   <app>
-    <name>AnyCloud Bluetooth LE CTS Client</name>
+    <name>Bluetooth LE CTS Client</name>
     <id>mtb-example-btstack-freertos-cts-client-0</id>
     <uri>https://github.com/Infineon/mtb-example-btstack-freertos-cts-client</uri>
     <description><![CDATA[This code example demonstrates the implementation of a simple Bluetooth&#174; Low Energy GAP Peripheral - GATT Client with Current Time Service.
@@ -1516,7 +1516,7 @@
     </versions>
   </app>
   <app>
-    <name>AnyCloud Bluetooth LE CTS Server</name>
+    <name>Bluetooth LE CTS Server</name>
     <id>mtb-example-btstack-freertos-cts-server-0</id>
     <uri>https://github.com/Infineon/mtb-example-btstack-freertos-cts-server</uri>
     <description><![CDATA[This code example demonstrates the implementation of a simple Bluetooth&#174; Low Energy GAP Central - GATT Server with Current Time Service.
