@@ -2597,17 +2597,25 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,psoc6,lpa,anycloud,wifi,wlan,offload,tcp-keepalive" req_capabilities_v2="psoc6 wifi cyw43xxx low_power [flash_2048k, flash_1024k, flash_512k]">
+  <app keywords="mtb-flow,psoc6,lpa,wifi,wlan,offload,tcp-keepalive" req_capabilities_v2="psoc6 wifi cyw43xxx low_power [flash_2048k, flash_1024k, flash_512k]">
     <name>TCP Keepalive Offload</name>
-    <id>mtb-example-anycloud-offload-tcp-keepalive</id>
+    <id>mtb-example-wifi-offload-tcp-keepalive</id>
     <category>Wi-Fi</category>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-anycloud-offload-tcp-keepalive</uri>
+    <uri>https://github.com/Infineon/mtb-example-wifi-offload-tcp-keepalive</uri>
     <description><![CDATA[This code example demonstrates the TCP Keepalive Offload functionality offered by AIROC&#8482; Wi-Fi & Bluetooth&#174; combos using PSoC&#8482; 6 MCU. It employs Low Power Assistant (LPA) middleware library which helps in developing low power applications for the Infineon devices.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-anycloud-offload-tcp-keepalive/blob/master/README.md">README on GitHub</a>.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-wifi-offload-tcp-keepalive/blob/master/README.md">README on GitHub</a>.
     <br><br><b>License Disclaimer:</b><br><br>
     This code example makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license. <br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).]]></description>
     <req_capabilities>psoc6 wifi cyw43xxx low_power</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 4.X release</num>
+        <commit>latest-v4.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>4.0.0 release</num>
+        <commit>release-v4.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
@@ -5613,17 +5621,25 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,psoc6,anycloud,http,softap,tft,server,wifi,AP+STA concurrent mode,web server" req_capabilities_v2="psoc6 cyw43xxx led capsense_button capsense_linear_slider wifi [flash_2048k, flash_1024k]">
+  <app keywords="mtb-flow,psoc6,http,softap,tft,server,wifi,AP+STA concurrent mode,web server" req_capabilities_v2="psoc6 cyw43xxx led capsense_button capsense_linear_slider wifi [flash_2048k, flash_1024k]">
     <name>Wi-Fi Web Server</name>
-    <id>mtb-example-anycloud-wifi-web-server</id>
+    <id>mtb-example-wifi-web-server</id>
     <category>Wi-Fi</category>
-    <uri>https://github.com/Infineon/mtb-example-anycloud-wifi-web-server</uri>
+    <uri>https://github.com/Infineon/mtb-example-wifi-web-server</uri>
     <description><![CDATA[This code example demonstrates Wi-Fi provisioning via a SoftAP interface and setting up a web server using PSoC&#8482; 6 MCU with AIROC&#8482; CYW43xxx Wi-Fi & Bluetooth&#174; combo chips. In this example, the PSoC&#8482; 6 MCU device is configured in AP+STA concurrent mode. It starts an HTTP web server while in AP+STA concurrent mode and hosts an HTTP web page. The kit can be connected to the desired Wi-Fi network by entering the credentials via this web page. After connecting to the specified Wi-Fi network, the device is reconfigured to start a new HTTP web server. The new web server hosts a web page that displays the device data containing ambient light sensor (ALS) value and provides a button to change the brightness of an LED.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-anycloud-wifi-web-server/blob/master/README.md">README on GitHub</a>.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-wifi-web-server/blob/master/README.md">README on GitHub</a>.
     <br><br><b>License Disclaimer:</b><br><br>
     This code example makes use of the lwIP open-source TCP/IP stack and the Mbed TLS open-source TLS/SSL library which has cryptographic capabilities. Creating a project from this template will cause lwIP and Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the lwIP &amp; Mbed TLS licenses and regional use restrictions (including abiding by all applicable export control laws).]]></description>
     <req_capabilities>psoc6 cyw43xxx led capsense_button capsense_linear_slider wifi</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
