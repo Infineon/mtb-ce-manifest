@@ -1669,6 +1669,14 @@ iBeacon UUID data.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-wifi-onboarding/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 wifi bt low_power btstack</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 4.X release</num>
+        <commit>latest-v4.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>4.0.0 release</num>
+        <commit>release-v4.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
@@ -7828,7 +7836,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="privacy,bonding,mtb-flow,btstack,freertos,bluetooth" req_capabilities_v2="psoc6 bt led [cyw9p62s1_43012evb_01,cyw9p62s1_43438evb_01,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cy8cproto_062_4343w,cy8ceval_062_mur_43439m2,cy8ceval_062_s2_lai_4373m2]">
+  <app keywords="privacy,bonding,mtb-flow,btstack,freertos,bluetooth" req_capabilities_v2="psoc6 bt led [cyw9p62s1_43012evb_01,cyw9p62s1_43438evb_01,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cy8cproto_062_4343w,cy8ceval_062_mur_43439m2,cy8ceval_062_s2_lai_4373m2,cy8ckit_062_ble, cy8cproto_063_ble, cyble_416045_eval]">
     <name>Bluetooth LE Peripheral Privacy</name>
     <id>mtb-example-btstack-freertos-peripheral-privacy</id>
     <category>Bluetooth&#174;</category>
@@ -7840,6 +7848,10 @@ iBeacon UUID data.
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>2.0.0 release</num>

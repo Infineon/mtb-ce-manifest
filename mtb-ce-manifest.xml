@@ -1467,7 +1467,7 @@
     <uri>https://github.com/Infineon/mtb-example-btstack-freertos-wifi-onboarding</uri>
     <description><![CDATA[This code example demonstrates Wi-Fi Onboarding using Bluetooth&#174; Low Energy.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-wifi-onboarding/blob/master/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>psoc6 wifi bt anycloud</req_capabilities>
+    <req_capabilities>psoc6 wifi bt</req_capabilities>
     <versions>
       <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
         <num>Latest 1.X release</num>
