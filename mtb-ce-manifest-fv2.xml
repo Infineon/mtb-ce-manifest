@@ -3351,16 +3351,20 @@ iBeacon UUID data.
   </app>
   <app keywords="mtb-flow,psoc6,adc,hal" req_capabilities_v2="psoc6 uart">
     <name>ADC basic</name>
-    <id>mtb-example-psoc6-adc-basic</id>
+    <id>mtb-example-hal-adc-basic</id>
     <category>Peripherals</category>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-adc-basic</uri>
+    <uri>https://github.com/Infineon/mtb-example-hal-adc-basic</uri>
     <description><![CDATA[This example demonstrates use of the ADC (Analog to Digital Converter) HAL driver to perform voltage measurements.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-adc-basic/blob/master/README.md">README on GitHub</a>.]]></description>
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-hal-adc-basic/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 uart</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>2.0.0 release</num>
