@@ -1854,7 +1854,7 @@ iBeacon UUID data.
       </version>
     </versions>
   </app>
-  <app keywords="btsdk,spi,cyw208xx,data-logger,mtb-flow">
+  <app keywords="btsdk,spi,cyw208xx,data-logger,mtb-flow" req_capabilities_v2="CYW208XX ncu15wf104 [CYW920819EVB_02, CYW920819M2EVB_01, CYW920820EVB_02, CYW920820M2EVB_01]">
     <name>CYW208xx Data logger</name>
     <id>mtb-example-btsdk-cyw208xx-data-logger</id>
     <category>Peripherals</category>
@@ -7367,11 +7367,11 @@ iBeacon UUID data.
     <description><![CDATA[This application demonstrates the use of the radar presence application on the feather board.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-sensors-radar-presence/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>cysbsyskit_dev_01</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen3">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen3">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
@@ -7393,10 +7393,6 @@ iBeacon UUID data.
         <num>Latest 0.X release</num>
         <commit>latest-v0.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
-        <num>0.5.1 release</num>
-        <commit>release-v0.5.1</commit>
-      </version>
     </versions>
   </app>
   <app keywords="psoc6,sensor,xensiv,radar,entrance counter,csk">
@@ -7407,11 +7403,11 @@ iBeacon UUID data.
     <description><![CDATA[This application demonstrates the use of the radar entrance counter application on the feather board.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-sensors-radar-entrancecounter/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>cysbsyskit_dev_01</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen3">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen3">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
@@ -7429,11 +7425,11 @@ iBeacon UUID data.
     <description><![CDATA[This application demonstrates the use of the pas co2 pressure sensor on the feather board.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-sensors-pasco2/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>cysbsyskit_dev_01</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen3">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen3">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
@@ -7451,11 +7447,11 @@ iBeacon UUID data.
     <description><![CDATA[This application demonstrates how to implement an MQTT client for publishing presence or entrance counter events to the cloud.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-sensors-radar-anycloud-mqtt-client/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>cysbsyskit_dev_01</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen3">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen3">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
@@ -7473,11 +7469,11 @@ iBeacon UUID data.
     <description><![CDATA[This application demonstrates how to implement a UDP server to download radar data.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-anycloud-radar-udp-server/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>cysbsyskit_dev_01</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen3">
         <num>Latest 0.X release</num>
         <commit>latest-v0.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen3">
         <num>0.5.1 release</num>
         <commit>release-v0.5.1</commit>
       </version>
@@ -7491,11 +7487,11 @@ iBeacon UUID data.
     <description><![CDATA[This application demonstrates how to implement an MQTT client for publishing presence events.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-anycloud-mqtt-radar-presence/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>cysbsyskit_dev_01</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen3">
         <num>Latest 0.X release</num>
         <commit>latest-v0.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen3">
         <num>0.5.1 release</num>
         <commit>release-v0.5.1</commit>
       </version>
@@ -7509,11 +7505,11 @@ iBeacon UUID data.
     <description><![CDATA[This application demonstrates how to implement an MQTT client for publishing the current PPM level to the cloud.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-sensors-pasco2-anycloud-mqtt-client/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>cysbsyskit_dev_01</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen3">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen3">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
@@ -7932,11 +7928,11 @@ iBeacon UUID data.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-on-chip-temp-sensor-8-bit-saradc/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>pmg1 usbpd uart led switch</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen2">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -8197,7 +8193,7 @@ iBeacon UUID data.
     <uri>https://github.com/Infineon/mtb-example-pmg1-crypto-trng</uri>
     <description><![CDATA[This code example demonstrates how to generate a 4-byte one-time password (OTP) with the true random number generation feature using the Cryptographic hardware block in PMG1 MCU.
       <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-crypto-trng/blob/master/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>pmg1</req_capabilities>
+    <req_capabilities>pmg1 crypto</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 1.X release</num>
