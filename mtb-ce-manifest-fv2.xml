@@ -994,11 +994,11 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-xmc7000-emulated-eeprom/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>led uart</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc72_evk]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc72_evk]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -1795,20 +1795,20 @@
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,capsense,tuner,ble,client,tuning,ezi2c,mtb-flow" req_capabilities_v2="psoc6 led ble">
+  <app keywords="psoc6,capsense,tuner,ble,client,tuning,ezi2c,mtb-flow" req_capabilities_v2="psoc6 led bt">
     <name>CAPSENSE Tuning Over Bluetooth LE - Client</name>
     <id>mtb-example-psoc6-ble-capsense-tuner-client</id>
     <category>Sensing</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-ble-capsense-tuner-client</uri>
     <description><![CDATA[This code example demonstrates how to monitor the CAPSENSE&#8482; data and tune the CAPSENSE&#8482; sensors over Bluetooth&#174; Low Energy communication with CAPSENSE&#8482; Tuner GUI using PSoC&#8482; 6 Bluetooth&#174; Low Energy MCU. This is intended to be used with the CAPSENSE&#8482; Tuning Over Bluetooth&#174; LE - Server example.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-ble-capsense-tuner-client/blob/master/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>psoc6 led ble</req_capabilities>
+    <req_capabilities>psoc6 led bt</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version_v2="[bsp_gen2] [cy8ckit_062_ble]">
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version_v2="[bsp_gen2] [cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version_v2="[bsp_gen2] [cy8ckit_062_ble]">
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version_v2="[bsp_gen2] [cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval]">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
       </version>
@@ -1963,7 +1963,7 @@
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version_v2="[bsp_gen2] [CYW920719B2Q40EVB_01,CYW920820EVB_02,CYW920819EVB_02]">
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version_v2="[bsp_gen2] [CYW920719B2Q40EVB_01,CYW920819EVB_02]">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
@@ -2402,7 +2402,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,psoc6,lpa,wifi,wlan,lowpower" req_capabilities_v2="psoc6 wifi cyw43xxx led low_power [flash_2048k, flash_1024k, flash_512k, cy8ckit_064b0s2_4343w]">
+  <app keywords="mtb-flow,psoc6,lpa,wifi,wlan,lowpower" req_capabilities_v2="psoc6 wifi cyw43xxx led low_power [flash_2048k, flash_1024k, flash_512k]">
     <name>WLAN Low Power</name>
     <id>mtb-example-wifi-wlan-lowpower</id>
     <category>Wi-Fi</category>
@@ -2413,39 +2413,39 @@
     This code example makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license. <br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).]]></description>
     <req_capabilities>psoc6 wifi cyw43xxx led low_power</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01,cysbsyskit_dev_01,cy8ceval_062_s2_lai_4373m2,cy8ceval_062_mur_43439m2,cy8ckit_064b0s2_4343w,cy8cproto_062s3_4343w]">
         <num>Latest 4.X release</num>
         <commit>latest-v4.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01,cysbsyskit_dev_01,cy8ceval_062_s2_lai_4373m2,cy8ceval_062_mur_43439m2,cy8ckit_064b0s2_4343w,cy8cproto_062s3_4343w]">
         <num>4.0.0 release</num>
         <commit>release-v4.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version_v2="[bsp_gen3] [cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01,cysbsyskit_dev_01,cy8ceval_062_s2_lai_4373m2,cy8ceval_062_mur_43439m2,cy8ckit_064b0s2_4343w,cy8cproto_062s3_4343w]">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version_v2="[bsp_gen3] [cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01,cysbsyskit_dev_01,cy8ceval_062_s2_lai_4373m2,cy8ceval_062_mur_43439m2,cy8ckit_064b0s2_4343w,cy8cproto_062s3_4343w]">
         <num>3.0.0 release</num>
         <commit>release-v3.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version_v2="[bsp_gen2] [cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01,cysbsyskit_dev_01,cy8ceval_062_s2_lai_4373m2,cy8ckit_064b0s2_4343w]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version_v2="[bsp_gen2] [cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01,cysbsyskit_dev_01,cy8ceval_062_s2_lai_4373m2,cy8ckit_064b0s2_4343w]">
         <num>2.3.0 release</num>
         <commit>release-v2.3.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version_v2="[bsp_gen2] [cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01,cysbsyskit_dev_01]">
         <num>2.2.0 release</num>
         <commit>release-v2.2.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version_v2="[bsp_gen2] [cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01,cysbsyskit_dev_01]">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version_v2="[bsp_gen2] [cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01]">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
@@ -3694,36 +3694,37 @@
     <description><![CDATA[This code example demonstrates the use of CCU4 module in XMC MCU to create a PWM signal. The CCU4 slice is configured in monoshot mode and is restarted on an external start event.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-xmc-ccu4-pwm/blob/master/README.md">README on GitHub</a>.
     <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
+    <req_capabilities>xmc led</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc11_boot_001,kit_xmc12_boot_001,kit_xmc13_boot_001,kit_xmc14_boot_001,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc47_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc11_boot_001,kit_xmc12_boot_001,kit_xmc13_boot_001,kit_xmc14_boot_001,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc47_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>1.0.1 release</num>
         <commit>release-v1.0.1</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.1" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.2.1" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>Latest 0.X release</num>
         <commit>latest-v0.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.1" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.2.1" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>0.5.0 release</num>
         <commit>release-v0.5.0</commit>
       </version>
@@ -3737,32 +3738,33 @@
     <description><![CDATA[This code example demonstrates the capture features of the Capture and Compare Unit 4 (CCU4) slices available in XMC MCU.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-xmc-ccu4-capture/blob/master/README.md">README on GitHub</a>.
     <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
+    <req_capabilities>xmc ccu4_capture uart</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc14_boot_001,kit_xmc47_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc14_boot_001,kit_xmc47_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.1" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.2.1" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>Latest 0.X release</num>
         <commit>latest-v0.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.1" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.2.1" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>0.5.0 release</num>
         <commit>release-v0.5.0</commit>
       </version>
@@ -3776,32 +3778,33 @@
     <description><![CDATA[This code example demonstrates the concatenation or linking feature of the Capture and Compare Unit 4 (CCU4) slices available in XMC MCU.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-xmc-ccu4-timer-concatenation/blob/master/README.md">README on GitHub</a>.
     <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
+    <req_capabilities>xmc led</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc11_boot_001,kit_xmc12_boot_001,kit_xmc13_boot_001,kit_xmc14_boot_001,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc47_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc11_boot_001,kit_xmc12_boot_001,kit_xmc13_boot_001,kit_xmc14_boot_001,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc47_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.1" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.2.1" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>Latest 0.X release</num>
         <commit>latest-v0.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.1" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.2.1" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>0.5.0 release</num>
         <commit>release-v0.5.0</commit>
       </version>
@@ -3860,35 +3863,35 @@
     <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
     <req_capabilities>xmc uart</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc11_boot_001,kit_xmc12_boot_001,kit_xmc13_boot_001,kit_xmc14_boot_001,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc47_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc11_boot_001,kit_xmc12_boot_001,kit_xmc13_boot_001,kit_xmc14_boot_001,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc47_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>1.0.1 release</num>
         <commit>release-v1.0.1</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.1" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.2.1" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>Latest 0.X release</num>
         <commit>latest-v0.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.1" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.2.1" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>0.5.0 release</num>
         <commit>release-v0.5.0</commit>
       </version>
@@ -3904,35 +3907,35 @@
     <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
     <req_capabilities>xmc led</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc11_boot_001,kit_xmc12_boot_001,kit_xmc13_boot_001,kit_xmc14_boot_001,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc47_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc11_boot_001,kit_xmc12_boot_001,kit_xmc13_boot_001,kit_xmc14_boot_001,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc47_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>1.0.1 release</num>
         <commit>release-v1.0.1</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.1" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.2.1" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>Latest 0.X release</num>
         <commit>latest-v0.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.1" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.2.1" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>0.5.0 release</num>
         <commit>release-v0.5.0</commit>
       </version>
@@ -3948,35 +3951,35 @@
     <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
     <req_capabilities>xmc dma</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc47_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc47_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc47_relax_v1]">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc47_relax_v1]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc47_relax_v1]">
         <num>1.0.1 release</num>
         <commit>release-v1.0.1</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc47_relax_v1]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.1" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.2.1" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc47_relax_v1]">
         <num>Latest 0.X release</num>
         <commit>latest-v0.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.1" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.2.1" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc47_relax_v1]">
         <num>0.5.0 release</num>
         <commit>release-v0.5.0</commit>
       </version>
@@ -3992,27 +3995,27 @@
     <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
     <req_capabilities>xmc dma</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc47_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc47_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc47_relax_v1]">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc47_relax_v1]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc47_relax_v1]">
         <num>1.0.1 release</num>
         <commit>release-v1.0.1</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc47_relax_v1]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -4028,23 +4031,23 @@
     <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
     <req_capabilities>xmc i2c led</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc11_boot_001,kit_xmc12_boot_001,kit_xmc13_boot_001,kit_xmc14_boot_001,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc47_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc11_boot_001,kit_xmc12_boot_001,kit_xmc13_boot_001,kit_xmc14_boot_001,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc47_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -4060,27 +4063,27 @@
     <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
     <req_capabilities>xmc led</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc47_relax_v1,kit_xmc11_boot_001,kit_xmc12_boot_001,kit_xmc13_boot_001,kit_xmc14_boot_001,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc47_relax_v1,kit_xmc11_boot_001,kit_xmc12_boot_001,kit_xmc13_boot_001,kit_xmc14_boot_001,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>1.0.1 release</num>
         <commit>release-v1.0.1</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -4096,33 +4099,33 @@
     <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
     <req_capabilities>xmc led ccu8</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc13_boot_001,kit_xmc14_boot_001,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc47_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc13_boot_001,kit_xmc14_boot_001,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc47_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>1.0.1 release</num>
         <commit>release-v1.0.1</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
     </versions>
   </app>
-  <app keywords="xmc,adc,vadc,scan,continuous scan,led,mtb-flow" req_capabilities_v2="xmc adc [xmc4000, kit_xmc12_boot_001, kit_xmc13_boot_001, kit_xmc14_boot_001]">
+  <app keywords="xmc,adc,vadc,scan,continuous scan,led,mtb-flow" req_capabilities_v2="xmc adc [xmc4000]">
     <name>VADC Scan</name>
     <id>mtb-example-xmc-vadc-scan</id>
     <category>Peripherals</category>
@@ -4132,31 +4135,31 @@
     <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
     <req_capabilities>xmc led adc</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc12_boot_001,kit_xmc13_boot_001,kit_xmc14_boot_001,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc47_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc12_boot_001,kit_xmc13_boot_001,kit_xmc14_boot_001,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc47_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>2.0.1 release</num>
         <commit>release-v2.0.1</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>1.0.1 release</num>
         <commit>release-v1.0.1</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -4172,27 +4175,27 @@
     <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
     <req_capabilities>xmc rtc led</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc11_boot_001,kit_xmc12_boot_001,kit_xmc13_boot_001,kit_xmc14_boot_001,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc47_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc11_boot_001,kit_xmc12_boot_001,kit_xmc13_boot_001,kit_xmc14_boot_001,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc47_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>1.0.1 release</num>
         <commit>release-v1.0.1</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -4244,27 +4247,27 @@
     <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
     <req_capabilities>xmc led ccu8</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc13_boot_001,kit_xmc14_boot_001,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc47_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc13_boot_001,kit_xmc14_boot_001,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc47_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>1.0.1 release</num>
         <commit>release-v1.0.1</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -4280,27 +4283,27 @@
     <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
     <req_capabilities>xmc ccu8 uart</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc13_boot_001,kit_xmc14_boot_001,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc47_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc13_boot_001,kit_xmc14_boot_001,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc47_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>1.0.1 release</num>
         <commit>release-v1.0.1</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -4316,33 +4319,33 @@
     <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
     <req_capabilities>xmc dac</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc47_relax_v1,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc47_relax_v1,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc47_relax_v1]">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc47_relax_v1]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc47_relax_v1]">
         <num>1.0.1 release</num>
         <commit>release-v1.0.1</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc47_relax_v1]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
     </versions>
   </app>
-  <app keywords="xmc,acmp,comparator,analog,led,mtb-flow" req_capabilities_v2="xmc1000 led comp [kit_xmc12_boot_001,kit_xmc13_boot_001,kit_xmc14_boot_001]">
+  <app keywords="xmc,acmp,comparator,analog,led,mtb-flow" req_capabilities_v2="xmc1000 led comp">
     <name>Analog Comparator</name>
     <id>mtb-example-xmc-acmp-cmp</id>
     <category>Peripherals</category>
@@ -4352,27 +4355,27 @@
     <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
     <req_capabilities>xmc1000 led comp</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc12_boot_001,kit_xmc13_boot_001,kit_xmc14_boot_001]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc12_boot_001,kit_xmc13_boot_001,kit_xmc14_boot_001]">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc14_boot_001]">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001]">
         <num>1.0.1 release</num>
         <commit>release-v1.0.1</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -4388,29 +4391,29 @@
     <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
     <req_capabilities>xmc uart</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc11_boot_001,kit_xmc12_boot_001,kit_xmc13_boot_001,kit_xmc14_boot_001,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc47_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc11_boot_001,kit_xmc12_boot_001,kit_xmc13_boot_001,kit_xmc14_boot_001,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc47_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>1.0.1 release</num>
         <commit>release-v1.0.1</commit>
       </version>
     </versions>
   </app>
-  <app keywords="xmc,can,receiver,led,mtb-flow" req_capabilities_v2="xmc can led [xmc4000, kit_xmc14_boot_001]">
+  <app keywords="xmc,can,receiver,led,mtb-flow" req_capabilities_v2="xmc can led">
     <name>CAN Receiver</name>
     <id>mtb-example-xmc-can-receiver</id>
     <category>Peripherals</category>
@@ -4420,23 +4423,23 @@
     <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
     <req_capabilities>xmc can led</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc14_boot_001,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc47_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc14_boot_001,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc47_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -4452,29 +4455,29 @@
     <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
     <req_capabilities>xmc can led</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc47_relax_v1,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc47_relax_v1,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
     </versions>
   </app>
-  <app keywords="xmc,dma,fce,crc,led,mtb-flow">
+  <app keywords="xmc,dma,fce,crc,led,mtb-flow" req_capabilities_v2="xmc dma led">
     <name>DMA FCE</name>
     <id>mtb-example-xmc-dma-fce</id>
     <category>Peripherals</category>
@@ -4484,29 +4487,29 @@
     <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
     <req_capabilities>xmc dma led</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc47_relax_v1,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc47_relax_v1,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc47_relax_v1]">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc47_relax_v1]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc47_relax_v1]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
     </versions>
   </app>
-  <app keywords="xmc,spi,dma,led,mtb-flow">
+  <app keywords="xmc,spi,dma,led,mtb-flow" req_capabilities_v2="xmc dma spi led">
     <name>SPI DMA</name>
     <id>mtb-example-xmc-spi-dma</id>
     <category>Peripherals</category>
@@ -4516,29 +4519,29 @@
     <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
     <req_capabilities>xmc dma spi led</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc47_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc47_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc47_relax_v1]">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc47_relax_v1]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc47_relax_v1]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
     </versions>
   </app>
-  <app keywords="xmc,fce,crc,led,mtb-flow">
+  <app keywords="xmc,fce,crc,led,mtb-flow" req_capabilities_v2="xmc led xmc4000">
     <name>FCE CRC</name>
     <id>mtb-example-xmc-fce-crc</id>
     <category>Peripherals</category>
@@ -4548,29 +4551,29 @@
     <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
     <req_capabilities>xmc led xmc4000</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc47_relax_v1,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc47_relax_v1,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc47_relax_v1]">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc47_relax_v1]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc47_relax_v1]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
     </versions>
   </app>
-  <app keywords="xmc,can,transmitter,led,mtb-flow" req_capabilities_v2="xmc can led [xmc4000, kit_xmc14_boot_001]">
+  <app keywords="xmc,can,transmitter,led,mtb-flow" req_capabilities_v2="xmc can led">
     <name>CAN Transmitter</name>
     <id>mtb-example-xmc-can-transmitter</id>
     <category>Peripherals</category>
@@ -4580,23 +4583,23 @@
     <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
     <req_capabilities>xmc can led</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc14_boot_001,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc47_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc14_boot_001,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc47_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -4612,29 +4615,29 @@
     <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
     <req_capabilities>xmc led</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc11_boot_001,kit_xmc12_boot_001,kit_xmc13_boot_001,kit_xmc14_boot_001,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc47_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc11_boot_001,kit_xmc12_boot_001,kit_xmc13_boot_001,kit_xmc14_boot_001,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc47_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
     </versions>
   </app>
-  <app keywords="xmc,math,sqrt,square root,cordic,mtb-flow" req_capabilities_v2="xmc xmc1000 [kit_xmc13_boot_001, kit_xmc14_boot_001]">
+  <app keywords="xmc,math,sqrt,square root,cordic,mtb-flow" req_capabilities_v2="xmc xmc1000 [kit_xmc14_boot_001]">
     <name>MATH SQRT</name>
     <id>mtb-example-xmc-math-sqrt</id>
     <category>Peripherals</category>
@@ -4672,19 +4675,19 @@
     <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
     <req_capabilities>xmc led</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc11_boot_001,kit_xmc12_boot_001,kit_xmc13_boot_001,kit_xmc14_boot_001,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc47_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc11_boot_001,kit_xmc12_boot_001,kit_xmc13_boot_001,kit_xmc14_boot_001,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc47_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -4700,23 +4703,23 @@
     <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
     <req_capabilities>xmc led</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc11_boot_001,kit_xmc12_boot_001,kit_xmc13_boot_001,kit_xmc14_boot_001,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc47_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc11_boot_001,kit_xmc12_boot_001,kit_xmc13_boot_001,kit_xmc14_boot_001,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc47_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -4733,23 +4736,23 @@
     <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
     <req_capabilities>xmc led</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc11_boot_001,kit_xmc12_boot_001,kit_xmc13_boot_001,kit_xmc14_boot_001,kit_xmc_plt2go_xmc4200,kit_xmc43_relax,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc47_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc11_boot_001,kit_xmc12_boot_001,kit_xmc13_boot_001,kit_xmc14_boot_001,kit_xmc_plt2go_xmc4200,kit_xmc43_relax,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc47_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -4765,23 +4768,23 @@
     <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
     <req_capabilities>xmc led ccu8</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc13_boot_001,kit_xmc14_boot_001,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc47_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc13_boot_001,kit_xmc14_boot_001,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc47_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -4797,19 +4800,19 @@
     <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
     <req_capabilities>xmc led spi</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc11_boot_001,kit_xmc12_boot_001,kit_xmc13_boot_001,kit_xmc14_boot_001,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc47_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc11_boot_001,kit_xmc12_boot_001,kit_xmc13_boot_001,kit_xmc14_boot_001,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc47_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -4825,23 +4828,23 @@
     <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
     <req_capabilities>xmc dma</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc47_relax_v1,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc47_relax_v1,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc47_relax_v1]">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc47_relax_v1]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc47_relax_v1]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -4857,23 +4860,23 @@
     <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
     <req_capabilities>xmc dma led</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc47_relax_v1,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc47_relax_v1,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc47_relax_v1]">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc47_relax_v1]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc47_relax_v1]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -4889,23 +4892,23 @@
     <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
     <req_capabilities>xmc dma led</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc47_relax_v1,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc47_relax_v1,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc47_relax_v1]">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc47_relax_v1]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc47_relax_v1]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -4922,23 +4925,23 @@
     <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
     <req_capabilities>xmc xmc4000</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc47_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc47_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc47_relax_v1]">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc47_relax_v1]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc47_relax_v1]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -4954,29 +4957,29 @@
     <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
     <req_capabilities>xmc led</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc11_boot_001,kit_xmc12_boot_001,kit_xmc13_boot_001,kit_xmc14_boot_001,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc47_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc11_boot_001,kit_xmc12_boot_001,kit_xmc13_boot_001,kit_xmc14_boot_001,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc47_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
     </versions>
   </app>
-  <app keywords="xmc,tse,calc,temperature,dts,mtb-flow" req_capabilities_v2="xmc dma xmc1000">
+  <app keywords="xmc,tse,calc,temperature,dts,mtb-flow" req_capabilities_v2="xmc led xmc1000">
     <name>TSE Calc Temperature</name>
     <id>mtb-example-xmc-tse-calc-temperature</id>
     <category>Peripherals</category>
@@ -4986,23 +4989,23 @@
     <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
     <req_capabilities>xmc led xmc1000</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc11_boot_001,kit_xmc12_boot_001,kit_xmc13_boot_001,kit_xmc14_boot_001]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc11_boot_001,kit_xmc12_boot_001,kit_xmc13_boot_001,kit_xmc14_boot_001]">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc14_boot_001]">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -5018,25 +5021,25 @@
     <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
     <req_capabilities>xmc led ccu8</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc13_boot_001,kit_xmc14_boot_001,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc47_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc13_boot_001,kit_xmc14_boot_001,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc47_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
     </versions>
   </app>
-  <app keywords="xmc,math,cordic,mtb-flow" req_capabilities_v2="xmc xmc1000 [kit_xmc13_boot_001,kit_xmc14_boot_001]">
+  <app keywords="xmc,math,cordic,mtb-flow" req_capabilities_v2="xmc xmc1000 [kit_xmc14_boot_001]">
     <name>MATH CORDIC</name>
     <id>mtb-example-xmc-math-cordic</id>
     <category>Peripherals</category>
@@ -5074,29 +5077,29 @@
     <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
     <req_capabilities>xmc led posif</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc13_boot_001,kit_xmc14_boot_001,kit_xmc_plt2go_xmc4200,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc47_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc13_boot_001,kit_xmc14_boot_001,kit_xmc_plt2go_xmc4200,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc47_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
     </versions>
   </app>
-  <app keywords="xmc,adc,vadc,background,bg,led,mtb-flow" req_capabilities_v2="xmc led posif">
+  <app keywords="xmc,adc,vadc,background,bg,led,mtb-flow" req_capabilities_v2="xmc led adc">
     <name>VADC Background</name>
     <id>mtb-example-xmc-vadc-bg</id>
     <category>Peripherals</category>
@@ -5106,23 +5109,23 @@
     <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
     <req_capabilities>xmc led adc</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc11_boot_001,kit_xmc12_boot_001,kit_xmc13_boot_001,kit_xmc14_boot_001,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc47_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc11_boot_001,kit_xmc12_boot_001,kit_xmc13_boot_001,kit_xmc14_boot_001,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc47_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -5139,29 +5142,29 @@
     <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
     <req_capabilities>xmc led</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc11_boot_001,kit_xmc12_boot_001,kit_xmc13_boot_001,kit_xmc14_boot_001,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc47_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc11_boot_001,kit_xmc12_boot_001,kit_xmc13_boot_001,kit_xmc14_boot_001,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc47_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
     </versions>
   </app>
-  <app keywords="xmc,qspi-flash,flash,qspi,spi-qspi-flash,led,mtb-flow" req_capabilities_v2="xmc4000 led qspi memory [kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc47_relax_v1,kit_xmc48_relax_ecat_v1]">
+  <app keywords="xmc,qspi-flash,flash,qspi,spi-qspi-flash,led,mtb-flow" req_capabilities_v2="xmc4000 led qspi memory">
     <name>SPI QSPI Flash</name>
     <id>mtb-example-xmc-spi-qspi-flash</id>
     <category>Peripherals</category>
@@ -5171,19 +5174,19 @@
     <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
     <req_capabilities>xmc4000 led qspi memory</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc47_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc47_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc47_relax_v1]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc47_relax_v1]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -5221,7 +5224,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="xmc,adc,vadc,queue,mtb-flow" req_capabilities_v2="xmc adc [xmc4000, kit_xmc12_boot_001, kit_xmc13_boot_001, kit_xmc14_boot_001]">
+  <app keywords="xmc,adc,vadc,queue,mtb-flow" req_capabilities_v2="xmc adc">
     <name>VADC Queue</name>
     <id>mtb-example-xmc-vadc-queue</id>
     <category>Peripherals</category>
@@ -5231,23 +5234,23 @@
     <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
     <req_capabilities>xmc adc</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc12_boot_001,kit_xmc13_boot_001,kit_xmc14_boot_001,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc47_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc12_boot_001,kit_xmc13_boot_001,kit_xmc14_boot_001,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc47_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -5264,19 +5267,19 @@
     <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
     <req_capabilities>xmc xmc4000</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc47_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc47_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc47_relax_v1]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc47_relax_v1]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -5292,23 +5295,23 @@
     <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
     <req_capabilities>xmc posif uart</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc13_boot_001,kit_xmc14_boot_001,kit_xmc_plt2go_xmc4200,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc47_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc13_boot_001,kit_xmc14_boot_001,kit_xmc_plt2go_xmc4200,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc47_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -5596,14 +5599,14 @@
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,button,led,ble,findme,FMP,GAP peripheral,mtb-flow" req_capabilities_v2="psoc6 led switch ble">
+  <app keywords="psoc6,button,led,ble,findme,FMP,GAP peripheral,mtb-flow" req_capabilities_v2="psoc6 led switch bt">
     <name>Bluetooth LE Find Me</name>
     <id>mtb-example-psoc6-ble-findme</id>
     <category>Bluetooth&#174;</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-ble-findme</uri>
     <description><![CDATA[This code example demonstrates the implementation of a simple Bluetooth&#174; Low Energy Immediate Alert Service (IAS)-based Find Me Profile (FMP) using PSoC&#8482; 6 MCU with Bluetooth&#174; Low Energy Connectivity.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-ble-findme/blob/master/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>psoc6 led switch ble</req_capabilities>
+    <req_capabilities>psoc6 led switch bt</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version_v2="[bsp_gen2] [cy8ckit_062_ble,cy8cproto_063_ble]">
         <num>Latest 2.X release</num>
@@ -5671,19 +5674,19 @@
     This code example makes use of the lwIP open-source TCP/IP stack and the Mbed TLS open-source TLS/SSL library which has cryptographic capabilities. Creating a project from this template will cause lwIP and Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the lwIP &amp; Mbed TLS licenses and regional use restrictions (including abiding by all applicable export control laws).]]></description>
     <req_capabilities>psoc6 cyw43xxx led capsense_button capsense_linear_slider wifi</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_062_wifi_bt,cy8cproto_062_4343w,cy8ckit_062s2_43012,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01,cy8cproto_062s3_4343w,cy8ckit_064b0s2_4343w,cy8ceval_062_s2_lai_4373m2,cy8ceval_062_mur_43439m2]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_062_wifi_bt,cy8cproto_062_4343w,cy8ckit_062s2_43012,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01,cy8cproto_062s3_4343w,cy8ckit_064b0s2_4343w,cy8ceval_062_s2_lai_4373m2,cy8ceval_062_mur_43439m2]">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version_v2="[bsp_gen2] [cy8ckit_062_wifi_bt,cy8cproto_062_4343w,cy8ckit_062s2_43012,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version_v2="[bsp_gen2] [cy8ckit_062_wifi_bt,cy8cproto_062_4343w,cy8ckit_062s2_43012,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -5933,11 +5936,11 @@
         <num>4.0.0 release</num>
         <commit>release-v4.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_062_4343W,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01,cy8ceval_062_s2_lai_4373m2,cy8ceval_062_mur_43439m2,cy8ckit_064s0s2_4343w]">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_062_4343W,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01,cy8ceval_062_s2_lai_4373m2,cy8ceval_062_mur_43439m2]">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_062_4343W,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01,cy8ceval_062_s2_lai_4373m2,cy8ceval_062_mur_43439m2,cy8ckit_064s0s2_4343w]">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_062_4343W,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01,cy8ceval_062_s2_lai_4373m2,cy8ceval_062_mur_43439m2]">
         <num>3.0.0 release</num>
         <commit>release-v3.0.0</commit>
       </version>
@@ -5949,15 +5952,15 @@
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version_v2="[bsp_gen3] [cy8cproto_062_4343W,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01,cy8ceval_062_s2_lai_4373m2,cy8ceval_062_mur_43439m2,cy8ckit_064s0s2_4343w,cy8cproto_062s3_4343w]">
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version_v2="[bsp_gen3] [cy8cproto_062_4343W,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01,cy8ceval_062_s2_lai_4373m2,cy8ceval_062_mur_43439m2,cy8ckit_064s0s2_4343w]">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version_v2="[bsp_gen3] [cy8cproto_062_4343W,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01,cy8ceval_062_s2_lai_4373m2,cy8ceval_062_mur_43439m2,cy8ckit_064s0s2_4343w,cy8cproto_062s3_4343w]">
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version_v2="[bsp_gen3] [cy8cproto_062_4343W,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01,cy8ceval_062_s2_lai_4373m2,cy8ceval_062_mur_43439m2,cy8ckit_064s0s2_4343w]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version_v2="[bsp_gen3] [cy8cproto_062_4343W,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01,cy8ceval_062_s2_lai_4373m2,cy8ceval_062_mur_43439m2,cy8ckit_064s0s2_4343w,cy8cproto_062s3_4343w]">
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version_v2="[bsp_gen3] [cy8cproto_062_4343W,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01,cy8ceval_062_s2_lai_4373m2,cy8ceval_062_mur_43439m2,cy8ckit_064s0s2_4343w]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
