@@ -8373,7 +8373,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="motor-control,mtb-flow">
+  <app keywords="motor-control,mtb-flow" req_capabilities_v2="spi hal cy8cproto_062_4343w">
     <name>Multi Half-Bridge</name>
     <id>mtb-example-multi-half-bridge</id>
     <category>Peripherals</category>
