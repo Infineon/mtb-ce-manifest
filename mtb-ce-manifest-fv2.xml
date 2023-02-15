@@ -2674,6 +2674,25 @@
       </version>
     </versions>
   </app>
+  <app keywords="mtb-flow,psoc6,wifi,matter">
+    <name>Matter Wi-Fi Door Lock</name>
+    <id>mtb-example-psoc6-matter-door-lock</id>
+    <category>Connectivity</category>
+    <uri>https://github.com/Infineon/mtb-example-psoc6-matter-door-lock</uri>
+    <description><![CDATA[This code example makes use of Matter on an Infineon PSoC&#8482; 6 board to demonstrate it's functionality as a Wi-Fi door lock device.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-matter-door-lock/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>psoc6 wifi cyw43xxx flash_2048k</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
   <app keywords="mtb-flow,psoc6,qspi,fram,led" req_capabilities_v2="psoc6 led qspi fram">
     <name>QSPI F-RAM Access</name>
     <id>mtb-example-psoc6-qspi-fram-access</id>
