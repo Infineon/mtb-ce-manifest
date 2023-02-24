@@ -5657,6 +5657,10 @@
         <commit>latest-v4.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>4.1.0 release</num>
+        <commit>release-v4.1.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>4.0.0 release</num>
         <commit>release-v4.0.0</commit>
       </version>
@@ -7082,24 +7086,32 @@
       </version>
     </versions>
   </app>
-  <app keywords="psoc4,psoc6,canfd,mtb-flow" req_capabilities_v2="led can [psoc4,psoc6] [cy8ckit_041s_max,cy8ckit_062s4,cy8cproto_062s3_4343w]">
+  <app keywords="psoc4,psoc6,canfd,mtb-flow" req_capabilities_v2="">
     <name>CAN FD</name>
-    <id>mtb-example-canfd</id>
+    <id>mtb-example-psoc4-canfd</id>
     <category>Peripherals</category>
-    <uri>https://github.com/Infineon/mtb-example-canfd</uri>
-    <description><![CDATA[This example demonstrates how to use CAN FD in Infineon's PSoC&#8482; 6 and PSoC&#8482; 4 MCU devices. In this example, the CANFD Node-1 sends a CAN FD frame to CANFD-Node-2 on pressing the user button and vice versa. Both the CAN FD nodes log the received data over UART serial terminal. Each time a CAN FD Frame is received, the user LED toggles.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-canfd/blob/master/README.md">README on GitHub</a>.]]></description>
+    <uri>https://github.com/Infineon/mtb-example-psoc4-canfd</uri>
+    <description><![CDATA[This example demonstrates how to use CAN FD in Infineon's PSoC&#8482; 4 MCU devices. In this example, the CANFD Node-1 sends a CAN FD frame to CANFD-Node-2 on pressing the user button and vice versa. Both the CAN FD nodes log the received data over UART serial terminal. Each time a CAN FD Frame is received, the user LED toggles.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-canfd/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>led can</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version_v2="[bsp_gen3]">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="psoc4 cy8ckit_041s_max [bsp_gen4]">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="psoc4 cy8ckit_041s_max [bsp_gen4]">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.4.0" tools_max_version="2.4.1" req_capabilities_per_version_v2="[psoc4,psoc6][cy8cproto_062s3_4343w,cy8ckit_062s4,cy8ckit_041s_max][bsp_gen3]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version_v2="[bsp_gen3]">
+      <version flow_version="2.0" tools_min_version="2.4.0" tools_max_version="2.4.1" req_capabilities_per_version_v2="[psoc4,psoc6][cy8cproto_062s3_4343w,cy8ckit_062s4,cy8ckit_041s_max][bsp_gen3]">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version_v2="[bsp_gen3]">
+      <version flow_version="2.0" tools_min_version="2.4.0" tools_max_version="2.4.1" req_capabilities_per_version_v2="psoc4 cy8ckit_041s_max [bsp_gen3]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -9066,6 +9078,25 @@
         <commit>latest-v1.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,canfd,mtb-flow" req_capabilities_v2="led can psoc6 [cy8cproto_062s3_4343w,cy8ckit_062s4]">
+    <name>CAN FD</name>
+    <id>mtb-example-psoc6-canfd</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-psoc6-canfd</uri>
+    <description><![CDATA[This example demonstrates how to use CAN FD in Infineon's PSoC&#8482; 6 MCU devices. In this example, the CANFD Node-1 sends a CAN FD frame to CANFD-Node-2 on pressing the user button and vice versa. Both the CAN FD nodes log the received data over UART serial terminal. Each time a CAN FD Frame is received, the user LED toggles.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-canfd/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>led can psoc6</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
