@@ -357,10 +357,10 @@
   </app>
   <app>
     <name>UART Transmit and Receive</name>
-    <id>mtb-example-psoc6-uart-transmit-receive-0</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-uart-transmit-receive</uri>
-    <description><![CDATA[This example demonstrates the UART (HAL) transmit and receive operation in PSoC&#8482; 6 MCU.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-uart-transmit-receive/blob/master/README.md">README on GitHub</a>.]]></description>
+    <id>mtb-example-hal-uart-transmit-receive-0</id>
+    <uri>https://github.com/Infineon/mtb-example-hal-uart-transmit-receive</uri>
+    <description><![CDATA[This example demonstrates the UART (HAL) transmit and receive operation.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-hal-uart-transmit-receive/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 led</req_capabilities>
     <versions>
       <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
