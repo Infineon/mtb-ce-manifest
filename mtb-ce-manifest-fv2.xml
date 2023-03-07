@@ -7633,11 +7633,11 @@
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.4.0" tools_max_version="2.4.0" req_capabilities_per_version_v2="[bsp_gen3] [cysbsyskit_dev_01,kit_bgt60tr13c_embedd]">
+      <version flow_version="2.0" tools_min_version="2.4.0" tools_max_version="2.4.1" req_capabilities_per_version_v2="[bsp_gen3] [cysbsyskit_dev_01,kit_bgt60tr13c_embedd]">
         <num>Latest 0.X release</num>
         <commit>latest-v0.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.4.0" tools_max_version="2.4.0" req_capabilities_per_version_v2="[bsp_gen3] [cysbsyskit_dev_01,kit_bgt60tr13c_embedd]">
+      <version flow_version="2.0" tools_min_version="2.4.0" tools_max_version="2.4.1" req_capabilities_per_version_v2="[bsp_gen3] [cysbsyskit_dev_01,kit_bgt60tr13c_embedd]">
         <num>0.5.1 release</num>
         <commit>release-v0.5.1</commit>
       </version>
