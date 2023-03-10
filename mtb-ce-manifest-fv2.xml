@@ -6569,7 +6569,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="pmg1,led,switch,gpio-interrupt,i2c,pwm,dps310,mtb-flow">
+  <app keywords="pmg1,led,switch,gpio-interrupt,i2c,pwm,dps310,mtb-flow" req_capabilities_v2="pmg1 usbpd i2c uart switch led [pmg1_cy7110, pmg1_cy7111, pmg1_cy7112, pmg1_cy7113]">
     <name>USBPD Sink DPS310 I2C Sensor</name>
     <id>mtb-example-pmg1-usbpd-sink-dps310-i2c-sensor</id>
     <category>Peripherals</category>
@@ -6578,6 +6578,14 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-usbpd-sink-dps310-i2c-sensor/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>pmg1 usbpd i2c uart switch led</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.3.0" tools_max_version="2.4.1" req_capabilities_per_version="bsp_gen2">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -6700,39 +6708,55 @@
       </version>
     </versions>
   </app>
-  <app keywords="pmg1,powermodes,sleep,deepsleep">
+  <app keywords="pmg1,powermodes,sleep,deepsleep" req_capabilities_v2="pmg1 led [pmg1_cy7110, pmg1_cy7111, pmg1_cy7112, pmg1_cy7113]">
     <name>Power Modes</name>
     <id>mtb-example-pmg1-power-modes</id>
     <category>Getting Started</category>
     <uri>https://github.com/Infineon/mtb-example-pmg1-power-modes</uri>
     <description><![CDATA[This code example shows how to enter system Sleep and Deep Sleep modes. After entering Deep Sleep or Sleep mode, the example also shows how to wake up from these low-power modes and return to the Active mode.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-power-modes/blob/master/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>pmg1 uart led</req_capabilities>
+    <req_capabilities>pmg1 led</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.4.0" tools_max_version="2.4.1" req_capabilities_per_version="bsp_gen2">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.4.0" tools_max_version="2.4.1" req_capabilities_per_version="bsp_gen2">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
     </versions>
   </app>
-  <app keywords="pmg1,eeprom,i2c-master">
+  <app keywords="pmg1,eeprom,i2c-master" req_capabilities_v2="pmg1 i2c led switch [pmg1_cy7110, pmg1_cy7111, pmg1_cy7112, pmg1_cy7113]">
     <name>I2C EEPROM</name>
     <id>mtb-example-pmg1-i2c-eeprom</id>
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-pmg1-i2c-eeprom</uri>
     <description><![CDATA[This code example demonstrates the configuration and usage of serial communication block (SCB) as I2C master to write and read data to an I2C (slave) EEPROM (24LC128).
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-i2c-eeprom/blob/master/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>pmg1 i2c led uart switch</req_capabilities>
+    <req_capabilities>pmg1 i2c led switch</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.4.0" tools_max_version="2.4.1" req_capabilities_per_version="bsp_gen2">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.4.0" tools_max_version="2.4.1" req_capabilities_per_version="bsp_gen2">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -8191,7 +8215,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="pmg1,temp,sensor,adc,8-bit,temperature,mtb-flow" req_capabilities_v2="pmg1 usbpd uart led switch [pmg1_cy7110, pmg1_cy7111, pmg1_cy7112]">
+  <app keywords="pmg1,temp,sensor,adc,8-bit,temperature,mtb-flow" req_capabilities_v2="pmg1 usbpd uart led switch [pmg1_cy7110, pmg1_cy7111, pmg1_cy7112, pmg1_cy7113]">
     <name>On Chip Temp Sensor 8 bit SAR ADC</name>
     <id>mtb-example-pmg1-on-chip-temp-sensor-8-bit-saradc</id>
     <category>Peripherals</category>
@@ -8200,11 +8224,19 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-on-chip-temp-sensor-8-bit-saradc/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>pmg1 usbpd uart led switch</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.4.0" tools_max_version="2.4.1" req_capabilities_per_version="bsp_gen2">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.4.0" tools_max_version="2.4.1" req_capabilities_per_version="bsp_gen2">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -8384,33 +8416,41 @@
       </version>
     </versions>
   </app>
-  <app keywords="pmg1,adc,sar,12-bit,analog,pass,mtb-flow" req_capabilities_v2="pmg1 adc uart led [pmg1_cy7113]">
+  <app keywords="pmg1,adc,sar,12-bit,analog,pass,mtb-flow" req_capabilities_v2="pmg1 adc uart [pmg1_cy7113]">
     <name>12 bit SAR ADC</name>
     <id>mtb-example-pmg1-12-bit-saradc-basic</id>
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-pmg1-12-bit-saradc-basic</uri>
     <description><![CDATA[This code example demonstrates the method of using the 12-bit SAR ADC on PMG1-S3 MCU to read the input voltage applied in both differential and single-ended modes and to display the measured voltage and corresponding output codes in signed/unsigned format. It also explains the configuration of PASS 0 12-bit SAR ADC 0 using the Device Configurator tool.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-12-bit-saradc-basic/blob/master/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>pmg1 adc uart led</req_capabilities>
+    <req_capabilities>pmg1 adc uart</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.4.0" tools_max_version="2.4.1" req_capabilities_per_version="bsp_gen2">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.4.0" tools_max_version="2.4.1" req_capabilities_per_version="bsp_gen2">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
     </versions>
   </app>
-  <app keywords="pmg1,adc,sar,8-bit,analog,mtb-flow" req_capabilities_v2="pmg1 usbpd uart led adc [pmg1_cy7110, pmg1_cy7111, pmg1_cy7112, pmg1_cy7113]">
+  <app keywords="pmg1,adc,sar,8-bit,analog,mtb-flow" req_capabilities_v2="pmg1 usbpd uart led [pmg1_cy7110, pmg1_cy7111, pmg1_cy7112, pmg1_cy7113]">
     <name>8 bit SAR ADC</name>
     <id>mtb-example-pmg1-8-bit-saradc-basic</id>
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-pmg1-8-bit-saradc-basic</uri>
     <description><![CDATA[This code example demonstrates the method of using the 8-bit SAR ADC in the USBPD block on PMG1 MCU to measure the external input voltage. The measured voltage values and the corresponding ADC results are displayed on a UART terminal.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-8-bit-saradc-basic/blob/master/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>pmg1 usbpd uart led adc</req_capabilities>
+    <req_capabilities>pmg1 usbpd uart led</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>Latest 2.X release</num>
@@ -8466,6 +8506,14 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-usbfs-cdc/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>pmg1 usb_device</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.3.0" tools_max_version="2.4.1" req_capabilities_per_version="bsp_gen2">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -8476,7 +8524,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="pmg1,usb,mtb-flow,msc,mass storage, file system">
+  <app keywords="pmg1,usb,mtb-flow,msc,mass storage, file system" req_capabilities_v2="pmg1 usb_device switch [pmg1_cy7112, pmg1_cy7113]">
     <name>USBFS MSC File System in SRAM</name>
     <id>mtb-example-pmg1-usbfs-msc-fs-sram</id>
     <category>Peripherals</category>
@@ -8485,11 +8533,19 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-usbfs-msc-fs-sram/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>pmg1 usb_device switch</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.4.0" tools_max_version="2.4.1" req_capabilities_per_version="bsp_gen2">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.4.0" tools_max_version="2.4.1" req_capabilities_per_version="bsp_gen2">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -8657,7 +8713,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="pmg1,usb,mtb-flow,vendor interface,Bulkloop">
+  <app keywords="pmg1,usb,mtb-flow,vendor interface,Bulkloop" req_capabilities_v2="pmg1 usb_device [pmg1_cy7112, pmg1_cy7113]">
     <name>USB FS vendor interface</name>
     <id>mtb-example-pmg1-usbfs-vendor-interface</id>
     <category>Peripherals</category>
@@ -8666,11 +8722,19 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-usbfs-vendor-interface/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>pmg1 usb_device</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.4.0" tools_max_version="2.4.1" req_capabilities_per_version="bsp_gen2">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.4.0" tools_max_version="2.4.1" req_capabilities_per_version="bsp_gen2">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -8697,7 +8761,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="pmg1,usb,mtb-flow,billboard">
+  <app keywords="pmg1,usb,mtb-flow,billboard" req_capabilities_v2="pmg1 usb_device [pmg1_cy7112, pmg1_cy7113]">
     <name>USBFS Billboard</name>
     <id>mtb-example-pmg1-usbfs-billboard</id>
     <category>Peripherals</category>
@@ -8706,11 +8770,19 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-usbfs-billboard/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>pmg1 usb_device</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.4.0" tools_max_version="2.4.1" req_capabilities_per_version="bsp_gen2">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.4.0" tools_max_version="2.4.1" req_capabilities_per_version="bsp_gen2">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
