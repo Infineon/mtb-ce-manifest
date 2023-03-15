@@ -9450,4 +9450,41 @@
       </version>
     </versions>
   </app>
+  <app keywords="psoc6,psoc64,rma" req_capabilities_v2="psoc6 switch">
+    <name>Transition to RMA</name>
+    <id>mtb-example-psoc6-transition-to-rma</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-psoc6-transition-to-rma</uri>
+    <description><![CDATA[This code example demonstrates the transitioning of PSoC6x device into RMA Life cycle stage.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-transition-to-rma/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>psoc6 switch</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="xmc,mtb-flow,6edl7141,gate-driver,motor-control" req_capabilities_v2="eval_6edl7141_trap_1sh">
+    <name>XMC 6EDL7141 Trapezoidal 1 Shunt</name>
+    <id>mtb-example-xmc-6edl7141-trapezoidal-1-shunt</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-xmc-6edl7141-trapezoidal-1-shunt</uri>
+    <description><![CDATA[This code example support motor control Trapezoidal 1 Shunt application in XMC1404 device and provide the SPI bus communication to configure the registers in 6EDL7141 motor control driver IC.]]></description>
+    <req_capabilities>eval_6edl7141_trap_1sh</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 0.X release</num>
+        <commit>latest-v0.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>0.5.0 release</num>
+        <commit>release-v0.5.0</commit>
+      </version>
+    </versions>
+  </app>
 </apps>
