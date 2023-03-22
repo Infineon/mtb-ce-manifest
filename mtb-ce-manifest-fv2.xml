@@ -2386,11 +2386,11 @@
         <num>3.0.0 release</num>
         <commit>release-v3.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.0" tools_max_version="2.4.1" req_capabilities_per_version_v2="[bsp_gen2] [cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43012evb_01,cy8cproto_062_4343w]">
+      <version flow_version="2.0" tools_min_version="2.2.0" tools_max_version="2.2.0" req_capabilities_per_version_v2="[bsp_gen2] [cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43012evb_01,cy8cproto_062_4343w]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.0" tools_max_version="2.4.1" req_capabilities_per_version_v2="[bsp_gen2] [cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43012evb_01,cy8cproto_062_4343w]">
+      <version flow_version="2.0" tools_min_version="2.2.0" tools_max_version="2.2.0" req_capabilities_per_version_v2="[bsp_gen2] [cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43012evb_01,cy8cproto_062_4343w]">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
@@ -3143,23 +3143,23 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-uart-transmit-receive/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>capsense led psoc4</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4]">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_145_40xx,cy8ckit_149,cy8ckit_041_41xx,cy8ckit_045s]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4]">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_145_40xx,cy8ckit_149,cy8ckit_041_41xx,cy8ckit_045s]">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version_v2="[bsp_gen3]">
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version_v2="[bsp_gen3] [cy8ckit_041s_max,cy8ckit_145_40xx,cy8ckit_149,cy8ckit_041_41xx,cy8ckit_045s]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version_v2="[bsp_gen3]">
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version_v2="[bsp_gen3] [cy8ckit_041s_max,cy8ckit_145_40xx,cy8ckit_149,cy8ckit_041_41xx,cy8ckit_045s]">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version_v2="[bsp_gen2] [cy8ckit_149,cy8ckit_041_41xx,cy8ckit_145_40xx]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -3371,19 +3371,19 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-gpio/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>capsense led psoc4</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4]">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_041_41xx,cy8ckit_145_40xx,cy8ckit_045s]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4]">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_041_41xx,cy8ckit_145_40xx,cy8ckit_045s]">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version_v2="[bsp_gen3]">
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version_v2="[bsp_gen3] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_041_41xx,cy8ckit_145_40xx,cy8ckit_045s]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version_v2="[bsp_gen3]">
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version_v2="[bsp_gen3] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_041_41xx,cy8ckit_145_40xx,cy8ckit_045s]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -3682,7 +3682,7 @@
     <id>mtb-example-xmc-empty-app</id>
     <category>Getting Started</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-xmc-empty-app</uri>
-    <description><![CDATA[This empty application provides a template for creating applications using XMC#8482; MCU.
+    <description><![CDATA[This empty application provides a template for creating applications using XMC&#8482; MCU.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-xmc-empty-app/blob/master/README.md">README on GitHub</a>.
     <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
     <req_capabilities>xmc</req_capabilities>
@@ -3707,11 +3707,11 @@
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.1" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 0.X release</num>
         <commit>latest-v0.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.1" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
         <num>0.5.0 release</num>
         <commit>release-v0.5.0</commit>
       </version>
@@ -3722,7 +3722,7 @@
     <id>mtb-example-xmc-gpio-toggle</id>
     <category>Peripherals</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-xmc-gpio-toggle</uri>
-    <description><![CDATA[This code example demonstrates GPIO toggling by periodically blinking an LED using SysTick available in XMC#8482; MCU.
+    <description><![CDATA[This code example demonstrates GPIO toggling by periodically blinking an LED using SysTick available in XMC&#8482; MCU.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-xmc-gpio-toggle/blob/master/README.md">README on GitHub</a>.
     <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
     <req_capabilities>xmc led</req_capabilities>
@@ -3751,11 +3751,11 @@
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.1" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 0.X release</num>
         <commit>latest-v0.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.1" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
         <num>0.5.0 release</num>
         <commit>release-v0.5.0</commit>
       </version>
@@ -3766,7 +3766,7 @@
     <id>mtb-example-xmc-blinky-freertos</id>
     <category>Getting Started</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-xmc-blinky-freertos</uri>
-    <description><![CDATA[This code example demonstrates blinking LED functionality implemented by FreeRTOS tasks running on the XMC#8482; MCU.
+    <description><![CDATA[This code example demonstrates blinking LED functionality implemented by FreeRTOS tasks running on the XMC&#8482; MCU.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-xmc-blinky-freertos/blob/master/README.md">README on GitHub</a>.
     <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
     <req_capabilities>xmc led</req_capabilities>
@@ -3795,11 +3795,11 @@
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.1" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 0.X release</num>
         <commit>latest-v0.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.1" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
         <num>0.5.0 release</num>
         <commit>release-v0.5.0</commit>
       </version>
@@ -3810,7 +3810,7 @@
     <id>mtb-example-xmc-ccu4-pwm</id>
     <category>Peripherals</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-xmc-ccu4-pwm</uri>
-    <description><![CDATA[This code example demonstrates the use of CCU4 module in XMC#8482; MCU to create a PWM signal. The CCU4 slice is configured in monoshot mode and is restarted on an external start event.
+    <description><![CDATA[This code example demonstrates the use of CCU4 module in XMC&#8482; MCU to create a PWM signal. The CCU4 slice is configured in monoshot mode and is restarted on an external start event.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-xmc-ccu4-pwm/blob/master/README.md">README on GitHub</a>.
     <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
     <req_capabilities>xmc led</req_capabilities>
@@ -3839,11 +3839,11 @@
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.1" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>Latest 0.X release</num>
         <commit>latest-v0.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.1" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>0.5.0 release</num>
         <commit>release-v0.5.0</commit>
       </version>
@@ -3854,7 +3854,7 @@
     <id>mtb-example-xmc-ccu4-capture</id>
     <category>Peripherals</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-xmc-ccu4-capture</uri>
-    <description><![CDATA[This code example demonstrates the capture features of the Capture and Compare Unit 4 (CCU4) slices available in XMC#8482; MCU.
+    <description><![CDATA[This code example demonstrates the capture features of the Capture and Compare Unit 4 (CCU4) slices available in XMC&#8482; MCU.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-xmc-ccu4-capture/blob/master/README.md">README on GitHub</a>.
     <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
     <req_capabilities>xmc ccu4_capture uart</req_capabilities>
@@ -3879,11 +3879,11 @@
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.1" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>Latest 0.X release</num>
         <commit>latest-v0.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.1" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>0.5.0 release</num>
         <commit>release-v0.5.0</commit>
       </version>
@@ -3894,7 +3894,7 @@
     <id>mtb-example-xmc-ccu4-timer-concatenation</id>
     <category>Peripherals</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-xmc-ccu4-timer-concatenation</uri>
-    <description><![CDATA[This code example demonstrates the concatenation or linking feature of the Capture and Compare Unit 4 (CCU4) slices available in XMC#8482; MCU.
+    <description><![CDATA[This code example demonstrates the concatenation or linking feature of the Capture and Compare Unit 4 (CCU4) slices available in XMC&#8482; MCU.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-xmc-ccu4-timer-concatenation/blob/master/README.md">README on GitHub</a>.
     <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
     <req_capabilities>xmc led</req_capabilities>
@@ -3919,11 +3919,11 @@
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.1" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>Latest 0.X release</num>
         <commit>latest-v0.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.1" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>0.5.0 release</num>
         <commit>release-v0.5.0</commit>
       </version>
@@ -3934,39 +3934,40 @@
     <id>mtb-example-xmc-ccu4-timer</id>
     <category>Peripherals</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-xmc-ccu4-timer</uri>
-    <description><![CDATA[This code example demonstrates the usage of the Capture and Compare Unit 4 (CCU4) timer by blinking an LED using CCU4 timer period match interrupt available in XMC#8482; MCU.
+    <description><![CDATA[This code example demonstrates the usage of the Capture and Compare Unit 4 (CCU4) timer by blinking an LED using CCU4 timer period match interrupt available in XMC&#8482; MCU.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-xmc-ccu4-timer/blob/master/README.md">README on GitHub</a>.
     <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
+    <req_capabilities>xmc led</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc11_boot_001,kit_xmc12_boot_001,kit_xmc13_boot_001,kit_xmc14_boot_001,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc47_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc11_boot_001,kit_xmc12_boot_001,kit_xmc13_boot_001,kit_xmc14_boot_001,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc47_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>1.0.1 release</num>
         <commit>release-v1.0.1</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.1" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>Latest 0.X release</num>
         <commit>latest-v0.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.1" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>0.5.0 release</num>
         <commit>release-v0.5.0</commit>
       </version>
@@ -3977,7 +3978,7 @@
     <id>mtb-example-xmc-uart-printf</id>
     <category>Peripherals</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-xmc-uart-printf</uri>
-    <description><![CDATA[This example demonstrates how to use the printf function with a Universal Serial Interface Channel (USIC) based UART in XMC#8482; MCU.
+    <description><![CDATA[This example demonstrates how to use the printf function with a Universal Serial Interface Channel (USIC) based UART in XMC&#8482; MCU.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-xmc-uart-printf/blob/master/README.md">README on GitHub</a>.
     <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
     <req_capabilities>xmc uart</req_capabilities>
@@ -4006,11 +4007,11 @@
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.1" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>Latest 0.X release</num>
         <commit>latest-v0.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.1" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>0.5.0 release</num>
         <commit>release-v0.5.0</commit>
       </version>
@@ -4021,7 +4022,7 @@
     <id>mtb-example-xmc-uart-shell</id>
     <category>Peripherals</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-xmc-uart-shell</uri>
-    <description><![CDATA[This code example demonstrates implementation of a shell on the UART communication interface including commands to toggle a LED using XMC#8482; MCU.
+    <description><![CDATA[This code example demonstrates implementation of a shell on the UART communication interface including commands to toggle a LED using XMC&#8482; MCU.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-xmc-uart-shell/blob/master/README.md">README on GitHub</a>.
     <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
     <req_capabilities>xmc led</req_capabilities>
@@ -4050,11 +4051,11 @@
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.1" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>Latest 0.X release</num>
         <commit>latest-v0.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.1" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc14_boot_001,kit_xmc47_relax_v1]">
         <num>0.5.0 release</num>
         <commit>release-v0.5.0</commit>
       </version>
@@ -4094,11 +4095,11 @@
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.1" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc47_relax_v1]">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc47_relax_v1]">
         <num>Latest 0.X release</num>
         <commit>latest-v0.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.1" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc47_relax_v1]">
+      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version_v2="[bsp_gen2] [kit_xmc47_relax_v1]">
         <num>0.5.0 release</num>
         <commit>release-v0.5.0</commit>
       </version>
@@ -4145,7 +4146,7 @@
     <id>mtb-example-xmc-i2c-master-slave</id>
     <category>Peripherals</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-xmc-i2c-master-slave</uri>
-    <description><![CDATA[This code example demonstrates the implementation of an I2C master and an I2C slave on the same device based on the Universal Serial Interface Channel (USIC). The I2C master sends commands to the I2C slave to toggle the LEDs present on the XMC#8482; development kit.
+    <description><![CDATA[This code example demonstrates the implementation of an I2C master and an I2C slave on the same device based on the Universal Serial Interface Channel (USIC). The I2C master sends commands to the I2C slave to toggle the LEDs present on the XMC&#8482; development kit.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-xmc-i2c-master-slave/blob/master/README.md">README on GitHub</a>.
     <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
     <req_capabilities>xmc i2c led</req_capabilities>
@@ -4177,7 +4178,7 @@
     <id>mtb-example-xmc-flash-program</id>
     <category>Peripherals</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-xmc-flash-program</uri>
-    <description><![CDATA[This code example demonstrates how to erase a sector of the flash, write data to the sector and check the data for correctness on the XMC#8482; MCU device.
+    <description><![CDATA[This code example demonstrates how to erase a sector of the flash, write data to the sector and check the data for correctness on the XMC&#8482; MCU device.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-xmc-flash-program/blob/master/README.md">README on GitHub</a>.
     <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
     <req_capabilities>xmc led</req_capabilities>
@@ -4213,7 +4214,7 @@
     <id>mtb-example-xmc-ccu8-timer</id>
     <category>Peripherals</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-xmc-ccu8-timer</uri>
-    <description><![CDATA[This code example demonstrates the usage of Capture-Compare Unit 8 (CCU8) in the XMC#8482; MCU in timer mode. The CCU8 timer slice program blinks an LED when a timer period match interrupt occurs.
+    <description><![CDATA[This code example demonstrates the usage of Capture-Compare Unit 8 (CCU8) in the XMC&#8482; MCU in timer mode. The CCU8 timer slice program blinks an LED when a timer period match interrupt occurs.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-xmc-ccu8-timer/blob/master/README.md">README on GitHub</a>.
     <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
     <req_capabilities>xmc led ccu8</req_capabilities>
@@ -4249,7 +4250,7 @@
     <id>mtb-example-xmc-vadc-scan</id>
     <category>Peripherals</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-xmc-vadc-scan</uri>
-    <description><![CDATA[This code example demonstrates working of the Versatile Analog to Digital Converter (VADC) in the XMC#8482; MCU in continuous scan mode for one channel.
+    <description><![CDATA[This code example demonstrates working of the Versatile Analog to Digital Converter (VADC) in the XMC&#8482; MCU in continuous scan mode for one channel.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-xmc-vadc-scan/blob/master/README.md">README on GitHub</a>.
     <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
     <req_capabilities>xmc led adc</req_capabilities>
@@ -4289,7 +4290,7 @@
     <id>mtb-example-xmc-rtc-alarm</id>
     <category>Peripherals</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-xmc-rtc-alarm</uri>
-    <description><![CDATA[This code example demonstrates an RTC alarm interrupt of 1 minute to set a periodically blinking LED on the XMC#8482; MCU Evaluation kits.
+    <description><![CDATA[This code example demonstrates an RTC alarm interrupt of 1 minute to set a periodically blinking LED on the XMC&#8482; MCU Evaluation kits.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-xmc-rtc-alarm/blob/master/README.md">README on GitHub</a>.
     <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
     <req_capabilities>xmc rtc led</req_capabilities>
@@ -4325,7 +4326,7 @@
     <id>mtb-example-xmc-ccu8-pwm</id>
     <category>Peripherals</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-xmc-ccu8-pwm</uri>
-    <description><![CDATA[This code example demonstrates how to generate PWM signals using Capture and Compare unit (CCU8) slices available in XMC#8482; MCU.
+    <description><![CDATA[This code example demonstrates how to generate PWM signals using Capture and Compare unit (CCU8) slices available in XMC&#8482; MCU.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-xmc-ccu8-pwm/blob/master/README.md">README on GitHub</a>.
     <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
     <req_capabilities>xmc led ccu8</req_capabilities>
@@ -4361,7 +4362,7 @@
     <id>mtb-example-xmc-ccu8-capture</id>
     <category>Peripherals</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-xmc-ccu8-capture</uri>
-    <description><![CDATA[This code example demonstrates the capture feature of Capture and Compare unit (CCU8) slices available in XMC#8482; MCU.
+    <description><![CDATA[This code example demonstrates the capture feature of Capture and Compare unit (CCU8) slices available in XMC&#8482; MCU.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-xmc-ccu8-capture/blob/master/README.md">README on GitHub</a>.
     <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
     <req_capabilities>xmc led ccu8</req_capabilities>
@@ -4397,7 +4398,7 @@
     <id>mtb-example-xmc-ccu8-pwm-complementary</id>
     <category>Peripherals</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-xmc-ccu8-pwm-complementary</uri>
-    <description><![CDATA[This code example demonstrates generating two complementary pulse width modulated (PWM) waves using the Capture and Compare Unit(CCU8 module) available in XMC#8482; MCU.
+    <description><![CDATA[This code example demonstrates generating two complementary pulse width modulated (PWM) waves using the Capture and Compare Unit(CCU8 module) available in XMC&#8482; MCU.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-xmc-ccu8-pwm-complementary/blob/master/README.md">README on GitHub</a>.
     <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
     <req_capabilities>xmc ccu8 uart</req_capabilities>
@@ -4433,7 +4434,7 @@
     <id>mtb-example-xmc-dac-sine</id>
     <category>Peripherals</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-xmc-dac-sine</uri>
-    <description><![CDATA[This code example demonstrates the usage of DAC peripheral of the XMC#8482; MCU.
+    <description><![CDATA[This code example demonstrates the usage of DAC peripheral of the XMC&#8482; MCU.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-xmc-dac-sine/blob/master/README.md">README on GitHub</a>.
     <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
     <req_capabilities>xmc dac</req_capabilities>
@@ -4469,7 +4470,7 @@
     <id>mtb-example-xmc-acmp-cmp</id>
     <category>Peripherals</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-xmc-acmp-cmp</uri>
-    <description><![CDATA[This code example demonstrates the usage of the Analog Comparator (ACMP) peripheral of XMC#8482; MCU.
+    <description><![CDATA[This code example demonstrates the usage of the Analog Comparator (ACMP) peripheral of XMC&#8482; MCU.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-xmc-acmp-cmp/blob/master/README.md">README on GitHub</a>.
     <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
     <req_capabilities>xmc1000 led comp</req_capabilities>
@@ -4505,7 +4506,7 @@
     <id>mtb-example-xmc-flash-eeprom</id>
     <category>Peripherals</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-xmc-flash-eeprom</uri>
-    <description><![CDATA[This code example shows how to use a portion of the internal flash memory of XMC#8482; MCUs as emulated EEPROM memory, and provides necessary APIs to perform read and write operations to the emulated EEPROM.
+    <description><![CDATA[This code example shows how to use a portion of the internal flash memory of XMC&#8482; MCUs as emulated EEPROM memory, and provides necessary APIs to perform read and write operations to the emulated EEPROM.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-xmc-flash-eeprom/blob/master/README.md">README on GitHub</a>.
     <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
     <req_capabilities>xmc uart</req_capabilities>
@@ -4537,7 +4538,7 @@
     <id>mtb-example-xmc-can-receiver</id>
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-xmc-can-receiver</uri>
-    <description><![CDATA[This example demonstrates how to receive CAN messages over the CAN bus using XMC#8482; MCU. This example can be used together with the <a href="https://github.com/Infineon/mtb-example-xmc-can-transmitter">CAN Transmitter</a> example running on another board.
+    <description><![CDATA[This example demonstrates how to receive CAN messages over the CAN bus using XMC&#8482; MCU. This example can be used together with the <a href="https://github.com/Infineon/mtb-example-xmc-can-transmitter">CAN Transmitter</a> example running on another board.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-xmc-can-receiver/blob/master/README.md">README on GitHub</a>.
     <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
     <req_capabilities>xmc can led</req_capabilities>
@@ -4569,7 +4570,7 @@
     <id>mtb-example-xmc-can-loopback</id>
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-xmc-can-loopback</uri>
-    <description><![CDATA[This code example demonstrates the communication between two CAN nodes in loopback mode using XMC#8482; MCU.
+    <description><![CDATA[This code example demonstrates the communication between two CAN nodes in loopback mode using XMC&#8482; MCU.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-xmc-can-loopback/blob/master/README.md">README on GitHub</a>.
     <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
     <req_capabilities>xmc can led</req_capabilities>
@@ -4601,7 +4602,7 @@
     <id>mtb-example-xmc-dma-fce</id>
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-xmc-dma-fce</uri>
-    <description><![CDATA[This code example demonstrates how to use DMA to feed the Flexible CRC Engine (FCE) to calculate the CRC-32 on a fictitious frame of data in XMC#8482; MCU.
+    <description><![CDATA[This code example demonstrates how to use DMA to feed the Flexible CRC Engine (FCE) to calculate the CRC-32 on a fictitious frame of data in XMC&#8482; MCU.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-xmc-dma-fce/blob/master/README.md">README on GitHub</a>.
     <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
     <req_capabilities>xmc dma led</req_capabilities>
@@ -4697,7 +4698,7 @@
     <id>mtb-example-xmc-can-transmitter</id>
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-xmc-can-transmitter</uri>
-    <description><![CDATA[This example demonstrates how to transmit CAN messages over the CAN bus using XMC#8482; MCU. This example can be used with the <a href="https://github.com/Infineon/mtb-example-xmc-can-receiver">CAN Receiver</a> example running on another board.
+    <description><![CDATA[This example demonstrates how to transmit CAN messages over the CAN bus using XMC&#8482; MCU. This example can be used with the <a href="https://github.com/Infineon/mtb-example-xmc-can-receiver">CAN Receiver</a> example running on another board.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-xmc-can-transmitter/blob/master/README.md">README on GitHub</a>.
     <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
     <req_capabilities>xmc can led</req_capabilities>
@@ -4789,7 +4790,7 @@
     <id>mtb-example-xmc-eru-extint</id>
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-xmc-eru-extint</uri>
-    <description><![CDATA[This code example demonstrates Event Request Unit (ERU) functionality with external interrupt on XMC#8482; MCU evaluation kits. In this example, an external signal, fed into the ERU unit using a GPIO pin, triggers a service request interrupt that toggles an LED.
+    <description><![CDATA[This code example demonstrates Event Request Unit (ERU) functionality with external interrupt on XMC&#8482; MCU evaluation kits. In this example, an external signal, fed into the ERU unit using a GPIO pin, triggers a service request interrupt that toggles an LED.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-xmc-eru-extint/blob/master/README.md">README on GitHub</a>.
     <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
     <req_capabilities>xmc led</req_capabilities>
@@ -4817,7 +4818,7 @@
     <id>mtb-example-xmc-scu-sleep</id>
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-xmc-scu-sleep</uri>
-    <description><![CDATA[This code example demonstrates the System Control Unit (SCU) sleep mode on the XMC#8482; MCU evaluation kits. Wakeup is done by using an external interrupt via the Event Request Unit (ERU). An LED glows at every falling edge of the external signal inside the ERU interrupt. The MCU is put back to sleep mode again after servicing the interrupt.
+    <description><![CDATA[This code example demonstrates the System Control Unit (SCU) sleep mode on the XMC&#8482; MCU evaluation kits. Wakeup is done by using an external interrupt via the Event Request Unit (ERU). An LED glows at every falling edge of the external signal inside the ERU interrupt. The MCU is put back to sleep mode again after servicing the interrupt.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-xmc-scu-sleep/blob/master/README.md">README on GitHub</a>.
     <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
     <req_capabilities>xmc led</req_capabilities>
@@ -4849,7 +4850,7 @@
     <id>mtb-example-xmc-wdt-prewarning</id>
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-xmc-wdt-prewarning</uri>
-    <description><![CDATA[This code example demonstrates the prewarning feature of the watchdog timer (WDT) on the XMC#8482; MCU evaluation kits.
+    <description><![CDATA[This code example demonstrates the prewarning feature of the watchdog timer (WDT) on the XMC&#8482; MCU evaluation kits.
     <br>A pre-warning alarm is triggered before a watchdog reset only if the watchdog timer is not serviced properly. When a prewarning condition occurs, the User LED1 blinks once. After a watchdog reset, the MCU checks the reason for the last reset; if it was caused by a watchdog reset, the User LED2 blinks at a faster rate.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-xmc-wdt-prewarning/blob/master/README.md">README on GitHub</a>.
     <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
@@ -4882,7 +4883,7 @@
     <id>mtb-example-xmc-ccu8-timer-concatenation</id>
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-xmc-ccu8-timer-concatenation</uri>
-    <description><![CDATA[This code example demonstrates the concatenation or linking feature of the Capture and Compare Unit 8 (CCU8) slices available in XMC#8482; MCU.
+    <description><![CDATA[This code example demonstrates the concatenation or linking feature of the Capture and Compare Unit 8 (CCU8) slices available in XMC&#8482; MCU.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-xmc-ccu8-timer-concatenation/blob/master/README.md">README on GitHub</a>.
     <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
     <req_capabilities>xmc led ccu8</req_capabilities>
@@ -4914,7 +4915,7 @@
     <id>mtb-example-xmc-spi-master</id>
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-xmc-spi-master</uri>
-    <description><![CDATA[This code example demonstrates the transfer of 3 bytes of data using SPI Master in XMC#8482; MCU.
+    <description><![CDATA[This code example demonstrates the transfer of 3 bytes of data using SPI Master in XMC&#8482; MCU.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-xmc-spi-master/blob/master/README.md">README on GitHub</a>.
     <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
     <req_capabilities>xmc led spi</req_capabilities>
@@ -5038,7 +5039,7 @@
     <id>mtb-example-xmc-flash-protection</id>
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-xmc-flash-protection</uri>
-    <description><![CDATA[This example demonstrates how flash protection can be configured in the XMC#8482; 4000 Series of devices.
+    <description><![CDATA[This example demonstrates how flash protection can be configured in the XMC&#8482;4000 Series of devices.
     <br><br><b>Note:</b> This code example involves programming the User Configuration Blocks (UCB), which can only be programmed only a limited number of times. See the Design and Implementation section in the README before proceeding with this code example.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-xmc-flash-protection/blob/master/README.md">README on GitHub</a>.
     <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
@@ -5135,7 +5136,7 @@
     <id>mtb-example-xmc-ccu8-sync-start</id>
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-xmc-ccu8-sync-start</uri>
-    <description><![CDATA[This code example demonstrates the synchronous start of Capture-Compare Unit 8 (CCU80 and CCU81) in the XMC#8482; MCU upon receving a trigger from the Event Request Unit (ERU). The CCU8 timer slice program blinks the on-board user LEDs (CCU80 blinks User LED1 and CCU81 blinks User LED2) when a timer period match interrupt occurs.
+    <description><![CDATA[This code example demonstrates the synchronous start of Capture-Compare Unit 8 (CCU80 and CCU81) in the XMC&#8482 MCU upon receving a trigger from the Event Request Unit (ERU). The CCU8 timer slice program blinks the on-board user LEDs (CCU80 blinks User LED1 and CCU81 blinks User LED2) when a timer period match interrupt occurs.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-xmc-ccu8-sync-start/blob/master/README.md">README on GitHub</a>.
     <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
     <req_capabilities>xmc led ccu8</req_capabilities>
@@ -5255,7 +5256,7 @@
     <id>mtb-example-xmc-wdt-feed</id>
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-xmc-wdt-feed</uri>
-    <description><![CDATA[This code example demonstrates a Watchdog Timer (WDT) on the XMC#8482; MCU.
+    <description><![CDATA[This code example demonstrates a Watchdog Timer (WDT) on the XMC&#8482; MCU.
     <br><br>The WDT needs to be fed every second for proper serving of the WDT. The SysTick timer is used to feed the WDT. When feeding occurs, the User LED blinks. If there is no feeding, the device goes into reset. After the reset, the MCU checks the reason for the last reset. If it is due to a failure to feed the WDT, the User LED blinks at a faster rate.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-xmc-wdt-feed/blob/master/README.md">README on GitHub</a>.
     <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
@@ -5288,7 +5289,7 @@
     <id>mtb-example-xmc-spi-qspi-flash</id>
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-xmc-spi-qspi-flash</uri>
-    <description><![CDATA[This example demonstrates how the communication between the XMC4700 (master) and the on-board QSPI flash chip N25Q03 (slave) takes place using the Quad SPI interface.
+    <description><![CDATA[This example demonstrates how the communication between the XMC&#8482;4700 (master) and the on-board QSPI flash chip N25Q03 (slave) takes place using the Quad SPI interface.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-xmc-spi-qspi-flash/blob/master/README.md">README on GitHub</a>.
     <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
     <req_capabilities>xmc4000 led qspi memory</req_capabilities>
@@ -5316,7 +5317,7 @@
     <id>mtb-example-xmc-scu-brownout-detection</id>
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-xmc-scu-brownout-detection</uri>
-    <description><![CDATA[This code example demonstrates brownout detection by reducing power supply voltage from 3.3 V to the defined voltage threshold using brownout detection available in XMC#8482; MCU devices.
+    <description><![CDATA[This code example demonstrates brownout detection by reducing power supply voltage from 3.3 V to the defined voltage threshold using brownout detection available in XMC&#8482; MCU devices.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-xmc-scu-brownout-detection/blob/master/README.md">README on GitHub</a>.
     <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
     <req_capabilities>xmc led</req_capabilities>
@@ -5380,7 +5381,7 @@
     <id>mtb-example-xmc-flash-bmi</id>
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-xmc-flash-bmi</uri>
-    <description><![CDATA[This example demonstrates how Boot Mode Index (BMI) can be used to configure a customized boot sequence on XMC4700 device.
+    <description><![CDATA[This example demonstrates how Boot Mode Index (BMI) can be used to configure a customized boot sequence on XMC&#8482;4700 device.
     <br><br><b>Note:</b> This code example involves programming the User Configuration Blocks (UCB), which can be programmed only a limited number of times. See the Design and Implementation section in the README before proceeding with this code example.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-xmc-flash-bmi/blob/master/README.md">README on GitHub</a>.
     <br><br><b>Note:</b> Programming this code example requires installing <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">SEGGER J-Link software</a>.]]></description>
@@ -5545,11 +5546,11 @@
     This code example makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license. <br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).]]></description>
     <req_capabilities>psoc6 cyw43xxx wifi led</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ceval_062_s2_lai_4373m2,cy8ceval_062_mur_43439m2,cy8ckit_062s2_43012, cy8cproto_062_4343w, cy8cproto_062s3_4343w]">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ceval_062_s2_lai_4373m2,cy8ceval_062_mur_43439m2,cy8ckit_062s2_43012,cy8cproto_062_4343w,cy8cproto_062s3_4343w,cy8ceval_062s2_lai_43439m2]">
         <num>Latest 5.X release</num>
         <commit>latest-v5.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ceval_062_s2_lai_4373m2,cy8ceval_062_mur_43439m2,cy8ckit_062s2_43012,cy8cproto_062_4343w,cy8cproto_062s3_4343w]">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ceval_062_s2_lai_4373m2,cy8ceval_062_mur_43439m2,cy8ckit_062s2_43012,cy8cproto_062_4343w,cy8cproto_062s3_4343w,cy8ceval_062s2_lai_43439m2]">
         <num>5.1.0 release</num>
         <commit>release-v5.1.0</commit>
       </version>
@@ -6991,7 +6992,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="psoc4,msc,capsense,csd,touchpad,tuning,mtb-flow" req_capabilities_v2="psoc4 led msc_touchpad [cy8ckit_041s_max]">
+  <app keywords="psoc4,msc,capsense,csd,touchpad,tuning,mtb-flow" req_capabilities_v2="psoc4 led msc_touchpad">
     <name>MSC CAPSENSE CSD Touchpad Tuning</name>
     <id>mtb-example-psoc4-msc-capsense-csd-touchpad-tuning</id>
     <category>Sensing</category>
@@ -7018,7 +7019,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="psoc4,msc,capsense,csx,touchpad,tuning,mtb-flow" req_capabilities_v2="psoc4 led msc_touchpad [cy8ckit_041s_max]">
+  <app keywords="psoc4,msc,capsense,csx,touchpad,tuning,mtb-flow" req_capabilities_v2="psoc4 led msc_touchpad">
     <name>MSC Multi-Touch CSX Touchpad Tuning</name>
     <id>mtb-example-psoc4-msc-capsense-csx-touchpad-tuning</id>
     <category>Sensing</category>
@@ -7285,7 +7286,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="psoc4,msc,capsense,csd,slider,tuning,mtb-flow" req_capabilities_v2="psoc4 led msc_slider [cy8ckit_041s_max]">
+  <app keywords="psoc4,msc,capsense,csd,slider,tuning,mtb-flow" req_capabilities_v2="psoc4 led msc_slider">
     <name>MSC CAPSENSE CSD Slider Tuning</name>
     <id>mtb-example-psoc4-msc-capsense-csd-slider-tuning</id>
     <category>Sensing</category>
@@ -7340,19 +7341,19 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-optiga-crypto/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>optiga_trust_m</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cysbsyskit_dev_01,cy8cproto_062_4343w,cy8ceval_062s2,cy8ceval_062_s2_lai_4373m2]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cysbsyskit_dev_01,cy8cproto_062_4343w,cy8ceval_062s2,cy8ceval_062_s2_lai_4373m2]">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" tools_max_version="2.4.1" req_capabilities_per_version="bsp_gen2">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" tools_max_version="2.4.1" req_capabilities_per_version="bsp_gen2">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -8219,7 +8220,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="pmg1,temp,sensor,adc,8-bit,temperature,mtb-flow" req_capabilities_v2="pmg1 usbpd uart led switch [pmg1_cy7110, pmg1_cy7111, pmg1_cy7112, pmg1_cy7113]">
+  <app keywords="pmg1,temp,sensor,adc,8-bit,temperature,mtb-flow" req_capabilities_v2="pmg1 usbpd uart led switch">
     <name>On Chip Temp Sensor 8 bit SAR ADC</name>
     <id>mtb-example-pmg1-on-chip-temp-sensor-8-bit-saradc</id>
     <category>Peripherals</category>
@@ -8228,19 +8229,19 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-on-chip-temp-sensor-8-bit-saradc/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>pmg1 usbpd uart led switch</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [pmg1_cy7110,pmg1_cy7111,pmg1_cy7112,pmg1_cy7113]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [pmg1_cy7110,pmg1_cy7111,pmg1_cy7112,pmg1_cy7113]">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.4.0" tools_max_version="2.4.1" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.4.0" tools_max_version="2.4.1" req_capabilities_per_version_v2="[bsp_gen2] [pmg1_cy7110,pmg1_cy7111,pmg1_cy7112]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.4.0" tools_max_version="2.4.1" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.4.0" tools_max_version="2.4.1" req_capabilities_per_version_v2="[bsp_gen2] [pmg1_cy7110,pmg1_cy7111,pmg1_cy7112]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -9450,25 +9451,6 @@
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,psoc64,rma" req_capabilities_v2="psoc6 switch">
-    <name>Transition to RMA</name>
-    <id>mtb-example-psoc6-transition-to-rma</id>
-    <category>Peripherals</category>
-    <uri>https://github.com/Infineon/mtb-example-psoc6-transition-to-rma</uri>
-    <description><![CDATA[This code example demonstrates the transitioning of PSoC6x device into RMA Life cycle stage.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-transition-to-rma/blob/master/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>psoc6 switch</req_capabilities>
-    <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4]">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
-      </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4]">
-        <num>1.0.0 release</num>
-        <commit>release-v1.0.0</commit>
-      </version>
-    </versions>
-  </app>
   <app keywords="xmc,mtb-flow,6edl7141,gate-driver,motor-control" req_capabilities_v2="eval_6edl7141_trap_1sh">
     <name>XMC 6EDL7141 Trapezoidal 1 Shunt</name>
     <id>mtb-example-xmc-6edl7141-trapezoidal-1-shunt</id>
@@ -9487,7 +9469,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="xmc,hibernate,detection,led,mtb-flow" req_capabilities_v2="xmc [kit_xmc_plt2go_xmc4200, kit_xmc_plt2go_xmc4400]">
+  <app keywords="xmc,hibernate,detection,led,mtb-flow" req_capabilities_v2="xmc4000 led [kit_xmc_plt2go_xmc4200, kit_xmc_plt2go_xmc4400]">
     <name>SCU Hibernate</name>
     <id>mtb-example-xmc-scu-hibernate</id>
     <category>Peripherals</category>
@@ -9502,6 +9484,25 @@
         <commit>latest-v1.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,psoc64,rma" req_capabilities_v2="psoc6 switch">
+    <name>Transition to RMA</name>
+    <id>mtb-example-psoc6-transition-to-rma</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-psoc6-transition-to-rma</uri>
+    <description><![CDATA[This code example demonstrates the transitioning of PSoC6x device into RMA Life cycle stage.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-transition-to-rma/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>psoc6 switch</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_064b0s2_4343w,cy8cproto_064b0s3]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_064b0s2_4343w,cy8cproto_064b0s3]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
