@@ -1662,9 +1662,13 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-ess/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>bt led</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43012evb_01,cyw9p62s1_43438evb_01,cy8cproto_062s3_4343w,cy8ckit_064b0s2_4343w,cy8ceval_062_s2_lai_4373m2,cyw920829m2evb_01,cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval]">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43012evb_01,cyw9p62s1_43438evb_01,cy8cproto_062s3_4343w,cy8ckit_064b0s2_4343w,cy8ceval_062_s2_lai_4373m2,cyw920829m2evb_01,cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval,cy8ceval_062s2_lai_43439m2,cy8cproto_062s2_43439]">
         <num>Latest 4.X release</num>
         <commit>latest-v4.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43012evb_01,cyw9p62s1_43438evb_01,cy8cproto_062s3_4343w,cy8ckit_064b0s2_4343w,cy8ceval_062_s2_lai_4373m2,cyw920829m2evb_01,cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval,cy8ceval_062s2_lai_43439m2,cy8cproto_062s2_43439]">
+        <num>4.2.0 release</num>
+        <commit>release-v4.2.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43012evb_01,cyw9p62s1_43438evb_01,cy8cproto_062s3_4343w,cy8ckit_064b0s2_4343w,cy8ceval_062_s2_lai_4373m2,cyw920829m2evb_01,cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval]">
         <num>4.1.0 release</num>
@@ -2405,9 +2409,13 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-findme/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>bt led</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43012evb_01,cyw9p62s1_43438evb_01,cy8cproto_062s3_4343w,cysbsyskit_dev_01,cysbsyskit_01,cy8ceval_062_s2_lai_4373m2,cy8ceval_062_mur_43439m2,cyw920829m2evb_01,cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval]">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43012evb_01,cyw9p62s1_43438evb_01,cy8cproto_062s3_4343w,cysbsyskit_dev_01,cysbsyskit_01,cy8ceval_062_s2_lai_4373m2,cy8ceval_062_mur_43439m2,cyw920829m2evb_01,cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval,cy8ceval_062s2_lai_43439m2,cy8cproto_062s2_43439]">
         <num>Latest 4.X release</num>
         <commit>latest-v4.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43012evb_01,cyw9p62s1_43438evb_01,cy8cproto_062s3_4343w,cysbsyskit_dev_01,cysbsyskit_01,cy8ceval_062_s2_lai_4373m2,cy8ceval_062_mur_43439m2,cyw920829m2evb_01,cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval,cy8ceval_062s2_lai_43439m2,cy8cproto_062s2_43439]">
+        <num>4.3.0 release</num>
+        <commit>release-v4.3.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43012evb_01,cyw9p62s1_43438evb_01,cy8cproto_062s3_4343w,cysbsyskit_dev_01,cysbsyskit_01,cy8ceval_062_s2_lai_4373m2,cy8ceval_062_mur_43439m2,cyw920829m2evb_01,cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval]">
         <num>4.2.0 release</num>
@@ -6931,7 +6939,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,mtb-flow,littlefs,filesystem,file,system,nor-flash,sd-card">
+  <app keywords="psoc6,mtb-flow,littlefs,filesystem,file,system,nor-flash,sd-card" req_capabilities_v2="psoc6 qspi nor_flash switch">
     <name>Littlefs Filesystem</name>
     <id>mtb-example-psoc6-filesystem-littlefs-freertos</id>
     <category>Peripherals</category>
@@ -6940,6 +6948,14 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-filesystem-littlefs-freertos/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 qspi nor_flash switch</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -7567,9 +7583,13 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-cts-server/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>bt led</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43012evb_01,cyw9p62s1_43438evb_01,cy8cproto_062s3_4343w,cy8ckit_064b0s2_4343w,cy8ceval_062_s2_lai_4373m2,cy8ceval_062_mur_43439m2,cyw920829m2evb_01,cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval]">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43012evb_01,cyw9p62s1_43438evb_01,cy8cproto_062s3_4343w,cy8ckit_064b0s2_4343w,cy8ceval_062_s2_lai_4373m2,cy8ceval_062_mur_43439m2,cyw920829m2evb_01,cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval,cy8ceval_062s2_lai_43439m2,cy8cproto_062s2_43439]">
         <num>Latest 4.X release</num>
         <commit>latest-v4.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43012evb_01,cyw9p62s1_43438evb_01,cy8cproto_062s3_4343w,cy8ckit_064b0s2_4343w,cy8ceval_062_s2_lai_4373m2,cy8ceval_062_mur_43439m2,cyw920829m2evb_01,cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval,cy8ceval_062s2_lai_43439m2]">
+        <num>4.2.0 release</num>
+        <commit>release-v4.2.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43012evb_01,cyw9p62s1_43438evb_01,cy8cproto_062s3_4343w,cy8ckit_064b0s2_4343w,cy8ceval_062_s2_lai_4373m2,cy8ceval_062_mur_43439m2,cyw920829m2evb_01,cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval]">
         <num>4.1.0 release</num>
@@ -7606,9 +7626,13 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-cts-client/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>bt led</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43012evb_01,cyw9p62s1_43438evb_01,cy8cproto_062s3_4343w,cy8ckit_064b0s2_4343w,cy8ceval_062_s2_lai_4373m2,cy8ceval_062_mur_43439m2,cyw920829m2evb_01,cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval]">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43012evb_01,cyw9p62s1_43438evb_01,cy8cproto_062s3_4343w,cy8ckit_064b0s2_4343w,cy8ceval_062_s2_lai_4373m2,cy8ceval_062_mur_43439m2,cyw920829m2evb_01,cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval,cy8ceval_062s2_lai_43439m2,cy8cproto_062s2_43439]">
         <num>Latest 4.X release</num>
         <commit>latest-v4.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43012evb_01,cyw9p62s1_43438evb_01,cy8cproto_062s3_4343w,cy8ckit_064b0s2_4343w,cy8ceval_062_s2_lai_4373m2,cy8ceval_062_mur_43439m2,cyw920829m2evb_01,cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval,cy8ceval_062s2_lai_43439m2,cy8cproto_062s2_43439]">
+        <num>4.2.0 release</num>
+        <commit>release-v4.2.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43012evb_01,cyw9p62s1_43438evb_01,cy8cproto_062s3_4343w,cy8ckit_064b0s2_4343w,cy8ceval_062_s2_lai_4373m2,cy8ceval_062_mur_43439m2,cyw920829m2evb_01,cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval]">
         <num>4.1.0 release</num>
@@ -8314,9 +8338,13 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-hello-sensor/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>bt led</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cyw920829m2evb_01,cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01,cy8cproto_062s3_4343w,cy8ceval_062s2,cy8ceval_062_s2_lai_4373m2,cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval]">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cyw920829m2evb_01,cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01,cy8cproto_062s3_4343w,cy8ceval_062s2,cy8ceval_062_s2_lai_4373m2,cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval,cy8ceval_062s2_lai_43439m2,cy8cproto_062s2_43439]">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cyw920829m2evb_01,cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01,cy8cproto_062s3_4343w,cy8ceval_062s2,cy8ceval_062_s2_lai_4373m2,cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval,cy8ceval_062s2_lai_43439m2,cy8cproto_062s2_43439]">
+        <num>3.2.0 release</num>
+        <commit>release-v3.2.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cyw920829m2evb_01,cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01,cy8cproto_062s3_4343w,cy8ceval_062s2,cy8ceval_062_s2_lai_4373m2,cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval]">
         <num>3.1.0 release</num>
@@ -9509,6 +9537,122 @@
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_064b0s2_4343w,cy8cproto_064b0s3]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,usb,cdc,echo,mtb-flow,emusb-Device" req_capabilities_v2="[psoc6] usb_device [flash_1024k,flash_2048k]">
+    <name>emUSB-Device Audio FreeRTOS</name>
+    <id>mtb-example-usb-device-audio-freertos</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-usb-device-audio-freertos</uri>
+    <description><![CDATA[This example demonstrates how to setup the USB block of an Infineon MCU using Segger's emUSB-device middleware to implement a USB audio device and HID audio playback control which then connects to the PC via the USB interface.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-usb-device-audio-freertos/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>usb_device</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,usb,cdc,echo,mtb-flow,emusb-Device" req_capabilities_v2="[psoc6] usb_device [flash_1024k,flash_2048k]">
+    <name>emUSB-Device Audio Recorder FreeRTOS</name>
+    <id>mtb-example-usb-device-audio-recorder-freertos</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-usb-device-audio-recorder-freertos</uri>
+    <description><![CDATA[This example demonstrates how to set up the USB block of an Infineon MCU using audio class of Segger's emUSB-Device middleware to implement an audio recorder.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-usb-device-audio-recorder-freertos/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>usb_device</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,rtc,low power,deepsleep,hibernate,mtb-flow" req_capabilities_v2="low_power [psoc6] rtc">
+    <name>HAL RTC periodic wakeup</name>
+    <id>mtb-example-hal-rtc-periodic-wakeup</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-hal-rtc-periodic-wakeup</uri>
+    <description><![CDATA[This code example demonstrates how to enter the DeepSleep and Hibernate modes, and wakeup using the RTC alarm.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-hal-rtc-periodic-wakeup/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>low_power rtc</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="deep sleep,hibernate,low power,measurement,mtb-flow,psoc6,sleep" req_capabilities_v2="psoc6 [cy8ckit_062_wifi_bt]">
+    <name>PSoC 6 MCU Power measurements</name>
+    <id>mtb-example-psoc6-power-measurements</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-psoc6-power-measurements</uri>
+    <description><![CDATA[This code example demonstrates how to achieve the power measurements listed in the PSoC&#8482; 6 MCU datasheets.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-power-measurements/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>psoc6</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="mtb-flow,psoc6,dual,core,cpu,http,softap,mqtt,client,wifi,virtual,broker" req_capabilities_v2="psoc6 cyw43xxx led capsense_button multi_core wifi flash_2048k">
+    <name>Dual-core Virtual MQTT Client</name>
+    <id>mtb-example-wifi-dual-core-virtual-mqtt-client</id>
+    <category>Wi-Fi</category>
+    <uri>https://github.com/Infineon/mtb-example-wifi-dual-core-virtual-mqtt-client</uri>
+    <description><![CDATA[This example demonstrates how to connect to an MQTT client using both the local and virtual connectivity APIs on separate cores. The code also shows how developers can enjoy a consistent user experience when using both APIs, as MW libraries handle communication between the cores, eliminating the need for applications to implement IPC for connectivity on the other core. see the <a href="https://github.com/Infineon/mtb-example-wifi-dual-core-virtual-mqtt-client/blob/master/README.md">README on GitHub</a>.
+    <br><br>This code example showcases the usage of virtual APIs and teaches developers how to develop dual-core connectivity applications with the connectivity stack running on a single core. For more information on virtualization, see the <a href="https://github.com/Infineon/virtual-connectivity-manager">Virtual Connectivity Manager</a> library.
+     <br><br><b>License Disclaimer:</b><br><br>
+    This code example makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license. <br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).]]></description>
+    <req_capabilities>psoc6 cyw43xxx led capsense_button multi_core wifi</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_062_4343w,cy8ckit_062s2_43012,cy8ceval_062_s2_lai_4373m2,cy8ceval_062s2_lai_43439m2,cy8ceval_062_mur_43439m2]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_062_4343w,cy8ckit_062s2_43012,cy8ceval_062_s2_lai_4373m2,cy8ceval_062s2_lai_43439m2,cy8ceval_062_mur_43439m2]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,low power,comparator,lpcomp,wakeup,hibernate,mtb-flow" req_capabilities_v2="psoc6 led">
+    <name>Low Power Comparator - Wakeup from Hibernate</name>
+    <id>mtb-example-psoc6-comparator-hibernate-wakeup</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-psoc6-comparator-hibernate-wakeup</uri>
+    <description><![CDATA[This code example demonstrates the functionality of wakeup from the Hibernate mode using the Low-Power Comparator (LPCOMP)
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-comparator-hibernate-wakeup/blob/main/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>psoc6 led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_062s2_43012,cyw9p62s1_43438evb_01,cy8ckit_064b0s2_4343w,cy8ceval_062s2,cy8ceval_062s2_lai_43439m2,cy8ceval_062_mur_43439m2,cy8ceval_062_s2_lai_4373m2]">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_062s2_43012,cyw9p62s1_43438evb_01,cy8ckit_064b0s2_4343w,cy8ceval_062s2,cy8ceval_062s2_lai_43439m2,cy8ceval_062_mur_43439m2,cy8ceval_062_s2_lai_4373m2]">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
       </version>
     </versions>
   </app>
