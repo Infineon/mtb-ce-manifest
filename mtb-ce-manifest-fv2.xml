@@ -9540,14 +9540,14 @@
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,usb,cdc,echo,mtb-flow,emusb-Device" req_capabilities_v2="[psoc6] usb_device [flash_1024k,flash_2048k]">
+  <app keywords="psoc6,usb,cdc,echo,mtb-flow,emusb-Device" req_capabilities_v2="[psoc6] arduino usb_device [flash_1024k,flash_2048k] [cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01,cy8ceval_062s2,cy8ceval_062_s2_lai_4373m2,cy8ceval_062_mur_43439m2,cy8ceval_062s2_lai_43439m2]">
     <name>emUSB-Device Audio FreeRTOS</name>
     <id>mtb-example-usb-device-audio-freertos</id>
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-usb-device-audio-freertos</uri>
     <description><![CDATA[This example demonstrates how to setup the USB block of an Infineon MCU using Segger's emUSB-device middleware to implement a USB audio device and HID audio playback control which then connects to the PC via the USB interface.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-usb-device-audio-freertos/blob/master/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>usb_device</req_capabilities>
+    <req_capabilities>usb_device arduino</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>Latest 1.X release</num>
@@ -9578,14 +9578,14 @@
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,rtc,low power,deepsleep,hibernate,mtb-flow" req_capabilities_v2="low_power [psoc6] rtc">
+  <app keywords="psoc6,rtc,low power,deepsleep,hibernate,mtb-flow" req_capabilities_v2="low_power [psoc6] rtc uart">
     <name>HAL RTC periodic wakeup</name>
     <id>mtb-example-hal-rtc-periodic-wakeup</id>
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-hal-rtc-periodic-wakeup</uri>
     <description><![CDATA[This code example demonstrates how to enter the DeepSleep and Hibernate modes, and wakeup using the RTC alarm.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-hal-rtc-periodic-wakeup/blob/master/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>low_power rtc</req_capabilities>
+    <req_capabilities>low_power rtc uart</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>Latest 1.X release</num>
