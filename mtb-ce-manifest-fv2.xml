@@ -9444,6 +9444,82 @@
       </version>
     </versions>
   </app>
+  <app keywords="psoc4,crypto,random-number,trng,otp" req_capabilities_v2="uart psoc4">
+    <name>Cryptography TRNG Demonstration</name>
+    <id>mtb-example-psoc4-cryptography-true-random-number-generation</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-psoc4-cryptography-true-random-number-generation</uri>
+    <description><![CDATA[This code example demonstrates generating a One-Time Password (OTP) using the True Random Number generation feature of PSoC&#8482; 4 cryptography block.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-cryptography-true-random-number-generation/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>uart psoc4</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc4,direction,detection,quadrature decoder,mtb-flow" req_capabilities_v2="led psoc4">
+    <name>Direction Detection Using Quadrature Decoder</name>
+    <id>mtb-example-psoc4-direction-detection-using-quadrature-decoder</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-psoc4-direction-detection-using-quadrature-decoder</uri>
+    <description><![CDATA[This code example demonstrates how to use the TCPWM peripheral configured as a quadrature decoder in PSoC&#8482; 4.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-direction-detection-using-quadrature-decoder/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>led psoc4</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_145_40xx]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2=" [cy8ckit_041s_max,cy8ckit_149,cy8ckit_145_40xx]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc4,tcpwm,square-wave,mtb-flow" req_capabilities_v2="led psoc4">
+    <name>TCPWM square wave</name>
+    <id>mtb-example-psoc4-tcpwm-square-wave</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-psoc4-tcpwm-square-wave</uri>
+    <description><![CDATA[This code example demonstrates how to generate a square wave using the TCPWM peripheral configured as a PWM on a PSoC&#8482; 4 device.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-tcpwm-square-wave/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>led psoc4</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_145_40xx]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_145_40xx]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc4,clock-buffer,smart-io,mtb-flow" req_capabilities_v2="led smart_io psoc4">
+    <name>Clock Buffer with Smart IO</name>
+    <id>mtb-example-psoc4-clock-buffer-with-smart-io</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-psoc4-clock-buffer-with-smart-io</uri>
+    <description><![CDATA[This example shows how to use a Smart I/O Peripheral in PSoC&#8482; 4 to implement a clock buffer that can operate in chip low power modes. It can also be used to drive a heavier load than one GPIO is rated for by replicating the signal and driving two pins.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-clock-buffer-with-smart-io/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>led smart_io psoc4</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_145_40xx]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_145_40xx]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
   <app keywords="psoc6,canfd,mtb-flow" req_capabilities_v2="led can psoc6 [cy8cproto_062s3_4343w,cy8ckit_062s4]">
     <name>CAN FD</name>
     <id>mtb-example-psoc6-canfd</id>
@@ -9515,6 +9591,25 @@
         <commit>latest-v1.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_064b0s2_4343w,cy8cproto_064b0s3]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc4,spi,slave-select,inversion,smart-io,mtb-flow" req_capabilities_v2="smart_io psoc4">
+    <name>SPI Slave Select Inversion with Smart IO</name>
+    <id>mtb-example-psoc4-spi-slave-select-inversion-with-smartio</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-psoc4-spi-slave-select-inversion-with-smartio</uri>
+    <description><![CDATA[This example demonstrates how to use the Smart IO Peripheral in PSoC&#8482; 4 MCU to invert the output of the serial communication block (SCB) SPI slave select signal. This method can be used for any of the SCB unidirectional signals to invert the signal polarity.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-spi-slave-select-inversion-with-smartio/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>smart_io psoc4</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_145_40xx]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_145_40xx]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -9633,6 +9728,120 @@
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_062s2_43012,cyw9p62s1_43438evb_01,cy8ckit_064b0s2_4343w,cy8ceval_062s2,cy8ceval_062s2_lai_43439m2,cy8ceval_062_mur_43439m2,cy8ceval_062_s2_lai_4373m2]">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc4,sha,crypto,message digest,hash,mtb-flow" req_capabilities_v2="uart std_crypto psoc4">
+    <name>Cryptography SHA Demonstration</name>
+    <id>mtb-example-psoc4-cryptography-sha-demonstration</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-psoc4-cryptography-sha-demonstration</uri>
+    <description><![CDATA[This code example shows how to generate a 20-byte hash value or message digest for an arbitrary user input message using the SHA2 algorithm using the Cryptographic hardware block in PSoC&#8482; 4. The example further shows that any change in the message results in a unique hash value for the message. The hash value generated for the message is displayed on a UART terminal emulator.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-mtb-example-psoc4-cryptography-sha-demonstration/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>uart std_crypto psoc4</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc4,flash,polling,mtb-flow" req_capabilities_v2="led psoc4">
+    <name>Non-blocking Flash Write Using Polling</name>
+    <id>mtb-example-psoc4-non-blocking-flash-write-using-polling</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-psoc4-non-blocking-flash-write-using-polling</uri>
+    <description><![CDATA[This example uses a non-blocking Peripheral Driver Library (PDL) API function to write a flash row. This is done using polling method.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-non-blocking-flash-write-using-polling/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>led psoc4</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc4,flash,interrupt,mtb-flow" req_capabilities_v2="led psoc4">
+    <name>Non-blocking Flash Write Using Interrupt</name>
+    <id>mtb-example-psoc4-non-blocking-flash-write-using-interrupt</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-psoc4-non-blocking-flash-write-using-interrupt</uri>
+    <description><![CDATA[This example uses a non-blocking Peripheral Driver Library (PDL) API function to write a flash row. This is done using interrupt method.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-non-blocking-flash-write-using-interrupt/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>led psoc4</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc4,tcpwm,eventcounter,mtb-flow" req_capabilities_v2="uart psoc4">
+    <name>TCPWM event counter</name>
+    <id>mtb-example-psoc4-tcpwm-event-counter</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-psoc4-tcpwm-event-counter</uri>
+    <description><![CDATA[The example shows how to use the TCPWM to count a number of external events and display the results over UART.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-tcpwm-event-counter/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>uart psoc4</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_145_40xx]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_145_40xx]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc4,external voltages,LPComp,mtb-flow" req_capabilities_v2="led psoc4">
+    <name>Comparing two external voltages using LPComp</name>
+    <id>mtb-example-psoc4-comparing-two-external-voltages-using-lpcomp</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-psoc4-comparing-two-external-voltages-using-lpcomp</uri>
+    <description><![CDATA[This code example demonstrates the voltage comparison functionality using the LPComp peripheral in PSoC&#8482; 4.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-comparing-two-external-voltages-using-lpcomp/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>led psoc4</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_149,cy8ckit_145_40xx]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_149,cy8ckit_145_40xx]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc4,wakeup,deepsleep,low-power,comparator,mtb-flow" req_capabilities_v2="led psoc4">
+    <name>Wakeup from deepsleep using Low-Power Comparator</name>
+    <id>mtb-example-psoc4-wakeup-from-deepsleep-using-low-power-comparator</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-psoc4-wakeup-from-deepsleep-using-low-power-comparator</uri>
+    <description><![CDATA[The code example demonstrates the comparison between two external signals connected at the Low Power Comparator inputs to wake the PSoC&#8482; 4 from Deep Sleep mode. The LED indicates the current power mode.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-wakeup-from-deepsleep-using-low-power-comparator/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>led psoc4</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_149,cy8ckit_145_40xx]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_149,cy8ckit_145_40xx]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
       </version>
     </versions>
   </app>
