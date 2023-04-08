@@ -9653,14 +9653,14 @@
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,rtc,low power,deepsleep,hibernate,mtb-flow" req_capabilities_v2="low_power [psoc6] rtc uart">
+  <app keywords="psoc6,rtc,low power,deepsleep,hibernate,mtb-flow" req_capabilities_v2="low_power [psoc6] rtc uart switch">
     <name>HAL RTC periodic wakeup</name>
     <id>mtb-example-hal-rtc-periodic-wakeup</id>
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-hal-rtc-periodic-wakeup</uri>
     <description><![CDATA[This code example demonstrates how to enter the DeepSleep and Hibernate modes, and wakeup using the RTC alarm.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-hal-rtc-periodic-wakeup/blob/master/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>low_power rtc uart</req_capabilities>
+    <req_capabilities>low_power rtc uart switch</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>Latest 1.X release</num>
