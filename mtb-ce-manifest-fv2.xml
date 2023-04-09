@@ -9718,7 +9718,7 @@
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-psoc6-comparator-hibernate-wakeup</uri>
     <description><![CDATA[This code example demonstrates the functionality of wakeup from the Hibernate mode using the Low-Power Comparator (LPCOMP)
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-comparator-hibernate-wakeup/blob/main/README.md">README on GitHub</a>.]]></description>
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-comparator-hibernate-wakeup/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 led</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_062s2_43012,cyw9p62s1_43438evb_01,cy8ckit_064b0s2_4343w,cy8ceval_062s2,cy8ceval_062s2_lai_43439m2,cy8ceval_062_mur_43439m2,cy8ceval_062_s2_lai_4373m2]">
