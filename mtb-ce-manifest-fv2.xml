@@ -9813,7 +9813,7 @@
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-psoc4-cryptography-sha-demonstration</uri>
     <description><![CDATA[This code example shows how to generate a 20-byte hash value or message digest for an arbitrary user input message using the SHA2 algorithm using the Cryptographic hardware block in PSoC&#8482; 4. The example further shows that any change in the message results in a unique hash value for the message. The hash value generated for the message is displayed on a UART terminal emulator.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-mtb-example-psoc4-cryptography-sha-demonstration/blob/master/README.md">README on GitHub</a>.]]></description>
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-cryptography-sha-demonstration/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>uart std_crypto psoc4</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max]">
