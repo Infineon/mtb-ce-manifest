@@ -6351,6 +6351,82 @@
       </version>
     </versions>
   </app>
+  <app keywords="pmg1,capsense,slider,linear slider,csd,tuning,ezi2c,tuner,mtb-flow" req_capabilities_v2="pmg1 capsense_linear_slider [pmg1_cy7113]">
+    <name>CAPSENSE CSD Slider Tuning</name>
+    <id>mtb-example-pmg1-capsense-csd-slider-tuning</id>
+    <category>Sensing</category>
+    <uri>https://github.com/Infineon/mtb-example-pmg1-capsense-csd-slider-tuning</uri>
+    <description><![CDATA[This code example demonstrates how to manually tune a CAPSENSE&#8482; Sigma Delta(CSD)-based slider widget in EZ-PD&8482; PMG1-S3 device using the CAPSENSE&#8482; Tuner.
+	<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-capsense-csd-slider-tuning/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>pmg1 capsense_linear_slider</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="pmg1,capsense,button,csd,tuning,ezi2c,tuner,mtb-flow" req_capabilities_v2="pmg1 capsense_button [pmg1_cy7113]">
+    <name>CAPSENSE CSD Button Tuning</name>
+    <id>mtb-example-pmg1-capsense-csd-button-tuning</id>
+    <category>Sensing</category>
+    <uri>https://github.com/Infineon/mtb-example-pmg1-capsense-csd-button-tuning</uri>
+    <description><![CDATA[This code example demonstrates how to manually tune a CAPSENSE&#8482; Sigma Delta(CSD)-based button widget in EZ-PD&8482; PMG1-S3 device using the CAPSENSE&#8482; Tuner.
+	<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-capsense-csd-button-tuning/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>pmg1 capsense_button</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="pmg1,usbpd,bldc,motor,control,sensorless,mtb-flow" req_capabilities_v2="pmg1 usbpd adc opamp led [pmg1_cy7113]">
+    <name>USBPD sensorless BLDC motor control</name>
+    <id>mtb-example-pmg1-usbpd-sensorless-bldc-motor</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-pmg1-usbpd-sensorless-bldc-motor</uri>
+    <description><![CDATA[This code example demonstrates EZ-PD&#8482; PMG1-S3 device-based solution for controlling sensorless Brushless DC (BLDC) motor of up to 140 watts, directly through USB PD power derived from a Type-C cable in 28-V Extended Power Range (EPR) mode.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-usbpd-sensorless-bldc-motor/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>pmg1 usbpd adc opamp led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="pmg1,usbfs,usb,mtb-flow,cdc,uart,dma" req_capabilities_v2="pmg1 usb_device dma uart [pmg1_cy7113]">
+    <name>USBFS to UART Using DMA</name>
+    <id>mtb-example-pmg1-usbfs-uart-dma</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-pmg1-usbfs-uart-dma</uri>
+    <description><![CDATA[This code example demonstrates the data transfer between USBFS and UART peripherals using DMA. The USBFS block will be configured as a USB Communications Device Class (CDC). The data received via the USB OUT endpoint will be transferred using DMA to the UART TX buffer. The UART Tx and UART Rx pins can be connected to do a loopback. The data received via the UART RX buffer is transferred to USB IN endpoint via DMA. This code example shows how to use DMA to transfer data between two peripherals.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-usbfs-uart-dma/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>pmg1 usb_device dma uart</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
   <app keywords="pmg1,usbpd,mtb-flow" req_capabilities_v2="usbpd pmg1 led [pmg1_cy7111, pmg1_cy7112, pmg1_cy7113]">
     <name>USBPD DRP</name>
     <id>mtb-example-pmg1-usbpd-drp</id>
