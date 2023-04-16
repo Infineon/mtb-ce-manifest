@@ -9186,7 +9186,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,usb,mtb-flow,hid,mouse,emUSB-Device" req_capabilities_v2="[psoc6] usb_device [flash_2048k,flash_1024k,flash_512k,flash_256k] [cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01,cy8cproto_062s3_4343w,cy8ckit_062s4,cy8ceval_062s2,cy8ceval_062_s2_lai_4373m2,cy8ceval_062_mur_43439m2]">
+  <app keywords="psoc6,usb,mtb-flow,hid,mouse,emUSB-Device" req_capabilities_v2="[psoc6] usb_device [flash_2048k,flash_1024k,flash_512k,flash_256k] [cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01,cy8cproto_062s3_4343w,cy8ckit_062s4,cy8ceval_062s2,cy8ceval_062_s2_lai_4373m2,cy8ceval_062_mur_43439m2,cy8ceval_062s2_lai_43439m2]">
     <name>emUSB-Device HID Mouse</name>
     <id>mtb-example-usb-device-hid-mouse</id>
     <category>Peripherals</category>
@@ -9198,6 +9198,10 @@
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>1.0.0 release</num>
