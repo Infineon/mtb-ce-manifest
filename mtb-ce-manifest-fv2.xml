@@ -6365,7 +6365,7 @@
     <category>Sensing</category>
     <uri>https://github.com/Infineon/mtb-example-pmg1-capsense-csd-slider-tuning</uri>
     <description><![CDATA[This code example demonstrates how to manually tune a CAPSENSE&#8482; Sigma Delta(CSD)-based slider widget in EZ-PD&8482; PMG1-S3 device using the CAPSENSE&#8482; Tuner.
-	<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-capsense-csd-slider-tuning/blob/master/README.md">README on GitHub</a>.]]></description>
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-capsense-csd-slider-tuning/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>pmg1 capsense_linear_slider</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
@@ -6384,7 +6384,7 @@
     <category>Sensing</category>
     <uri>https://github.com/Infineon/mtb-example-pmg1-capsense-csd-button-tuning</uri>
     <description><![CDATA[This code example demonstrates how to manually tune a CAPSENSE&#8482; Sigma Delta(CSD)-based button widget in EZ-PD&8482; PMG1-S3 device using the CAPSENSE&#8482; Tuner.
-	<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-capsense-csd-button-tuning/blob/master/README.md">README on GitHub</a>.]]></description>
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-capsense-csd-button-tuning/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>pmg1 capsense_button</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
@@ -9186,7 +9186,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,usb,mtb-flow,hid,mouse,emUSB-Device" req_capabilities_v2="[psoc6] usb_device [flash_2048k,flash_1024k,flash_512k,flash_256k] [cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01,cy8cproto_062s3_4343w,cy8ckit_062s4,cy8ceval_062s2,cy8ceval_062_s2_lai_4373m2,cy8ceval_062_mur_43439m2,cy8ceval_062s2_lai_43439m2]">
+  <app keywords="psoc6,usb,mtb-flow,hid,mouse,emUSB-Device" req_capabilities_v2="[psoc6] usb_device [flash_2048k,flash_1024k,flash_512k,flash_256k] [cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01,cy8cproto_062s3_4343w,cy8ckit_062s4,cy8ceval_062s2,cy8ceval_062_s2_lai_4373m2,cy8ceval_062_mur_43439m2,cy8ceval_062s2_lai_43439m2,cy8cproto_062s2_43439]">
     <name>emUSB-Device HID Mouse</name>
     <id>mtb-example-usb-device-hid-mouse</id>
     <category>Peripherals</category>
