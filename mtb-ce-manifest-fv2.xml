@@ -9251,7 +9251,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,usb,cdc,echo,mtb-flow,emusb-Host" req_capabilities_v2="[psoc6] usb_host [cyw4343w] [flash_1024k] [cy8ckit_062_wifi_bt]">
+  <app keywords="psoc6,usb,cdc,echo,mtb-flow,emusb-Host" req_capabilities_v2="[psoc6] usb_host [flash_1024k,flash_2048k] [cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43438evb_01,cy8ceval_062s2,cy8ceval_062_s2_lai_4373m2,cy8ceval_062_mur_43439m2,cy8ceval_062s2_lai_43439m2]">
     <name>emUSB-Host CDC echo</name>
     <id>mtb-example-usb-host-cdc-echo</id>
     <category>Peripherals</category>
