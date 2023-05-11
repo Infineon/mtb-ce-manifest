@@ -10209,4 +10209,23 @@
       </version>
     </versions>
   </app>
+  <app keywords="posix,freertos,led,mtb-flow" req_capabilities_v2="led qspi uart [psoc6,xmc7000]">
+    <name>HAL FreeRTOS-POSIX Demo</name>
+    <id>mtb-example-hal-posix-freertos</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-hal-posix-freertos</uri>
+    <description><![CDATA[This code example demonstrates the usage of FreeRTOS POSIX library for Infineon MCUs.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-hal-posix-freertos/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>led qspi uart</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
 </apps>
