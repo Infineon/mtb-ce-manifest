@@ -108,7 +108,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,led,lptimer,mtb-flow" req_capabilities_v2="led low_power switch [psoc6,cyw920829m2evb_01]">
+  <app keywords="psoc6,led,lptimer,mtb-flow" req_capabilities_v2="led low_power switch [psoc6,cyw920829m2evk_02]">
     <name>HAL Low-Power Timer</name>
     <id>mtb-example-hal-lptimer</id>
     <category>Peripherals</category>
@@ -120,6 +120,10 @@
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>2.2.0 release</num>
+        <commit>release-v2.2.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>2.1.0 release</num>
