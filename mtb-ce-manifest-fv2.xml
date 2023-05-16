@@ -10077,6 +10077,25 @@
       </version>
     </versions>
   </app>
+  <app keywords="psoc4,segment,lcd,mtb-flow" req_capabilities_v2="switch psoc4">
+    <name>Segment LCD</name>
+    <id>mtb-example-psoc4-segment-lcd</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-psoc4-segment-lcd</uri>
+    <description><![CDATA[This example project demonstrates the basic operation of the PSoC&#8482; 4 Segment LCD peripheral.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-segment-lcd/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>switch psoc4</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_145_40xx]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_145_40xx]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
   <app keywords="XMC4000,hrpwm,hrc" req_capabilities_v2="xmc4000 ccu8 [kit_xmc_plt2go_xmc4200, kit_xmc_plt2go_xmc4400]">
     <name>HRPWM HRC</name>
     <id>mtb-example-xmc-hrpwm-hrc</id>
@@ -10129,6 +10148,25 @@
         <commit>latest-v1.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_062_ble]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc4,frequency,measurement,tcpwm,mtb-flow" req_capabilities_v2="uart psoc4">
+    <name>Frequency measurement using TCPWM</name>
+    <id>mtb-example-psoc4-frequency-measurement-using-tcpwm</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-psoc4-frequency-measurement-using-tcpwm</uri>
+    <description><![CDATA[This code example demonstrates how to use the TCPWM peripheral in PSoC&#8482; 4 device to measure the frequency of a periodic digital signal.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-frequency-measurement-using-tcpwm/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>uart psoc4</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_145_40xx]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2=" [cy8ckit_041s_max,cy8ckit_149,cy8ckit_145_40xx]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
