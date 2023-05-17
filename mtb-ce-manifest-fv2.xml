@@ -10242,18 +10242,18 @@
       </version>
     </versions>
   </app>
-  <app keywords="xmc,mtb-flow,6edl7141,imd700,gate-driver,motor-control" req_capabilities_v2="xmc [eval_6edl7141_foc_3sh]">
+  <app keywords="xmc,mtb-flow,6edl7141,imd700,gate-driver,motor-control" req_capabilities_v2="xmc [eval_6edl7141_foc_3sh,eval_imd700a_foc_3sh]">
     <name>XMC FOC 3 Shunt</name>
     <id>mtb-example-xmc-foc-3-shunt</id>
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-xmc-foc-3-shunt</uri>
     <description><![CDATA[This code example support motor control FOC 3 Shunt application in XMC1404 device and provide the SPI bus communication to configure the registers in 6EDL7141 motor control driver IC.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [eval_6edl7141_foc_3sh]">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [eval_6edl7141_foc_3sh,eval_imd700a_foc_3sh]">
         <num>Latest 0.X release</num>
         <commit>latest-v0.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [eval_6edl7141_foc_3sh]">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [eval_6edl7141_foc_3sh,eval_imd700a_foc_3sh]">
         <num>0.5.0 release</num>
         <commit>release-v0.5.0</commit>
       </version>
