@@ -1270,11 +1270,11 @@
     </versions>
   </app>
   <app>
-    <name>TCP Keepalive Offload</name>
-    <id>mtb-example-wifi-offload-tcp-keepalive-0</id>
-    <uri>https://github.com/Infineon/mtb-example-wifi-offload-tcp-keepalive</uri>
+    <name>WLAN Offloads</name>
+    <id>mtb-example-wlan-offloads-0</id>
+    <uri>https://github.com/Infineon/mtb-example-wlan-offloads</uri>
     <description><![CDATA[This code example demonstrates the TCP Keepalive Offload functionality offered by AIROC&#8482; Wi-Fi & Bluetooth&#174; combos using PSoC&#8482; 6 MCU. It employs Low Power Assistant (LPA) middleware library which helps in developing low power applications for the Infineon devices.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-wifi-offload-tcp-keepalive/blob/master/README.md">README on GitHub</a>.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-wlan-offloads/blob/master/README.md">README on GitHub</a>.
     <br><br><b>License Disclaimer:</b><br><br>
     This code example makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license. <br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).]]></description>
     <req_capabilities>psoc6 wifi cyw43xxx</req_capabilities>
