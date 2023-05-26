@@ -2485,7 +2485,7 @@
         <num>4.1.0 release</num>
         <commit>release-v4.1.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cyw920829m2evb_01,cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01,cy8cproto_062s3_4343w,cysbsyskit_dev_01,cysbsyskit_01,cy8ceval_062_s2_lai_4373m2,cy8ceval_062_mur_43439m2]">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01,cy8cproto_062s3_4343w,cysbsyskit_dev_01,cysbsyskit_01,cy8ceval_062_s2_lai_4373m2,cy8ceval_062_mur_43439m2]">
         <num>4.0.0 release</num>
         <commit>release-v4.0.0</commit>
       </version>
