@@ -8543,25 +8543,6 @@
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,audio,ml, machine-learning,sensiml,inference engine,demo" req_capabilities_v2="psoc6 pdm rgb_led [cy8ckit_062s2_43012]">
-    <name>SensiML Template Firmware</name>
-    <category>Machine Learning</category>
-    <id>psoc6-template-fw</id>
-    <uri>https://github.com/sensiml/psoc6-template-fw</uri>
-    <description><![CDATA[This package contains a demo project for the CY8CKIT-062S2-43012 and CY8CKIT-028-SENSE kit using SensiML. This application is to collect data allowing models to be generated using the SensiML plaform and deployed to the device.
-    <br><br>For more details, see the <a href="https://github.com/sensiml/psoc6-template-fw/blob/main/README.md">README on GitHub</a>.<br><br><a href="https://sensiml.com/">SensiML</a> SensiML, a subsidiary of QuickLogic, offers cutting-edge AutoML software tools empowering application developers to rapidly build smart IoT devices, transforming raw sensor data into autonomous meaningful insight.<br> > <a href="https://sensiml.com/documentation/firmware/infineon-psoc6/infineon-psoc6-cy8ckit-062s2-43012.html">Get Started</a><br> > <a href="https://sensiml.com/plans/">SensiML Subscription Plans</a>]]></description>
-    <req_capabilities>psoc6 pdm rgb_led</req_capabilities>
-    <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
-        <num>2.0.0 release</num>
-        <commit>release-v2.0.0</commit>
-      </version>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
-        <num>1.0.0 release</num>
-        <commit>release-v1.0.0</commit>
-      </version>
-    </versions>
-  </app>
   <app keywords="pmg1,temp,sensor,adc,8-bit,temperature,mtb-flow" req_capabilities_v2="pmg1 usbpd uart led switch">
     <name>On Chip Temp Sensor 8 bit SAR ADC</name>
     <id>mtb-example-pmg1-on-chip-temp-sensor-8-bit-saradc</id>
