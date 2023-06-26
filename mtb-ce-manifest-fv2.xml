@@ -1426,13 +1426,17 @@
     <id>mtb-example-psoc6-emwin-oled-freertos</id>
     <category>Graphics</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-emwin-oled-freertos</uri>
-    <description><![CDATA[This code example demonstrates displaying 2D graphics on an OLED display using EmWin graphics library in FreeRTOS.
+    <description><![CDATA[This code example demonstrates displaying 2D graphics on an OLED display using emWin graphics library and the AppWizard GUI design tool in FreeRTOS.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-emwin-oled-freertos/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 arduino switch</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>3.2.0 release</num>
+        <commit>release-v3.2.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>3.1.0 release</num>
@@ -1452,6 +1456,7 @@
       </version>
     </versions>
   </app>
+
   <app keywords="pwm,tcpwm,asymmetric,mtb-flow" req_capabilities_v2="uart [cy8ckit_062s4]">
     <name>Asymmetric PWM Generation</name>
     <id>mtb-example-psoc6-pwm-dual-compare-capture</id>
@@ -3336,13 +3341,17 @@
     <id>mtb-example-psoc6-smartio-i2s</id>
     <category>Peripherals</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-smartio-i2s</uri>
-    <description><![CDATA[This example uses a SPI resource and Smart I/O in PSoC&#8482; 6 MCU to implement the I2S Master interface (TX only).
+    <description><![CDATA[This code example uses a SPI resource and Smart I/O in PSoC&#8482; 6 MCU to implement the Inter-IC Sound (I2S) master interface (TX only).
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-smartio-i2s/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 smart_io</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062_ble,cy8cproto_063_ble,cy8ckit_062s2_43012,cy8ckit_064b0s2_4343w,cy8ckit_062s4,cy8ceval_062s2,cy8ceval_062_s2_lai_4373m2]">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062_ble,cy8cproto_063_ble,cy8ckit_062s2_43012,cy8ckit_064b0s2_4343w,cy8ckit_062s4,cy8ceval_062s2,cy8ceval_062_s2_lai_4373m2,cy8ceval_062s2_lai_43439m2,cy8ceval_062_mur_43439m2]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062_ble,cy8cproto_063_ble,cy8ckit_062s2_43012,cy8ckit_064b0s2_4343w,cy8ckit_062s4,cy8ceval_062s2,cy8ceval_062_s2_lai_4373m2,cy8ceval_062s2_lai_43439m2,cy8ceval_062_mur_43439m2]">
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062_ble,cy8cproto_063_ble,cy8ckit_062s2_43012,cy8ckit_064b0s2_4343w,cy8ckit_062s4,cy8ceval_062s2,cy8ceval_062_s2_lai_4373m2]">
         <num>2.0.0 release</num>
@@ -7435,13 +7444,17 @@
     <id>mtb-example-psoc6-emwin-tft-freertos</id>
     <category>Graphics</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-emwin-tft-freertos</uri>
-    <description><![CDATA[This example demonstrates displaying 2D graphics on a TFT display using the Segger emWin graphics library and the AppWizard GUI design tool in FreeRTOS. The application initializes the system peripherals and creates a task that cycles through demo images in response to button presses.
+    <description><![CDATA[This example demonstrates displaying 2D graphics on a TFT display using the emWin graphics library and the AppWizard GUI design tool in FreeRTOS.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-emwin-tft-freertos/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 arduino switch</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_062_wifi_bt,cy8ckit_062_ble,cyw9p62s1_43438evb_01,cy8ckit_062s2_43012,cy8ceval_062s2,cy8ceval_062_s2_lai_4373m2,cy8ceval_062_mur_43439m2,cy8ckit_064b0s2_4343w,cy8ceval_062s2_lai_43439m2]">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_062_wifi_bt,cy8ckit_062_ble,cyw9p62s1_43438evb_01,cy8ckit_062s2_43012,cy8ceval_062s2,cy8ceval_062_s2_lai_4373m2,cy8ceval_062_mur_43439m2,cy8ckit_064b0s2_4343w,cy8ceval_062s2_lai_43439m2,cy8ceval_062s2_mur_4373m2,cy8ceval_062s2_mur_4373em2]">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_062_wifi_bt,cy8ckit_062_ble,cyw9p62s1_43438evb_01,cy8ckit_062s2_43012,cy8ceval_062s2,cy8ceval_062_s2_lai_4373m2,cy8ceval_062_mur_43439m2,cy8ckit_064b0s2_4343w,cy8ceval_062s2_lai_43439m2,cy8ceval_062s2_mur_4373m2,cy8ceval_062s2_mur_4373em2]">
+        <num>3.2.0 release</num>
+        <commit>release-v3.2.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_062_wifi_bt,cy8ckit_062_ble,cyw9p62s1_43438evb_01,cy8ckit_062s2_43012,cy8ceval_062s2,cy8ceval_062_s2_lai_4373m2,cy8ceval_062_mur_43439m2,cy8ckit_064b0s2_4343w,cy8ceval_062s2_lai_43439m2]">
         <num>3.1.0 release</num>
