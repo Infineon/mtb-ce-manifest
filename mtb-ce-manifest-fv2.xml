@@ -10370,4 +10370,25 @@
       </version>
     </versions>
   </app>
+  <app keywords="mtb-flow,psoc6,http,https,client,wifi" req_capabilities_v2="psoc6 cyw43xxx led wifi std_crypto [flash_2048k,flash_1024k,flash_512k]">
+    <name>Wi-Fi HTTPS Client</name>
+    <id>mtb-example-wifi-https-client</id>
+    <category>Wi-Fi</category>
+    <uri>https://github.com/Infineon/mtb-example-wifi-https-client</uri>
+    <description><![CDATA[This code example demonstrates the implementation of an HTTPS client with PSoC&#8482; 6 MCU and AIROC&trade; CYW43xxx connectivity devices. It employs the HTTPS client middleware library, which takes care of all the underlying socket connections with the HTTPS server. This example establishes a secure connection with a HTTPS server through SSL handshake. Once the SSL handshake completes successfully, the HTTPS server can make GET, POST, and PUT requests with the client.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-wifi-https-client/blob/master/README.md">README on GitHub</a>.
+    <br><br><b>License Disclaimer:</b><br><br>
+    This code example makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license.<br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).]]></description>
+    <req_capabilities>psoc6 cyw43xxx led wifi std_crypto</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01,cy8cproto_062s3_4343w,cy8ckit_064b0s2_4343w,cy8ceval_062_s2_lai_4373m2,cy8ceval_062_mur_43439m2,cy8ceval_062_s2_lai_43439m2,cy8ceval_062_mur_4373em2,cy8cproto_062s2_43439]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01,cy8cproto_062s3_4343w,cy8ckit_064b0s2_4343w,cy8ceval_062_s2_lai_4373m2,cy8ceval_062_mur_43439m2,cy8ceval_062_s2_lai_43439m2,cy8ceval_062_mur_4373em2,cy8cproto_062s2_43439]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
 </apps>
