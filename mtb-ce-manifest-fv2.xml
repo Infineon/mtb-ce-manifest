@@ -9746,14 +9746,6 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-cyw20829-keyboard/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>bt cyw20829</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="bsp_gen4">
-        <num>Latest 2.X release</num>
-        <commit>latest-v2.X</commit>
-      </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="bsp_gen4">
-        <num>2.0.0 release</num>
-        <commit>release-v2.0.0</commit>
-      </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -9773,14 +9765,6 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-cyw20829-mouse/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>bt cyw20829</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="bsp_gen4">
-        <num>Latest 2.X release</num>
-        <commit>latest-v2.X</commit>
-      </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="bsp_gen4">
-        <num>2.0.0 release</num>
-        <commit>release-v2.0.0</commit>
-      </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
