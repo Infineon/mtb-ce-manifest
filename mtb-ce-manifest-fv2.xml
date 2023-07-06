@@ -2888,7 +2888,7 @@
     <id>mtb-example-wlan-offloads</id>
     <category>Wi-Fi</category>
     <uri>https://github.com/Infineon/mtb-example-wlan-offloads</uri>
-    <description><![CDATA[This code example demonstrates various Wireless Local Area Network (WLAN) offloads such as Address Resolution Protocol (ARP) offload, packet filter offload, and the Transmission Control Protocol (TCP) keepalive offload functionality offered by Infineon AIROC&trade; Wi-Fi devices using PSoC&trade; 6 MCU. It employs the Low Power Assistant (LPA) middleware library, which helps in developing low-power applications for Infineon devices.
+    <description><![CDATA[This code example demonstrates various Wireless Local Area Network (WLAN) offloads such as Address Resolution Protocol (ARP) offload, packet filter offload, and the Transmission Control Protocol (TCP) keepalive offload functionality offered by Infineon AIROC&#8482; Wi-Fi devices using PSoC&#8482; 6 MCU. It employs the Low Power Assistant (LPA) middleware library, which helps in developing low-power applications for Infineon devices.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-wlan-offloads/blob/master/README.md">README on GitHub</a>.
     <br><br><b>License Disclaimer:</b><br><br>
     This code example makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license. <br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).]]></description>
@@ -8513,7 +8513,7 @@
     <id>mtb-example-psoc6-usb-cdc-echo</id>
     <category>Peripherals</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-usb-cdc-echo</uri>
-    <description><![CDATA[This example demonstrates how to configure the USB block in a PSoC&#8482;&trade; 6 MCU for communication device class (CDC). When configured for a CDC, the PSoC&#8482;&trade; 6 MCU device enumerates a virtual COM port, which can be read and written by a terminal emulator program on a PC.
+    <description><![CDATA[This example demonstrates how to configure the USB block in a PSoC&#8482; 6 MCU for communication device class (CDC). When configured for a CDC, the PSoC&#8482; 6 MCU device enumerates a virtual COM port, which can be read and written by a terminal emulator program on a PC.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-usb-cdc-echo/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 usb_device</req_capabilities>
     <versions>
@@ -9274,15 +9274,23 @@
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,smpu,ppu,ipc,mtb-flow,security" req_capabilities_v2="psoc6">
+  <app keywords="psoc6,smpu,ppu,ipc,mtb-flow,security,rma" req_capabilities_v2="psoc6">
     <name>Security App</name>
     <id>mtb-example-psoc6-security</id>
     <category>Getting Started</category>
     <uri>https://github.com/Infineon/mtb-example-psoc6-security</uri>
-    <description><![CDATA[This code example is a minimal starter dual-CPU security application template for PSoC&trade; 62/63 MCU devices that demonstrates secure boot, memory protection, protected storage, device firmware update and signing your application.
+    <description><![CDATA[This is a minimal starter dual-CPU security application template for PSoC&#8482; 62/63 MCU devices. This code example is meant to be a companion to the <a href="https://www.infineon.com/an221111">AN221111 - PSoC&#8482; 6 MCU: Designing a secured system</a> application note.It demonstrates following features to create a secured system as explained in the application note.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-security/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_062_ble,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cy8cproto_062_4343w,cy8cproto_062s3_4343w,cy8cproto_063_ble]">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_062_ble,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cy8cproto_062_4343w,cy8cproto_062s3_4343w,cy8cproto_063_ble]">
+        <num>3.0.0 release</num>
+        <commit>release-v3.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_062_ble,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cy8cproto_062_4343w,cy8cproto_062s3_4343w,cy8cproto_063_ble]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
@@ -10363,7 +10371,7 @@
     <id>mtb-example-psoc6-freertos-bt-sensorhub</id>
     <category>Bluetooth&#174;</category>
     <uri>https://github.com/Infineon/mtb-example-psoc6-freertos-bt-sensorhub</uri>
-    <description><![CDATA[This code example features a Bluetooth&reg; LE custom GATT Server with multiple sensors. The motion sensor and thermistor are interfaced with PSoC&trade; 6 MCU. The sensor reading is sent to the GATT Client over GATT notification. This project uses the sensors and middleware library; it is developed in the ModusToolbox&#8482; software environment.
+    <description><![CDATA[This code example features a Bluetooth&#174; LE custom GATT Server with multiple sensors. The motion sensor and thermistor are interfaced with PSoC&#8482; 6 MCU. The sensor reading is sent to the GATT Client over GATT notification. This project uses the sensors and middleware library; it is developed in the ModusToolbox&#8482; software environment.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-freertos-bt-sensorhub/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 led bt</req_capabilities>
     <versions>
@@ -10439,7 +10447,7 @@
     <id>mtb-example-wifi-https-client</id>
     <category>Wi-Fi</category>
     <uri>https://github.com/Infineon/mtb-example-wifi-https-client</uri>
-    <description><![CDATA[This code example demonstrates the implementation of an HTTPS client with PSoC&#8482; 6 MCU and AIROC&trade; CYW43xxx connectivity devices. It employs the HTTPS client middleware library, which takes care of all the underlying socket connections with the HTTPS server. This example establishes a secure connection with a HTTPS server through SSL handshake. Once the SSL handshake completes successfully, the HTTPS server can make GET, POST, and PUT requests with the client.
+    <description><![CDATA[This code example demonstrates the implementation of an HTTPS client with PSoC&#8482; 6 MCU and AIROC&#8482; CYW43xxx connectivity devices. It employs the HTTPS client middleware library, which takes care of all the underlying socket connections with the HTTPS server. This example establishes a secure connection with a HTTPS server through SSL handshake. Once the SSL handshake completes successfully, the HTTPS server can make GET, POST, and PUT requests with the client.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-wifi-https-client/blob/master/README.md">README on GitHub</a>.
     <br><br><b>License Disclaimer:</b><br><br>
     This code example makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license.<br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).]]></description>
@@ -10452,6 +10460,139 @@
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="multicore,otw,dfu,firmware upgrade,bootloader,mcuboot,edge protect bootloader,mtb-flow" req_capabilities_v2="led uart std_crypto [xmc7000,t2gbh,t2gbh_lite]">
+    <name>OTW Firmware Upgrade</name>
+    <id>mtb-example-xmc7000-otw-firmware-upgrade</id>
+    <category>Getting Started</category>
+    <uri>https://github.com/Infineon/mtb-example-xmc7000-otw-firmware-upgrade</uri>
+    <description><![CDATA[This example demonstrates a firmware upgrade for the XMC7000 using the edge protect bootloader and DFU.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-xmc7000-otw-firmware-upgrade/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>led uart std_crypto</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc72_evk]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc72_evk]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="class-b,mtb-flow,psoc4" req_capabilities_v2="psoc4 uart">
+    <name>Class-B Safety Test Analog Peripherals</name>
+    <id>mtb-example-psoc4-safety-analog-test</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-psoc4-safety-analog-test</uri>
+    <description><![CDATA[This code example demonstrates the use of the Class-B Safety Test Library to test the Analog peripherals like, Comparator, OpAmp, and ADC in the PSoC&#8482; 4 MCU. The example verifies the proper operation and accuracy of these peripherals.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-safety-analog-test/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>psoc4 uart</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_045s]">
+        <num>Latest 0.X release</num>
+        <commit>latest-v0.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_045s]">
+        <num>0.1.0 release</num>
+        <commit>release-v0.1.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="class-b,mtb-flow,psoc4" req_capabilities_v2="psoc4 uart">
+    <name>Class-B Safety Test Communication Protocol</name>
+    <id>mtb-example-psoc4-safety-communication-test</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-psoc4-safety-communication-test</uri>
+    <description><![CDATA[This code example demonstrates the use of the Class-B Safety Test Library to test the Communication Protocol using the PSoC&#8482; 4 MCU. The example conducts a communication test by configuring two SCB instances as UART and connecting their TX and RX pins to the corresponding RX and TX pins of other blocks. The objective is to detect any potential data corruption during transit.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-safety-communication-test/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>psoc4 uart</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_045s]">
+        <num>Latest 0.X release</num>
+        <commit>latest-v0.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_045s]">
+        <num>0.1.0 release</num>
+        <commit>release-v0.1.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="class-b,mtb-flow,psoc4" req_capabilities_v2="psoc4 uart">
+    <name>Class-B Safety Test Core Peripherals</name>
+    <id>mtb-example-psoc4-safety-core-test</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-psoc4-safety-core-test</uri>
+    <description><![CDATA[This code example demonstrates the use of the Class-B Safety Test Library to test the core peripherals of the PSoC&#8482; 4 MCU, which are critical for ensuring safety. The example includes tests such as CPU registers, Program Counter, WDT, clock, interrupt, Input/Output, Flash (Fletcher's test + CRC test), and config registers.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-safety-core-test/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>psoc4 uart</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_045s]">
+        <num>Latest 0.X release</num>
+        <commit>latest-v0.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_045s]">
+        <num>0.1.0 release</num>
+        <commit>release-v0.1.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="class-b,mtb-flow,psoc4" req_capabilities_v2="psoc4 uart">
+    <name>Class-B Safety Test I2C</name>
+    <id>mtb-example-psoc4-safety-i2c-test</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-psoc4-safety-i2c-test</uri>
+    <description><![CDATA[This code example demonstrates the use of the Class-B Safety Test Library to test the I2C interface in the PSoC&#8482; 4 MCU. The example tests the I2C interface by configuring one SCB instance as an I2C master and another SCB instance as an I2C slave. It then verifies the communication between the two SCB blocks by connecting external jumper wires between these two SCB blocks.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-safety-i2c-test/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>psoc4 uart</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_045s]">
+        <num>Latest 0.X release</num>
+        <commit>latest-v0.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_045s]">
+        <num>0.1.0 release</num>
+        <commit>release-v0.1.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="class-b,mtb-flow,psoc4" req_capabilities_v2="psoc4 uart">
+    <name>Class-B Safety Test SPI Loopback</name>
+    <id>mtb-example-psoc4-safety-spi-loopback-test</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-psoc4-safety-spi-loopback-test</uri>
+    <description><![CDATA[This code example demonstrates the use of the Class-B Safety Test Library to test the SPI loopback in the PSoC&#8482; 4 MCU. The example performs the SPI loopback test by configuring one SCB instance as SPI master and connecting its MOSI and MISO pins internally using Smart-IO.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-safety-spi-loopback-test/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>psoc4 uart</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_045s]">
+        <num>Latest 0.X release</num>
+        <commit>latest-v0.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_045s]">
+        <num>0.1.0 release</num>
+        <commit>release-v0.1.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="class-b,mtb-flow,psoc4" req_capabilities_v2="psoc4 uart">
+    <name>Class-B Safety Test UART Loopback</name>
+    <id>mtb-example-psoc4-safety-uart-loopback-test</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-psoc4-safety-uart-loopback-test</uri>
+    <description><![CDATA[This code example demonstrates the use of the Class-B Safety Test Library to test the UART loopback Test in the PSoC&#8482; 4 MCU. The example performs the UART loopback test by configuring one SCB instance as UART and connecting its TX and RX pins internally using Smart-IO.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-safety-uart-loopback-test/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>psoc4 uart</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_045s]">
+        <num>Latest 0.X release</num>
+        <commit>latest-v0.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_045s]">
+        <num>0.1.0 release</num>
+        <commit>release-v0.1.0</commit>
       </version>
     </versions>
   </app>
