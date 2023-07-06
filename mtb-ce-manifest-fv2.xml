@@ -7090,11 +7090,11 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-dfu-basic/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 led switch std_crypto</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ceval_062s2,cy8ceval_062_s2_lai_4373m2,cy8ckit_062_ble,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cy8cproto_062_4343w,cy8cproto_062s3_4343w,cy8cproto_063_ble,cy8ckit_062s4,cyw9p62s1_43012evb_01,cyw9p62s1_43438evb_01]">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ceval_062s2,cy8ceval_062_s2_lai_4373m2,cy8ceval_062_s2_mur_43439m2,cy8ckit_062_ble,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cy8cproto_062_4343w,cy8cproto_062s3_4343w,cy8cproto_063_ble,cy8ckit_062s4,cyw9p62s1_43012evb_01,cyw9p62s1_43438evb_01]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ceval_062s2,cy8ceval_062_s2_lai_4373m2,cy8ckit_062_ble,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cy8cproto_062_4343w,cy8cproto_062s3_4343w,cy8cproto_063_ble,cy8ckit_062s4,cyw9p62s1_43012evb_01,cyw9p62s1_43438evb_01]">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ceval_062s2,cy8ceval_062_s2_lai_4373m2,cy8ceval_062_s2_mur_43439m2,cy8ckit_062_ble,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cy8cproto_062_4343w,cy8cproto_062s3_4343w,cy8cproto_063_ble,cy8ckit_062s4,cyw9p62s1_43012evb_01,cyw9p62s1_43438evb_01]">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
       </version>
