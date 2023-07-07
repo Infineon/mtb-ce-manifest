@@ -6607,6 +6607,63 @@
       </version>
     </versions>
   </app>
+  <app keywords="pmg1,led,switch,gpio-interrupt,mtb-flow" req_capabilities_v2="pmg1 led [pmg1_cy7110, pmg1_cy7111, pmg1_cy7112, pmg1_cy7113]">
+    <name>Multiple GPIO interrupts</name>
+    <id>mtb-example-pmg1-multiple-gpio-interrupts</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-pmg1-multiple-gpio-interrupts</uri>
+    <description><![CDATA[This code example demonstrates a method to detect multiple GPIO interrupts from the same port using the pin status bits of a port on the EZ-PD&8482; PMG1 MCU devices.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-multiple-gpio-interrupts/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>pmg1 led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="pmg1,led,under-voltage,over-voltage,mtb-flow" req_capabilities_v2="pmg1 led [pmg1_cy7110, pmg1_cy7111, pmg1_cy7112, pmg1_cy7113]">
+    <name>Using UVP and OVP blocks</name>
+    <id>mtb-example-pmg1-uvov-blocks</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-pmg1-uvov-blocks</uri>
+    <description><![CDATA[This code example demonstrates the use of overvoltage protection(OVP) and undervoltage proection(UVP) blocks for high-voltage and low-voltage detection on the Type-C Vbus pin of EZ-PD&8482; PMG1 MCU devices.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-uvov-blocks/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>pmg1 led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="pmg1,spi,led,dma,mtb-flow" req_capabilities_v2="pmg1 spi led dma [pmg1_cy7113]">
+    <name>SPI Flash</name>
+    <id>mtb-example-pmg1-spi-master-dma</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-pmg1-spi-master-dma</uri>
+    <description><![CDATA[This code example demonstrates the configuration and usage of Serial Communication Block (SCB) as SPI master to write and read data to an EEPROM Flash (Slave).
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-spi-master-dma/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>pmg1 spi led dma</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
   <app keywords="pmg1,usbpd,bldc,motor,control,sensorless,mtb-flow" req_capabilities_v2="pmg1 usbpd adc opamp led [pmg1_cy7113]">
     <name>USBPD sensorless BLDC motor control</name>
     <id>mtb-example-pmg1-usbpd-sensorless-bldc-motor</id>
