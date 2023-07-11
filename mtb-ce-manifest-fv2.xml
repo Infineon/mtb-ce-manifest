@@ -6680,6 +6680,25 @@
       </version>
     </versions>
   </app>
+  <app keywords="pmg1,usbpd,lcd,pwm,led,mtb-flow" req_capabilities_v2="pmg1 usbpd led [pmg1_cy7110, pmg1_cy7111, pmg1_cy7112, pmg1_cy7113]">
+    <name>USB PD Sink with 16x2 LCD</name>
+    <id>mtb-example-pmg1-usbpd-sink-lcd-display</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-pmg1-usbpd-sink-lcd-display</uri>
+    <description><![CDATA[This code example demonstrates the USB Power Delivery (PD) sink functionality, displays the PD contract information on LCD and PWM to control the brightness of the LCD.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-usbpd-sink-lcd-display/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>pmg1 usbpd led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
   <app keywords="pmg1,usbpd,bldc,motor,control,sensorless,mtb-flow" req_capabilities_v2="pmg1 usbpd adc opamp led [pmg1_cy7113]">
     <name>USBPD sensorless BLDC motor control</name>
     <id>mtb-example-pmg1-usbpd-sensorless-bldc-motor</id>
