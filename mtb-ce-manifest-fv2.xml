@@ -1775,7 +1775,7 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-ess/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>bt led</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43012evb_01,cyw9p62s1_43438evb_01,cy8cproto_062s3_4343w,cy8ckit_064b0s2_4343w,cy8ceval_062_s2_lai_4373m2,cyw920829m2evb_01,cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval,cy8ceval_062s2_lai_43439m2,cy8cproto_062s2_43439]">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43012evb_01,cyw9p62s1_43438evb_01,cy8cproto_062s3_4343w,cy8ckit_064b0s2_4343w,cy8ceval_062_s2_lai_4373m2,cyw920829m2evk_02,cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval,cy8ceval_062s2_lai_43439m2,cy8cproto_062s2_43439]">
         <num>Latest 4.X release</num>
         <commit>latest-v4.X</commit>
       </version>
@@ -8039,11 +8039,11 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-cts-server/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>bt led</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43012evb_01,cyw9p62s1_43438evb_01,cy8cproto_062s3_4343w,cy8ckit_064b0s2_4343w,cy8ceval_062_s2_lai_4373m2,cy8ceval_062_mur_43439m2,cyw920829m2evb_01,cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval,cy8ceval_062s2_lai_43439m2,cy8cproto_062s2_43439]">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cyw920829m2evk_02,cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43012evb_01,cyw9p62s1_43438evb_01,cy8cproto_062s3_4343w,cy8ckit_064b0s2_4343w,cy8ceval_062_s2_lai_4373m2,cy8ceval_062_mur_43439m2,cyw920829m2evb_01,cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval,cy8ceval_062s2_lai_43439m2,cy8cproto_062s2_43439]">
         <num>Latest 4.X release</num>
         <commit>latest-v4.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43012evb_01,cyw9p62s1_43438evb_01,cy8cproto_062s3_4343w,cy8ckit_064b0s2_4343w,cy8ceval_062_s2_lai_4373m2,cy8ceval_062_mur_43439m2,cyw920829m2evb_01,cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval,cy8ceval_062s2_lai_43439m2,cy8cproto_062s2_43439]">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cyw920829m2evk_02,cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43012evb_01,cyw9p62s1_43438evb_01,cy8cproto_062s3_4343w,cy8ckit_064b0s2_4343w,cy8ceval_062_s2_lai_4373m2,cy8ceval_062_mur_43439m2,cyw920829m2evb_01,cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval,cy8ceval_062s2_lai_43439m2,cy8cproto_062s2_43439]">
         <num>4.3.0 release</num>
         <commit>release-v4.3.0</commit>
       </version>
@@ -8086,11 +8086,11 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-cts-client/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>bt led</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43012evb_01,cyw9p62s1_43438evb_01,cy8cproto_062s3_4343w,cy8ckit_064b0s2_4343w,cy8ceval_062_s2_lai_4373m2,cy8ceval_062_mur_43439m2,cyw920829m2evb_01,cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval,cy8ceval_062s2_lai_43439m2,cy8cproto_062s2_43439]">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cyw920829m2evk_02,cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43012evb_01,cyw9p62s1_43438evb_01,cy8cproto_062s3_4343w,cy8ckit_064b0s2_4343w,cy8ceval_062_s2_lai_4373m2,cy8ceval_062_mur_43439m2,cyw920829m2evb_01,cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval,cy8ceval_062s2_lai_43439m2,cy8cproto_062s2_43439]">
         <num>Latest 4.X release</num>
         <commit>latest-v4.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43012evb_01,cyw9p62s1_43438evb_01,cy8cproto_062s3_4343w,cy8ckit_064b0s2_4343w,cy8ceval_062_s2_lai_4373m2,cy8ceval_062_mur_43439m2,cyw920829m2evb_01,cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval,cy8ceval_062s2_lai_43439m2,cy8cproto_062s2_43439]">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cyw920829m2evk_02,cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43012evb_01,cyw9p62s1_43438evb_01,cy8cproto_062s3_4343w,cy8ckit_064b0s2_4343w,cy8ceval_062_s2_lai_4373m2,cy8ceval_062_mur_43439m2,cyw920829m2evb_01,cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval,cy8ceval_062s2_lai_43439m2,cy8cproto_062s2_43439]">
         <num>4.3.0 release</num>
         <commit>release-v4.3.0</commit>
       </version>
@@ -8791,23 +8791,23 @@
         <num>3.3.0 release</num>
         <commit>release-v3.3.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cyw920829m2evb_01,cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01,cy8cproto_062s3_4343w,cy8ceval_062s2,cy8ceval_062_s2_lai_4373m2,cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval,cy8ceval_062s2_lai_43439m2,cy8cproto_062s2_43439]">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01,cy8cproto_062s3_4343w,cy8ceval_062s2,cy8ceval_062_s2_lai_4373m2,cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval,cy8ceval_062s2_lai_43439m2,cy8cproto_062s2_43439]">
         <num>3.2.0 release</num>
         <commit>release-v3.2.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cyw920829m2evb_01,cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01,cy8cproto_062s3_4343w,cy8ceval_062s2,cy8ceval_062_s2_lai_4373m2,cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval]">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01,cy8cproto_062s3_4343w,cy8ceval_062s2,cy8ceval_062_s2_lai_4373m2,cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval]">
         <num>3.1.0 release</num>
         <commit>release-v3.1.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cyw920829m2evb_01,cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval]">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval]">
         <num>3.0.0 release</num>
         <commit>release-v3.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version_v2="[bsp_gen3] [cyw920829m2evb_01,cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval]">
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version_v2="[bsp_gen3] [cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version_v2="[bsp_gen3] [cyw920829m2evb_01,cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval]">
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version_v2="[bsp_gen3] [cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval]">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
       </version>
@@ -9100,23 +9100,23 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-extadv-beacon/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>ble cyw920829m2evk_02</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4]">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="bsp_gen4">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4]">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="bsp_gen4">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4]">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="bsp_gen4">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version_v2="[bsp_gen3]">
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version_v2="bsp_gen3">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version_v2="[bsp_gen3]">
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version_v2="bsp_gen3">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -9131,11 +9131,15 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-cyw20829-voice-remote/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>bt cyw20829</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cyw920829_vr,cyw920829m2evb_01]">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cyw920829_vr,cyw920829m2evk_02]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cyw920829_vr,cyw920829m2evb_01]">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cyw920829_vr,cyw920829m2evk_02]">
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cyw920829_vr]">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
@@ -9734,7 +9738,7 @@
         <num>1.2.0 release</num>
         <commit>release-v1.2.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cyw920829m2evb_01,cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval]">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval]">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
@@ -9864,6 +9868,22 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-cyw20829-keyboard/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>bt cyw20829</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="bsp_gen4">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="bsp_gen4">
+        <num>3.0.0 release</num>
+        <commit>release-v3.0.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="bsp_gen4">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="bsp_gen4">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -9883,6 +9903,14 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-cyw20829-mouse/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>bt cyw20829</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="bsp_gen4">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="bsp_gen4">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -10703,6 +10731,25 @@
       <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_045s]">
         <num>0.1.0 release</num>
         <commit>release-v0.1.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="pairing,mtb-flow,bluetooth,button" req_capabilities_v2="bt led">
+    <name>Bluetooth LE Hello Client</name>
+    <id>mtb-example-btstack-freertos-hello-client</id>
+    <category>Bluetooth&#174;</category>
+    <uri>https://github.com/Infineon/mtb-example-btstack-freertos-hello-client</uri>
+    <description><![CDATA[This code example demonstrates the implementation of Bluetooth&#174; LE multi role applications using AIROC&#8482; CYW20829, PSoC&#8482; 6 , and ModusToolbox&#8482; software.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-hello-client/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>bt led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cyw920829m2evk_02]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cyw920829m2evk_02]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
       </version>
     </versions>
   </app>
