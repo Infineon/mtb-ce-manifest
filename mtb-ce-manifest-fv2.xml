@@ -7800,20 +7800,24 @@
       </version>
     </versions>
   </app>
-  <app keywords="optiga,security,crypto,ecc,rsa,ecdsa,ecdh,mtb-flow">
+  <app keywords="optiga,security,crypto,ecc,rsa,ecdsa,ecdh,mtb-flow" req_capabilities_v2="optiga_trust_m std_crypto uart">
     <name>OPTIGA Cryptography</name>
     <id>mtb-example-optiga-crypto</id>
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-optiga-crypto</uri>
     <description><![CDATA[This example uses an Infineon OPTIGA&#8482; Trust Security Solution on a PSoC&#8482; 6 MCU to execute example code to perform available crypto operations on the Secure Element.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-optiga-crypto/blob/master/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>optiga_trust_m</req_capabilities>
+    <req_capabilities>optiga_trust_m std_crypto uart</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cysbsyskit_dev_01,cy8cproto_062_4343w,cy8ceval_062s2,cy8ceval_062_s2_lai_4373m2]">
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cysbsyskit_dev_01,cy8cproto_062_4343w,cy8ceval_062s2,cy8ceval_062_s2_lai_4373m2]">
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" tools_max_version="3.0.1" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
@@ -7827,14 +7831,14 @@
       </version>
     </versions>
   </app>
-  <app keywords="optiga,power-management,hibernation,mtb-flow" req_capabilities_v2="optiga_trust_m">
+  <app keywords="optiga,power-management,hibernation,mtb-flow" req_capabilities_v2="optiga_trust_m uart">
     <name>OPTIGA Power management</name>
     <id>mtb-example-optiga-power-management</id>
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-optiga-power-management</uri>
     <description><![CDATA[This example uses an Infineon OPTIGA&#8482; Trust Security Solution on a PSoC&#8482; 6 MCU to execute example code to control the hibernation feature on the security solution.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-optiga-power-management/blob/master/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>optiga_trust_m</req_capabilities>
+    <req_capabilities>optiga_trust_m uart</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ceval_062s2,cy8ceval_062s2_lai_43439m2,cy8ceval_062_s2_lai_4373m2,cy8ceval_062_mur_43439m2,cy8ceval_062s2_mur_4373em2]">
         <num>Latest 2.X release</num>
@@ -7858,20 +7862,24 @@
       </version>
     </versions>
   </app>
-  <app keywords="optiga,security,crypto,ecc,mbedtls,ecdsa,ecdh,mqtt,aws,mtb-flow">
+  <app keywords="optiga,security,crypto,ecc,mbedtls,ecdsa,ecdh,mqtt,aws,mtb-flow" req_capabilities_v2="optiga_trust_m wifi switch led uart">
     <name>OPTIGA MQTT Client</name>
     <id>mtb-example-optiga-mqtt-client</id>
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-optiga-mqtt-client</uri>
     <description><![CDATA[This example uses an Infineon OPTIGA&#8482; Trust Security Solution on a PSoC&#8482; 6 MCU to execute example code to perform an MQTT connection to the AWS IoT Cloud.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-optiga-mqtt-client/blob/master/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>optiga_trust_m wifi</req_capabilities>
+    <req_capabilities>optiga_trust_m wifi switch led uart</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cysbsyskit_dev_01,cy8cproto_062_4343w,cy8ceval_062s2,cy8ceval_062_s2_lai_4373m2]">
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cysbsyskit_dev_01,cy8cproto_062_4343w,cy8ceval_062s2,cy8ceval_062_s2_lai_4373m2]">
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" tools_max_version="3.0.1" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
@@ -7889,24 +7897,24 @@
       </version>
     </versions>
   </app>
-  <app keywords="optiga,security,management,python,crypto,ecc,rsa,ecdsa,ecdh,mtb-flow" req_capabilities_v2="optiga_trust_m">
+  <app keywords="optiga,security,management,python,crypto,ecc,rsa,ecdsa,ecdh,mtb-flow" req_capabilities_v2="optiga_trust_m uart">
     <name>OPTIGA Trust M Data and certificates management</name>
     <id>mtb-example-optiga-data-management</id>
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-optiga-data-management</uri>
     <description><![CDATA[This example uses an Infineon OPTIGA&#8482; Trust Security Solution on a PSoC&#8482; 6 MCU to execute example code to manage internal aata or key Objects including its Update.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-optiga-data-management/blob/master/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>optiga_trust_m</req_capabilities>
+    <req_capabilities>optiga_trust_m uart</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cysbsyskit_dev_01,cy8ceval_062s2,cy8ceval_062s2_lai_43439m2,cy8ceval_062_s2_lai_4373m2,cy8ceval_062_mur_43439m2,cy8ceval_062s2_mur_4373em2]">
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cysbsyskit_dev_01,cy8ceval_062s2,cy8ceval_062s2_lai_43439m2,cy8ceval_062_s2_lai_4373m2,cy8ceval_062_mur_43439m2,cy8ceval_062s2_mur_4373em2]">
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" tools_max_version="3.0.1" req_capabilities_per_version_v2="[bsp_gen4] [cysbsyskit_dev_01,cy8cproto_062_4343w,cy8ceval_062s2,cy8ceval_062_s2_lai_4373m2]">
+      <version flow_version="2.0" tools_min_version="3.0.0" tools_max_version="3.0.1" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
@@ -10775,6 +10783,10 @@
       <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_045s]">
         <num>Latest 0.X release</num>
         <commit>latest-v0.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_045s]">
+        <num>0.1.1 release</num>
+        <commit>release-v0.1.1</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_045s]">
         <num>0.1.0 release</num>
