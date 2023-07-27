@@ -8325,6 +8325,14 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-cyw43907-uart-tx-rx/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>cat4</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version="bsp_gen4">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -8344,6 +8352,14 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-cyw43907-hello-world/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>cat4</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version="bsp_gen4">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -8363,6 +8379,14 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-cyw43907-wdt/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>cat4</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version="bsp_gen4">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -8382,6 +8406,14 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-cyw43907-gpio/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>cat4</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version="bsp_gen4">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -8401,6 +8433,14 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-cyw43907-pwm/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>cat4</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version="bsp_gen4">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -8423,6 +8463,14 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-cyw43907-tcp-client/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>cat4</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version="bsp_gen4">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -8443,6 +8491,14 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-cyw43907-tcp-server/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>cat4</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version="bsp_gen4">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -8464,6 +8520,14 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-cyw43907-secure-tcp-client/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>cat4</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version="bsp_gen4">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -8486,6 +8550,14 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-cyw43907-secure-tcp-server/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>cat4</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version="bsp_gen4">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -8507,6 +8579,14 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-cyw43907-wifi-scan/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>cat4</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version="bsp_gen4">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -8527,6 +8607,14 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-cyw43907-i2c/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>cat4</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version="bsp_gen4">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -8546,6 +8634,14 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-cyw43907-mqtt-client/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>cat4</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version="bsp_gen4">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -8566,6 +8662,14 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-cyw43907-secure-http-server/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>cat4</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version="bsp_gen4">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -8587,6 +8691,14 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-cyw43907-udp-client/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>cat4</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version="bsp_gen4">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -8608,6 +8720,14 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-cyw43907-udp-server/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>cat4</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version="bsp_gen4">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
