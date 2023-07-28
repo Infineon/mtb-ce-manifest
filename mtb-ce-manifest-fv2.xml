@@ -1400,7 +1400,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,eink,emwin,freertos,display,mtb-flow" req_capabilities_v2="psoc6 led arduino switch [sram_288k,sram_1024k]">
+  <app keywords="psoc6,eink,emwin,freertos,display,mtb-flow" req_capabilities_v2="psoc6 led arduino switch [sram_288k,sram_1024k] [flash_2048k,flash_1856k,flash_1024k]">
     <name>emWin E-Ink FreeRTOS</name>
     <id>mtb-example-psoc6-emwin-eink-freertos</id>
     <category>Graphics</category>
@@ -3012,14 +3012,14 @@
       </version>
     </versions>
   </app>
-  <app keywords="psoc4,i2c,i2c-slave,callback,pwm,mtb-flow" req_capabilities_v2="capsense led psoc4">
+  <app keywords="psoc4,i2c,i2c-slave,callback,pwm,mtb-flow" req_capabilities_v2="led psoc4">
     <name>I2C Slave Using Callbacks</name>
     <id>mtb-example-psoc4-i2c-slave-callback</id>
     <category>Peripherals</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc4-i2c-slave-callback</uri>
     <description><![CDATA[This example demonstrates the operation of the I2C block for PSoC&#8482; 4 in Slave mode using callbacks.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-i2c-slave-callback/blob/master/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>capsense led psoc4</req_capabilities>
+    <req_capabilities>led psoc4</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_041_41xx,cy8ckit_145_40xx,cy8ckit_045s]">
         <num>Latest 3.X release</num>
@@ -3043,14 +3043,14 @@
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,psoc4,tcpwm,interrupt" req_capabilities_v2="capsense led psoc4">
+  <app keywords="mtb-flow,psoc4,tcpwm,interrupt" req_capabilities_v2="led psoc4">
     <name>Periodic Interrupt Using TCPWM</name>
     <id>mtb-example-psoc4-tcpwm-interrupt</id>
     <category>Peripherals</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc4-tcpwm-interrupt</uri>
     <description><![CDATA[This example uses the TCPWM Component in the Timer/Counter mode to generate a periodic interrupt. An LED toggles whenever the interrupt occurs.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-tcpwm-interrupt/blob/master/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>capsense led psoc4</req_capabilities>
+    <req_capabilities>led psoc4</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_041_41xx,cy8ckit_145_40xx,cy8ckit_045s]">
         <num>Latest 3.X release</num>
@@ -3074,14 +3074,14 @@
       </version>
     </versions>
   </app>
-  <app keywords="psoc4,uart,led,mtb-flow" req_capabilities_v2="capsense led psoc4">
+  <app keywords="psoc4,uart,led,mtb-flow" req_capabilities_v2="led psoc4">
     <name>Hello World</name>
     <id>mtb-example-psoc4-hello-world</id>
     <category>Getting Started</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc4-hello-world</uri>
     <description><![CDATA[This code example demonstrates simple UART communication by printing a "Hello world" message on a terminal and blinks an LED using PSoC&#8482; 4 devices.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-hello-world/blob/master/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>capsense led psoc4</req_capabilities>
+    <req_capabilities>led psoc4</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_145_40xx,cy8ckit_041_41xx,cy8ckit_045s]">
         <num>Latest 2.X release</num>
@@ -3105,14 +3105,14 @@
       </version>
     </versions>
   </app>
-  <app keywords="psoc4,mtb-flow,gpio,interrupt,isr,led,deep sleep" req_capabilities_v2="capsense led psoc4">
+  <app keywords="psoc4,mtb-flow,gpio,interrupt,isr,led,deep sleep" req_capabilities_v2="led psoc4">
     <name>GPIO Interrupt</name>
     <id>mtb-example-psoc4-gpio-interrupt</id>
     <category>Peripherals</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc4-gpio-interrupt</uri>
     <description><![CDATA[This code example demonstrates the use of a GPIO configured as an input pin to generate interrupts on PSoC&#8482; 4. The GPIO signal interrupts the CPU and executes a user-defined Interrupt Service Routine (ISR). The GPIO interrupt acts as a wakeup source to wake the CPU from Deep Sleep.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-gpio-interrupt/blob/master/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>capsense led psoc4</req_capabilities>
+    <req_capabilities>led psoc4</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_145_40xx,cy8ckit_041_41xx,cy8ckit_045s]">
         <num>Latest 3.X release</num>
@@ -3171,14 +3171,14 @@
       </version>
     </versions>
   </app>
-  <app keywords="psoc4,i2c,i2c-master,ezi2c-slave,mtb-flow" req_capabilities_v2="capsense led psoc4">
+  <app keywords="psoc4,i2c,i2c-master,ezi2c-slave,mtb-flow" req_capabilities_v2="led psoc4">
     <name>I2C Master EzI2C Slave</name>
     <id>mtb-example-psoc4-i2c-master-slave</id>
     <category>Peripherals</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc4-i2c-master-slave</uri>
     <description><![CDATA[This example demonstrates the operation of I2C resource for PSoC&#8482; 4 in Master mode with an EzI2C slave.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-i2c-master-slave/blob/master/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>capsense led psoc4</req_capabilities>
+    <req_capabilities>led psoc4</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_041_41xx,cy8ckit_145_40xx,cy8ckit_045s]">
         <num>Latest 3.X release</num>
@@ -3202,14 +3202,14 @@
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,psoc4,spi,master" req_capabilities_v2="capsense led psoc4">
+  <app keywords="mtb-flow,psoc4,spi,master" req_capabilities_v2="led psoc4">
     <name>SPI Master</name>
     <id>mtb-example-psoc4-spi-master</id>
     <category>Peripherals</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc4-spi-master</uri>
     <description><![CDATA[This example demonstrates the use of a SPI resource for PSoC&#8482; 4 in master mode using high level APIs. The SPI master is configured to send command packets to control a user LED on the slave.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-spi-master/blob/master/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>capsense led psoc4</req_capabilities>
+    <req_capabilities>led psoc4</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_145_40xx,cy8ckit_041_41xx,cy8ckit_045s]">
         <num>Latest 2.X release</num>
@@ -3233,14 +3233,14 @@
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,psoc4,spi,slave" req_capabilities_v2="capsense led psoc4">
+  <app keywords="mtb-flow,psoc4,spi,slave" req_capabilities_v2="led psoc4">
     <name>SPI Slave</name>
     <id>mtb-example-psoc4-spi-slave</id>
     <category>Peripherals</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc4-spi-slave</uri>
     <description><![CDATA[This example demonstrates the use of a SPI Serial Communication Block (SCB) resource for PSoC&#8482; 4 in slave mode using high-level API. This example is intended to be used with PSoC&#8482; 4 SPI Master project
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-spi-slave/blob/master/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>capsense led psoc4</req_capabilities>
+    <req_capabilities>led psoc4</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_145_40xx,cy8ckit_041_41xx,cy8ckit_045s]">
         <num>Latest 2.X release</num>
@@ -3326,14 +3326,14 @@
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,psoc4,uart,transmit,receive" req_capabilities_v2="capsense led psoc4">
+  <app keywords="mtb-flow,psoc4,uart,transmit,receive" req_capabilities_v2="led psoc4">
     <name>UART Transmit and Receive</name>
     <id>mtb-example-psoc4-uart-transmit-receive</id>
     <category>Peripherals</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc4-uart-transmit-receive</uri>
     <description><![CDATA[This example demonstrates the UART transmit and receive operation in PSoC&#8482; 4 device. The application uses a serial terminal to read data and to echo back the received data.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-uart-transmit-receive/blob/master/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>capsense led psoc4</req_capabilities>
+    <req_capabilities>led psoc4</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_145_40xx,cy8ckit_149,cy8ckit_041_41xx,cy8ckit_045s]">
         <num>Latest 2.X release</num>
@@ -3496,14 +3496,14 @@
       </version>
     </versions>
   </app>
-  <app keywords="psoc4,wdt,interrupt,reset,deepsleep,mtb-flow" req_capabilities_v2="capsense led psoc4">
+  <app keywords="psoc4,wdt,interrupt,reset,deepsleep,mtb-flow" req_capabilities_v2="led psoc4">
     <name>Watchdog timer interrupt and reset</name>
     <id>mtb-example-psoc4-wdt</id>
     <category>Peripherals</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc4-wdt</uri>
     <description><![CDATA[This code example features the watchdog timer and its usage in interrupt mode, reset mode and how to wake up the device from deepsleep using watchdog interrupt.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-wdt/blob/master/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>capsense led psoc4</req_capabilities>
+    <req_capabilities>led psoc4</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_145_40xx,cy8ckit_149,cy8ckit_041_41xx,cy8ckit_045s]">
         <num>Latest 2.X release</num>
@@ -3558,14 +3558,14 @@
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,psoc4,gpio,pins" req_capabilities_v2="capsense led psoc4">
+  <app keywords="mtb-flow,psoc4,gpio,pins" req_capabilities_v2="led psoc4">
     <name>GPIO Pins</name>
     <id>mtb-example-psoc4-gpio</id>
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-psoc4-gpio</uri>
     <description><![CDATA[This example demonstrates multiple methods of configuring, reading, writing, and generating interrupts with PSoC&#8482; 4 General Purpose Input/Output (GPIO) pins.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-gpio/blob/master/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>capsense led psoc4</req_capabilities>
+    <req_capabilities>led psoc4</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_041_41xx,cy8ckit_145_40xx,cy8ckit_045s]">
         <num>Latest 2.X release</num>
@@ -3741,14 +3741,14 @@
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow, psoc4, low power, uart, led" req_capabilities_v2="capsense led psoc4">
+  <app keywords="mtb-flow, psoc4, low power, uart, led" req_capabilities_v2="led psoc4">
     <name>Power Modes</name>
     <id>mtb-example-psoc4-power-modes</id>
     <category>Getting Started</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc4-power-modes</uri>
     <description><![CDATA[This code example shows how to enter system Sleep and Deep Sleep modes. After entering Deep Sleep or Sleep mode, the example also shows how to wake up from these low-power modes and return to normal Active mode.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-power-modes/blob/master/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>capsense led psoc4</req_capabilities>
+    <req_capabilities>led psoc4</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_041_41xx,cy8ckit_145_40xx,cy8ckit_045s]">
         <num>Latest 2.X release</num>
@@ -7988,14 +7988,14 @@
       </version>
     </versions>
   </app>
-  <app keywords="psoc4,emulated,eeprom,flash,mtb-flow" req_capabilities_v2="capsense led psoc4">
+  <app keywords="psoc4,emulated,eeprom,flash,mtb-flow" req_capabilities_v2="led psoc4">
     <name>Emulated EEPROM</name>
     <id>mtb-example-psoc4-emulated-eeprom</id>
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-psoc4-emulated-eeprom</uri>
     <description><![CDATA[This example demonstrates how to use the Em_EEPROM middleware in PSoC&#8482; 4 MCU devices. In this example, a counter is read from the Emulated EEPROM (Em_EEPROM), incremented, written back to the Em_EEPROM and printed on a serial terminal. This occurs on every device reset or power cycle. As a result, an incrementing value is printed on every reset.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-emulated-eeprom/blob/master/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>capsense led psoc4</req_capabilities>
+    <req_capabilities>led psoc4</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version_v2="[bsp_gen3] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_041_41xx,cy8ckit_145_40xx,cy8ckit_045s]">
         <num>Latest 1.X release</num>
