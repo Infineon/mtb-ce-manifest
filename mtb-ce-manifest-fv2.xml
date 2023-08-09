@@ -7873,11 +7873,15 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-msc-capsense-csd-slider-tuning/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc4 led msc_slider</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version_v2="[bsp_gen3] [cy8ckit_041s_max]">
+      <version flow_version="2.0" tools_min_version="2.4.0" tools_max_version="3.0.1" req_capabilities_per_version_v2="[bsp_gen3] [cy8ckit_041s_max]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version_v2="[bsp_gen3] [cy8ckit_041s_max]">
+      <version flow_version="2.0" tools_min_version="2.4.0" tools_max_version="3.0.1" req_capabilities_per_version_v2="[bsp_gen3] [cy8ckit_041s_max]">
+        <num>1.0.1 release</num>
+        <commit>release-v1.0.1</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.4.0" tools_max_version="3.0.1" req_capabilities_per_version_v2="[bsp_gen3] [cy8ckit_041s_max]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
