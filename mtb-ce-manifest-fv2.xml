@@ -2909,6 +2909,10 @@
         <commit>latest-v2.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>2.0.2 release</num>
+        <commit>release-v2.0.2</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>2.0.1 release</num>
         <commit>release-v2.0.1</commit>
       </version>
