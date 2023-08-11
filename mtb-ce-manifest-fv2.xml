@@ -4642,6 +4642,10 @@
         <commit>latest-v2.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc11_boot_001,kit_xmc12_boot_001,kit_xmc13_boot_001,kit_xmc14_boot_001,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc47_relax_v1,kit_xmc48_relax_ecat_v1]">
+        <num>2.2.0 release</num>
+        <commit>release-v2.2.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc11_boot_001,kit_xmc12_boot_001,kit_xmc13_boot_001,kit_xmc14_boot_001,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc47_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
       </version>
@@ -5630,7 +5634,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="xmc,qspi-flash,flash,qspi,spi-qspi-flash,led,mtb-flow" req_capabilities_v2="xmc4000 led qspi memory">
+  <app keywords="xmc,qspi-flash,flash,qspi,spi-qspi-flash,led,mtb-flow" req_capabilities_v2="xmc4000 kit_xmc_plt2go_xmc4400 led qspi memory">
     <name>SPI QSPI Flash</name>
     <id>mtb-example-xmc-spi-qspi-flash</id>
     <category>Peripherals</category>
@@ -11337,6 +11341,25 @@
         <commit>latest-v1.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_062_ble]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="xmc,usb,mtb-flow,hid,generic,emUSB-Device" req_capabilities_v2="xmc4000 usb_device">
+    <name>emUSB-Device HID Generic</name>
+    <id>mtb-example-xmc-usb-device-hid-generic</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-xmc-usb-device-hid-generic</uri>
+    <description><![CDATA[This example demonstrates how to configure the USB block in a XMC&#8482; 4000 MCU as a Human Interface Device (HID) using Segger's emUSB-Device middleware. The device enumerates as a Generic HID device.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-xmc-usb-device-hid-generic/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>usb_device</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
