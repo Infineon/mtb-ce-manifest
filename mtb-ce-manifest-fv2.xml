@@ -9711,7 +9711,7 @@
     <uri>https://github.com/Infineon/mtb-example-psoc4-msclp-capsense-demo</uri>
     <description><![CDATA[This code example demonstrates a low-power, liquid-tolerant application including different CAPSENSE&#8482; states and transitions, with recommended tuning parameters. This example demonstrates the advanced features of MSCLP (5th-generation low-power CAPSENSE&#8482;) by using all the sensors on the CY8CKIT-040T CAPSENSE&#8482; evaluation kit. The on-board LEDs are used in this example to indicate different touch operations.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-msclp-capsense-demo/blob/master/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>psoc4 msclp serial_led msc_button msc_touchpad spi i2c low_power enclosure lptimer</req_capabilities>
+    <req_capabilities>psoc4 msclp serial_led msc_button msc_touchpad spi i2c low_power enclosure</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_040t]">
         <num>Latest 3.X release</num>
@@ -11152,6 +11152,10 @@
       <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_040t]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_040t]">
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_040t]">
         <num>2.0.0 release</num>
