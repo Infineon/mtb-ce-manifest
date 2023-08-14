@@ -891,7 +891,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="uart,transmit,receive,dma,mtb-flow" req_capabilities_v2="led [xmc7000,t2gbh]">
+  <app keywords="uart,transmit,receive,dma,mtb-flow" req_capabilities_v2="led [xmc7000,t2gbh,t2gbh_lite]">
     <name>SCB UART Transmit and Receive using DMA</name>
     <id>mtb-example-pdl-xmc7000-uart-transmit-receive-dma</id>
     <category>Peripherals</category>
@@ -900,9 +900,13 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pdl-xmc7000-uart-transmit-receive-dma/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>led</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc72_evk,kit_t2g_b_h_evk]">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc72_evk,kit_t2g_b_h_evk,kit_t2g_b_h_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc72_evk,kit_t2g_b_h_evk,kit_t2g_b_h_lite]">
+        <num>1.2.0 release</num>
+        <commit>release-v1.2.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc72_evk,kit_t2g_b_h_evk]">
         <num>1.1.0 release</num>
@@ -933,7 +937,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="cryptography,sha2,message digest,hash,mtb-flow" req_capabilities_v2="uart [xmc7000]">
+  <app keywords="cryptography,sha2,message digest,hash,mtb-flow" req_capabilities_v2="uart [xmc7000,t2gbh,t2gbh_lite]">
     <name>Cryptography SHA Demonstration</name>
     <id>mtb-example-pdl-xmc7000-crypto-sha</id>
     <category>Peripherals</category>
@@ -942,9 +946,13 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pdl-xmc7000-crypto-sha/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>uart</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc72_evk]">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc72_evk,kit_t2g_b_h_evk,kit_t2g_b_h_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc72_evk,kit_t2g_b_h_evk,kit_t2g_b_h_lite]">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc72_evk]">
         <num>1.0.0 release</num>
@@ -952,7 +960,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="cryptography,aes,mtb-flow" req_capabilities_v2="uart [xmc7000]">
+  <app keywords="cryptography,aes,mtb-flow" req_capabilities_v2="uart [xmc7000,t2gbh,t2gbh_lite]">
     <name>Cryptography AES Demonstration</name>
     <id>mtb-example-pdl-xmc7000-crypto-aes</id>
     <category>Peripherals</category>
@@ -961,9 +969,13 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pdl-xmc7000-crypto-aes/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>uart</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc72_evk]">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc72_evk,kit_t2g_b_h_evk,kit_t2g_b_h_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc72_evk,kit_t2g_b_h_evk,kit_t2g_b_h_lite]">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc72_evk]">
         <num>1.0.0 release</num>
@@ -1134,7 +1146,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="mcwdt,mtb-flow" req_capabilities_v2="uart [xmc7000,t2gbh]">
+  <app keywords="mcwdt,mtb-flow" req_capabilities_v2="uart [xmc7000,t2gbh,t2gbh_lite]">
     <name>MCWDT Interrupt</name>
     <id>mtb-example-pdl-xmc7000-mcwdt</id>
     <category>Peripherals</category>
@@ -1143,9 +1155,13 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pdl-xmc7000-mcwdt/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>uart</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc72_evk,kit_t2g_b_h_evk]">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc72_evk,kit_t2g_b_h_evk,kit_t2g_b_h_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc72_evk,kit_t2g_b_h_evk,kit_t2g_b_h_lite]">
+        <num>1.2.0 release</num>
+        <commit>release-v1.2.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc72_evk,kit_t2g_b_h_evk]">
         <num>1.1.0 release</num>
@@ -1176,7 +1192,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="emulated,eeprom,flash,mtb-flow" req_capabilities_v2="led uart [xmc7000,t2gbh]">
+  <app keywords="emulated,eeprom,flash,mtb-flow" req_capabilities_v2="led uart [xmc7000,t2gbh,t2gbh_lite]">
     <name>Emulated EEPROM</name>
     <id>mtb-example-xmc7000-emulated-eeprom</id>
     <category>Peripherals</category>
@@ -1185,9 +1201,13 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-xmc7000-emulated-eeprom/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>led uart</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc72_evk,kit_t2g_b_h_evk]">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc72_evk,kit_t2g_b_h_evk,kit_t2g_b_h_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc72_evk,kit_t2g_b_h_evk,kit_t2g_b_h_lite]">
+        <num>1.2.0 release</num>
+        <commit>release-v1.2.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc72_evk,kit_t2g_b_h_evk]">
         <num>1.1.0 release</num>
