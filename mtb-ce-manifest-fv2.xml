@@ -7694,7 +7694,7 @@
         <num>3.0.0 release</num>
         <commit>release-v3.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.4.0" tools_max_version="3.0.1" req_capabilities_per_version_v2="[bsp_gen3] [cy8ckit_041s_max]">
+      <version flow_version="2.0" tools_min_version="2.4.0" tools_max_version="2.4.1" req_capabilities_per_version_v2="[bsp_gen3] [cy8ckit_041s_max]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
