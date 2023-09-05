@@ -12,6 +12,10 @@
         <commit>latest-v4.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>4.4.1 release</num>
+        <commit>release-v4.4.1</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>4.4.0 release</num>
         <commit>release-v4.4.0</commit>
       </version>
@@ -53,7 +57,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="led,starter,hello world,mtb-flow" req_capabilities_v2="hal led [psoc6,xmc7000,t2gbh,t2gbh_lite] [flash_8384k,flash_2048k,flash_1024k,flash_512k,flash_256k,flash_832k,flash_448k,cy8ckit_064b0s2_4343w]">
+  <app keywords="led,starter,hello world,mtb-flow" req_capabilities_v2="hal led [psoc6,xmc7000,t2gbh,t2gbh_lite,cyw920829m2evk_02] [flash_0k,flash_8384k,flash_2048k,flash_1024k,flash_512k,flash_256k,flash_832k,flash_448k,cy8ckit_064b0s2_4343w]">
     <name>Hello World</name>
     <id>mtb-example-hal-hello-world</id>
     <category>Getting Started</category>
@@ -65,6 +69,10 @@
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>Latest 4.X release</num>
         <commit>latest-v4.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>4.5.0 release</num>
+        <commit>release-v4.5.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>4.4.0 release</num>
@@ -128,6 +136,10 @@
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>2.2.1 release</num>
+        <commit>release-v2.2.1</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>2.2.0 release</num>
@@ -202,6 +214,10 @@
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>3.3.1 release</num>
+        <commit>release-v3.3.1</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>3.3.0 release</num>
@@ -397,7 +413,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="uart,transmit,receive,mtb-flow" req_capabilities_v2="hal led [psoc6,xmc7000,t2gbh,t2gbh_lite]">
+  <app keywords="uart,transmit,receive,mtb-flow" req_capabilities_v2="hal led [psoc6,xmc7000,t2gbh,t2gbh_lite,cyw920829m2evk_02]">
     <name>UART Transmit and Receive</name>
     <id>mtb-example-hal-uart-transmit-receive</id>
     <category>Peripherals</category>
@@ -409,6 +425,10 @@
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>3.2.0 release</num>
+        <commit>release-v3.2.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>3.1.0 release</num>
@@ -491,6 +511,10 @@
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>3.4.1 release</num>
+        <commit>release-v3.4.1</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>3.4.0 release</num>
@@ -618,6 +642,10 @@
         <commit>latest-v3.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ceval_062s2,cy8ceval_062_s2_lai_4373m2,cy8ckit_062_ble,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cy8cproto_062_4343w,cy8cproto_062s3_4343w,cy8cproto_063_ble,cy8ckit_062s4,cyw9p62s1_43012evb_01,cyw9p62s1_43438evb_01,cy8ckit_064b0s2_4343w,cy8ceval_062_mur_43439m2,cy8cproto_064b0s3,cy8cproto_064s1_sb,kit_xmc72_evk,kit_t2g_b_h_evk,kit_t2g_b_h_lite,cyw920829m2evk_02,cy8ceval_062s2_lai_43439m2,cy8cproto_062s2_43439,cy8ceval_062s2_mur_4373m2,cy8ceval_062s2_mur_4373em2]">
+        <num>3.3.1 release</num>
+        <commit>release-v3.3.1</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ceval_062s2,cy8ceval_062_s2_lai_4373m2,cy8ckit_062_ble,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cy8cproto_062_4343w,cy8cproto_062s3_4343w,cy8cproto_063_ble,cy8ckit_062s4,cyw9p62s1_43012evb_01,cyw9p62s1_43438evb_01,cy8ckit_064b0s2_4343w,cy8ceval_062_mur_43439m2,cy8cproto_064b0s3,cy8cproto_064s1_sb,kit_xmc72_evk,kit_t2g_b_h_evk,kit_t2g_b_h_lite,cyw920829m2evk_02,cy8ceval_062s2_lai_43439m2,cy8cproto_062s2_43439,cy8ceval_062s2_mur_4373m2,cy8ceval_062s2_mur_4373em2]">
         <num>3.3.0 release</num>
         <commit>release-v3.3.0</commit>
       </version>
@@ -712,6 +740,10 @@
         <commit>latest-v3.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062_ble,cy8cproto_063_ble,cy8ckit_062s2_43012,cyw9p62s1_43012evb_01,cyw9p62s1_43438evb_01,cy8cproto_062s3_4343w,cy8ckit_064b0s2_4343w,cy8ckit_062s4,cy8cproto_064b0s3,cy8ceval_062s2,cy8ceval_062_s2_lai_4373m2,cy8ceval_062_mur_43439m2,cyw920829m2evk_02]">
+        <num>3.2.1 release</num>
+        <commit>release-v3.2.1</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062_ble,cy8cproto_063_ble,cy8ckit_062s2_43012,cyw9p62s1_43012evb_01,cyw9p62s1_43438evb_01,cy8cproto_062s3_4343w,cy8ckit_064b0s2_4343w,cy8ckit_062s4,cy8cproto_064b0s3,cy8ceval_062s2,cy8ceval_062_s2_lai_4373m2,cy8ceval_062_mur_43439m2,cyw920829m2evk_02]">
         <num>3.2.0 release</num>
         <commit>release-v3.2.0</commit>
       </version>
@@ -788,6 +820,10 @@
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc72_evk,cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval,cyw920829m2evk_02]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc72_evk,cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval,cyw920829m2evk_02]">
+        <num>1.2.1 release</num>
+        <commit>release-v1.2.1</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc72_evk,cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval,cyw920829m2evk_02]">
         <num>1.2.0 release</num>
@@ -1840,6 +1876,10 @@
         <commit>latest-v4.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43012evb_01,cyw9p62s1_43438evb_01,cy8cproto_062s3_4343w,cy8ckit_064b0s2_4343w,cy8ceval_062_s2_lai_4373m2,cyw920829m2evk_02,cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval,cy8ceval_062s2_lai_43439m2,cy8cproto_062s2_43439,cy8ceval_062s2_mur_4373m2,cy8ceval_062s2_mur_4373em2]">
+        <num>4.5.0 release</num>
+        <commit>release-v4.5.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43012evb_01,cyw9p62s1_43438evb_01,cy8cproto_062s3_4343w,cy8ckit_064b0s2_4343w,cy8ceval_062_s2_lai_4373m2,cyw920829m2evk_02,cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval,cy8ceval_062s2_lai_43439m2,cy8cproto_062s2_43439,cy8ceval_062s2_mur_4373m2,cy8ceval_062s2_mur_4373em2]">
         <num>4.4.0 release</num>
         <commit>release-v4.4.0</commit>
       </version>
@@ -2645,6 +2685,10 @@
         <commit>latest-v5.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_062s2_43012,cy8cproto_062_4343w,cy8ceval_062_s2_lai_4373m2,cy8ceval_062_mur_43439m2,cy8cproto_062s3_4343w,cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval,cyw920829m2evk_02]">
+        <num>5.2.0 release</num>
+        <commit>release-v5.2.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_062s2_43012,cy8cproto_062_4343w,cy8ceval_062_s2_lai_4373m2,cy8ceval_062_mur_43439m2,cy8cproto_062s3_4343w,cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval,cyw920829m2evk_02]">
         <num>5.1.0 release</num>
         <commit>release-v5.1.0</commit>
       </version>
@@ -2698,6 +2742,10 @@
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43012evb_01,cyw9p62s1_43438evb_01,cy8cproto_062s3_4343w,cysbsyskit_dev_01,cysbsyskit_01,cy8ceval_062_s2_lai_4373m2,cy8ceval_062_mur_43439m2,cyw920829m2evk_02,cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval,cy8ceval_062s2_lai_43439m2,cy8cproto_062s2_43439,cy8ceval_062s2_mur_4373m2,cy8ceval_062s2_mur_4373em2]">
         <num>Latest 4.X release</num>
         <commit>latest-v4.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43012evb_01,cyw9p62s1_43438evb_01,cy8cproto_062s3_4343w,cysbsyskit_dev_01,cysbsyskit_01,cy8ceval_062_s2_lai_4373m2,cy8ceval_062_mur_43439m2,cyw920829m2evk_02,cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval,cy8ceval_062s2_lai_43439m2,cy8cproto_062s2_43439,cy8ceval_062s2_mur_4373m2,cy8ceval_062s2_mur_4373em2]">
+        <num>4.6.0 release</num>
+        <commit>release-v4.6.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43012evb_01,cyw9p62s1_43438evb_01,cy8cproto_062s3_4343w,cysbsyskit_dev_01,cysbsyskit_01,cy8ceval_062_s2_lai_4373m2,cy8ceval_062_mur_43439m2,cyw920829m2evk_02,cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval,cy8ceval_062s2_lai_43439m2,cy8cproto_062s2_43439,cy8ceval_062s2_mur_4373m2,cy8ceval_062s2_mur_4373em2]">
         <num>4.5.0 release</num>
@@ -3778,7 +3826,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,rtc" req_capabilities_v2="hal rtc uart [psoc6,xmc7000,t2gbh,t2gbh_lite]">
+  <app keywords="mtb-flow,rtc" req_capabilities_v2="hal rtc [psoc6,xmc7000,t2gbh,t2gbh_lite,cyw920829m2evk_02]">
     <name>RTC Basics</name>
     <id>mtb-example-hal-rtc-basics</id>
     <category>Peripherals</category>
@@ -3787,9 +3835,13 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-hal-rtc-basics/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>hal rtc uart</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062_ble,cy8cproto_063_ble,cy8ckit_062s2_43012,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01,cy8cproto_062s3_4343w,cy8ckit_064b0s2_4343w,cy8ckit_062s4,cy8ceval_062s2,cy8ceval_062_s2_lai_4373m2,cy8ceval_062_mur_43439m2,cy8cproto_064b0s3,cy8cproto_064s1_sb,kit_xmc72_evk]">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062_ble,cy8cproto_063_ble,cy8ckit_062s2_43012,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01,cy8cproto_062s3_4343w,cy8ckit_064b0s2_4343w,cy8ckit_062s4,cy8ceval_062s2,cy8ceval_062_s2_lai_4373m2,cy8ceval_062_mur_43439m2,cy8cproto_064b0s3,cy8cproto_064s1_sb,kit_xmc72_evk,cyw920829m2evk_02]">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062_ble,cy8cproto_063_ble,cy8ckit_062s2_43012,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01,cy8cproto_062s3_4343w,cy8ckit_064b0s2_4343w,cy8ckit_062s4,cy8ceval_062s2,cy8ceval_062_s2_lai_4373m2,cy8ceval_062_mur_43439m2,cy8cproto_064b0s3,cy8cproto_064s1_sb,kit_xmc72_evk,cyw920829m2evk_02]">
+        <num>3.2.0 release</num>
+        <commit>release-v3.2.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062_ble,cy8cproto_063_ble,cy8ckit_062s2_43012,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01,cy8cproto_062s3_4343w,cy8ckit_064b0s2_4343w,cy8ckit_062s4,cy8ceval_062s2,cy8ceval_062_s2_lai_4373m2,cy8ceval_062_mur_43439m2,cy8cproto_064b0s3,cy8cproto_064s1_sb,kit_xmc72_evk]">
         <num>3.1.0 release</num>
@@ -7900,6 +7952,10 @@
         <commit>latest-v3.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>3.2.1 release</num>
+        <commit>release-v3.2.1</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>3.2.0 release</num>
         <commit>release-v3.2.0</commit>
       </version>
@@ -8266,6 +8322,10 @@
         <commit>latest-v4.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43012evb_01,cyw9p62s1_43438evb_01,cy8cproto_062s3_4343w,cy8ckit_064b0s2_4343w,cy8ceval_062_s2_lai_4373m2,cy8ceval_062_mur_43439m2,cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval,cy8ceval_062s2_lai_43439m2,cy8cproto_062s2_43439,cyw920829m2evk_02,cy8ceval_062s2_mur_4373m2,cy8ceval_062s2_mur_4373em2]">
+        <num>4.5.0 release</num>
+        <commit>release-v4.5.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43012evb_01,cyw9p62s1_43438evb_01,cy8cproto_062s3_4343w,cy8ckit_064b0s2_4343w,cy8ceval_062_s2_lai_4373m2,cy8ceval_062_mur_43439m2,cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval,cy8ceval_062s2_lai_43439m2,cy8cproto_062s2_43439,cyw920829m2evk_02,cy8ceval_062s2_mur_4373m2,cy8ceval_062s2_mur_4373em2]">
         <num>4.4.0 release</num>
         <commit>release-v4.4.0</commit>
       </version>
@@ -8315,6 +8375,10 @@
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43012evb_01,cyw9p62s1_43438evb_01,cy8cproto_062s3_4343w,cy8ckit_064b0s2_4343w,cy8ceval_062_s2_lai_4373m2,cy8ceval_062_mur_43439m2,cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval,cy8ceval_062s2_lai_43439m2,cy8cproto_062s2_43439,cyw920829m2evk_02,cy8ceval_062s2_mur_4373m2,cy8ceval_062s2_mur_4373em2]">
         <num>Latest 4.X release</num>
         <commit>latest-v4.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43012evb_01,cyw9p62s1_43438evb_01,cy8cproto_062s3_4343w,cy8ckit_064b0s2_4343w,cy8ceval_062_s2_lai_4373m2,cy8ceval_062_mur_43439m2,cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval,cy8ceval_062s2_lai_43439m2,cy8cproto_062s2_43439,cyw920829m2evk_02,cy8ceval_062s2_mur_4373m2,cy8ceval_062s2_mur_4373em2]">
+        <num>4.4.1 release</num>
+        <commit>release-v4.4.1</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43012evb_01,cyw9p62s1_43438evb_01,cy8cproto_062s3_4343w,cy8ckit_064b0s2_4343w,cy8ceval_062_s2_lai_4373m2,cy8ceval_062_mur_43439m2,cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval,cy8ceval_062s2_lai_43439m2,cy8cproto_062s2_43439,cyw920829m2evk_02,cy8ceval_062s2_mur_4373m2,cy8ceval_062s2_mur_4373em2]">
         <num>4.4.0 release</num>
@@ -9138,6 +9202,10 @@
         <commit>latest-v3.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cyw920829m2evk_02,cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01,cy8cproto_062s3_4343w,cy8ceval_062s2,cy8ceval_062_s2_lai_4373m2,cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval,cy8ceval_062s2_lai_43439m2,cy8cproto_062s2_43439,cy8ceval_062s2_mur_4373m2,cy8ceval_062s2_mur_4373em2]">
+        <num>3.5.0 release</num>
+        <commit>release-v3.5.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cyw920829m2evk_02,cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01,cy8cproto_062s3_4343w,cy8ceval_062s2,cy8ceval_062_s2_lai_4373m2,cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval,cy8ceval_062s2_lai_43439m2,cy8cproto_062s2_43439,cy8ceval_062s2_mur_4373m2,cy8ceval_062s2_mur_4373em2]">
         <num>3.4.0 release</num>
         <commit>release-v3.4.0</commit>
       </version>
@@ -9488,6 +9556,10 @@
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cyw920829_vr,cyw920829m2evk_02]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cyw920829_vr,cyw920829m2evk_02]">
+        <num>2.2.0 release</num>
+        <commit>release-v2.2.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cyw920829_vr,cyw920829m2evk_02]">
         <num>2.1.0 release</num>
@@ -10242,6 +10314,10 @@
         <commit>latest-v1.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cyw920829m2evk_02,cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval]">
+        <num>1.2.1 release</num>
+        <commit>release-v1.2.1</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cyw920829m2evk_02,cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval]">
         <num>1.2.0 release</num>
         <commit>release-v1.2.0</commit>
       </version>
@@ -10338,6 +10414,10 @@
         <commit>latest-v1.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.1.1 release</num>
+        <commit>release-v1.1.1</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
@@ -10361,6 +10441,10 @@
         <commit>latest-v1.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.1.1 release</num>
+        <commit>release-v1.1.1</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
@@ -10382,6 +10466,10 @@
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="bsp_gen4">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="bsp_gen4">
+        <num>3.0.1 release</num>
+        <commit>release-v3.0.1</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="bsp_gen4">
         <num>3.0.0 release</num>
@@ -10417,6 +10505,10 @@
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="bsp_gen4">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="bsp_gen4">
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="bsp_gen4">
         <num>2.0.0 release</num>
@@ -10522,6 +10614,10 @@
         <commit>latest-v1.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.1.1 release</num>
+        <commit>release-v1.1.1</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
@@ -10536,13 +10632,17 @@
     <id>mtb-example-cyw20829-dc-monitoring</id>
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-cyw20829-dc-monitoring</uri>
-    <description><![CDATA[This example demonstrates how to configure and use ADC in CYW920829M2EVB-01 board to measure DC voltage.
+    <description><![CDATA[This application demonstrates how to configure and use ADC in AIROC™ CYW920829M2EVK-02 board to measure DC voltage.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-cyw20829-dc-monitoring/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>cyw20829</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.2.0 release</num>
+        <commit>release-v1.2.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>1.1.0 release</num>
@@ -10770,7 +10870,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,rtc,low power,deepsleep,hibernate,mtb-flow" req_capabilities_v2="low_power [psoc6] rtc uart switch">
+  <app keywords="psoc6,rtc,low power,deepsleep,hibernate,mtb-flow" req_capabilities_v2="low_power rtc switch [psoc6,cyw920829m2evk_02]">
     <name>HAL RTC periodic wakeup</name>
     <id>mtb-example-hal-rtc-periodic-wakeup</id>
     <category>Peripherals</category>
@@ -10779,9 +10879,13 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-hal-rtc-periodic-wakeup/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>low_power rtc uart switch</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062_ble,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01,cy8ckit_062s2_43012,cy8cproto_062s3_4343w,cy8ckit_062s4,cy8ceval_062s2,cy8ceval_062_s2_lai_4373m2,cy8ceval_062_mur_43439m2,cy8ceval_062s2_lai_43439m2]">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062_ble,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01,cy8ckit_062s2_43012,cy8cproto_062s3_4343w,cy8ckit_062s4,cy8ceval_062s2,cy8ceval_062_s2_lai_4373m2,cy8ceval_062_mur_43439m2,cy8ceval_062s2_lai_43439m2,cyw920829m2evk_02]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062_ble,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01,cy8ckit_062s2_43012,cy8cproto_062s3_4343w,cy8ckit_062s4,cy8ceval_062s2,cy8ceval_062_s2_lai_4373m2,cy8ceval_062_mur_43439m2,cy8ceval_062s2_lai_43439m2,cyw920829m2evk_02]">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062_ble,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01,cy8ckit_062s2_43012,cy8cproto_062s3_4343w,cy8ckit_062s4,cy8ceval_062s2,cy8ceval_062_s2_lai_4373m2,cy8ceval_062_mur_43439m2,cy8ceval_062s2_lai_43439m2]">
         <num>1.0.0 release</num>
@@ -11314,6 +11418,10 @@
         <commit>latest-v1.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cyw920829m2evk_02]">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cyw920829m2evk_02]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -11346,6 +11454,43 @@
     <description><![CDATA[This example demonstrates how to configure the USB block in a XMC&#8482; 4000 MCU as a Human Interface Device (HID) using Segger's emUSB-Device middleware. The device enumerates as a Generic HID device.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-xmc-usb-device-hid-generic/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>usb_device</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="multi-peripheral,mtb-flow,bluetooth,btstack,freertos,gatt,server" req_capabilities_v2="bt led [cyw20829, psoc6]">
+    <name>Bluetooth LE multi-peripheral</name>
+    <id>mtb-example-btstack-freertos-multi-peripheral</id>
+    <category>Bluetooth&#174;</category>
+    <uri>https://github.com/Infineon/mtb-example-btstack-freertos-multi-peripheral</uri>
+    <description><![CDATA[This code example demonstrates the implementation of multi-peripheral functionality using PSoC&#8482; 6 MCU with Bluetooth&#174; Low Energy, AIROC&#8482; CYW20829, and ModusToolbox&#8482; software environment.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-multi-peripheral/blob/master/README.md">README on GitHub</a>.]]></description>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cyw920829m2evk_02,cy8ckit_062_ble,cyble_416045_eval]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cyw920829m2evk_02,cy8ckit_062_ble,cyble_416045_eval]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="cyw20829,uart,dma,mtb-flow" req_capabilities_v2="cyw20829 [cyw920829m2evk_02]">
+    <name>UART DMA</name>
+    <id>mtb-example-hal-uart-dma</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-hal-uart-dma</uri>
+    <description><![CDATA[This code example demonstrates the UART transmit and receive operation in CYW20829 MCU using DMA . This example uses the loop back for UART to show the transmit and receive.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-hal-uart-dma/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>cyw20829</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>Latest 1.X release</num>
