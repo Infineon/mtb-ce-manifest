@@ -11502,4 +11502,23 @@
       </version>
     </versions>
   </app>
+  <app keywords="XMC4000,XMC1000,vadc,ccu8,triggered" req_capabilities_v2="xmc4000 kit_xmc14_boot_001 led adc ccu8">
+    <name>CCU8 TRIGGERED VADC MEASUREMENT</name>
+    <id>mtb-example-xmc-ccu8-triggered-vadc-measurement</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-xmc-ccu8-triggered-vadc-measurement</uri>
+    <description><![CDATA[This example demonstrates how to use CCU8 to trigger VADC in Infineon's XMC&#8482; 1000/4000 devices.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-xmc-ccu8-triggered-vadc-measurement/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>xmc4000 XMC1000 vadc ccu8</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
 </apps>
