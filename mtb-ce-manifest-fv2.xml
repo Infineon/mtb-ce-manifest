@@ -6955,6 +6955,44 @@
       </version>
     </versions>
   </app>
+  <app keywords="pmg1,adc,sar,12-bit,analog,pass,opamp,ctbm,ctb,led,mtb-flow" req_capabilities_v2="pmg1 opamp adc uart led [pmg1_cy7113]">
+    <name>12-bit SAR ADC with opamp as amplifier</name>
+    <id>mtb-example-pmg1-opamp-amplifier-saradc</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-pmg1-opamp-amplifier-saradc</uri>
+    <description><![CDATA[This code example demonstrates the use of opamp as an amplifier along with 12-bit SAR ADC to measure the low voltage signals on EZ-PD&8482; PMG1-S3 MCU.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-opamp-amplifier-saradc/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>pmg1 opamp adc uart led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="pmg1,adc,sar,12-bit,analog,pass,opamp,ctbm,ctb,led,mtb-flow" req_capabilities_v2="pmg1 opamp adc uart led [pmg1_cy7113]">
+    <name>12-bit SAR ADC with opamp as buffer</name>
+    <id>mtb-example-pmg1-opamp-buffer-saradc</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-pmg1-opamp-buffer-saradc</uri>
+    <description><![CDATA[This code example demonstrates the use of opamp as a buffer along with 12-bit SAR ADC to provide impedance matching for high-impedance signals on EZ-PD&8482; PMG1-S3 MCU.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-opamp-buffer-saradc/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>pmg1 opamp adc uart led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
   <app keywords="pmg1,usbpd,bldc,motor,control,sensorless,mtb-flow" req_capabilities_v2="pmg1 usbpd adc opamp led [pmg1_cy7113]">
     <name>USBPD sensorless BLDC motor control</name>
     <id>mtb-example-pmg1-usbpd-sensorless-bldc-motor</id>
