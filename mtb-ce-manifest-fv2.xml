@@ -11559,4 +11559,23 @@
       </version>
     </versions>
   </app>
+  <app keywords="psoc6,mtb-flow,freertos,voice,dual cpu" req_capabilities_v2="psoc6 multi_core [cy8ceval_062s2]">
+    <name>Dual CPU Cyberon</name>
+    <id>mtb-example-psoc6-dual-cpu-cyberon-freertos</id>
+    <category>Machine Learning</category>
+    <uri>https://github.com/Infineon/mtb-example-psoc6-dual-cpu-cyberon-freertos</uri>
+    <description><![CDATA[This code example shows how to use the dual CPU architecture of the PSoC&#8482; 6 MCU to implement a keyword spotting and command processing application.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-dual-cpu-cyberon-freertos/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>psoc6 multi_core</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
 </apps>
