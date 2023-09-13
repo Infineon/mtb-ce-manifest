@@ -11578,4 +11578,61 @@
       </version>
     </versions>
   </app>
+  <app keywords="psoc6,machine-learning,ml,bmx160,bmi160,pdm,imagimob,mtb-flow" req_capabilities_v2="psoc6 spi i2c pdm arduino cyw43xxx">
+    <name>Machine Learning Imagimob Data Collection</name>
+    <id>mtb-example-ml-imagimob-data-collection</id>
+    <category>Machine Learning</category>
+    <uri>https://github.com/Infineon/mtb-example-ml-imagimob-data-collection</uri>
+    <description><![CDATA[This code example demonstrates how to collect data using Imagimob's Capture Server to train a model with in Imagimob Studio. The code example supports collecting data from two different sources, data can be collected from an IMU or from a digital microphone using PDM to PCM.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ml-imagimob-data-collection/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>psoc6 spi i2c pdm arduino cyw43xxx</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,machine-learning,ml,bmx160,bmi160,pdm,imagimob,mtb-flow" req_capabilities_v2="psoc6 spi i2c pdm arduino cyw43xxx">
+    <name>Machine Learning Imagimob MTBML Deploy</name>
+    <id>mtb-example-ml-imagimob-mtbml-deploy</id>
+    <category>Machine Learning</category>
+    <uri>https://github.com/Infineon/mtb-example-ml-imagimob-mtbml-deploy</uri>
+    <description><![CDATA[This code example demonstrates how to deploy an Imagimob generated machine learning model with the ModusToolbox Machine Learning (MTBML) flow. The code example includes two models that are generated from Imagimob Studio's starter projects.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ml-imagimob-mtbml-deploy/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>psoc6 spi i2c pdm arduino cyw43xxx</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,machine-learning,ml,imagimob,bmx160,bmi160,motion sensor,mtb-flow" req_capabilities_v2="psoc6 spi arduino">
+    <name>Machine Learning Imagimob Deploy</name>
+    <id>mtb-example-ml-imagimob-deploy</id>
+    <category>Machine Learning</category>
+    <uri>https://github.com/Infineon/mtb-example-ml-imagimob-deploy</uri>
+    <description><![CDATA[This code example demonstrates how to deploy an Imagimob generated machine learning model. It comes pre-configured with a model generated from the Human Activity Detection starter project in Imagimob Studio. The code example collects accelerometer data from an IMU which is then sent to the machine learning model to detect specific motions (sitting, standing, walking, running, or jumping). It uses the model.c/h files generated from within Imagimob Studio directly. New models based on the Human Activity Detection project can be dropped into the project as-is.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ml-imagimob-deploy/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>psoc6 spi arduino</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
 </apps>
