@@ -1274,25 +1274,6 @@
       </version>
     </versions>
   </app>
-  <app keywords="qspi,spi,nor,flash,smif,serial-flash,mtb-flow" req_capabilities_v2="hal uart led qspi nor_flash [xmc7000]">
-    <name>QSPI Flash Read Write</name>
-    <id>mtb-example-hal-qspi-readwrite</id>
-    <category>Peripherals</category>
-    <uri>https://github.com/Infineon/mtb-example-hal-qspi-readwrite</uri>
-    <description><![CDATA[This example demonstrates interfacing with an external NOR flash memory in Quad SPI (QSPI) mode using the serial memory interface (SMIF) block. This example uses the HAL QSPI driver to access the external NOR flash memory.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-hal-qspi-readwrite/blob/master/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>hal uart led qspi nor_flash</req_capabilities>
-    <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
-      </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
-        <num>1.0.0 release</num>
-        <commit>release-v1.0.0</commit>
-      </version>
-    </versions>
-  </app>
   <app keywords="mtb-flow,adc,hal" req_capabilities_v2="hal uart [xmc7000,t2gbh]">
     <name>ADC basic</name>
     <id>mtb-example-xmc7000-adc-basic</id>

@@ -1782,23 +1782,6 @@
     </versions>
   </app>
   <app>
-    <name>GPIO Interrupt</name>
-    <id>mtb-example-psoc4-gpio-interrupt-0</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc4-gpio-interrupt</uri>
-    <description>This example demonstrates the use of a GPIO configured as an input pin to generate interrupts on PSoC&#8482; 4. The GPIO signal interrupts the CPU and executes a user-defined Interrupt Service Routine (ISR).</description>
-    <req_capabilities>psoc4 led</req_capabilities>
-    <versions>
-      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
-      </version>
-      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
-        <num>1.0.0 release</num>
-        <commit>release-v1.0.0</commit>
-      </version>
-    </versions>
-  </app>
-  <app>
     <name>I2C Master EzI2C Slave</name>
     <id>mtb-example-psoc4-i2c-master-slave-0</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc4-i2c-master-slave</uri>
