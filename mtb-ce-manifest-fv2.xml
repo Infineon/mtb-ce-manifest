@@ -11577,7 +11577,7 @@
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-usb-device-quad-uart-bridge</uri>
     <description><![CDATA[This sample program showcases the implementation of the USB Bulk device class to create four USB-UART bridges utilizing PSoC&#8482; 6 MCU. Upon enumeration, the program presents itself as four Bulk interfaces on a PC. Each UART corresponds to a Bulk interface (for example, UART0 mapped to Bulk Interface 0). Any data transmitted via the Bulk interface will be seen on the corresponding UART port TX pin, while any data received through the MCU's UART RX pin will be seen on the corresponding Bulk Interface..
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-usb-device-quad-uart-bridge/blob/main/README.md">README on GitHub</a>.]]></description>
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-usb-device-quad-uart-bridge/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ceval_062s2,cy8ceval_062_s2_lai_4373m2,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cy8cproto_062_4343w,cyw9p62s1_43438evb_01,cy8ceval_062_mur_43439m2,cy8ceval_062s2_lai_43439m2]">
@@ -11615,7 +11615,7 @@
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-lvgl-demo</uri>
     <description><![CDATA[This code example demonstrates displaying a 2D graphics demo on a TFT display using the Light and Versatile Graphics Library (LVGL). The 2D graphics displays a music player application, which is listed as one of the standard demo on the LVGL page.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-lvgl-demo/blob/main/README.md">README on GitHub</a>.]]></description>
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-lvgl-demo/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 arduino</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_062_wifi_bt,cy8ckit_062_ble,cyw9p62s1_43438evb_01,cy8ckit_062s2_43012,cy8ceval_062s2,cy8ceval_062_s2_lai_4373m2,cy8ceval_062_mur_43439m2,cy8ckit_064b0s2_4343w,cy8ceval_062s2_lai_43439m2,cy8ceval_062s2_mur_4373m2,cy8ceval_062s2_mur_4373em2]">
@@ -11680,6 +11680,159 @@
         <commit>latest-v1.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc4,capsense,pipeline scan,mtb-flow" req_capabilities_v2="psoc4 led capsense">
+    <name>CAPSENSE Pipeline scan and process</name>
+    <id>mtb-example-psoc4-capsense-pipeline-scan-and-process</id>
+    <category>Sensing</category>
+    <uri>https://github.com/Infineon/mtb-example-psoc4-capsense-pipeline-scan-and-process</uri>
+    <description><![CDATA[This code example demonstrates how to implement pipeline scanning in CAPSENSE&#8482; to improve performance. When a particular widget is being processed, the next widget in line can be scanned in parallel, and the device remains in Deep Sleep mode until the scan is complete. The WDT (Watchdog Timer) is used to wake up the device periodically from Deep Sleep mode. This is better than the traditional method of scanning all the widgets and then processing the scanned data later. This reduces the sensor scan time and minimizes power consumption.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-capsense-pipeline-scan-and-process/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>psoc4 led capsense</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_145_40xx]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_145_40xx]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc4,capsense,smartsense,buttons,slider,mtb-flow" req_capabilities_v2="psoc4 capsense">
+    <name>CAPSENSE SmartSense buttons slider</name>
+    <id>mtb-example-psoc4-capsense-smartsense-buttons-slider</id>
+    <category>Sensing</category>
+    <uri>https://github.com/Infineon/mtb-example-psoc4-capsense-smartsense-buttons-slider</uri>
+    <description><![CDATA[This code example demonstrates how to tune self-capacitance (CSD)-based buttons and slider widgets with SmartSense in PSoC&#8482; 4 devices using the CAPSENSE&#8482; tuner.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-capsense-smartsense-buttons-slider/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>psoc4 capsense</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_149,cy8ckit_145_40xx]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_149,cy8ckit_145_40xx]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc4,capsense,multi-frequency,mtb-flow" req_capabilities_v2="capsense led psoc4">
+    <name>CAPSENSE Multi-frequency Scan</name>
+    <id>mtb-example-psoc4-capsense-multi-frequency-scan</id>
+    <category>Sensing</category>
+    <uri>https://github.com/Infineon/mtb-example-psoc4-capsense-multi-frequency-scan</uri>
+    <description><![CDATA[This example demonstrates the use of the Multi-Frequency Scan (MFS) for PSoC&#8482; 4 CAPSENSE&#8482; applications to prevent false touch detection in the presence of external noise. This code example demonstrates this feature for both CSD (self-capacitance) and CSX (mutual-capacitance) designs.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-capsense-multi-frequency-scan/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>capsense led psoc4</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_145_40xx]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_145_40xx]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc4,capsense,liquid-tolerant,proximity,mtb-flow" req_capabilities_v2="psoc4 led capsense">
+    <name>CAPSENSE Liquid tolerant proximity</name>
+    <id>mtb-example-psoc4-capsense-liquid-tolerant-proximity</id>
+    <category>Sensing</category>
+    <uri>https://github.com/Infineon/mtb-example-psoc4-capsense-liquid-tolerant-proximity</uri>
+    <description><![CDATA[This code example demonstrates how to tune the proximity sensor using CY8CKIT-041S-MAX, PROX on CY8CKIT-024 Kit for liquid tolerance. This code example is tuned for a proximity-sensing distance of 3 cm with liquid tolerance. The proximity of the user hand is indicated by turning on the LEDs (LED1-LED5).
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-capsense-liquid-tolerant-proximity/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>psoc4 led capsense</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc4,capsense,touchpad,proximity,gestures,liquid-tolerant,mtb-flow" req_capabilities_v2="psoc4 uart led capsense">
+    <name>MSC CAPSENSE Liquid tolerant touchpad</name>
+    <id>mtb-example-psoc4-msc-capsense-liquid-tolerant-touchpad</id>
+    <category>Sensing</category>
+    <uri>https://github.com/Infineon/mtb-example-psoc4-msc-capsense-liquid-tolerant-touchpad</uri>
+    <description><![CDATA[This code example demonstrates how to use the CAPSENSE&#8482; middleware to detect a finger touch position with gestures on a self-capacitance-based touchpad widget in PSoC&#8482; 4 devices with multi sense converter (MSC).
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-msc-capsense-liquid-tolerant-touchpad/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>psoc4 uart led capsense</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc4,capsense,liquid-tolerant,buttons,hybrid,mtb-flow" req_capabilities_v2="psoc4 led capsense">
+    <name>MSC CAPSENSE liquid-tolerant hybrid scan</name>
+    <id>mtb-example-psoc4-msc-capsense-liquid-tolerant-hybrid-scan</id>
+    <category>Sensing</category>
+    <uri>https://github.com/Infineon/mtb-example-psoc4-msc-capsense-liquid-tolerant-hybrid-scan</uri>
+    <description><![CDATA[This code example demonstrates the self-capacitance scanning technique to implement liquid tolerance on mutual-cap sensors.
+    <br>CAPSENSE&#8482; senses the self-capacitance of Tx and Rx nodes of a mutual-capacitance sensor. This ability of scanning the sensor using both self-capacitance (CSD) and mutual-capacitance (CSX) sensing modes is used to avoid false triggers due to the presence of liquid drops on a mutual-capacitance sensor.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-msc-capsense-liquid-tolerant-hybrid-scan/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>psoc4 led capsense</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc4,capsense,proximity,gestures,mtb-flow" req_capabilities_v2="psoc4 led capsense">
+    <name>MSC CAPSENSE proximity gestures</name>
+    <id>mtb-example-psoc4-msc-capsense-proximity-gestures</id>
+    <category>Sensing</category>
+    <uri>https://github.com/Infineon/mtb-example-psoc4-msc-capsense-proximity-gestures</uri>
+    <description><![CDATA[This code example demonstrate how to detect swipe gestures in the X-axis and Y-axis using the proximity sensors on CY8CKIT-024 using the PSoC&#8482; 4 device. This code example is designed to operate on CY8CKIT-041S-MAX with CY8CKIT-024.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-msc-capsense-proximity-gestures/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>psoc4 led capsense</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc4,capsense,rtt,buttons,slider,mtb-flow" req_capabilities_v2="psoc4 led capsense">
+    <name>CAPSENSE Buttons and Slider RTT</name>
+    <id>mtb-example-psoc4-capsense-buttons-and-slider-rtt</id>
+    <category>Sensing</category>
+    <uri>https://github.com/Infineon/mtb-example-psoc4-capsense-buttons-and-slider-rtt</uri>
+    <description><![CDATA[This code example demonstrates how to monitor self-capacitance (CSD) based buttons and slider widgets using the CAPSENSE&#8482; tuner through RTT in PSoC&#8482; 4 devices.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-capsense-buttons-and-slider-rtt/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>psoc4 led capsense</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_149,cy8ckit_145_40xx]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_149,cy8ckit_145_40xx]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
