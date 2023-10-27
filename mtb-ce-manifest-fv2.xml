@@ -11910,4 +11910,23 @@
       </version>
     </versions>
   </app>
+  <app keywords="mtb-flow,psoc6,tester,wifi,tool,unified,manufacturing">
+    <name>Tester - WiFi unified application</name>
+    <id>mtb-tester-wifi-unified-app</id>
+    <category>Manufacturing</category>
+    <uri>https://github.com/Infineon/mtb-tester-wifi-unified-app</uri>
+    <description><![CDATA[This Tester is Wi-Fi integrated tools for cert, wifi, wl commands and lpa&#174; Firmware and RF performance for PSoC&#8482; 6 MCU with CYW4373 connectivity device.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-tester-wifi-unified-app/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>psoc6 wifi cyw4373</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.2.0 release</num>
+        <commit>release-v1.2.0</commit>
+      </version>
+    </versions>
+  </app>
 </apps>
