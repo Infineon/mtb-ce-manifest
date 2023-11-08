@@ -1,5 +1,5 @@
 <apps version="2.0">
-  <app keywords="starter,template,empty,blank,mtb-flow" req_capabilities_v2="[psoc6,xmc7000,t2gbh,t2gbh_lite,cyw920829m2evk_02]">
+  <app keywords="starter,template,empty,blank,mtb-flow" req_capabilities_v2="[psoc6,t2gbe,xmc7000,t2gbh,t2gbh_lite,cyw920829m2evk_02]">
     <name>Empty App</name>
     <id>mtb-example-empty-app</id>
     <category>Getting Started</category>
@@ -57,7 +57,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="led,starter,hello world,mtb-flow" req_capabilities_v2="hal led [psoc6,xmc7000,t2gbh,t2gbh_lite,cyw920829m2evk_02] [flash_0k,flash_8384k,flash_2048k,flash_1024k,flash_512k,flash_256k,flash_832k,flash_448k,cy8ckit_064b0s2_4343w]">
+  <app keywords="led,starter,hello world,mtb-flow" req_capabilities_v2="hal led [psoc6,t2gbe,xmc7000,t2gbh,t2gbh_lite,cyw920829m2evk_02] [flash_0k,flash_8384k,flash_2048k,flash_1024k,flash_512k,flash_256k,flash_832k,flash_448k,cy8ckit_064b0s2_4343w]">
     <name>Hello World</name>
     <id>mtb-example-hal-hello-world</id>
     <category>Getting Started</category>
@@ -124,7 +124,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,led,lptimer,mtb-flow" req_capabilities_v2="led low_power switch [psoc6,cyw920829m2evk_02]">
+  <app keywords="psoc6,led,lptimer,mtb-flow" req_capabilities_v2="led low_power switch [psoc6,t2gbe,cyw920829m2evk_02]">
     <name>HAL Low-Power Timer</name>
     <id>mtb-example-hal-lptimer</id>
     <category>Peripherals</category>
@@ -202,7 +202,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="wdt,mtb-flow" req_capabilities_v2="cat1 hal led [psoc6,xmc7000,t2gbh,t2gbh_lite,cyw920829m2evk_02]">
+  <app keywords="wdt,mtb-flow" req_capabilities_v2="cat1 hal led [psoc6,t2gbe,xmc7000,t2gbh,t2gbh_lite,cyw920829m2evk_02]">
     <name>HAL Watchdog Timer</name>
     <id>mtb-example-hal-wdt</id>
     <category>Peripherals</category>
@@ -284,7 +284,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,led,pwm,square wave,frequency,duty cycle,blinky,blinking" req_capabilities_v2="hal led [psoc6,xmc7000,t2gbh,t2gbh_lite,cyw920829m2evk_02]">
+  <app keywords="mtb-flow,led,pwm,square wave,frequency,duty cycle,blinky,blinking" req_capabilities_v2="hal led [psoc6,t2gbe,xmc7000,t2gbh,t2gbh_lite,cyw920829m2evk_02]">
     <name>HAL PWM Square Wave</name>
     <id>mtb-example-hal-pwm-square-wave</id>
     <category>Peripherals</category>
@@ -413,7 +413,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="uart,transmit,receive,mtb-flow" req_capabilities_v2="hal led [psoc6,xmc7000,t2gbh,t2gbh_lite,cyw920829m2evk_02]">
+  <app keywords="uart,transmit,receive,mtb-flow" req_capabilities_v2="hal led [psoc6,t2gbe,xmc7000,t2gbh,t2gbh_lite,cyw920829m2evk_02]">
     <name>UART Transmit and Receive</name>
     <id>mtb-example-hal-uart-transmit-receive</id>
     <category>Peripherals</category>
@@ -499,7 +499,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="i2c,master,slave,mtb-flow" req_capabilities_v2="hal led [psoc6,xmc7000,t2gbh,t2gbh_lite,cyw920829m2evk_02]">
+  <app keywords="i2c,master,slave,mtb-flow" req_capabilities_v2="hal led [psoc6,t2gbe,xmc7000,t2gbh,t2gbh_lite,cyw920829m2evk_02]">
     <name>HAL I2C Master</name>
     <id>mtb-example-hal-i2c-master</id>
     <category>Peripherals</category>
@@ -558,7 +558,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="i2c,ezi2c,master,slave,mtb-flow" req_capabilities_v2="hal led [psoc6,xmc7000,t2gbh,t2gbh_lite]">
+  <app keywords="i2c,ezi2c,master,slave,mtb-flow" req_capabilities_v2="hal led [psoc6,t2gbe,xmc7000,t2gbh,t2gbh_lite]">
     <name>I2C Master EzI2C Slave</name>
     <id>mtb-example-psoc6-i2c-master-ezi2c-slave</id>
     <category>Peripherals</category>
@@ -597,7 +597,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="i2c,slave,mtb-flow" req_capabilities_v2="hal led [psoc6,xmc7000,t2gbh,t2gbh_lite]">
+  <app keywords="i2c,slave,mtb-flow" req_capabilities_v2="hal led [psoc6,t2gbe,xmc7000,t2gbh,t2gbh_lite]">
     <name>I2C Slave Using Callbacks</name>
     <id>mtb-example-psoc6-i2c-slave-callback</id>
     <category>Peripherals</category>
@@ -628,7 +628,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="spi,master,mtb-flow" req_capabilities_v2="hal led [psoc6,xmc7000,t2gbh,t2gbh_lite,cyw20829]">
+  <app keywords="spi,master,mtb-flow" req_capabilities_v2="hal led [psoc6,t2gbe,xmc7000,t2gbh,t2gbh_lite,cyw20829]">
     <name>HAL SPI Master</name>
     <id>mtb-example-hal-spi-master</id>
     <category>Peripherals</category>
@@ -730,7 +730,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="led,smartio,smart io,pwm,mtb-flow" req_capabilities_v2="led smart_io [psoc6,cyw920829m2evk_02]">
+  <app keywords="led,smartio,smart io,pwm,mtb-flow" req_capabilities_v2="led smart_io [psoc6,t2gbe,cyw920829m2evk_02]">
     <name>Ramping LED using Smart IO</name>
     <id>mtb-example-smartio-ramping-led</id>
     <category>Peripherals</category>
@@ -1566,7 +1566,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="cryptography,sha2,message digest,hash,mtb-flow" req_capabilities_v2="uart std_crypto [psoc6]">
+  <app keywords="cryptography,sha2,message digest,hash,mtb-flow" req_capabilities_v2="uart std_crypto [psoc6,t2gbe]">
     <name>Cryptography SHA Demonstration</name>
     <id>mtb-example-psoc6-crypto-sha</id>
     <category>Peripherals</category>
@@ -2456,7 +2456,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,airoc,wifi,mtb-flow,wifi-scan,wcm,scan filters,xmc7000" req_capabilities_v2="wifi cyw43xxx led switch std_crypto [psoc6, xmc7000] [flash_2048k, flash_1024k, flash_512k, flash_8384k, cy8ckit_064b0s2_4343w]">
+  <app keywords="psoc6,airoc,wifi,mtb-flow,wifi-scan,wcm,scan filters,xmc7000" req_capabilities_v2="wifi cyw43xxx led switch std_crypto [psoc6,t2gbe, xmc7000] [flash_2048k, flash_1024k, flash_512k, flash_8384k, cy8ckit_064b0s2_4343w]">
     <name>Wi-Fi Scan</name>
     <id>mtb-example-wifi-scan</id>
     <category>Wi-Fi</category>
@@ -2517,7 +2517,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,wifi,mtb-flow,wcm,wps,enrollee,wps-pbc,wps-sta-pin,xmc7000" req_capabilities_v2="wifi cyw43xxx led switch std_crypto [psoc6, xmc7000] [flash_2048k, flash_1024k, flash_8384k]">
+  <app keywords="psoc6,wifi,mtb-flow,wcm,wps,enrollee,wps-pbc,wps-sta-pin,xmc7000" req_capabilities_v2="wifi cyw43xxx led switch std_crypto [psoc6,t2gbe, xmc7000] [flash_2048k, flash_1024k, flash_8384k]">
     <name>WPS Enrollee</name>
     <id>mtb-example-wifi-wps-enrollee</id>
     <category>Wi-Fi</category>
@@ -2656,7 +2656,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,mtb-flow,ble,bluetooth,btstack,freertos,battery,4343w,43012" req_capabilities_v2="[psoc6,cyw20829] bt led">
+  <app keywords="psoc6,mtb-flow,ble,bluetooth,btstack,freertos,battery,4343w,43012" req_capabilities_v2="[psoc6,t2gbe,cyw20829] bt led">
     <name>Bluetooth LE Battery Server</name>
     <id>mtb-example-btstack-freertos-battery-server</id>
     <category>Bluetooth&#174;</category>
@@ -3772,7 +3772,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,gpio,interrupt,switch" req_capabilities_v2="hal led switch low_power [psoc6,xmc7000,t2gbh,t2gbh_lite,cyw920829m2evk_02]">
+  <app keywords="mtb-flow,gpio,interrupt,switch" req_capabilities_v2="hal led switch low_power [psoc6,t2gbe,xmc7000,t2gbh,t2gbh_lite,cyw920829m2evk_02]">
     <name>HAL GPIO Interrupt</name>
     <id>mtb-example-hal-gpio-interrupt</id>
     <category>Peripherals</category>
@@ -3815,7 +3815,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,rtc" req_capabilities_v2="hal rtc [psoc6,xmc7000,t2gbh,t2gbh_lite,cyw920829m2evk_02]">
+  <app keywords="mtb-flow,rtc" req_capabilities_v2="hal rtc [psoc6,t2gbe,xmc7000,t2gbh,t2gbh_lite,cyw920829m2evk_02]">
     <name>RTC Basics</name>
     <id>mtb-example-hal-rtc-basics</id>
     <category>Peripherals</category>
@@ -6229,7 +6229,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,psoc6,http,https,server,wifi,xmc7000" req_capabilities_v2="cyw43xxx led wifi std_crypto [psoc6, xmc7000] [flash_8384k, flash_2048k,flash_1024k,flash_512k]">
+  <app keywords="mtb-flow,psoc6,http,https,server,wifi,xmc7000" req_capabilities_v2="cyw43xxx led wifi std_crypto [psoc6,t2gbe, xmc7000] [flash_8384k, flash_2048k,flash_1024k,flash_512k]">
     <name>Wi-Fi HTTPS Server</name>
     <id>mtb-example-wifi-https-server</id>
     <category>Wi-Fi</category>
@@ -6315,7 +6315,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,psoc6,tcp,secure,client,wifi,xmc7000" req_capabilities_v2="wifi cyw43xxx led switch [psoc6, xmc7000] [flash_8384k, flash_2048k,flash_1024k,flash_512k]">
+  <app keywords="mtb-flow,psoc6,tcp,secure,client,wifi,xmc7000" req_capabilities_v2="wifi cyw43xxx led switch [psoc6,t2gbe, xmc7000] [flash_8384k, flash_2048k,flash_1024k,flash_512k]">
     <name>Wi-Fi Secure TCP client</name>
     <id>mtb-example-wifi-secure-tcp-client</id>
     <category>Wi-Fi</category>
@@ -6372,7 +6372,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,psoc6,tcp,secure,server,wifi,xmc7000" req_capabilities_v2="wifi cyw43xxx led switch [psoc6, xmc7000] [flash_8384k, flash_2048k, flash_1024k, flash_512k]">
+  <app keywords="mtb-flow,psoc6,tcp,secure,server,wifi,xmc7000" req_capabilities_v2="wifi cyw43xxx led switch [psoc6,t2gbe, xmc7000] [flash_8384k, flash_2048k, flash_1024k, flash_512k]">
     <name>Wi-Fi Secure TCP server</name>
     <id>mtb-example-wifi-secure-tcp-server</id>
     <category>Wi-Fi</category>
@@ -6668,7 +6668,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="cryptography,trng,mtb-flow" req_capabilities_v2="hal uart std_crypto [psoc6,xmc7000,t2gbh,t2gbh_lite]">
+  <app keywords="cryptography,trng,mtb-flow" req_capabilities_v2="hal uart std_crypto [psoc6,t2gbe,xmc7000,t2gbh,t2gbh_lite]">
     <name>Cryptography TRNG Demonstration</name>
     <id>mtb-example-hal-crypto-trng</id>
     <category>Peripherals</category>
@@ -6738,7 +6738,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="cryptography,aes,mtb-flow" req_capabilities_v2="uart std_crypto [psoc6]">
+  <app keywords="cryptography,aes,mtb-flow" req_capabilities_v2="uart std_crypto [psoc6,t2gbe]">
     <name>Cryptography AES Demonstration</name>
     <id>mtb-example-psoc6-crypto-aes</id>
     <category>Peripherals</category>
@@ -8025,7 +8025,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,qspi,spi,nor,flash,smif,serial-flash,mtb-flow" req_capabilities_v2="std_crypto led qspi nor_flash [psoc6,cyw920829m2evk_02]">
+  <app keywords="psoc6,qspi,spi,nor,flash,smif,serial-flash,mtb-flow" req_capabilities_v2="std_crypto led qspi nor_flash [psoc6,t2gbe,cyw920829m2evk_02]">
     <name>Serial Flash Read Write</name>
     <id>mtb-example-serial-flash-readwrite</id>
     <category>Peripherals</category>
@@ -10257,7 +10257,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,usb,cdc,echo,mtb-flow,emUSB-Device" req_capabilities_v2="[psoc6] usb_device [flash_2048k,flash_1024k,flash_512k,flash_256k] [cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01,cy8cproto_062s3_4343w,cy8ckit_062s4,cy8ceval_062s2,cy8ceval_062_s2_lai_4373m2,cy8ceval_062_mur_43439m2,cy8ceval_062s2_lai_43439m2]">
+  <app keywords="psoc6,usb,cdc,echo,mtb-flow,emUSB-Device" req_capabilities_v2="[psoc6,t2gbe] usb_device [flash_2048k,flash_1024k,flash_512k,flash_256k] [cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01,cy8cproto_062s3_4343w,cy8ckit_062s4,cy8ceval_062s2,cy8ceval_062_s2_lai_4373m2,cy8ceval_062_mur_43439m2,cy8ceval_062s2_lai_43439m2]">
     <name>emUSB-Device CDC echo</name>
     <id>mtb-example-usb-device-cdc-echo</id>
     <category>Peripherals</category>
@@ -10280,7 +10280,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,usb,mtb-flow,hid,generic,emUSB-Device" req_capabilities_v2="[psoc6] usb_device [flash_2048k,flash_1024k,flash_512k,flash_256k]">
+  <app keywords="psoc6,usb,mtb-flow,hid,generic,emUSB-Device" req_capabilities_v2="[psoc6,t2gbe] usb_device [flash_2048k,flash_1024k,flash_512k,flash_256k]">
     <name>emUSB-Device HID Generic</name>
     <id>mtb-example-usb-device-hid-generic</id>
     <category>Peripherals</category>
@@ -10303,7 +10303,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,usb,mtb-flow,hid,mouse,emUSB-Device" req_capabilities_v2="[psoc6] usb_device [flash_2048k,flash_1024k,flash_512k,flash_256k] [cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01,cy8cproto_062s3_4343w,cy8ckit_062s4,cy8ceval_062s2,cy8ceval_062_s2_lai_4373m2,cy8ceval_062_mur_43439m2,cy8ceval_062s2_lai_43439m2,cy8cproto_062s2_43439]">
+  <app keywords="psoc6,usb,mtb-flow,hid,mouse,emUSB-Device" req_capabilities_v2="[psoc6,t2gbe] usb_device [flash_2048k,flash_1024k,flash_512k,flash_256k] [cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01,cy8cproto_062s3_4343w,cy8ckit_062s4,cy8ceval_062s2,cy8ceval_062_s2_lai_4373m2,cy8ceval_062_mur_43439m2,cy8ceval_062s2_lai_43439m2,cy8cproto_062s2_43439]">
     <name>emUSB-Device HID Mouse</name>
     <id>mtb-example-usb-device-hid-mouse</id>
     <category>Peripherals</category>
@@ -10326,7 +10326,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,msc,usb,file system,mass storage,sd,mtb-flow,emUSB-Device" req_capabilities_v2="[psoc6] usb_device [flash_2048k] [cy8cproto_062_4343w,cy8ckit_062s2_43012,cy8ceval_062s2,cy8ceval_062_s2_lai_4373m2,cy8ceval_062_mur_43439m2]">
+  <app keywords="psoc6,msc,usb,file system,mass storage,sd,mtb-flow,emUSB-Device" req_capabilities_v2="[psoc6,t2gbe] usb_device [flash_2048k] [cy8cproto_062_4343w,cy8ckit_062s2_43012,cy8ceval_062s2,cy8ceval_062_s2_lai_4373m2,cy8ceval_062_mur_43439m2]">
     <name>emUSB-Device Mass Storage File System</name>
     <id>mtb-example-usb-device-msc-filesystem-freertos</id>
     <category>Peripherals</category>
@@ -10349,7 +10349,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,usb,suspend,resume,mtb-flow,emUSB-Device" req_capabilities_v2="[psoc6] usb_device [flash_2048k,flash_1024k,flash_512k,flash_256k] [cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01,cy8cproto_062s3_4343w,cy8ckit_062s4,cy8ceval_062s2,cy8ceval_062_s2_lai_4373m2,cy8ceval_062_mur_43439m2,cy8ceval_062s2_lai_43439m2]">
+  <app keywords="psoc6,usb,suspend,resume,mtb-flow,emUSB-Device" req_capabilities_v2="[psoc6,t2gbe] usb_device [flash_2048k,flash_1024k,flash_512k,flash_256k] [cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01,cy8cproto_062s3_4343w,cy8ckit_062s4,cy8ceval_062s2,cy8ceval_062_s2_lai_4373m2,cy8ceval_062_mur_43439m2,cy8ceval_062s2_lai_43439m2]">
     <name>emUSB-Device Suspend and Resume</name>
     <id>mtb-example-usb-device-suspend</id>
     <category>Peripherals</category>
@@ -10372,7 +10372,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,usb,cdc,echo,mtb-flow,emusb-Host" req_capabilities_v2="[psoc6] usb_host [flash_1024k,flash_2048k] [cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43438evb_01,cy8ceval_062s2,cy8ceval_062_s2_lai_4373m2,cy8ceval_062_mur_43439m2,cy8ceval_062s2_lai_43439m2]">
+  <app keywords="psoc6,usb,cdc,echo,mtb-flow,emusb-Host" req_capabilities_v2="[psoc6,t2gbe] usb_host [flash_1024k,flash_2048k] [cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43438evb_01,cy8ceval_062s2,cy8ceval_062_s2_lai_4373m2,cy8ceval_062_mur_43439m2,cy8ceval_062s2_lai_43439m2]">
     <name>emUSB-Host CDC echo</name>
     <id>mtb-example-usb-host-cdc-echo</id>
     <category>Peripherals</category>
@@ -10499,7 +10499,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="i2c,slave,mtb-flow" req_capabilities_v2="hal led [psoc6,xmc7000,t2gbh,t2gbh_lite,cyw920829m2evk_02]">
+  <app keywords="i2c,slave,mtb-flow" req_capabilities_v2="hal led [psoc6,t2gbe,xmc7000,t2gbh,t2gbh_lite,cyw920829m2evk_02]">
     <name>HAL I2C Slave</name>
     <id>mtb-example-hal-i2c-slave</id>
     <category>Peripherals</category>
@@ -10661,7 +10661,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,lz4,compression,decompression,mtb-flow" req_capabilities_v2="[psoc6] [flash_8384k,flash_2048k,flash_1024k,flash_512k,flash_256k,flash_832k,flash_448k,cy8ckit_064b0s2_4343w]">
+  <app keywords="psoc6,lz4,compression,decompression,mtb-flow" req_capabilities_v2="[psoc6,t2gbe] [flash_8384k,flash_2048k,flash_1024k,flash_512k,flash_256k,flash_832k,flash_448k,cy8ckit_064b0s2_4343w]">
     <name>LZ4 compression and decompression demo</name>
     <id>mtb-example-lz4-demo</id>
     <category>Peripherals</category>
@@ -10699,7 +10699,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="spi,slave,mtb-flow" req_capabilities_v2="hal led [psoc6,xmc7000,t2gbh,t2gbh_lite,cyw20829] [cy8ceval_062s2,cy8ceval_062_s2_lai_4373m2,cy8ckit_062_ble,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cy8cproto_062_4343w,cy8cproto_062s3_4343w,cy8cproto_063_ble,cy8ckit_062s4,cyw9p62s1_43012evb_01,cyw9p62s1_43438evb_01,cy8ckit_064b0s2_4343w,cy8ceval_062_mur_43439m2,cy8cproto_064b0s3,cy8cproto_064s1_sb,kit_xmc72_evk,kit_t2g_b_h_evk,kit_t2g_b_h_lite,cyw920829m2evk_02]">
+  <app keywords="spi,slave,mtb-flow" req_capabilities_v2="hal led [psoc6,t2gbe,xmc7000,t2gbh,t2gbh_lite,cyw20829] [cy8ceval_062s2,cy8ceval_062_s2_lai_4373m2,cy8ckit_062_ble,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cy8cproto_062_4343w,cy8cproto_062s3_4343w,cy8cproto_063_ble,cy8ckit_062s4,cyw9p62s1_43012evb_01,cyw9p62s1_43438evb_01,cy8ckit_064b0s2_4343w,cy8ceval_062_mur_43439m2,cy8cproto_064b0s3,cy8cproto_064s1_sb,kit_xmc72_evk,kit_t2g_b_h_evk,kit_t2g_b_h_lite,cyw920829m2evk_02]">
     <name>HAL SPI Slave</name>
     <id>mtb-example-hal-spi-slave</id>
     <category>Peripherals</category>
@@ -10893,7 +10893,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,usb,cdc,echo,mtb-flow,emusb-Device" req_capabilities_v2="[psoc6] arduino usb_device [flash_1024k,flash_2048k]">
+  <app keywords="psoc6,usb,cdc,echo,mtb-flow,emusb-Device" req_capabilities_v2="[psoc6,t2gbe] arduino usb_device [flash_1024k,flash_2048k]">
     <name>emUSB-Device Audio FreeRTOS</name>
     <id>mtb-example-usb-device-audio-freertos</id>
     <category>Peripherals</category>
@@ -10916,7 +10916,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,usb,cdc,echo,mtb-flow,emusb-Device" req_capabilities_v2="[psoc6] usb_device [flash_1024k,flash_2048k]">
+  <app keywords="psoc6,usb,cdc,echo,mtb-flow,emusb-Device" req_capabilities_v2="[psoc6,t2gbe] usb_device [flash_1024k,flash_2048k]">
     <name>emUSB-Device Audio Recorder FreeRTOS</name>
     <id>mtb-example-usb-device-audio-recorder-freertos</id>
     <category>Peripherals</category>
@@ -10973,7 +10973,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,rtc,low power,deepsleep,hibernate,mtb-flow" req_capabilities_v2="low_power rtc switch [psoc6,cyw920829m2evk_02]">
+  <app keywords="psoc6,rtc,low power,deepsleep,hibernate,mtb-flow" req_capabilities_v2="low_power rtc switch [psoc6,t2gbe,cyw920829m2evk_02]">
     <name>HAL RTC periodic wakeup</name>
     <id>mtb-example-hal-rtc-periodic-wakeup</id>
     <category>Peripherals</category>
@@ -11291,7 +11291,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="posix,freertos,led,mtb-flow" req_capabilities_v2="led qspi uart [psoc6,xmc7000]">
+  <app keywords="posix,freertos,led,mtb-flow" req_capabilities_v2="led qspi uart [psoc6,t2gbe,xmc7000]">
     <name>HAL FreeRTOS-POSIX Demo</name>
     <id>mtb-example-hal-posix-freertos</id>
     <category>Peripherals</category>
@@ -11314,7 +11314,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,psoc6,http,https,client,wifi,xmc7000" req_capabilities_v2="cyw43xxx led wifi std_crypto [psoc6, xmc7000] [flash_8384k, flash_2048k,flash_1024k,flash_512k]">
+  <app keywords="mtb-flow,psoc6,http,https,client,wifi,xmc7000" req_capabilities_v2="cyw43xxx led wifi std_crypto [psoc6,t2gbe, xmc7000] [flash_8384k, flash_2048k,flash_1024k,flash_512k]">
     <name>Wi-Fi HTTPS Client</name>
     <id>mtb-example-wifi-https-client</id>
     <category>Wi-Fi</category>
@@ -11647,7 +11647,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,emusb,usb,uart,emusb-Device,mtb-flow" req_capabilities_v2="[psoc6] [flash_2048k,flash_1024k]">
+  <app keywords="psoc6,emusb,usb,uart,emusb-Device,mtb-flow" req_capabilities_v2="[psoc6,t2gbe] [flash_2048k,flash_1024k]">
     <name>emusb-Device Quad USB to UART bridge</name>
     <id>mtb-example-usb-device-quad-uart-bridge</id>
     <category>Peripherals</category>
