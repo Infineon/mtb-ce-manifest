@@ -6928,6 +6928,25 @@
       </version>
     </versions>
   </app>
+  <app keywords="pmg1,usbpd,mtb-flow" req_capabilities_v2="usbpd pmg1 led [pmg1_cy7110, pmg1_cy7111, pmg1_cy7112, pmg1_cy7113]">
+    <name>USB PD sink PPS demo</name>
+    <id>mtb-example-pmg1-usbpd-sink-pps</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-pmg1-usbpd-sink-pps</uri>
+    <description><![CDATA[This code example illustrates how to implement a programmable power supply (PPS) sink using EZ-PD&8482; PMG1 MCU devices.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-usbpd-sink-pps/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>usbpd pmg1 led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
   <app keywords="pmg1,led,switch,gpio-interrupt,mtb-flow" req_capabilities_v2="pmg1 led [pmg1_cy7110, pmg1_cy7111, pmg1_cy7112, pmg1_cy7113]">
     <name>Multiple GPIO interrupts</name>
     <id>mtb-example-pmg1-multiple-gpio-interrupts</id>
@@ -6966,14 +6985,14 @@
       </version>
     </versions>
   </app>
-  <app keywords="pmg1,spi,led,dma,mtb-flow" req_capabilities_v2="pmg1 spi led dma [pmg1_cy7113]">
+  <app keywords="pmg1,spi,led,dma,mtb-flow" req_capabilities_v2="pmg1 spi led [pmg1_cy7113]">
     <name>SPI Flash</name>
     <id>mtb-example-pmg1-spi-master-dma</id>
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-pmg1-spi-master-dma</uri>
     <description><![CDATA[This code example demonstrates the configuration and usage of Serial Communication Block (SCB) as SPI master to write and read data to an EEPROM Flash (Slave).
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-spi-master-dma/blob/master/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>pmg1 spi led dma</req_capabilities>
+    <req_capabilities>pmg1 spi led</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>Latest 1.X release</num>
@@ -7381,14 +7400,14 @@
       </version>
     </versions>
   </app>
-  <app keywords="pmg1,uart,starter,dma,mtb-flow" req_capabilities_v2="pmg1 dma uart [pmg1_cy7113]">
+  <app keywords="pmg1,uart,starter,dma,mtb-flow" req_capabilities_v2="pmg1 uart [pmg1_cy7113]">
     <name>UART Transmit Receive DMA</name>
     <id>mtb-example-pmg1-uart-transmit-receive-dma</id>
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-pmg1-uart-transmit-receive-dma</uri>
     <description><![CDATA[This code example demonstrates the UART transmit and receive operation in PMG1 devices using DMA. The application uses a serial terminal to read data and echoes what is received. The UART is configured to do both transmit and receive operations.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-uart-transmit-receive-dma/blob/master/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>pmg1 dma uart</req_capabilities>
+    <req_capabilities>pmg1 uart</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>Latest 2.X release</num>
@@ -10935,14 +10954,14 @@
       </version>
     </versions>
   </app>
-  <app keywords="pmg1,usbfs,usb,mtb-flow,cdc,uart,dma" req_capabilities_v2="pmg1 usb_device dma uart [pmg1_cy7113]">
+  <app keywords="pmg1,usbfs,usb,mtb-flow,cdc,uart,dma" req_capabilities_v2="pmg1 usb_device uart [pmg1_cy7113]">
     <name>USBFS to UART Using DMA</name>
     <id>mtb-example-pmg1-usbfs-uart-dma</id>
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-pmg1-usbfs-uart-dma</uri>
     <description><![CDATA[This code example demonstrates the data transfer between USBFS and UART peripherals using DMA. The USBFS block will be configured as a USB Communications Device Class (CDC). The data received via the USB OUT endpoint will be transferred using DMA to the UART TX buffer. The UART Tx and UART Rx pins can be connected to do a loopback. The data received via the UART RX buffer is transferred to USB IN endpoint via DMA. This code example shows how to use DMA to transfer data between two peripherals.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-usbfs-uart-dma/blob/master/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>pmg1 usb_device dma uart</req_capabilities>
+    <req_capabilities>pmg1 usb_device uart</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>Latest 1.X release</num>
