@@ -7611,6 +7611,51 @@
       </version>
     </versions>
   </app>
+  <app keywords="pmg1b1, battery, usbpd, mtb-flow" req_capabilities_v2="pmg1_b1_cy7116 usbpd">
+    <name>USBPD Li-ion Battery Charger</name>
+    <id>mtb-example-pmg1b1-usbpd-battery-charger</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-pmg1b1-usbpd-battery-charger</uri>
+    <description><![CDATA[This code example demonstrates Li-ion battery charger functionality along with USB-C attach detection and USB Power Delivery contract negotiation using Power Delivery Microcontroller Generation 1 (PMG1-B1) devices in DRP role.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1b1-usbpd-battery-charger/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>pmg1_b1_cy7116 usbpd</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="pmg1b1, usbpd, mtb-flow" req_capabilities_v2="pmg1_b1_cy7116 usbpd">
+    <name>USBPD Sink</name>
+    <id>mtb-example-pmg1b1-usbpd-sink</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-pmg1b1-usbpd-sink</uri>
+    <description><![CDATA[This code example demonstrates USB-C attach detection and USB Power Delivery contract negotiation using Power Delivery Microcontroller Generation 1 (PMG1-B1) devices.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1b1-usbpd-sink/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>pmg1_b1_cy7116 usbpd</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="pmg1b1, battery, usbpd, mtb-flow" req_capabilities_v2="pmg1_b1_cy7116 usbpd">
+    <name>USBPD DRP</name>
+    <id>mtb-example-pmg1b1-usbpd-drp</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-pmg1b1-usbpd-drp</uri>
+    <description><![CDATA[This code example demonstrates USB-C attach detection and USB Power Delivery contract negotiation using Power Delivery Microcontroller Generation 1 (PMG1-B1) devices in DRP role.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1b1-usbpd-drp/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>pmg1_b1_cy7116 usbpd</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
   <app keywords="psoc6,dfu,bootloader,mtb-flow" req_capabilities_v2="psoc6 led switch std_crypto">
     <name>Basic Device Firmware Upgrade</name>
     <id>mtb-example-psoc6-dfu-basic</id>
