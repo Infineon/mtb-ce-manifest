@@ -10031,6 +10031,10 @@
         <commit>latest-v1.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_040t]">
+        <num>1.5.0 release</num>
+        <commit>release-v1.5.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_040t]">
         <num>1.4.0 release</num>
         <commit>release-v1.4.0</commit>
       </version>
