@@ -12428,4 +12428,42 @@
       </version>
     </versions>
   </app>
+  <app keywords="xmc,spi,trigger,event" req_capabilities_v2="[xmc led spi]">
+    <name>SPI EXTTRG transmit</name>
+    <id>mtb-example-xmc-spi-external-trigger-transmit</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-xmc-spi-external-trigger-transmit</uri>
+    <description><![CDATA[This example demonstrates the transfer of three bytes of data using the SPI master triggered by an external event or a timer-based event in XMC™ MCU.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-xmc-spi-external-trigger-transmit/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>xmc led spi</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="xmc,vadc,emux" req_capabilities_v2="[xmc adc [xmc4000]]">
+    <name>VADC EMUX</name>
+    <id>mtb-example-xmc-vadc-emux</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-xmc-vadc-emux</uri>
+    <description><![CDATA[This code example demonstrates the VADC capability to drive a external multiplexer automatically by emux output pins in XMC™ MCU. 
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-xmc-vadc-emux/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>xmc adc</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
 </apps>
