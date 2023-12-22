@@ -1,5 +1,5 @@
 <apps version="2.0">
-  <app keywords="starter,template,empty,blank,mtb-flow" req_capabilities_v2="[psoc6,t2gbe,xmc7000,t2gbh,t2gbh_lite,cyw920829m2evk_02]">
+  <app keywords="starter,template,empty,blank,mtb-flow" req_capabilities_v2="[psoc6,t2gbe,xmc7000,t2gbh,t2gbh_lite,cyw920829m2evk_02,cyw989829m2evb_01]">
     <name>Empty App</name>
     <id>mtb-example-empty-app</id>
     <category>Getting Started</category>
@@ -2932,9 +2932,13 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-findme/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>bt led</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43012evb_01,cyw9p62s1_43438evb_01,cy8cproto_062s3_4343w,cysbsyskit_dev_01,cysbsyskit_01,cy8ceval_062_s2_lai_4373m2,cy8ceval_062_mur_43439m2,cyw920829m2evk_02,cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval,cy8ceval_062s2_lai_43439m2,cy8cproto_062s2_43439,cy8ceval_062s2_mur_4373m2,cy8ceval_062s2_mur_4373em2]">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43012evb_01,cyw9p62s1_43438evb_01,cy8cproto_062s3_4343w,cysbsyskit_dev_01,cysbsyskit_01,cy8ceval_062_s2_lai_4373m2,cy8ceval_062_mur_43439m2,cyw920829m2evk_02,cyw989829m2evb_01,cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval,cy8ceval_062s2_lai_43439m2,cy8cproto_062s2_43439,cy8ceval_062s2_mur_4373m2,cy8ceval_062s2_mur_4373em2]">
         <num>Latest 4.X release</num>
         <commit>latest-v4.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43012evb_01,cyw9p62s1_43438evb_01,cy8cproto_062s3_4343w,cysbsyskit_dev_01,cysbsyskit_01,cy8ceval_062_s2_lai_4373m2,cy8ceval_062_mur_43439m2,cyw920829m2evk_02,cyw989829m2evb_01,cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval,cy8ceval_062s2_lai_43439m2,cy8cproto_062s2_43439,cy8ceval_062s2_mur_4373m2,cy8ceval_062s2_mur_4373em2]">
+        <num>4.7.0 release</num>
+        <commit>release-v4.7.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43012evb_01,cyw9p62s1_43438evb_01,cy8cproto_062s3_4343w,cysbsyskit_dev_01,cysbsyskit_01,cy8ceval_062_s2_lai_4373m2,cy8ceval_062_mur_43439m2,cyw920829m2evk_02,cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval,cy8ceval_062s2_lai_43439m2,cy8cproto_062s2_43439,cy8ceval_062s2_mur_4373m2,cy8ceval_062s2_mur_4373em2]">
         <num>4.6.0 release</num>
@@ -9668,9 +9672,13 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-hello-sensor/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>bt led</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cyw920829m2evk_02,cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01,cy8cproto_062s3_4343w,cy8ceval_062s2,cy8ceval_062_s2_lai_4373m2,cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval,cy8ceval_062s2_lai_43439m2,cy8cproto_062s2_43439,cy8ceval_062s2_mur_4373m2,cy8ceval_062s2_mur_4373em2]">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cyw920829m2evk_02,cyw989829m2evb_01,cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01,cy8cproto_062s3_4343w,cy8ceval_062s2,cy8ceval_062_s2_lai_4373m2,cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval,cy8ceval_062s2_lai_43439m2,cy8cproto_062s2_43439,cy8ceval_062s2_mur_4373m2,cy8ceval_062s2_mur_4373em2]">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cyw920829m2evk_02,cyw989829m2evb_01,cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01,cy8cproto_062s3_4343w,cy8ceval_062s2,cy8ceval_062_s2_lai_4373m2,cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval,cy8ceval_062s2_lai_43439m2,cy8cproto_062s2_43439,cy8ceval_062s2_mur_4373m2,cy8ceval_062s2_mur_4373em2]">
+        <num>3.6.0 release</num>
+        <commit>release-v3.6.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cyw920829m2evk_02,cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01,cy8cproto_062s3_4343w,cy8ceval_062s2,cy8ceval_062_s2_lai_4373m2,cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval,cy8ceval_062s2_lai_43439m2,cy8cproto_062s2_43439,cy8ceval_062s2_mur_4373m2,cy8ceval_062s2_mur_4373em2]">
         <num>3.5.0 release</num>
@@ -10016,7 +10024,7 @@
     </versions>
   </app>
   <app keywords="pairing,mtb-flow,bluetooth,button" req_capabilities_v2="bt cyw20829">
-    <name>AIROC LE CYW20829 Voice Remote</name>
+    <name>Bluetooth LE Voice Remote</name>
     <id>mtb-example-btstack-freertos-cyw20829-voice-remote</id>
     <category>Bluetooth&#174;</category>
     <uri>https://github.com/Infineon/mtb-example-btstack-freertos-cyw20829-voice-remote</uri>
@@ -10875,6 +10883,14 @@
     <req_capabilities>bt led</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
@@ -10904,6 +10920,10 @@
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.2.0 release</num>
+        <commit>release-v1.2.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>1.1.0 release</num>
@@ -10991,6 +11011,10 @@
         <commit>latest-v3.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="bsp_gen4">
+        <num>3.1.0 release</num>
+        <commit>release-v3.1.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="bsp_gen4">
         <num>3.0.1 release</num>
         <commit>release-v3.0.1</commit>
       </version>
@@ -11025,6 +11049,14 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-cyw20829-mouse/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>bt cyw20829</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="bsp_gen4">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="bsp_gen4">
+        <num>3.0.0 release</num>
+        <commit>release-v3.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="bsp_gen4">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
@@ -11176,6 +11208,10 @@
         <commit>latest-v1.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.3.0 release</num>
+        <commit>release-v1.3.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>1.2.0 release</num>
         <commit>release-v1.2.0</commit>
       </version>
@@ -11235,20 +11271,24 @@
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,canfd,mtb-flow" req_capabilities_v2="led can psoc6 [cy8cproto_062s3_4343w,cy8ckit_062s4]">
+  <app keywords="psoc6,canfd,mtb-flow" req_capabilities_v2="led can psoc6 cyw20829 [cyw920829m2evk_02,cyw989829m2evb_01,cy8cproto_062s3_4343w,cy8ckit_062s4]">
     <name>CAN FD</name>
-    <id>mtb-example-psoc6-canfd</id>
+    <id>mtb-example-cat1-canfd</id>
     <category>Peripherals</category>
-    <uri>https://github.com/Infineon/mtb-example-psoc6-canfd</uri>
-    <description><![CDATA[This example demonstrates how to use CAN FD in Infineon's PSoC&#8482; 6 MCU devices. In this example, the CANFD Node-1 sends a CAN FD frame to CANFD-Node-2 on pressing the user button and vice versa. Both the CAN FD nodes log the received data over UART serial terminal. Each time a CAN FD Frame is received, the user LED toggles.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-canfd/blob/master/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>led can psoc6</req_capabilities>
+    <uri>https://github.com/Infineon/mtb-example-cat1-canfd</uri>
+    <description><![CDATA[This example demonstrates how to use CAN FD in Infineon's PSoC&#8482; 6 MCU,CYW20829 and CYW89829 devices. In this example, the CANFD Node-1 sends a CAN FD frame to CANFD-Node-2 on pressing the user button and vice versa. Both the CAN FD nodes log the received data over UART serial terminal. Each time a CAN FD Frame is received, the user LED toggles.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-cat1-canfd/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>led can</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4]">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_062s3_4343w,cy8ckit_062s4,cyw920829m2evk_02,cyw989829m2evb_01]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4]">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_062s3_4343w,cy8ckit_062s4,cyw920829m2evk_02,cyw989829m2evb_01]">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_062s3_4343w,cy8ckit_062s4,cyw920829m2evk_02,cyw989829m2evb_01]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -11996,9 +12036,13 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-hello-client/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>bt led</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cyw920829m2evk_02]">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cyw920829m2evk_02,cyw989829m2evb_01]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cyw920829m2evk_02,cyw989829m2evb_01]">
+        <num>1.2.0 release</num>
+        <commit>release-v1.2.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cyw920829m2evk_02]">
         <num>1.1.0 release</num>
@@ -12049,13 +12093,21 @@
     </versions>
   </app>
   <app keywords="multi-peripheral,mtb-flow,bluetooth,btstack,freertos,gatt,server" req_capabilities_v2="bt led [cyw20829, psoc6]">
-    <name>Bluetooth LE multi-peripheral</name>
+    <name>Bluetooth LE Multi-peripheral</name>
     <id>mtb-example-btstack-freertos-multi-peripheral</id>
     <category>Bluetooth&#174;</category>
     <uri>https://github.com/Infineon/mtb-example-btstack-freertos-multi-peripheral</uri>
     <description><![CDATA[This code example demonstrates the implementation of multi-peripheral functionality using PSoC&#8482; 6 MCU with Bluetooth&#174; Low Energy, AIROC&#8482; CYW20829, and ModusToolbox&#8482; software environment.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-multi-peripheral/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cyw920829m2evk_02,cy8ckit_062_ble,cyble_416045_eval]">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cyw920829m2evk_02,cy8ckit_062_ble,cyble_416045_eval]">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cyw920829m2evk_02,cy8ckit_062_ble,cyble_416045_eval]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -12441,6 +12493,44 @@
       </version>
     </versions>
   </app>
+  <app keywords="spi,cyw20829,dma,slave,mtb-flow" req_capabilities_v2="[cyw920829m2evk_02]">
+    <name>SPI Slave DMA</name>
+    <id>mtb-example-cyw20829-spi-slave-dma</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-cyw20829-spi-slave-dma</uri>
+    <description><![CDATA[This example demonstrates the use of the SPI Serial Communication Block (SCB) resource for CYW20829&trade; MCU in slave mode using DMA. The SPI slave will toggle the LED on the command received by the master.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-cyw20829-spi-slave-dma/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>cyw20829</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="spi,cyw20829,dma,master,mtb-flow" req_capabilities_v2="[cyw920829m2evk_02]">
+    <name>SPI Master DMA</name>
+    <id>mtb-example-cyw20829-spi-master-dma</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-cyw20829-spi-master-dma</uri>
+    <description><![CDATA[This example demonstrates the use of the SPI Serial Communication Block (SCB) resource for CYW20829&trade; MCU in master mode using DMA. The SPI master is configured to send command packets to control a user LED on the slave.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-cyw20829-spi-master-dma/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>cyw20829</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
   <app keywords="psoc4,msclp,capsense,csd,csx,button,slider,low-power,wot,tuning,mtb-flow" req_capabilities_v2="psoc4 msclp led i2c low_power msc_button msc_slider">
     <name>CY8CPROTO-040T Demo</name>
     <id>mtb-example-cy8cproto-040t-demo</id>
@@ -12645,6 +12735,177 @@
         <commit>latest-v1.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" tools_max_version="2.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="periodic adv, externed adv" req_capabilities_v2="cyw20829 [cyw920829m2evk_02]">
+    <name>Bluetooth LE Periodic Adv</name>
+    <id>mtb-example-btstack-freertos-le-periodic-adv</id>
+    <category>Bluetooth&#174;</category>
+    <uri>https://github.com/Infineon/mtb-example-btstack-freertos-le-periodic-adv</uri>
+    <description><![CDATA[This code example demonstrates the use of LE Periodic ADV with Infineon AIROC&trade; CYW20829 Bluetooth&#174; devices.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-le-periodic-adv/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>bt cyw20829</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="periodic sync" req_capabilities_v2="cyw20829 [cyw920829m2evk_02]">
+    <name>Bluetooth LE Periodic Sync</name>
+    <id>mtb-example-btstack-freertos-le-periodic-sync</id>
+    <category>Bluetooth&#174;</category>
+    <uri>https://github.com/Infineon/mtb-example-btstack-freertos-le-periodic-sync</uri>
+    <description><![CDATA[This code example demonstrates the use of Periodic Sync to ADV with Infineon AIROC&trade; CYW20829 Bluetooth&#174; devices.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-le-periodic-sync/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>bt cyw20829</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="pawr client" req_capabilities_v2="cyw20829 [cyw920829m2evk_02]">
+    <name>Bluetooth LE PAwR Client</name>
+    <id>mtb-example-btstack-freertos-le-pawr-client</id>
+    <category>Bluetooth&#174;</category>
+    <uri>https://github.com/Infineon/mtb-example-btstack-freertos-le-pawr-client</uri>
+    <description><![CDATA[This code example demonstrates a PAwR central implementation to establish synchronization with a PAwR peripheral.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-le-pawr-client/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>bt cyw20829</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="pawr server" req_capabilities_v2="cyw20829 [cyw920829m2evk_02]">
+    <name>Bluetooth LE PAwR Server</name>
+    <id>mtb-example-btstack-freertos-le-pawr-server</id>
+    <category>Bluetooth&#174;</category>
+    <uri>https://github.com/Infineon/mtb-example-btstack-freertos-le-pawr-server</uri>
+    <description><![CDATA[This code example demonstrates a PAwR peripheral implementation to establish synchronization with a PAwR central.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-le-pawr-server/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>bt cyw20829</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="btstack,freertos,battery,bluetooth,button" req_capabilities_v2="bt cyw20829 [cyw920829m2evk_02]">
+    <name>Bluetooth LE Battery Server with OTA</name>
+    <id>mtb-example-btstack-freertos-cyw20829-battery-server-ota</id>
+    <category>Bluetooth&#174;</category>
+    <uri>https://github.com/Infineon/mtb-example-btstack-freertos-cyw20829-battery-server-ota</uri>
+    <description><![CDATA[This code example demonstrates the implementation of a simple Bluetooth® Battery Service. The Battery Service exposes the battery level of the device and supports over-the-air (OTA) update over a Bluetooth® Low Energy connection. The app downloads and writes the image to the secondary slot. On the next reboot, MCUboot copies the new image over to the primary slot and runs the application. If the new image is not validated in run time, on the next reboot, MCUboot reverts to the previously validated image.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-cyw20829-battery-server-ota/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>bt cyw20829</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="btstack,freertos,power,bluetooth,button,lowpower,powermodes" req_capabilities_v2="bt cyw20829 [cyw920829m2evk_02]">
+    <name>Bluetooth LE Low Power Demo</name>
+    <id>mtb-example-btstack-freertos-cyw20829-switching-power-modes</id>
+    <category>Bluetooth&#174;</category>
+    <uri>https://github.com/Infineon/mtb-example-btstack-freertos-cyw20829-switching-power-modes</uri>
+    <description><![CDATA[This code example shows how to enter device from Active to Sleep, Active to DeepSleep, Active to DeepSleep-RAM and  Active to Hibernate power modes.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-cyw20829-switching-power-modes/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>bt cyw20829</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="power,button,lowpower,powermodes" req_capabilities_v2="bt cyw20829 [cyw920829m2evk_02]">
+    <name>Switching Power Modes</name>
+    <id>mtb-example-cyw20829-switching-power-modes</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-cyw20829-switching-power-modes</uri>
+    <description><![CDATA[This code example shows how the device can operate in low-power and ultra low-power system modes and also transit from Active to Sleep, Active to DeepSleep, Active to DeepSleep-RAM and  Active to Hibernate power modes.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-cyw20829-switching-power-modes/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>bt cyw20829</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="btstack,freertos,power,bluetooth,throughput" req_capabilities_v2="bt cyw20829 [cyw920829m2evk_02]">
+    <name>Bluetooth LE GATT Throughput Client</name>
+    <id>mtb-example-btstack-freertos-throughput-client</id>
+    <category>Bluetooth&#174;</category>
+    <uri>https://github.com/Infineon/mtb-example-btstack-freertos-throughput-client</uri>
+    <description><![CDATA[This code example demonstrates the maximum throughput (using GATT layer notification and GATT write command) that can be achieved with Infineon PSoC™ 6 MCU with AIROC™ Bluetooth® LE and AIROC™ CYW20829 Bluetooth® LE SoC devices.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-throughput-client/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>bt cyw20829</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="btstack,freertos,power,bluetooth,throughput" req_capabilities_v2="bt cyw20829 [cyw920829m2evk_02]">
+    <name>Bluetooth LE GATT Throughput Server</name>
+    <id>mtb-example-btstack-freertos-throughput-server</id>
+    <category>Bluetooth&#174;</category>
+    <uri>https://github.com/Infineon/mtb-example-btstack-freertos-throughput-server</uri>
+    <description><![CDATA[This code example demonstrates the maximum throughput (using GATT layer notification and GATT write command) that can be achieved with Infineon PSoC™ 6 MCU with AIROC™ Bluetooth® LE and AIROC™ CYW20829 Bluetooth® LE SoC devices.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-throughput-server/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>bt cyw20829</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="bsp_gen4">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
