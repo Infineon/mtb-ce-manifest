@@ -7224,6 +7224,25 @@
       </version>
     </versions>
   </app>
+  <app keywords="pmg1,ocp,scp,rcp,mtb-flow" req_capabilities_v2="pmg1 [pmg1_cy7111, pmg1_cy7112, pmg1_cy7113]">
+    <name>Using the CSA block for OCP, SCP and RCP</name>
+    <id>mtb-example-pmg1-ocp-scp-rcp</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-pmg1-ocp-scp-rcp</uri>
+    <description><![CDATA[This example demonstrates the use of overcurrent protection (OCP), short-circuit protection (SCP), and reverse current protection (RCP) features of current sense amplifier (CSA) block on EZ-PD&8482; PMG1-S1, PMG1-S2 and PMG1-S3 devices.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-ocp-scp-rcp/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>pmg1</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
   <app keywords="pmg1,usbpd,mtb-flow" req_capabilities_v2="usbpd pmg1 led [pmg1_cy7110, pmg1_cy7111, pmg1_cy7112, pmg1_cy7113]">
     <name>USB PD sink PPS demo</name>
     <id>mtb-example-pmg1-usbpd-sink-pps</id>
