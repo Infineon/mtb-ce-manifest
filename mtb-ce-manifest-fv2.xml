@@ -9031,6 +9031,14 @@
     <req_capabilities>psoc6 hal spi feather multi_core</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cysbsyskit_dev_01,kit_bgt60tr13c_embedd]">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cysbsyskit_dev_01,kit_bgt60tr13c_embedd]">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cysbsyskit_dev_01,kit_bgt60tr13c_embedd]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
