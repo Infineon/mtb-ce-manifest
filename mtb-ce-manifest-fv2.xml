@@ -69,6 +69,25 @@
       </version>
     </versions>
   </app>
+  <app keywords="led,button" req_capabilities_v2="hal switch led [psoc6]">
+    <name>GPIO Pins</name>
+    <id>mtb-example-psoc6-gpio-pins</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-gpio-pins</uri>
+    <description><![CDATA[This example demonstrates the GPIO pin operation on the PSoC&#8482; 6 MCU, using Eclipse IDE for ModusToolbox&#8482;. This includes reading, writing, interrupts, and full port configurations.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-gpio-pins/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>hal switch led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
+    </versions>
+  </app>
   <app keywords="led,starter,hello world,mtb-flow" req_capabilities_v2="hal led [psoc6,t2gbe,xmc7000,t2gbh,t2gbh_lite,cyw920829m2evk_02] [flash_0k,flash_8384k,flash_2048k,flash_1024k,flash_512k,flash_256k,flash_832k,flash_448k,flash_4160k,cy8ckit_064b0s2_4343w]">
     <name>Hello World</name>
     <id>mtb-example-hal-hello-world</id>
