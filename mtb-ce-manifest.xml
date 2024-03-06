@@ -1691,10 +1691,10 @@
   </app>
   <app>
     <name>MCUboot-Based Basic Bootloader</name>
-    <id>mtb-example-psoc6-mcuboot-basic-0</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-mcuboot-basic</uri>
+    <id>mtb-example-mcuboot-basic-0</id>
+    <uri>https://github.com/Infineon/mtb-example-mcuboot-basic</uri>
     <description><![CDATA[This code example demonstrates building a simple bootloader application for PSoC&#8482; 62/63 MCUs using the open-source library - MCUboot.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-mcuboot-basic/blob/master/README.md">README on GitHub</a>.]]></description>
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-mcuboot-basic/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 std_crypto led qspi nor_flash</req_capabilities>
     <versions>
       <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
