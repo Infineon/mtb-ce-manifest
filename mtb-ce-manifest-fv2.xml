@@ -2601,6 +2601,14 @@
     <req_capabilities>psoc4 led</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_145_40xx,cy8ckit_045s,cy8ckit_040t,cy8cproto_040t]">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_145_40xx,cy8ckit_045s,cy8ckit_040t,cy8cproto_040t]">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_145_40xx,cy8ckit_045s,cy8ckit_040t,cy8cproto_040t]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
@@ -2623,6 +2631,14 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-dfu-host/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc4 led</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max]">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max]">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -10403,6 +10419,14 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-msclp-capsense-low-power/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc4 msclp serial_led</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_040t]">
+        <num>Latest 4.X release</num>
+        <commit>latest-v4.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_040t]">
+        <num>4.0.0 release</num>
+        <commit>release-v4.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_040t]">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
@@ -10426,6 +10450,14 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-msclp-low-power-proximity-rgbled/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc4 msclp serial_led spi i2c low_power msc_proximity</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_040t]">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_040t]">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_040t]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -10453,6 +10485,14 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-msclp-liquid-tolerant-proximity/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc4 msclp serial_led spi i2c low_power msc_proximity</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_040t]">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_040t]">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_040t]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -10480,6 +10520,14 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-msclp-capsense-demo/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc4 msclp serial_led msc_button msc_touchpad spi i2c low_power enclosure</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_040t]">
+        <num>Latest 4.X release</num>
+        <commit>latest-v4.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_040t]">
+        <num>4.0.0 release</num>
+        <commit>release-v4.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_040t]">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
@@ -10503,6 +10551,14 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-msclp-csd-button/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc4 msclp serial_led msc_button spi i2c low_power</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_040t]">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_040t]">
+        <num>3.0.0 release</num>
+        <commit>release-v3.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_040t]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
@@ -10530,6 +10586,14 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-msclp-self-capacitance-touchpad/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc4 msclp serial_led msc_touchpad spi i2c low_power</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_040t]">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_040t]">
+        <num>3.0.0 release</num>
+        <commit>release-v3.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_040t]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
@@ -10553,6 +10617,14 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-msclp-csx-touchpad/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc4 msclp serial_led msc_touchpad spi i2c low_power</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_040t]">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_040t]">
+        <num>3.0.0 release</num>
+        <commit>release-v3.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_040t]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
@@ -10568,6 +10640,25 @@
       <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_040t]">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc4,msclp,capsense,csx,mptx,touchpad,low-power,tuning,mutual-capacitance,mtb-flow">
+    <name>PSoC 4 MSCLP multi-phase mutual-capacitance touchpad</name>
+    <id>mtb-example-psoc4-msclp-mptx-touchpad</id>
+    <category>Sensing</category>
+    <uri>https://github.com/Infineon/mtb-example-psoc4-msclp-mptx-touchpad</uri>
+    <description><![CDATA[TThis code example demonstrates multi-phase CSX (MPTX) touchpad implemention on the CY8CKIT-040T and showcases the performance improvement over regular CSX.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-msclp-csx-touchpad/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>psoc4 msclp serial_led msc_touchpad spi i2c low_power</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_040t]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_040t]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
       </version>
     </versions>
   </app>
@@ -12768,6 +12859,14 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-cy8cproto-040t-demo/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc4 msclp led i2c low_power msc_button msc_slider</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_040t]">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_040t]">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_040t]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -12787,6 +12886,14 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-msclp-low-power-csd-slider/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc4 msclp led i2c low_power msc_slider</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_040t]">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_040t]">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_040t]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -12806,6 +12913,14 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-msclp-low-power-csd-proximity/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc4 msclp led i2c low_power msc_proximity</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_040t]">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_040t]">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_040t]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -12825,6 +12940,14 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-msclp-low-power-csd-button/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc4 msclp led low_power msc_button i2c</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_040t]">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_040t]">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_040t]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -12844,6 +12967,14 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-msclp-low-power-csx-button/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc4 msclp led low_power msc_button i2c</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_040t]">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_040t]">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_040t]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -12863,6 +12994,14 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-msclp-low-power-csx-slider/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc4 msclp led low_power msc_slider i2c</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_040t]">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_040t]">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_040t]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
