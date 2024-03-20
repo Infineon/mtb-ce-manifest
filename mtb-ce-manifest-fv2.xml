@@ -7374,6 +7374,44 @@
       </version>
     </versions>
   </app>
+  <app keywords="pmg1,csdidac,mtb-flow" req_capabilities_v2="pmg1 csd [pmg1_cy7113]">
+    <name>IDAC - Current output digital-to-analog converter</name>
+    <id>mtb-example-pmg1-csdidac</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-pmg1-csdidac</uri>
+    <description><![CDATA[This code example demonstrates the use of the CSD hardware-block-based current digital-to-analog converter (CSDIDAC)of EZ-PD&8482; PMG1-S3 MCU as both a current source and a current sink.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-csdidac/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>pmg1 csd</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="pmg1,sw,uart,tx,mtb-flow" req_capabilities_v2="pmg1 uart [pmg1_cy7110, pmg1_cy7111, pmg1_cy7112, pmg1_cy7113]">
+    <name>Software UART transmit</name>
+    <id>mtb-example-pmg1-sw-uart-tx</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-pmg1-sw-uart-tx</uri>
+    <description><![CDATA[This code example demonstrates UART transmit (TX) operation using software (SW) bit-banging technique on PMG1 devices. This application uses a serial terminal to transmit the data. Any GPIO pin can be configured as a transmit (TX) pin to send data using this code example.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-sw-uart-tx/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>pmg1 uart</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
   <app keywords="pmg1,usbpd,mtb-flow" req_capabilities_v2="usbpd pmg1 led [pmg1_cy7110, pmg1_cy7111, pmg1_cy7112, pmg1_cy7113]">
     <name>USB PD sink PPS demo</name>
     <id>mtb-example-pmg1-usbpd-sink-pps</id>
