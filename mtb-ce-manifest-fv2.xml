@@ -13335,4 +13335,42 @@
       </version>
     </versions>
   </app>
+  <app keywords="xmc4000,xmc1000,dpcc,buck converter,pccm" req_capabilities_v2="buck_converter">
+    <name>PCCM buck converter</name>
+    <id>mtb-example-xmc-pccm-buck-single</id>
+    <category>Power Conversion</category>
+    <uri>https://github.com/Infineon/mtb-example-xmc-pccm-buck-single</uri>
+    <description><![CDATA[This example demonstrates peak current control mode buck power stage converter capabilities of Infineon's XMC&#8482; 1000/4000 devices.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-xmc-pccm-buck-single/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>buck_converter</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [buck_converter] [kit_xmc13_dpcc_v1, kit_xmc42_dpcc_v1]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [buck_converter] [kit_xmc13_dpcc_v1, kit_xmc42_dpcc_v1]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="xmc4000,xmc1000,dpcc,buck converter,vcm" req_capabilities_v2="buck_converter">
+    <name>VCM buck converter</name>
+    <id>mtb-example-xmc-vcm-buck-single</id>
+    <category>Power Conversion</category>
+    <uri>https://github.com/Infineon/mtb-example-xmc-vcm-buck-single</uri>
+    <description><![CDATA[This example demonstrates voltage control mode buck power stage converter capabilities of Infineon's XMC&#8482; 1000/4000 devices.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-xmc-vcm-buck-single/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>buck_converter</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [buck_converter] [kit_xmc13_dpcc_v1, kit_xmc42_dpcc_v1]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [buck_converter] [kit_xmc13_dpcc_v1, kit_xmc42_dpcc_v1]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
 </apps>
