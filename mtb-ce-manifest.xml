@@ -1,59 +1,5 @@
 <apps>
   <app>
-    <name>Empty PSoC4 App</name>
-    <id>mtb-example-psoc4-empty-app-0</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc4-empty-app</uri>
-    <description><![CDATA[This empty application provides a template for creating applications using PSoC&#8482; 4 devices.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-empty-app/blob/master/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>psoc4</req_capabilities>
-    <versions>
-      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
-      </version>
-      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
-        <num>1.0.0 release</num>
-        <commit>release-v1.0.0</commit>
-      </version>
-    </versions>
-  </app>
-  <app>
-    <name>Periodic Interrupt Using TCPWM</name>
-    <id>mtb-example-psoc4-tcpwm-interrupt-0</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc4-tcpwm-interrupt</uri>
-    <description><![CDATA[This example uses the TCPWM Component in the Timer/Counter mode to generate a periodic interrupt. An LED toggles whenever the interrupt occurs.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-tcpwm-interrupt/blob/master/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>psoc4 led</req_capabilities>
-    <versions>
-      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
-      </version>
-      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
-        <num>1.0.0 release</num>
-        <commit>release-v1.0.0</commit>
-      </version>
-    </versions>
-  </app>
-  <app>
-    <name>CapSense CSX Button Tuning</name>
-    <id>mtb-example-psoc4-capsense-csx-button-tuning-0</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc4-capsense-csx-button-tuning</uri>
-    <description><![CDATA[This code example demonstrates how to manually tune a mutual capacitance (CSX)-based button widget in PSoC&#8482; 4 devices using CapSense Tuner GUI.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-capsense-csx-button-tuning/blob/master/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>psoc4 capsense_button</req_capabilities>
-    <versions>
-      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
-      </version>
-      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
-        <num>1.0.0 release</num>
-        <commit>release-v1.0.0</commit>
-      </version>
-    </versions>
-  </app>
-  <app>
     <name>Empty PSoC6 App</name>
     <id>mtb-example-empty-app-0</id>
     <uri>https://github.com/Infineon/mtb-example-empty-app</uri>
@@ -125,21 +71,21 @@
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-ble-battery-level-freertos</uri>
     <description><![CDATA[This code example demonstrates the implementation of a Bluetooth&#174; Low Energy Battery Service using PSoC&#8482; 6 MCU with Bluetooth&#174; Low Energy Connectivity (PSoC&#8482; 6 Bluetooth&#174; LE). This code example implements a GATT Server with the Battery Service and Device Information Service Bluetooth&#174; Low Energy standards. This code example uses FreeRTOS.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-ble-battery-level-freertos/blob/master/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>psoc6 led switch ble</req_capabilities>
+    <req_capabilities>psoc6 led switch</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.4.1">
+      <version req_capabilities_per_version="bsp_gen1 ble" tools_max_version="2.1.0">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.4.1">
+      <version req_capabilities_per_version="bsp_gen1 ble" tools_max_version="2.1.0">
         <num>1.2.0 release</num>
         <commit>release-v1.2.0</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.4.1">
+      <version req_capabilities_per_version="bsp_gen1 ble" tools_max_version="2.1.0">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.4.1">
+      <version req_capabilities_per_version="bsp_gen1 ble" tools_max_version="2.1.0">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -173,21 +119,21 @@
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-ble-findme</uri>
     <description><![CDATA[This code example demonstrates the implementation of a simple Bluetooth&#174; Low Energy Immediate Alert Service (IAS)-based Find Me Profile (FMP) using PSoC&#8482; 6 MCU with Bluetooth&#174; Low Energy Connectivity.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-ble-findme/blob/master/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>psoc6 led switch ble</req_capabilities>
+    <req_capabilities>psoc6 led switch</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
+      <version req_capabilities_per_version="bsp_gen1 ble" tools_max_version="2.1.0">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
+      <version req_capabilities_per_version="bsp_gen1 ble" tools_max_version="2.1.0">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
+      <version req_capabilities_per_version="bsp_gen1 ble" tools_max_version="2.1.0">
         <num>1.0.1 release</num>
         <commit>release-v1.0.1</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
+      <version req_capabilities_per_version="bsp_gen1 ble" tools_max_version="2.1.0">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -427,10 +373,10 @@
   </app>
   <app>
     <name>I2C Master EzI2C Slave</name>
-    <id>mtb-example-psoc6-i2c-master-ezi2c-slave-0</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-i2c-master-ezi2c-slave</uri>
+    <id>mtb-example-hal-i2c-master-ezi2c-slave-0</id>
+    <uri>https://github.com/Infineon/mtb-example-hal-i2c-master-ezi2c-slave</uri>
     <description><![CDATA[This example demonstrates the use of I2C (HAL) resource for PSoC&#8482; 6 MCU in Master mode with an EzI2C slave.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-i2c-master-ezi2c-slave/blob/master/README.md">README on GitHub</a>.]]></description>
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-hal-i2c-master-ezi2c-slave/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 led</req_capabilities>
     <versions>
       <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
@@ -453,10 +399,10 @@
   </app>
   <app>
     <name>I2C Slave Using Callbacks</name>
-    <id>mtb-example-psoc6-i2c-slave-callback-0</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-i2c-slave-callback</uri>
+    <id>mtb-example-hal-i2c-slave-callback-0</id>
+    <uri>https://github.com/Infineon/mtb-example-hal-i2c-slave-callback</uri>
     <description><![CDATA[This example demonstrates the operation of the I2C (HAL) resource for PSoC&#8482; 6 MCU in Slave mode using callbacks.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-i2c-slave-callback/blob/master/README.md">README on GitHub</a>.]]></description>
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-hal-i2c-slave-callback/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 led</req_capabilities>
     <versions>
       <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
@@ -1257,13 +1203,13 @@
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-ble-throughput-freertos</uri>
     <description><![CDATA[This code example demonstrates Bluetooth&#174; Low Energy GATT throughput measurement (using GATT layer notifications and GATT write command) using PSoC&#8482; 6 Bluetooth&#174; Low Energy MCU.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-ble-throughput-freertos/blob/master/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>psoc6 led switch ble</req_capabilities>
+    <req_capabilities>psoc6 led switch</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.4.1">
+      <version req_capabilities_per_version="bsp_gen1 ble" tools_max_version="2.1.0">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.4.1">
+      <version req_capabilities_per_version="bsp_gen1 ble" tools_max_version="2.1.0">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -1577,13 +1523,13 @@
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-ble-capsense-tuner-server</uri>
     <description><![CDATA[This code example demonstrates how to monitor the CAPSENSE&#8482; data and tune the CAPSENSE&#8482; sensors over Bluetooth&#174; Low Energy communication with CAPSENSE&#8482; Tuner GUI using PSoC&#8482; 6 Bluetooth&#174; Low Energy MCU. This is intended to be used with the CAPSENSE&#8482; Tuning Over Bluetooth&#174; Low Energy - Client example.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-ble-capsense-tuner-server/blob/master/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>psoc6 led ble capsense_button capsense_linear_slider</req_capabilities>
+    <req_capabilities>psoc6 led capsense_button capsense_linear_slider</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
+      <version req_capabilities_per_version="bsp_gen1 ble" tools_max_version="2.1.0">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
+      <version req_capabilities_per_version="bsp_gen1 ble" tools_max_version="2.1.0">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -1677,13 +1623,13 @@
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-ble-capsense-tuner-client</uri>
     <description><![CDATA[This code example demonstrates how to monitor the CAPSENSE&#8482; data and tune the CAPSENSE&#8482; sensors over Bluetooth&#174; Low Energy communication with CAPSENSE&#8482; Tuner GUI using PSoC&#8482; 6 Bluetooth&#174; Low Energy MCU. This is intended to be used with the CAPSENSE&#8482; Tuning Over Bluetooth&#174; Low Energy - Server example.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-ble-capsense-tuner-client/blob/master/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>psoc6 led ble</req_capabilities>
+    <req_capabilities>psoc6 led</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
+      <version req_capabilities_per_version="bsp_gen1 ble" tools_max_version="2.1.0">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1" tools_max_version="2.1.0">
+      <version req_capabilities_per_version="bsp_gen1 ble" tools_max_version="2.1.0">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
