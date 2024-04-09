@@ -7411,7 +7411,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="pmg1,led,starter,hello world,mtb-flow" req_capabilities_v2="pmg1 led [pmg1_cy7110, pmg1_cy7111, pmg1_cy7112, pmg1_cy7113]">
+  <app keywords="pmg1,led,starter,hello world,mtb-flow" req_capabilities_v2="pmg1 led [pmg1_cy7110, pmg1_cy7111, pmg1_cy7112, pmg1_cy7113, pmg1_b1_cy7116]">
     <name>Hello World</name>
     <id>mtb-example-pmg1-hello-world</id>
     <category>Getting Started</category>
@@ -7423,6 +7423,10 @@
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>3.1.0 release</num>
+        <commit>release-v3.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>3.0.0 release</num>
@@ -7528,7 +7532,7 @@
     </versions>
   </app>
   <app keywords="pmg1,ocp,scp,rcp,mtb-flow" req_capabilities_v2="pmg1 [pmg1_cy7111, pmg1_cy7112, pmg1_cy7113]">
-    <name>Using the CSA block for OCP, SCP and RCP</name>
+    <name>Using the CSA block for OCP-SCP-RCP</name>
     <id>mtb-example-pmg1-ocp-scp-rcp</id>
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-pmg1-ocp-scp-rcp</uri>
@@ -8005,7 +8009,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="pmg1,led,switch,gpio-interrupt,mtb-flow" req_capabilities_v2="pmg1 led switch[pmg1_cy7110, pmg1_cy7111, pmg1_cy7112, pmg1_cy7113]">
+  <app keywords="pmg1,led,switch,gpio-interrupt,mtb-flow" req_capabilities_v2="pmg1 led switch[pmg1_cy7110, pmg1_cy7111, pmg1_cy7112, pmg1_cy7113, pmg1_b1_cy7116]">
     <name>LED Switch Interface</name>
     <id>mtb-example-pmg1-led-sw-interface</id>
     <category>Getting Started</category>
@@ -8017,6 +8021,10 @@
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>2.0.0 release</num>
@@ -10276,7 +10284,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="pmg1,adc,sar,8-bit,analog,mtb-flow" req_capabilities_v2="pmg1 usbpd uart led [pmg1_cy7110, pmg1_cy7111, pmg1_cy7112, pmg1_cy7113]">
+  <app keywords="pmg1,adc,sar,8-bit,analog,mtb-flow" req_capabilities_v2="pmg1 usbpd uart led [pmg1_cy7110, pmg1_cy7111, pmg1_cy7112, pmg1_cy7113, pmg1_b1_cy7116]">
     <name>8 bit SAR ADC</name>
     <id>mtb-example-pmg1-8-bit-saradc-basic</id>
     <category>Peripherals</category>
@@ -10288,6 +10296,10 @@
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>2.0.0 release</num>
@@ -10519,7 +10531,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="pmg1,watchdog,wdt,timer,reset,interrupt,mtb-flow" req_capabilities_v2="pmg1 led switch [pmg1_cy7110, pmg1_cy7111, pmg1_cy7112, pmg1_cy7113]">
+  <app keywords="pmg1,watchdog,wdt,timer,reset,interrupt,mtb-flow" req_capabilities_v2="pmg1 led switch [pmg1_cy7110, pmg1_cy7111, pmg1_cy7112, pmg1_cy7113, pmg1_b1_cy7116]">
     <name>Watchdog Timer</name>
     <id>mtb-example-pmg1-watchdog-timer</id>
     <category>Peripherals</category>
@@ -10531,6 +10543,10 @@
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>2.0.0 release</num>
