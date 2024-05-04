@@ -8156,7 +8156,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="pmg1,pwm,led,mtb-flow" req_capabilities_v2="pmg1 led [pmg1_cy7110, pmg1_cy7111, pmg1_cy7112, pmg1_cy7113]">
+  <app keywords="pmg1,pwm,led,mtb-flow" req_capabilities_v2="pmg1 led [pmg1_cy7110, pmg1_cy7111, pmg1_cy7112, pmg1_cy7113, pmg1_b1_cy7116]">
     <name>PWM LED</name>
     <id>mtb-example-pmg1-pwm-led</id>
     <category>Peripherals</category>
@@ -8168,6 +8168,10 @@
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>2.0.0 release</num>
@@ -10044,7 +10048,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="pmg1,temp,sensor,adc,8-bit,temperature,mtb-flow" req_capabilities_v2="pmg1 usbpd uart led switch">
+  <app keywords="pmg1,temp,sensor,adc,8-bit,temperature,mtb-flow" req_capabilities_v2="pmg1 usbpd uart led switch [pmg1_cy7110, pmg1_cy7111, pmg1_cy7112, pmg1_cy7113, pmg1_b1_cy7116]">
     <name>On Chip Temp Sensor 8 bit SAR ADC</name>
     <id>mtb-example-pmg1-on-chip-temp-sensor-8-bit-saradc</id>
     <category>Peripherals</category>
@@ -10053,19 +10057,23 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-on-chip-temp-sensor-8-bit-saradc/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>pmg1 usbpd uart led switch</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [pmg1_cy7110,pmg1_cy7111,pmg1_cy7112,pmg1_cy7113]">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="bsp_gen4">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [pmg1_cy7110,pmg1_cy7111,pmg1_cy7112,pmg1_cy7113]">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="bsp_gen4">
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="bsp_gen4">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.4.0" tools_max_version="2.4.1" req_capabilities_per_version_v2="[bsp_gen2] [pmg1_cy7110,pmg1_cy7111,pmg1_cy7112]">
+      <version flow_version="2.0" tools_min_version="2.4.0" tools_max_version="2.4.1" req_capabilities_per_version_v2="bsp_gen2">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.4.0" tools_max_version="2.4.1" req_capabilities_per_version_v2="[bsp_gen2] [pmg1_cy7110,pmg1_cy7111,pmg1_cy7112]">
+      <version flow_version="2.0" tools_min_version="2.4.0" tools_max_version="2.4.1" req_capabilities_per_version_v2="bsp_gen2">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -10257,7 +10265,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="pmg1,adc,sar,12-bit,analog,pass,mtb-flow" req_capabilities_v2="pmg1 adc uart [pmg1_cy7113]">
+  <app keywords="pmg1,adc,sar,12-bit,analog,pass,mtb-flow" req_capabilities_v2="pmg1 adc uart [pmg1_cy7113, pmg1_b1_cy7116]">
     <name>12 bit SAR ADC</name>
     <id>mtb-example-pmg1-12-bit-saradc-basic</id>
     <category>Peripherals</category>
@@ -10269,6 +10277,10 @@
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>2.0.0 release</num>
