@@ -13913,4 +13913,502 @@
       </version>
     </versions>
   </app>
+  <app keywords="starter,template,empty,blank,mtb-flow" req_capabilities_v2="cat5 cyw55xxx [cyw955513evk_01, cyw955913evk_01]">
+    <name>Empty App</name>
+    <id>mtb-example-threadx-empty-app</id>
+    <category>Getting Started</category>
+    <uri>https://github.com/Infineon/mtb-example-threadx-empty-app</uri>
+    <description><![CDATA[This empty application provides a template for creating applications using CYW55xxx devices.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-threadx-empty-app/blob/master/README.md">README on GitHub</a>.
+    ]]></description>
+    <req_capabilities>cyw55xxx</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="starter,blinky,mtb-flow,led" req_capabilities_v2="cat5 cyw55xxx [cyw955513evk_01, cyw955913evk_01]">
+    <name>HAL Blinky LED</name>
+    <id>mtb-example-threadx-blinky-led</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-threadx-blinky-led</uri>
+    <description><![CDATA[This code example demonstrates the blinking LED functionality implemented by ThreadX tasks on CYW55xxx devices.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-threadx-blinky-led/blob/master/README.md">README on GitHub</a>.
+    ]]></description>
+    <req_capabilities>cyw55xxx</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="mtb-flow,cat5,tester,wifi,wlan,tool,manufacturing" req_capabilities_v2="cat5 [cyw955913evk_01]">
+    <name>Tester - Threadx Wi-Fi Bluetooth Console</name>
+    <id>mtb-tester-threadx-wifi-bluetooth</id>
+    <category>Wi-Fi</category>
+    <uri>https://github.com/Infineon/mtb-tester-threadx-wifi-bluetooth</uri>
+    <description><![CDATA[This application integrates command console library including Wi-Fi iPerf and Bluetooth&#174; Low Energy functionality. Using this application, the user can characterize the Wi-Fi/Bluetooth&#174; Low Energy functionality and performance.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-tester-threadx-wifi-bluetooth/blob/master/README.md">README on GitHub</a>.
+    ]]></description>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="mtb-flow,cat5,tester,wifi,wlan,tool,manufacturing" req_capabilities_v2="cat5 [cyw955913evk_01]">
+    <name>Tester - Threadx Enterprise security</name>
+    <id>mtb-tester-threadx-enterprise-security</id>
+    <category>Wi-Fi</category>
+    <uri>https://github.com/Infineon/mtb-tester-threadx-enterprise-security</uri>
+    <description><![CDATA[This application provides a console interface to test enterprise Wi-Fi commands. This application integrates the command console library.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-tester-threadx-enterprise-security/blob/master/README.md">README on GitHub</a>.
+    ]]></description>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="hello world, uart, led">
+    <name>HAL Hello World</name>
+    <id>mtb-example-threadx-hello-world</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-threadx-hello-world</uri>
+    <description><![CDATA[This code example demonstrates a simple UART communication by printing the "Hello world" message on a terminal and toggling an LED using the UART communication as control signal. The code example is based on HAL(Hardware Abstraction Layer) libraries.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-threadx-hello-world/blob/master/README.md">README on GitHub</a>.
+    ]]></description>
+    <req_capabilities>cyw55xxx</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="mtb-flow,ble,bluetooth,btstack,threadx,findme,cyw55913">
+    <name>Bluetooth LE Findme</name>
+    <id>mtb-example-btstack-threadx-findme</id>
+    <category>Bluetooth&#174;</category>
+    <uri>https://github.com/Infineon/mtb-example-btstack-threadx-findme</uri>
+    <description><![CDATA[This code example demonstrates the implementation of a simple Bluetooth&#174; Immediate Alert Service (IAS)-based Find Me Profile (FMP) using the Infineon Wi-Fi & Bluetooth&#174; combo SoC devices.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-threadx-findme/blob/master/README.md">README on GitHub</a>.
+    ]]></description>
+    <req_capabilities>bt led cyw55xxx</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="mtb-flow,wifi,http,threadx,cyw55913">
+    <name>Wi-Fi Web Server</name>
+    <id>mtb-example-threadx-wifi-http-server</id>
+    <category>Wi-Fi</category>
+    <uri>https://github.com/Infineon/mtb-example-threadx-wifi-http-server</uri>
+    <description><![CDATA[This code example demonstrates Wi-Fi provisioning via a SoftAP and setting up a web server with CYW955913EVK-01
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-threadx-wifi-http-server/blob/master/README.md">README on GitHub</a>.
+    ]]></description>
+    <req_capabilities>wifi led cyw55xxx</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="mtb-flow,wifi,tcp,client,threadx,cyw55913">
+    <name>TCP Client</name>
+    <id>mtb-example-threadx-wifi-tcp-client</id>
+    <category>Wi-Fi</category>
+    <uri>https://github.com/Infineon/mtb-example-threadx-wifi-tcp-client</uri>
+    <description><![CDATA[This code example demonstrates the implementation of a TCP client with CYW955913EVK-01 EVK.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-threadx-wifi-tcp-client/blob/master/README.md">README on GitHub</a>.
+    ]]></description>
+    <req_capabilities>wifi led cyw55xxx</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="mtb-flow,wifi,tcp,server,threadx,cyw55913">
+    <name>TCP Server</name>
+    <id>mtb-example-threadx-wifi-tcp-server</id>
+    <category>Wi-Fi</category>
+    <uri>https://github.com/Infineon/mtb-example-threadx-wifi-tcp-server</uri>
+    <description><![CDATA[This code example demonstrates the implementation of a TCP server with CYW955913EVK-01 EVK.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-threadx-wifi-tcp-server/blob/master/README.md">README on GitHub</a>.
+    ]]></description>
+    <req_capabilities>wifi led cyw55xxx</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="mtb-flow,wifi,scan,threadx,cyw55913">
+    <name>Wi-Fi Scan</name>
+    <id>mtb-example-threadx-wifi-scan</id>
+    <category>Wi-Fi</category>
+    <uri>https://github.com/Infineon/mtb-example-threadx-wifi-scan</uri>
+    <description><![CDATA[This example demonstrates how to configure different scan filters provided in the Wi-Fi connection manager (WCM) middleware and scan for the available Wi-Fi networks.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-threadx-wifi-scan/blob/master/README.md">README on GitHub</a>.
+    ]]></description>
+    <req_capabilities>wifi cyw55xxx</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="mtb-flow,wifi,bluetooth,threadx,cyw55913">
+    <name>Bluetooth LE Wi-Fi onboarding</name>
+    <id>mtb-example-threadx-le-wifi-onboarding</id>
+    <category>Bluetooth&#174;</category>
+    <uri>https://github.com/Infineon/mtb-example-threadx-le-wifi-onboarding</uri>
+    <description><![CDATA[This example uses the Infineon Wi-Fi onboarding custom service via Bluetooth&#174; LE for provisioning a new device to a Wi-Fi Access point.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-threadx-le-wifi-onboarding/blob/master/README.md">README on GitHub</a>.
+    ]]></description>
+    <req_capabilities>wifi bt cyw55xxx</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="mtb-flow,battery,bluetooth,btstack,threadx,server,cyw55913">
+    <name>Battery Server</name>
+    <id>mtb-example-btstack-threadx-battery-server</id>
+    <category>Bluetooth&#174;</category>
+    <uri>https://github.com/Infineon/mtb-example-btstack-threadx-battery-server</uri>
+    <description><![CDATA[This code example demonstrates the implementation of a simple Bluetooth&#174; battery service. The battery service exposes the battery level of the device and supports enabling battery level notifications.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-threadx-battery-server/blob/master/README.md">README on GitHub</a>.
+    ]]></description>
+    <req_capabilities>bt led cyw55xxx</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="mtb-flow,wifi,AT-Commands,threadx,cyw55913">
+    <name>Wi-Fi AT Commands</name>
+    <id>mtb-example-threadx-at-commands</id>
+    <category>Wi-Fi</category>
+    <uri>https://github.com/Infineon/mtb-example-threadx-at-commands</uri>
+    <description><![CDATA[This example demonstrates AT command application that accepts AT command from a Host over UART to configure, manage, and control Wi-Fi functionalities and features of a device.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-threadx-at-commands/blob/master/README.md">README on GitHub</a>.
+    ]]></description>
+    <req_capabilities>wifi cyw55xxx</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="mtb-flow,wifi,mqtt,threadx,cyw55913">
+    <name>Wi-Fi MQTT Client</name>
+    <id>mtb-example-threadx-wifi-mqtt-client</id>
+    <category>Wi-Fi</category>
+    <uri>https://github.com/Infineon/mtb-example-threadx-wifi-mqtt-client</uri>
+    <description><![CDATA[This code example demonstrates implementing an MQTT Client using the MQTT Client library. The library uses the AWS IoT device SDK Port library and implements the glue layer that is required for the library to work with Infineon&#8482; connectivity platforms.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-threadx-wifi-mqtt-client/blob/master/README.md">README on GitHub</a>.
+    ]]></description>
+    <req_capabilities>wifi cyw55xxx</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="mtb-flow,wifi,udp,client,threadx,cyw55913">
+    <name>Wi-Fi UDP CLient</name>
+    <id>mtb-example-threadx-wifi-udp-client</id>
+    <category>Wi-Fi</category>
+    <uri>https://github.com/Infineon/mtb-example-threadx-wifi-udp-client</uri>
+    <description><![CDATA[This code example demonstrates implementation of UDP Client using the Wi-Fi connectivity SDK. The UDP Client establishes a connection with a remote UDP server and based on the command received from the UDP server, turns the user LED ON or OFF
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-threadx-wifi-udp-client/blob/master/README.md">README on GitHub</a>.
+    .]]></description>
+    <req_capabilities>wifi cyw55xxx</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="mtb-flow,wifi,udp,server,threadx,cyw55913">
+    <name>Wi-Fi UDP Server</name>
+    <id>mtb-example-threadx-wifi-udp-server</id>
+    <category>Wi-Fi</category>
+    <uri>https://github.com/Infineon/mtb-example-threadx-wifi-udp-server</uri>
+    <description><![CDATA[This code example demonstrates implementation of UDP Server using the Wi-Fi connectivity SDK. The UDP Server allows the user to send LED ON/OFF command to the UDP client.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-threadx-wifi-udp-server/blob/master/README.md">README on GitHub</a>.
+    ]]></description>
+    <req_capabilities>wifi cyw55xxx</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="mtb-flow,ble,bluetooth,btstack,threadx,beacon,cyw55913">
+    <name>Bluetooth LE Beacon</name>
+    <id>mtb-example-btstack-threadx-beacon</id>
+    <category>Bluetooth&#174;</category>
+    <uri>https://github.com/Infineon/mtb-example-btstack-threadx-beacon</uri>
+    <description><![CDATA[TThis code example demonstrates the implementation of Bluetooth&#174; LE extended advertisements and the use of the beacon library.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-threadx-beacon/blob/master/README.md">README on GitHub</a>.
+    ]]></description>
+    <req_capabilities>bt cyw55xxx</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="mtb-flow,ble,kv-store,btstack,threadx,privacy,cyw55913">
+    <name>Bluetooth LE Privacy</name>
+    <id>mtb-example-btstack-threadx-peripheral-privacy</id>
+    <category>Bluetooth&#174;</category>
+    <uri>https://github.com/Infineon/mtb-example-btstack-threadx-peripheral-privacy</uri>
+    <description><![CDATA[This code example demonstrates the privacy features available to users in Bluetooth&#174; Low Energy 5.0 and above.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-threadx-peripheral-privacy/blob/master/README.md">README on GitHub</a>.
+    ]]></description>
+    <req_capabilities>bt cyw55xxx</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="mtb-flow,wifi,ota,mqtt,threadx,cyw55913">
+    <name>Over-the-air firmware update using MQTT</name>
+    <id>mtb-example-threadx-wifi-ota-mqtt</id>
+    <category>Wi-Fi</category>
+    <uri>https://github.com/Infineon/mtb-example-threadx-wifi-ota-mqtt</uri>
+    <description><![CDATA[This code example showcases how to perform an MQTT over-the-air (OTA) update using the CYW955913EVK-01 Evaluation Kit.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-threadx-wifi-ota-mqtt/blob/master/README.md">README on GitHub</a>.
+    ]]></description>
+    <req_capabilities>wifi cyw55xxx</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="mtb-flow,ble,btstack,ota,threadx,cyw55913">
+    <name>Over-the-air firmware update using Bluetooth LE</name>
+    <id>mtb-example-btstack-threadx-le-ota</id>
+    <category>Bluetooth&#174;</category>
+    <uri>https://github.com/Infineon/mtb-example-btstack-threadx-le-ota</uri>
+    <description><![CDATA[This code example showcases how to perform an over-the-air (OTA) update using the Bluetooth&#174; LE in CYW955913EVK-01 Evaluation Kit.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-threadx-le-ota/blob/master/README.md">README on GitHub</a>.
+    ]]></description>
+    <req_capabilities>bt cyw55xxx</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="mtb-flow,wifi,ota,http,threadx,cyw55913">
+    <name>Over-the-air firmware update using HTTP</name>
+    <id>mtb-example-threadx-wifi-ota-http</id>
+    <category>Wi-Fi</category>
+    <uri>https://github.com/Infineon/mtb-example-threadx-wifi-ota-http</uri>
+    <description><![CDATA[This code example showcases how to perform an HTTP over-the-air (OTA) update using the CYW955913EVK-01 Evaluation Kit.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-threadx-wifi-ota-http/blob/master/README.md">README on GitHub</a>.
+    ]]></description>
+    <req_capabilities>wifi cyw55xxx</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="mtb-flow,psram,threadx,cyw55913">
+    <name>PSRAM Read and Write</name>
+    <id>mtb-example-threadx-psram</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-threadx-psram</uri>
+    <description><![CDATA[This code example demonstrates how to interface with an external PSRAM using Serial Memory Interface (SMIF) PDL in CYW955913EVK-01 EVK. It also demonstrates how to perform read and write operations in CYW955913EVK-01 EVK.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-threadx-psram/blob/master/README.md">README on GitHub</a>.
+    ]]></description>
+    <req_capabilities>psram cyw55xxx</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="mtb-flow,crypto,threadx,cyw55913">
+    <name>Crypto</name>
+    <id>mtb-example-threadx-crypto</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-threadx-crypto</uri>
+    <description><![CDATA[This code example integrates Secure Hash Algorithm (SHA),  Advanced Encryption Standard (AES), and True Random Number Generation (TRNG) functionalities using Mbed TLS.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-threadx-crypto/blob/master/README.md">README on GitHub</a>.
+    ]]></description>
+    <req_capabilities>cyw55xxx</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="mtb-flow,ambient,threadx,cyw55913">
+    <name>Ambient light sensor</name>
+    <id>mtb-example-threadx-ambient-light-sensor</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-threadx-ambient-light-sensor</uri>
+    <description><![CDATA[This code example demonstrates the interfacing of ambient light sensor (TSL2540) with CYW955913EVK-01 EVK. This example reads the light value from a sensor through I2C interface.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-threadx-ambient-light-sensor/blob/master/README.md">README on GitHub</a>.
+    ]]></description>
+    <req_capabilities>cyw55xxx</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="mtb-flow,lowpower,bluetooth,wlan,threadx,cyw55913">
+    <name>CYW5591x Low power</name>
+    <id>mtb-example-threadx-cyw5591x-low-power</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-threadx-cyw5591x-low-power</uri>
+    <description><![CDATA[This is low power application for CYW5591x devices. The application provides a simple UART interface to manipulate the device state and hence facilitating the system power measurement in different scenarios.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-threadx-cyw5591x-low-power/blob/master/README.md">README on GitHub</a>.
+    ]]></description>
+    <req_capabilities>cyw55xxx</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
 </apps>
