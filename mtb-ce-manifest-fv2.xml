@@ -14316,6 +14316,44 @@
       </version>
     </versions>
   </app>
+  <app keywords="nfc,adt" req_capabilities_v2="nfc_nbt">
+    <name>NBT Asynchronous Data Transfer</name>
+    <id>mtb-example-optiga-nbt-adt</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-optiga-nbt-adt</uri>
+    <description><![CDATA[This code example contains the NBT Asynchronous Data Transfer embedded application, a ModusToolbox&#8482; project which showcases the OPTIGA&#8482; Authenticate NBT device in the host parameterization via asynchronous data transfer (ADT) use case.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-optiga-nbt-adt">README on GitHub</a>.]]></description>
+    <req_capabilities>nfc_nbt</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="nbt,pt" req_capabilities_v2="nfc_nbt">
+    <name>NBT Pass-Through</name>
+    <id>mtb-example-optiga-nbt-pt</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-optiga-nbt-pt</uri>
+    <description><![CDATA[This code example contains the NBT Pass-Through embedded application, a ModusToolbox&#8482; project which showcases the OPTIGA&#8482; Authenticate NBT in the host parameterization via pass-through (PT) use case.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-optiga-nbt-pt">README on GitHub</a>.]]></description>
+    <req_capabilities>nfc_nbt</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
   <app keywords="isoc central" req_capabilities_v2="[cyw920829m2evk_02]">
     <name>Bluetooth LE ISOC Central</name>
     <id>mtb-example-btstack-freertos-le-isoc-central</id>
