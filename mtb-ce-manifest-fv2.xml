@@ -14951,4 +14951,23 @@
       </version>
     </versions>
   </app>
+  <app keywords="xmc4800,pmsm,foc,motor-control,sensorless,mtb-flow" req_capabilities_v2="[eval_xmc4800psoc6m5_xmc]">
+    <name>XMC48 PMSM FOC SL</name>
+    <id>mtb-example-xmc48-pmsm-foc-sl</id>
+    <category>Motor Control</category>
+    <uri>https://github.com/Infineon/mtb-example-xmc48-pmsm-foc-sl</uri>
+    <description><![CDATA[This code example demonstrates the sensorless PMSM FOC motor control application using XMC™4800PSOC6M5 board.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-xmc48-pmsm-foc-sl/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>xmc4800</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 0.X release</num>
+        <commit>latest-v0.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version="bsp_gen4">
+        <num>0.5.0 release</num>
+        <commit>release-v0.5.0</commit>
+      </version>
+    </versions>
+  </app>
 </apps>
