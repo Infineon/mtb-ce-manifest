@@ -14956,7 +14956,7 @@
     <id>mtb-example-xmc48-pmsm-foc-sl</id>
     <category>Motor Control</category>
     <uri>https://github.com/Infineon/mtb-example-xmc48-pmsm-foc-sl</uri>
-    <description><![CDATA[This code example demonstrates the sensorless PMSM FOC motor control application using XMC™4800PSOC6M5 board.
+    <description><![CDATA[This code example demonstrates the sensorless PMSM FOC motor control application using XMC&#8482;4800PSoC&#8482;6M5 board.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-xmc48-pmsm-foc-sl/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>xmc4800</req_capabilities>
     <versions>
