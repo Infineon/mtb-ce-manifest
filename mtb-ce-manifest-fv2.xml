@@ -7555,7 +7555,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="pmg1,led,starter,hello world,mtb-flow" req_capabilities_v2="pmg1 led [pmg1_cy7110, pmg1_cy7111, pmg1_cy7112, pmg1_cy7113, pmg1_b1_cy7116]">
+  <app keywords="pmg1,led,starter,hello world,mtb-flow" req_capabilities_v2="pmg1 led [pmg1_cy7110, pmg1_cy7111, pmg1_cy7112, pmg1_cy7113, pmg1_b1_cy7116, eval_pmg1_s1_drp, eval_pmg1_s3_dualdrp]">
     <name>Hello World</name>
     <id>mtb-example-pmg1-hello-world</id>
     <category>Getting Started</category>
@@ -7567,6 +7567,10 @@
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>3.2.0 release</num>
+        <commit>release-v3.2.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>3.1.0 release</num>
