@@ -12,6 +12,10 @@
         <commit>latest-v4.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>4.9.0 release</num>
+        <commit>release-v4.9.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
         <num>4.8.0 release</num>
         <commit>release-v4.8.0</commit>
       </version>
@@ -108,6 +112,10 @@
       <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
         <num>Latest 4.X release</num>
         <commit>latest-v4.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>4.10.0 release</num>
+        <commit>release-v4.10.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
         <num>4.9.0 release</num>
@@ -415,9 +423,13 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-capsense-buttons-slider/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 led capsense_button capsense_linear_slider</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4, bsp_gen5]">
         <num>Latest 4.X release</num>
         <commit>latest-v4.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4, bsp_gen5]">
+        <num>4.6.0 release</num>
+        <commit>release-v4.6.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version="bsp_gen4">
         <num>4.5.0 release</num>
@@ -620,6 +632,10 @@
         <commit>latest-v3.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>3.10.0 release</num>
+        <commit>release-v3.10.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
         <num>3.9.0 release</num>
         <commit>release-v3.9.0</commit>
       </version>
@@ -780,9 +796,13 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-hal-spi-master/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>hal led spi</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4] [cy8ceval_062s2,cy8ceval_062s2_lai_4373m2,cy8ckit_062_ble,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cy8cproto_062_4343w,cy8cproto_062s3_4343w,cy8cproto_063_ble,cy8ckit_062s4,cyw9p62s1_43012evb_01,cyw9p62s1_43438evb_01,cy8ckit_064b0s2_4343w,cy8ceval_062s2_mur_43439m2,cy8cproto_064b0s3,cy8cproto_064s1_sb,kit_xmc72_evk,kit_t2g_b_h_evk,kit_t2g_b_h_lite,cyw920829m2evk_02,cyw989829m2evb_01,cyw989829m2evb_03,cy8ceval_062s2_lai_43439m2,cy8cproto_062s2_43439,cy8ceval_062s2_mur_4373m2,cy8ceval_062s2_mur_4373em2,kit_xmc72_evk_mur_43439m2,kit_xmc71_evk_lite_v1,cy8ceval_062s2_cyw43022cub,cy8ckit_062s2_ai]">
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4] [cy8ceval_062s2,cy8ceval_062s2_lai_4373m2,cy8ckit_062_ble,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cy8cproto_062_4343w,cy8cproto_062s3_4343w,cy8cproto_063_ble,cy8ckit_062s4,cyw9p62s1_43012evb_01,cyw9p62s1_43438evb_01,cy8ckit_064b0s2_4343w,cy8ceval_062s2_mur_43439m2,cy8cproto_064b0s3,cy8cproto_064s1_sb,kit_xmc72_evk,kit_t2g_b_h_evk,kit_t2g_b_h_lite,cyw920829m2evk_02,cyw989829m2evb_01,cyw989829m2evb_03,cy8ceval_062s2_lai_43439m2,cy8cproto_062s2_43439,cy8ceval_062s2_mur_4373m2,cy8ceval_062s2_mur_4373em2,kit_xmc72_evk_mur_43439m2,kit_xmc71_evk_lite_v1,cy8ceval_062s2_cyw43022cub,cy8ckit_062s2_ai,cy8ceval_062s2_cyw955513sdm2wlipa]">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4] [cy8ceval_062s2,cy8ceval_062s2_lai_4373m2,cy8ckit_062_ble,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cy8cproto_062_4343w,cy8cproto_062s3_4343w,cy8cproto_063_ble,cy8ckit_062s4,cyw9p62s1_43012evb_01,cyw9p62s1_43438evb_01,cy8ckit_064b0s2_4343w,cy8ceval_062s2_mur_43439m2,cy8cproto_064b0s3,cy8cproto_064s1_sb,kit_xmc72_evk,kit_t2g_b_h_evk,kit_t2g_b_h_lite,cyw920829m2evk_02,cyw989829m2evb_01,cyw989829m2evb_03,cy8ceval_062s2_lai_43439m2,cy8cproto_062s2_43439,cy8ceval_062s2_mur_4373m2,cy8ceval_062s2_mur_4373em2,kit_xmc72_evk_mur_43439m2,kit_xmc71_evk_lite_v1,cy8ceval_062s2_cyw43022cub,cy8ckit_062s2_ai,cy8ceval_062s2_cyw955513sdm2wlipa]">
+        <num>3.10.0 release</num>
+        <commit>release-v3.10.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4] [cy8ceval_062s2,cy8ceval_062s2_lai_4373m2,cy8ckit_062_ble,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cy8cproto_062_4343w,cy8cproto_062s3_4343w,cy8cproto_063_ble,cy8ckit_062s4,cyw9p62s1_43012evb_01,cyw9p62s1_43438evb_01,cy8ckit_064b0s2_4343w,cy8ceval_062s2_mur_43439m2,cy8cproto_064b0s3,cy8cproto_064s1_sb,kit_xmc72_evk,kit_t2g_b_h_evk,kit_t2g_b_h_lite,cyw920829m2evk_02,cyw989829m2evb_01,cyw989829m2evb_03,cy8ceval_062s2_lai_43439m2,cy8cproto_062s2_43439,cy8ceval_062s2_mur_4373m2,cy8ceval_062s2_mur_4373em2,kit_xmc72_evk_mur_43439m2,kit_xmc71_evk_lite_v1,cy8ceval_062s2_cyw43022cub,cy8ckit_062s2_ai]">
         <num>3.9.0 release</num>
@@ -2032,9 +2052,13 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-dual-cpu-empty-app/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 multi_core</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ceval_062s2,cy8ceval_062s2_lai_4373m2,cy8ckit_062_ble,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cy8cproto_062_4343w,cy8cproto_062s3_4343w,cy8cproto_063_ble,cy8ckit_062s4,cyw9p62s1_43012evb_01,cyw9p62s1_43438evb_01,cy8ceval_062s2_mur_43439m2,cysbsyskit_dev_01,cy8ceval_062s2_lai_43439m2,cy8cproto_062s2_43439,cy8ceval_062s2_mur_4373m2,cy8ceval_062s2_mur_4373em2,cy8ceval_062s2_cyw43022cub,rdk2,cy8ckit_062s2_ai]">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ceval_062s2,cy8ceval_062s2_lai_4373m2,cy8ckit_062_ble,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cy8cproto_062_4343w,cy8cproto_062s3_4343w,cy8cproto_063_ble,cy8ckit_062s4,cyw9p62s1_43012evb_01,cyw9p62s1_43438evb_01,cy8ceval_062s2_mur_43439m2,cysbsyskit_dev_01,cy8ceval_062s2_lai_43439m2,cy8cproto_062s2_43439,cy8ceval_062s2_mur_4373m2,cy8ceval_062s2_mur_4373em2,cy8ceval_062s2_cyw43022cub,rdk2,cy8ckit_062s2_ai,cy8ceval_062s2_cyw955513sdm2wlipa]">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5] [cy8ceval_062s2,cy8ceval_062s2_lai_4373m2,cy8ckit_062_ble,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cy8cproto_062_4343w,cy8cproto_062s3_4343w,cy8cproto_063_ble,cy8ckit_062s4,cyw9p62s1_43012evb_01,cyw9p62s1_43438evb_01,cy8ceval_062s2_mur_43439m2,cysbsyskit_dev_01,cy8ceval_062s2_lai_43439m2,cy8cproto_062s2_43439,cy8ceval_062s2_mur_4373m2,cy8ceval_062s2_mur_4373em2,cy8ceval_062s2_cyw43022cub,rdk2,cy8ckit_062s2_ai,cy8ceval_062s2_cyw955513sdm2wlipa]">
+        <num>3.6.0 release</num>
+        <commit>release-v3.6.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ceval_062s2,cy8ceval_062s2_lai_4373m2,cy8ckit_062_ble,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cy8cproto_062_4343w,cy8cproto_062s3_4343w,cy8cproto_063_ble,cy8ckit_062s4,cyw9p62s1_43012evb_01,cyw9p62s1_43438evb_01,cy8ceval_062s2_mur_43439m2,cysbsyskit_dev_01,cy8ceval_062s2_lai_43439m2,cy8cproto_062s2_43439,cy8ceval_062s2_mur_4373m2,cy8ceval_062s2_mur_4373em2,cy8ceval_062s2_cyw43022cub,rdk2,cy8ckit_062s2_ai]">
         <num>3.5.0 release</num>
@@ -2251,19 +2275,23 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-ess/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>bt led switch</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4] [cyw920829m2evk_02,cyw989829m2evb_01,cyw989829m2evb_03,cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval]">
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4] [cyw920829m2evk_02,cyw989829m2evb_01,cyw989829m2evb_03,cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval,cy8ceval_062s2_cyw955513sdm2wlipa]">
         <num>Latest 5.X release</num>
         <commit>latest-v5.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4] [cyw920829m2evk_02,cyw989829m2evb_01,cyw989829m2evb_03,cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval,cy8ceval_062s2_cyw955513sdm2wlipa]">
+        <num>5.1.0 release</num>
+        <commit>release-v5.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4] [cyw920829m2evk_02,cyw989829m2evb_01,cyw989829m2evb_03,cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval]">
         <num>5.0.0 release</num>
         <commit>release-v5.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4]">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5]">
         <num>Latest 4.X release</num>
         <commit>latest-v4.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4]">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5]">
         <num>4.6.0 release</num>
         <commit>release-v4.6.0</commit>
       </version>
@@ -2317,7 +2345,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,mtb-flow,ble,bluetooth,btstack,freertos,beacon,eddystone,multi-adv,4343w,43012" req_capabilities_v2="psoc6 bt cyw43xxx [flash_2048k, flash_1024k, flash_512k]">
+  <app keywords="psoc6,mtb-flow,ble,bluetooth,btstack,freertos,beacon,eddystone,multi-adv,4343w,43012" req_capabilities_v2="psoc6 bt [cyw43xxx,cyw55xxx] [flash_2048k, flash_1024k, flash_512k]">
     <name>Bluetooth LE Multi Beacon</name>
     <id>mtb-example-btstack-freertos-multi-beacon</id>
     <category>Bluetooth&#174;</category>
@@ -2326,11 +2354,15 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-multi-beacon/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 bt cyw43xxx</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_062s2_43012,cyw9p62s1_43012evb_01,cysbsyskit_dev_01,cy8ceval_062s2_lai_4373m2,cy8ceval_062s2_mur_43439m2,cy8ceval_062s2_cyw43022cub]">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5] [cy8ckit_062s2_43012,cyw9p62s1_43012evb_01,cysbsyskit_dev_01,cy8ceval_062s2_lai_4373m2,cy8ceval_062s2_mur_43439m2,cy8ceval_062s2_cyw43022cub,cy8ceval_062s2_cyw955513sdm2wlipa]">
         <num>Latest 4.X release</num>
         <commit>latest-v4.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_062s2_43012,cyw9p62s1_43012evb_01,cysbsyskit_dev_01,cy8ceval_062s2_lai_4373m2,cy8ceval_062s2_mur_43439m2,cy8ceval_062s2_cyw43022cub]">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5] [cy8ckit_062s2_43012,cyw9p62s1_43012evb_01,cysbsyskit_dev_01,cy8ceval_062s2_lai_4373m2,cy8ceval_062s2_mur_43439m2,cy8ceval_062s2_cyw43022cub,cy8ceval_062s2_cyw955513sdm2wlipa]">
+        <num>4.2.0 release</num>
+        <commit>release-v4.2.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5] [cy8ckit_062s2_43012,cyw9p62s1_43012evb_01,cysbsyskit_dev_01,cy8ceval_062s2_lai_4373m2,cy8ceval_062s2_mur_43439m2,cy8ceval_062s2_cyw43022cub,cy8ceval_062s2_cyw955513sdm2wlipa]">
         <num>4.1.0 release</num>
         <commit>release-v4.1.0</commit>
       </version>
@@ -2373,11 +2405,15 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-wifi-onboarding/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 wifi bt low_power</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_062s2_43012,cysbsyskit_dev_01,cy8ckit_062_wifi_bt,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01,cy8ceval_062s2_lai_4373m2,cy8ceval_062s2_cyw43022cub,cy8ckit_062s2_ai]">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5] [cy8ckit_062s2_43012,cysbsyskit_dev_01,cy8ckit_062_wifi_bt,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01,cy8ceval_062s2_lai_4373m2,cy8ceval_062s2_cyw43022cub,cy8ckit_062s2_ai,cy8ceval_062s2_cyw955513sdm2wlipa]">
         <num>Latest 4.X release</num>
         <commit>latest-v4.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_062s2_43012,cysbsyskit_dev_01,cy8ckit_062_wifi_bt,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01,cy8ceval_062s2_lai_4373m2,cy8ceval_062s2_cyw43022cub,cy8ckit_062s2_ai]">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5] [cy8ckit_062s2_43012,cysbsyskit_dev_01,cy8ckit_062_wifi_bt,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01,cy8ceval_062s2_lai_4373m2,cy8ceval_062s2_cyw43022cub,cy8ckit_062s2_ai,cy8ceval_062s2_cyw955513sdm2wlipa]">
+        <num>4.3.0 release</num>
+        <commit>release-v4.3.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5] [cy8ckit_062s2_43012,cysbsyskit_dev_01,cy8ckit_062_wifi_bt,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01,cy8ceval_062s2_lai_4373m2,cy8ceval_062s2_cyw43022cub,cy8ckit_062s2_ai,cy8ceval_062s2_cyw955513sdm2wlipa]">
         <num>4.2.0 release</num>
         <commit>release-v4.2.0</commit>
       </version>
@@ -2907,7 +2943,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,airoc,wifi,mtb-flow,wifi-scan,wcm,scan filters,xmc7000" req_capabilities_v2="wifi cyw43xxx led switch std_crypto [psoc6, t2gbe, xmc7000] [flash_2048k, flash_1024k, flash_512k, flash_8384k, flash_1856k]">
+  <app keywords="psoc6,airoc,wifi,mtb-flow,wifi-scan,wcm,scan filters,xmc7000" req_capabilities_v2="wifi led switch std_crypto [cyw55xxx,cyw43xxx] [psoc6, t2gbe, xmc7000] [flash_2048k, flash_1024k, flash_512k, flash_8384k, flash_1856k]">
     <name>Wi-Fi Scan</name>
     <id>mtb-example-wifi-scan</id>
     <category>Wi-Fi</category>
@@ -2916,11 +2952,15 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-wifi-scan/blob/master/README.md">README on GitHub</a>.
     <br><br><b>License Disclaimer:</b><br><br>
     This code example makes use of the lwIP open-source TCP/IP stack and the Mbed TLS open-source TLS/SSL library which has cryptographic capabilities. Creating a project from this template will cause lwIP and Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the lwIP &amp; Mbed TLS licenses and regional use restrictions (including abiding by all applicable export control laws).]]></description>
-    <req_capabilities>psoc6 wifi cyw43xxx led switch std_crypto</req_capabilities>
+    <req_capabilities>psoc6 wifi led switch std_crypto cyw43xxx</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
         <num>Latest 4.X release</num>
         <commit>latest-v4.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>4.7.0 release</num>
+        <commit>release-v4.7.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
         <num>4.6.0 release</num>
@@ -2980,7 +3020,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,wifi,mtb-flow,wcm,wps,enrollee,wps-pbc,wps-sta-pin,xmc7000" req_capabilities_v2="wifi cyw43xxx led switch std_crypto [psoc6,t2gbe, xmc7000] [flash_2048k, flash_1024k, flash_8384k, flash_1856k]">
+  <app keywords="psoc6,wifi,mtb-flow,wcm,wps,enrollee,wps-pbc,wps-sta-pin,xmc7000" req_capabilities_v2="wifi led switch std_crypto [cyw43xxx,cyw55xxx] [psoc6,t2gbe, xmc7000] [flash_2048k, flash_1024k, flash_8384k, flash_1856k]">
     <name>WPS Enrollee</name>
     <id>mtb-example-wifi-wps-enrollee</id>
     <category>Wi-Fi</category>
@@ -2989,11 +3029,15 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-wifi-wps-enrollee/blob/master/README.md">README on GitHub</a>.
     <br><br><b>License Disclaimer:</b><br><br>
     This code example makes use of the lwIP open-source TCP/IP stack and the Mbed TLS open-source TLS/SSL library which has cryptographic capabilities. Creating a project from this template will cause lwIP and Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the lwIP &amp; Mbed TLS licenses and regional use restrictions (including abiding by all applicable export control laws).]]></description>
-    <req_capabilities>psoc6 wifi cyw43xxx led switch std_crypto</req_capabilities>
+    <req_capabilities>psoc6 wifi led switch std_crypto cyw43xxx</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>3.7.0 release</num>
+        <commit>release-v3.7.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
         <num>3.6.0 release</num>
@@ -3140,11 +3184,11 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-battery-server/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>bt led</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_062s2_43012,cy8cproto_062_4343w,cy8ceval_062s2_lai_4373m2,cy8ceval_062s2_mur_43439m2,cy8cproto_062s3_4343w,cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval,cy8ceval_062s2_cyw43022cub]">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5] [cy8ckit_062s2_43012,cy8cproto_062_4343w,cy8ceval_062s2_lai_4373m2,cy8ceval_062s2_mur_43439m2,cy8cproto_062s3_4343w,cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval,cy8ceval_062s2_cyw43022cub]">
         <num>Latest 5.X release</num>
         <commit>latest-v5.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_062s2_43012,cy8cproto_062_4343w,cy8ceval_062s2_lai_4373m2,cy8ceval_062s2_mur_43439m2,cy8cproto_062s3_4343w,cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval,cy8ceval_062s2_cyw43022cub]">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5] [cy8ckit_062s2_43012,cy8cproto_062_4343w,cy8ceval_062s2_lai_4373m2,cy8ceval_062s2_mur_43439m2,cy8cproto_062s3_4343w,cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval,cy8ceval_062s2_cyw43022cub]">
         <num>5.4.0 release</num>
         <commit>release-v5.4.0</commit>
       </version>
@@ -3207,19 +3251,23 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-findme/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>bt led</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4] [cyw920829m2evk_02,cyw989829m2evb_01,cyw989829m2evb_03,cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval]">
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4] [cyw920829m2evk_02,cyw989829m2evb_01,cyw989829m2evb_03,cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval,cy8ceval_062s2_cyw955513sdm2wlipa]">
         <num>Latest 5.X release</num>
         <commit>latest-v5.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4] [cyw920829m2evk_02,cyw989829m2evb_01,cyw989829m2evb_03,cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval,cy8ceval_062s2_cyw955513sdm2wlipa]">
+        <num>5.1.0 release</num>
+        <commit>release-v5.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4] [cyw920829m2evk_02,cyw989829m2evb_01,cyw989829m2evb_03,cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval]">
         <num>5.0.0 release</num>
         <commit>release-v5.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43012evb_01,cyw9p62s1_43438evb_01,cy8cproto_062s3_4343w,cysbsyskit_dev_01,cysbsyskit_01,cy8ceval_062s2_lai_4373m2,cy8ceval_062s2_mur_43439m2,cyw920829m2evk_02,cyw989829m2evb_01,cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval,cy8ceval_062s2_lai_43439m2,cy8cproto_062s2_43439,cy8ceval_062s2_mur_4373m2,cy8ceval_062s2_mur_4373em2,cy8ceval_062s2_cyw43022cub,cy8ckit_062s2_ai]">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5] [cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43012evb_01,cyw9p62s1_43438evb_01,cy8cproto_062s3_4343w,cysbsyskit_dev_01,cysbsyskit_01,cy8ceval_062s2_lai_4373m2,cy8ceval_062s2_mur_43439m2,cyw920829m2evk_02,cyw989829m2evb_01,cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval,cy8ceval_062s2_lai_43439m2,cy8cproto_062s2_43439,cy8ceval_062s2_mur_4373m2,cy8ceval_062s2_mur_4373em2,cy8ceval_062s2_cyw43022cub,cy8ckit_062s2_ai,cy8ceval_062s2_cyw955513sdm2wlipa]">
         <num>Latest 4.X release</num>
         <commit>latest-v4.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43012evb_01,cyw9p62s1_43438evb_01,cy8cproto_062s3_4343w,cysbsyskit_dev_01,cysbsyskit_01,cy8ceval_062s2_lai_4373m2,cy8ceval_062s2_mur_43439m2,cyw920829m2evk_02,cyw989829m2evb_01,cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval,cy8ceval_062s2_lai_43439m2,cy8cproto_062s2_43439,cy8ceval_062s2_mur_4373m2,cy8ceval_062s2_mur_4373em2,cy8ceval_062s2_cyw43022cub,cy8ckit_062s2_ai]">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5] [cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43012evb_01,cyw9p62s1_43438evb_01,cy8cproto_062s3_4343w,cysbsyskit_dev_01,cysbsyskit_01,cy8ceval_062s2_lai_4373m2,cy8ceval_062s2_mur_43439m2,cyw920829m2evk_02,cyw989829m2evb_01,cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval,cy8ceval_062s2_lai_43439m2,cy8cproto_062s2_43439,cy8ceval_062s2_mur_4373m2,cy8ceval_062s2_mur_4373em2,cy8ceval_062s2_cyw43022cub,cy8ckit_062s2_ai,cy8ceval_062s2_cyw955513sdm2wlipa]">
         <num>4.9.0 release</num>
         <commit>release-v4.9.0</commit>
       </version>
@@ -3289,7 +3337,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,led,capsense,button,slider,i2c,tuner,ble,bluetooth,btstack,freertos,4343w,43012,43438,mtb-flow" req_capabilities_v2="psoc6 led bt capsense_button capsense_linear_slider cyw43xxx [flash_2048k, flash_1024k, flash_512k]">
+  <app keywords="psoc6,led,capsense,button,slider,i2c,tuner,ble,bluetooth,btstack,freertos,4343w,43012,43438,mtb-flow" req_capabilities_v2="psoc6 led bt capsense_button capsense_linear_slider [cyw43xxx,cyw55xxx] [flash_2048k, flash_1024k, flash_512k]">
     <name>Bluetooth LE CAPSENSE Buttons and Slider</name>
     <id>mtb-example-btstack-freertos-capsense-buttons-slider</id>
     <category>Bluetooth&#174;</category>
@@ -3298,11 +3346,15 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-capsense-buttons-slider/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 led bt capsense_button capsense_linear_slider cyw43xxx</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_062_wifi_bt,cy8cproto_062_4343w,cy8ckit_062s2_43012,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01,cy8cproto_062s3_4343w,cy8ceval_062s2_lai_4373m2,cy8ceval_062s2,cy8ceval_062s2_cyw43022cub,cy8ckit_062_ble]">
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5] [cy8ckit_062_wifi_bt,cy8cproto_062_4343w,cy8ckit_062s2_43012,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01,cy8cproto_062s3_4343w,cy8ceval_062s2_lai_4373m2,cy8ceval_062s2,cy8ceval_062s2_cyw43022cub,cy8ckit_062_ble,cy8ceval_062s2_cyw955513sdm2wlipa]">
         <num>Latest 6.X release</num>
         <commit>latest-v6.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_062_wifi_bt,cy8cproto_062_4343w,cy8ckit_062s2_43012,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01,cy8cproto_062s3_4343w,cy8ceval_062s2_lai_4373m2,cy8ceval_062s2,cy8ceval_062s2_cyw43022cub,cy8ckit_062_ble]">
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5] [cy8ckit_062_wifi_bt,cy8cproto_062_4343w,cy8ckit_062s2_43012,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01,cy8cproto_062s3_4343w,cy8ceval_062s2_lai_4373m2,cy8ceval_062s2,cy8ceval_062s2_cyw43022cub,cy8ckit_062_ble,cy8ceval_062s2_cyw955513sdm2wlipa]">
+        <num>6.1.0 release</num>
+        <commit>release-v6.1.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5] [cy8ckit_062_wifi_bt,cy8cproto_062_4343w,cy8ckit_062s2_43012,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01,cy8cproto_062s3_4343w,cy8ceval_062s2_lai_4373m2,cy8ceval_062s2,cy8ceval_062s2_cyw43022cub,cy8ckit_062_ble,cy8ceval_062s2_cyw955513sdm2wlipa]">
         <num>6.0.0 release</num>
         <commit>release-v6.0.0</commit>
       </version>
@@ -3340,7 +3392,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,psoc6,lpa,wifi,wlan,lowpower" req_capabilities_v2="psoc6 wifi cyw43xxx led low_power [flash_2048k, flash_1024k, flash_512k, flash_1856k]">
+  <app keywords="mtb-flow,psoc6,lpa,wifi,wlan,lowpower" req_capabilities_v2="psoc6 wifi led low_power [cyw43xxx,cyw55xxx][flash_2048k, flash_1024k, flash_512k, flash_1856k]">
     <name>WLAN Low Power</name>
     <id>mtb-example-wifi-wlan-lowpower</id>
     <category>Wi-Fi</category>
@@ -3351,11 +3403,15 @@
     This code example makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license. <br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).]]></description>
     <req_capabilities>psoc6 wifi cyw43xxx led low_power</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01,cy8ceval_062s2_lai_4373m2,cy8ceval_062s2_mur_43439m2,cy8ckit_064b0s2_4343w,cy8cproto_062s3_4343w,cy8ceval_062s2_lai_43439m2,cy8cproto_062s2_43439,cy8ceval_062s2_cyw43022cub,cy8ckit_062s2_ai]">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5] [cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01,cy8ceval_062s2_lai_4373m2,cy8ceval_062s2_mur_43439m2,cy8ckit_064b0s2_4343w,cy8cproto_062s3_4343w,cy8ceval_062s2_lai_43439m2,cy8cproto_062s2_43439,cy8ceval_062s2_cyw43022cub,cy8ckit_062s2_ai,cy8ceval_062s2_cyw955513sdm2wlipa]">
         <num>Latest 4.X release</num>
         <commit>latest-v4.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01,cy8ceval_062s2_lai_4373m2,cy8ceval_062s2_mur_43439m2,cy8ckit_064b0s2_4343w,cy8cproto_062s3_4343w,cy8ceval_062s2_lai_43439m2,cy8cproto_062s2_43439,cy8ceval_062s2_cyw43022cub,cy8ckit_062s2_ai]">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5] [cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01,cy8ceval_062s2_lai_4373m2,cy8ceval_062s2_mur_43439m2,cy8ckit_064b0s2_4343w,cy8cproto_062s3_4343w,cy8ceval_062s2_lai_43439m2,cy8cproto_062s2_43439,cy8ceval_062s2_cyw43022cub,cy8ckit_062s2_ai,cy8ceval_062s2_cyw955513sdm2wlipa]">
+        <num>4.5.0 release</num>
+        <commit>release-v4.5.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5] [cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01,cy8ceval_062s2_lai_4373m2,cy8ceval_062s2_mur_43439m2,cy8ckit_064b0s2_4343w,cy8cproto_062s3_4343w,cy8ceval_062s2_lai_43439m2,cy8cproto_062s2_43439,cy8ceval_062s2_cyw43022cub,cy8ckit_062s2_ai,cy8ceval_062s2_cyw955513sdm2wlipa]">
         <num>4.4.0 release</num>
         <commit>release-v4.4.0</commit>
       </version>
@@ -3412,7 +3468,7 @@
     <uri>https://github.com/Infineon/mtb-anycloud-bluetooth-mfg-tester</uri>
     <description><![CDATA[This application is used to validate the Bluetooth&#174; Firmware and RF performance for PSoC&#8482; 6 MCU with Bluetooth&#174; BR/EDR/LE devices.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-anycloud-bluetooth-mfg-tester/blob/master/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>psoc6 bt cyw43xxx anycloud</req_capabilities>
+    <req_capabilities>psoc6 bt anycloud cyw43xxx</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
         <num>Latest 1.X release</num>
@@ -3445,7 +3501,7 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-anycloud-wifi-cert-tester/blob/master/README.md">README on GitHub</a>.
     <br><br><b>License Disclaimer:</b><br><br>
     This tester application makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license. <br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).]]></description>
-    <req_capabilities>psoc6 wifi cyw43xxx low_power anycloud</req_capabilities>
+    <req_capabilities>psoc6 wifi low_power anycloud cyw43xxx</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>Latest 4.X release</num>
@@ -3481,7 +3537,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,psoc6,tester,anycloud,wifi,wlan,tool,manufacturing" req_capabilities_v2="[cat4, cy8ceval_062s2_mur_43439m2, cy8ceval_062s2_lai_4373m2, cy8ckit_062s2_43012, cy8cproto_062_4343w] wifi low_power anycloud [flash_2048k, sram_2048k]">
+  <app keywords="mtb-flow,psoc6,tester,anycloud,wifi,wlan,tool,manufacturing" req_capabilities_v2="[cat4, cy8ceval_062s2_mur_43439m2, cy8ceval_062s2_lai_4373m2, cy8ckit_062s2_43012, cy8cproto_062_4343w, cy8ceval_062s2_cyw955513sdm2wlipa] wifi low_power anycloud [flash_2048k, sram_2048k]">
     <name>Tester - Wi-Fi Bluetooth Console</name>
     <id>mtb-wifi-bluetooth-tester</id>
     <category>Wi-Fi</category>
@@ -3492,9 +3548,13 @@
     This tester application makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license. <br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).]]></description>
     <req_capabilities>wifi low_power anycloud</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5]">
+        <num>2.2.0 release</num>
+        <commit>release-v2.2.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>2.1.0 release</num>
@@ -3587,7 +3647,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,psoc6,lpa,wifi,wlan,offload,tcp-keepalive,xmc7000" req_capabilities_v2="wifi cyw43xxx low_power [psoc6, xmc7000] [flash_2048k, flash_1024k, flash_512k, flash_8384k, flash_1856k]">
+  <app keywords="mtb-flow,psoc6,lpa,wifi,wlan,offload,tcp-keepalive,xmc7000" req_capabilities_v2="wifi low_power [cyw43xxx,cyw55xxx][psoc6, xmc7000] [flash_2048k, flash_1024k, flash_512k, flash_8384k, flash_1856k]">
     <name>WLAN Offloads</name>
     <id>mtb-example-wlan-offloads</id>
     <category>Wi-Fi</category>
@@ -3598,11 +3658,15 @@
     This code example makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license. <br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).]]></description>
     <req_capabilities>psoc6 wifi cyw43xxx low_power</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01,cy8ckit_064b0s2_4343w,cy8cproto_062s3_4343w,cy8ceval_062s2_lai_4373m2,cy8ceval_062s2_mur_43439m2,cysbsyskit_dev_01,cy8ceval_062s2_lai_43439m2,cy8cproto_062s2_43439,cy8ceval_062s2_mur_4373em2,cy8ceval_062s2_mur_4373m2,cy8ckit_062s2_ai]">
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5] [cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01,cy8ckit_064b0s2_4343w,cy8cproto_062s3_4343w,cy8ceval_062s2_lai_4373m2,cy8ceval_062s2_mur_43439m2,cysbsyskit_dev_01,cy8ceval_062s2_lai_43439m2,cy8cproto_062s2_43439,cy8ceval_062s2_mur_4373em2,cy8ceval_062s2_mur_4373m2,cy8ckit_062s2_ai,cy8ceval_062s2_cyw955513sdm2wlipa]">
         <num>Latest 5.X release</num>
         <commit>latest-v5.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01,cy8ckit_064b0s2_4343w,cy8cproto_062s3_4343w,cy8ceval_062s2_lai_4373m2,cy8ceval_062s2_mur_43439m2,cysbsyskit_dev_01,cy8ceval_062s2_lai_43439m2,cy8cproto_062s2_43439,cy8ceval_062s2_mur_4373em2,cy8ceval_062s2_mur_4373m2,cy8ckit_062s2_ai]">
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5] [cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01,cy8ckit_064b0s2_4343w,cy8cproto_062s3_4343w,cy8ceval_062s2_lai_4373m2,cy8ceval_062s2_mur_43439m2,cysbsyskit_dev_01,cy8ceval_062s2_lai_43439m2,cy8cproto_062s2_43439,cy8ceval_062s2_mur_4373em2,cy8ceval_062s2_mur_4373m2,cy8ckit_062s2_ai,cy8ceval_062s2_cyw955513sdm2wlipa]">
+        <num>5.5.0 release</num>
+        <commit>release-v5.5.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5] [cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01,cy8ckit_064b0s2_4343w,cy8cproto_062s3_4343w,cy8ceval_062s2_lai_4373m2,cy8ceval_062s2_mur_43439m2,cysbsyskit_dev_01,cy8ceval_062s2_lai_43439m2,cy8cproto_062s2_43439,cy8ceval_062s2_mur_4373em2,cy8ceval_062s2_mur_4373m2,cy8ckit_062s2_ai,cy8ceval_062s2_cyw955513sdm2wlipa]">
         <num>5.4.0 release</num>
         <commit>release-v5.4.0</commit>
       </version>
@@ -6519,7 +6583,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,psoc6,udp,client,wifi,led" req_capabilities_v2="psoc6 cyw43xxx wifi led std_crypto [flash_2048k, flash_1024k, flash_512k, flash_1856k]">
+  <app keywords="mtb-flow,psoc6,udp,client,wifi,led" req_capabilities_v2="psoc6 wifi led std_crypto [cyw43xxx,cyw55xxx][flash_2048k, flash_1024k, flash_512k, flash_1856k]">
     <name>Wi-Fi UDP Client</name>
     <id>mtb-example-wifi-udp-client</id>
     <category>Wi-Fi</category>
@@ -6530,11 +6594,15 @@
     This code example makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license. <br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).]]></description>
     <req_capabilities>psoc6 cyw43xxx wifi led std_crypto</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5]">
         <num>Latest 4.X release</num>
         <commit>latest-v4.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5]">
+        <num>4.2.0 release</num>
+        <commit>release-v4.2.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5]">
         <num>4.1.0 release</num>
         <commit>release-v4.1.0</commit>
       </version>
@@ -6572,7 +6640,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,psoc6,udp,server,wifi,switch" req_capabilities_v2="psoc6 cyw43xxx wifi switch std_crypto [flash_2048k,flash_1024k,flash_512k,flash_1856k]">
+  <app keywords="mtb-flow,psoc6,udp,server,wifi,switch" req_capabilities_v2="psoc6 wifi switch std_crypto [cyw43xxx,cyw55xxx][flash_2048k,flash_1024k,flash_512k,flash_1856k]">
     <name>Wi-Fi UDP Server</name>
     <id>mtb-example-wifi-udp-server</id>
     <category>Wi-Fi</category>
@@ -6583,11 +6651,15 @@
     This code example makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license. <br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).]]></description>
     <req_capabilities>psoc6 cyw43xxx wifi switch std_crypto</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5]">
         <num>Latest 4.X release</num>
         <commit>latest-v4.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5]">
+        <num>4.3.0 release</num>
+        <commit>release-v4.3.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5]">
         <num>4.2.0 release</num>
         <commit>release-v4.2.0</commit>
       </version>
@@ -6629,7 +6701,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,psoc6,wifi,ota,http,https,xmc7000" req_capabilities_v2="cyw43xxx wifi led [psoc6, xmc7000]">
+  <app keywords="mtb-flow,psoc6,wifi,ota,http,https,xmc7000" req_capabilities_v2="wifi led [cyw43xxx,cyw55xxx][psoc6, xmc7000]">
     <name>OTA Using HTTPS</name>
     <id>mtb-example-ota-https</id>
     <category>Wi-Fi</category>
@@ -6640,11 +6712,15 @@
     This code example makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license. <br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).]]></description>
     <req_capabilities>psoc6 cyw43xxx wifi led</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ceval_062s2_lai_4373m2,cy8ceval_062s2_mur_43439m2,cy8ckit_062s2_43012,cy8cproto_062_4343w,cy8cproto_062s3_4343w,cy8ceval_062s2_lai_43439m2,cy8cproto_062s2_43439,cy8ceval_062s2_cyw43022cub,kit_xmc72_evk_mur_43439m2,cy8ceval_062s2_mur_4373m2,cy8ceval_062s2_mur_4373em2]">
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5] [cy8ceval_062s2_lai_4373m2,cy8ceval_062s2_mur_43439m2,cy8ckit_062s2_43012,cy8cproto_062_4343w,cy8cproto_062s3_4343w,cy8ceval_062s2_lai_43439m2,cy8cproto_062s2_43439,cy8ceval_062s2_cyw43022cub,kit_xmc72_evk_mur_43439m2,cy8ceval_062s2_mur_4373m2,cy8ceval_062s2_mur_4373em2,cy8ceval_062s2_cyw955513sdm2wlipa]">
         <num>Latest 6.X release</num>
         <commit>latest-v6.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ceval_062s2_lai_4373m2,cy8ceval_062s2_mur_43439m2,cy8ckit_062s2_43012, cy8cproto_062_4343w, cy8cproto_062s3_4343w,cy8ceval_062s2_lai_43439m2,cy8cproto_062s2_43439,cy8ceval_062s2_cyw43022cub,kit_xmc72_evk_mur_43439m2,cy8ceval_062s2_mur_4373m2,cy8ceval_062s2_mur_4373em2]">
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5] [cy8ceval_062s2_lai_4373m2,cy8ceval_062s2_mur_43439m2,cy8ckit_062s2_43012, cy8cproto_062_4343w, cy8cproto_062s3_4343w,cy8ceval_062s2_lai_43439m2,cy8cproto_062s2_43439,cy8ceval_062s2_cyw43022cub,kit_xmc72_evk_mur_43439m2,cy8ceval_062s2_mur_4373m2,cy8ceval_062s2_mur_4373em2,cy8ceval_062s2_cyw955513sdm2wlipa]">
+        <num>6.2.0 release</num>
+        <commit>release-v6.2.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5] [cy8ceval_062s2_lai_4373m2,cy8ceval_062s2_mur_43439m2,cy8ckit_062s2_43012, cy8cproto_062_4343w, cy8cproto_062s3_4343w,cy8ceval_062s2_lai_43439m2,cy8cproto_062s2_43439,cy8ceval_062s2_cyw43022cub,kit_xmc72_evk_mur_43439m2,cy8ceval_062s2_mur_4373m2,cy8ceval_062s2_mur_4373em2,cy8ceval_062s2_cyw955513sdm2wlipa]">
         <num>6.1.0 release</num>
         <commit>release-v6.1.0</commit>
       </version>
@@ -6765,7 +6841,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,psoc6,xmc7000,wifi,ota,mqtt" req_capabilities_v2="cyw43xxx wifi led [psoc6, xmc7000]">
+  <app keywords="mtb-flow,psoc6,xmc7000,wifi,ota,mqtt" req_capabilities_v2="wifi led [cyw43xxx,cyw55xxx][psoc6, xmc7000]">
     <name>OTA Using MQTT</name>
     <id>mtb-example-ota-mqtt</id>
     <category>Wi-Fi</category>
@@ -6776,11 +6852,15 @@
     This code example makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license. <br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).]]></description>
     <req_capabilities>psoc6 cyw43xxx wifi led</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ceval_062s2_lai_4373m2,cy8ceval_062s2_mur_43439m2,cy8ckit_062s2_43012,cy8cproto_062_4343w,cy8cproto_062s3_4343w,kit_xmc72_evk_mur_43439m2,cy8ceval_062s2_lai_43439m2,cy8ceval_062s2_cyw43022cub,cy8cproto_062s2_43439,cy8ceval_062s2_mur_4373m2,cy8ceval_062s2_mur_4373em2]">
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5] [cy8ceval_062s2_lai_4373m2,cy8ceval_062s2_mur_43439m2,cy8ckit_062s2_43012,cy8cproto_062_4343w,cy8cproto_062s3_4343w,kit_xmc72_evk_mur_43439m2,cy8ceval_062s2_lai_43439m2,cy8ceval_062s2_cyw43022cub,cy8cproto_062s2_43439,cy8ceval_062s2_mur_4373m2,cy8ceval_062s2_mur_4373em2,cy8ceval_062s2_cyw955513sdm2wlipa]">
         <num>Latest 7.X release</num>
         <commit>latest-v7.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ceval_062s2_lai_4373m2,cy8ceval_062s2_mur_43439m2,cy8ckit_062s2_43012,cy8cproto_062_4343w,cy8cproto_062s3_4343w,kit_xmc72_evk_mur_43439m2,cy8ceval_062s2_lai_43439m2,cy8ceval_062s2_cyw43022cub,cy8cproto_062s2_43439,cy8ceval_062s2_mur_4373m2,cy8ceval_062s2_mur_4373em2]">
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5] [cy8ceval_062s2_lai_4373m2,cy8ceval_062s2_mur_43439m2,cy8ckit_062s2_43012,cy8cproto_062_4343w,cy8cproto_062s3_4343w,kit_xmc72_evk_mur_43439m2,cy8ceval_062s2_lai_43439m2,cy8ceval_062s2_cyw43022cub,cy8cproto_062s2_43439,cy8ceval_062s2_mur_4373m2,cy8ceval_062s2_mur_4373em2,cy8ceval_062s2_cyw955513sdm2wlipa]">
+        <num>7.2.0 release</num>
+        <commit>release-v7.2.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5] [cy8ceval_062s2_lai_4373m2,cy8ceval_062s2_mur_43439m2,cy8ckit_062s2_43012,cy8cproto_062_4343w,cy8cproto_062s3_4343w,kit_xmc72_evk_mur_43439m2,cy8ceval_062s2_lai_43439m2,cy8ceval_062s2_cyw43022cub,cy8cproto_062s2_43439,cy8ceval_062s2_mur_4373m2,cy8ceval_062s2_mur_4373em2,cy8ceval_062s2_cyw955513sdm2wlipa]">
         <num>7.1.0 release</num>
         <commit>release-v7.1.0</commit>
       </version>
@@ -6892,7 +6972,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,psoc6,http,https,server,wifi,xmc7000" req_capabilities_v2="cyw43xxx led wifi std_crypto [psoc6,t2gbe, xmc7000] [flash_8384k, flash_2048k,flash_1024k,flash_512k,flash_1856k]">
+  <app keywords="mtb-flow,psoc6,http,https,server,wifi,xmc7000" req_capabilities_v2="led wifi std_crypto [cyw43xxx,cyw55xxx][psoc6,t2gbe, xmc7000] [flash_8384k, flash_2048k,flash_1024k,flash_512k,flash_1856k]">
     <name>Wi-Fi HTTPS Server</name>
     <id>mtb-example-wifi-https-server</id>
     <category>Wi-Fi</category>
@@ -6906,6 +6986,10 @@
       <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
         <num>Latest 4.X release</num>
         <commit>latest-v4.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>4.5.0 release</num>
+        <commit>release-v4.5.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
         <num>4.4.0 release</num>
@@ -6953,7 +7037,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,psoc6,http,softap,tft,server,wifi,AP+STA concurrent mode,web server" req_capabilities_v2="psoc6 cyw43xxx led capsense_button capsense_linear_slider wifi [flash_2048k, flash_1024k, flash_1856k]">
+  <app keywords="mtb-flow,psoc6,http,softap,tft,server,wifi,AP+STA concurrent mode,web server" req_capabilities_v2="psoc6 led capsense_button capsense_linear_slider wifi [cyw43xxx,cyw55xxx][flash_2048k, flash_1024k, flash_1856k]">
     <name>Wi-Fi Web Server</name>
     <id>mtb-example-wifi-web-server</id>
     <category>Wi-Fi</category>
@@ -6964,11 +7048,11 @@
     This code example makes use of the lwIP open-source TCP/IP stack and the Mbed TLS open-source TLS/SSL library which has cryptographic capabilities. Creating a project from this template will cause lwIP and Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the lwIP &amp; Mbed TLS licenses and regional use restrictions (including abiding by all applicable export control laws).]]></description>
     <req_capabilities>psoc6 cyw43xxx led capsense_button capsense_linear_slider wifi</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_062_wifi_bt,cy8cproto_062_4343w,cy8ckit_062s2_43012,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01,cy8cproto_062s3_4343w,cy8ckit_064b0s2_4343w,cy8ceval_062s2_lai_4373m2,cy8ceval_062s2_mur_43439m2,cy8ceval_062s2_lai_43439m2,cy8ceval_062s2_mur_4373em2,cy8cproto_062s2_43439,cy8ceval_062s2_cyw43022cub]">
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5] [cy8ckit_062_wifi_bt,cy8cproto_062_4343w,cy8ckit_062s2_43012,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01,cy8cproto_062s3_4343w,cy8ckit_064b0s2_4343w,cy8ceval_062s2_lai_4373m2,cy8ceval_062s2_mur_43439m2,cy8ceval_062s2_lai_43439m2,cy8ceval_062s2_mur_4373em2,cy8cproto_062s2_43439,cy8ceval_062s2_cyw43022cub,cy8ceval_062s2_cyw955513sdm2wlipa]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_062_wifi_bt,cy8cproto_062_4343w,cy8ckit_062s2_43012,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01,cy8cproto_062s3_4343w,cy8ckit_064b0s2_4343w,cy8ceval_062s2_lai_4373m2,cy8ceval_062s2_mur_43439m2,cy8ceval_062s2_lai_43439m2,cy8ceval_062s2_mur_4373em2,cy8cproto_062s2_43439,cy8ceval_062s2_cyw43022cub]">
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5] [cy8ckit_062_wifi_bt,cy8cproto_062_4343w,cy8ckit_062s2_43012,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01,cy8cproto_062s3_4343w,cy8ckit_064b0s2_4343w,cy8ceval_062s2_lai_4373m2,cy8ceval_062s2_mur_43439m2,cy8ceval_062s2_lai_43439m2,cy8ceval_062s2_mur_4373em2,cy8cproto_062s2_43439,cy8ceval_062s2_cyw43022cub,cy8ceval_062s2_cyw955513sdm2wlipa]">
         <num>2.2.0 release</num>
         <commit>release-v2.2.0</commit>
       </version>
@@ -6994,7 +7078,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,psoc6,tcp,secure,client,wifi,xmc7000" req_capabilities_v2="wifi cyw43xxx led switch [psoc6,t2gbe, xmc7000] [flash_8384k, flash_2048k,flash_1024k,flash_512k,flash_1856k]">
+  <app keywords="mtb-flow,psoc6,tcp,secure,client,wifi,xmc7000" req_capabilities_v2="wifi led switch [cyw43xxx,cyw55xxx][psoc6,t2gbe, xmc7000] [flash_8384k, flash_2048k,flash_1024k,flash_512k,flash_1856k]">
     <name>Wi-Fi Secure TCP client</name>
     <id>mtb-example-wifi-secure-tcp-client</id>
     <category>Wi-Fi</category>
@@ -7005,11 +7089,15 @@
     This code example makes use of the lwIP open-source TCP/IP stack and the Mbed TLS open-source TLS/SSL library which has cryptographic capabilities. Creating a project from this template will cause lwIP and Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the lwIP &amp; Mbed TLS licenses and regional use restrictions (including abiding by all applicable export control laws).]]></description>
     <req_capabilities>psoc6 wifi cyw43xxx led switch</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen5, bsp_gen4] [cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01,cy8cproto_062s3_4343w,cy8ckit_064b0s2_4343w,cy8ceval_062s2_lai_4373m2,cy8ceval_062s2_mur_43439m2,cy8ceval_062s2_lai_43439m2,cy8cproto_062s2_43439,cy8ceval_062s2_mur_4373m2,cy8ceval_062s2_mur_4373em2,kit_xmc72_evk_mur_43439m2,cy8ceval_062s2_cyw43022cub,cy8ckit_062s2_ai]">
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen5, bsp_gen4] [cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01,cy8cproto_062s3_4343w,cy8ckit_064b0s2_4343w,cy8ceval_062s2_lai_4373m2,cy8ceval_062s2_mur_43439m2,cy8ceval_062s2_lai_43439m2,cy8cproto_062s2_43439,cy8ceval_062s2_mur_4373m2,cy8ceval_062s2_mur_4373em2,kit_xmc72_evk_mur_43439m2,cy8ceval_062s2_cyw43022cub,cy8ckit_062s2_ai,cy8ceval_062s2_cyw955513sdm2wlipa]">
         <num>Latest 4.X release</num>
         <commit>latest-v4.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen5, bsp_gen4] [cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01,cy8cproto_062s3_4343w,cy8ckit_064b0s2_4343w,cy8ceval_062s2_lai_4373m2,cy8ceval_062s2_mur_43439m2,cy8ceval_062s2_lai_43439m2,cy8cproto_062s2_43439,cy8ceval_062s2_mur_4373m2,cy8ceval_062s2_mur_4373em2,kit_xmc72_evk_mur_43439m2,cy8ceval_062s2_cyw43022cub,cy8ckit_062s2_ai]">
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen5, bsp_gen4] [cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01,cy8cproto_062s3_4343w,cy8ckit_064b0s2_4343w,cy8ceval_062s2_lai_4373m2,cy8ceval_062s2_mur_43439m2,cy8ceval_062s2_lai_43439m2,cy8cproto_062s2_43439,cy8ceval_062s2_mur_4373m2,cy8ceval_062s2_mur_4373em2,kit_xmc72_evk_mur_43439m2,cy8ceval_062s2_cyw43022cub,cy8ckit_062s2_ai,cy8ceval_062s2_cyw955513sdm2wlipa]">
+        <num>4.8.0 release</num>
+        <commit>release-v4.8.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen5, bsp_gen4] [cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01,cy8cproto_062s3_4343w,cy8ckit_064b0s2_4343w,cy8ceval_062s2_lai_4373m2,cy8ceval_062s2_mur_43439m2,cy8ceval_062s2_lai_43439m2,cy8cproto_062s2_43439,cy8ceval_062s2_mur_4373m2,cy8ceval_062s2_mur_4373em2,kit_xmc72_evk_mur_43439m2,cy8ceval_062s2_cyw43022cub,cy8ckit_062s2_ai,cy8ceval_062s2_cyw955513sdm2wlipa]">
         <num>4.7.0 release</num>
         <commit>release-v4.7.0</commit>
       </version>
@@ -7063,7 +7151,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,psoc6,tcp,secure,server,wifi,xmc7000" req_capabilities_v2="wifi cyw43xxx led switch [psoc6,t2gbe, xmc7000] [flash_8384k, flash_2048k, flash_1024k, flash_512k,flash_1856k]">
+  <app keywords="mtb-flow,psoc6,tcp,secure,server,wifi,xmc7000" req_capabilities_v2="wifi led switch [cyw43xxx,cyw55xxx][psoc6,t2gbe, xmc7000] [flash_8384k, flash_2048k, flash_1024k, flash_512k,flash_1856k]">
     <name>Wi-Fi Secure TCP server</name>
     <id>mtb-example-wifi-secure-tcp-server</id>
     <category>Wi-Fi</category>
@@ -7074,11 +7162,15 @@
     This code example makes use of the lwIP open-source TCP/IP stack and the Mbed TLS open-source TLS/SSL library which has cryptographic capabilities. Creating a project from this template will cause lwIP and Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the lwIP &amp; Mbed TLS licenses and regional use restrictions (including abiding by all applicable export control laws).]]></description>
     <req_capabilities>psoc6 wifi cyw43xxx led switch</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen5, bsp_gen4] [cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01,cy8cproto_062s3_4343w,cy8ckit_064b0s2_4343w,cy8ceval_062s2_lai_4373m2,cy8ceval_062s2_mur_43439m2,cy8ceval_062s2_lai_43439m2,cy8cproto_062s2_43439,cy8ceval_062s2_mur_4373m2,cy8ceval_062s2_mur_4373em2,kit_xmc72_evk_mur_43439m2,cy8ceval_062s2_cyw43022cub,cy8ckit_062s2_ai]">
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen5, bsp_gen4] [cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01,cy8cproto_062s3_4343w,cy8ckit_064b0s2_4343w,cy8ceval_062s2_lai_4373m2,cy8ceval_062s2_mur_43439m2,cy8ceval_062s2_lai_43439m2,cy8cproto_062s2_43439,cy8ceval_062s2_mur_4373m2,cy8ceval_062s2_mur_4373em2,kit_xmc72_evk_mur_43439m2,cy8ceval_062s2_cyw43022cub,cy8ckit_062s2_ai,cy8ceval_062s2_cyw955513sdm2wlipa]">
         <num>Latest 4.X release</num>
         <commit>latest-v4.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen5, bsp_gen4] [cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01,cy8cproto_062s3_4343w,cy8ckit_064b0s2_4343w,cy8ceval_062s2_lai_4373m2,cy8ceval_062s2_mur_43439m2,cy8ceval_062s2_lai_43439m2,cy8cproto_062s2_43439,cy8ceval_062s2_mur_4373m2,cy8ceval_062s2_mur_4373em2,kit_xmc72_evk_mur_43439m2,cy8ceval_062s2_cyw43022cub,cy8ckit_062s2_ai]">
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen5, bsp_gen4] [cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01,cy8cproto_062s3_4343w,cy8ckit_064b0s2_4343w,cy8ceval_062s2_lai_4373m2,cy8ceval_062s2_mur_43439m2,cy8ceval_062s2_lai_43439m2,cy8cproto_062s2_43439,cy8ceval_062s2_mur_4373m2,cy8ceval_062s2_mur_4373em2,kit_xmc72_evk_mur_43439m2,cy8ceval_062s2_cyw43022cub,cy8ckit_062s2_ai,cy8ceval_062s2_cyw955513sdm2wlipa]">
+        <num>4.8.0 release</num>
+        <commit>release-v4.8.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen5, bsp_gen4] [cy8cproto_062_4343w,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01,cy8cproto_062s3_4343w,cy8ckit_064b0s2_4343w,cy8ceval_062s2_lai_4373m2,cy8ceval_062s2_mur_43439m2,cy8ceval_062s2_lai_43439m2,cy8cproto_062s2_43439,cy8ceval_062s2_mur_4373m2,cy8ceval_062s2_mur_4373em2,kit_xmc72_evk_mur_43439m2,cy8ceval_062s2_cyw43022cub,cy8ckit_062s2_ai,cy8ceval_062s2_cyw955513sdm2wlipa]">
         <num>4.7.0 release</num>
         <commit>release-v4.7.0</commit>
       </version>
@@ -7132,7 +7224,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,psoc6,tcp,client,wifi" req_capabilities_v2="psoc6 wifi cyw43xxx led std_crypto switch [flash_2048k,flash_1024k,flash_1856k]">
+  <app keywords="mtb-flow,psoc6,tcp,client,wifi" req_capabilities_v2="psoc6 wifi led std_crypto switch [cyw43xxx,cyw55xxx][flash_2048k,flash_1024k,flash_1856k]">
     <name>Wi-Fi TCP Client</name>
     <id>mtb-example-wifi-tcp-client</id>
     <category>Wi-Fi</category>
@@ -7143,11 +7235,15 @@
     This code example makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license. <br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).]]></description>
     <req_capabilities>psoc6 wifi cyw43xxx led std_crypto switch</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4]">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5]">
         <num>Latest 4.X release</num>
         <commit>latest-v4.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4]">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5]">
+        <num>4.2.0 release</num>
+        <commit>release-v4.2.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5]">
         <num>4.1.0 release</num>
         <commit>release-v4.1.0</commit>
       </version>
@@ -7185,7 +7281,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,psoc6,tcp,server,wifi" req_capabilities_v2="psoc6 wifi cyw43xxx led std_crypto switch [flash_2048k,flash_1024k,flash_1856k]">
+  <app keywords="mtb-flow,psoc6,tcp,server,wifi" req_capabilities_v2="psoc6 wifi led std_crypto switch [cyw43xxx,cyw55xxx][flash_2048k,flash_1024k,flash_1856k]">
     <name>Wi-Fi TCP Server</name>
     <id>mtb-example-wifi-tcp-server</id>
     <category>Wi-Fi</category>
@@ -7196,11 +7292,15 @@
     This code example makes use of the lwIP open-source TCP/IP stack and the Mbed TLS open-source TLS/SSL library which has cryptographic capabilities. Creating a project from this template will cause lwIP and Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the lwIP &amp; Mbed TLS licenses and regional use restrictions (including abiding by all applicable export control laws).]]></description>
     <req_capabilities>psoc6 wifi cyw43xxx led std_crypto switch</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4]">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5]">
         <num>Latest 4.X release</num>
         <commit>latest-v4.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4]">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5]">
+        <num>4.2.0 release</num>
+        <commit>release-v4.2.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5]">
         <num>4.1.0 release</num>
         <commit>release-v4.1.0</commit>
       </version>
@@ -7238,7 +7338,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,psoc6,mqtt,client,wifi,aws,mosquitto,xmc7000" req_capabilities_v2="wifi cyw43xxx led switch [psoc6, xmc7000] [flash_2048k, flash_1024k, flash_512k, flash_8384k,flash_1856k]">
+  <app keywords="mtb-flow,psoc6,mqtt,client,wifi,aws,mosquitto,xmc7000" req_capabilities_v2="wifi led switch [cyw43xxx,cyw55xxx][psoc6, xmc7000] [flash_2048k, flash_1024k, flash_512k, flash_8384k,flash_1856k]">
     <name>Wi-Fi MQTT Client</name>
     <id>mtb-example-wifi-mqtt-client</id>
     <category>Wi-Fi</category>
@@ -7249,11 +7349,15 @@
     This code example makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license.<br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).]]></description>
     <req_capabilities>psoc6 wifi cyw43xxx led switch</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4] [cy8cproto_062_4343w,cy8ckit_062s2_43012,cy8ckit_062_wifi_bt,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01,cy8ceval_062s2_lai_4373m2,cy8ceval_062s2_mur_43439m2,cy8cproto_062s3_4343w,cy8ceval_062s2_lai_43439m2,cy8cproto_062s2_43439,kit_xmc72_evk_mur_43439m2,cy8ceval_062s2_cyw43022cub,cy8ckit_064b0s2_4343w,cy8ckit_062s2_ai]">
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4] [cy8cproto_062_4343w,cy8ckit_062s2_43012,cy8ckit_062_wifi_bt,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01,cy8ceval_062s2_lai_4373m2,cy8ceval_062s2_mur_43439m2,cy8cproto_062s3_4343w,cy8ceval_062s2_lai_43439m2,cy8cproto_062s2_43439,kit_xmc72_evk_mur_43439m2,cy8ceval_062s2_cyw43022cub,cy8ckit_064b0s2_4343w,cy8ckit_062s2_ai,cy8ceval_062s2_cyw955513sdm2wlipa]">
         <num>Latest 6.X release</num>
         <commit>latest-v6.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4] [cy8cproto_062_4343w,cy8ckit_062s2_43012,cy8ckit_062_wifi_bt,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01,cy8ceval_062s2_lai_4373m2,cy8ceval_062s2_mur_43439m2,cy8cproto_062s3_4343w,cy8ceval_062s2_lai_43439m2,cy8cproto_062s2_43439,kit_xmc72_evk_mur_43439m2,cy8ceval_062s2_cyw43022cub,cy8ckit_064b0s2_4343w,cy8ckit_062s2_ai]">
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4] [cy8cproto_062_4343w,cy8ckit_062s2_43012,cy8ckit_062_wifi_bt,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01,cy8ceval_062s2_lai_4373m2,cy8ceval_062s2_mur_43439m2,cy8cproto_062s3_4343w,cy8ceval_062s2_lai_43439m2,cy8cproto_062s2_43439,kit_xmc72_evk_mur_43439m2,cy8ceval_062s2_cyw43022cub,cy8ckit_064b0s2_4343w,cy8ckit_062s2_ai,cy8ceval_062s2_cyw955513sdm2wlipa]">
+        <num>6.6.0 release</num>
+        <commit>release-v6.6.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4] [cy8cproto_062_4343w,cy8ckit_062s2_43012,cy8ckit_062_wifi_bt,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01,cy8ceval_062s2_lai_4373m2,cy8ceval_062s2_mur_43439m2,cy8cproto_062s3_4343w,cy8ceval_062s2_lai_43439m2,cy8cproto_062s2_43439,kit_xmc72_evk_mur_43439m2,cy8ceval_062s2_cyw43022cub,cy8ckit_064b0s2_4343w,cy8ckit_062s2_ai,cy8ceval_062s2_cyw955513sdm2wlipa]">
         <num>6.5.1 release</num>
         <commit>release-v6.5.1</commit>
       </version>
@@ -8545,9 +8649,13 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-mcuboot-basic/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 std_crypto led qspi nor_flash</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ceval_062s2,cy8ceval_062s2_lai_4373m2,cy8ceval_062s2_mur_43439m2,cy8ckit_062_ble,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cy8cproto_062_4343w,cy8cproto_062s3_4343w,cyw9p62s1_43012evb_01,cyw9p62s1_43438evb_01,kit_xmc72_evk,kit_xmc72_evk_mur_43439m2,cy8ceval_062s2_lai_43439m2,cy8ceval_062s2_cyw43022cub,cy8cproto_062s2_43439,cy8ceval_062s2_mur_4373m2,cy8ceval_062s2_mur_4373em2]">
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5] [cy8ceval_062s2,cy8ceval_062s2_lai_4373m2,cy8ceval_062s2_mur_43439m2,cy8ckit_062_ble,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cy8cproto_062_4343w,cy8cproto_062s3_4343w,cyw9p62s1_43012evb_01,cyw9p62s1_43438evb_01,kit_xmc72_evk,kit_xmc72_evk_mur_43439m2,cy8ceval_062s2_lai_43439m2,cy8ceval_062s2_cyw43022cub,cy8cproto_062s2_43439,cy8ceval_062s2_mur_4373m2,cy8ceval_062s2_mur_4373em2,cy8ceval_062s2_cyw955513sdm2wlipa]">
         <num>Latest 7.X release</num>
         <commit>latest-v7.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5] [cy8ceval_062s2,cy8ceval_062s2_lai_4373m2,cy8ceval_062s2_mur_43439m2,cy8ckit_062_ble,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cy8cproto_062_4343w,cy8cproto_062s3_4343w,cyw9p62s1_43012evb_01,cyw9p62s1_43438evb_01,kit_xmc72_evk,kit_xmc72_evk_mur_43439m2,cy8ceval_062s2_lai_43439m2,cy8ceval_062s2_cyw43022cub,cy8cproto_062s2_43439,cy8ceval_062s2_mur_4373m2,cy8ceval_062s2_mur_4373em2,cy8ceval_062s2_cyw955513sdm2wlipa]">
+        <num>7.1.0 release</num>
+        <commit>release-v7.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ceval_062s2,cy8ceval_062s2_lai_4373m2,cy8ceval_062s2_mur_43439m2,cy8ckit_062_ble,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cy8cproto_062_4343w,cy8cproto_062s3_4343w,cyw9p62s1_43012evb_01,cyw9p62s1_43438evb_01,kit_xmc72_evk,kit_xmc72_evk_mur_43439m2,cy8ceval_062s2_lai_43439m2,cy8ceval_062s2_cyw43022cub,cy8cproto_062s2_43439,cy8ceval_062s2_mur_4373m2,cy8ceval_062s2_mur_4373em2]">
         <num>7.0.0 release</num>
@@ -9390,19 +9498,23 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-cts-server/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>bt led switch</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4] [cyw920829m2evk_02,cyw989829m2evb_01,cyw989829m2evb_03,cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval]">
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4] [cyw920829m2evk_02,cyw989829m2evb_01,cyw989829m2evb_03,cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval,cy8ceval_062s2_cyw955513sdm2wlipa]">
         <num>Latest 5.X release</num>
         <commit>latest-v5.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4] [cyw920829m2evk_02,cyw989829m2evb_01,cyw989829m2evb_03,cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval,cy8ceval_062s2_cyw955513sdm2wlipa]">
+        <num>5.1.0 release</num>
+        <commit>release-v5.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4] [cyw920829m2evk_02,cyw989829m2evb_01,cyw989829m2evb_03,cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval]">
         <num>5.0.0 release</num>
         <commit>release-v5.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4]">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5]">
         <num>Latest 4.X release</num>
         <commit>latest-v4.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4]">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5]">
         <num>4.7.0 release</num>
         <commit>release-v4.7.0</commit>
       </version>
@@ -9461,19 +9573,23 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-cts-client/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>bt led switch</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4] [cyw920829m2evk_02,cyw989829m2evb_01,cyw989829m2evb_03,cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval]">
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4] [cyw920829m2evk_02,cyw989829m2evb_01,cyw989829m2evb_03,cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval,cy8ceval_062s2_cyw955513sdm2wlipa]">
         <num>Latest 5.X release</num>
         <commit>latest-v5.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4] [cyw920829m2evk_02,cyw989829m2evb_01,cyw989829m2evb_03,cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval,cy8ceval_062s2_cyw955513sdm2wlipa]">
+        <num>5.1.0 release</num>
+        <commit>release-v5.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4] [cyw920829m2evk_02,cyw989829m2evb_01,cyw989829m2evb_03,cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval]">
         <num>5.0.0 release</num>
         <commit>release-v5.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4]">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5]">
         <num>Latest 4.X release</num>
         <commit>latest-v4.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4]">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5]">
         <num>4.6.0 release</num>
         <commit>release-v4.6.0</commit>
       </version>
@@ -10191,6 +10307,14 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-peripheral-privacy/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 bt led</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4] [cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval,cyw920829m2evk_02,cyw989829m2evb_01,cyw989829m2evb_03,cy8ceval_062s2_cyw955513sdm2wlipa]">
+        <num>Latest 5.X release</num>
+        <commit>latest-v5.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4] [cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval,cyw920829m2evk_02,cyw989829m2evb_01,cyw989829m2evb_03,cy8ceval_062s2_cyw955513sdm2wlipa]">
+        <num>5.0.0 release</num>
+        <commit>release-v5.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4] [cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval,cyw920829m2evk_02,cyw989829m2evb_01,cyw989829m2evb_03]">
         <num>Latest 4.X release</num>
         <commit>latest-v4.X</commit>
@@ -10199,11 +10323,11 @@
         <num>4.0.0 release</num>
         <commit>release-v4.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cyw9p62s1_43012evb_01,cyw9p62s1_43438evb_01,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cy8cproto_062_4343w,cy8ceval_062s2_mur_43439m2,cy8ceval_062s2_lai_4373m2,cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval,cy8cproto_062s2_43439,cy8ceval_062s2_cyw43022cub,cyw920829m2evk_02,cyw989829m2evb_01]">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5] [cyw9p62s1_43012evb_01,cyw9p62s1_43438evb_01,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cy8cproto_062_4343w,cy8ceval_062s2_mur_43439m2,cy8ceval_062s2_lai_4373m2,cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval,cy8cproto_062s2_43439,cy8ceval_062s2_cyw43022cub,cyw920829m2evk_02,cyw989829m2evb_01,cy8ceval_062s2_cyw955513sdm2wlipa]">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cyw9p62s1_43012evb_01,cyw9p62s1_43438evb_01,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cy8cproto_062_4343w,cy8ceval_062s2_mur_43439m2,cy8ceval_062s2_lai_4373m2,cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval,cy8cproto_062s2_43439,cy8ceval_062s2_cyw43022cub,cyw920829m2evk_02,cyw989829m2evb_01]">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5] [cyw9p62s1_43012evb_01,cyw9p62s1_43438evb_01,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cy8cproto_062_4343w,cy8ceval_062s2_mur_43439m2,cy8ceval_062s2_lai_4373m2,cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval,cy8cproto_062s2_43439,cy8ceval_062s2_cyw43022cub,cyw920829m2evk_02,cyw989829m2evb_01,cy8ceval_062s2_cyw955513sdm2wlipa]">
         <num>3.0.0 release</num>
         <commit>release-v3.0.0</commit>
       </version>
@@ -10229,7 +10353,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,psoc6,bluetooth,btstack,mqtt,client,wifi,aws,iot,mosquitto,43012,43439" req_capabilities_v2="psoc6 wifi bt cyw43xxx led switch [cy8ckit_062s2_43012,cy8ceval_062s2_mur_43439m2]">
+  <app keywords="mtb-flow,psoc6,bluetooth,btstack,mqtt,client,wifi,aws,iot,mosquitto,43012,43439" req_capabilities_v2="psoc6 wifi bt led switch [cyw43xxx,cyw55xxx][cy8ckit_062s2_43012,cy8ceval_062s2_mur_43439m2]">
     <name>Bluetooth LE IoT Gateway</name>
     <id>mtb-example-btstack-freertos-wifi-gateway</id>
     <category>Bluetooth&#174;</category>
@@ -10240,11 +10364,11 @@
     This code example makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license.<br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).]]></description>
     <req_capabilities>psoc6 wifi bt cyw43xxx led switch</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5]">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
@@ -10352,19 +10476,23 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-hello-sensor/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>bt led switch</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4] [cyw920829m2evk_02,cyw989829m2evb_01,cyw989829m2evb_03,cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval]">
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4] [cyw920829m2evk_02,cyw989829m2evb_01,cyw989829m2evb_03,cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval,cy8ceval_062s2_cyw955513sdm2wlipa]">
         <num>Latest 4.X release</num>
         <commit>latest-v4.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4] [cyw920829m2evk_02,cyw989829m2evb_01,cyw989829m2evb_03,cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval,cy8ceval_062s2_cyw955513sdm2wlipa]">
+        <num>4.1.0 release</num>
+        <commit>release-v4.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4] [cyw920829m2evk_02,cyw989829m2evb_01,cyw989829m2evb_03,cy8ckit_062_ble,cy8cproto_063_ble,cyble_416045_eval]">
         <num>4.0.0 release</num>
         <commit>release-v4.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4]">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5]">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4]">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5]">
         <num>3.7.0 release</num>
         <commit>release-v3.7.0</commit>
       </version>
@@ -12660,7 +12788,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,psoc6,http,https,client,wifi,xmc7000" req_capabilities_v2="cyw43xxx led wifi std_crypto [psoc6,t2gbe, xmc7000] [flash_8384k, flash_2048k,flash_1024k,flash_512k,flash_1856k]">
+  <app keywords="mtb-flow,psoc6,http,https,client,wifi,xmc7000" req_capabilities_v2="led wifi std_crypto [cyw43xxx,cyw55xxx][psoc6,t2gbe, xmc7000] [flash_8384k, flash_2048k,flash_1024k,flash_512k,flash_1856k]">
     <name>Wi-Fi HTTPS Client</name>
     <id>mtb-example-wifi-https-client</id>
     <category>Wi-Fi</category>
@@ -12674,6 +12802,10 @@
       <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>1.3.0 release</num>
+        <commit>release-v1.3.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
         <num>1.2.0 release</num>
