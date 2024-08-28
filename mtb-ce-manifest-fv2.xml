@@ -7754,7 +7754,7 @@
     <id>mtb-example-pmg1-capsense-csd-slider-tuning</id>
     <category>Sensing</category>
     <uri>https://github.com/Infineon/mtb-example-pmg1-capsense-csd-slider-tuning</uri>
-    <description><![CDATA[This code example demonstrates how to manually tune a CAPSENSE&#8482; Sigma Delta(CSD)-based slider widget in EZ-PD&8482; PMG1-S3 device using the CAPSENSE&#8482; Tuner.
+    <description><![CDATA[This code example demonstrates how to manually tune a CAPSENSE&#8482; Sigma Delta(CSD)-based slider widget in EZ-PD&#8482; PMG1-S3 device using the CAPSENSE&#8482; Tuner.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-capsense-csd-slider-tuning/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>pmg1 capsense_linear_slider</req_capabilities>
     <versions>
@@ -7773,7 +7773,7 @@
     <id>mtb-example-pmg1-capsense-csd-button-tuning</id>
     <category>Sensing</category>
     <uri>https://github.com/Infineon/mtb-example-pmg1-capsense-csd-button-tuning</uri>
-    <description><![CDATA[This code example demonstrates how to manually tune a CAPSENSE&#8482; Sigma Delta(CSD)-based button widget in EZ-PD&8482; PMG1-S3 device using the CAPSENSE&#8482; Tuner.
+    <description><![CDATA[This code example demonstrates how to manually tune a CAPSENSE&#8482; Sigma Delta(CSD)-based button widget in EZ-PD&#8482; PMG1-S3 device using the CAPSENSE&#8482; Tuner.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-capsense-csd-button-tuning/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>pmg1 capsense_button</req_capabilities>
     <versions>
@@ -7792,7 +7792,7 @@
     <id>mtb-example-pmg1-ocp-scp-rcp</id>
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-pmg1-ocp-scp-rcp</uri>
-    <description><![CDATA[This example demonstrates the use of overcurrent protection (OCP), short-circuit protection (SCP), and reverse current protection (RCP) features of current sense amplifier (CSA) block on EZ-PD&8482; PMG1-S1, PMG1-S2 and PMG1-S3 devices.
+    <description><![CDATA[This example demonstrates the use of overcurrent protection (OCP), short-circuit protection (SCP), and reverse current protection (RCP) features of current sense amplifier (CSA) block on EZ-PD&#8482; PMG1-S1, PMG1-S2 and PMG1-S3 devices.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-ocp-scp-rcp/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>pmg1</req_capabilities>
     <versions>
@@ -7811,7 +7811,7 @@
     <id>mtb-example-pmg1-csdidac</id>
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-pmg1-csdidac</uri>
-    <description><![CDATA[This code example demonstrates the use of the CSD hardware-block-based current digital-to-analog converter (CSDIDAC)of EZ-PD&8482; PMG1-S3 MCU as both a current source and a current sink.
+    <description><![CDATA[This code example demonstrates the use of the CSD hardware-block-based current digital-to-analog converter (CSDIDAC)of EZ-PD&#8482; PMG1-S3 MCU as both a current source and a current sink.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-csdidac/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>pmg1 csd</req_capabilities>
     <versions>
@@ -7849,7 +7849,7 @@
     <id>mtb-example-pmg1-usbpd-sink-pps</id>
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-pmg1-usbpd-sink-pps</uri>
-    <description><![CDATA[This code example illustrates how to implement a programmable power supply (PPS) sink using EZ-PD&8482; PMG1 MCU devices.
+    <description><![CDATA[This code example illustrates how to implement a programmable power supply (PPS) sink using EZ-PD&#8482; PMG1 MCU devices.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-usbpd-sink-pps/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>usbpd pmg1 led</req_capabilities>
     <versions>
@@ -7868,7 +7868,7 @@
     <id>mtb-example-pmg1-multiple-gpio-interrupts</id>
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-pmg1-multiple-gpio-interrupts</uri>
-    <description><![CDATA[This code example demonstrates a method to detect multiple GPIO interrupts from the same port using the pin status bits of a port on the EZ-PD&8482; PMG1 MCU devices.
+    <description><![CDATA[This code example demonstrates a method to detect multiple GPIO interrupts from the same port using the pin status bits of a port on the EZ-PD&#8482; PMG1 MCU devices.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-multiple-gpio-interrupts/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>pmg1 led</req_capabilities>
     <versions>
@@ -7887,7 +7887,7 @@
     <id>mtb-example-pmg1-uvov-blocks</id>
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-pmg1-uvov-blocks</uri>
-    <description><![CDATA[This code example demonstrates the use of overvoltage protection(OVP) and undervoltage proection(UVP) blocks for high-voltage and low-voltage detection on the Type-C Vbus pin of EZ-PD&8482; PMG1 MCU devices.
+    <description><![CDATA[This code example demonstrates the use of overvoltage protection(OVP) and undervoltage proection(UVP) blocks for high-voltage and low-voltage detection on the Type-C Vbus pin of EZ-PD&#8482; PMG1 MCU devices.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-uvov-blocks/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>pmg1 led</req_capabilities>
     <versions>
@@ -7944,7 +7944,7 @@
     <id>mtb-example-pmg1-opamp-amplifier-saradc</id>
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-pmg1-opamp-amplifier-saradc</uri>
-    <description><![CDATA[This code example demonstrates the use of opamp as an amplifier along with 12-bit SAR ADC to measure the low voltage signals on EZ-PD&8482; PMG1-S3 MCU.
+    <description><![CDATA[This code example demonstrates the use of opamp as an amplifier along with 12-bit SAR ADC to measure the low voltage signals on EZ-PD&#8482; PMG1-S3 MCU.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-opamp-amplifier-saradc/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>pmg1 opamp adc uart led</req_capabilities>
     <versions>
@@ -7963,7 +7963,7 @@
     <id>mtb-example-pmg1-opamp-buffer-saradc</id>
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-pmg1-opamp-buffer-saradc</uri>
-    <description><![CDATA[This code example demonstrates the use of opamp as a buffer along with 12-bit SAR ADC to provide impedance matching for high-impedance signals on EZ-PD&8482; PMG1-S3 MCU.
+    <description><![CDATA[This code example demonstrates the use of opamp as a buffer along with 12-bit SAR ADC to provide impedance matching for high-impedance signals on EZ-PD&#8482; PMG1-S3 MCU.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-opamp-buffer-saradc/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>pmg1 opamp adc uart led</req_capabilities>
     <versions>
@@ -8511,6 +8511,10 @@
     <req_capabilities>pmg1_b1_cy7116 usbpd</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -8526,6 +8530,10 @@
     <req_capabilities>pmg1_b1_cy7116 usbpd</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -8540,6 +8548,10 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1b1-usbpd-drp/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>pmg1_b1_cy7116 usbpd</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
@@ -10949,7 +10961,7 @@
     <id>mtb-example-pmg1-usbfs-vendor-interface</id>
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-pmg1-usbfs-vendor-interface</uri>
-    <description><![CDATA[This code example demonstrates how to configure the USB block on EZ-PD&#8482; PMG1 MCU as a vendor interface. When configured for vendor interface, the EZ-PD&#8482; PMG1 MCU device enumerates as Cypress&#8482; FX3 USB BulkloopExample Device, which can be read and written using a USB Control Center on a PC...
+    <description><![CDATA[This code example demonstrates how to configure the USB block on EZ-PD&#8482; PMG1 MCU as a vendor interface. When configured for vendor interface, the EZ-PD&#8482; PMG1 MCU device enumerates as CYPRESS&#8482; FX3 USB BulkloopExample Device, which can be read and written using a USB Control Center on a PC.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-usbfs-vendor-interface/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>pmg1 usb_device</req_capabilities>
     <versions>
