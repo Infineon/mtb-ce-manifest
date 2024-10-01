@@ -15372,4 +15372,76 @@
       </version>
     </versions>
   </app>
+  <app keywords="headset-speaker,audio,bluetooth,btstack,threadx,cyw55513" req_capabilities_v2="bt cat5 cyw55513 cyw55xxx [cyw955513evk_01]">
+    <name>Headset Speaker</name>
+    <id>mtb-example-btstack-threadx-audio-headset-speaker</id>
+    <category>Bluetooth&#174;</category>
+    <uri>https://github.com/Infineon/mtb-example-btstack-threadx-audio-headset-speaker</uri>
+    <description><![CDATA[This app demonstrates the use of a Bluetooth&#174; Headset via the audio libraries. This app also supports the AAC codec for some Bluetooth&#174; devices.]]></description>
+    <req_capabilities>cyw55513</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="watch,bluetooth,btstack,threadx,cyw55513,audio" req_capabilities_v2="bt cat5 cyw55513 cyw55xxx [cyw955513evk_01]">
+    <name>Watch</name>
+    <id>mtb-example-btstack-threadx-audio-watch</id>
+    <category>Bluetooth&#174;</category>
+    <uri>https://github.com/Infineon/mtb-example-btstack-threadx-audio-watch</uri>
+    <description><![CDATA[This app demonstrates the use of a Bluetooth&#174; A2DP Source via the audio libraries. This app also supports the HFP AG, AVRCP, GATT, AMS, ANCS profiles.]]></description>
+    <req_capabilities>cyw55513</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="hello-sensor,bluetooth,btstack,threadx,cyw55513" req_capabilities_v2="bt cat5 cyw55513 cyw55xxx [cyw955513evk_01]">
+    <name>Hello-Sensor</name>
+    <id>mtb-example-btstack-threadx-hello-sensor</id>
+    <category>Bluetooth&#174;</category>
+    <uri>https://github.com/Infineon/mtb-example-btstack-threadx-hello-sensor</uri>
+    <description><![CDATA[This code example demonstrates the implementation of Bluetooth&#174; LE custom service with Bluetooth&#174; security using AIROC&#8482; CYW955513EVK_01 and ModusToolbox&#8482; software environment.]]></description>
+    <req_capabilities>cyw55513</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="hello-CLient,bluetooth,btstack,threadx,cyw55513" req_capabilities_v2="bt cat5 cyw55513 cyw55xxx [cyw955513evk_01]">
+    <name>Hello-Client</name>
+    <id>mtb-example-btstack-threadx-hello-client</id>
+    <category>Bluetooth&#174;</category>
+    <uri>https://github.com/Infineon/mtb-example-btstack-threadx-hello-client</uri>
+    <description><![CDATA[This code example demonstrates the implementation of Bluetooth&#174; LE multi role applications using  AIROC&#8482; CYW955513EVK_01, and ModusToolbox&#8482; software.]]></description>
+    <req_capabilities>cyw55513</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
 </apps>
