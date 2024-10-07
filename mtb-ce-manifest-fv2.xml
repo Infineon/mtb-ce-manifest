@@ -6964,9 +6964,13 @@
     This code example makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license. <br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).]]></description>
     <req_capabilities>psoc6 cyw43xxx wifi led</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5] [cy8ceval_062s2_lai_4373m2,cy8ceval_062s2_mur_43439m2,cy8ckit_062s2_43012,cy8cproto_062_4343w,cy8cproto_062s3_4343w,kit_xmc72_evk_mur_43439m2,cy8ceval_062s2_lai_43439m2,cy8ceval_062s2_cyw43022cub,cy8cproto_062s2_43439,cy8ceval_062s2_mur_4373m2,cy8ceval_062s2_mur_4373em2,cy8ceval_062s2_cyw955513sdm2wlipa]">
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5] [cy8ceval_062s2_lai_4373m2,cy8ceval_062s2_mur_43439m2,cy8ckit_062s2_43012,cy8cproto_062_4343w,cy8cproto_062s3_4343w,kit_xmc72_evk_mur_43439m2,cy8ceval_062s2_lai_43439m2,cy8ceval_062s2_cyw43022cub,cy8cproto_062s2_43439,cy8ceval_062s2_mur_4373m2,cy8ceval_062s2_mur_4373em2,cy8ceval_062s2_cyw955513sdm2wlipa,cy8ckit_062s2_ai]">
         <num>Latest 7.X release</num>
         <commit>latest-v7.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5] [cy8ceval_062s2_lai_4373m2,cy8ceval_062s2_mur_43439m2,cy8ckit_062s2_43012,cy8cproto_062_4343w,cy8cproto_062s3_4343w,kit_xmc72_evk_mur_43439m2,cy8ceval_062s2_lai_43439m2,cy8ceval_062s2_cyw43022cub,cy8cproto_062s2_43439,cy8ceval_062s2_mur_4373m2,cy8ceval_062s2_mur_4373em2,cy8ceval_062s2_cyw955513sdm2wlipa,cy8ckit_062s2_ai]">
+        <num>7.4.0 release</num>
+        <commit>release-v7.4.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5] [cy8ceval_062s2_lai_4373m2,cy8ceval_062s2_mur_43439m2,cy8ckit_062s2_43012,cy8cproto_062_4343w,cy8cproto_062s3_4343w,kit_xmc72_evk_mur_43439m2,cy8ceval_062s2_lai_43439m2,cy8ceval_062s2_cyw43022cub,cy8cproto_062s2_43439,cy8ceval_062s2_mur_4373m2,cy8ceval_062s2_mur_4373em2,cy8ceval_062s2_cyw955513sdm2wlipa]">
         <num>7.3.0 release</num>
@@ -7690,18 +7694,22 @@
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,bmi160,motion,motion-sensor,bmi160,freertos,mtb-flow" req_capabilities_v2="psoc6 i2c">
-    <name>BMI160 Motion Sensor over I2C FreeRTOS</name>
+  <app keywords="psoc6,bmi160,motion,motion-sensor,bmi270,freertos,mtb-flow" req_capabilities_v2="psoc6 i2c">
+    <name>Motion Sensor over I2C FreeRTOS</name>
     <id>mtb-example-psoc6-motion-sensor-freertos</id>
     <category>Sensing</category>
     <uri>https://github.com/Infineon/mtb-example-psoc6-motion-sensor-freertos</uri>
-    <description><![CDATA[This example demonstrates how to interface PSoC&#8482; 6 MCU with a BMI160 Motion Sensor over an I2C interface within a FreeRTOS task using the BMI160 motion sensor library. This example reads the raw motion data and estimates the orientation of the board.
+    <description><![CDATA[This example demonstrates how to interface PSoC&#8482; 6 MCU with a BMI160/BMI270 motion Sensor over an I2C interface within a FreeRTOS task using the BMI160/BMI270 motion sensor library. This example reads the raw motion data and estimates the orientation of the board.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-motion-sensor-freertos/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 i2c</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version="bsp_gen4">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version="bsp_gen4">
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>2.0.0 release</num>
@@ -8801,9 +8809,13 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-mcuboot-basic/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 std_crypto led qspi nor_flash</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5] [cy8ceval_062s2,cy8ceval_062s2_lai_4373m2,cy8ceval_062s2_mur_43439m2,cy8ckit_062_ble,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cy8cproto_062_4343w,cy8cproto_062s3_4343w,cyw9p62s1_43012evb_01,cyw9p62s1_43438evb_01,kit_xmc72_evk,kit_xmc72_evk_mur_43439m2,cy8ceval_062s2_lai_43439m2,cy8ceval_062s2_cyw43022cub,cy8cproto_062s2_43439,cy8ceval_062s2_mur_4373m2,cy8ceval_062s2_mur_4373em2,cy8ceval_062s2_cyw955513sdm2wlipa,kit_xmc71_evk_lite_v1]">
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5] [cy8ceval_062s2,cy8ceval_062s2_lai_4373m2,cy8ceval_062s2_mur_43439m2,cy8ckit_062_ble,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cy8cproto_062_4343w,cy8cproto_062s3_4343w,cyw9p62s1_43012evb_01,cyw9p62s1_43438evb_01,kit_xmc72_evk,kit_xmc72_evk_mur_43439m2,cy8ceval_062s2_lai_43439m2,cy8ceval_062s2_cyw43022cub,cy8cproto_062s2_43439,cy8ceval_062s2_mur_4373m2,cy8ceval_062s2_mur_4373em2,cy8ceval_062s2_cyw955513sdm2wlipa,kit_xmc71_evk_lite_v1,cy8ckit_062s2_ai]">
         <num>Latest 7.X release</num>
         <commit>latest-v7.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5] [cy8ceval_062s2,cy8ceval_062s2_lai_4373m2,cy8ceval_062s2_mur_43439m2,cy8ckit_062_ble,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cy8cproto_062_4343w,cy8cproto_062s3_4343w,cyw9p62s1_43012evb_01,cyw9p62s1_43438evb_01,kit_xmc72_evk,kit_xmc72_evk_mur_43439m2,cy8ceval_062s2_lai_43439m2,cy8ceval_062s2_cyw43022cub,cy8cproto_062s2_43439,cy8ceval_062s2_mur_4373m2,cy8ceval_062s2_mur_4373em2,cy8ceval_062s2_cyw955513sdm2wlipa,kit_xmc71_evk_lite_v1,cy8ckit_062s2_ai]">
+        <num>7.3.0 release</num>
+        <commit>release-v7.3.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5] [cy8ceval_062s2,cy8ceval_062s2_lai_4373m2,cy8ceval_062s2_mur_43439m2,cy8ckit_062_ble,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cy8cproto_062_4343w,cy8cproto_062s3_4343w,cyw9p62s1_43012evb_01,cyw9p62s1_43438evb_01,kit_xmc72_evk,kit_xmc72_evk_mur_43439m2,cy8ceval_062s2_lai_43439m2,cy8ceval_062s2_cyw43022cub,cy8cproto_062s2_43439,cy8ceval_062s2_mur_4373m2,cy8ceval_062s2_mur_4373em2,cy8ceval_062s2_cyw955513sdm2wlipa,kit_xmc71_evk_lite_v1]">
         <num>7.2.0 release</num>
@@ -9453,18 +9465,22 @@
       </version>
     </versions>
   </app>
-  <app keywords="optiga,security,crypto,ecc,mbedtls,ecdsa,ecdh,mqtt,aws,mtb-flow" req_capabilities_v2="optiga_trust_m wifi switch led uart">
+  <app keywords="optiga,security,crypto,ecc,mbedtls,ecdsa,ecdh,mqtt,aws,mtb-flow" req_capabilities_v2="wifi switch led uart">
     <name>OPTIGA MQTT Client</name>
     <id>mtb-example-optiga-mqtt-client</id>
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-optiga-mqtt-client</uri>
     <description><![CDATA[This example uses an Infineon OPTIGA&#8482; Trust Security Solution on a PSoC&#8482; 6 MCU to execute example code to perform an MQTT connection to the AWS IoT Cloud.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-optiga-mqtt-client/blob/master/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>optiga_trust_m wifi switch led uart</req_capabilities>
+    <req_capabilities>wifi switch led uart</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4]">
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cysbsyskit_dev_01,cy8ceval_062s2_lai_43439m2,cy8ceval_062s2_lai_4373m2,cy8ceval_062s2_mur_43439m2,cy8ceval_062s2_mur_4373em2,cy8ckit_062s2_43012]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cysbsyskit_dev_01,cy8ceval_062s2_lai_43439m2,cy8ceval_062s2_lai_4373m2,cy8ceval_062s2_mur_43439m2,cy8ceval_062s2_mur_4373em2,cy8ckit_062s2_43012]">
+        <num>2.2.0 release</num>
+        <commit>release-v2.2.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>2.1.0 release</num>
@@ -9899,23 +9915,27 @@
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,sensor,xensiv,co2,pasco2,dps,dps3xx,csk">
+  <app keywords="psoc6,sensor,xensiv,co2,pasco2,dps,dps3xx,csk" req_capabilities_v2="psoc6 i2c spi">
     <name>PAS CO2 Application</name>
     <id>mtb-example-sensors-pasco2</id>
     <category>Sensing</category>
     <uri>https://github.com/Infineon/mtb-example-sensors-pasco2</uri>
     <description><![CDATA[This application demonstrates the use of the pas co2 pressure sensor on the feather board.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-sensors-pasco2/blob/master/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>cysbsyskit_dev_01</req_capabilities>
+    <req_capabilities>psoc6 i2c spi</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cysbsyskit_dev_01,cy8ckit_062s2_43012]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen3">
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cysbsyskit_dev_01,cy8ckit_062s2_43012]">
+        <num>1.2.0 release</num>
+        <commit>release-v1.2.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version_v2="[bsp_gen3] [cysbsyskit_dev_01]">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version_v2="[bsp_gen2] [cysbsyskit_dev_01]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -14665,13 +14685,36 @@
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,psoc6,machine-learning,ml,bmx160,bmi270,pdm,imagimob" req_capabilities_v2="uart spi i2c pdm psoc6">
+  <app keywords="mtb-flow,psoc6,machine-learning,ml,bmx160,bmi270,bmm350,dps368,radar,pdm,imagimob" req_capabilities_v2="uart spi i2c pdm psoc6">
     <name>Imagimob Streaming Protocol</name>
     <id>mtb-example-imagimob-streaming-protocol</id>
     <category>Machine Learning</category>
     <uri>https://github.com/Infineon/mtb-example-imagimob-streaming-protocol</uri>
-    <description><![CDATA[This code example allows collecting data from either an IMU (BMX160/BMI270) or PDM-PCM mic using the Imagimob Studio.
+    <description><![CDATA[This ModusToolbox&#8482; firmware project implements the Imagimob streaming protocol for PSoC&#8482; 6. This firmware supports collecting data from one of this sensors - motion, magnetometer, pressure, radar sensors, and PDM/PCM microphones.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-imagimob-streaming-protocol/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>uart spi i2c pdm psoc6</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_062s2_ai,cy8ckit_062s2_43012]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_062s2_ai,cy8ckit_062s2_43012]">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_062s2_ai,cy8ckit_062s2_43012]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="mtb-flow,psoc6,machine-learning,ml,pdm,radar,imagimob" req_capabilities_v2="uart spi i2c pdm psoc6">
+    <name>Imagimob Deploy Ready Model</name>
+    <id>mtb-example-ml-imagimob-deploy-ready-model</id>
+    <category>Machine Learning</category>
+    <uri>https://github.com/Infineon/mtb-example-ml-imagimob-deploy-ready-model</uri>
+    <description><![CDATA[This code example demonstrates how to integrate a ready model library from Imagimob Studio on ModusToolbox&#8482;. The code example includes six different models where five model detect differet sounds such as baby-cry detection, cough detection, alarm detection, siren detection, and snoring detection which uses data from the pulse-density modulation (PDM) to pulse-code modulation (PCM) which is sent to the model for detection. The sixth model detects hand gestures which uses data from XENSIV&#8482; radar sensor.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ml-imagimob-deploy-ready-model/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>uart spi i2c pdm psoc6</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_062s2_ai,cy8ckit_062s2_43012]">
@@ -15342,6 +15385,63 @@
         <commit>latest-v1.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc72_evk]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,emwin,tft,st7735s,display,sht35,humidity,temperature,sensor,freertos,mtb-flow" req_capabilities_v2="psoc6 i2c spi">
+    <name>SHT35 Humidity Sensor and Display</name>
+    <id>mtb-example-sht35-humidity-sensor-freertos</id>
+    <category>Sensing</category>
+    <uri>https://github.com/Infineon/mtb-example-sht35-humidity-sensor-freertos</uri>
+    <description><![CDATA[This code example demonstrates how to use the SHT35 digital humidity and temperature sensor on SHIELD_XENSIV_A XENSIV&#8482; Sensor Shield over an I2C interface. The measured values of temperature and humidity are given in degrees celsius and percentage relative humidity (RH) respectively.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-sht35-humidity-sensor-freertos/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>psoc6 i2c spi</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_062s2_43012]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_062s2_43012]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,emwin,tft,st7735s,display,bgt60ltr11aip,radar,presence,sensor,freertos,mtb-flow" req_capabilities_v2="psoc6 spi">
+    <name>Radar Autonomous Presence</name>
+    <id>mtb-example-sensors-radar-autonomous-presence</id>
+    <category>Sensing</category>
+    <uri>https://github.com/Infineon/mtb-example-sensors-radar-autonomous-presence</uri>
+    <description><![CDATA[This code example demonstrates how to use BGT60LTR11AIP radar sensor in autonomous mode to detect target presence and direction of its movement. Target presence and direction (approaching/departing) are detected by reading the Phase detect (PDet) and Target detect (TDet) pins of the radar sensor.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-sensors-radar-autonomous-presence/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>psoc6 spi</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_062s2_43012]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_062s2_43012]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,emwin,tft,st7735s,display,bgt60ltr11aip,radar,presence,sht35,humidity,temperature,bmi270,motion,bmm350,magentometer,dps368,pressure,pasco2,sensor,hub,freertos,mtb-flow" req_capabilities_v2="psoc6 i2c spi switch">
+    <name>XENSIV Sensor Shield OOB demo</name>
+    <id>mtb-example-ce239846-shield-xensiv-a-oob</id>
+    <category>Sensing</category>
+    <uri>https://github.com/Infineon/mtb-example-ce239846-shield-xensiv-a-oob</uri>
+    <description><![CDATA[This code example demonstrates how to interface several onboard sensors present on SHIELD_XENSIV_A and display the sensors data on the serial terminal and 0.96-inch ST7735S TFT display present on the shield.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce239846-shield-xensiv-a-oob/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>psoc6 i2c spi switch</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_062s2_43012]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_062s2_43012]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
