@@ -1,5 +1,5 @@
 <apps version="2.0">
-  <app keywords="starter,template,empty,blank,mtb-flow" req_capabilities_v2="[psoc6,t2gbe,xmc7000,t2gbh,t2gbh_lite,cyw920829m2evk_02,cyw989829m2evb_01]">
+  <app keywords="starter,template,empty,blank,mtb-flow" req_capabilities_v2="[psoc6,t2gbe,xmc7000,t2gbh,t2gbh_lite,cyw920829m2evk_02,cyw989829m2evb_01,t2gc2d]">
     <name>Empty App</name>
     <id>mtb-example-empty-app</id>
     <category>Getting Started</category>
@@ -10,6 +10,10 @@
       <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
         <num>Latest 4.X release</num>
         <commit>latest-v4.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>4.9.1 release</num>
+        <commit>release-v4.9.1</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
         <num>4.9.0 release</num>
