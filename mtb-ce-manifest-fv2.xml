@@ -3635,11 +3635,11 @@
   </app>
   <app keywords="mtb-flow,psoc6,tester,wifi,wlan,tool,manufacturing" req_capabilities_v2="[cat4, cy8ceval_062s2_mur_43439m2, cy8ceval_062s2_lai_4373m2, cy8ckit_062s2_43012, cy8cproto_062_4343w, cy8ceval_062s2_cyw955513sdm2wlipa] wifi low_power [flash_2048k, sram_2048k]">
     <name>Tester - Wi-Fi Bluetooth Console</name>
-    <id>mtb-wifi-bluetooth-tester</id>
+    <id>mtb-tester-wifi-bluetooth</id>
     <category>Wi-Fi</category>
-    <uri>https://github.com/Infineon/mtb-wifi-bluetooth-tester</uri>
+    <uri>https://github.com/Infineon/mtb-tester-wifi-bluetooth</uri>
     <description><![CDATA[This application integrates command console library including Wi-Fi iPerf and Bluetooth&#174; Low Energy functionality. Using this application, the user can characterize the Wi-Fi/Bluetooth&#174; Low Energy functionality and performance.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-wifi-bluetooth-tester/blob/master/README.md">README on GitHub</a>.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-tester-wifi-bluetooth/blob/master/README.md">README on GitHub</a>.
     <br><br><b>License Disclaimer:</b><br><br>
     This tester application makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license. <br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).]]></description>
     <req_capabilities>wifi low_power</req_capabilities>
@@ -3647,6 +3647,10 @@
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5]">
+        <num>2.3.1 release</num>
+        <commit>release-v2.3.1</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5]">
         <num>2.3.0 release</num>
