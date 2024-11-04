@@ -14943,6 +14943,10 @@
         <commit>latest-v1.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -14976,11 +14980,15 @@
     <description><![CDATA[This code example demonstrates Wi-Fi provisioning via a SoftAP and setting up a web server with CYW955913EVK-01
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-threadx-wifi-http-server/blob/master/README.md">README on GitHub</a>.
     ]]></description>
-    <req_capabilities>wifi led cyw55xxx cat5</req_capabilities>
+    <req_capabilities>wifi led cyw55913 cat5</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>1.0.0 release</num>
@@ -14996,11 +15004,15 @@
     <description><![CDATA[This code example demonstrates the implementation of a TCP client with CYW955913EVK-01 EVK.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-threadx-wifi-tcp-client/blob/master/README.md">README on GitHub</a>.
     ]]></description>
-    <req_capabilities>wifi led cyw55xxx cat5</req_capabilities>
+    <req_capabilities>wifi led cyw55913 cat5</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>1.0.0 release</num>
@@ -15016,11 +15028,15 @@
     <description><![CDATA[This code example demonstrates the implementation of a TCP server with CYW955913EVK-01 EVK.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-threadx-wifi-tcp-server/blob/master/README.md">README on GitHub</a>.
     ]]></description>
-    <req_capabilities>wifi led cyw55xxx cat5</req_capabilities>
+    <req_capabilities>wifi led cyw55913 cat5</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>1.0.0 release</num>
@@ -15036,11 +15052,15 @@
     <description><![CDATA[This example demonstrates how to configure different scan filters provided in the Wi-Fi connection manager (WCM) middleware and scan for the available Wi-Fi networks.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-threadx-wifi-scan/blob/master/README.md">README on GitHub</a>.
     ]]></description>
-    <req_capabilities>wifi cyw55xxx cat5</req_capabilities>
+    <req_capabilities>wifi cyw55913 cat5</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>1.0.0 release</num>
@@ -15056,11 +15076,15 @@
     <description><![CDATA[This example uses the Infineon Wi-Fi onboarding custom service via Bluetooth&#174; LE for provisioning a new device to a Wi-Fi Access point.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-threadx-le-wifi-onboarding/blob/master/README.md">README on GitHub</a>.
     ]]></description>
-    <req_capabilities>wifi bt cyw55xxx cat5</req_capabilities>
+    <req_capabilities>wifi bt cyw55913 cat5</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>1.0.0 release</num>
@@ -15096,11 +15120,15 @@
     <description><![CDATA[This example demonstrates AT command application that accepts AT command from a Host over UART to configure, manage, and control Wi-Fi functionalities and features of a device.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-threadx-at-commands/blob/master/README.md">README on GitHub</a>.
     ]]></description>
-    <req_capabilities>wifi cyw55xxx cat5</req_capabilities>
+    <req_capabilities>wifi cyw55913 cat5</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>1.0.0 release</num>
@@ -15116,7 +15144,27 @@
     <description><![CDATA[This code example demonstrates implementing an MQTT Client using the MQTT Client library. The library uses the AWS IoT device SDK Port library and implements the glue layer that is required for the library to work with Infineon&#8482; connectivity platforms.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-threadx-wifi-mqtt-client/blob/master/README.md">README on GitHub</a>.
     ]]></description>
-    <req_capabilities>wifi cyw55xxx cat5</req_capabilities>
+    <req_capabilities>wifi cyw55913 cat5</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="mtb-flow,wifi,mqtt,threadx,cyw55913">
+    <name>Wi-Fi MQTT Client with Hosted Mode support</name>
+    <id>mtb-example-threadx-wifi-mqtt-client-hm</id>
+    <category>Wi-Fi</category>
+    <uri>https://github.com/Infineon/mtb-example-threadx-wifi-mqtt-client-hm</uri>
+    <description><![CDATA[This code example demonstrates implementing an MQTT Client using the MQTT Client library and also has Hosted mode support. The library uses the AWS IoT device SDK Port library and implements the glue layer that is required for the library to work with Infineon&#8482; connectivity platforms.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-threadx-wifi-mqtt-client-hm/blob/master/README.md">README on GitHub</a>.
+    ]]></description>
+    <req_capabilities>wifi cyw55913 cat5</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>Latest 1.X release</num>
@@ -15136,11 +15184,15 @@
     <description><![CDATA[This code example demonstrates implementation of UDP Client using the Wi-Fi connectivity SDK. The UDP Client establishes a connection with a remote UDP server and based on the command received from the UDP server, turns the user LED ON or OFF
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-threadx-wifi-udp-client/blob/master/README.md">README on GitHub</a>.
     .]]></description>
-    <req_capabilities>wifi cyw55xxx cat5</req_capabilities>
+    <req_capabilities>wifi cyw55913 cat5</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>1.0.0 release</num>
@@ -15156,7 +15208,31 @@
     <description><![CDATA[This code example demonstrates implementation of UDP Server using the Wi-Fi connectivity SDK. The UDP Server allows the user to send LED ON/OFF command to the UDP client.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-threadx-wifi-udp-server/blob/master/README.md">README on GitHub</a>.
     ]]></description>
-    <req_capabilities>wifi cyw55xxx cat5</req_capabilities>
+    <req_capabilities>wifi cyw55913 cat5</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="mtb-flow,wifi,udp,server,threadx,cyw55913">
+    <name>Wi-Fi UDP Server with Hosted Mode support</name>
+    <id>mtb-example-threadx-wifi-udp-server-hm</id>
+    <category>Wi-Fi</category>
+    <uri>https://github.com/Infineon/mtb-example-threadx-wifi-udp-server-hm</uri>
+    <description><![CDATA[This code example demonstrates implementation of UDP Server using the Wi-Fi connectivity SDK and also has Hosted Mode support. The UDP Server allows the user to send LED ON/OFF command to the UDP client.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-threadx-wifi-udp-server-hm/blob/master/README.md">README on GitHub</a>.
+    ]]></description>
+    <req_capabilities>wifi cyw55913 cat5</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>Latest 1.X release</num>
@@ -15196,11 +15272,15 @@
     <description><![CDATA[This code example demonstrates the privacy features available to users in Bluetooth&#174; Low Energy 5.0 and above.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-threadx-peripheral-privacy/blob/master/README.md">README on GitHub</a>.
     ]]></description>
-    <req_capabilities>bt cyw55xxx cat5</req_capabilities>
+    <req_capabilities>bt cyw55913 cat5</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>1.0.0 release</num>
@@ -15216,7 +15296,7 @@
     <description><![CDATA[This code example showcases how to perform an MQTT over-the-air (OTA) update using the CYW955913EVK-01 Evaluation Kit.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-threadx-wifi-ota-mqtt/blob/master/README.md">README on GitHub</a>.
     ]]></description>
-    <req_capabilities>wifi cyw55xxx cat5</req_capabilities>
+    <req_capabilities>wifi cyw55913 cat5</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>Latest 1.X release</num>
@@ -15236,11 +15316,15 @@
     <description><![CDATA[This code example showcases how to perform an over-the-air (OTA) update using the Bluetooth&#174; LE in CYW955913EVK-01 Evaluation Kit.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-threadx-le-ota/blob/master/README.md">README on GitHub</a>.
     ]]></description>
-    <req_capabilities>bt cyw55xxx cat5</req_capabilities>
+    <req_capabilities>bt cyw55913 cat5</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>1.0.0 release</num>
@@ -15256,7 +15340,7 @@
     <description><![CDATA[This code example showcases how to perform an HTTP over-the-air (OTA) update using the CYW955913EVK-01 Evaluation Kit.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-threadx-wifi-ota-http/blob/master/README.md">README on GitHub</a>.
     ]]></description>
-    <req_capabilities>wifi cyw55xxx cat5</req_capabilities>
+    <req_capabilities>wifi cyw55913 cat5</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>Latest 1.X release</num>
@@ -15276,11 +15360,15 @@
     <description><![CDATA[This code example demonstrates how to interface with an external PSRAM using Serial Memory Interface (SMIF) PDL in CYW955913EVK-01 EVK. It also demonstrates how to perform read and write operations in CYW955913EVK-01 EVK.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-threadx-psram/blob/master/README.md">README on GitHub</a>.
     ]]></description>
-    <req_capabilities>psram cyw55xxx cat5</req_capabilities>
+    <req_capabilities>psram cyw55913 cat5</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>1.0.0 release</num>
@@ -15296,11 +15384,15 @@
     <description><![CDATA[This code example integrates Secure Hash Algorithm (SHA),  Advanced Encryption Standard (AES), and True Random Number Generation (TRNG) functionalities using Mbed TLS.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-threadx-crypto/blob/master/README.md">README on GitHub</a>.
     ]]></description>
-    <req_capabilities>cyw55xxx cat5</req_capabilities>
+    <req_capabilities>cyw55913 cat5</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>1.0.0 release</num>
@@ -15316,11 +15408,15 @@
     <description><![CDATA[This is low power application for CYW5591x devices. The application provides a simple UART interface to manipulate the device state and hence facilitating the system power measurement in different scenarios.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-threadx-cyw5591x-low-power/blob/master/README.md">README on GitHub</a>.
     ]]></description>
-    <req_capabilities>cyw55xxx cat5</req_capabilities>
+    <req_capabilities>cyw55913 cat5</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>1.0.0 release</num>
@@ -15336,11 +15432,15 @@
     <description><![CDATA[This code example demonstrates the interfacing of ambient light sensor (TSL2540) with CYW955913EVK-01 EVK. This example reads the light value from a sensor through I2C interface.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-threadx-ambient-light-sensor/blob/master/README.md">README on GitHub</a>.
     ]]></description>
-    <req_capabilities>cyw55xxx cat5</req_capabilities>
+    <req_capabilities>cyw55913 cat5</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>1.0.0 release</num>
@@ -15574,6 +15674,42 @@
       </version>
     </versions>
   </app>
+  <app keywords="le-lr,central,bluetooth,btstack,threadx,cyw55513,cyw55913" req_capabilities_v2="bt cat5 cyw55513 cyw55xxx [cyw955513evk_01]">
+    <name>Bluetooth LE Long Range Central</name>
+    <id>mtb-example-btstack-threadx-le-lr-central</id>
+    <category>Bluetooth&#174;</category>
+    <uri>https://github.com/Infineon/mtb-example-btstack-threadx-le-lr-central</uri>
+    <description><![CDATA[This code example demonstrates the use of LE Long Range PHY as a central (GATT Client) application with Infineon AIROC&#8482; CYW55xxx Bluetooth&#174; devices and ModusToolbox&#8482; software environment.]]></description>
+    <req_capabilities>bt cyw55xxx cat5</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="le-lr,peripheral,bluetooth,btstack,threadx,cyw55513,cyw55913" req_capabilities_v2="bt cat5 cyw55513 cyw55xxx [cyw955513evk_01]">
+    <name>Bluetooth LE Long Range Peripheral</name>
+    <id>mtb-example-btstack-threadx-le-lr-peripheral</id>
+    <category>Bluetooth&#174;</category>
+    <uri>https://github.com/Infineon/mtb-example-btstack-threadx-le-lr-peripheral</uri>
+    <description><![CDATA[This code example demonstrates the use of LE Long Range PHY as a peripheral (GATT Sever) application with Infineon AIROC&#8482; CYW55xxx Bluetooth&#174; devices and ModusToolbox&#8482; software environment.]]></description>
+    <req_capabilities>bt cyw55xxx cat5</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
   <app keywords="hello-CLient,bluetooth,btstack,threadx,cyw55513" req_capabilities_v2="bt cat5 cyw55513 cyw55xxx [cyw955513evk_01]">
     <name>Hello-Client</name>
     <id>mtb-example-btstack-threadx-hello-client</id>
@@ -15625,6 +15761,104 @@
         <commit>latest-v1.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="bsp_gen5">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="btstack,threadx,power,bluetooth,throughput">
+    <name>Bluetooth LE GATT Throughput Client</name>
+    <id>mtb-example-btstack-threadx-throughput-client</id>
+    <category>Bluetooth&#174;</category>
+    <uri>https://github.com/Infineon/mtb-example-btstack-threadx-throughput-client</uri>
+    <description><![CDATA[This code example demonstrates the maximum Bluetooth&#174; LE throughput (using GATT layer notification and GATT write command) that can be achieved with Infineon CYW55913 Wi-Fi and Bluetooth&#174; LE connected MCU.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-threadx-throughput-client/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>bt cyw55913 cat5</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="btstack,threadx,power,bluetooth,throughput">
+    <name>Bluetooth LE GATT Throughput Server</name>
+    <id>mtb-example-btstack-threadx-throughput-server</id>
+    <category>Bluetooth&#174;</category>
+    <uri>https://github.com/Infineon/mtb-example-btstack-threadx-throughput-server</uri>
+    <description><![CDATA[This code example demonstrates the maximum Bluetooth&#174; LE throughput (using GATT layer notification and GATT write command) that can be achieved with Infineon CYW55913 Wi-Fi and Bluetooth&#174; LE connected MCU.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-threadx-throughput-server/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>bt cyw55913 cat5</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="mtb-flow,kv-store,threadx,cyw55913">
+    <name>KV Store</name>
+    <id>mtb-example-threadx-kv-store</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-threadx-kv-store</uri>
+    <description><![CDATA[This code example demonstrates how to store non voatile data to flash using KV store library for CYW955913EVK-01 EVK.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-threadx-kv-store/blob/develop/README.md">README on GitHub</a>.
+    ]]></description>
+    <req_capabilities>cyw55913 cat5</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="mtb-flow,mac,otp,threadx,cyw55913">
+    <name>MAC Provisioning</name>
+    <id>mtb-example-threadx-wifi-mac-provisioning</id>
+    <category>Wi-Fi</category>
+    <uri>https://github.com/Infineon/mtb-example-threadx-wifi-mac-provisioning</uri>
+    <description><![CDATA[This code example demonstrates how to store MAC address to OTP for CYW955913EVK-01 EVK.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-threadx-wifi-mac-provisioning/blob/develop/README.md">README on GitHub</a>.
+    ]]></description>
+    <req_capabilities>cyw55913 cat5</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="mtb-flow,twt,threadx,cyw55913">
+    <name>Target Wake Time</name>
+    <id>mtb-example-threadx-wifi-twt</id>
+    <category>Wi-Fi</category>
+    <uri>https://github.com/Infineon/mtb-example-threadx-wifi-twt</uri>
+    <description><![CDATA[This example demonstrates how to setup an Individual TWT (iTWT) session with an AP and teardown an existing iTWT session.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-threadx-wifi-twt/blob/develop/README.md">README on GitHub</a>.
+    ]]></description>
+    <req_capabilities>cyw55913 cat5</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
