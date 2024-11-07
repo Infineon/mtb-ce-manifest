@@ -15151,6 +15151,10 @@
         <commit>latest-v1.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -15345,6 +15349,10 @@
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>1.0.0 release</num>
@@ -15810,7 +15818,7 @@
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-threadx-kv-store</uri>
     <description><![CDATA[This code example demonstrates how to store non voatile data to flash using KV store library for CYW955913EVK-01 EVK.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-threadx-kv-store/blob/develop/README.md">README on GitHub</a>.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-threadx-kv-store/blob/master/README.md">README on GitHub</a>.
     ]]></description>
     <req_capabilities>cyw55913 cat5</req_capabilities>
     <versions>
@@ -15830,7 +15838,7 @@
     <category>Wi-Fi</category>
     <uri>https://github.com/Infineon/mtb-example-threadx-wifi-mac-provisioning</uri>
     <description><![CDATA[This code example demonstrates how to store MAC address to OTP for CYW955913EVK-01 EVK.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-threadx-wifi-mac-provisioning/blob/develop/README.md">README on GitHub</a>.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-threadx-wifi-mac-provisioning/blob/master/README.md">README on GitHub</a>.
     ]]></description>
     <req_capabilities>cyw55913 cat5</req_capabilities>
     <versions>
@@ -15850,7 +15858,27 @@
     <category>Wi-Fi</category>
     <uri>https://github.com/Infineon/mtb-example-threadx-wifi-twt</uri>
     <description><![CDATA[This example demonstrates how to setup an Individual TWT (iTWT) session with an AP and teardown an existing iTWT session.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-threadx-wifi-twt/blob/develop/README.md">README on GitHub</a>.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-threadx-wifi-twt/blob/master/README.md">README on GitHub</a>.
+    ]]></description>
+    <req_capabilities>cyw55913 cat5</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="mtb-flow,noise-threshold,threadx,cyw55913">
+    <name>Lowpower Noise Detection and Wakeup</name>
+    <id>mtb-example-threadx-lowpower-noise-detection</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-threadx-lowpower-noise-detection</uri>
+    <description><![CDATA[This example demonstrates the ADC Comparator in Noise Threshold Detection (NTD) mode to wakeup the device from lowpower deep-sleep.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-threadx-lowpower-noise-detection/blob/master/README.md">README on GitHub</a>.
     ]]></description>
     <req_capabilities>cyw55913 cat5</req_capabilities>
     <versions>
