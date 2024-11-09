@@ -1,5 +1,5 @@
 <apps version="2.0">
-  <app keywords="starter,template,empty,blank,mtb-flow" req_capabilities_v2="[psoc6,t2gbe,xmc7000,t2gbh,t2gbh_lite,cyw920829m2evk_02,cyw989829m2evb_01,t2gc2d]">
+  <app keywords="starter,template,empty,blank,mtb-flow" req_capabilities_v2="[psoc6,t2gbe,xmc7000,t2gbh,t2gbh_lite,cyw920829m2evk_02,cyw989829m2evb_01,t2gc2d,kit_xmc7200_dc_v1]">
     <name>Empty App</name>
     <id>mtb-example-empty-app</id>
     <category>Getting Started</category>
@@ -15887,6 +15887,25 @@
         <commit>latest-v1.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="motor,demo,mtb-flow" req_capabilities_v2="[kit_xmc7200_dc_v1]">
+    <name>MOTOR DEMO</name>
+    <id>mtb-example-ce240614-motor-control-solutions</id>
+    <category>Motor Control</category>
+    <uri>https://github.com/Infineon/mtb-example-ce240614-motor-control-solutions</uri>
+    <description><![CDATA[This example is the out-of-the-box (OOB) demo project for the XMC&#8482; 7200 Motor Drive card.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce240614-motor-control-solutions/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>cat1c led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen5]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen5]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
