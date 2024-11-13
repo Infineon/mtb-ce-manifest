@@ -1,5 +1,5 @@
 <apps version="2.0">
-  <app keywords="starter,template,empty,blank,mtb-flow" req_capabilities_v2="[psoc6,t2gbe,xmc7000,t2gbh,t2gbh_lite,cyw920829m2evk_02,cyw989829m2evb_01,t2gc2d,kit_xmc7200_dc_v1]">
+  <app keywords="starter,template,empty,blank,mtb-flow" req_capabilities_v2="[psoc6, fx3g2, fx2g3, t2gbe,xmc7000,t2gbh,t2gbh_lite,cyw920829m2evk_02,cyw989829m2evb_01,t2gc2d,,kit_xmc7200_dc_v1]">
     <name>Empty App</name>
     <id>mtb-example-empty-app</id>
     <category>Getting Started</category>
@@ -4002,6 +4002,114 @@
         <commit>release-v1.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="2.2.0" tools_max_version="2.4.1" req_capabilities_per_version_v2="[bsp_gen2] [cy8ckit_149,cy8ckit_145_40xx,cy8ckit_041_41xx]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="fx2g3,uart,led,mtb-flow" req_capabilities_v2="led fx2g3">
+    <name>Hello World</name>
+    <id>mtb-example-fx2g3-hello-world</id>
+    <category>Getting Started</category>
+    <uri>https://github.com/Infineon/mtb-example-fx2g3-hello-world</uri>
+    <description><![CDATA[This code example demonstrates a basic Hello World application for the FX2G3 device. It is a bare-metal application that toggles GPIO pins and sends messages through the SCB-UART interface.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-fx2g3-hello-world/blob/master/README.md">README on GitHub</a>.]]></description>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>latest 1.X</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="fx2g3,usbhs" req_capabilities_v2="led fx2g3">
+    <name>USBHS Device</name>
+    <id>mtb-example-fx2g3-usbhs-device</id>
+    <category>Getting Started</category>
+    <uri>https://github.com/Infineon/mtb-example-fx2g3-usbhs-device</uri>
+    <description><![CDATA[This code example demonstrates a vendor-specific USB device implementation for testing data transfers using Bulk, Interrupt, and Isochronous endpoints on USB 2.0 interfaces.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-fx2g3-usbhs-device/blob/master/README.md">README on GitHub</a>.]]></description>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>latest 1.X</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="fx2g3,uart,led,mtb-flow" req_capabilities_v2="led fx2g3">
+    <name>Slave FIFO In</name>
+    <id>mtb-example-fx2g3-slave-fifo-in</id>
+    <category>Getting Started</category>
+    <uri>https://github.com/Infineon/mtb-example-fx2g3-slave-fifo-in</uri>
+    <description><![CDATA[This code example demonstrates the configuration and usage of the Sensor Interface Port (SIP) on the FX2G3 device to implement the Synchronous Slave FIFO IN protocol.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-fx2g3-slave-fifo-in/blob/master/README.md">README on GitHub</a>.]]></description>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>latest 1.X</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="fx2g3,uart,led,mtb-flow" req_capabilities_v2="led fx2g3">
+    <name>Slave FIFO Out</name>
+    <id>mtb-example-fx2g3-slave-fifo-out</id>
+    <category>Getting Started</category>
+    <uri>https://github.com/Infineon/mtb-example-fx2g3-slave-fifo-out</uri>
+    <description><![CDATA[This code example demonstrates the configuration and usage of the Sensor Interface Port (SIP) on the FX2G3 device to implement the Synchronous Slave FIFO OUT protocol.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-fx2g3-slave-fifo-out/blob/master/README.md">README on GitHub</a>.]]></description>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>latest 1.X</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="fx2g3,uvc,uac" req_capabilities_v2="led fx2g3">
+    <name>UVC-UAC</name>
+    <id>mtb-example-fx2g3-uvc-uac</id>
+    <category>Getting Started</category>
+    <uri>https://github.com/Infineon/mtb-example-fx2g3-uvc-uac</uri>
+    <description><![CDATA[This code example demonstrates a UVC 1.1 compliant camera application using the FX2G3 device, including an integrated USB Audio Class interface for streaming audio from a PDM microphone. It also illustrates the configuration and usage of the Sensor Interface Port (SIP) to implement the Synchronous Slave FIFO IN protocol.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-fx2g3-uvc-uac/blob/master/README.md">README on GitHub</a>.]]></description>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>latest 1.X</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="fx2g3,uvc,uac" req_capabilities_v2="led fx2g3">
+    <name>Flash Loader</name>
+    <id>mtb-example-fx2g3-flash-loader</id>
+    <category>Getting Started</category>
+    <uri>https://github.com/Infineon/mtb-example-fx2g3-flash-loader</uri>
+    <description><![CDATA[This code example demonstrates an application that allows users to download FPGA binary files to the SPI flash device on the FPGA add-on board connected to the FX2G3 104LGA kit base board using the USB interface.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-fx2g3-flash-loader/blob/master/README.md">README on GitHub</a>.]]></description>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>latest 1.X</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
