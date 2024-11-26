@@ -8047,6 +8047,82 @@
       </version>
     </versions>
   </app>
+  <app keywords="pmg1,sbu,mux,mtb-flow" req_capabilities_v2="pmg1 [pmg1_cy7112, eval_pmg1_s1_drp, eval_pmg1_s3_dualdrp]">
+    <name>SBU MUX functionality</name>
+    <id>mtb-example-pmg1-sbu-mux</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-pmg1-sbu-mux</uri>
+    <description><![CDATA[This code example demonstrates the functionality of SBU multiplexer. The firmware detects the orientation of Type-C plug connected and accordingly switch the SBU MUX to route the SBU lines(SBU1/SBU2) to correct AUX_P/AUX_N pins. On switch press in PMG1-S1 and S3 DRP devices, route the SBU lines(SBU1/SBU2) to correct LSTX/LSRX pins.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-sbu-mux/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>pmg1</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="pmg1b1,led,i2c,pwm,PASCO2,mtb-flow" req_capabilities_v2="pmg1_b1_cy7116 usbpd i2c uart led">
+    <name>USBPD sink PAS CO2 and temperature sensor</name>
+    <id>mtb-example-pmg1b1-usbpd-sink-pasco2-temp-sensor</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-pmg1b1-usbpd-sink-pasco2-temp-sensor</uri>
+    <description><![CDATA[This code example demonstrates integration of the XENSIV#8482; PAS CO2 sensor to EZ-PD#8482; PMG1B1 MCU over the I2C interface and displaying the measured CO2 level and on-chip temperature data on a terminal using UART communication.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1b1-usbpd-sink-pasco2-temp-sensor/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>pmg1_b1_cy7116 usbpd i2c uart led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="pmg1,led,i2c,pwm,PASCO2,mtb-flow" req_capabilities_v2="pmg1 usbpd i2c uart led [pmg1_cy7110, pmg1_cy7111, pmg1_cy7112, pmg1_cy7113]">
+    <name>USBPD sink PAS CO2 and temperature sensor</name>
+    <id>mtb-example-pmg1-usbpd-sink-pasco2-temp-sensor</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-pmg1-usbpd-sink-pasco2-temp-sensor</uri>
+    <description><![CDATA[This code example demonstrates integration of the XENSIV&#8482; PAS CO2 sensor to PMG1 devices over the I2C interface. This code example also demonstrates PD contract negotiation using EZ-PD&#8482; PMG1 MCU devices. The code example also uses on chip temperature sensor to measure temperature data. The measured CO2 level and temperature data are sent over UART to display on a terminal.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-usbpd-sink-pasco2-temp-sensor/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>pmg1 usbpd i2c uart led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="pmg1,single-phase,bldc,motor,control,mtb-flow" req_capabilities_v2="pmg1 tcpwm usbpd [pmg1_cy7110]">
+    <name>Single-phase BLDC motor control</name>
+    <id>mtb-example-pmg1-single-phase-bldc-motor-control</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-pmg1-single-phase-bldc-motor-control</uri>
+    <description><![CDATA[This code example demonstrates a motor control solution using EZ-PD&#8482; PMG1-S0 MCU to control single-phase BLDC motors. The firmware mainly uses an 8-bit SAR ADC and two TCPWM blocks (timer and PWM). It interfaces TLE9201SG H-bridge as the inverter to achieve commutation of the BLDC motor. Optionally, a UART interface is also used to display the control parameters on a serial monitor.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-single-phase-bldc-motor-control/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>pmg1 tcpwm usbpd</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
   <app keywords="pmg1,ocp,scp,rcp,mtb-flow" req_capabilities_v2="pmg1 [pmg1_cy7111, pmg1_cy7112, pmg1_cy7113]">
     <name>Using the CSA block for OCP-SCP-RCP</name>
     <id>mtb-example-pmg1-ocp-scp-rcp</id>
