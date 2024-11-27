@@ -15981,24 +15981,6 @@
       </version>
     </versions>
   </app>
-  <app keywords="le-lr,peripheral,bluetooth,btstack,threadx,cyw55513,cyw55913" req_capabilities_v2="bt cat5 cyw55513 cyw55xxx [cyw955513evk_01]">
-    <name>Bluetooth LE Long Range Peripheral</name>
-    <id>mtb-example-btstack-threadx-le-lr-peripheral</id>
-    <category>Bluetooth&#174;</category>
-    <uri>https://github.com/Infineon/mtb-example-btstack-threadx-le-lr-peripheral</uri>
-    <description><![CDATA[This code example demonstrates the use of LE Long Range PHY as a peripheral (GATT Sever) application with Infineon AIROC&#8482; CYW55xxx Bluetooth&#174; devices and ModusToolbox&#8482; software environment.]]></description>
-    <req_capabilities>bt cyw55xxx cat5</req_capabilities>
-    <versions>
-      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
-      </version>
-      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
-        <num>1.0.0 release</num>
-        <commit>release-v1.0.0</commit>
-      </version>
-    </versions>
-  </app>
   <app keywords="hello-CLient,bluetooth,btstack,threadx,cyw55513" req_capabilities_v2="bt cat5 cyw55513 cyw55xxx [cyw955513evk_01]">
     <name>Hello-Client</name>
     <id>mtb-example-btstack-threadx-hello-client</id>
