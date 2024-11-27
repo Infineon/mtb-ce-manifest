@@ -7966,44 +7966,52 @@
       </version>
     </versions>
   </app>
-  <app keywords="pmg1,usbpd,mtb-flow" req_capabilities_v2="usbpd pmg1 led [pmg1_cy7110, pmg1_cy7111, pmg1_cy7112, pmg1_cy7113]">
+  <app keywords="pmg1,usbpd,mtb-flow" req_capabilities_v2="usbpd pmg1 led [pmg1_cy7110, pmg1_cy7111, pmg1_cy7112, pmg1_cy7113, eval_pmg1_s1_drp, eval_pmg1_s3_dualdrp]">
     <name>USBPD Sink</name>
     <id>mtb-example-pmg1-usbpd-sink</id>
-    <category>Peripherals</category>
+    <category>USB-C Power Delivery</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-pmg1-usbpd-sink</uri>
     <description><![CDATA[This code example demonstrates USB-C attach detection and USB Power Delivery contract negotiation using Power Delivery Microcontroller Generation 1 (PMG1) devices.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-usbpd-sink/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>usbpd pmg1 led</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 4.X release</num>
+        <commit>latest-v4.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version="bsp_gen4">
+        <num>4.0.0 release</num>
+        <commit>release-v4.0.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" tools_max_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4] [pmg1_cy7110, pmg1_cy7111, pmg1_cy7112, pmg1_cy7113]">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" tools_max_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4] [pmg1_cy7110, pmg1_cy7111, pmg1_cy7112, pmg1_cy7113]">
         <num>3.1.0 release</num>
         <commit>release-v3.1.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" tools_max_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4] [pmg1_cy7110, pmg1_cy7111, pmg1_cy7112, pmg1_cy7113]">
         <num>3.0.0 release</num>
         <commit>release-v3.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" tools_max_version="2.4.1" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" tools_max_version="2.4.1" req_capabilities_per_version_v2="[bsp_gen2] [pmg1_cy7110, pmg1_cy7111, pmg1_cy7112, pmg1_cy7113]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" tools_max_version="2.4.1" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" tools_max_version="2.4.1" req_capabilities_per_version_v2="[bsp_gen2] [pmg1_cy7110, pmg1_cy7111, pmg1_cy7112, pmg1_cy7113]">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" tools_max_version="2.4.1" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" tools_max_version="2.4.1" req_capabilities_per_version_v2="[bsp_gen2] [pmg1_cy7110, pmg1_cy7111, pmg1_cy7112, pmg1_cy7113]">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" tools_max_version="2.4.1" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" tools_max_version="2.4.1" req_capabilities_per_version_v2="[bsp_gen2] [pmg1_cy7110, pmg1_cy7111, pmg1_cy7112, pmg1_cy7113]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" tools_max_version="2.4.1" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" tools_max_version="2.4.1" req_capabilities_per_version_v2="[bsp_gen2] [pmg1_cy7110, pmg1_cy7111, pmg1_cy7112, pmg1_cy7113]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -8183,17 +8191,17 @@
   <app keywords="pmg1,usbpd,mtb-flow" req_capabilities_v2="usbpd pmg1 led [pmg1_cy7110, pmg1_cy7111, pmg1_cy7112, pmg1_cy7113]">
     <name>USB PD sink PPS demo</name>
     <id>mtb-example-pmg1-usbpd-sink-pps</id>
-    <category>Peripherals</category>
+    <category>USB-C Power Delivery</category>
     <uri>https://github.com/Infineon/mtb-example-pmg1-usbpd-sink-pps</uri>
     <description><![CDATA[This code example illustrates how to implement a programmable power supply (PPS) sink using EZ-PD&#8482; PMG1 MCU devices.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-usbpd-sink-pps/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>usbpd pmg1 led</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.1.0" tools_max_version="3.2.0" req_capabilities_per_version="bsp_gen4">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.1.0" tools_max_version="3.2.0" req_capabilities_per_version="bsp_gen4">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -8259,17 +8267,17 @@
   <app keywords="pmg1,usbpd,lcd,pwm,led,mtb-flow" req_capabilities_v2="pmg1 usbpd led [pmg1_cy7110, pmg1_cy7111, pmg1_cy7112, pmg1_cy7113]">
     <name>USB PD Sink with 16x2 LCD</name>
     <id>mtb-example-pmg1-usbpd-sink-lcd-display</id>
-    <category>Peripherals</category>
+    <category>USB-C Power Delivery</category>
     <uri>https://github.com/Infineon/mtb-example-pmg1-usbpd-sink-lcd-display</uri>
     <description><![CDATA[This code example demonstrates the USB Power Delivery (PD) sink functionality, displays the PD contract information on LCD and PWM to control the brightness of the LCD.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-usbpd-sink-lcd-display/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>pmg1 usbpd led</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" tools_max_version="3.2.0" req_capabilities_per_version="bsp_gen4">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" tools_max_version="3.2.0" req_capabilities_per_version="bsp_gen4">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -8316,48 +8324,56 @@
   <app keywords="pmg1,usbpd,bldc,motor,control,sensorless,mtb-flow" req_capabilities_v2="pmg1 usbpd adc opamp led [pmg1_cy7113]">
     <name>USBPD sensorless BLDC motor control</name>
     <id>mtb-example-pmg1-usbpd-sensorless-bldc-motor</id>
-    <category>Peripherals</category>
+    <category>USB-C Power Delivery</category>
     <uri>https://github.com/Infineon/mtb-example-pmg1-usbpd-sensorless-bldc-motor</uri>
     <description><![CDATA[This code example demonstrates EZ-PD&#8482; PMG1-S3 device-based solution for controlling sensorless Brushless DC (BLDC) motor of up to 140 watts, directly through USB PD power derived from a Type-C cable in 28-V Extended Power Range (EPR) mode.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-usbpd-sensorless-bldc-motor/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>pmg1 usbpd adc opamp led</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" tools_max_version="3.2.0" req_capabilities_per_version="bsp_gen4">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" tools_max_version="3.2.0" req_capabilities_per_version="bsp_gen4">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
     </versions>
   </app>
-  <app keywords="pmg1,usbpd,mtb-flow" req_capabilities_v2="usbpd pmg1 led [pmg1_cy7111, pmg1_cy7112, pmg1_cy7113]">
+  <app keywords="pmg1,usbpd,mtb-flow" req_capabilities_v2="usbpd pmg1 led [pmg1_cy7110, pmg1_cy7111, pmg1_cy7112, pmg1_cy7113, eval_pmg1_s1_drp, eval_pmg1_s3_dualdrp]">
     <name>USBPD DRP</name>
     <id>mtb-example-pmg1-usbpd-drp</id>
-    <category>Peripherals</category>
+    <category>USB-C Power Delivery</category>
     <uri>https://github.com/Infineon/mtb-example-pmg1-usbpd-drp</uri>
     <description><![CDATA[This code example demonstrates USB-C attach detection and USB Power Delivery contract negotiation using Power Delivery Microcontroller Generation 1 (PMG1) devices in DRP role.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-usbpd-drp/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>usbpd pmg1 led</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4] [pmg1_cy7110, pmg1_cy7112, pmg1_cy7113, eval_pmg1_s1_drp, eval_pmg1_s3_dualdrp]">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4] [pmg1_cy7110, pmg1_cy7112, pmg1_cy7113, eval_pmg1_s1_drp, eval_pmg1_s3_dualdrp]">
+        <num>3.0.0 release</num>
+        <commit>release-v3.0.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" tools_max_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4] [pmg1_cy7111, pmg1_cy7112, pmg1_cy7113]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" tools_max_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4] [pmg1_cy7111, pmg1_cy7112, pmg1_cy7113]">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" tools_max_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4] [pmg1_cy7111, pmg1_cy7112, pmg1_cy7113]">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" tools_max_version="2.4.1" req_capabilities_per_version="bsp_gen2 pmg1_cy7113">
+      <version flow_version="2.0" tools_min_version="2.3.0" tools_max_version="2.4.1" req_capabilities_per_version_v2="[bsp_gen2] [pmg1_cy7113]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" tools_max_version="2.4.1" req_capabilities_per_version="bsp_gen2 pmg1_cy7113">
+      <version flow_version="2.0" tools_min_version="2.3.0" tools_max_version="2.4.1" req_capabilities_per_version_v2="[bsp_gen2] [pmg1_cy7113]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -8366,21 +8382,86 @@
   <app keywords="pmg1,usbpd,mtb-flow" req_capabilities_v2="usbpd pmg1 led [pmg1_cy7113, pmg1s3dual]">
     <name>USBPD DRP EPR</name>
     <id>mtb-example-pmg1-usbpd-drp-epr</id>
-    <category>Peripherals</category>
+    <category>USB-C Power Delivery</category>
     <uri>https://github.com/Infineon/mtb-example-pmg1-usbpd-drp-epr</uri>
     <description><![CDATA[This code example demonstrates USB-C attach/detach detection and USB Power Delivery contract negotiation using Power Delivery Microcontroller Generation 1 (PMG1) devices in DRP role with Extended Power Range(EPR) operation.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-usbpd-drp-epr/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>usbpd pmg1 led</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version="bsp_gen4">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" tools_max_version="3.2.0" req_capabilities_per_version="bsp_gen4">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" tools_max_version="3.2.0" req_capabilities_per_version="bsp_gen4">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" tools_max_version="3.2.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="pmg1,usbpd,mtb-flow" req_capabilities_v2="usbpd pmg1 led [pmg1_cy7110, pmg1_cy7112, pmg1_cy7113, eval_pmg1_s1_drp, eval_pmg1_s3_dualdrp]">
+    <name>USBPD DRP HPI</name>
+    <id>mtb-example-pmg1-usbpd-drp-hpi</id>
+    <category>USB-C Power Delivery</category>
+    <uri>https://github.com/Infineon/mtb-example-pmg1-usbpd-drp-hpi</uri>
+    <description><![CDATA[This code example demonstrates USB-C attach detection and USB Power Delivery contract negotiation using Power Delivery Microcontroller Generation 1 (PMG1) devices in DRP role.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-usbpd-drp-hpi/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>usbpd pmg1 led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="pmg1,usbpd,mtb-flow" req_capabilities_v2="usbpd pmg1 led [eval_pmg1_s3_dualdrp]">
+    <name>USBPD DRP CAPSENSE</name>
+    <id>mtb-example-pmg1-usbpd-drp-capsense</id>
+    <category>USB-C Power Delivery</category>
+    <uri>https://github.com/Infineon/mtb-example-pmg1-usbpd-drp-capsense</uri>
+    <description><![CDATA[This code example demonstrates CAPSENSE&#8482; functionality using a 5-segment CAPSENSE&#8482; slider and two CAPSENSE&#8482; buttons along with USB-C attach detection and USB Power Delivery contract negotiation using Power Delivery Microcontroller Generation 1 (PMG1) devices.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-usbpd-drp-capsense/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>usbpd pmg1 led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="pmg1,usbpd,mtb-flow" req_capabilities_v2="usbpd pmg1 led [pmg1_cy7110, pmg1_cy7112, pmg1_cy7113, eval_pmg1_s1_drp, eval_pmg1_s3_dualdrp]">
+    <name>I2C Bootloader</name>
+    <id>mtb-example-pmg1-i2c-bootloader</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-pmg1-i2c-bootloader</uri>
+    <description><![CDATA[This code example demonstrates the firmware update and bootloading in PMG1 devices using HPI communication protocol over the I2C interface.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-i2c-bootloader/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>usbpd pmg1 led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version="bsp_gen4">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -8424,75 +8505,91 @@
       </version>
     </versions>
   </app>
-  <app keywords="pmg1,usbpd,capsense,mtb-flow" req_capabilities_v2="usbpd pmg1 capsense led [pmg1_cy7113]">
+  <app keywords="pmg1,usbpd,capsense,mtb-flow" req_capabilities_v2="usbpd pmg1 capsense led [pmg1_cy7113, eval_pmg1_s3_dualdrp]">
     <name>USBPD Sink CAPSENSE</name>
     <id>mtb-example-pmg1-usbpd-sink-capsense</id>
-    <category>Sensing</category>
+    <category>USB-C Power Delivery</category>
     <uri>https://github.com/Infineon/mtb-example-pmg1-usbpd-sink-capsense</uri>
     <description><![CDATA[This code example demonstrates CAPSENSE&#8482; functionality using a 5-segment CAPSENSE&#8482; slider and two CAPSENSE&#8482; buttons along with USB-C attach detection and USB Power Delivery contract negotiation using Power Delivery Microcontroller Generation 1 (PMG1) devices.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-usbpd-sink-capsense/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>usbpd pmg1 capsense led</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 5.X release</num>
+        <commit>latest-v5.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version="bsp_gen4">
+        <num>5.0.0 release</num>
+        <commit>release-v5.0.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" tools_max_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4] [pmg1_cy7113]">
         <num>Latest 4.X release</num>
         <commit>latest-v4.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" tools_max_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4] [pmg1_cy7113]">
         <num>4.0.0 release</num>
         <commit>release-v4.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" tools_max_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4] [pmg1_cy7113]">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" tools_max_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4] [pmg1_cy7113]">
         <num>3.0.0 release</num>
         <commit>release-v3.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" tools_max_version="2.4.1" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" tools_max_version="2.4.1" req_capabilities_per_version_v2="[bsp_gen2] [pmg1_cy7113]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" tools_max_version="2.4.1" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" tools_max_version="2.4.1" req_capabilities_per_version_v2="[bsp_gen2] [pmg1_cy7113]">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" tools_max_version="2.4.1" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" tools_max_version="2.4.1" req_capabilities_per_version_v2="[bsp_gen2] [pmg1_cy7113]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" tools_max_version="2.4.1" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" tools_max_version="2.4.1" req_capabilities_per_version_v2="[bsp_gen2] [pmg1_cy7113]">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" tools_max_version="2.4.1" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" tools_max_version="2.4.1" req_capabilities_per_version_v2="[bsp_gen2] [pmg1_cy7113]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
     </versions>
   </app>
-  <app keywords="pmg1,usbpd,mtb-flow" req_capabilities_v2="usbpd pmg1 led [pmg1_cy7113]">
+  <app keywords="pmg1,usbpd,mtb-flow" req_capabilities_v2="usbpd pmg1 led [pmg1_cy7113, eval_pmg1_s3_dualdrp]">
     <name>USBPD Sink using FreeRTOS</name>
     <id>mtb-example-pmg1-usbpd-sink-freertos</id>
-    <category>Peripherals</category>
+    <category>USB-C Power Delivery</category>
     <uri>https://github.com/Infineon/mtb-example-pmg1-usbpd-sink-freertos</uri>
     <description><![CDATA[This code example demonstrates USB-C attach detection and USB Power Delivery contract negotiation using Power Delivery Microcontroller Generation 1 (PMG1) devices. This code example uses FreeRTOS.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-usbpd-sink-freertos/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>usbpd pmg1 led</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version="bsp_gen4">
+        <num>3.0.0 release</num>
+        <commit>release-v3.0.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" tools_max_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4] [pmg1_cy7113]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" tools_max_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4] [pmg1_cy7113]">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" tools_max_version="2.4.1" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" tools_max_version="2.4.1" req_capabilities_per_version_v2="[bsp_gen2] [pmg1_cy7113]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" tools_max_version="2.4.1" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" tools_max_version="2.4.1" req_capabilities_per_version_v2="[bsp_gen2] [pmg1_cy7113]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -8643,17 +8740,17 @@
   <app keywords="pmg1,led,switch,gpio-interrupt,i2c,pwm,dps310,mtb-flow" req_capabilities_v2="pmg1 usbpd i2c uart switch led [pmg1_cy7110, pmg1_cy7111, pmg1_cy7112, pmg1_cy7113]">
     <name>USBPD Sink DPS310 I2C Sensor</name>
     <id>mtb-example-pmg1-usbpd-sink-dps310-i2c-sensor</id>
-    <category>Peripherals</category>
+    <category>USB-C Power Delivery</category>
     <uri>https://github.com/Infineon/mtb-example-pmg1-usbpd-sink-dps310-i2c-sensor</uri>
     <description><![CDATA[This code example demonstrates how the USB Type-C and Power delivery contract negotiation is achieved using PMG1 devices. It also shows how to integrate PMG1 with DPS310 external temperature and pressure sensor through an I2C interface.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-usbpd-sink-dps310-i2c-sensor/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>pmg1 usbpd i2c uart switch led</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" tools_max_version="3.2.0" req_capabilities_per_version="bsp_gen4">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" tools_max_version="3.2.0" req_capabilities_per_version="bsp_gen4">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
@@ -8840,17 +8937,17 @@
   <app keywords="pmg1b1, battery, usbpd, mtb-flow" req_capabilities_v2="pmg1_b1_cy7116 usbpd">
     <name>USBPD Li-ion Battery Charger</name>
     <id>mtb-example-pmg1b1-usbpd-battery-charger</id>
-    <category>Peripherals</category>
+    <category>Battery Charging</category>
     <uri>https://github.com/Infineon/mtb-example-pmg1b1-usbpd-battery-charger</uri>
     <description><![CDATA[This code example demonstrates Li-ion battery charger functionality along with USB-C attach detection and USB Power Delivery contract negotiation using Power Delivery Microcontroller Generation 1 (PMG1-B1) devices in DRP role.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1b1-usbpd-battery-charger/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>pmg1_b1_cy7116 usbpd</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" tools_max_version="3.2.0" req_capabilities_per_version="bsp_gen4">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" tools_max_version="3.2.0" req_capabilities_per_version="bsp_gen4">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -8859,17 +8956,17 @@
   <app keywords="pmg1b1, usbpd, mtb-flow" req_capabilities_v2="pmg1_b1_cy7116 usbpd">
     <name>USBPD Sink</name>
     <id>mtb-example-pmg1b1-usbpd-sink</id>
-    <category>Peripherals</category>
+    <category>USB-C Power Delivery</category>
     <uri>https://github.com/Infineon/mtb-example-pmg1b1-usbpd-sink</uri>
     <description><![CDATA[This code example demonstrates USB-C attach detection and USB Power Delivery contract negotiation using Power Delivery Microcontroller Generation 1 (PMG1-B1) devices.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1b1-usbpd-sink/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>pmg1_b1_cy7116 usbpd</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" tools_max_version="3.2.0" req_capabilities_per_version="bsp_gen4">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" tools_max_version="3.2.0" req_capabilities_per_version="bsp_gen4">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -8878,17 +8975,17 @@
   <app keywords="pmg1b1, battery, usbpd, mtb-flow" req_capabilities_v2="pmg1_b1_cy7116 usbpd">
     <name>USBPD DRP</name>
     <id>mtb-example-pmg1b1-usbpd-drp</id>
-    <category>Peripherals</category>
+    <category>USB-C Power Delivery</category>
     <uri>https://github.com/Infineon/mtb-example-pmg1b1-usbpd-drp</uri>
     <description><![CDATA[This code example demonstrates USB-C attach detection and USB Power Delivery contract negotiation using Power Delivery Microcontroller Generation 1 (PMG1-B1) devices in DRP role.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1b1-usbpd-drp/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>pmg1_b1_cy7116 usbpd</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" tools_max_version="3.2.0" req_capabilities_per_version="bsp_gen4">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" tools_max_version="3.2.0" req_capabilities_per_version="bsp_gen4">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
