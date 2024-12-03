@@ -16174,4 +16174,537 @@
       </version>
     </versions>
   </app>
+  <app keywords="led,starter,hello world,mtb-flow" req_capabilities_v2="led [t2gc2d]">
+    <name>Hello World</name>
+    <id>mtb-example-ce240757-hello-world</id>
+    <category>Getting Started</category>
+    <uri>https://github.com/Infineon/mtb-example-ce240757-hello-world</uri>
+    <description><![CDATA[This code example demonstrates a simple UART communication by printing the "Hello world" message on a terminal and blinking an LED using a timer resource. The code example is based on PDL libraries.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce240757-hello-world/blob/master/README.md">README on GitHub</a>.
+    ]]></description>
+    <req_capabilities>led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="multicore,starter,template,empty,blank,mtb-flow" req_capabilities_v2="[t2gc2d]">
+    <name>Multi-core application template</name>
+    <id>mtb-example-ce240799-multicore-empty-app</id>
+    <category>Getting Started</category>
+    <uri>https://github.com/Infineon/mtb-example-ce240799-multicore-empty-app</uri>
+    <description><![CDATA[This code example is a minimal starter multi-core application template for TRAVEO T2G cluster devices.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce240799-multicore-empty-app/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="mtb-flow,flash,code flash,hal" req_capabilities_v2="uart [t2gc2d]">
+    <name>Code flash sector data updating</name>
+    <id>mtb-example-ce240753-code-flash-sector-data-updating</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce240753-code-flash-sector-data-updating</uri>
+    <description><![CDATA[This code example demonstrates the use of the Flash PDL driver to perform basic read, write, and erase operations on code flash, and update sector data online. The steps are logged on a UART terminal emulator.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce240753-code-flash-sector-data-updating/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>uart</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="cryptography,aes,mtb-flow" req_capabilities_v2="uart [t2gc2d]">
+    <name>Cryptography AES demonstration</name>
+    <id>mtb-example-ce240758-crypto-aes</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce240758-crypto-aes</uri>
+    <description><![CDATA[This code example encrypts and decrypts user input data using the AES algorithm with a 128-bit key. The encrypted and decrypted data are displayed on a UART terminal emulator.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce240758-crypto-aes/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>uart</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="cryptography,sha2,message digest,hash,mtb-flow" req_capabilities_v2="uart [t2gc2d]">
+    <name>Cryptography SHA demonstration</name>
+    <id>mtb-example-ce240759-crypto-sha</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce240759-crypto-sha</uri>
+    <description><![CDATA[This code example shows how to generate a 32-byte hash value, or message digest, for an arbitrary user input message with the SHA-2 algorithm using the cryptographic hardware block in the MCU. The example further shows that any change in the message results in a unique hash value for the message. The generated hash value for the message is displayed on a UART terminal emulator.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce240759-crypto-sha/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>uart</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="cryptography,trng,mtb-flow" req_capabilities_v2="uart std_crypto [t2gc2d]">
+    <name>Cryptography True Random Number Generation</name>
+    <id>mtb-example-ce240747-crypto-trng</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce240747-crypto-trng</uri>
+    <description><![CDATA[This code example demonstrates how to generate a one-time password (OTP) of eight characters in length with the True Random Number Generation (TRNG) feature using the Cryptographic hardware block in MCU. The generated random number consists of alphanumeric and special characters of the ASCII code. The generated OTP is then displayed on a UART terminal emulator.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce240747-crypto-trng/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>uart std_crypto</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="fault handling,mtb-flow" req_capabilities_v2="uart [t2gc2d]">
+    <name>Fault handling</name>
+    <id>mtb-example-ce240760-fault-handling</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce240760-fault-handling</uri>
+    <description><![CDATA[This example demonstrates the fault handling functionality of TRAVEO T2G Lite Kit.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce240760-fault-handling/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>uart</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="mtb-flow,gpio,interrupt,switch" req_capabilities_v2="led switch low_power [t2gc2d]">
+    <name>GPIO interrupt</name>
+    <id>mtb-example-ce240754-gpio-interrupt</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce240754-gpio-interrupt</uri>
+    <description><![CDATA[This code example demonstrates the use of GPIO configured as an input pin to generate interrupts on the Infineon MCU. The GPIO signal interrupts the CPU and executes a user-defined interrupt service routine (ISR). The GPIO interrupt acts as a wakeup source to wake the CPU from Deep Sleep.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce240754-gpio-interrupt/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>led switch low_power</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="i2c,master,slave,mtb-flow" req_capabilities_v2="led i2c [t2gc2d]">
+    <name>I2C master</name>
+    <id>mtb-example-ce240761-i2c-master</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce240761-i2c-master</uri>
+    <description><![CDATA[This code example demonstrates the use of the I2C resource in the Master mode. The I2C master is configured to send command packets to control the user LED on the slave.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce240761-i2c-master/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>led i2c</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="i2c,slave,mtb-flow" req_capabilities_v2="led i2c [t2gc2d]">
+    <name>I2C slave</name>
+    <id>mtb-example-ce240762-i2c-slave</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce240762-i2c-slave</uri>
+    <description><![CDATA[This code example demonstrates the use of a SPI resource in slave mode. The SPI slave is configured to receive command packets to control a user LED on the kit.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/https://github.com/Infineon/mtb-example-ce240762-i2c-slave/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>led i2c</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="mtb-flow,led,pwm,square wave,frequency,duty cycle,blinky,blinking" req_capabilities_v2="led [t2gc2d]">
+    <name>PWM square wave</name>
+    <id>mtb-example-ce240763-pwm-square-wave</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce240763-pwm-square-wave</uri>
+    <description><![CDATA[This code example generates a square wave using the PWM driver. An LED connected to the PWM output pin blinks at a frequency of 2 Hz.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce240763-pwm-square-wave/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="spi,master,mtb-flow" req_capabilities_v2="led spi [t2gc2d]">
+    <name>SPI master</name>
+    <id>mtb-example-ce240755-spi-master</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce240755-spi-master</uri>
+    <description><![CDATA[This code example demonstrates the use of a SPI resource in master mode. The SPI master is configured to send command packets to control a user LED on the slave.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce240755-spi-master/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>led spi</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="spi,slave,mtb-flow" req_capabilities_v2="led spi [t2gc2d]">
+    <name>SPI slave</name>
+    <id>mtb-example-ce240756-spi-slave</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce240756-spi-slave</uri>
+    <description><![CDATA[This code example demonstrates the use of a SPI resource in slave mode. The SPI slave is configured to receive command packets to control a user LED on the kit.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce240756-spi-slave/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>led spi</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="wdt,mtb-flow" req_capabilities_v2="cat1 led [t2gc2d]">
+    <name>Watchdog timer</name>
+    <id>mtb-example-ce240764-wdt</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce240764-wdt</uri>
+    <description><![CDATA[This example explains how to set up a watchdog timer (WDT). The WDT resets the device if it is not serviced or "kicked" within the configured timeout interval. This helps in recovering the program from an unintended lock up.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce240764-wdt/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>cat1 led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="lvd,interrupt,mtb-flow" req_capabilities_v2="led [t2gc2d]">
+    <name>LVD interrupt</name>
+    <id>mtb-example-ce240765-lvd-interrupt</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce240765-lvd-interrupt</uri>
+    <description><![CDATA[This code example shows how to configure low-voltage detection (LVD) in MCU to monitor VDDD and generate an interrupt when VDDD drops below the configured threshold.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce240765-lvd-interrupt/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="mcwdt,mtb-flow" req_capabilities_v2="uart [t2gc2d]">
+    <name>MCWDT interrupt</name>
+    <id>mtb-example-ce240766-mcwdt</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce240766-mcwdt</uri>
+    <description><![CDATA[This example shows how to configure the operation of Traveo T2G MCWDT Subcounters 0, 1, and 2 with interrupt.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce240766-mcwdt/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>uart</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="multicore,ipc,mtb-flow,pipes" req_capabilities_v2="multi_core [t2gc2d]">
+    <name>Multi-core IPC pipes</name>
+    <id>mtb-example-ce240767-multicore-ipc-pipes</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce240767-multicore-ipc-pipes</uri>
+    <description><![CDATA[This code example demonstrates the use of the inter-processor communication (IPC) driver to implement a message pipe in the MCU.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce240767-multicore-ipc-pipes/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>multi_core</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="uart,transmit,receive,dma,mtb-flow" req_capabilities_v2="led [t2gc2d]">
+    <name>SCB UART transmit-receive with DMA</name>
+    <id>mtb-example-ce240768-uart-transmit-receive-dma</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce240768-uart-transmit-receive-dma</uri>
+    <description><![CDATA[This code example demonstrates the SCB UART transmit and receive operation using direct memory access (DMA). The application uses a serial terminal to read data and echoes what is received. UART is configured to perform both transmit and receive operations.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce240768-uart-transmit-receive-dma/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="uart,transmit,receive,mtb-flow" req_capabilities_v2="led [t2gc2d]">
+    <name>UART transmit and receive</name>
+    <id>mtb-example-ce240769-uart-transmit-receive</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce240769-uart-transmit-receive</uri>
+    <description><![CDATA[This code example demonstrates the UART transmit and receive operation in an Infineon MCU. The application uses a serial terminal to read data and to echo back the received data. The UART resource is configured to do both transmit and receive operations.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce240769-uart-transmit-receive/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="sar,adc" req_capabilities_v2="adc [t2gc2d]">
+    <name>SAR ADC basic</name>
+    <id>mtb-example-ce240770-sar-adc-basic</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce240770-sar-adc-basic</uri>
+    <description><![CDATA[This code example demonstrates the use of the SAR ADC to perform voltage measurements. In this example, the driver is configured to sample the input voltage periodically and display the sample voltage on the UART terminal. By default, the ADC is configured to use one channel in a single-ended mode.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce240770-sar-adc-basic/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>t2gc2d</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="t2gc2d" req_capabilities_v2="[t2gc2d]">
+    <name>CAN FD</name>
+    <id>mtb-example-ce240771-canfd</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce240771-canfd</uri>
+    <description><![CDATA[This code example demonstrates how to use controller area network flexible data rate (CAN FD) in TRAVEO T2G MCU devices. In this example, the CAN Node-1 sends a CAN FD or standard frame to CAN Node-2 on pressing the user button1 and vice versa. Both the CAN nodes log the received data over the UART serial terminal. Each time a CAN frame is received, the user LED1 toggles.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce240771-canfd/blob/main/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>t2gc2d</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="t2gc2d" req_capabilities_v2="[t2gc2d]">
+    <name>Event generator trigger ADC</name>
+    <id>mtb-example-ce240772-evtgen-active-trigger-adc</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce240772-evtgen-active-trigger-adc</uri>
+    <description><![CDATA[This code example demonstrates how to use the TRAVEO T2G MCU event generator (EVTGEN) resource to trigger ADC conversion in active power mode. In this example, the event generator is configured to trigger an ADC conversion every second. Once the ADC conversion is complete, the result is printed out via UART.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce240772-evtgen-active-trigger-adc/blob/main/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>t2gc2d</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="t2gc2d" req_capabilities_v2="[t2gc2d]">
+    <name>GPIO pins</name>
+    <id>mtb-example-ce240773-gpio-pins</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce240773-gpio-pins</uri>
+    <description><![CDATA[This code example demonstrates the GPIO pin operation on the TRAVEO T2G MCU, using the Eclipse IDE for ModusToolbox&#8482; software environment. It covers reading, writing, handling interrupts, and complete configuration.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce240773-gpio-pins/blob/main/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>t2gc2d</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="t2gc2d" req_capabilities_v2="[t2gc2d]">
+    <name>Real-time clock basics</name>
+    <id>mtb-example-ce240774-rtc-basics</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce240774-rtc-basics</uri>
+    <description><![CDATA[This example demonstrates the use of the real-time clock (RTC) in the Infineon MCU. It shows how to get and set the time in the RTC using the RTC PDL API. The example also supports the daylight saving time (DST) feature. A UART interface is used to input the time and configure the RTC.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce240774-rtc-basics/blob/main/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>t2gc2d</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="t2gc2d" req_capabilities_v2="[t2gc2d]">
+    <name>SCB SPI master with DMA</name>
+    <id>mtb-example-ce240775-spi-master-dma</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce240775-spi-master-dma</uri>
+    <description><![CDATA[This example demonstrates the use of the SPI serial communication block (SCB) resource for Infineon MCU in master and slave mode using DMA. The SPI master is configured to send command packets to control a user LED on the slave. Both the master and slave can be on the same device or on different devices.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce240775-spi-master-dma/blob/main/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>t2gc2d</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="t2gc2d" req_capabilities_v2="[t2gc2d]">
+    <name>TCPWM counter</name>
+    <id>mtb-example-ce240776-tcpwm-counter</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce240776-tcpwm-counter</uri>
+    <description><![CDATA[This code example demonstrates how to use the TCPWM counter on the TRAVEO T2G MCU. The counter is started by a PWM signal and work with a 200 kHz clock frequency. Enable the counter CC0 match interrupt, when counter up to CC0 match value generates the interrupt to toggle the user LED.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce240776-tcpwm-counter/blob/main/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>t2gc2d</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="t2gc2d" req_capabilities_v2="[t2gc2d]">
+    <name>TCPWM dead-time mode</name>
+    <id>mtb-example-ce240777-tcpwm-dt</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce240777-tcpwm-dt</uri>
+    <description><![CDATA[This code example shows TCPWM dead-time mode function. The PWM line and PWM COMPL pins output 1 kHz frequency wave with 250 µs PWM left-align in the PWM dead-time mode.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce240777-tcpwm-dt/blob/main/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>t2gc2d</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="t2gc2d" req_capabilities_v2="[t2gc2d]">
+    <name>Toggle LED with SysTick timer</name>
+    <id>mtb-example-ce240778-systick-led</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce240778-systick-led</uri>
+    <description><![CDATA[This code example demonstrates how to use the SysTick timer to generate a timer interrupt on TRAVEO T2G MCU. The user LED is toggled when ten SysTick timer interrupts are generated.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce240778-systick-led/blob/main/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>t2gc2d</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
 </apps>
