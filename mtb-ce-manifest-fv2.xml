@@ -4951,7 +4951,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="xmc,starter,template,empty,blank,mtb-flow" req_capabilities_v2="xmc">
+  <app keywords="xmc,starter,template,empty,blank,mtb-flow" req_capabilities_v2="[xmc,kit_xmc14_2go]">
     <name>Empty XMC App</name>
     <id>mtb-example-xmc-empty-app</id>
     <category>Getting Started</category>
