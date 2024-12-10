@@ -16155,20 +16155,24 @@
       </version>
     </versions>
   </app>
-  <app keywords="motor,demo,mtb-flow" req_capabilities_v2="[kit_xmc7200_dc_v1]">
+  <app keywords="motor,demo,mtb-flow" req_capabilities_v2="[kit_xmc7200_dc_v1,kit_psc3m5_cc2]">
     <name>MOTOR DEMO</name>
     <id>mtb-example-ce240614-motor-control-solutions</id>
     <category>Motor Control</category>
     <uri>https://github.com/Infineon/mtb-example-ce240614-motor-control-solutions</uri>
-    <description><![CDATA[This example is the out-of-the-box (OOB) demo project for the XMC&#8482; 7200 Motor Drive card.
+    <description><![CDATA[This example is the out-of-the-box (OOB) demo project for the Infineon's Motor Drive card.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce240614-motor-control-solutions/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>cat1c led</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen5]">
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen5]">
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>1.0.1 release</num>
+        <commit>release-v1.0.1</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -16702,6 +16706,1088 @@
         <commit>latest-v1.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="starter,template,empty,blank,mtb-flow" req_capabilities_v2="[kit_psc3m5_evk,kit_psc3m5_cc1,kit_psc3m5_cc2]">
+    <name>Empty App</name>
+    <id>mtb-example-ce240786-empty-app</id>
+    <category>Getting Started</category>
+    <uri>https://github.com/Infineon/mtb-example-ce240786-empty-app</uri>
+    <description><![CDATA[This is a minimal starter application template for Infineon MCU devices.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce240786-empty-app/blob/master/README.md">README on GitHub</a>.]]></description>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="led,starter,hello world,mtb-flow" req_capabilities_v2="[kit_psc3m5_evk,kit_psc3m5_cc1,kit_psc3m5_cc2]">
+    <name>Hello World</name>
+    <id>mtb-example-ce240510-hello-world</id>
+    <category>Getting Started</category>
+    <uri>https://github.com/Infineon/mtb-example-ce240510-hello-world</uri>
+    <description><![CDATA[This code example demonstrates a simple UART communication by printing a "Hello World" message on a terminal and blinking an LED using a timer resource. This code example is based on PDL libraries.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce240510-hello-world/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>cat1b led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="wdt,mtb-flow" req_capabilities_v2="[kit_psc3m5_evk]">
+    <name>Watchdog Timer</name>
+    <id>mtb-example-ce240507-wdt</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce240507-wdt</uri>
+    <description><![CDATA[This example explains how to set up a Watchdog Timer (WDT) using the WDT PDL resource. The WDT resets the device if it is not serviced or "kicked" within the configured timeout interval.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce240507-wdt/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>cat1b led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="i2c,master,slave,mtb-flow" req_capabilities_v2="[kit_psc3m5_evk]">
+    <name>I2C Master Slave</name>
+    <id>mtb-example-ce239839-i2c-master-slave</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce239839-i2c-master-slave</uri>
+    <description><![CDATA[This code example demonstrates the use of the I2C resource in PDL master and slave modes both on the Infineon's PSOC&#8482; Control C3 MCU devices. The I2C master is configured to send command packets to control a user LED on the slave.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce239839-i2c-master-slave/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>cat1b led i2c</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="i2c,master,slave,mtb-flow" req_capabilities_v2="[kit_psc3m5_evk]">
+    <name>I2C Slave Deepsleep wakeup</name>
+    <id>mtb-example-ce240361-i2c-slave-deepsleep-wakeup</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce240361-i2c-slave-deepsleep-wakeup</uri>
+    <description><![CDATA[This code example demonstrates the operation of the I2C resource in Deep Sleep mode. After programming, the application starts automatically. The UART terminal displays the slave initialization and the MCU entering Deep Sleep mode. Using the BCP software, send the command to wake the device up from Deep Sleep and display a wakeup message on the terminal of Infineon's PSOC&#8482; Control C3 MCU devices.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce240361-i2c-slave-deepsleep-wakeup/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>cat1b led i2c</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="pwm,tcpwm,asymmetric,mtb-flow" req_capabilities_v2="[kit_psc3m5_evk]">
+    <name>Asymmetric PWM Generation</name>
+    <id>mtb-example-ce240707-pwm-dual-compare-capture</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce240707-pwm-dual-compare-capture</uri>
+    <description><![CDATA[This code example demonstrates the generation of asymmetric PWM signals using two compare/capture registers available in the TCPWM block of the PSOC&#8482; Control C3 MCU devices.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce240707-pwm-dual-compare-capture/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>uart</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="i2c,slave,mtb-flow" req_capabilities_v2="[kit_psc3m5_evk]">
+    <name>I2C Slave Using Callback</name>
+    <id>mtb-example-ce240631-i2c-slave-callback</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce240631-i2c-slave-callback</uri>
+    <description><![CDATA[This example demonstrates the operation of the I2C (PDL) resource in Slave mode using callbacks.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce240631-i2c-slave-callback/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>cat1b led i2c</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="cordic,svpwm,mtb-flow" req_capabilities_v2="[kit_psc3m5_evk]">
+    <name>CORDIC</name>
+    <id>mtb-example-ce239627-cordic</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce239627-cordic</uri>
+    <description><![CDATA[This code example demonstrates the use of the CORDIC Peripheral using PDL library functions on PSOC&#8482; Control C3 MCU.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce239627-cordic/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>cat1b led uart</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="i2c,ezi2c,master,slave,mtb-flow" req_capabilities_v2="[kit_psc3m5_evk]">
+    <name>I2C Master EzI2C Slave</name>
+    <id>mtb-example-ce240632-i2c-master-ezi2c-slave</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce240632-i2c-master-ezi2c-slave</uri>
+    <description><![CDATA[This example demonstrates the use of I2C (PDL) resource in Master mode with an EzI2C slave. The I2C master is configured to send command packets to control a user LED on the slave. Both the slave and the master can be configured on the same kit.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce240632-i2c-master-ezi2c-slave/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>i2c led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="deepsleep,power modes,mtb-flow" req_capabilities_v2="[kit_psc3m5_evk]">
+    <name>DeepSleep SRAM Retention</name>
+    <id>mtb-example-ce239868-deepsleep-sram-retention</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce239868-deepsleep-sram-retention</uri>
+    <description><![CDATA[This code example demonstrates the use of the DeepSleep SRAM Retention and wakeup from GPIO (user button) using PDL library functions in Infineon's PSOC&#8482; Control C3 MCU devices.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce239868-deepsleep-sram-retention/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>gpio led uart</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="hibernate,mtb-flow" req_capabilities_v2="[kit_psc3m5_evk]">
+    <name>Hibernate GPIO wakeup</name>
+    <id>mtb-example-ce239867-hibernate-gpio</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce239867-hibernate-gpio</uri>
+    <description><![CDATA[This code example demonstrates the use of the Hibernate and wakeup from GPIO (user button) using PDL library functions in Infineon's PSOC&#8482; Control C3 MCU devices.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce239867-hibernate-gpio/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>gpio led uart</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="motif,pwm,motor,mtb-flow" req_capabilities_v2="[kit_psc3m5_evk]">
+    <name>MOTIF Stand alone MCP mode</name>
+    <id>mtb-example-ce239856-motif-stand-alone-mcp-mode</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce239856-motif-stand-alone-mcp-mode</uri>
+    <description><![CDATA[This code example demonstrates the MOTIF in standalone multi-channel mode. MOTIF is configured to generate the High side modulated PWM, and low side is completely ON.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce239856-motif-stand-alone-mcp-mode/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>uart led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="cordic,svpwm,mtb-flow" req_capabilities_v2="[kit_psc3m5_evk]">
+    <name>SVPWM using CORDIC</name>
+    <id>mtb-example-ce239835-cordic-svpwm</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce239835-cordic-svpwm</uri>
+    <description><![CDATA[This code example demonstrates the SVPWM technique using CORDIC IP on PSOC&#8482; Control C3 MCU devices. SVPWM is widley used modulation technique in motor control application.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce239835-cordic-svpwm/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>uart led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="adc,mtb-flow" req_capabilities_v2="[kit_psc3m5_evk]">
+    <name>ADC 3 Channel Conversion</name>
+    <id>mtb-example-ce239857-adc-3-channels-conversion</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce239857-adc-3-channels-conversion</uri>
+    <description><![CDATA[This code example demonstrates how to configure ADC 3 channels to simultaneous sample by PWM trigger and store the result in the FIFO.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce239857-adc-3-channels-conversion/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>adc led uart</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="mcwdt,mtb-flow" req_capabilities_v2="[kit_psc3m5_evk]">
+    <name>Free-Running Multi-Counter Watchdog Timer</name>
+    <id>mtb-example-ce240816-mcwdt</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce240816-mcwdt</uri>
+    <description><![CDATA[This code example explains how to set up a multi-counter watchdog timer (MCWDT) using the MCWDT PDL resource to measure the timing between events in free-running mode on PSoC&#8482; Control C3 MCU.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce240816-mcwdt/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>cat1b uart</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="rtc,mtb-flow" req_capabilities_v2="[kit_psc3m5_evk]">
+    <name>RTC Basics</name>
+    <id>mtb-example-ce240517-rtc-basics</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce240517-rtc-basics</uri>
+    <description><![CDATA[This example demonstrates the usage of the real-time clock (RTC) in PSOC&#8482; Control C3 MCU. It shows how to get and set the time in the RTC using the RTC PDL API.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce240517-rtc-basics/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>rtc uart</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="rtc,low power,deepsleep,hibernate,mtb-flow" req_capabilities_v2="[kit_psc3m5_evk]">
+    <name>RTC periodic wakeup</name>
+    <id>mtb-example-ce240527-rtc-periodic-wakeup</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce240527-rtc-periodic-wakeup</uri>
+    <description><![CDATA[This code example demonstrates how to enter the DeepSleep and Hibernate modes, and wakeup using the RTC alarm on PSOC&#8482; Control C3 MCU.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce240527-rtc-periodic-wakeup/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>low_power rtc uart</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc control,fault handling,mtb-flow" req_capabilities_v2="[kit_psc3m5_evk]">
+    <name>Fault Handling</name>
+    <id>mtb-example-ce240713-fault-handling</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce240713-fault-handling</uri>
+    <description><![CDATA[This example demonstrates the fault handling functionality of PSoC&#8482; Control C3 MCU using Peripheral Driver Library (PDL) System Library (SysLib).
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce240713-fault-handling/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>cat1b uart</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc control,uart,transmit,receive,dma,mtb-flow" req_capabilities_v2="[kit_psc3m5_evk]">
+    <name>SCB UART Transmit and Receive using DMA</name>
+    <id>mtb-example-ce240712-uart-transmit-receive-dma</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce240712-uart-transmit-receive-dma</uri>
+    <description><![CDATA[This code example demonstrates the UART transmit and receive operation in PSoC&#8482; Control C3 MCU using DMA. The application uses a serial terminal to read data and echoes what is received. UART is configured to perform both transmit and receive operations.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce240712-uart-transmit-receive-dma/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>dma led uart</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc control,uart,transmit,receive,dma,mtb-flow" req_capabilities_v2="[kit_psc3m5_evk]">
+    <name>UART Transmit and Receive</name>
+    <id>mtb-example-ce240490-uart-transmit-receive</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce240490-uart-transmit-receive</uri>
+    <description><![CDATA[This example demonstrates the UART (PDL) transmit and receive operation on PSOC&#8482; Control C3 MCU.
+    <br><br>For more details, see the  <a href="https://github.com/Infineon/mtb-example-ce240490-uart-transmit-receive/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>dma led uart</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="lpcomp,psoc control,mtb-flow" req_capabilities_v2="[kit_psc3m5_evk]">
+    <name>DeepSleep or Hibernate Wakeup using low-power comparator</name>
+    <id>mtb-example-ce240257-lpcomp-wakeup</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce240257-lpcomp-wakeup</uri>
+    <description><![CDATA[This code example demonstrates the functionality of wakeup from DeepSleep or Hibernate mode using the low-power comparator (LPCOMP) in Infineon's PSOC&#8482; Control C3 MCU devices.
+    <br><br>For more details, see the  <a href="https://github.com/Infineon/mtb-example-ce240257-lpcomp-wakeup/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>led lpcomp uart</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="adc,psoc control,mtb-flow" req_capabilities_v2="[kit_psc3m5_evk]">
+    <name>SAR ADC differential measurement</name>
+    <id>mtb-example-ce240267-hppass-adc-diff-measurement</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce240267-hppass-adc-diff-measurement</uri>
+    <description><![CDATA[This example demonstrates how to use a high-performance programmable analog subsystem (HPPASS) SAR ADC pseudo-differential feature to measure the differential inputs voltage in Infineon's PSOC&#8482; Control C3 MCU devices.
+    <br><br>For more details, see the  <a href="https://github.com/Infineon/mtb-example-ce240267-hppass-adc-diff-measurement/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>adc led uart</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="adc,psoc control,mtb-flow" req_capabilities_v2="[kit_psc3m5_evk]">
+    <name>SAR ADC conversion time</name>
+    <id>mtb-example-ce240315-hppass-adc-conversion-time</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce240315-hppass-adc-conversion-time</uri>
+    <description><![CDATA[This example demonstrates how to configure the high-performance programmable analog subsystem (HPPASS) SAR ADC multiple channels and get the ADC conversion time of these channels with maximum frequency by TCPWM in Infineon's PSOC&#8482; Control C3 MCU devices.
+    <br><br>For more details, see the  <a href="https://github.com/Infineon/mtb-example-ce240315-hppass-adc-conversion-time/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>adc led uart</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="adc,psoc control,mtb-flow" req_capabilities_v2="[kit_psc3m5_evk]">
+    <name>SAR ADC limit detection</name>
+    <id>mtb-example-ce240368-hppass-adc-limit-detection</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce240368-hppass-adc-limit-detection</uri>
+    <description><![CDATA[This example explains how to use the high-performance programmable analog subsystem (HPPASS) SAR ADC limit detection function to detect the analog input voltage level in  Infineon's PSOC&#8482; Control C3 MCU devices.
+    <br><br>For more details, see the  <a href="https://github.com/Infineon/mtb-example-ce240368-hppass-adc-limit-detection/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>adc led uart</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="adc,psoc control,mtb-flow" req_capabilities_v2="[kit_psc3m5_evk]">
+    <name>On-chip temperature sensor</name>
+    <id>mtb-example-ce240435-hppass-temperature-sensor</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce240435-hppass-temperature-sensor</uri>
+    <description><![CDATA[This example demonstrates how to read the internal temperature of Infineon's PSOC&#8482; Control C3 MCU devices through the on-chip temperature sensor, SAR ADC, and autonomous controller (AC) of high-performance programmable analog subsystem (HPPASS). The temperature value can be displayed on a UART terminal using the user button.
+    <br><br>For more details, see the  <a href="https://github.com/Infineon/mtb-example-ce240435-hppass-temperature-sensor/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>adc led uart</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="adc,psoc control,mtb-flow" req_capabilities_v2="[kit_psc3m5_evk]">
+    <name>HPPASS CSG example</name>
+    <id>mtb-example-ce239854-hppass-csg</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce239854-hppass-csg</uri>
+    <description><![CDATA[This example demonstrates how to use HPPASS CSG to compare the external input signal with internal 10-bit DAC reference in Infineon's PSOC&#8482; Control C3 MCU devices.
+    <br><br>For more details, see the  <a href="https://github.com/Infineon/mtb-example-ce239854-hppass-csg/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>adc led uart</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="trigger,psoc control,mtb-flow" req_capabilities_v2="[kit_psc3m5_evk]">
+    <name>Trigger</name>
+    <id>mtb-example-ce238774-trigger</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce238774-trigger</uri>
+    <description><![CDATA[This example demonstrates how to use trigger multiplexer and one-to-one trigger in Infineon's PSOC&#8482; Control C3 MCU devices.
+    <br><br>For more details, see the  <a href="https://github.com/Infineon/mtb-example-ce238774-trigger/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>led uart</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="csg,hppass,kill,psoc control,mtb-flow" req_capabilities_v2="[kit_psc3m5_evk]">
+    <name>Kill PWM cycle-by-cycle using HPPASS CSG</name>
+    <id>mtb-example-ce240486-hppass-csg-kill-pwm</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce240486-hppass-csg-kill-pwm</uri>
+    <description><![CDATA[This example demonstrates how to use the comparator and slope generator (CSG) of a high-performance programmable analog subsystem (HPPASS) to kill PWM cycle-by-cycle in Infineon's PSOC&#8482; Control C3 MCU devices.
+    <br><br>For more details, see the  <a href="https://github.com/Infineon/mtb-example-ce240486-hppass-csg-kill-pwm/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>led uart</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="gpio,psoc control,mtb-flow" req_capabilities_v2="[kit_psc3m5_evk]">
+    <name>GPIO Interrupt</name>
+    <id>mtb-example-ce240467-gpio-interrupt</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce240467-gpio-interrupt</uri>
+    <description><![CDATA[This example demonstrates the use of a GPIO configured as an input pin to generate interrupts on PSOC&#8482; Control C3 MCU.
+    <br><br>For more details, see the  <a href="https://github.com/Infineon/mtb-example-ce240467-gpio-interrupt/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>led uart</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="tcpwm,counter,mtb-flow" req_capabilities_v2="[kit_psc3m5_evk]">
+    <name>TCPWM two Counters</name>
+    <id>mtb-example-ce238778-tcpwm-2counters</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce238778-tcpwm-2counters</uri>
+    <description><![CDATA[This code example demonstrates how to use the tcpwm 2 counters on the PSOC&#8482; Control C3 MCU to generate square PWM to drive 2 leds with different period and duty.
+    <br><br>For more details, see the  <a href="https://github.com/Infineon/mtb-example-ce238778-tcpwm-2counters/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>led uart</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="dma,spi,mtb-flow" req_capabilities_v2="[kit_psc3m5_evk]">
+    <name>SCB SPI master with DMA</name>
+    <id>mtb-example-ce240722-spi-master-dma</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce240722-spi-master-dma</uri>
+    <description><![CDATA[This example demonstrates the use of the SPI Serial Communication Block (SCB) resource for PSOC&#8482; Control C3 MCU in master mode using DMA. The SPI master is configured to send command packets to control a user LED on the slave. Both the master and slave can be on the same device or on different devices.
+    <br><br>For more details, see the  <a href="https://github.com/Infineon/mtb-example-ce240722-spi-master-dma/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>dma led spi uart</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="canfd,mtb-flow" req_capabilities_v2="[kit_psc3m5_evk]">
+    <name>CAN FD</name>
+    <id>mtb-example-ce240745-canfd</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce240745-canfd</uri>
+    <description><![CDATA[This example demonstrates how to use CAN FD in Infineon's PSOC&#8482; Control C3 MCU devices. In this example, the CANFD Node-1 sends a CAN FD frame to CANFD-Node-2 on pressing the user button and vice versa. Both the CAN FD nodes log the received data over UART serial terminal. Each time a CAN FD Frame is received, the user LED toggles.
+    <br><br>For more details, see the  <a href="https://github.com/Infineon/mtb-example-ce240745-canfd/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>can led uart</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="tcpwm,counter,mtb-flow" req_capabilities_v2="[kit_psc3m5_evk]">
+    <name>TCPWM Counter</name>
+    <id>mtb-example-ce240721-tcpwm-counter</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce240721-tcpwm-counter</uri>
+    <description><![CDATA[This code example demonstrates how to use the tcpwm counter on the PSOC&#8482; Control C3 MCU. The counter is started by pwm signal and work with 200KHz clock frequency. Enable the counter CC0 match interrupt, when counter up to CC0 match value generates the interrupt to toggle user LED.
+    <br><br>For more details, see the  <a href="https://github.com/Infineon/mtb-example-ce240721-tcpwm-counter/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="led,smartio,smart io,mtb-flow" req_capabilities_v2="[kit_psc3m5_evk]">
+    <name>Smart IO with GPIO</name>
+    <id>mtb-example-ce240716-smartio-gpio</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce240716-smartio-gpio</uri>
+    <description><![CDATA[This example uses the smart I/O peripheral in PSOC&#8482; Control C3 MCU to connect the button input pin to an output pin to toggle an external LED. There is no CPU usage except for the initialization of GPIO and smart I/O.
+    <br><br>For more details, see the  <a href="https://github.com/Infineon/mtb-example-ce240716-smartio-gpio/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>switch led smart_io</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="tcpwm,counter,mtb-flow" req_capabilities_v2="[kit_psc3m5_evk]">
+    <name>PWM channels with DT in edge-aligned mode</name>
+    <id>mtb-example-ce240081-pwm-dt-6channels</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce240081-pwm-dt-6channels</uri>
+    <description><![CDATA[This code example configures three TCPWM timers with dead-time (DT) to generate 6 PWM outputs in complementary mode. All timers start simultaneously with an external trigger.
+    <br><br>For more details, see the  <a href="https://github.com/Infineon/mtb-example-ce240081-pwm-dt-6channels/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="tcpwm,counter,mtb-flow" req_capabilities_v2="[kit_psc3m5_evk]">
+    <name>PWM channels with DT in center-aligned mode</name>
+    <id>mtb-example-ce240370-pwm-dt-center-aligned-6channels</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce240370-pwm-dt-center-aligned-6channels</uri>
+    <description><![CDATA[This code example configures three TCPWM timers with dead-time (DT) to generate 6 PWM outputs in complementary mode. All timers start simultaneously with an external trigger.
+    <br><br>For more details, see the  <a href="https://github.com/Infineon/mtb-example-ce240370-pwm-dt-center-aligned-6channels/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="mtb-flow,led,pwm,square wave,frequency,duty cycle,blinky,blinking" req_capabilities_v2="[kit_psc3m5_evk]">
+    <name>PWM Square Wave</name>
+    <id>mtb-example-ce240469-pwm-square-wave</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce240469-pwm-square-wave</uri>
+    <description><![CDATA[This code example generates a square wave using the PWM driver. An LED connected to the PWM output pin blinks at 2 Hz.
+    <br><br>For more details, see the  <a href="https://github.com/Infineon/mtb-example-ce240469-pwm-square-wave/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="spi,master,mtb-flow" req_capabilities_v2="[kit_psc3m5_evk]">
+    <name>SCB SPI master</name>
+    <id>mtb-example-ce240821-spi-master</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce240821-spi-master</uri>
+    <description><![CDATA[This example demonstrates the use of the SPI Serial Communication Block (SCB) resource for PSOC&#8482; Control C3 MCU: in master mode and slave mode. The SPI master is configured to send command packets to control a user LED on the slave.
+    <br><br>For more details, see the  <a href="https://github.com/Infineon/mtb-example-ce240821-spi-master/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>led spi</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="trustzone,mpc,mtb-flow" req_capabilities_v2="[kit_psc3m5_evk]">
+    <name>Non-secure Empty App Template</name>
+    <id>mtb-example-ce239531-non-secure-template</id>
+    <category>Security</category>
+    <uri>https://github.com/Infineon/mtb-example-ce239531-non-secure-template</uri>
+    <description><![CDATA[his is a minimal starter non-secure application template for PSOC&#8482; Control C3 MCU.
+    <br><br>For more details, see the  <a href="https://github.com/Infineon/mtb-example-ce239531-non-secure-template/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>cat1b led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="trustzone,ppc,mtb-flow" req_capabilities_v2="[kit_psc3m5_evk]">
+    <name>Security Aware GPIO</name>
+    <id>mtb-example-ce239794-security-aware-gpio</id>
+    <category>Security</category>
+    <uri>https://github.com/Infineon/mtb-example-ce239794-security-aware-gpio</uri>
+    <description><![CDATA[This code example demonstrates how to configure IOs as Secure or Non-secure for PSOC&#8482; Control MCU devices.
+    <br><br>For more details, see the  <a href="https://github.com/Infineon/mtb-example-ce239794-security-aware-gpio/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>gpio uart</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="trustzone,mpc,mtb-flow" req_capabilities_v2="[kit_psc3m5_evk]">
+    <name>Memory Isolation</name>
+    <id>mtb-example-ce239485-memory-isolation</id>
+    <category>Security</category>
+    <uri>https://github.com/Infineon/mtb-example-ce239485-memory-isolation</uri>
+    <description><![CDATA[This code example demonstrates the memory isolation capabilities of PSOC&#8482; Control MCU using Arm&#174; TrustZone&#174; technology of M33 CPU and Memory Protection Controller (MPC). The code example is based on PDL (Peripheral Driver Library) libraries.
+    <br><br>For more details, see the  <a href="https://github.com/Infineon/mtb-example-ce239485-memory-isolation/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>uart</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="tcpwm,counter,mtb-flow" req_capabilities_v2="[kit_psc3m5_evk]">
+    <name>TCPWM Capture</name>
+    <id>mtb-example-ce240241-tcpwm-capture</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce240241-tcpwm-capture</uri>
+    <description><![CDATA[This code example demonstrates how to use the tcpwm capture on the PSOC&#8482; Control C3 MCU. The code example uses two tcpwm counters: One counter configured as a PWM generator. The generated signal has a frequency of 100KHz with 25% duty cycle. One counter configured in capture mode. It will capture the period and duty cycle of the generated PWM.
+    <br><br>For more details, see the  <a href="https://github.com/Infineon/mtb-example-ce240241-tcpwm-capture/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="uart,transmit,receive,half-duplex,mtb-flow" req_capabilities_v2="[kit_psc3m5_evk]">
+    <name>UART Half Duplex</name>
+    <id>mtb-example-ce239785-uart-halfduplex</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce239785-uart-halfduplex</uri>
+    <description><![CDATA[This example demonstrates the UART (HAL) half duplex operation on PSOC&#8482; Control C3 MCU.
+    <br><br>For more details, see the  <a href="https://github.com/Infineon/mtb-example-ce239785-uart-halfduplex/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>led uart</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="led,systick,timer,toggle,mtb-flow" req_capabilities_v2="[kit_psc3m5_evk]">
+    <name>Toggle LED with SysTick Timer</name>
+    <id>mtb-example-ce240723-systick-led</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce240723-systick-led</uri>
+    <description><![CDATA[This code example demonstrates how to use the SysTick timer to generate a timer interrupt on PSOC&#8482; Control C3 MCU.
+    <br><br>For more details, see the  <a href="https://github.com/Infineon/mtb-example-ce240723-systick-led/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>cat1b led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="emulated,eeprom,flash,mtb-flow" req_capabilities_v2="[kit_psc3m5_evk]">
+    <name>Emulated EEPROM</name>
+    <id>mtb-example-ce240724-emulated-eeprom</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce240724-emulated-eeprom</uri>
+    <description><![CDATA[This example demonstrates how to use the Em_EEPROM middleware in PSoC&#8482; Control C3 MCU devices. In this example, a counter is read from the Emulated EEPROM (Em_EEPROM), incremented, written back to the Em_EEPROM and printed on a serial terminal. This occurs on every device reset or power cycle. As a result, an incrementing value is printed on every reset.
+    <br><br>For more details, see the  <a href="https://github.com/Infineon/mtb-example-ce240724-emulated-eeprom/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>cat1b led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="ipc,mutex,mtb-flow" req_capabilities_v2="[kit_psc3m5_evk]">
+    <name>IPC</name>
+    <id>mtb-example-ce240822-ipc</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce240822-ipc</uri>
+    <description><![CDATA[This example demonstrates the use of the Inter Processor Communication (IPC) resource for PSoC&#8482; Control MCU. The CM33 Non-Secure project is configured to send IPC interrupts to control a user LED on the CM33 Secure project.
+    <br><br>For more details, see the  <a href="https://github.com/Infineon/mtb-example-ce240822-ipc/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>cat1b led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="motor,mtb-flow" req_capabilities_v2="[kit_psc3m5_cc2]">
+    <name>PMSM FOC SL with 1-shunt</name>
+    <id>mtb-example-ce240312-foc-sl-1-shunt</id>
+    <category>Motor Control</category>
+    <uri>https://github.com/Infineon/mtb-example-ce240312-foc-sl-1-shunt</uri>
+    <description><![CDATA[This code example demonstrates the implementation of single shunt PMSM sensorless field-oriented control (FOC) using the Infineon's in PSoC&#8482; Control C3 MCU devices.
+    <br><br>For more details, see the  <a href="https://github.com/Infineon/mtb-example-ce240312-foc-sl-1-shunt/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>cat1b led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="motor,mtb-flow" req_capabilities_v2="[kit_psc3m5_cc2]">
+    <name>PMSM FOC SL with 3-shunt</name>
+    <id>mtb-example-ce240243-foc-3-shunt</id>
+    <category>Motor Control</category>
+    <uri>https://github.com/Infineon/mtb-example-ce240243-foc-3-shunt</uri>
+    <description><![CDATA[This code example demonstrates the implementation of PMSM sensorless field-oriented control (FOC) using the Infineon's in PSoC&#8482; Control C3 MCU devices.
+    <br><br>For more details, see the  <a href="https://github.com/Infineon/mtb-example-ce240243-foc-3-shunt/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>cat1b led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="buck,power conversion,mtb-flow" req_capabilities_v2="[kit_psc3m5_cc1]">
+    <name>PCCM buck converter multi-instance</name>
+    <id>mtb-example-ce240483-pccm-buck-multi-instance</id>
+    <category>Power Conversion</category>
+    <uri>https://github.com/Infineon/mtb-example-ce240483-pccm-buck-multi-instance</uri>
+    <description><![CDATA[This example implements a multi instance buck converter in peak current control mode for being used with the PSOC&#8482; Control C3M5 Complete System Dual Buck Evaluation Kit. It demonstrates the capabilities and performance of the PSOC&#8482; Control C3 MCU for implementating multi instance peak current control mode synchronous buck power converter. This code example is developed with PCC tool and Power-conversion middleware.
+    <br><br>For more details, see the  <a href="https://github.com/Infineon/mtb-example-ce240483-pccm-buck-multi-instance/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>adc led uart</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="buck,power conversion,mtb-flow" req_capabilities_v2="[kit_psc3m5_cc1]">
+    <name>VCM buck converter multi-instance</name>
+    <id>mtb-example-ce240553-vcm-buck-multi-instance</id>
+    <category>Power Conversion</category>
+    <uri>https://github.com/Infineon/mtb-example-ce240553-vcm-buck-multi-instance</uri>
+    <description><![CDATA[This code example demonstrates a multi-instance buck converter in voltage control mode (VCM) with the PSOC&#8482; Control C3M5 complete system dual buck evaluation kit. The power conversion configurator (PCC) tool and power conversion middleware are used for implementing this code example.
+    <br><br>For more details, see the  <a href="https://github.com/Infineon/mtb-example-ce240553-vcm-buck-multi-instance/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>adc led uart</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="gpio,led,freertos,mtb-flow" req_capabilities_v2="[kit_psc3m5_evk]">
+    <name>FreeRTOS Blinky</name>
+    <id>mtb-example-ce240823-blinky-freertos</id>
+    <category>Getting Started</category>
+    <uri>https://github.com/Infineon/mtb-example-ce240823-blinky-freertos</uri>
+    <description><![CDATA[This code example demonstrates the blinking LED functionality implemented by FreeRTOS tasks on PSOC&#8482; Control C3 MCU.
+    <br><br>For more details, see the  <a href="https://github.com/Infineon/mtb-example-ce240823-blinky-freertos/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>cat1b led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="live update,dfu,mtb-flow" req_capabilities_v2="[kit_psc3m5_evk]">
+    <name>DFU Live Firmware Update</name>
+    <id>mtb-example-ce240679-live-fwu</id>
+    <category>Security</category>
+    <uri>https://github.com/Infineon/mtb-example-ce240679-live-fwu</uri>
+    <description><![CDATA[This code example demonstrates how to perform a firmware update without a device reset. It is based on Device Firmware Update (DFU) and ifx-mbedtls libraries for PSOC&#8482; Control C3 MCU.
+    <br><br>For more details, see the  <a href="https://github.com/Infineon/mtb-example-ce240679-live-fwu/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>cat1b led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="firmware update,dfu,mtb-flow" req_capabilities_v2="[kit_psc3m5_evk]">
+    <name>Firmware upgrade through DFU MW</name>
+    <id>mtb-example-ce240598-otw-fwu</id>
+    <category>Security</category>
+    <uri>https://github.com/Infineon/mtb-example-ce240598-otw-fwu</uri>
+    <description><![CDATA[This code example demonstrates how Infineon's Device Firmware Update Middleware (DFU) can be used to update firmware over a serial interface, such as UART, SPI and I2C. Host (typically a PC) running the DFU Host Tool establishes a connection with the target device and downloads an application intended for the update.
+    <br><br>For more details, see the  <a href="https://github.com/Infineon/mtb-example-ce240598-otw-fwu/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>cat1b led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="firmware update,factory program,dfu,mtb-flow" req_capabilities_v2="[kit_psc3m5_evk]">
+    <name>Factory programming through BootROM DFU</name>
+    <id>mtb-example-ce240782-fwu-bootrom-dfu</id>
+    <category>Security</category>
+    <uri>https://github.com/Infineon/mtb-example-ce240782-fwu-bootrom-dfu</uri>
+    <description><![CDATA[This code example guides the user to program the OEM image using BootROM DFU serial interface. The DFU protocol is a properatory infineon owned serial interface feature inbuilt with an immutable BootROM. DFU protocol supports UART, I2C and SPI interfaces. This feature shall be used in end-of-line programming/factory programming without debugger.
+    <br><br>For more details, see the  <a href="https://github.com/Infineon/mtb-example-ce240782-fwu-bootrom-dfu/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>cat1b led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="secure app,secure boot,mtb-flow" req_capabilities_v2="[kit_psc3m5_evk]">
+    <name>Basic Secure Application</name>
+    <id>mtb-example-ce240783-secureboot</id>
+    <category>Security</category>
+    <uri>https://github.com/Infineon/mtb-example-ce240783-secureboot</uri>
+    <description><![CDATA[This code example provides a step-by-step guide on how to sign a basic application, specifically proj_cm33_s project, and enable the "secured boot" feature. The "secured boot" feature ensures that the BootROM verifies the application's authenticity before launching it.
+    <br><br>For more details, see the  <a href="https://github.com/Infineon/mtb-example-ce240783-secureboot/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>cat1b led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="gpio,led,oob,adc,hrpwm,mtb-flow" req_capabilities_v2="[kit_psc3m5_evk]">
+    <name>OOB DEMO</name>
+    <id>mtb-example-ce239976-oob-demo</id>
+    <category>Getting Started</category>
+    <uri>https://github.com/Infineon/mtb-example-ce239976-oob-demo</uri>
+    <description><![CDATA[This example is the out-of-the-box (OOB) demo project for the PSOC&#8482; Control C3 evaluation kit which includes the following code examples: Hello World, GPIO interrupt, SAR ADC basics, HRPWM.
+    <br><br>For more details, see the  <a href="https://github.com/Infineon/mtb-example-ce239976-oob-demo/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>adc cat1b led uart</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="adc,psoc control,mtb-flow" req_capabilities_v2="[kit_psc3m5_evk]">
+    <name>SAR ADC basic</name>
+    <id>mtb-example-ce239819-hppass-adc-basic</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce239819-hppass-adc-basic</uri>
+    <description><![CDATA[This example demonstrates how to use HPPASS SAR ADC to measure the external input voltage in Infineon's PSOC&#8482; Control C3 MCU devices.
+    <br><br>For more details, see the  <a href="https://github.com/Infineon/mtb-example-ce239819-hppass-adc-basic/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>adc uart</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
