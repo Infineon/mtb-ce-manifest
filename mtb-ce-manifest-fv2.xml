@@ -16454,6 +16454,139 @@
       </version>
     </versions>
   </app>
+  <app keywords="btstack,freertos,cyw20829,xensiv,pasco2v15" req_capabilities_v2="[cyw920829m2evk_02]">
+    <name>Bluetooth LE XENSIV PASCO2 Sensing Service</name>
+    <id>mtb-example-btstack-freertos-cyw20829-xensiv-pasco2v15</id>
+    <category>Bluetooth&#174;</category>
+    <uri>https://github.com/Infineon/mtb-example-btstack-freertos-cyw20829-xensiv-pasco2v15</uri>
+    <description><![CDATA[This code example demonstrates the implementation of a custom Bluetooth&#174; LE sensing profile. It acquires parts per million (PPM) data from XENSIV&#8482; PASCO2 carbon dioxide sensor and transfers it over Bluetooth&#174; LE as notifications using Infineon's AIROC&#8482; CYW20829 Bluetooth&#174; LE MCU Evaluation Kit (EVK). Instructions provided in this document are applicable for all supported kits in the ModusToolbox&#8482; software environment.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-cyw20829-xensiv-pasco2v15/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>cyw20829</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen5">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen5">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="btstack,freertos,cyw20829,xensiv,dps368" req_capabilities_v2="[cyw920829m2evk_02]">
+    <name>Bluetooth LE XENSIV DPS368 Sensing Service</name>
+    <id>mtb-example-btstack-freertos-cyw20829-xensiv-dps368</id>
+    <category>Bluetooth&#174;</category>
+    <uri>https://github.com/Infineon/mtb-example-btstack-freertos-cyw20829-xensiv-dps368</uri>
+    <description><![CDATA[This code example demonstrates the implementation of a custom Bluetooth&#174; LE sensing profile. It acquires pressure and temperature data from XENSIV&#8482; DPS368 pressure sensor and transfers it over Bluetooth&#174; LE as notifications using Infineon's AIROC&#8482; CYW20829 Bluetooth&#174; LE MCU Evaluation Kit (EVK). Instructions provided in this document are applicable for all supported kits in the ModusToolbox&#8482; software environment.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-cyw20829-xensiv-dps368/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>cyw20829</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen5">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen5">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="btstack,freertos,cyw20829,xensiv,bgt60ltr11aip" req_capabilities_v2="[cyw920829m2evk_02]">
+    <name>Bluetooth LE XENSIV BGT60LTR11AIP Sensing Service</name>
+    <id>mtb-example-btstack-freertos-cyw20829-xensiv-bgt60ltr11aip-autonomous</id>
+    <category>Bluetooth&#174;</category>
+    <uri>https://github.com/Infineon/mtb-example-btstack-freertos-cyw20829-xensiv-bgt60ltr11aip-autonomous</uri>
+    <description><![CDATA[This code example demonstrates the implementation of a custom Bluetooth&#174; LE sensing profile. It acquires motion detection data from XENSIV&#8482; BGT60LTR11AIP 60GHz Radar sensor in autonomous mode and transfers it over Bluetooth&#174; LE as notifications using Infineon's AIROC&#8482; CYW20829 Bluetooth&#174; LE MCU Evaluation Kit (EVK). Instructions provided in this document are applicable for all supported kits in the ModusToolbox&#8482; software environment.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-cyw20829-xensiv-bgt60ltr11aip-autonomous/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>cyw20829</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen5">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen5">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="btstack,freertos,cyw20829,sht35" req_capabilities_v2="[cyw920829m2evk_02]">
+    <name>Bluetooth LE SHT35 Sensing Service</name>
+    <id>mtb-example-btstack-freertos-cyw20829-relative-humidity-sht35</id>
+    <category>Bluetooth&#174;</category>
+    <uri>https://github.com/Infineon/mtb-example-btstack-freertos-cyw20829-relative-humidity-sht35</uri>
+    <description><![CDATA[This code example demonstrates the implementation of a custom Bluetooth&#174; LE sensing profile. It acquires relative humidity and temperature data from SHT35 relative humidity and temperature sensor and transfers it over Bluetooth&#174; LE as notifications using Infineon's AIROC&#8482; CYW20829 Bluetooth&#174; LE MCU Evaluation Kit (EVK). Instructions provided in this document are applicable for all supported kits in the ModusToolbox&#8482; software environment.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-cyw20829-relative-humidity-sht35/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>cyw20829</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen5">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen5">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="btstack,freertos,cyw20829,bmm350" req_capabilities_v2="[cyw920829m2evk_02]">
+    <name>Bluetooth LE BMM350 Sensing Service</name>
+    <id>mtb-example-btstack-freertos-cyw20829-magnetometer-bmm350</id>
+    <category>Bluetooth&#174;</category>
+    <uri>https://github.com/Infineon/mtb-example-btstack-freertos-cyw20829-magnetometer-bmm350</uri>
+    <description><![CDATA[This code example demonstrates the implementation of a custom Bluetooth&#174; LE sensing profile. It acquires x-axis, y-axis, z-axis and temperature data from BMM350 Magnetometer and transfers it over Bluetooth&#174; LE as notifications using Infineon's AIROC&#8482; CYW20829 Bluetooth&#174; LE MCU Evaluation Kit (EVK). Instructions provided in this document are applicable for all supported kits in the ModusToolbox&#8482; software environment.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-cyw20829-magnetometer-bmm350/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>cyw20829</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen5">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen5">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="btstack,freertos,cyw20829,bmi270" req_capabilities_v2="[cyw920829m2evk_02]">
+    <name>Bluetooth LE BMI270 Sensing Service</name>
+    <id>mtb-example-btstack-freertos-cyw20829-imu-bmi270</id>
+    <category>Bluetooth&#174;</category>
+    <uri>https://github.com/Infineon/mtb-example-btstack-freertos-cyw20829-imu-bmi270</uri>
+    <description><![CDATA[This code example demonstrates the implementation of a custom Bluetooth&#174; LE sensing profile. It acquires x-axis, y-axis, z-axis data from BMI270 IMU sensor, determines estimated board orientation and transfers it over Bluetooth&#174; LE as notifications using Infineon's AIROC&#8482; CYW20829 Bluetooth&#174; LE MCU Evaluation Kit (EVK). Instructions provided in this document are applicable for all supported kits in the ModusToolbox&#8482; software environment.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-cyw20829-imu-bmi270/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>cyw20829</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen5">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen5">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="btstack,freertos,cyw20829,xensiv,sensorhub" req_capabilities_v2="[cyw920829m2evk_02]">
+    <name>Bluetooth LE XENSIV Sensor Hub Sensing Service</name>
+    <id>mtb-example-btstack-freertos-cyw20829-xensiv-sensorhub</id>
+    <category>Bluetooth&#174;</category>
+    <uri>https://github.com/Infineon/mtb-example-btstack-freertos-cyw20829-xensiv-sensorhub</uri>
+    <description><![CDATA[This code example demonstrates the implementation of a custom Bluetooth&#174; LE sensing profile. It acquires data from XENSIV&#8482; BGT60LTR11AIP 60GHz Radar sensor in autonomous mode, XENSIV&#8482; PASCO2 carbon dioxide sensor, XENSIV&#8482; DPS368 barometric pressure sensor, BMI270 IMU sensor, BMM350 magnetometer sensor and SHT35 relative humidity and temperature sensor and transfers it over Bluetooth&#174; LE as notifications using Infineon's AIROC&#8482; CYW20829 Bluetooth&#174; LE MCU Evaluation Kit (EVK). Instructions provided in this document are applicable for all supported kits in the ModusToolbox&#8482; software environment.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-cyw20829-xensiv-sensorhub/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>cyw20829</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen5">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen5">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
   <app keywords="btstack,threadx,power,bluetooth,throughput" req_capabilities_v2="bt cyw55913">
     <name>Bluetooth LE GATT Throughput Client</name>
     <id>mtb-example-btstack-threadx-throughput-client</id>
