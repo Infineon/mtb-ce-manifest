@@ -46,7 +46,7 @@
   <app>
     <name>CAPSENSE Buttons and Slider</name>
     <id>mtb-example-psoc6-capsense-buttons-slider-0</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-capsense-buttons-slider</uri>
+    <uri>https://github.com/Infineon/mtb-example-psoc6-capsense-buttons-slider</uri>
     <description><![CDATA[This code example features a 5-segment CAPSENSE&#8482; slider and two CAPSENSE&#8482; buttons. Button 0 turns the LED on, Button 1 turns the LED off and the slider controls the brightness of the LED. The code example also demonstrates interfacing with Tuner GUI using I2C interface.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-capsense-buttons-slider/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 led capsense_button capsense_linear_slider</req_capabilities>
@@ -68,7 +68,7 @@
   <app>
     <name>Bluetooth LE Battery Level FreeRTOS</name>
     <id>mtb-example-psoc6-ble-battery-level-freertos-0</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-ble-battery-level-freertos</uri>
+    <uri>https://github.com/Infineon/mtb-example-psoc6-ble-battery-level-freertos</uri>
     <description><![CDATA[This code example demonstrates the implementation of a Bluetooth&#174; Low Energy Battery Service using PSoC&#8482; 6 MCU with Bluetooth&#174; Low Energy Connectivity (PSoC&#8482; 6 Bluetooth&#174; LE). This code example implements a GATT Server with the Battery Service and Device Information Service Bluetooth&#174; Low Energy standards. This code example uses FreeRTOS.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-ble-battery-level-freertos/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 led switch</req_capabilities>
@@ -116,7 +116,7 @@
   <app>
     <name>Bluetooth LE Find Me</name>
     <id>mtb-example-psoc6-ble-findme-0</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-ble-findme</uri>
+    <uri>https://github.com/Infineon/mtb-example-psoc6-ble-findme</uri>
     <description><![CDATA[This code example demonstrates the implementation of a simple Bluetooth&#174; Low Energy Immediate Alert Service (IAS)-based Find Me Profile (FMP) using PSoC&#8482; 6 MCU with Bluetooth&#174; Low Energy Connectivity.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-ble-findme/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 led switch</req_capabilities>
@@ -190,7 +190,7 @@
   <app>
     <name>Emulated EEPROM</name>
     <id>mtb-example-psoc6-emulated-eeprom-0</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-emulated-eeprom</uri>
+    <uri>https://github.com/Infineon/mtb-example-psoc6-emulated-eeprom</uri>
     <description><![CDATA[This code example demonstrates emulation of EEPROM behavior in flash memory of PSoC&#8482; 6 MCU using emeeprom middleware.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-emulated-eeprom/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 led</req_capabilities>
@@ -212,7 +212,7 @@
   <app>
     <name>CAPSENSE Buttons and Slider FreeRTOS</name>
     <id>mtb-example-psoc6-capsense-buttons-slider-freertos-0</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-capsense-buttons-slider-freertos</uri>
+    <uri>https://github.com/Infineon/mtb-example-psoc6-capsense-buttons-slider-freertos</uri>
     <description><![CDATA[This code example features a 5-segment CAPSENSE&#8482; slider and two CAPSENSE&#8482; buttons. Button 0 turns the LED on, Button 1 turns the LED off and the slider controls the brightness of the LED. The code example also demonstrates interfacing with Tuner GUI using I2C interface.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-capsense-buttons-slider-freertos/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 led capsense_button capsense_linear_slider</req_capabilities>
@@ -238,7 +238,7 @@
   <app>
     <name>Fault Handling</name>
     <id>mtb-example-psoc6-fault-handling-0</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-fault-handling</uri>
+    <uri>https://github.com/Infineon/mtb-example-psoc6-fault-handling</uri>
     <description><![CDATA[This example demonstrates the fault handling functionality of PSoC&#8482; 6 MCU using Peripheral Driver Library (PDL) System Library (SysLib).
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-fault-handling/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6</req_capabilities>
@@ -260,7 +260,7 @@
   <app>
     <name>Cryptography AES Demonstration</name>
     <id>mtb-example-psoc6-crypto-aes-0</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-crypto-aes</uri>
+    <uri>https://github.com/Infineon/mtb-example-psoc6-crypto-aes</uri>
     <description><![CDATA[This code example encrypts and decrypts user input data using the AES algorithm using a 128-bit key. The encrypted and decrypted data are displayed on a UART terminal emulator.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-crypto-aes/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 std_crypto</req_capabilities>
@@ -326,7 +326,7 @@
   <app>
     <name>SCB UART Transmit and Receive using DMA</name>
     <id>mtb-example-psoc6-uart-transmit-receive-dma-0</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-uart-transmit-receive-dma</uri>
+    <uri>https://github.com/Infineon/mtb-example-psoc6-uart-transmit-receive-dma</uri>
     <description><![CDATA[This example demonstrates the UART transmit and receive operation using DMA in PSoC&#8482; 6 MCU.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-uart-transmit-receive-dma/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 std_crypto led</req_capabilities>
@@ -448,7 +448,7 @@
   <app>
     <name>SCB SPI Master DMA</name>
     <id>mtb-example-psoc6-spi-master-dma-0</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-spi-master-dma</uri>
+    <uri>https://github.com/Infineon/mtb-example-psoc6-spi-master-dma</uri>
     <description><![CDATA[This example demonstrates the use of PSoC&#8482; 6 MCU Serial Communication Block (SCB) resource in SPI Master mode using DMA.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-spi-master-dma/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 std_crypto led</req_capabilities>
@@ -478,7 +478,7 @@
   <app>
     <name>emWin E-Ink FreeRTOS</name>
     <id>mtb-example-psoc6-emwin-eink-freertos-0</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-emwin-eink-freertos</uri>
+    <uri>https://github.com/Infineon/mtb-example-psoc6-emwin-eink-freertos</uri>
     <description><![CDATA[This code example demonstrates displaying 2D graphics on an E-Ink display using EmWin graphics library in FreeRTOS.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-emwin-eink-freertos/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 led arduino switch</req_capabilities>
@@ -504,7 +504,7 @@
   <app>
     <name>emWin OLED FreeRTOS</name>
     <id>mtb-example-psoc6-emwin-oled-freertos-0</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-emwin-oled-freertos</uri>
+    <uri>https://github.com/Infineon/mtb-example-psoc6-emwin-oled-freertos</uri>
     <description><![CDATA[This code example demonstrates displaying 2D graphics on an OLED display using EmWin graphics library in FreeRTOS.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-emwin-oled-freertos/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 arduino switch</req_capabilities>
@@ -526,7 +526,7 @@
   <app>
     <name>Cryptography SHA Demonstration</name>
     <id>mtb-example-psoc6-crypto-sha-0</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-crypto-sha</uri>
+    <uri>https://github.com/Infineon/mtb-example-psoc6-crypto-sha</uri>
     <description><![CDATA[This code example shows how to generate a 32-byte hash value or message digest for an arbitrary user input message with the SHA2 algorithm using the Cryptographic hardware block in PSoC&#8482; 6 MCU.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-crypto-sha/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 std_crypto</req_capabilities>
@@ -592,7 +592,7 @@
   <app>
     <name>Multi-Counter Watchdog Timer</name>
     <id>mtb-example-psoc6-mcwdt-0</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-mcwdt</uri>
+    <uri>https://github.com/Infineon/mtb-example-psoc6-mcwdt</uri>
     <description><![CDATA[This example explains how to setup a 32-bit free-running counter using two 16-bit counters of Multi-Counter Watchdog Timer (MCWDT) in PSoC&#8482; 6 MCU.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-mcwdt/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 led</req_capabilities>
@@ -614,7 +614,7 @@
   <app>
     <name>Switching Power Modes</name>
     <id>mtb-example-psoc6-switching-power-modes-0</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-switching-power-modes</uri>
+    <uri>https://github.com/Infineon/mtb-example-psoc6-switching-power-modes</uri>
     <description><![CDATA[This example demonstrates how to transition PSoC&#8482; 6 MCU to the following power modes - Low Power Active, Low Power Sleep, Ultra Low Power Active, Ultra Low Power Sleep, and Deep Sleep.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-switching-power-modes/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 led</req_capabilities>
@@ -636,7 +636,7 @@
   <app>
     <name>Sensor Hub</name>
     <id>mtb-example-btsdk-sensorhub-0</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-btsdk-sensorhub</uri>
+    <uri>https://github.com/Infineon/mtb-example-btsdk-sensorhub</uri>
     <description><![CDATA[This example demonstrates the interfacing of Multiple sensors, Motion, Temperature, and 3D magnetic sensor with CYW208xx and CYW207xx devices using ModusToolbox&#8482; IDE.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btsdk-sensorhub/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>btsdk lsm9ds1 ncu15wf104 fw2</req_capabilities>
@@ -662,7 +662,7 @@
   <app>
     <name>CYW208xx Data logger</name>
     <id>mtb-example-btsdk-cyw208xx-data-logger-0</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-btsdk-cyw208xx-data-logger</uri>
+    <uri>https://github.com/Infineon/mtb-example-btsdk-cyw208xx-data-logger</uri>
     <description><![CDATA[This code example includes two applications that demonstrate the operation of multiple Serial Peripheral Interface (SPI) interfaces using the CYW208xx Bluetooth&#174; SoC.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btsdk-cyw208xx-data-logger/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>CYW208XX ncu15wf104</req_capabilities>
@@ -684,7 +684,7 @@
   <app>
     <name>PDM to I2S Audio</name>
     <id>mtb-example-psoc6-pdm-to-i2s-0</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-pdm-to-i2s</uri>
+    <uri>https://github.com/Infineon/mtb-example-psoc6-pdm-to-i2s</uri>
     <description><![CDATA[This example demonstrates how to route PDM audio data to the I2S interface in PSoC&#8482; 6 MCU.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-pdm-to-i2s/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 arduino i2s pdm</req_capabilities>
@@ -710,7 +710,7 @@
   <app>
     <name>PDM PCM Audio</name>
     <id>mtb-example-psoc6-pdm-pcm-0</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-pdm-pcm</uri>
+    <uri>https://github.com/Infineon/mtb-example-psoc6-pdm-pcm</uri>
     <description><![CDATA[This example demonstrates how to use the pulse-density modulation/pulse-code modulation (PDM/PCM) hardware block in PSoC&#8482; 6 MCU with a digital microphone.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-pdm-pcm/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 pdm</req_capabilities>
@@ -732,7 +732,7 @@
   <app>
     <name>I2S Audio</name>
     <id>mtb-example-psoc6-i2s-0</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-i2s</uri>
+    <uri>https://github.com/Infineon/mtb-example-psoc6-i2s</uri>
     <description><![CDATA[This example demonstrates how to use the I2S hardware block in PSoC&#8482; 6 MCU to interface with an audio codec.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-i2s/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 arduino i2s</req_capabilities>
@@ -754,7 +754,7 @@
   <app>
     <name>USB HID Mouse</name>
     <id>mtb-example-psoc6-usb-hid-mouse-0</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-usb-hid-mouse</uri>
+    <uri>https://github.com/Infineon/mtb-example-psoc6-usb-hid-mouse</uri>
     <description><![CDATA[This example demonstrates how to configure the USB block in a PSoC&#8482; 6 MCU as a HID. The device enumerates as a 3-button mouse.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-usb-hid-mouse/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 std_crypto usb_device</req_capabilities>
@@ -780,7 +780,7 @@
   <app>
     <name>QSPI Flash Read Write Using SFDP</name>
     <id>mtb-example-psoc6-qspi-readwrite-sfdp-0</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-qspi-readwrite-sfdp</uri>
+    <uri>https://github.com/Infineon/mtb-example-psoc6-qspi-readwrite-sfdp</uri>
     <description><![CDATA[This example demonstrates interfacing with an external NOR flash memory in Quad-SPI mode using the Serial Memory Interface (SMIF) block in PSoC&#8482; 6 MCU. This example uses the Serial Flash Discoverable Parameters (SFDP) standard to auto-discover the flash parameters and the commands for read, program, and erase operations.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-qspi-readwrite-sfdp/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 std_crypto led qspi nor_flash</req_capabilities>
@@ -894,7 +894,7 @@
   <app>
     <name>QSPI F-RAM Access</name>
     <id>mtb-example-psoc6-qspi-fram-access-0</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-qspi-fram-access</uri>
+    <uri>https://github.com/Infineon/mtb-example-psoc6-qspi-fram-access</uri>
     <description><![CDATA[This code example demonstrates interfacing PSoC&#8482; 6 MCU with an external QSPI F-RAM memory and access it in Single, Dual, or Quad SPI mode using the Serial Memory Interface (SMIF) block. This example uses the PSoC&#8482; 6 MCU standard QSPI HAL driver library to build the QSPI F-RAM access API.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-qspi-fram-access/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 qspi fram rgb_led</req_capabilities>
@@ -940,7 +940,7 @@
   <app>
     <name>USB Audio Recorder</name>
     <id>mtb-example-psoc6-usb-audio-recorder-0</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-usb-audio-recorder</uri>
+    <uri>https://github.com/Infineon/mtb-example-psoc6-usb-audio-recorder</uri>
     <description><![CDATA[This example demonstrates the use of PSoC&#8482; 6 MCU to implement an audio recorder using the USB Audio Device Class.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-usb-audio-recorder/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 std_crypto usb_device pdm</req_capabilities>
@@ -962,7 +962,7 @@
   <app>
     <name>USB Audio Device FreeRTOS</name>
     <id>mtb-example-psoc6-usb-audio-device-freertos-0</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-usb-audio-device-freertos</uri>
+    <uri>https://github.com/Infineon/mtb-example-psoc6-usb-audio-device-freertos</uri>
     <description><![CDATA[This example demonstrates how to use PSoC&#8482; 6 MCU to implement a USB Audio Device and HID Audio Playback Control that connects to the PC via the USB interface. The example also uses FreeRTOS.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-usb-audio-device-freertos/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 std_crypto usb_device capsense_button capsense_linear_slider i2s</req_capabilities>
@@ -988,7 +988,7 @@
   <app>
     <name>Bluetooth LE Throughput Measurement</name>
     <id>mtb-example-btsdk-ble-throughput-0</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-btsdk-ble-throughput</uri>
+    <uri>https://github.com/Infineon/mtb-example-btsdk-ble-throughput</uri>
     <description><![CDATA[This code example demonstrates the maximum Bluetooth&#174; Low Energy throughput (using GATT layer notifications and writes) that can be obtained with AIROC&#8482; Bluetooth&#174; devices (CYW208xx and CYW207xx).
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btsdk-ble-throughput/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>btsdk fw2 button</req_capabilities>
@@ -1010,7 +1010,7 @@
   <app>
     <name>USB CDC echo</name>
     <id>mtb-example-psoc6-usb-cdc-echo-0</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-usb-cdc-echo</uri>
+    <uri>https://github.com/Infineon/mtb-example-psoc6-usb-cdc-echo</uri>
     <description><![CDATA[This example demonstrates how to configure the USB block in a PSoC&#8482; 6 MCU for Communication Device Class (CDC). When configured for a CDC, the PSoC&#8482; 6 enumerates a Virtual COM port, which can be read and written by a terminal emulator program on a PC.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-usb-cdc-echo/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 std_crypto usb_device</req_capabilities>
@@ -1032,7 +1032,7 @@
   <app>
     <name>USB HID Generic</name>
     <id>mtb-example-psoc6-usb-hid-generic-0</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-usb-hid-generic</uri>
+    <uri>https://github.com/Infineon/mtb-example-psoc6-usb-hid-generic</uri>
     <description><![CDATA[This example demonstrates how to configure the USB block in a PSoC&#8482; 6 MCU as a Human Interface Device (HID). The device enumerates as a Generic HID device.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-usb-hid-generic/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 std_crypto usb_device</req_capabilities>
@@ -1054,7 +1054,7 @@
   <app>
     <name>Bluetooth LE Peripheral Privacy</name>
     <id>mtb-example-btsdk-peripheral-privacy-0</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-btsdk-peripheral-privacy</uri>
+    <uri>https://github.com/Infineon/mtb-example-btsdk-peripheral-privacy</uri>
     <description><![CDATA[This code example demonstrates the privacy features available to users in Bluetooth&#174; Low Energy 5.0 and above.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btsdk-peripheral-privacy/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>button fw2 btsdk</req_capabilities>
@@ -1076,7 +1076,7 @@
   <app>
     <name>PWM GPIO</name>
     <id>mtb-example-btsdk-pwm-gpio-0</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-btsdk-pwm-gpio</uri>
+    <uri>https://github.com/Infineon/mtb-example-btsdk-pwm-gpio</uri>
     <description><![CDATA[This example demonstrates the configuration of PWM (pulse width modulation) to control the brightness of an LED, and configuration of GPIO to toggle an LED ON and OFF.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btsdk-pwm-gpio/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>fw2 btsdk led2x</req_capabilities>
@@ -1098,7 +1098,7 @@
   <app>
     <name>CSDADC</name>
     <id>mtb-example-psoc6-csdadc-0</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-csdadc</uri>
+    <uri>https://github.com/Infineon/mtb-example-psoc6-csdadc</uri>
     <description><![CDATA[This example demonstrates the usage of CSD analog-to-digital converter (ADC) in PSoC&#8482; 6 MCU. CSDADC measures the external voltage and displays the conversion result the terminal application.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-csdadc/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 std_crypto capsense</req_capabilities>
@@ -1116,7 +1116,7 @@
   <app>
     <name>Secure Blinky LED FreeRTOS</name>
     <id>mtb-example-psoc6-secure-blinkyled-freertos-0</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-secure-blinkyled-freertos</uri>
+    <uri>https://github.com/Infineon/mtb-example-psoc6-secure-blinkyled-freertos</uri>
     <description><![CDATA[This code example demonstrates the implementation of simple FreeRTOS task that blinks an LED periodically using PSoC&#8482; 64 MCU.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-secure-blinkyled-freertos/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>secure_boot</req_capabilities>
@@ -1134,7 +1134,7 @@
   <app>
     <name>CYW20719B2 SPI</name>
     <id>mtb-example-btsdk-cyw20719b2-spi-0</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-btsdk-cyw20719b2-spi</uri>
+    <uri>https://github.com/Infineon/mtb-example-btsdk-cyw20719b2-spi</uri>
     <description><![CDATA[This code example demonstrates the SPI functionality using CYW20719B2.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btsdk-cyw20719b2-spi/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>fw2 btsdk CYW920719B2Q40EVB_01</req_capabilities>
@@ -1200,7 +1200,7 @@
   <app>
     <name>Bluetooth LE Throughput Measurement FreeRTOS</name>
     <id>mtb-example-psoc6-ble-throughput-freertos</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-ble-throughput-freertos</uri>
+    <uri>https://github.com/Infineon/mtb-example-psoc6-ble-throughput-freertos</uri>
     <description><![CDATA[This code example demonstrates Bluetooth&#174; Low Energy GATT throughput measurement (using GATT layer notifications and GATT write command) using PSoC&#8482; 6 Bluetooth&#174; Low Energy MCU.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-ble-throughput-freertos/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 led switch</req_capabilities>
@@ -1242,7 +1242,7 @@
   <app>
     <name>HAL Keyboard Scanner</name>
     <id>mtb-example-btsdk-cyw208xx-keyboard-scanner-0</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-btsdk-cyw208xx-keyboard-scanner</uri>
+    <uri>https://github.com/Infineon/mtb-example-btsdk-cyw208xx-keyboard-scanner</uri>
     <description><![CDATA[This code example demonstrates the dedicated keyscan hardware, which processes key press events from proprietary GPIOs (LHL GPIOs) without interrupting the CPU core. This code example also demonstrates low power entry when the system is idle (no activity or keypress) and wake up when there is key press.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btsdk-cyw208xx-keyboard-scanner/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>fw2 btsdk CYW208XX_62fbga</req_capabilities>
@@ -1292,7 +1292,7 @@
   <app>
     <name>USB Mass Storage Logger</name>
     <id>mtb-example-psoc6-usb-msc-logger</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-usb-msc-logger</uri>
+    <uri>https://github.com/Infineon/mtb-example-psoc6-usb-msc-logger</uri>
     <description><![CDATA[This example demonstrates how to configure the USB block in a PSoC&#8482; 6 MCU as a Mass Storage (MSC) device and emulate a file system in the internal memory.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-usb-msc-logger/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 std_crypto usb_device</req_capabilities>
@@ -1484,7 +1484,7 @@
   <app>
     <name>CAPSENSE Custom Scan</name>
     <id>mtb-example-psoc6-capsense-custom-scan-0</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-capsense-custom-scan</uri>
+    <uri>https://github.com/Infineon/mtb-example-psoc6-capsense-custom-scan</uri>
     <description><![CDATA[This code example demonstrates CAPSENSE&#8482; custom scanning through CAPSENSE&#8482; Middleware's callback functions that allow altering the sensor parameters during runtime or synchronizing the CAPSENSE&#8482; scan with non-CAPSENSE#8482 operations. In this code example, the callback function is used to change the inactive sensor state to either shield or ground depending on the sensor being scanned.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-capsense-custom-scan/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 led capsense_linear_slider</req_capabilities>
@@ -1502,7 +1502,7 @@
   <app>
     <name>QSPI XIP</name>
     <id>mtb-example-psoc6-qspi-xip-0</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-qspi-xip</uri>
+    <uri>https://github.com/Infineon/mtb-example-psoc6-qspi-xip</uri>
     <description><![CDATA[This example demonstrates how to use the QSPI block of the PSoC&#8482; 6 MCU in execute-in-place (XIP) mode with an external flash memory device.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-qspi-xip/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 std_crypto led qspi nor_flash</req_capabilities>
@@ -1520,7 +1520,7 @@
   <app>
     <name>CAPSENSE Tuning Over Bluetooth LE - Server</name>
     <id>mtb-example-psoc6-ble-capsense-tuner-server-0</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-ble-capsense-tuner-server</uri>
+    <uri>https://github.com/Infineon/mtb-example-psoc6-ble-capsense-tuner-server</uri>
     <description><![CDATA[This code example demonstrates how to monitor the CAPSENSE&#8482; data and tune the CAPSENSE&#8482; sensors over Bluetooth&#174; Low Energy communication with CAPSENSE&#8482; Tuner GUI using PSoC&#8482; 6 Bluetooth&#174; Low Energy MCU. This is intended to be used with the CAPSENSE&#8482; Tuning Over Bluetooth&#174; Low Energy - Client example.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-ble-capsense-tuner-server/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 led capsense_button capsense_linear_slider</req_capabilities>
@@ -1582,7 +1582,7 @@
   <app>
     <name>USB Mass Storage File System</name>
     <id>mtb-example-psoc6-usb-msc-filesystem-0</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-usb-msc-filesystem-freertos</uri>
+    <uri>https://github.com/Infineon/mtb-example-psoc6-usb-msc-filesystem-freertos</uri>
     <description><![CDATA[This example demonstrates how to configure the USB block in a PSoC&#8482; 6 MCU device as a Mass Storage (MSC) device and run a file system (FatFs) through an external memory (microSD). This example uses FreeRTOS.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-usb-msc-filesystem-freertos/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 std_crypto usb_device switch led pdm sdhc</req_capabilities>
@@ -1620,7 +1620,7 @@
   <app>
     <name>CAPSENSE Tuning Over Bluetooth LE - Client</name>
     <id>mtb-example-psoc6-ble-capsense-tuner-client-0</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-ble-capsense-tuner-client</uri>
+    <uri>https://github.com/Infineon/mtb-example-psoc6-ble-capsense-tuner-client</uri>
     <description><![CDATA[This code example demonstrates how to monitor the CAPSENSE&#8482; data and tune the CAPSENSE&#8482; sensors over Bluetooth&#174; Low Energy communication with CAPSENSE&#8482; Tuner GUI using PSoC&#8482; 6 Bluetooth&#174; Low Energy MCU. This is intended to be used with the CAPSENSE&#8482; Tuning Over Bluetooth&#174; Low Energy - Server example.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-ble-capsense-tuner-client/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 led</req_capabilities>
@@ -1656,7 +1656,7 @@
   <app>
     <name>Dual-CPU Empty PSoC6 App</name>
     <id>mtb-example-psoc6-dual-cpu-empty-app-0</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-dual-cpu-empty-app</uri>
+    <uri>https://github.com/Infineon/mtb-example-psoc6-dual-cpu-empty-app</uri>
     <description><![CDATA[This empty application provides a template for creating dual-CPU applications using PSoC&#8482; 6 devices.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-dual-cpu-empty-app/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 std_crypto</req_capabilities>
@@ -1674,7 +1674,7 @@
   <app>
     <name>Dual-CPU IPC Semaphores</name>
     <id>mtb-example-psoc6-dual-cpu-ipc-sema-0</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-dual-cpu-ipc-sema</uri>
+    <uri>https://github.com/Infineon/mtb-example-psoc6-dual-cpu-ipc-sema</uri>
     <description><![CDATA[This example demonstrates how to use the inter-processor communication (IPC) driver to implement a semaphore in PSoC&#8482; 6 MCU. The semaphore is used as a lock to control access to a resource shared by the CPUs and synchronize the initialization instructions.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-dual-cpu-ipc-sema/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 std_crypto led switch</req_capabilities>
@@ -1692,7 +1692,7 @@
   <app>
     <name>Dual-CPU IPC Pipes</name>
     <id>mtb-example-psoc6-dual-cpu-ipc-pipes-0</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-dual-cpu-ipc-pipes</uri>
+    <uri>https://github.com/Infineon/mtb-example-psoc6-dual-cpu-ipc-pipes</uri>
     <description><![CDATA[This example demonstrates how to use the inter-processor communication (IPC) driver to implement a message pipe in PSoC&#8482; 6 MCU. The pipe is used to send messages between CPUs.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-dual-cpu-ipc-pipes/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 std_crypto switch</req_capabilities>
