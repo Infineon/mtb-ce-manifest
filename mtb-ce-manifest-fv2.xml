@@ -8374,14 +8374,14 @@
       </version>
     </versions>
   </app>
-  <app keywords="pmg1,single-phase,bldc,motor,control,mtb-flow" req_capabilities_v2="pmg1 tcpwm usbpd [pmg1_cy7110]">
+  <app keywords="pmg1,single-phase,bldc,motor,control,mtb-flow" req_capabilities_v2="pmg1 usbpd [pmg1_cy7110]">
     <name>Single-phase BLDC motor control</name>
     <id>mtb-example-pmg1-single-phase-bldc-motor-control</id>
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-pmg1-single-phase-bldc-motor-control</uri>
     <description><![CDATA[This code example demonstrates a motor control solution using EZ-PD&#8482; PMG1-S0 MCU to control single-phase BLDC motors. The firmware mainly uses an 8-bit SAR ADC and two TCPWM blocks (timer and PWM). It interfaces TLE9201SG H-bridge as the inverter to achieve commutation of the BLDC motor. Optionally, a UART interface is also used to display the control parameters on a serial monitor.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-single-phase-bldc-motor-control/blob/master/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>pmg1 tcpwm usbpd</req_capabilities>
+    <req_capabilities>pmg1 usbpd</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>Latest 1.X release</num>
@@ -8978,6 +8978,10 @@
         <commit>latest-v2.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>2.2.0 release</num>
+        <commit>release-v2.2.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
       </version>
@@ -9042,6 +9046,10 @@
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>2.0.0 release</num>
@@ -9123,6 +9131,10 @@
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>2.2.0 release</num>
+        <commit>release-v2.2.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>2.1.0 release</num>
@@ -11158,6 +11170,10 @@
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>2.2.0 release</num>
+        <commit>release-v2.2.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="bsp_gen4">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
@@ -11396,6 +11412,10 @@
         <commit>latest-v2.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>2.2.0 release</num>
+        <commit>release-v2.2.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
       </version>
@@ -11427,6 +11447,10 @@
         <commit>latest-v2.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>2.2.0 release</num>
+        <commit>release-v2.2.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
       </version>
@@ -11456,6 +11480,10 @@
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>2.0.0 release</num>
@@ -11537,6 +11565,10 @@
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>2.0.0 release</num>
@@ -11688,6 +11720,10 @@
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>2.2.0 release</num>
+        <commit>release-v2.2.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>2.1.0 release</num>
