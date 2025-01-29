@@ -18522,4 +18522,270 @@
       </version>
     </versions>
   </app>
+  <app keywords="t2gc2d" req_capabilities_v2="[t2gc2d]">
+    <name>Switching between power modes</name>
+    <id>mtb-example-ce240923-switching-between-power-modes</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce240923-switching-between-power-modes</uri>
+    <description><![CDATA[This code example demonstrates how to transition MCU to the Active, Sleep, DeepSleep, and Hibernate power states, and how to wake up and return to the Active state.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce240923-switching-between-power-modes/blob/main/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>t2gc2d</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="t2gc2d" req_capabilities_v2="[t2gc2d]">
+    <name>SAR ADC various processing of conversion results</name>
+    <id>mtb-example-ce240997-adc-processing-result</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce240997-adc-processing-result</uri>
+    <description><![CDATA[This code example, based on Peripheral Driver Library (PDL) libraries, demonstrates how the conversion results of the SAR ADC change depending on various conversion output methods.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce240997-adc-processing-result/blob/main/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>t2gc2d</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="t2gc2d" req_capabilities_v2="[t2gc2d]">
+    <name>Flash ECC error injection</name>
+    <id>mtb-example-ce240950-flash-ecc-injection</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce240950-flash-ecc-injection</uri>
+    <description><![CDATA[This code example demonstrates the usage of the error correcting code (ECC) error injection feature to test the functionality of flash ECC.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce240950-flash-ecc-injection/blob/main/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>t2gc2d</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="t2gc2d" req_capabilities_v2="[t2gc2d]">
+    <name>Interrupt NMI timing protection</name>
+    <id>mtb-example-ce240937-nmi-timing-protection</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce240937-nmi-timing-protection</uri>
+    <description><![CDATA[This code example demonstrates the configuration of timing protection using a Non-Maskable Interrupt (NMI), showcasing its operation, initial settings, and interrupt handling.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce240937-nmi-timing-protection/blob/main/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>t2gc2d</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="t2gc2d" req_capabilities_v2="[t2gc2d]">
+    <name>Software interrupt</name>
+    <id>mtb-example-ce240938-software-interrupt</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce240938-software-interrupt</uri>
+    <description><![CDATA[This code example shows how to generate software interrupts and describes their operation, initialization, and interrupt handling.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce240938-software-interrupt/blob/main/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>t2gc2d</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="t2gc2d" req_capabilities_v2="[t2gc2d]">
+    <name>M-DMA Scatter Transfer</name>
+    <id>mtb-example-ce240944-mdma-scatter</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce240944-mdma-scatter</uri>
+    <description><![CDATA[This code example demonstrates how to use the scatter functionality of the M-DMA block.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce240944-mdma-scatter/blob/main/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>t2gc2d</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="t2gc2d" req_capabilities_v2="[t2gc2d]">
+    <name>P-DMA ECC error injection</name>
+    <id>mtb-example-ce240951-pdma-ecc-injection</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce240951-pdma-ecc-injection</uri>
+    <description><![CDATA[This code example demonstrates the usage of the error correcting code (ECC) error injection feature to test the functionality of the ECC logic for the P-DMA channel configuration SRAM memory.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce240951-pdma-ecc-injection/blob/main/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>t2gc2d</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="t2gc2d" req_capabilities_v2="[t2gc2d]">
+    <name>PROT PPU ECC injection</name>
+    <id>mtb-example-ce240952-prot-ppu-ecc-injection</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce240952-prot-ppu-ecc-injection</uri>
+    <description><![CDATA[This code example demonstrates how to perform the error injection onto error correcting code (ECC) of peripheral protection unit (PPU).
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce240952-prot-ppu-ecc-injection/blob/main/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>t2gc2d</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="t2gc2d" req_capabilities_v2="[t2gc2d]">
+    <name>TCPWM simultaneous startup by software trigger</name>
+    <id>mtb-example-ce240925-tcpwm-simultaneous-startup</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce240925-tcpwm-simultaneous-startup</uri>
+    <description><![CDATA[This code example demonstrates how to trigger multiple TCPWM channels simultaneously by the software.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce240925-tcpwm-simultaneous-startup/blob/main/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>t2gc2d</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="t2gc2d" req_capabilities_v2="[t2gc2d]">
+    <name>TCPWM counter using Smart IO</name>
+    <id>mtb-example-ce240927-tcpwm-counter-smartio</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce240927-tcpwm-counter-smartio</uri>
+    <description><![CDATA[This code example uses the signal to user LED1, which switches depending on the level of the CC0 match interrupt of the TCPWM counter initiated by the PWM signal.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce240927-tcpwm-counter-smartio/blob/main/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>t2gc2d</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc4,sar,adc" req_capabilities_v2="psoc4">
+    <name>SAR ADC basic</name>
+    <id>mtb-example-ce240934-sar-adc-basic</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce240934-sar-adc-basic</uri>
+    <description><![CDATA[This code example demonstrates how to start AD conversion by Successive Approximation Register (SAR). This code example operates ADC and prints ADC result on terminal software every 500 ms. The conversion target is the external potentiometer or the thermistor on the kit.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce240934-sar-adc-basic/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>psoc4</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc4,crwdt" req_capabilities_v2="led psoc4">
+    <name>CRWDT basic</name>
+    <id>mtb-example-ce240935-crwdt-basic</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce240935-crwdt-basic</uri>
+    <description><![CDATA[This code example demonstrates how CRWDT works by changing the watchdog service timing.
+    <br><br>For more details, see the <a href="https://github.com/Infineon//mtb-example-ce240935-crwdt-basic/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>psoc4</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc4,fault" req_capabilities_v2="led psoc4">
+    <name>Fault report configuration</name>
+    <id>mtb-example-ce241006-fault-report-configuration</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce241006-fault-report-configuration</uri>
+    <description><![CDATA[This code example demonstrates how to configure the fault subsystem and describes its operation.
+    <br><br>For more details, see the <a href="https://github.com/Infineon//mtb-example-ce241006-fault-report-configuration/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>psoc4</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc4,lin" req_capabilities_v2="led psoc4">
+    <name>LIN master and slave communication with internal PHY</name>
+    <id>mtb-example-ce241040-lin-master-slave-communication</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce241040-lin-master-slave-communication</uri>
+    <description><![CDATA[This code example demonstrates how to communicate with LIN master and LIN slave each other by using internal LIN PHY and two individual boards. It also supports the loop-back mode which is for communication between internal master channel and slave channel for test purpose.
+    <br><br>For more details, see the <a href="https://github.com/Infineon//mtb-example-ce241040-lin-master-slave-communication/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>psoc4</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
 </apps>
