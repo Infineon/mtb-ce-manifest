@@ -18528,7 +18528,7 @@
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-ce240923-switching-between-power-modes</uri>
     <description><![CDATA[This code example demonstrates how to transition MCU to the Active, Sleep, DeepSleep, and Hibernate power states, and how to wake up and return to the Active state.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce240923-switching-between-power-modes/blob/main/README.md">README on GitHub</a>.]]></description>
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce240923-switching-between-power-modes/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gc2d</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
@@ -18547,7 +18547,7 @@
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-ce240997-adc-processing-result</uri>
     <description><![CDATA[This code example, based on Peripheral Driver Library (PDL) libraries, demonstrates how the conversion results of the SAR ADC change depending on various conversion output methods.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce240997-adc-processing-result/blob/main/README.md">README on GitHub</a>.]]></description>
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce240997-adc-processing-result/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gc2d</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
@@ -18566,7 +18566,7 @@
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-ce240950-flash-ecc-injection</uri>
     <description><![CDATA[This code example demonstrates the usage of the error correcting code (ECC) error injection feature to test the functionality of flash ECC.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce240950-flash-ecc-injection/blob/main/README.md">README on GitHub</a>.]]></description>
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce240950-flash-ecc-injection/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gc2d</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
@@ -18585,7 +18585,7 @@
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-ce240937-nmi-timing-protection</uri>
     <description><![CDATA[This code example demonstrates the configuration of timing protection using a Non-Maskable Interrupt (NMI), showcasing its operation, initial settings, and interrupt handling.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce240937-nmi-timing-protection/blob/main/README.md">README on GitHub</a>.]]></description>
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce240937-nmi-timing-protection/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gc2d</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
@@ -18604,7 +18604,7 @@
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-ce240938-software-interrupt</uri>
     <description><![CDATA[This code example shows how to generate software interrupts and describes their operation, initialization, and interrupt handling.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce240938-software-interrupt/blob/main/README.md">README on GitHub</a>.]]></description>
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce240938-software-interrupt/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gc2d</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
@@ -18623,7 +18623,7 @@
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-ce240944-mdma-scatter</uri>
     <description><![CDATA[This code example demonstrates how to use the scatter functionality of the M-DMA block.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce240944-mdma-scatter/blob/main/README.md">README on GitHub</a>.]]></description>
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce240944-mdma-scatter/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gc2d</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
@@ -18642,7 +18642,7 @@
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-ce240951-pdma-ecc-injection</uri>
     <description><![CDATA[This code example demonstrates the usage of the error correcting code (ECC) error injection feature to test the functionality of the ECC logic for the P-DMA channel configuration SRAM memory.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce240951-pdma-ecc-injection/blob/main/README.md">README on GitHub</a>.]]></description>
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce240951-pdma-ecc-injection/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gc2d</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
@@ -18661,7 +18661,7 @@
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-ce240952-prot-ppu-ecc-injection</uri>
     <description><![CDATA[This code example demonstrates how to perform the error injection onto error correcting code (ECC) of peripheral protection unit (PPU).
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce240952-prot-ppu-ecc-injection/blob/main/README.md">README on GitHub</a>.]]></description>
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce240952-prot-ppu-ecc-injection/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gc2d</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
@@ -18680,7 +18680,7 @@
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-ce240925-tcpwm-simultaneous-startup</uri>
     <description><![CDATA[This code example demonstrates how to trigger multiple TCPWM channels simultaneously by the software.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce240925-tcpwm-simultaneous-startup/blob/main/README.md">README on GitHub</a>.]]></description>
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce240925-tcpwm-simultaneous-startup/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gc2d</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
@@ -18699,7 +18699,7 @@
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-ce240927-tcpwm-counter-smartio</uri>
     <description><![CDATA[This code example uses the signal to user LED1, which switches depending on the level of the CC0 match interrupt of the TCPWM counter initiated by the PWM signal.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce240927-tcpwm-counter-smartio/blob/main/README.md">README on GitHub</a>.]]></description>
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce240927-tcpwm-counter-smartio/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gc2d</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
