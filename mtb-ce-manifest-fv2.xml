@@ -8502,7 +8502,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="pmg1,usbpd,mtb-flow" req_capabilities_v2="usbpd pmg1 led [pmg1_cy7110, pmg1_cy7111, pmg1_cy7112, pmg1_cy7113]">
+  <app keywords="pmg1,usbpd,mtb-flow" req_capabilities_v2="usbpd pmg1 led [pmg1_cy7110, pmg1_cy7111, pmg1_cy7112, pmg1_cy7113, eval_pmg1_s1_drp, eval_pmg1_s3_dualdrp]">
     <name>USB PD sink PPS demo</name>
     <id>mtb-example-pmg1-usbpd-sink-pps</id>
     <category>USB-C Power Delivery</category>
@@ -8511,6 +8511,14 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-usbpd-sink-pps/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>usbpd pmg1 led</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version="bsp_gen4">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="3.1.0" tools_max_version="3.2.0" req_capabilities_per_version="bsp_gen4">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -8578,7 +8586,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="pmg1,usbpd,lcd,pwm,led,mtb-flow" req_capabilities_v2="pmg1 usbpd led [pmg1_cy7110, pmg1_cy7111, pmg1_cy7112, pmg1_cy7113]">
+  <app keywords="pmg1,usbpd,lcd,pwm,led,mtb-flow" req_capabilities_v2="pmg1 usbpd led [pmg1_cy7110, pmg1_cy7111, pmg1_cy7112, pmg1_cy7113, eval_pmg1_s1_drp, eval_pmg1_s3_dualdrp]">
     <name>USB PD Sink with 16x2 LCD</name>
     <id>mtb-example-pmg1-usbpd-sink-lcd-display</id>
     <category>USB-C Power Delivery</category>
@@ -8587,6 +8595,14 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-usbpd-sink-lcd-display/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>pmg1 usbpd led</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version="bsp_gen4">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="3.0.0" tools_max_version="3.2.0" req_capabilities_per_version="bsp_gen4">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -8644,9 +8660,13 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-usbpd-sensorless-bldc-motor/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>pmg1 usbpd adc opamp led</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" tools_max_version="3.2.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version="bsp_gen4">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" tools_max_version="3.2.0" req_capabilities_per_version="bsp_gen4">
         <num>1.0.0 release</num>
@@ -9016,7 +9036,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="pmg1,led,switch,gpio-interrupt,mtb-flow" req_capabilities_v2="pmg1 led switch[pmg1_cy7110, pmg1_cy7111, pmg1_cy7112, pmg1_cy7113, pmg1_b1_cy7116]">
+  <app keywords="pmg1,led,switch,gpio-interrupt,mtb-flow" req_capabilities_v2="pmg1 led switch[pmg1_cy7110, pmg1_cy7111, pmg1_cy7112, pmg1_cy7113, pmg1_b1_cy7116, eval_pmg1_s1_drp, eval_pmg1_s3_dualdrp]">
     <name>LED Switch Interface</name>
     <id>mtb-example-pmg1-led-sw-interface</id>
     <category>Getting Started</category>
@@ -9086,7 +9106,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="pmg1,led,starter,critical-section,mtb-flow" req_capabilities_v2="pmg1 switch led [pmg1_cy7110, pmg1_cy7111, pmg1_cy7112, pmg1_cy7113]">
+  <app keywords="pmg1,led,starter,critical-section,mtb-flow" req_capabilities_v2="pmg1 switch led [pmg1_cy7110, pmg1_cy7111, pmg1_cy7112, pmg1_cy7113, pmg1_b1_cy7116, eval_pmg1_s1_drp, eval_pmg1_s3_dualdrp]">
     <name>Critical Section</name>
     <id>mtb-example-pmg1-critical-section</id>
     <category>Getting Started</category>
@@ -9171,7 +9191,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="pmg1,pwm,led,mtb-flow" req_capabilities_v2="pmg1 led [pmg1_cy7110, pmg1_cy7111, pmg1_cy7112, pmg1_cy7113, pmg1_b1_cy7116]">
+  <app keywords="pmg1,pwm,led,mtb-flow" req_capabilities_v2="pmg1 led [pmg1_cy7110, pmg1_cy7111, pmg1_cy7112, pmg1_cy7113, pmg1_b1_cy7116, eval_pmg1_s1_drp, eval_pmg1_s3_dualdrp]">
     <name>PWM LED</name>
     <id>mtb-example-pmg1-pwm-led</id>
     <category>Peripherals</category>
@@ -11225,7 +11245,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="pmg1,temp,sensor,adc,8-bit,temperature,mtb-flow" req_capabilities_v2="pmg1 usbpd uart led switch [pmg1_cy7110, pmg1_cy7111, pmg1_cy7112, pmg1_cy7113, pmg1_b1_cy7116]">
+  <app keywords="pmg1,temp,sensor,adc,8-bit,temperature,mtb-flow" req_capabilities_v2="pmg1 usbpd uart led switch [pmg1_cy7110, pmg1_cy7111, pmg1_cy7112, pmg1_cy7113, pmg1_b1_cy7116, eval_pmg1_s1_drp, eval_pmg1_s3_dualdrp]">
     <name>On Chip Temp Sensor 8 bit SAR ADC</name>
     <id>mtb-example-pmg1-on-chip-temp-sensor-8-bit-saradc</id>
     <category>Peripherals</category>
@@ -11466,7 +11486,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="pmg1,adc,sar,12-bit,analog,pass,mtb-flow" req_capabilities_v2="pmg1 adc uart [pmg1_cy7113, pmg1_b1_cy7116]">
+  <app keywords="pmg1,adc,sar,12-bit,analog,pass,mtb-flow" req_capabilities_v2="pmg1 adc uart [pmg1_cy7113, pmg1_b1_cy7116, eval_pmg1_s3_dualdrp]">
     <name>12 bit SAR ADC</name>
     <id>mtb-example-pmg1-12-bit-saradc-basic</id>
     <category>Peripherals</category>
@@ -11501,7 +11521,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="pmg1,adc,sar,8-bit,analog,mtb-flow" req_capabilities_v2="pmg1 usbpd uart led [pmg1_cy7110, pmg1_cy7111, pmg1_cy7112, pmg1_cy7113, pmg1_b1_cy7116]">
+  <app keywords="pmg1,adc,sar,8-bit,analog,mtb-flow" req_capabilities_v2="pmg1 usbpd uart led [pmg1_cy7110, pmg1_cy7111, pmg1_cy7112, pmg1_cy7113, pmg1_b1_cy7116, eval_pmg1_s1_drp, eval_pmg1_s3_dualdrp]">
     <name>8 bit SAR ADC</name>
     <id>mtb-example-pmg1-8-bit-saradc-basic</id>
     <category>Peripherals</category>
@@ -11536,7 +11556,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="pmg1,flash" req_capabilities_v2="pmg1 [pmg1_cy7110, pmg1_cy7111, pmg1_cy7112, pmg1_cy7113]">
+  <app keywords="pmg1,flash" req_capabilities_v2="pmg1 [pmg1_cy7110, pmg1_cy7111, pmg1_cy7112, pmg1_cy7113, pmg1_b1_cy7116, eval_pmg1_s1_drp, eval_pmg1_s3_dualdrp]">
     <name>Flash write</name>
     <id>mtb-example-pmg1-flash-write</id>
     <category>Peripherals</category>
@@ -11621,7 +11641,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="pmg1,i2c,slave,led" req_capabilities_v2="pmg1 i2c [pmg1_cy7110, pmg1_cy7111, pmg1_cy7112, pmg1_cy7113]">
+  <app keywords="pmg1,i2c,slave,led" req_capabilities_v2="pmg1 i2c [pmg1_cy7110, pmg1_cy7111, pmg1_cy7112, pmg1_cy7113, pmg1_b1_cy7116, eval_pmg1_s1_drp, eval_pmg1_s3_dualdrp]">
     <name>I2C Slave LED</name>
     <id>mtb-example-pmg1-i2c-slave-led</id>
     <category>Peripherals</category>
@@ -11776,7 +11796,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="pmg1,watchdog,wdt,timer,reset,interrupt,mtb-flow" req_capabilities_v2="pmg1 led switch [pmg1_cy7110, pmg1_cy7111, pmg1_cy7112, pmg1_cy7113, pmg1_b1_cy7116]">
+  <app keywords="pmg1,watchdog,wdt,timer,reset,interrupt,mtb-flow" req_capabilities_v2="pmg1 led switch [pmg1_cy7110, pmg1_cy7111, pmg1_cy7112, pmg1_cy7113, pmg1_b1_cy7116, eval_pmg1_s1_drp, eval_pmg1_s3_dualdrp]">
     <name>Watchdog Timer</name>
     <id>mtb-example-pmg1-watchdog-timer</id>
     <category>Peripherals</category>
