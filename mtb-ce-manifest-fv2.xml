@@ -2929,13 +2929,17 @@
     <id>mtb-example-psoc4-empty-app</id>
     <category>Getting Started</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc4-empty-app</uri>
-    <description><![CDATA[This empty application provides a template for creating applications using PSoC&#8482; 4 devices.
+    <description><![CDATA[This empty application provides a template for creating applications using PSOC&#8482; 4 devices.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-empty-app/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc4</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Release 3.6.0</num>
+        <commit>release-v3.6.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>Release 3.5.0</num>
@@ -2976,13 +2980,17 @@
     <id>mtb-example-psoc4-dfu-basic</id>
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-psoc4-dfu-basic</uri>
-    <description><![CDATA[This example demonstrates how to create a field upgradable project for PSoC&#8482; 4 using the DFU middleware.
+    <description><![CDATA[This example demonstrates how to create a field upgradable project for PSOC&#8482; 4 using the DFU middleware.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-dfu-basic/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc4 led</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_145_40xx,cy8ckit_045s,cy8ckit_040t,cy8cproto_040t]">
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_145_40xx,cy8ckit_045s,cy8ckit_040t,cy8cproto_040t,cy8cproto_040t_ms]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_145_40xx,cy8ckit_045s,cy8ckit_040t,cy8cproto_040t,cy8cproto_040t_ms]">
+        <num>2.2.0 release</num>
+        <commit>release-v2.2.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_145_40xx,cy8ckit_045s,cy8ckit_040t,cy8cproto_040t]">
         <num>2.1.0 release</num>
@@ -4019,13 +4027,17 @@
     <id>mtb-example-psoc4-i2c-slave-callback</id>
     <category>Peripherals</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc4-i2c-slave-callback</uri>
-    <description><![CDATA[This example demonstrates the operation of the I2C block for PSoC&#8482; 4 in Slave mode using callbacks.
+    <description><![CDATA[This example demonstrates the operation of the I2C block for PSOC&#8482; 4 in Slave mode using callbacks.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-i2c-slave-callback/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>i2c led psoc4</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_041_41xx,cy8ckit_145_40xx,cy8ckit_045s,cy8cproto_040t,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite]">
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_041_41xx,cy8ckit_145_40xx,cy8ckit_045s,cy8cproto_040t,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,cy8cproto_040t_ms]">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_041_41xx,cy8ckit_145_40xx,cy8ckit_045s,cy8cproto_040t,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,cy8cproto_040t_ms]">
+        <num>3.3.0 release</num>
+        <commit>release-v3.3.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_041_41xx,cy8ckit_145_40xx,cy8ckit_045s,cy8cproto_040t,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite]">
         <num>3.2.0 release</num>
@@ -4062,9 +4074,13 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-tcpwm-interrupt/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>led psoc4</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_041_41xx,cy8ckit_145_40xx,cy8ckit_045s,cy8ckit_040t,cy8cproto_040t,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite]">
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_041_41xx,cy8ckit_145_40xx,cy8ckit_045s,cy8ckit_040t,cy8cproto_040t,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,cy8cproto_040t_ms]">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_041_41xx,cy8ckit_145_40xx,cy8ckit_045s,cy8ckit_040t,cy8cproto_040t,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,cy8cproto_040t_ms]">
+        <num>3.3.0 release</num>
+        <commit>release-v3.3.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_041_41xx,cy8ckit_145_40xx,cy8ckit_045s,cy8ckit_040t,cy8cproto_040t,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite]">
         <num>3.2.0 release</num>
@@ -4097,13 +4113,17 @@
     <id>mtb-example-psoc4-hello-world</id>
     <category>Getting Started</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc4-hello-world</uri>
-    <description><![CDATA[This code example demonstrates simple UART communication by printing a "Hello world" message on a terminal and blinks an LED using PSoC&#8482; 4 devices.
+    <description><![CDATA[This code example demonstrates simple UART communication by printing a "Hello world" message on a terminal and blinks an LED using PSOC&#8482; 4 devices.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-hello-world/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>led psoc4</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_145_40xx,cy8ckit_041_41xx,cy8ckit_045s,cy8cproto_040t,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite]">
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_145_40xx,cy8ckit_041_41xx,cy8ckit_045s,cy8cproto_040t,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,cy8cproto_040t_ms]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_145_40xx,cy8ckit_041_41xx,cy8ckit_045s,cy8cproto_040t,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,cy8cproto_040t_ms]">
+        <num>2.3.0 release</num>
+        <commit>release-v2.3.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_145_40xx,cy8ckit_041_41xx,cy8ckit_045s,cy8cproto_040t,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite]">
         <num>2.2.0 release</num>
@@ -4334,13 +4354,17 @@
     <id>mtb-example-psoc4-gpio-interrupt</id>
     <category>Peripherals</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc4-gpio-interrupt</uri>
-    <description><![CDATA[This code example demonstrates the use of a GPIO configured as an input pin to generate interrupts on PSoC&#8482; 4. The GPIO signal interrupts the CPU and executes a user-defined Interrupt Service Routine (ISR). The GPIO interrupt acts as a wakeup source to wake the CPU from Deep Sleep.
+    <description><![CDATA[This code example demonstrates the use of a GPIO configured as an input pin to generate interrupts on PSOC&#8482; 4. The GPIO signal interrupts the CPU and executes a user-defined Interrupt Service Routine (ISR). The GPIO interrupt acts as a wakeup source to wake the CPU from Deep Sleep.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-gpio-interrupt/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>led psoc4</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_145_40xx,cy8ckit_041_41xx,cy8ckit_045s,cy8cproto_040t,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite]">
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_145_40xx,cy8ckit_041_41xx,cy8ckit_045s,cy8cproto_040t,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,cy8cproto_040t_ms]">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_145_40xx,cy8ckit_041_41xx,cy8ckit_045s,cy8cproto_040t,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,cy8cproto_040t_ms]">
+        <num>3.3.0 release</num>
+        <commit>release-v3.3.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_145_40xx,cy8ckit_041_41xx,cy8ckit_045s,cy8cproto_040t,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite]">
         <num>3.2.0 release</num>
@@ -4412,13 +4436,17 @@
     <id>mtb-example-psoc4-i2c-master-slave</id>
     <category>Peripherals</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc4-i2c-master-slave</uri>
-    <description><![CDATA[This example demonstrates the operation of I2C resource for PSoC&#8482; 4 in Master mode with an EzI2C slave.
+    <description><![CDATA[This example demonstrates the operation of I2C resource for PSOC&#8482; 4 in Master mode with an EzI2C slave.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-i2c-master-slave/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>i2c led psoc4</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_041_41xx,cy8ckit_145_40xx,cy8ckit_045s,cy8cproto_040t,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite]">
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_041_41xx,cy8ckit_145_40xx,cy8ckit_045s,cy8cproto_040t,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,cy8cproto_040t_ms]">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_041_41xx,cy8ckit_145_40xx,cy8ckit_045s,cy8cproto_040t,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,cy8cproto_040t_ms]">
+        <num>3.3.0 release</num>
+        <commit>release-v3.3.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_041_41xx,cy8ckit_145_40xx,cy8ckit_045s,cy8cproto_040t,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite]">
         <num>3.2.0 release</num>
@@ -4451,13 +4479,17 @@
     <id>mtb-example-psoc4-spi-master</id>
     <category>Peripherals</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc4-spi-master</uri>
-    <description><![CDATA[This example demonstrates the use of a SPI resource for PSoC&#8482; 4 in master mode using high level APIs. The SPI master is configured to send command packets to control a user LED on the slave.
+    <description><![CDATA[This example demonstrates the use of a SPI resource for PSOC&#8482; 4 in master mode using high level APIs. The SPI master is configured to send command packets to control a user LED on the slave.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-spi-master/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>led spi psoc4</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_145_40xx,cy8ckit_041_41xx,cy8ckit_045s,cy8cproto_040t,,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite]">
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_145_40xx,cy8ckit_041_41xx,cy8ckit_045s,cy8cproto_040t,,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,cy8cproto_040t_ms]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_145_40xx,cy8ckit_041_41xx,cy8ckit_045s,cy8cproto_040t,,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,cy8cproto_040t_ms]">
+        <num>2.3.0 release</num>
+        <commit>release-v2.3.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_145_40xx,cy8ckit_041_41xx,cy8ckit_045s,cy8cproto_040t,,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite]">
         <num>2.2.0 release</num>
@@ -4490,13 +4522,17 @@
     <id>mtb-example-psoc4-spi-slave</id>
     <category>Peripherals</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc4-spi-slave</uri>
-    <description><![CDATA[This example demonstrates the use of a SPI Serial Communication Block (SCB) resource for PSoC&#8482; 4 in slave mode using high-level API. This example is intended to be used with PSoC&#8482; 4 SPI Master project
+    <description><![CDATA[This example demonstrates the use of a SPI Serial Communication Block (SCB) resource for PSOC&#8482; 4 in slave mode using high-level API. This example is intended to be used with PSOC&#8482; 4 SPI Master project
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-spi-slave/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>led spi psoc4</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_145_40xx,cy8ckit_041_41xx,cy8ckit_045s,cy8cproto_040t,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite]">
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_145_40xx,cy8ckit_041_41xx,cy8ckit_045s,cy8cproto_040t,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,cy8cproto_040t_ms]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_145_40xx,cy8ckit_041_41xx,cy8ckit_045s,cy8cproto_040t,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,cy8cproto_040t_ms]">
+        <num>2.3.0 release</num>
+        <commit>release-v2.3.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_145_40xx,cy8ckit_041_41xx,cy8ckit_045s,cy8cproto_040t,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite]">
         <num>2.2.0 release</num>
@@ -4599,13 +4635,17 @@
     <id>mtb-example-psoc4-uart-transmit-receive</id>
     <category>Peripherals</category>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc4-uart-transmit-receive</uri>
-    <description><![CDATA[This example demonstrates the UART transmit and receive operation in PSoC&#8482; 4 device. The application uses a serial terminal to read data and to echo back the received data.
+    <description><![CDATA[This example demonstrates the UART transmit and receive operation in PSOC&#8482; 4 device. The application uses a serial terminal to read data and to echo back the received data.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-uart-transmit-receive/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>led psoc4</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_145_40xx,cy8ckit_149,cy8ckit_041_41xx,cy8ckit_045s,cy8cproto_040t,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite]">
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_145_40xx,cy8ckit_149,cy8ckit_041_41xx,cy8ckit_045s,cy8cproto_040t,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,cy8cproto_040t_ms]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_145_40xx,cy8ckit_149,cy8ckit_041_41xx,cy8ckit_045s,cy8cproto_040t,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,cy8cproto_040t_ms]">
+        <num>2.3.0 release</num>
+        <commit>release-v2.3.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_145_40xx,cy8ckit_149,cy8ckit_041_41xx,cy8ckit_045s,cy8cproto_040t,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite]">
         <num>2.2.0 release</num>
@@ -4785,9 +4825,13 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-wdt/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>led psoc4</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_145_40xx,cy8ckit_149,cy8ckit_041_41xx,cy8ckit_045s,cy8ckit_040t,cy8cproto_040t]">
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_145_40xx,cy8ckit_149,cy8ckit_041_41xx,cy8ckit_045s,cy8ckit_040t,cy8cproto_040t,cy8cproto_040t_ms]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_145_40xx,cy8ckit_149,cy8ckit_041_41xx,cy8ckit_045s,cy8ckit_040t,cy8cproto_040t,cy8cproto_040t_ms]">
+        <num>2.2.0 release</num>
+        <commit>release-v2.2.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_145_40xx,cy8ckit_149,cy8ckit_041_41xx,cy8ckit_045s,cy8ckit_040t,cy8cproto_040t]">
         <num>2.1.0 release</num>
@@ -4847,13 +4891,17 @@
     <id>mtb-example-psoc4-gpio</id>
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-psoc4-gpio</uri>
-    <description><![CDATA[This example demonstrates multiple methods of configuring, reading, writing, and generating interrupts with PSoC&#8482; 4 General Purpose Input/Output (GPIO) pins.
+    <description><![CDATA[This example demonstrates multiple methods of configuring, reading, writing, and generating interrupts with PSOC&#8482; 4 General Purpose Input/Output (GPIO) pins.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-gpio/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>led psoc4</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_041_41xx,cy8ckit_145_40xx,cy8ckit_045s,cy8cproto_040t,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite]">
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_041_41xx,cy8ckit_145_40xx,cy8ckit_045s,cy8cproto_040t,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,cy8cproto_040t_ms]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_041_41xx,cy8ckit_145_40xx,cy8ckit_045s,cy8cproto_040t,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,cy8cproto_040t_ms]">
+        <num>2.3.0 release</num>
+        <commit>release-v2.3.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_041_41xx,cy8ckit_145_40xx,cy8ckit_045s,cy8cproto_040t,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite]">
         <num>2.2.0 release</num>
@@ -5070,9 +5118,13 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-power-modes/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>led psoc4</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_041_41xx,cy8ckit_145_40xx,cy8ckit_045s,cy8cproto_040t,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite]">
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_041_41xx,cy8ckit_145_40xx,cy8ckit_045s,cy8cproto_040t,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,cy8cproto_040t_ms]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_041_41xx,cy8ckit_145_40xx,cy8ckit_045s,cy8cproto_040t,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,cy8cproto_040t_ms]">
+        <num>2.3.0 release</num>
+        <commit>release-v2.3.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_041_41xx,cy8ckit_145_40xx,cy8ckit_045s,cy8cproto_040t,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite]">
         <num>2.2.0 release</num>
@@ -10279,13 +10331,17 @@
     <id>mtb-example-psoc4-emulated-eeprom</id>
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-psoc4-emulated-eeprom</uri>
-    <description><![CDATA[This example demonstrates how to use the Em_EEPROM middleware in PSoC&#8482; 4 MCU devices. In this example, a counter is read from the Emulated EEPROM (Em_EEPROM), incremented, written back to the Em_EEPROM and printed on a serial terminal. This occurs on every device reset or power cycle. As a result, an incrementing value is printed on every reset.
+    <description><![CDATA[This example demonstrates how to use the Em_EEPROM middleware in PSOC&#8482; 4 MCU devices. In this example, a counter is read from the Emulated EEPROM (Em_EEPROM), incremented, written back to the Em_EEPROM and printed on a serial terminal. This occurs on every device reset or power cycle. As a result, an incrementing value is printed on every reset.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-emulated-eeprom/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>led psoc4</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_041_41xx,cy8ckit_145_40xx,cy8ckit_045s,cy8cproto_040t,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite]">
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_041_41xx,cy8ckit_145_40xx,cy8ckit_045s,cy8cproto_040t,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,cy8cproto_040t_ms]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_041_41xx,cy8ckit_145_40xx,cy8ckit_045s,cy8cproto_040t,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,cy8cproto_040t_ms]">
+        <num>2.3.0 release</num>
+        <commit>release-v2.3.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_041_41xx,cy8ckit_145_40xx,cy8ckit_045s,cy8cproto_040t,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite]">
         <num>2.2.0 release</num>
@@ -12157,6 +12213,83 @@
       </version>
     </versions>
   </app>
+
+  <app keywords="msclp,isx,keypad-4,button,tuning,inductive sensing,psoc4,capsense,low power,wot,mtb-flow,multi-sense" req_capabilities_v2="psoc4 msclp led i2c low_power inductive">
+    <name>MSCLP Inductive Sensing Touch over Metal Keypad-4 Demo</name>
+    <id>mtb-example-msclp-isx-tom-keypad-4-buttons-demo</id>
+    <category>Sensing</category>
+    <uri>https://github.com/Infineon/mtb-example-msclp-isx-tom-keypad-4-buttons-demo</uri>
+    <description><![CDATA[This is a code example demonstrating the implementation and tuning procedure of ISX button using 5th-generation CAPSENSE&#8482; (MSCLP).
+    <br><br>For more details, see the README.]]></description>
+    <req_capabilities>psoc4 msclp led i2c low_power inductive</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_040t_ms]">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_040t_ms]">
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="msclp,isx,keypad-4,button,tuning,inductive sensing,psoc4,capsense,low power,wot,mtb-flow,multi-sense" req_capabilities_v2="psoc4 msclp led i2c low_power inductive">
+    <name>MSCLP Inductive Sensing Touch over Metal Keypad-2</name>
+    <id>mtb-example-psoc4-msclp-isx-tom-keypad-2-buttons</id>
+    <category>Sensing</category>
+    <uri>https://github.com/Infineon/mtb-example-psoc4-msclp-isx-tom-keypad-2-buttons</uri>
+    <description><![CDATA[This is a code example demonstrating the implementation and tuning procedure of ISX button using 5th-generation CAPSENSE&#8482; (MSCLP).
+    <br><br>For more details, see the README.]]></description>
+    <req_capabilities>psoc4 msclp led i2c low_power inductive</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_040t_ms]">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_040t_ms]">
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="msclp,keypad-4,button,tuning,psoc4,capsense,low power,wot,mtb-flow,multi-sense,hover" req_capabilities_v2="psoc4 msclp led i2c low_power capsense_hover">
+    <name>MSCLP CAPSENSE Hover Touch</name>
+    <id>mtb-example-psoc4-msclp-hover-touch</id>
+    <category>Sensing</category>
+    <uri>https://github.com/Infineon/mtb-example-psoc4-msclp-hover-touch</uri>
+    <description><![CDATA[This is a code example demonstrating the implementation and tuning procedure of hover touch buttons using 5th-generation CAPSENSE&#8482; (MSCLP).
+    <br><br>For more details, see the README.]]></description>
+    <req_capabilities>psoc4 msclp led i2c low_power capsense_hover</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_040t_ms]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_040t_ms]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="msclp,isx,keypad-4,button,tuning,inductive sensing,psoc4,capsense,low power,wot,mtb-flow,multi-sense" req_capabilities_v2="psoc4 msclp led i2c low_power capsense_liquidlevel">
+    <name>MSCLP CAPSENSE liquid level sensing</name>
+    <id>mtb-example-psoc4-msclp-lls</id>
+    <category>Sensing</category>
+    <uri>https://github.com/Infineon/mtb-example-psoc4-msclp-lls</uri>
+    <description><![CDATA[This is a code example demonstrating the implementation and tuning procedure of liquid level using 5th-generation CAPSENSE&#8482; (MSCLP).
+    <br><br>For more details, see the README.]]></description>
+    <req_capabilities>psoc4 msclp led i2c low_power capsense_liquidlevel</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_040t_ms]">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_040t_ms]">
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
+      </version>
+    </versions>
+  </app>
   <app keywords="pmg1,usb,mtb-flow,billboard" req_capabilities_v2="pmg1 usb_device [pmg1_cy7112, pmg1_cy7113]">
     <name>USBFS Billboard</name>
     <id>mtb-example-pmg1-usbfs-billboard</id>
@@ -13091,13 +13224,17 @@
     <id>mtb-example-psoc4-tcpwm-square-wave</id>
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-psoc4-tcpwm-square-wave</uri>
-    <description><![CDATA[This code example demonstrates how to generate a square wave using the TCPWM peripheral configured as a PWM on a PSoC&#8482; 4 device.
+    <description><![CDATA[This code example demonstrates how to generate a square wave using the TCPWM peripheral configured as a PWM on a PSOC&#8482; 4 device.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-tcpwm-square-wave/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>led psoc4</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_145_40xx,cy8ckit_045s,cy8cproto_040t,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite]">
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_145_40xx,cy8ckit_045s,cy8cproto_040t,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,cy8cproto_040t_ms]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_145_40xx,cy8ckit_045s,cy8cproto_040t,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,cy8cproto_040t_ms]">
+        <num>1.3.0 release</num>
+        <commit>release-v1.3.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_145_40xx,cy8ckit_045s,cy8cproto_040t,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite]">
         <num>1.2.0 release</num>
