@@ -16614,6 +16614,44 @@
       </version>
     </versions>
   </app>
+  <app keywords="xmc4400,pmsm,foc,motor-control,sensorless,mtb-flow" req_capabilities_v2="xmc4000 [kit_xmc4400_dc_v1]">
+    <name>XMC4400 PMSM FOC SL</name>
+    <id>mtb-example-ce241001-pmsm-foc-sl</id>
+    <category>Motor Control</category>
+    <uri>https://github.com/Infineon/mtb-example-ce241001-pmsm-foc-sl</uri>
+    <description><![CDATA[This code example demonstrates the sensorless PMSM FOC motor control application using XMC&#8482;4400 Drive Card.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce241001-pmsm-foc-sl/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>xmc4400</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="xmc1300,xmc1400,pmsm,foc,motor-control,sensorless,mtb-flow" req_capabilities_v2="xmc1000 [kit_xmc1300_dc_v1,kit_xmc1400_dc_v1]">
+    <name>XMC1000 PMSM FOC SL</name>
+    <id>mtb-example-ce240999-pmsm-foc-sl</id>
+    <category>Motor Control</category>
+    <uri>https://github.com/Infineon/mtb-example-ce240999-pmsm-foc-sl</uri>
+    <description><![CDATA[This code example demonstrates the sensorless PMSM FOC motor control application using XMC&#8482;1300/1400 Drive Card.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce240999-pmsm-foc-sl/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>xmc1300 xmc1400</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
   <app keywords="psoc6,dac,sinewave" req_capabilities_v2="dac [psoc6]">
     <name>Sine wave using VDAC</name>
     <id>mtb-example-ce240291-vdac-sinewave</id>
