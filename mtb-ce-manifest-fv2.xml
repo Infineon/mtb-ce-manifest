@@ -10194,6 +10194,10 @@
         <commit>latest-v2.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cysbsyskit_dev_01,cy8ceval_062s2_lai_43439m2,cy8ceval_062s2_lai_4373m2,cy8ceval_062s2_mur_43439m2,cy8ceval_062s2_mur_4373em2,cy8ckit_062s2_43012]">
+        <num>2.3.1 release</num>
+        <commit>release-v2.3.1</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cysbsyskit_dev_01,cy8ceval_062s2_lai_43439m2,cy8ceval_062s2_lai_4373m2,cy8ceval_062s2_mur_43439m2,cy8ceval_062s2_mur_4373em2,cy8ckit_062s2_43012]">
         <num>2.2.0 release</num>
         <commit>release-v2.2.0</commit>
       </version>
