@@ -17107,8 +17107,12 @@
     <req_capabilities>led</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5]">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5]">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5]">
         <num>1.0.0 release</num>
@@ -17145,8 +17149,12 @@
     <req_capabilities>uart</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
         <num>1.0.0 release</num>
@@ -17164,8 +17172,12 @@
     <req_capabilities>uart</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
         <num>1.0.0 release</num>
@@ -17183,8 +17195,12 @@
     <req_capabilities>uart</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
         <num>1.0.0 release</num>
@@ -17202,8 +17218,12 @@
     <req_capabilities>uart std_crypto</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
         <num>1.0.0 release</num>
@@ -17221,8 +17241,12 @@
     <req_capabilities>uart</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
         <num>1.0.0 release</num>
@@ -17240,8 +17264,12 @@
     <req_capabilities>led switch low_power</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
         <num>1.0.0 release</num>
@@ -17259,8 +17287,12 @@
     <req_capabilities>led i2c</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
         <num>1.0.0 release</num>
@@ -17278,8 +17310,12 @@
     <req_capabilities>led i2c</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
         <num>1.0.0 release</num>
@@ -17297,8 +17333,12 @@
     <req_capabilities>led</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
         <num>1.0.0 release</num>
@@ -17316,8 +17356,12 @@
     <req_capabilities>led spi</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
         <num>1.0.0 release</num>
@@ -17335,8 +17379,12 @@
     <req_capabilities>led spi</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
         <num>1.0.0 release</num>
@@ -17354,8 +17402,12 @@
     <req_capabilities>cat1 led</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
         <num>1.0.0 release</num>
@@ -17392,8 +17444,12 @@
     <req_capabilities>uart</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
         <num>1.0.0 release</num>
@@ -17449,8 +17505,12 @@
     <req_capabilities>led</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
         <num>1.0.0 release</num>
@@ -17468,8 +17528,12 @@
     <req_capabilities>t2gc2d</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
         <num>1.0.0 release</num>
@@ -17487,8 +17551,12 @@
     <req_capabilities>t2gc2d</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
         <num>1.0.0 release</num>
@@ -17506,8 +17574,12 @@
     <req_capabilities>t2gc2d</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
         <num>1.0.0 release</num>
@@ -17544,8 +17616,12 @@
     <req_capabilities>t2gc2d</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
         <num>1.0.0 release</num>
@@ -18733,15 +18809,19 @@
   <app keywords="t2gc2d" req_capabilities_v2="[t2gc2d]">
     <name>Switching between power modes</name>
     <id>mtb-example-ce240923-switching-between-power-modes</id>
-    <category>Peripherals</category>
+    <category>Getting Started</category>
     <uri>https://github.com/Infineon/mtb-example-ce240923-switching-between-power-modes</uri>
     <description><![CDATA[This code example demonstrates how to transition MCU to the Active, Sleep, DeepSleep, and Hibernate power states, and how to wake up and return to the Active state.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce240923-switching-between-power-modes/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gc2d</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
         <num>1.0.0 release</num>
@@ -18759,8 +18839,12 @@
     <req_capabilities>t2gc2d</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
         <num>1.0.0 release</num>
@@ -18778,8 +18862,12 @@
     <req_capabilities>t2gc2d</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
         <num>1.1.0 release</num>
@@ -18801,8 +18889,12 @@
     <req_capabilities>t2gc2d</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
         <num>1.0.0 release</num>
@@ -18820,8 +18912,12 @@
     <req_capabilities>t2gc2d</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
         <num>1.0.0 release</num>
@@ -18839,8 +18935,12 @@
     <req_capabilities>t2gc2d</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
         <num>1.0.0 release</num>
@@ -18858,8 +18958,12 @@
     <req_capabilities>t2gc2d</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
         <num>1.1.0 release</num>
@@ -18881,8 +18985,12 @@
     <req_capabilities>t2gc2d</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
         <num>1.0.0 release</num>
@@ -18900,8 +19008,12 @@
     <req_capabilities>t2gc2d</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
         <num>1.0.0 release</num>
