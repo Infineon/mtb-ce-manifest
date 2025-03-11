@@ -13351,7 +13351,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="xmc,mtb-flow,6edl7141,imd700,gate-driver,motor-control" req_capabilities_v2="xmc [eval_6edl7141_foc_3sh,eval_imd700a_foc_3sh]">
+  <app keywords="xmc,mtb-flow,6edl7141,imd700,gate-driver,motor-control" req_capabilities_v2="xmc [eval_6edl7141_foc_3sh,eval_imd700a_foc_3sh,eval_6edl7151_36v_1kw]">
     <name>XMC FOC 3 Shunt</name>
     <id>mtb-example-xmc-foc-3-shunt</id>
     <category>Peripherals</category>
