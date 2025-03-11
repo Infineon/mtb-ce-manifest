@@ -12649,15 +12649,15 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-usb-device-hid-generic/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>usb_device</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ceval_062s2_lai_43439m2,cy8ceval_062s2_lai_4373m2,cy8ceval_062s2_mur_43439m2,cy8ceval_062s2,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cy8ckit_062s4,cy8cproto_062_4343w,cy8cproto_062s3_4343w,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ceval_062s2_lai_43439m2,cy8ceval_062s2_lai_4373m2,cy8ceval_062s2_mur_43439m2,cy8ceval_062s2,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cy8ckit_062s4,cy8cproto_062_4343w,cy8cproto_062s3_4343w,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01]">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ceval_062s2_lai_4373m2,cy8ceval_062s2_mur_43439m2,cy8ceval_062s2,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cy8ckit_062s4,cy8cproto_062_4343w,cy8cproto_062s3_4343w,cyw9p62s1_43438evb_01,cyw9p62s1_43012evb_01]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -14426,7 +14426,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,machine-learning,ml,bmx160,bmi160,bmi270,pdm,bmm350,dps,dps3xx,xensiv,radar,presence,csk,imagimob,mtb-flow" req_capabilities_v2="psoc6 spi i2c pdm">
+  <app keywords="psoc6,machine-learning,ml,bmx160,bmi160,bmi270,pdm,bmm350,dps,dps3xx,xensiv,radar,presence,csk,mtb-flow" req_capabilities_v2="psoc6 spi i2c pdm">
     <name>Machine Learning Imagimob Data Collection</name>
     <id>mtb-example-ml-imagimob-data-collection</id>
     <category>Machine Learning</category>
@@ -14449,7 +14449,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,machine-learning,ml,bmx160,bmi160,bmi270,pdm,imagimob,mtb-flow" req_capabilities_v2="psoc6 spi i2c pdm">
+  <app keywords="psoc6,machine-learning,ml,bmx160,bmi160,bmi270,pdm,mtb-flow" req_capabilities_v2="psoc6 spi i2c pdm">
     <name>Machine Learning Imagimob MTBML Deploy</name>
     <id>mtb-example-ml-imagimob-mtbml-deploy</id>
     <category>Machine Learning</category>
@@ -14476,24 +14476,39 @@
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,machine-learning,ml,imagimob,bmx160,bmi160,bmi270,motion sensor,mtb-flow" req_capabilities_v2="psoc6 spi i2c">
-    <name>Machine Learning Imagimob Deploy</name>
-    <id>mtb-example-ml-imagimob-deploy</id>
+  <app keywords="psoc6,machine-learning,ml,pdm,mtb-flow" req_capabilities_v2="psoc6 pdm">
+    <name>DEEPCRAFT Deploy Model Audio</name>
+    <id>mtb-example-ml-deepcraft-deploy-audio</id>
     <category>Machine Learning</category>
-    <uri>https://github.com/Infineon/mtb-example-ml-imagimob-deploy</uri>
-    <description><![CDATA[This code example demonstrates how to deploy an Imagimob generated machine learning model. It comes pre-configured with a model generated from the Human Activity Detection starter project in Imagimob Studio. The code example collects accelerometer data from an IMU which is then sent to the machine learning model to detect specific motions (sitting, standing, walking, running, or jumping). It uses the model.c/h files generated from within Imagimob Studio directly. New models based on the Human Activity Detection project can be dropped into the project as-is.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ml-imagimob-deploy/blob/master/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>psoc6 spi i2c</req_capabilities>
+    <uri>https://github.com/Infineon/mtb-example-ml-deepcraft-deploy-audio</uri>
+    <description><![CDATA[This code example demonstrates how to deploy an DEEPCRAFT&#8482; generated machine learning model. It comes pre-configured with a model generated from the Keyword Spotter starter project in DEEPCRAFT&#8482; Studio. The code example collects audio data from the PDM microphone which is then sent to the machine learning model to detect specific keywords (up, down, forward, right, etc). It uses the model.c/h files generated from within DEEPCRAFT&#8482; Studio directly. New models based on the Keyword Spotter project can be dropped into the project as-is.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ml-deepcraft-deploy-audio/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>psoc6 pdm</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_062s2_43012,cy8ckit_062s2_ai]">
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_062s2_ai]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_062s2_43012,cy8ckit_062s2_ai]">
-        <num>1.1.0 release</num>
-        <commit>release-v1.1.0</commit>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_062s2_ai]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_062s2_43012,cy8ckit_062_ble,cy8ckit_062_wifi_bt,cyw9p62s1_43438evb_01,cy8ceval_062s2,cy8ceval_062s2_lai_4373m2,cy8ceval_062s2_mur_43439m2,cy8ceval_062s2_lai_43439m2,cy8ceval_062s2_mur_4373em2,cy8ceval_062s2_mur_4373m2,cy8ckit_064b0s2_4343w,cy8ckit_064s0s2_4343w]">
+    </versions>
+  </app>
+  <app keywords="psoc6,machine-learning,ml,bmx160,bmi160,bmi270,motion sensor,mtb-flow" req_capabilities_v2="psoc6 spi i2c">
+    <name>DEEPCRAFT Deploy Model Motion</name>
+    <id>mtb-example-ml-deepcraft-deploy-motion</id>
+    <category>Machine Learning</category>
+    <uri>https://github.com/Infineon/mtb-example-ml-deepcraft-deploy-motion</uri>
+    <description><![CDATA[This code example demonstrates how to deploy an DEEPCRAFT&#8482; generated machine learning model. It comes pre-configured with a model generated from the Motion Detection starter project in DEEPCRAFT&#8482; Studio. The code example collects accelerometer data from an IMU which is then sent to the machine learning model to detect specific motions (shaking and circle). It uses the model.c/h files generated from within DEEPCRAFT&#8482; Studio directly. New models based on the Motion Detection project can be dropped into the project as-is.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ml-deepcraft-deploy-motion/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>psoc6 spi i2c</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_062s2_ai]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_062s2_ai]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -15712,7 +15727,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,psoc6,machine-learning,ml,bmx160,bmi270,bmm350,dps368,radar,pdm,imagimob" req_capabilities_v2="uart spi i2c pdm psoc6">
+  <app keywords="mtb-flow,psoc6,machine-learning,ml,bmx160,bmi270,bmm350,dps368,radar,pdm" req_capabilities_v2="uart spi i2c pdm psoc6">
     <name>Imagimob Streaming Protocol</name>
     <id>mtb-example-imagimob-streaming-protocol</id>
     <category>Machine Learning</category>
@@ -15739,15 +15754,23 @@
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,psoc6,machine-learning,ml,pdm,radar,imagimob" req_capabilities_v2="uart spi i2c pdm psoc6">
-    <name>Imagimob Deploy Ready Model</name>
-    <id>mtb-example-ml-imagimob-deploy-ready-model</id>
+  <app keywords="mtb-flow,psoc6,machine-learning,ml,pdm,radar" req_capabilities_v2="uart spi i2c pdm psoc6">
+    <name>DEEPCRAFT Deploy Ready Model</name>
+    <id>mtb-example-ml-deepcraft-deploy-ready-model</id>
     <category>Machine Learning</category>
-    <uri>https://github.com/Infineon/mtb-example-ml-imagimob-deploy-ready-model</uri>
-    <description><![CDATA[This code example demonstrates how to integrate a ready model library from Imagimob Studio on ModusToolbox&#8482;. The code example includes six different models where five model detect differet sounds such as baby-cry detection, cough detection, alarm detection, siren detection, and snoring detection which uses data from the pulse-density modulation (PDM) to pulse-code modulation (PCM) which is sent to the model for detection. The sixth model detects hand gestures which uses data from XENSIV&#8482; radar sensor.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ml-imagimob-deploy-ready-model/blob/master/README.md">README on GitHub</a>.]]></description>
+    <uri>https://github.com/Infineon/mtb-example-ml-deepcraft-deploy-ready-model</uri>
+    <description><![CDATA[This code example demonstrates how to integrate a ready model library from DEEPCRAFT&#8482; Studio on ModusToolbox&#8482;. The code example includes six different models where five model detect differet sounds such as baby-cry detection, cough detection, alarm detection, siren detection, and snoring detection which uses data from the pulse-density modulation (PDM) to pulse-code modulation (PCM) which is sent to the model for detection. The sixth model detects hand gestures which uses data from XENSIV&#8482; radar sensor.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ml-deepcraft-deploy-ready-model/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>uart spi i2c pdm psoc6</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen5] [cy8ckit_062s2_ai,cy8ckit_062s2_43012]">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen5] [cy8ckit_062s2_ai,cy8ckit_062s2_43012]">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_062s2_ai,cy8ckit_062s2_43012]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
