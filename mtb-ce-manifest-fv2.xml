@@ -19104,7 +19104,7 @@
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-ce240935-crwdt-basic</uri>
     <description><![CDATA[This code example demonstrates how CRWDT works by changing the watchdog service timing.
-    <br><br>For more details, see the <a href="https://github.com/Infineon//mtb-example-ce240935-crwdt-basic/blob/master/README.md">README on GitHub</a>.]]></description>
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce240935-crwdt-basic/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc4</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite]">
@@ -19123,7 +19123,7 @@
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-ce241006-fault-report-configuration</uri>
     <description><![CDATA[This code example demonstrates how to configure the fault subsystem and describes its operation.
-    <br><br>For more details, see the <a href="https://github.com/Infineon//mtb-example-ce241006-fault-report-configuration/blob/master/README.md">README on GitHub</a>.]]></description>
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce241006-fault-report-configuration/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc4</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite]">
@@ -19142,7 +19142,7 @@
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-ce241040-lin-master-slave-communication</uri>
     <description><![CDATA[This code example demonstrates how to communicate with LIN master and LIN slave each other by using internal LIN PHY and two individual boards. It also supports the loop-back mode which is for communication between internal master channel and slave channel for test purpose.
-    <br><br>For more details, see the <a href="https://github.com/Infineon//mtb-example-ce241040-lin-master-slave-communication/blob/master/README.md">README on GitHub</a>.]]></description>
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce241040-lin-master-slave-communication/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc4</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite]">
@@ -19150,6 +19150,44 @@
         <commit>latest-v1.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc4" req_capabilities_v2="led psoc4">
+    <name>Wakeup from DEEPSLEEP using lifetime counter</name>
+    <id>mtb-example-ce240936-lifetime-counter-basic</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce240936-lifetime-counter-basic</uri>
+    <description><![CDATA[This code example demonstrates how to wakeup from DEEPSLEEP mode by using lifetime counter (LTC) interrupt and reset LTC value.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce240936-lifetime-counter-basic/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>psoc4</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc4" req_capabilities_v2="led psoc4">
+    <name>Toggle LED with SysTick timer</name>
+    <id>mtb-example-ce241197-systick-led</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce241197-systick-led</uri>
+    <description><![CDATA[This code example demonstrates how to use the SysTick timer to generate timer interrupt on PSOC™ 4 HV series MCU. The user LED is toggled when a SysTick timer interrupt generates a 1 s period.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce241197-systick-led/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>psoc4</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
