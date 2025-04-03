@@ -14627,7 +14627,7 @@
     <id>mtb-example-ml-deepcraft-deploy-motion</id>
     <category>Machine Learning</category>
     <uri>https://github.com/Infineon/mtb-example-ml-deepcraft-deploy-motion</uri>
-    <description><![CDATA[This code example demonstrates how to deploy an DEEPCRAFT&#8482; generated machine learning model. It comes pre-configured with a model generated from the Motion Detection starter project in DEEPCRAFT&#8482; Studio. The code example collects accelerometer data from an IMU which is then sent to the machine learning model to detect specific motions (shaking and circle). It uses the model.c/h files generated from within DEEPCRAFT&#8482; Studio directly. New models based on the Motion Detection project can be dropped into the project as-is.
+    <description><![CDATA[This code example demonstrates how to deploy an DEEPCRAFT&#8482; generated machine learning model. It comes pre-configured with an IMU based model generated within DEEPCRAFT&#8482; Studio. The code example collects accelerometer data from an IMU which is then sent to the machine learning model to detect specific motions (shaking and circle). It uses the model.c/h files generated from within DEEPCRAFT&#8482; Studio directly. New models based on the IMU can be dropped into the project as-is.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ml-deepcraft-deploy-motion/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 spi i2c</req_capabilities>
     <versions>
@@ -14648,6 +14648,25 @@
         <commit>release-v1.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_062s2_ai]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,machine-learning,ml,spi,radar sensor,mtb-flow" req_capabilities_v2="psoc6 spi">
+    <name>DEEPCRAFT Deploy Model Radar</name>
+    <id>mtb-example-ml-deepcraft-deploy-radar</id>
+    <category>Machine Learning</category>
+    <uri>https://github.com/Infineon/mtb-example-ml-deepcraft-deploy-radar</uri>
+    <description><![CDATA[This code example demonstrates how to deploy an DEEPCRAFT&#8482; generated machine learning model. It comes pre-configured with a radar based model generated within DEEPCRAFT&#8482; Studio. The code example collects radar data from the XENSIV™ 60 GHz radar sensor which is then sent to the machine learning model to detect specific gestures (push and circle). It uses the model.c/h files generated from within DEEPCRAFT&#8482; Studio directly. New models based on the Gesture Detection project can be dropped into the project as-is.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ml-deepcraft-deploy-radar/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>psoc6 spi</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen5] [cy8ckit_062s2_ai]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen5] [cy8ckit_062s2_ai]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -15867,14 +15886,22 @@
     </versions>
   </app>
   <app keywords="mtb-flow,psoc6,machine-learning,ml,bmx160,bmi270,bmm350,dps368,radar,pdm" req_capabilities_v2="uart spi i2c pdm psoc6">
-    <name>Imagimob Streaming Protocol</name>
-    <id>mtb-example-imagimob-streaming-protocol</id>
+    <name>DEEPCRAFT Streaming Protocol</name>
+    <id>mtb-example-ml-deepcraft-streaming-protocol</id>
     <category>Machine Learning</category>
-    <uri>https://github.com/Infineon/mtb-example-imagimob-streaming-protocol</uri>
-    <description><![CDATA[This ModusToolbox&#8482; firmware project implements the Imagimob streaming protocol for PSOC&#8482; 6. This firmware supports collecting data from one of this sensors - motion, magnetometer, pressure, radar sensors, and PDM/PCM microphones.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-imagimob-streaming-protocol/blob/master/README.md">README on GitHub</a>.]]></description>
+    <uri>https://github.com/Infineon/mtb-example-ml-deepcraft-streaming-protocol</uri>
+    <description><![CDATA[This ModusToolbox&#8482; firmware project implements the DEEPCRAFT&#8482; streaming protocol v2 for PSOC&#8482; 6 MCU boards, allowing the streaming of sensor data and other information from the board into DEEPCRAFT&#8482; Studio for development and testing of Edge AI models.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ml-deepcraft-streaming-protocol/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>uart spi i2c pdm psoc6</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen5] [cy8ckit_062s2_ai,cy8ckit_062s2_43012]">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen5] [cy8ckit_062s2_ai,cy8ckit_062s2_43012]">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_062s2_ai,cy8ckit_062s2_43012]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
