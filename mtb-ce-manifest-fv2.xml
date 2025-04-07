@@ -14658,7 +14658,7 @@
     <id>mtb-example-ml-deepcraft-deploy-radar</id>
     <category>Machine Learning</category>
     <uri>https://github.com/Infineon/mtb-example-ml-deepcraft-deploy-radar</uri>
-    <description><![CDATA[This code example demonstrates how to deploy an DEEPCRAFT&#8482; generated machine learning model. It comes pre-configured with a radar based model generated within DEEPCRAFT&#8482; Studio. The code example collects radar data from the XENSIV™ 60 GHz radar sensor which is then sent to the machine learning model to detect specific gestures (push and circle). It uses the model.c/h files generated from within DEEPCRAFT&#8482; Studio directly. New models based on the Gesture Detection project can be dropped into the project as-is.
+    <description><![CDATA[This code example demonstrates how to deploy an DEEPCRAFT&#8482; generated machine learning model. It comes pre-configured with a radar based model generated within DEEPCRAFT&#8482; Studio. The code example collects radar data from the XENSIV&#8482; 60 GHz radar sensor which is then sent to the machine learning model to detect specific gestures (push and circle). It uses the model.c/h files generated from within DEEPCRAFT&#8482; Studio directly. New models based on the Gesture Detection project can be dropped into the project as-is.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ml-deepcraft-deploy-radar/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 spi</req_capabilities>
     <versions>
@@ -15932,6 +15932,10 @@
       <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen5] [cy8ckit_062s2_ai,cy8ckit_062s2_43012]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen5] [cy8ckit_062s2_ai,cy8ckit_062s2_43012]">
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen5] [cy8ckit_062s2_ai,cy8ckit_062s2_43012]">
         <num>2.0.0 release</num>
