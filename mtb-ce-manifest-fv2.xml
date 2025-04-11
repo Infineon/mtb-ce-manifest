@@ -11934,7 +11934,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="pairing,mtb-flow,bluetooth,button" req_capabilities_v2="bt cyw20829">
+  <app keywords="pairing,mtb-flow,bluetooth,button" req_capabilities_v2="[cyw920829_vr]">
     <name>Bluetooth LE Voice Remote</name>
     <id>mtb-example-btstack-freertos-cyw20829-voice-remote</id>
     <category>Bluetooth&#174;</category>
@@ -13206,7 +13206,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="hid,keyboard,bluetooth,button" req_capabilities_v2="bt cyw20829 [cyw920829_keyboard]">
+  <app keywords="hid,keyboard,bluetooth,button" req_capabilities_v2="[cyw920829_keyboard]">
     <name>AIROC LE CYW20829 Keyboard</name>
     <id>mtb-example-btstack-freertos-cyw20829-keyboard</id>
     <category>Bluetooth&#174;</category>
@@ -13218,6 +13218,10 @@
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="bsp_gen5">
         <num>Latest 4.X release</num>
         <commit>latest-v4.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="bsp_gen5">
+        <num>4.2.0 release</num>
+        <commit>release-v4.2.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="bsp_gen5">
         <num>4.1.0 release</num>
@@ -13265,7 +13269,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="hid,mouse,bluetooth,button" req_capabilities_v2="bt cyw20829 [cyw920829_mouse]">
+  <app keywords="hid,mouse,bluetooth,button" req_capabilities_v2="[cyw920829_mouse]">
     <name>AIROC LE CYW20829 Mouse</name>
     <id>mtb-example-btstack-freertos-cyw20829-mouse</id>
     <category>Bluetooth&#174;</category>
@@ -13277,6 +13281,10 @@
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="bsp_gen5">
         <num>Latest 4.X release</num>
         <commit>latest-v4.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="bsp_gen5">
+        <num>4.2.0 release</num>
+        <commit>release-v4.2.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="bsp_gen5">
         <num>4.1.0 release</num>
@@ -15498,6 +15506,10 @@
         <commit>latest-v2.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen5] [cyw920829m2evk_02,cyw989829m2evb_01,cyw989829m2evb_03]">
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen5] [cyw920829m2evk_02,cyw989829m2evb_01,cyw989829m2evb_03]">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
@@ -15527,6 +15539,10 @@
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen5] [cyw920829m2evk_02,cyw989829m2evb_01,cyw989829m2evb_03]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen5] [cyw920829m2evk_02,cyw989829m2evb_01,cyw989829m2evb_03]">
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen5] [cyw920829m2evk_02,cyw989829m2evb_01,cyw989829m2evb_03]">
         <num>2.0.0 release</num>
@@ -16290,6 +16306,10 @@
         <commit>latest-v1.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen5] [cyw920829m2evk_02]">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen5] [cyw920829m2evk_02]">
         <num>1.0.1 release</num>
         <commit>release-v1.0.1</commit>
       </version>
@@ -16311,6 +16331,10 @@
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen5] [cyw920829m2evk_02]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen5] [cyw920829m2evk_02]">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen5] [cyw920829m2evk_02]">
         <num>1.0.0 release</num>
