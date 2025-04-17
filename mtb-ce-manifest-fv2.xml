@@ -19761,6 +19761,10 @@
         <commit>latest-v1.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.1 release</num>
+        <commit>release-v1.0.1</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -19797,6 +19801,10 @@
       <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.1 release</num>
+        <commit>release-v1.0.1</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>1.0.0 release</num>
@@ -19951,6 +19959,44 @@
         <commit>latest-v1.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="mtb-flow,class-b,uart,ECC,flash,sram" req_capabilities_v2="kit_psc3m5_evk">
+    <name>Class-B ECC peripheral</name>
+    <id>mtb-example-ce241396-safety-ecc-test</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce241396-safety-ecc-test</uri>
+    <description><![CDATA[This code example demonstrates the use of class-B Safety Test Library to test the ECC peripherals of the MCU. The example includes tests such as ECC Flash and ECC Ram test.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce241396-safety-ecc-test/-/blob/develop/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>uart</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="mtb-flow,class-b,uart,motif" req_capabilities_v2="kit_psc3m5_evk">
+    <name>Class-B MOTIF peripheral</name>
+    <id>mtb-example-ce241113-safety-motif-test</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce241113-safety-motif-test</uri>
+    <description><![CDATA[This code example demonstrates the use of class-B Safety Test Library to test the MOTIF peripherals of the MCU.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce241113-safety-motif-test/-/blob/develop/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>uart</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
