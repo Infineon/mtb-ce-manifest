@@ -18993,11 +18993,11 @@
     <br><br>For more details, see the  <a href="https://github.com/Infineon/mtb-example-ce239531-non-secure-template/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>cat1b led</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -19164,11 +19164,19 @@
     <br><br>For more details, see the  <a href="https://github.com/Infineon/mtb-example-ce240243-foc-3-shunt/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>cat1b led</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -19179,15 +19187,25 @@
     <id>mtb-example-ce240483-pccm-buck-multi-instance</id>
     <category>Power Conversion</category>
     <uri>https://github.com/Infineon/mtb-example-ce240483-pccm-buck-multi-instance</uri>
-    <description><![CDATA[This example implements a multi instance buck converter in peak current control mode for being used with the PSOC&#8482; Control C3M5 Complete System Dual Buck Evaluation Kit. It demonstrates the capabilities and performance of the PSOC&#8482; Control C3 MCU for implementating multi instance peak current control mode synchronous buck power converter. This code example is developed with PCC tool and Power-conversion middleware.
+    <description><![CDATA[
+    <p><b>NOTE: This code example requires PCC tool and Power-conversion middleware. Please use <a href="https://softwaretools.infineon.com/tools/com.ifx.tb.tool.modustoolboxsetup">ModusToolbox&#8482; Setup</a> to install the <a href= "https://softwaretools.infineon.com/tools/com.ifx.tb.tool.modustoolboxpackindustrialmcu">ModusToolbox&#8482; Industrial MCU Pack</a> to use this code example.</b></p>
+    <br><br>This example implements a multi instance buck converter in peak current control mode for being used with the PSOC&#8482; Control C3M5 Complete System Dual Buck Evaluation Kit. It demonstrates the capabilities and performance of the PSOC&#8482; Control C3 MCU for implementating multi instance peak current control mode synchronous buck power converter. This code example is developed with PCC tool and Power-conversion middleware.
     <br><br>For more details, see the  <a href="https://github.com/Infineon/mtb-example-ce240483-pccm-buck-multi-instance/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>adc led uart</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -19198,15 +19216,67 @@
     <id>mtb-example-ce240553-vcm-buck-multi-instance</id>
     <category>Power Conversion</category>
     <uri>https://github.com/Infineon/mtb-example-ce240553-vcm-buck-multi-instance</uri>
-    <description><![CDATA[This code example demonstrates a multi-instance buck converter in voltage control mode (VCM) with the PSOC&#8482; Control C3M5 complete system dual buck evaluation kit. The power conversion configurator (PCC) tool and power conversion middleware are used for implementing this code example.
+    <description><![CDATA[
+    <p><b>NOTE: This code example requires PCC tool and Power-conversion middleware. Please use <a href="https://softwaretools.infineon.com/tools/com.ifx.tb.tool.modustoolboxsetup">ModusToolbox&#8482; Setup</a> to install the <a href= "https://softwaretools.infineon.com/tools/com.ifx.tb.tool.modustoolboxpackindustrialmcu">ModusToolbox&#8482; Industrial MCU Pack</a> to use this code example.</b></p>
+    <br><br>This code example demonstrates a multi-instance buck converter in voltage control mode (VCM) with the PSOC&#8482; Control C3M5 complete system dual buck evaluation kit. The power conversion configurator (PCC) tool and power conversion middleware are used for implementing this code example.
     <br><br>For more details, see the  <a href="https://github.com/Infineon/mtb-example-ce240553-vcm-buck-multi-instance/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>adc led uart</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="buck,power conversion,mtb-flow" req_capabilities_v2="[kit_psc3m5_cc1]">
+    <name>PCCM buck converter multi-phase</name>
+    <id>mtb-example-ce241298-pccm-buck-multi-phase</id>
+    <category>Power Conversion</category>
+    <uri>https://github.com/Infineon/mtb-example-ce241298-pccm-buck-multi-phase</uri>
+    <description><![CDATA[
+    <p><b>NOTE: This code example requires PCC tool and Power-conversion middleware. Please use <a href="https://softwaretools.infineon.com/tools/com.ifx.tb.tool.modustoolboxsetup">ModusToolbox&#8482; Setup</a> to install the <a href= "https://softwaretools.infineon.com/tools/com.ifx.tb.tool.modustoolboxpackindustrialmcu">ModusToolbox&#8482; Industrial MCU Pack</a> to use this code example.</b></p>
+    <br><br>This example implements a multi phase buck converter in peak current control mode for being used with the PSOC&#8482; Control C3M5 Complete System Dual Buck Evaluation Kit. It demonstrates the capabilities and performance of the PSOC&#8482; Control C3 MCU for implementating multi phase peak current control mode synchronous buck power converter.
+    <br><br>For more details, see the  <a href="https://github.com/Infineon/mtb-example-ce241298-pccm-buck-multi-phase/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>adc led uart</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="buck,power conversion,mtb-flow" req_capabilities_v2="[kit_psc3m5_cc1]">
+    <name>VCM buck converter multi-phase</name>
+    <id>mtb-example-ce241297-vcm-buck-multi-phase</id>
+    <category>Power Conversion</category>
+    <uri>https://github.com/Infineon/mtb-example-ce241297-vcm-buck-multi-phase</uri>
+    <description><![CDATA[
+    <p><b>NOTE: This code example requires PCC tool and Power-conversion middleware. Please use <a href="https://softwaretools.infineon.com/tools/com.ifx.tb.tool.modustoolboxsetup">ModusToolbox&#8482; Setup</a> to install the <a href= "https://softwaretools.infineon.com/tools/com.ifx.tb.tool.modustoolboxpackindustrialmcu">ModusToolbox&#8482; Industrial MCU Pack</a> to use this code example.</b></p>
+    <br><br>This example implements a multi phase buck converter in voltage control mode for being used with the PSOC&#8482; Control C3M5 Complete System Dual Buck Evaluation Kit. It demonstrates the capabilities and performance of the PSOC&#8482; Control C3 MCU for implementating multi phase voltage control mode synchronous buck power converter.
+    <br><br>For more details, see the  <a href="https://github.com/Infineon/mtb-example-ce241297-vcm-buck-multi-phase/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>adc led uart</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
