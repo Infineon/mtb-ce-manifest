@@ -4203,15 +4203,15 @@
     <description><![CDATA[This code example demonstrates a basic Hello World application for the device.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-fx20-hello-world/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.2.0" tools_max_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4]">
+      <version flow_version="2.0" tools_min_version="3.2.0" tools_max_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>latest 1.X</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.2.0" tools_max_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4]">
+      <version flow_version="2.0" tools_min_version="3.2.0" tools_max_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>1.0.1 release</num>
         <commit>release-v1.0.1</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.2.0" tools_max_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4]">
+      <version flow_version="2.0" tools_min_version="3.2.0" tools_max_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -4225,15 +4225,15 @@
     <description><![CDATA[This code example demonstrates a bulk-only UVC 1.5 compliant application using the FX20 APIs with an LVDS/LVCMOS IP interface.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-fx20-uvc-uac/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.2.0" tools_max_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4]">
+      <version flow_version="2.0" tools_min_version="3.2.0" tools_max_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>latest 1.X</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.2.0" tools_max_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4]">
+      <version flow_version="2.0" tools_min_version="3.2.0" tools_max_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>1.0.1 release</num>
         <commit>release-v1.0.1</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.2.0" tools_max_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4]">
+      <version flow_version="2.0" tools_min_version="3.2.0" tools_max_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -4247,15 +4247,15 @@
     <description><![CDATA[This code example demonstrates a vendor-specific USB device implementation for testing data transfers using Bulk, Interrupt, and Isochronous endpoints on USB 2.0 and USB 3.2 Gen1/Gen2 interfaces.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-fx20-usbss-device/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.2.0" tools_max_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4]">
+      <version flow_version="2.0" tools_min_version="3.2.0" tools_max_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>latest 1.X</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.2.0" tools_max_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4]">
+      <version flow_version="2.0" tools_min_version="3.2.0" tools_max_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>1.0.1 release</num>
         <commit>release-v1.0.1</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.2.0" tools_max_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4]">
+      <version flow_version="2.0" tools_min_version="3.2.0" tools_max_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
