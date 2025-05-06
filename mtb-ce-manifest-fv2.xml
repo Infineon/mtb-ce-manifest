@@ -8545,6 +8545,25 @@
       </version>
     </versions>
   </app>
+  <app keywords="pmg1,mux,mtb-flow" req_capabilities_v2="pmg1 [pmg1_cy7111]">
+    <name>USB2.0 MUX functionality</name>
+    <id>mtb-example-pmg1-usb-mux</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-pmg1-usb-mux</uri>
+    <description><![CDATA[This code example demonstrates the functionality of USB 2.0 2x2 cross-bar switch analog MUX in PMG1-S1 MCU. The firmware detects the orientation of the Type-C plug connected and accordingly switches the USB MUX to route the correct DP/DM lines (USBDP/DM_TOP or USBDP/DM_BOT) to USBDP/DM_SYS pins of EZ-PD™ PMG1-S1 MCU, which can be used externally to implement USB high-speed communication.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-usb-mux/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>pmg1</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
   <app keywords="pmg1,sbu,mux,mtb-flow" req_capabilities_v2="pmg1 [pmg1_cy7112, eval_pmg1_s1_drp, eval_pmg1_s3_dualdrp]">
     <name>SBU MUX functionality</name>
     <id>mtb-example-pmg1-sbu-mux</id>
@@ -9260,9 +9279,13 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-usbpd-sink-dps310-i2c-sensor/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>pmg1 usbpd i2c uart switch led</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" tools_max_version="3.2.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version="bsp_gen4">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version="bsp_gen4">
+        <num>2.0.0 release</num>
+        <commit>release-v2.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" tools_max_version="3.2.0" req_capabilities_per_version="bsp_gen4">
         <num>2.0.0 release</num>
