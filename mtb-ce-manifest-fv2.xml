@@ -20105,6 +20105,10 @@
         <commit>latest-v1.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_t2g_c_2d_6m_lite]">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_t2g_c_2d_6m_lite]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -20162,6 +20166,120 @@
         <commit>latest-v1.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="t2gc2d" req_capabilities_v2="[t2gc2d]">
+    <name>FreeRTOS blinky</name>
+    <id>mtb-example-ce241258-freertos-blinky</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce241258-freertos-blinky</uri>
+    <description><![CDATA[This code example demonstrates the blinking LED functionality implemented by FreeRTOS tasks.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce241258-freertos-blink/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>t2gc2d</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_t2g_c_2d_6m_lite]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_t2g_c_2d_6m_lite]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="t2gc2d" req_capabilities_v2="[t2gc2d]">
+    <name>Emulated EEPROM</name>
+    <id>mtb-example-ce241184-emulated-eeprom</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce241184-emulated-eeprom</uri>
+    <description><![CDATA[This example uses the Arm&#174; Cortex&#174; -M7 (CM7_0) CPU to execute two tasks: UART communication and emulate EEPROM behavior in flash memory.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce241184-emulated-eeprom/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>t2gc2d</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_t2g_c_2d_6m_lite]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_t2g_c_2d_6m_lite]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="t2gc2d" req_capabilities_v2="[t2gc2d]">
+    <name>Serial memory inteface Flash Read Write</name>
+    <id>mtb-example-ce241383-smif-flash-readwrite</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce241383-smif-flash-readwrite</uri>
+    <description><![CDATA[This code example shows how to configure the Serial memory access (Flash) function using Serial memory inteface Flash Read Write block and describes its operation and initial settings.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce241383-smif-flash-readwrite/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>t2gc2d</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_t2g_c_2d_6m_lite]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_t2g_c_2d_6m_lite]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="t2gc2d" req_capabilities_v2="[t2gc2d]">
+    <name>SMIF PSRAM Read Write</name>
+    <id>mtb-example-ce241382-smif-psram-readwrite</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce241382-smif-psram-readwrite</uri>
+    <description><![CDATA[This code example shows how to configure the serial memory access function using the Serial Memory Interface (SMIF) Pseudostatic RAM (PSRAM) Read Write block and describes its operation and initial settings.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce241382-smif-psram-readwrite/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>t2gc2d</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_t2g_c_2d_6m_lite]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_t2g_c_2d_6m_lite]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="t2gbh" req_capabilities_v2="[tcpwm,t2gbh_lite,t2gbe]">
+    <name>TCPWM QuadDec rotary mode</name>
+    <id>mtb-example-ce241316-tcpwm-quaddec-rotary-mode</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce241316-tcpwm-quaddec-rotary-mode</uri>
+    <description><![CDATA[This code example demonstrates how to use an up/down rotary counter in a TCPWM quadrature decoder (QuadDec).
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce241316-tcpwm-quaddec-rotary-mode/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>tcpwm</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4] [kit_t2g_b_h_lite,kit_t2g_b_e_lite]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4] [kit_t2g_b_h_lite,kit_t2g_b_e_lite]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="t2gc2d" req_capabilities_v2="[tcpwm,t2gc2d,t2gbh_lite,t2gbe]">
+    <name>TCPWM QuadDec direction detection</name>
+    <id>mtb-example-ce241430-tcpwm-quaddec-direction-detection</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce241430-tcpwm-quaddec-direction-detection</uri>
+    <description><![CDATA[This code example demonstrates the usage of the TCPWM peripheral configured as a quadrature decoder (QuadDec).
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce241430-tcpwm-quaddec-direction-detection/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>tcpwm</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5,bsp_gen4] [kit_t2g_c_2d_6m_lite,kit_t2g_b_h_lite,kit_t2g_b_e_lite]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5,bsp_gen4] [kit_t2g_c_2d_6m_lite,kit_t2g_b_h_lite,kit_t2g_b_e_lite]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
