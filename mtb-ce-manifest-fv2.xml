@@ -8606,7 +8606,7 @@
     <id>mtb-example-pmg1-usb-mux</id>
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-pmg1-usb-mux</uri>
-    <description><![CDATA[This code example demonstrates the functionality of USB 2.0 2x2 cross-bar switch analog MUX in PMG1-S1 MCU. The firmware detects the orientation of the Type-C plug connected and accordingly switches the USB MUX to route the correct DP/DM lines (USBDP/DM_TOP or USBDP/DM_BOT) to USBDP/DM_SYS pins of EZ-PD™ PMG1-S1 MCU, which can be used externally to implement USB high-speed communication.
+    <description><![CDATA[This code example demonstrates the functionality of USB 2.0 2x2 cross-bar switch analog MUX in EZ-PD&#8482; PMG1-S1 MCU. The firmware detects the orientation of the Type-C plug connected and accordingly switches the USB MUX to route the correct DP/DM lines (USBDP/DM_TOP or USBDP/DM_BOT) to USBDP/DM_SYS pins of EZ-PD™ PMG1-S1 MCU, which can be used externally to implement USB high-speed communication.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-usb-mux/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>pmg1</req_capabilities>
     <versions>
@@ -8642,17 +8642,21 @@
   <app keywords="pmg1b1,led,i2c,pwm,PASCO2,mtb-flow" req_capabilities_v2="pmg1_b1_cy7116 usbpd i2c uart led">
     <name>USBPD sink PAS CO2 and temperature sensor</name>
     <id>mtb-example-pmg1b1-usbpd-sink-pasco2-temp-sensor</id>
-    <category>Peripherals</category>
+    <category>USB-C Power Delivery</category>
     <uri>https://github.com/Infineon/mtb-example-pmg1b1-usbpd-sink-pasco2-temp-sensor</uri>
     <description><![CDATA[This code example demonstrates integration of the XENSIV#8482; PAS CO2 sensor to EZ-PD#8482; PMG1B1 MCU over the I2C interface and displaying the measured CO2 level and on-chip temperature data on a terminal using UART communication.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1b1-usbpd-sink-pasco2-temp-sensor/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>pmg1_b1_cy7116 usbpd i2c uart led</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" tools_max_version="3.2.0" req_capabilities_per_version="bsp_gen4">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" tools_max_version="3.2.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" tools_max_version="3.2.0" req_capabilities_per_version="bsp_gen4">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -8661,17 +8665,17 @@
   <app keywords="pmg1,led,i2c,pwm,PASCO2,mtb-flow" req_capabilities_v2="pmg1 usbpd i2c uart led [pmg1_cy7110, pmg1_cy7111, pmg1_cy7112, pmg1_cy7113]">
     <name>USBPD sink PAS CO2 and temperature sensor</name>
     <id>mtb-example-pmg1-usbpd-sink-pasco2-temp-sensor</id>
-    <category>Peripherals</category>
+    <category>USB-C Power Delivery</category>
     <uri>https://github.com/Infineon/mtb-example-pmg1-usbpd-sink-pasco2-temp-sensor</uri>
     <description><![CDATA[This code example demonstrates integration of the XENSIV&#8482; PAS CO2 sensor to PMG1 devices over the I2C interface. This code example also demonstrates PD contract negotiation using EZ-PD&#8482; PMG1 MCU devices. The code example also uses on chip temperature sensor to measure temperature data. The measured CO2 level and temperature data are sent over UART to display on a terminal.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-usbpd-sink-pasco2-temp-sensor/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>pmg1 usbpd i2c uart led</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" tools_max_version="3.2.0" req_capabilities_per_version="bsp_gen4">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" tools_max_version="3.2.0" req_capabilities_per_version="bsp_gen4">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -9326,7 +9330,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="pmg1,led,switch,gpio-interrupt,i2c,pwm,dps310,mtb-flow" req_capabilities_v2="pmg1 usbpd i2c uart switch led [pmg1_cy7110, pmg1_cy7111, pmg1_cy7112, pmg1_cy7113]">
+  <app keywords="pmg1,led,switch,gpio-interrupt,i2c,pwm,dps310,mtb-flow" req_capabilities_v2="pmg1 usbpd i2c uart switch led [pmg1_cy7110, pmg1_cy7111, pmg1_cy7112, pmg1_cy7113, eval_pmg1_s1_drp, eval_pmg1_s3_dualdrp]">
     <name>USBPD Sink DPS310 I2C Sensor</name>
     <id>mtb-example-pmg1-usbpd-sink-dps310-i2c-sensor</id>
     <category>USB-C Power Delivery</category>
@@ -11520,7 +11524,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="pmg1,temp,sensor,adc,8-bit,temperature,mtb-flow" req_capabilities_v2="pmg1 usbpd uart led switch [pmg1_cy7110, pmg1_cy7111, pmg1_cy7112, pmg1_cy7113, pmg1_b1_cy7116, eval_pmg1_s1_drp, eval_pmg1_s3_dualdrp]">
+  <app keywords="pmg1,temp,sensor,adc,8-bit,temperature,mtb-flow" req_capabilities_v2="pmg1 usbpd uart led switch">
     <name>On Chip Temp Sensor 8 bit SAR ADC</name>
     <id>mtb-example-pmg1-on-chip-temp-sensor-8-bit-saradc</id>
     <category>Peripherals</category>
@@ -11529,23 +11533,23 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-on-chip-temp-sensor-8-bit-saradc/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>pmg1 usbpd uart led switch</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [pmg1_cy7110, pmg1_cy7111, pmg1_cy7112, pmg1_cy7113, pmg1_b1_cy7116, eval_pmg1_s1_drp, eval_pmg1_s3_dualdrp]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [pmg1_cy7110, pmg1_cy7111, pmg1_cy7112, pmg1_cy7113, pmg1_b1_cy7116, eval_pmg1_s1_drp, eval_pmg1_s3_dualdrp]">
         <num>2.2.0 release</num>
         <commit>release-v2.2.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [pmg1_cy7110, pmg1_cy7111, pmg1_cy7112, pmg1_cy7113, pmg1_b1_cy7116]">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [pmg1_cy7110, pmg1_cy7111, pmg1_cy7112, pmg1_cy7113]">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.4.0" tools_max_version="2.4.1" req_capabilities_per_version_v2="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.4.0" tools_max_version="2.4.1" req_capabilities_per_version_v2="[bsp_gen2] [pmg1_cy7110, pmg1_cy7111, pmg1_cy7112]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
