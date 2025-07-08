@@ -1,5 +1,5 @@
 <apps version="2.0">
-  <app keywords="starter,template,empty,blank,mtb-flow" req_capabilities_v2="[psoc6, fx3g2, fx2g3, t2gbe,xmc7000,t2gbh,t2gbh_lite,cyw20829,cyw920829m2evk_02,cyw89829,cyw989829m2evb_01,t2gc2d,kit_xmc7200_dc_v1]">
+  <app keywords="starter,template,empty,blank,mtb-flow" req_capabilities_v2="[psoc6,fx3g2,fx2g3,t2gbe,xmc7000,t2gbh,t2gbh_lite,cyw20829,cyw920829m2evk_02,cyw89829,cyw989829m2evb_01,t2gc2d,kit_xmc7200_dc_v1]">
     <name>Empty App</name>
     <id>mtb-example-empty-app</id>
     <category>Getting Started</category>
@@ -4195,7 +4195,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="fx3g2,uart,led,mtb-flow" req_capabilities_v2="led fx3g2">
+  <app keywords="fx3g2,uart" req_capabilities_v2="fx3g2">
     <name>Hello World</name>
     <id>mtb-example-fx20-hello-world</id>
     <category>Getting Started</category>
@@ -4217,10 +4217,10 @@
       </version>
     </versions>
   </app>
-  <app keywords="fx3g2,uvc,uac" req_capabilities_v2="led fx3g2">
+  <app keywords="fx3g2,uvc,uac" req_capabilities_v2="fx3g2">
     <name>UVC-UAC</name>
     <id>mtb-example-fx20-uvc-uac</id>
-    <category>Getting Started</category>
+    <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-fx20-uvc-uac</uri>
     <description><![CDATA[This code example demonstrates a bulk-only UVC 1.5 compliant application using the FX20 APIs with an LVDS/LVCMOS IP interface.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-fx20-uvc-uac/blob/master/README.md">README on GitHub</a>.]]></description>
@@ -4239,10 +4239,10 @@
       </version>
     </versions>
   </app>
-  <app keywords="fx3g2,usb,usb3" req_capabilities_v2="led fx3g2">
+  <app keywords="fx3g2,usb,usb3" req_capabilities_v2="fx3g2">
     <name>USBSS Device</name>
     <id>mtb-example-fx20-usbss-device</id>
-    <category>Getting Started</category>
+    <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-fx20-usbss-device</uri>
     <description><![CDATA[This code example demonstrates a vendor-specific USB device implementation for testing data transfers using Bulk, Interrupt, and Isochronous endpoints on USB 2.0 and USB 3.2 Gen1/Gen2 interfaces.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-fx20-usbss-device/blob/master/README.md">README on GitHub</a>.]]></description>
@@ -4261,12 +4261,12 @@
       </version>
     </versions>
   </app>
-  <app keywords="fx3g2,cdc,vcom" req_capabilities_v2="led fx3g2">
+  <app keywords="fx3g2,cdc,vcom" req_capabilities_v2="fx3g2">
     <name>CDC VCOM</name>
     <id>mtb-example-fx20-cdc-vcom</id>
-    <category>Getting Started</category>
+    <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-fx20-cdc-vcom</uri>
-    <description><![CDATA[This code example demonstrates the implementation of a USB Communication Devices Class (CDC) virtual COM port application using the EZ-USB™ FX20 device.
+    <description><![CDATA[This code example demonstrates the implementation of a USB Communication Devices Class (CDC) virtual COM port application using the EZ-USB&trade; FX20 device.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-fx20-cdc-vcom/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
@@ -4275,12 +4275,12 @@
       </version>
     </versions>
   </app>
-  <app keywords="fx3g2,slavefifo,2bit" req_capabilities_v2="led fx3g2">
+  <app keywords="fx3g2,slavefifo,2bit" req_capabilities_v2="fx3g2">
     <name>Slave FIFO 2Bit</name>
     <id>mtb-example-fx20-slave-fifo-2bit</id>
-    <category>Getting Started</category>
+    <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-fx20-slave-fifo-2bit</uri>
-    <description><![CDATA[This code example demonstrates the implementation of LVCMOS to USB data transfer application using a 2-Bit Slave FIFO interface on the EZ-USB™ FX20 device.
+    <description><![CDATA[This code example demonstrates the implementation of LVCMOS to USB data transfer application using a 2-Bit Slave FIFO interface on the EZ-USB&trade; FX20 device.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-fx20-slave-fifo-2bit/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
@@ -4289,10 +4289,10 @@
       </version>
     </versions>
   </app>
-  <app keywords="fx3g2,testapp" req_capabilities_v2="led fx3g2">
+  <app keywords="fx3g2,testapp" req_capabilities_v2="fx3g2">
     <name>USB Test App</name>
     <id>mtb-example-fx20-usb-testapp</id>
-    <category>Getting Started</category>
+    <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-fx20-usb-testapp</uri>
     <description><![CDATA[This code example demonstrates the implementation a vendor-specific USB echo device which allows USB data transfers to be tested using a device-based loopback function or data source/sink function.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-fx20-usb-testapp/blob/master/README.md">README on GitHub</a>.]]></description>
@@ -4303,12 +4303,12 @@
       </version>
     </versions>
   </app>
-  <app keywords="fx3g2,smif,dma" req_capabilities_v2="led fx3g2">
+  <app keywords="fx3g2,smif,dma" req_capabilities_v2="fx3g2">
     <name>SMIF DMA</name>
     <id>mtb-example-fx20-smif-dma</id>
-    <category>Getting Started</category>
+    <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-fx20-smif-dma</uri>
-    <description><![CDATA[This code example demonstrates data transfer using the EZ-USB™ FX device's SMIF peripheral in DMA mode. It uses the Dual-Quad (or Octal) mode of operation where two onboard SPI flash memories are configured in Quad mode.
+    <description><![CDATA[This code example demonstrates data transfer using the EZ-USB&trade; FX device's SMIF peripheral in DMA mode. It uses the Dual-Quad (or Octal) mode of operation where two onboard SPI flash memories are configured in Quad mode.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-fx20-smif-dma/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
@@ -4317,7 +4317,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="fx2g3,uart,led,mtb-flow" req_capabilities_v2="led fx2g3">
+  <app keywords="fx2g3,uart,led" req_capabilities_v2="fx2g3">
     <name>Hello World</name>
     <id>mtb-example-fx2g3-hello-world</id>
     <category>Getting Started</category>
@@ -4325,125 +4325,203 @@
     <description><![CDATA[This code example demonstrates a basic Hello World application for the FX2G3 device. It is a bare-metal application that toggles GPIO pins and sends messages through the SCB-UART interface.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-fx2g3-hello-world/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.2.0" tools_max_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4]">
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>latest 1.X</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.2.0" tools_max_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4]">
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.2 release</num>
+        <commit>release-v1.0.2</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>1.0.1 release</num>
         <commit>release-v1.0.1</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.2.0" tools_max_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4]">
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
     </versions>
   </app>
-  <app keywords="fx2g3,usbhs" req_capabilities_v2="led fx2g3">
+  <app keywords="fx2g3,usbhs" req_capabilities_v2="fx2g3">
     <name>USBHS Device</name>
     <id>mtb-example-fx2g3-usbhs-device</id>
-    <category>Getting Started</category>
+    <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-fx2g3-usbhs-device</uri>
     <description><![CDATA[This code example demonstrates a vendor-specific USB device implementation for testing data transfers using Bulk, Interrupt, and Isochronous endpoints on USB 2.0 interfaces.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-fx2g3-usbhs-device/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.2.0" tools_max_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4]">
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>latest 1.X</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.2.0" tools_max_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4]">
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.2 release</num>
+        <commit>release-v1.0.2</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>1.0.1 release</num>
         <commit>release-v1.0.1</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.2.0" tools_max_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4]">
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
     </versions>
   </app>
-  <app keywords="fx2g3,uart,led,mtb-flow" req_capabilities_v2="led fx2g3">
+  <app keywords="fx2g3,uart,lvcmos,sip" req_capabilities_v2="fx2g3">
     <name>Slave FIFO In</name>
     <id>mtb-example-fx2g3-slave-fifo-in</id>
-    <category>Getting Started</category>
+    <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-fx2g3-slave-fifo-in</uri>
     <description><![CDATA[This code example demonstrates the configuration and usage of the Sensor Interface Port (SIP) on the FX2G3 device to implement the Synchronous Slave FIFO IN protocol.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-fx2g3-slave-fifo-in/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.2.0" tools_max_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4]">
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>latest 1.X</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.2.0" tools_max_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4]">
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.2 release</num>
+        <commit>release-v1.0.2</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>1.0.1 release</num>
         <commit>release-v1.0.1</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.2.0" tools_max_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4]">
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
     </versions>
   </app>
-  <app keywords="fx2g3,uart,led,mtb-flow" req_capabilities_v2="led fx2g3">
+  <app keywords="fx2g3,uart,lvcmos,sip" req_capabilities_v2="fx2g3">
     <name>Slave FIFO Out</name>
     <id>mtb-example-fx2g3-slave-fifo-out</id>
-    <category>Getting Started</category>
+    <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-fx2g3-slave-fifo-out</uri>
     <description><![CDATA[This code example demonstrates the configuration and usage of the Sensor Interface Port (SIP) on the FX2G3 device to implement the Synchronous Slave FIFO OUT protocol.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-fx2g3-slave-fifo-out/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.2.0" tools_max_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4]">
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>latest 1.X</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.2.0" tools_max_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4]">
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.2 release</num>
+        <commit>release-v1.0.2</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>1.0.1 release</num>
         <commit>release-v1.0.1</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.2.0" tools_max_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4]">
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
     </versions>
   </app>
-  <app keywords="fx2g3,uvc,uac" req_capabilities_v2="led fx2g3">
+  <app keywords="fx2g3,uvc,uac,camera" req_capabilities_v2="fx2g3">
     <name>UVC-UAC</name>
     <id>mtb-example-fx2g3-uvc-uac</id>
-    <category>Getting Started</category>
+    <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-fx2g3-uvc-uac</uri>
     <description><![CDATA[This code example demonstrates a UVC 1.1 compliant camera application using the FX2G3 device, including an integrated USB Audio Class interface for streaming audio from a PDM microphone. It also illustrates the configuration and usage of the Sensor Interface Port (SIP) to implement the Synchronous Slave FIFO IN protocol.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-fx2g3-uvc-uac/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.2.0" tools_max_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4]">
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>latest 1.X</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.2.0" tools_max_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4]">
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.2 release</num>
+        <commit>release-v1.0.2</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>1.0.1 release</num>
         <commit>release-v1.0.1</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.2.0" tools_max_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4]">
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
     </versions>
   </app>
-  <app keywords="fx2g3,uvc,uac" req_capabilities_v2="led fx2g3">
+  <app keywords="fx2g3,flash" req_capabilities_v2="fx2g3">
     <name>Flash Loader</name>
     <id>mtb-example-fx2g3-flash-loader</id>
-    <category>Getting Started</category>
+    <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-fx2g3-flash-loader</uri>
     <description><![CDATA[This code example demonstrates an application that allows users to download FPGA binary files to the SPI flash device on the FPGA add-on board connected to the FX2G3 104LGA kit base board using the USB interface.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-fx2g3-flash-loader/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.2.0" tools_max_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4]">
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>latest 1.X</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.2.0" tools_max_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4]">
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.2 release</num>
+        <commit>release-v1.0.2</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>1.0.1 release</num>
         <commit>release-v1.0.1</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.2.0" tools_max_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4]">
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="fx2g3,optiga" req_capabilities_v2="fx2g3">
+    <name>Optiga Trust M</name>
+    <id>mtb-example-fx2g3-optiga-trust-m</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-fx2g3-optiga-trust-m</uri>
+    <description><![CDATA[This application demonstrates the utilization and capabilities of the OPTIGA&trade; Trust M module – included on board with the EZ-USB&trade; FX2G3 kit – for implementing security features such as device authentication.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-fx2g3-optiga-trust-m/blob/master/README.md">README on GitHub</a>.]]></description>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>latest 1.X</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="fx2g3,jtag" req_capabilities_v2="fx2g3">
+    <name>JTAG</name>
+    <id>mtb-example-fx2g3-jtag</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-fx2g3-jtag</uri>
+    <description><![CDATA[This code example implements a USB-JTAG protocol using the EZ-USB&trade; FX2G3 device. The application implements USB-JTAG adapter compatible with Infineon's USB Serial Library.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-fx2g3-jtag/blob/master/README.md">README on GitHub</a>.]]></description>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>latest 1.X</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="fx2g3,can,canfd,canbus" req_capabilities_v2="fx2g3">
+    <name>CANFD Interface</name>
+    <id>mtb-example-fx2g3-canfd-interface</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-fx2g3-canfd-interface</uri>
+    <description><![CDATA[This code example describes the CAN FD nodes configuration using the EZ-USB&trade; FX2G3 device. In this example, the CAN FD Node-1 sends a CAN FD frame to CAN FD Node-2 every second and vice versa. The CAN FD nodes log the received data over the USB Full-Speed (FS). Each time a CAN FD frame is received, the user LED toggles.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-fx2g3-canfd-interface/blob/master/README.md">README on GitHub</a>.]]></description>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>latest 1.X</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
