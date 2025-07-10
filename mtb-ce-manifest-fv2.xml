@@ -4236,7 +4236,7 @@
   <app keywords="fx3g2,uvc,uac" req_capabilities_v2="fx3g2">
     <name>UVC-UAC</name>
     <id>mtb-example-fx20-uvc-uac</id>
-    <category>Getting Started</category>
+    <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-fx20-uvc-uac</uri>
     <description><![CDATA[This code example demonstrates a bulk-only UVC 1.5 compliant application using the FX20 APIs with an LVDS/LVCMOS IP interface.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-fx20-uvc-uac/blob/master/README.md">README on GitHub</a>.]]></description>
@@ -4258,7 +4258,7 @@
   <app keywords="fx3g2,usb,usb3" req_capabilities_v2="fx3g2">
     <name>USBSS Device</name>
     <id>mtb-example-fx20-usbss-device</id>
-    <category>Getting Started</category>
+    <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-fx20-usbss-device</uri>
     <description><![CDATA[This code example demonstrates a vendor-specific USB device implementation for testing data transfers using Bulk, Interrupt, and Isochronous endpoints on USB 2.0 and USB 3.2 Gen1/Gen2 interfaces.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-fx20-usbss-device/blob/master/README.md">README on GitHub</a>.]]></description>
@@ -4280,9 +4280,9 @@
   <app keywords="fx3g2,cdc,vcom" req_capabilities_v2="fx3g2">
     <name>CDC VCOM</name>
     <id>mtb-example-fx20-cdc-vcom</id>
-    <category>Getting Started</category>
+    <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-fx20-cdc-vcom</uri>
-    <description><![CDATA[This code example demonstrates the implementation of a USB Communication Devices Class (CDC) virtual COM port application using the EZ-USB™ FX20 device.
+    <description><![CDATA[This code example demonstrates the implementation of a USB Communication Devices Class (CDC) virtual COM port application using the EZ-USB&trade; FX20 device.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-fx20-cdc-vcom/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
@@ -4294,9 +4294,9 @@
   <app keywords="fx3g2,slavefifo,2bit" req_capabilities_v2="fx3g2">
     <name>Slave FIFO 2Bit</name>
     <id>mtb-example-fx20-slave-fifo-2bit</id>
-    <category>Getting Started</category>
+    <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-fx20-slave-fifo-2bit</uri>
-    <description><![CDATA[This code example demonstrates the implementation of LVCMOS to USB data transfer application using a 2-Bit Slave FIFO interface on the EZ-USB™ FX20 device.
+    <description><![CDATA[This code example demonstrates the implementation of LVCMOS to USB data transfer application using a 2-Bit Slave FIFO interface on the EZ-USB&trade; FX20 device.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-fx20-slave-fifo-2bit/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
@@ -4308,7 +4308,7 @@
   <app keywords="fx3g2,testapp" req_capabilities_v2="fx3g2">
     <name>USB Test App</name>
     <id>mtb-example-fx20-usb-testapp</id>
-    <category>Getting Started</category>
+    <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-fx20-usb-testapp</uri>
     <description><![CDATA[This code example demonstrates the implementation a vendor-specific USB echo device which allows USB data transfers to be tested using a device-based loopback function or data source/sink function.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-fx20-usb-testapp/blob/master/README.md">README on GitHub</a>.]]></description>
@@ -4322,9 +4322,9 @@
   <app keywords="fx3g2,smif,dma" req_capabilities_v2="fx3g2">
     <name>SMIF DMA</name>
     <id>mtb-example-fx20-smif-dma</id>
-    <category>Getting Started</category>
+    <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-fx20-smif-dma</uri>
-    <description><![CDATA[This code example demonstrates data transfer using the EZ-USB™ FX device's SMIF peripheral in DMA mode. It uses the Dual-Quad (or Octal) mode of operation where two onboard SPI flash memories are configured in Quad mode.
+    <description><![CDATA[This code example demonstrates data transfer using the EZ-USB&trade; FX device's SMIF peripheral in DMA mode. It uses the Dual-Quad (or Octal) mode of operation where two onboard SPI flash memories are configured in Quad mode.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-fx20-smif-dma/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
@@ -4362,7 +4362,7 @@
   <app keywords="fx2g3,usbhs" req_capabilities_v2="fx2g3">
     <name>USBHS Device</name>
     <id>mtb-example-fx2g3-usbhs-device</id>
-    <category>Getting Started</category>
+    <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-fx2g3-usbhs-device</uri>
     <description><![CDATA[This code example demonstrates a vendor-specific USB device implementation for testing data transfers using Bulk, Interrupt, and Isochronous endpoints on USB 2.0 interfaces.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-fx2g3-usbhs-device/blob/master/README.md">README on GitHub</a>.]]></description>
@@ -4388,7 +4388,7 @@
   <app keywords="fx2g3,uart,lvcmos,sip" req_capabilities_v2="fx2g3">
     <name>Slave FIFO In</name>
     <id>mtb-example-fx2g3-slave-fifo-in</id>
-    <category>Getting Started</category>
+    <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-fx2g3-slave-fifo-in</uri>
     <description><![CDATA[This code example demonstrates the configuration and usage of the Sensor Interface Port (SIP) on the FX2G3 device to implement the Synchronous Slave FIFO IN protocol.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-fx2g3-slave-fifo-in/blob/master/README.md">README on GitHub</a>.]]></description>
@@ -4414,7 +4414,7 @@
   <app keywords="fx2g3,uart,lvcmos,sip" req_capabilities_v2="fx2g3">
     <name>Slave FIFO Out</name>
     <id>mtb-example-fx2g3-slave-fifo-out</id>
-    <category>Getting Started</category>
+    <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-fx2g3-slave-fifo-out</uri>
     <description><![CDATA[This code example demonstrates the configuration and usage of the Sensor Interface Port (SIP) on the FX2G3 device to implement the Synchronous Slave FIFO OUT protocol.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-fx2g3-slave-fifo-out/blob/master/README.md">README on GitHub</a>.]]></description>
@@ -4440,7 +4440,7 @@
   <app keywords="fx2g3,uvc,uac,camera" req_capabilities_v2="fx2g3">
     <name>UVC-UAC</name>
     <id>mtb-example-fx2g3-uvc-uac</id>
-    <category>Getting Started</category>
+    <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-fx2g3-uvc-uac</uri>
     <description><![CDATA[This code example demonstrates a UVC 1.1 compliant camera application using the FX2G3 device, including an integrated USB Audio Class interface for streaming audio from a PDM microphone. It also illustrates the configuration and usage of the Sensor Interface Port (SIP) to implement the Synchronous Slave FIFO IN protocol.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-fx2g3-uvc-uac/blob/master/README.md">README on GitHub</a>.]]></description>
@@ -4466,7 +4466,7 @@
   <app keywords="fx2g3,flash" req_capabilities_v2="fx2g3">
     <name>Flash Loader</name>
     <id>mtb-example-fx2g3-flash-loader</id>
-    <category>Getting Started</category>
+    <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-fx2g3-flash-loader</uri>
     <description><![CDATA[This code example demonstrates an application that allows users to download FPGA binary files to the SPI flash device on the FPGA add-on board connected to the FX2G3 104LGA kit base board using the USB interface.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-fx2g3-flash-loader/blob/master/README.md">README on GitHub</a>.]]></description>
@@ -8736,7 +8736,7 @@
     <id>mtb-example-pmg1-usb-mux</id>
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-pmg1-usb-mux</uri>
-    <description><![CDATA[This code example demonstrates the functionality of USB 2.0 2x2 cross-bar switch analog MUX in PMG1-S1 MCU. The firmware detects the orientation of the Type-C plug connected and accordingly switches the USB MUX to route the correct DP/DM lines (USBDP/DM_TOP or USBDP/DM_BOT) to USBDP/DM_SYS pins of EZ-PD™ PMG1-S1 MCU, which can be used externally to implement USB high-speed communication.
+    <description><![CDATA[This code example demonstrates the functionality of USB 2.0 2x2 cross-bar switch analog MUX in EZ-PD&#8482; PMG1-S1 MCU. The firmware detects the orientation of the Type-C plug connected and accordingly switches the USB MUX to route the correct DP/DM lines (USBDP/DM_TOP or USBDP/DM_BOT) to USBDP/DM_SYS pins of EZ-PD™ PMG1-S1 MCU, which can be used externally to implement USB high-speed communication.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-usb-mux/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>pmg1</req_capabilities>
     <versions>
@@ -8772,7 +8772,7 @@
   <app keywords="pmg1b1,led,i2c,pwm,PASCO2,mtb-flow" req_capabilities_v2="pmg1_b1_cy7116 usbpd i2c uart led">
     <name>USBPD sink PAS CO2 and temperature sensor</name>
     <id>mtb-example-pmg1b1-usbpd-sink-pasco2-temp-sensor</id>
-    <category>Peripherals</category>
+    <category>USB-C Power Delivery</category>
     <uri>https://github.com/Infineon/mtb-example-pmg1b1-usbpd-sink-pasco2-temp-sensor</uri>
     <description><![CDATA[This code example demonstrates integration of the XENSIV#8482; PAS CO2 sensor to EZ-PD#8482; PMG1B1 MCU over the I2C interface and displaying the measured CO2 level and on-chip temperature data on a terminal using UART communication.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1b1-usbpd-sink-pasco2-temp-sensor/blob/master/README.md">README on GitHub</a>.]]></description>
@@ -8795,7 +8795,7 @@
   <app keywords="pmg1,led,i2c,pwm,PASCO2,mtb-flow" req_capabilities_v2="pmg1 usbpd i2c uart led [pmg1_cy7110, pmg1_cy7111, pmg1_cy7112, pmg1_cy7113]">
     <name>USBPD sink PAS CO2 and temperature sensor</name>
     <id>mtb-example-pmg1-usbpd-sink-pasco2-temp-sensor</id>
-    <category>Peripherals</category>
+    <category>USB-C Power Delivery</category>
     <uri>https://github.com/Infineon/mtb-example-pmg1-usbpd-sink-pasco2-temp-sensor</uri>
     <description><![CDATA[This code example demonstrates integration of the XENSIV&#8482; PAS CO2 sensor to PMG1 devices over the I2C interface. This code example also demonstrates PD contract negotiation using EZ-PD&#8482; PMG1 MCU devices. The code example also uses on chip temperature sensor to measure temperature data. The measured CO2 level and temperature data are sent over UART to display on a terminal.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-usbpd-sink-pasco2-temp-sensor/blob/master/README.md">README on GitHub</a>.]]></description>
@@ -20316,7 +20316,7 @@
     <id>mtb-example-ce241259-mdma-2d-transfer</id>
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-ce241259-mdma-2d-transfer</uri>
-    <description><![CDATA[This code example demonstrates the transmission of data by Memory-DMA (M-DMA) 2D transfer, shows its operation, initial setting, and interrupt handling.
+    <description><![CDATA[This code example demonstrates the transmission of data from memory to memory using memory DMA (AXI-DMA) over AXI buses, showcasing its operation, initial settings, and interrupt handling.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce241259-mdma-2d-transfer/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gc2d</req_capabilities>
     <versions>
