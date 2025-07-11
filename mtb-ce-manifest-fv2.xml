@@ -10466,29 +10466,29 @@
     <uri>https://github.com/Infineon/mtb-example-optiga-crypto</uri>
     <description><![CDATA[This example uses an Infineon OPTIGA&#8482; Trust Security Solution on a PSOC&#8482; 6 MCU to execute example code to perform available crypto operations on the Secure Element.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-optiga-crypto/blob/master/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>optiga_trust_m std_crypto uart</req_capabilities>
+    <req_capabilities>psoc6 std_crypto uart</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [optiga_trust_m, cy8ckit_062s2_43012]">
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [optiga_trust_m,cy8ckit_062s2_43012]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_062s2_43012]">
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [optiga_trust_m,cy8ckit_062s2_43012]">
         <num>2.2.0 release</num>
         <commit>release-v2.2.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4]">
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [optiga_trust_m]">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" tools_max_version="3.0.1" req_capabilities_per_version_v2="[bsp_gen4]">
+      <version flow_version="2.0" tools_min_version="3.0.0" tools_max_version="3.0.1" req_capabilities_per_version_v2="[bsp_gen4] [cysbsyskit_dev_01,cy8ceval_062s2,cy8ceval_062s2_cyw943439m2ipa1,cy8ceval_062s2_lai_4373m2]">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" tools_max_version="2.4.1" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" tools_max_version="2.4.1" req_capabilities_per_version_v2="[bsp_gen2] [cysbsyskit_dev_01,cy8ceval_062s2,cy8ceval_062s2_cyw943439m2ipa1,cy8ceval_062s2_lai_4373m2]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" tools_max_version="2.4.1" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" tools_max_version="2.4.1" req_capabilities_per_version_v2="[bsp_gen2] [cysbsyskit_dev_01,cy8ceval_062s2,cy8ceval_062s2_cyw943439m2ipa1,cy8ceval_062s2_lai_4373m2]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -10501,17 +10501,17 @@
     <uri>https://github.com/Infineon/mtb-example-optiga-power-management</uri>
     <description><![CDATA[This example uses an Infineon OPTIGA&#8482; Trust Security Solution on a PSOC&#8482; 6 MCU to execute example code to control the hibernation feature on the security solution.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-optiga-power-management/blob/master/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>optiga_trust_m uart arduino</req_capabilities>
+    <req_capabilities>psoc6 uart arduino</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [optiga_trust_m, cy8ckit_062s2_43012]">
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [optiga_trust_m,cy8ckit_062s2_43012]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_062s2_43012]">
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [optiga_trust_m,cy8ckit_062s2_43012]">
         <num>2.2.0 release</num>
         <commit>release-v2.2.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4]">
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [optiga_trust_m]">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
       </version>
@@ -10519,11 +10519,11 @@
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" tools_max_version="2.4.1" req_capabilities_per_version_v2="[bsp_gen2] [cy8ceval_062s2,cy8ceval_062s2_lai_4373m2]">
+      <version flow_version="2.0" tools_min_version="2.3.0" tools_max_version="2.4.1" req_capabilities_per_version_v2="[bsp_gen2] [cy8ceval_062s2,cy8ceval_062s2_lai_4373m2,cy8ceval_062s2_cyw943439m2ipa1]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" tools_max_version="2.4.1" req_capabilities_per_version_v2="[bsp_gen2] [cy8ceval_062s2,cy8ceval_062s2_lai_4373m2]">
+      <version flow_version="2.0" tools_min_version="2.3.0" tools_max_version="2.4.1" req_capabilities_per_version_v2="[bsp_gen2] [cy8ceval_062s2,cy8ceval_062s2_lai_4373m2,cy8ceval_062s2_cyw943439m2ipa1]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -10566,7 +10566,7 @@
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" tools_max_version="2.4.1" req_capabilities_per_version_v2="[bsp_gen2] [cysbsyskit_dev_01,cy8ceval_062s2_lai_4373m2]">
+      <version flow_version="2.0" tools_min_version="2.3.0" tools_max_version="2.4.1" req_capabilities_per_version_v2="[bsp_gen2] [cysbsyskit_dev_01,cy8ceval_062s2,cy8ceval_062s2_lai_4373m2,cy8ceval_062s2_cyw943439m2ipa1]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -10579,29 +10579,29 @@
     <uri>https://github.com/Infineon/mtb-example-optiga-data-management</uri>
     <description><![CDATA[This example uses an Infineon OPTIGA&#8482; Trust Security Solution on a PSOC&#8482; 6 MCU to execute example code to manage internal aata or key Objects including its Update.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-optiga-data-management/blob/master/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>optiga_trust_m uart</req_capabilities>
+    <req_capabilities>psoc6 uart</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [optiga_trust_m, cy8ckit_062s2_43012]">
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [optiga_trust_m,cy8ckit_062s2_43012]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_062s2_43012]">
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [optiga_trust_m,cy8ckit_062s2_43012]">
         <num>2.2.0 release</num>
         <commit>release-v2.2.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4]">
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [optiga_trust_m]">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" tools_max_version="3.0.1" req_capabilities_per_version_v2="[bsp_gen4]">
+      <version flow_version="2.0" tools_min_version="3.0.0" tools_max_version="3.0.1" req_capabilities_per_version_v2="[bsp_gen4] [cysbsyskit_dev_01,cy8ceval_062s2,cy8ceval_062s2_lai_4373m2]">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" tools_max_version="2.4.1" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" tools_max_version="2.4.1" req_capabilities_per_version_v2="[bsp_gen2] [cysbsyskit_dev_01,cy8ceval_062s2,cy8ceval_062s2_lai_4373m2]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="2.3.0" tools_max_version="2.4.1" req_capabilities_per_version="bsp_gen2">
+      <version flow_version="2.0" tools_min_version="2.3.0" tools_max_version="2.4.1" req_capabilities_per_version_v2="[bsp_gen2] [cysbsyskit_dev_01,cy8ceval_062s2,cy8ceval_062s2_lai_4373m2]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -11640,11 +11640,11 @@
     This code example makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license.<br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).]]></description>
     <req_capabilities>psoc6 wifi bt cyw43xxx led switch std_crypto</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4]">
+      <version flow_version="2.0" tools_min_version="3.0.0" tools_max_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4]">
+      <version flow_version="2.0" tools_min_version="3.0.0" tools_max_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
@@ -11759,6 +11759,10 @@
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
         <num>Latest 4.X release</num>
         <commit>latest-v4.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>4.2.1 release</num>
+        <commit>release-v4.2.1</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
         <num>4.2.0 release</num>
@@ -12851,6 +12855,10 @@
       <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_062_ble,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cy8cproto_062_4343w,cy8cproto_062s3_4343w,cy8cproto_063_ble]">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_062_ble,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cy8cproto_062_4343w,cy8cproto_062s3_4343w,cy8cproto_063_ble]">
+        <num>3.2.0 release</num>
+        <commit>release-v3.2.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_062_ble,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cy8cproto_062_4343w,cy8cproto_062s3_4343w,cy8cproto_063_ble]">
         <num>3.1.1 release</num>
@@ -14557,15 +14565,38 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-safety-tcpwm-test/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc4 uart</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_045s,cy8ckit_149,cy8cproto_041tp]">
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_045s,cy8ckit_149,cy8cproto_041tp,cy8ckit_145_40xx,cy8ckit_041_41xx,cy8cproto_040t]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_045s,cy8ckit_149,cy8cproto_041tp,cy8ckit_145_40xx,cy8ckit_041_41xx,cy8cproto_040t]">
+        <num>1.2.0 release</num>
+        <commit>release-v1.2.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_045s,cy8ckit_149,cy8cproto_041tp]">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_045s,cy8ckit_149]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="class-b,mtb-flow,psoc4,class-b,uart,can,canfd" req_capabilities_v2="psoc4 uart">
+    <name>Class-B Safety Test CAN</name>
+    <id>mtb-example-psoc4-safety-can-test</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-psoc4-safety-can-test</uri>
+    <description><![CDATA[This code example demonstrates the usage of the Class B Safety Test Library to test the CAN interface using the PSOC&#8482; 4 MCU. With proper message filtering and reception functionality in CAN is achieved using loopback mode.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-safety-can-test/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>psoc4 uart</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -14580,9 +14611,13 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-safety-analog-test/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc4 uart</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_045s,cy8ckit_149,cy8cproto_041tp]">
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_045s,cy8ckit_149,cy8cproto_041tp,cy8ckit_145_40xx,cy8ckit_041_41xx]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_045s,cy8ckit_149,cy8cproto_041tp,cy8ckit_145_40xx,cy8ckit_041_41xx]">
+        <num>1.3.0 release</num>
+        <commit>release-v1.3.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_045s,cy8ckit_149,cy8cproto_041tp]">
         <num>1.2.0 release</num>
@@ -14615,9 +14650,13 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-safety-communication-test/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc4 uart</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_045s,cy8ckit_149,cy8cproto_041tp]">
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_045s,cy8ckit_149,cy8cproto_041tp,cy8ckit_145_40xx,cy8ckit_041_41xx]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_045s,cy8ckit_149,cy8cproto_041tp,cy8ckit_145_40xx,cy8ckit_041_41xx]">
+        <num>1.3.0 release</num>
+        <commit>release-v1.3.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_045s,cy8ckit_149,cy8cproto_041tp]">
         <num>1.2.0 release</num>
@@ -14654,9 +14693,13 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-safety-core-test/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc4 uart</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_045s,cy8ckit_149,cy8cproto_041tp]">
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_045s,cy8ckit_149,cy8cproto_041tp,cy8ckit_145_40xx,cy8ckit_041_41xx,cy8cproto_040t]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_045s,cy8ckit_149,cy8cproto_041tp,cy8ckit_145_40xx,cy8ckit_041_41xx,cy8cproto_040t]">
+        <num>1.3.0 release</num>
+        <commit>release-v1.3.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_045s,cy8ckit_149,cy8cproto_041tp]">
         <num>1.2.0 release</num>
@@ -14689,9 +14732,13 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-safety-i2c-test/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc4 i2c uart</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_045s,cy8ckit_149,cy8cproto_041tp]">
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_045s,cy8ckit_149,cy8cproto_041tp,cy8ckit_145_40xx,cy8ckit_041_41xx,cy8cproto_040t]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_045s,cy8ckit_149,cy8cproto_041tp,cy8ckit_145_40xx,cy8ckit_041_41xx,cy8cproto_040t]">
+        <num>1.3.0 release</num>
+        <commit>release-v1.3.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_045s,cy8ckit_149,cy8cproto_041tp]">
         <num>1.2.0 release</num>
@@ -14724,9 +14771,13 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-safety-spi-loopback-test/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc4 uart spi</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_045s,cy8ckit_149,cy8cproto_041tp]">
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_045s,cy8ckit_149,cy8cproto_041tp,cy8ckit_145_40xx,cy8ckit_041_41xx]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_045s,cy8ckit_149,cy8cproto_041tp,cy8ckit_145_40xx,cy8ckit_041_41xx]">
+        <num>1.3.0 release</num>
+        <commit>release-v1.3.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_045s,cy8ckit_149,cy8cproto_041tp]">
         <num>1.2.0 release</num>
@@ -14759,9 +14810,13 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-safety-uart-loopback-test/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc4 uart</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_045s,cy8ckit_149,cy8cproto_041tp]">
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_045s,cy8ckit_149,cy8cproto_041tp,cy8ckit_145_40xx,cy8ckit_041_41xx]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_045s,cy8ckit_149,cy8cproto_041tp,cy8ckit_145_40xx,cy8ckit_041_41xx]">
+        <num>1.3.0 release</num>
+        <commit>release-v1.3.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_045s,cy8ckit_149,cy8cproto_041tp]">
         <num>1.2.0 release</num>
@@ -16191,11 +16246,11 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-xmc-pccm-buck-single/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>buck_converter</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [buck_converter] [kit_xmc13_dpcc_v1, kit_xmc42_dpcc_v1]">
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc13_dpcc_v1, kit_xmc42_dpcc_v1]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [buck_converter] [kit_xmc13_dpcc_v1, kit_xmc42_dpcc_v1]">
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc13_dpcc_v1, kit_xmc42_dpcc_v1]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -16210,11 +16265,15 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-xmc-vcm-buck-single/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>buck_converter</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [buck_converter] [kit_xmc13_dpcc_v1, kit_xmc42_dpcc_v1]">
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc13_dpcc_v1, kit_xmc42_dpcc_v1]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [buck_converter] [kit_xmc13_dpcc_v1, kit_xmc42_dpcc_v1]">
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc13_dpcc_v1, kit_xmc42_dpcc_v1]">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc13_dpcc_v1, kit_xmc42_dpcc_v1]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -16229,9 +16288,13 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce239682-safety-communication-test/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>uart</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4] [cy8cproto_062s2_43439,cy8cproto_062_4343w,cy8ckit_062s2_43012,cy8ceval_062s2,cy8ceval_062s2_lai_4373m2,cy8ceval_062s2_mur_43439m2,cy8ceval_062s2_lai_43439m2,cy8ceval_062s2_mur_4373em2,cy8ceval_062s2_mur_4373m2,cy8ceval_062s2_cyw43022cub,cy8cproto_062s3_4343w,kit_xmc72_evk,kit_xmc72_evk_mur_43439m2,cy8ckit_062_ble,cy8ckit_062_wifi_bt,cy8cproto_063_ble,cy8ckit_062s4,cyw9p62s1_43012evb_01,cyw9p62s1_43438evb_01,cy8ckit_064b0s2_4343w,kit_xmc71_evk_lite_v1]">
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4] [cy8cproto_062s2_43439,cy8cproto_062_4343w,cy8ckit_062s2_43012,cy8ceval_062s2,cy8ceval_062s2_lai_4373m2,cy8ceval_062s2_mur_43439m2,cy8ceval_062s2_lai_43439m2,cy8ceval_062s2_mur_4373em2,cy8ceval_062s2_mur_4373m2,cy8ceval_062s2_cyw43022cub,cy8cproto_062s3_4343w,kit_xmc72_evk,kit_xmc72_evk_mur_43439m2,cy8ckit_062_ble,cy8ckit_062_wifi_bt,cy8cproto_063_ble,cy8ckit_062s4,cyw9p62s1_43012evb_01,cyw9p62s1_43438evb_01,cy8ckit_064b0s2_4343w,kit_xmc71_evk_lite_v1]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4] [cy8cproto_062s2_43439,cy8cproto_062_4343w,cy8ckit_062s2_43012,cy8ceval_062s2,cy8ceval_062s2_lai_4373m2,cy8ceval_062s2_mur_43439m2,cy8ceval_062s2_lai_43439m2,cy8ceval_062s2_mur_4373em2,cy8ceval_062s2_mur_4373m2,cy8ceval_062s2_cyw43022cub,cy8cproto_062s3_4343w,kit_xmc72_evk,kit_xmc72_evk_mur_43439m2,cy8ckit_062_ble,cy8ckit_062_wifi_bt,cy8cproto_063_ble,cy8ckit_062s4,cyw9p62s1_43012evb_01,cyw9p62s1_43438evb_01,cy8ckit_064b0s2_4343w,kit_xmc71_evk_lite_v1]">
+        <num>1.3.0 release</num>
+        <commit>release-v1.3.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4] [cy8cproto_062s2_43439,cy8cproto_062_4343w,cy8ckit_062s2_43012,cy8ceval_062s2,cy8ceval_062s2_lai_4373m2,cy8ceval_062s2_mur_43439m2,cy8ceval_062s2_lai_43439m2,cy8ceval_062s2_mur_4373em2,cy8ceval_062s2_mur_4373m2,cy8ceval_062s2_cyw43022cub,cy8cproto_062s3_4343w,kit_xmc72_evk,kit_xmc72_evk_mur_43439m2,cy8ckit_062_ble,cy8ckit_062_wifi_bt,cy8cproto_063_ble,cy8ckit_062s4,cyw9p62s1_43012evb_01,cyw9p62s1_43438evb_01,cy8ckit_064b0s2_4343w,kit_xmc71_evk_lite_v1]">
         <num>1.2.0 release</num>
@@ -17054,7 +17117,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,ble,bluetooth,btstack,threadx,beacon,cyw55913" req_capabilities_v2="bt cyw55xxx cat5">
+  <app keywords="mtb-flow,ble,bluetooth,btstack,threadx,beacon,cyw55913" req_capabilities_v2="bt cyw55913 cat5">
     <name>Bluetooth LE Beacon</name>
     <id>mtb-example-btstack-threadx-beacon</id>
     <category>Bluetooth&#174;</category>
@@ -17062,8 +17125,16 @@
     <description><![CDATA[TThis code example demonstrates the implementation of Bluetooth&#174; LE extended advertisements and the use of the beacon library.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-threadx-beacon/blob/master/README.md">README on GitHub</a>.
     ]]></description>
-    <req_capabilities>bt cyw55xxx</req_capabilities>
+    <req_capabilities>bt cyw55913</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -20096,7 +20167,7 @@
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-ce241088-safety-uart-loopback-test</uri>
     <description><![CDATA[This code example demonstrates the use of Class-B Safety Test Library to test the UART loopback test. The example performs the UART loopback test by configuring one SCB instance as UART and connecting its TX and RX pins internally using Smart I/O.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce241088-safety-uart-loopback-test/blob/develop/README.md">README on GitHub</a>.]]></description>
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce241088-safety-uart-loopback-test/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>uart smart_io</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4]">
@@ -20180,7 +20251,7 @@
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-ce241110-safety-cordic-test</uri>
     <description><![CDATA[This code example demonstrates the use of the Class-B Safety Test Library to test the coordinate rotation digital computer (CORDIC) peripheral.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce241110-safety-cordic-tes/blob/master/README.md">README on GitHub</a>.]]></description>
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce241110-safety-cordic-test/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>uart</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4]">
