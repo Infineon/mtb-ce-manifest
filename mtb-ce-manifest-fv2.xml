@@ -4224,6 +4224,10 @@
         <commit>latest-v1.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.2 release</num>
+        <commit>release-v1.0.2</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>1.0.1 release</num>
         <commit>release-v1.0.1</commit>
       </version>
@@ -4244,6 +4248,10 @@
       <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>latest 1.X</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.2 release</num>
+        <commit>release-v1.0.2</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>1.0.1 release</num>
@@ -4268,6 +4276,10 @@
         <commit>latest-v1.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.2 release</num>
+        <commit>release-v1.0.2</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>1.0.1 release</num>
         <commit>release-v1.0.1</commit>
       </version>
@@ -4282,7 +4294,7 @@
     <id>mtb-example-fx20-cdc-vcom</id>
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-fx20-cdc-vcom</uri>
-    <description><![CDATA[This code example demonstrates the implementation of a USB Communication Devices Class (CDC) virtual COM port application using the EZ-USB&trade; FX20 device.
+    <description><![CDATA[This code example demonstrates the implementation of a USB Communication Devices Class (CDC) virtual COM port application using the EZ-USB&#8482; FX20 device.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-fx20-cdc-vcom/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
       <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4]">
@@ -4300,7 +4312,7 @@
     <id>mtb-example-fx20-slave-fifo-2bit</id>
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-fx20-slave-fifo-2bit</uri>
-    <description><![CDATA[This code example demonstrates the implementation of LVCMOS to USB data transfer application using a 2-Bit Slave FIFO interface on the EZ-USB&trade; FX20 device.
+    <description><![CDATA[This code example demonstrates the implementation of LVCMOS to USB data transfer application using a 2-Bit Slave FIFO interface on the EZ-USB&#8482; FX20 device.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-fx20-slave-fifo-2bit/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
       <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4]">
@@ -4336,7 +4348,7 @@
     <id>mtb-example-fx20-smif-dma</id>
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-fx20-smif-dma</uri>
-    <description><![CDATA[This code example demonstrates data transfer using the EZ-USB&trade; FX device's SMIF peripheral in DMA mode. It uses the Dual-Quad (or Octal) mode of operation where two onboard SPI flash memories are configured in Quad mode.
+    <description><![CDATA[This code example demonstrates data transfer using the EZ-USB&#8482; FX device's SMIF peripheral in DMA mode. It uses the Dual-Quad (or Octal) mode of operation where two onboard SPI flash memories are configured in Quad mode.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-fx20-smif-dma/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
       <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4]">
@@ -4510,7 +4522,7 @@
     <id>mtb-example-fx2g3-optiga-trust-m</id>
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-fx2g3-optiga-trust-m</uri>
-    <description><![CDATA[This application demonstrates the utilization and capabilities of the OPTIGA&trade; Trust M module – included on board with the EZ-USB&trade; FX2G3 kit – for implementing security features such as device authentication.
+    <description><![CDATA[This application demonstrates the utilization and capabilities of the OPTIGA&#8482; Trust M module – included on board with the EZ-USB&#8482; FX2G3 kit – for implementing security features such as device authentication.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-fx2g3-optiga-trust-m/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
       <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4]">
@@ -4528,7 +4540,7 @@
     <id>mtb-example-fx2g3-jtag</id>
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-fx2g3-jtag</uri>
-    <description><![CDATA[This code example implements a USB-JTAG protocol using the EZ-USB&trade; FX2G3 device. The application implements USB-JTAG adapter compatible with Infineon's USB Serial Library.
+    <description><![CDATA[This code example implements a USB-JTAG protocol using the EZ-USB&#8482; FX2G3 device. The application implements USB-JTAG adapter compatible with Infineon's USB Serial Library.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-fx2g3-jtag/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
       <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4]">
@@ -4546,7 +4558,7 @@
     <id>mtb-example-fx2g3-canfd-interface</id>
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-fx2g3-canfd-interface</uri>
-    <description><![CDATA[This code example describes the CAN FD nodes configuration using the EZ-USB&trade; FX2G3 device. In this example, the CAN FD Node-1 sends a CAN FD frame to CAN FD Node-2 every second and vice versa. The CAN FD nodes log the received data over the USB Full-Speed (FS). Each time a CAN FD frame is received, the user LED toggles.
+    <description><![CDATA[This code example describes the CAN FD nodes configuration using the EZ-USB&#8482; FX2G3 device. In this example, the CAN FD Node-1 sends a CAN FD frame to CAN FD Node-2 every second and vice versa. The CAN FD nodes log the received data over the USB Full-Speed (FS). Each time a CAN FD frame is received, the user LED toggles.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-fx2g3-canfd-interface/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
       <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4]">
