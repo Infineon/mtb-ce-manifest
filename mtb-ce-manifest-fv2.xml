@@ -4522,7 +4522,7 @@
     <id>mtb-example-fx2g3-optiga-trust-m</id>
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-fx2g3-optiga-trust-m</uri>
-    <description><![CDATA[This application demonstrates the utilization and capabilities of the OPTIGA&#8482; Trust M module – included on board with the EZ-USB&#8482; FX2G3 kit – for implementing security features such as device authentication.
+    <description><![CDATA[This application demonstrates the utilization and capabilities of the OPTIGA&#8482; Trust M module - included on board with the EZ-USB&#8482; FX2G3 kit - for implementing security features such as device authentication.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-fx2g3-optiga-trust-m/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
       <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4]">
