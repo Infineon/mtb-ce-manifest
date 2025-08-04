@@ -20619,4 +20619,23 @@
       </version>
     </versions>
   </app>
+  <app keywords="motor,demo,mtb-flow" req_capabilities_v2="[kit_psc3m5_cc2]">
+    <name>DUAL MOTOR DEMO</name>
+    <id>mtb-example-ce241420-dual-motor-control</id>
+    <category>Motor Control</category>
+    <uri>https://github.com/Infineon/mtb-example-ce241420-dual-motor-control</uri>
+    <description><![CDATA[This code example demonstrates the sensorless and sensored solutions using the Infineon's MCUs. Code example includes the dual motor control solution using Infineon's PSOC&#8482; Control C3 MCU.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce241420-dual-motor-control/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>cat1c led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
 </apps>
