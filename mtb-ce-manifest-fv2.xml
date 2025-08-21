@@ -14383,11 +14383,11 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce241416-flash-ecc-injection/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc4</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02]">
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02]">
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
