@@ -11134,7 +11134,7 @@
     <id>mtb-example-ce241611-xensiv-60ghz-radar-presence-detection</id>
     <category>Sensing</category>
     <uri>https://github.com/Infineon/mtb-example-ce241611-xensiv-60ghz-radar-presence-detection</uri>
-    <description><![CDATA[This application demonstrates the use of the radar presence detection.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce241611-xensiv-60ghz-radar-presence-detection/blob/master/README.md">README on GitHub</a>.]]></description>
+    <description><![CDATA[This application demonstrates the use of the Infineon radar presence solution .<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce241611-xensiv-60ghz-radar-presence-detection/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 hal spi multi_core</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cysbsyskit_dev_01,kit_bgt60tr13c_embedd,cy8ckit_062s2_ai]">
@@ -11156,7 +11156,7 @@
     <id>mtb-example-ce241721-xensiv-60ghz-static-distance</id>
     <category>Sensing</category>
     <uri>https://github.com/Infineon/mtb-example-ce241721-xensiv-60ghz-static-distance</uri>
-    <description><![CDATA[This application demonstrates the use of the radar sensor for static distance measurement application for instance can be used for liquid level sensing,parking occupancy sensing.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce241721-xensiv-60ghz-static-distance/blob/master/README.md">README on GitHub</a>.]]></description>
+    <description><![CDATA[his application demonstrates the use of the radar sensor for static distance measurement application for instance can be used for liquid level sensing,parking occupancy sensing.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce241721-xensiv-60ghz-static-distance/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6 hal spi multi_core</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cysbsyskit_dev_01]">
@@ -20577,7 +20577,7 @@
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-ce241088-safety-uart-loopback-test</uri>
     <description><![CDATA[This code example demonstrates the use of Class-B Safety Test Library to test the UART loopback test. The example performs the UART loopback test by configuring one SCB instance as UART and connecting its TX and RX pins internally using Smart I/O.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce241088-safety-uart-loopback-test/blob/develop/README.md">README on GitHub</a>.]]></description>
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce241088-safety-uart-loopback-test/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>uart smart_io</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4]">
@@ -20661,7 +20661,7 @@
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-ce241110-safety-cordic-test</uri>
     <description><![CDATA[This code example demonstrates the use of the Class-B Safety Test Library to test the coordinate rotation digital computer (CORDIC) peripheral.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce241110-safety-cordic-tes/blob/master/README.md">README on GitHub</a>.]]></description>
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce241110-safety-cordic-test/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>uart</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4]">
