@@ -4504,6 +4504,10 @@
         <commit>latest-v1.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>1.0.3 release</num>
+        <commit>release-v1.0.3</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
         <num>1.0.2 release</num>
         <commit>release-v1.0.2</commit>
       </version>
@@ -4528,6 +4532,10 @@
       <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
         <num>latest 1.X</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>1.0.3 release</num>
+        <commit>release-v1.0.3</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
         <num>1.0.2 release</num>
@@ -4556,6 +4564,10 @@
         <commit>latest-v1.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>1.0.3 release</num>
+        <commit>release-v1.0.3</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
         <num>1.0.2 release</num>
         <commit>release-v1.0.2</commit>
       </version>
@@ -4580,6 +4592,10 @@
       <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
         <num>latest 1.X</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>1.0.3 release</num>
+        <commit>release-v1.0.3</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
         <num>1.0.2 release</num>
@@ -4608,6 +4624,10 @@
         <commit>latest-v1.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>1.0.3 release</num>
+        <commit>release-v1.0.3</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
         <num>1.0.2 release</num>
         <commit>release-v1.0.2</commit>
       </version>
@@ -4626,12 +4646,16 @@
     <id>mtb-example-fx2g3-flash-loader</id>
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-fx2g3-flash-loader</uri>
-    <description><![CDATA[This code example demonstrates an application that allows users to download FPGA binary files to the SPI flash device on the FPGA add-on board connected to the FX2G3 104LGA kit base board using the USB interface.
+    <description><![CDATA[This application uses the QSPI interface to program the SPI flash device on the FPGA add-on board. The Control Center GUI is used to transfer the FPGA binary file from the host PC over USB to the FX2G3 device, which programs the flash.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-fx2g3-flash-loader/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
       <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
         <num>latest 1.X</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>1.0.3 release</num>
+        <commit>release-v1.0.3</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
         <num>1.0.2 release</num>
@@ -4660,6 +4684,28 @@
         <commit>latest-v1.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>1.0.1 release</num>
+        <commit>release-v1.0.1</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="fx2g3,hid,cfu" req_capabilities_v2="fx2g3">
+    <name>HID CFU</name>
+    <id>mtb-example-fx2g3-hid-cfu</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-fx2g3-hid-cfu</uri>
+    <description><![CDATA[This code example demonstrates the implementation of an HID-based component firmware update (CFU) using the Microsoft CFU model alongside a USB echo device application.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-fx2g3-hid-cfu/blob/master/README.md">README on GitHub</a>.]]></description>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>latest 1.X</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -4676,6 +4722,10 @@
       <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
         <num>latest 1.X</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>1.0.1 release</num>
+        <commit>release-v1.0.1</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
         <num>1.0.0 release</num>
@@ -4695,7 +4745,29 @@
         <num>latest 1.X</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4]">
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>1.0.1 release</num>
+        <commit>release-v1.0.1</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="fx2g3,protocol,analyzer" req_capabilities_v2="fx2g3">
+    <name>Protocol Analyzer</name>
+    <id>mtb-example-fx2g3-protocol-analyzer</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-fx2g3-protocol-analyzer</uri>
+    <description><![CDATA[This code example demostrates an application designed to capture and forward USB packets to a host. It runs on custom hardware and can communicate with Wireshark.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-fx2g3-protocol-analyzer/blob/master/README.md">README on GitHub</a>.]]></description>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>latest 1.X</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
