@@ -104,7 +104,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="led,starter,hello world,mtb-flow" req_capabilities_v2="hal led [psoc6,t2gbe,xmc7000,t2gbh,t2gbh_lite,cyw20829] [flash_0k,flash_8384k,flash_2048k,flash_1024k,flash_512k,flash_256k,flash_832k,flash_448k,flash_4160k,flash_1856k]">
+  <app keywords="led,starter,hello world,mtb-flow" req_capabilities_v2="hal led [psoc6,t2gbe,xmc7000,kit_t2g_b_h_evk,kit_t2g_b_h_lite,cyw20829] [flash_0k,flash_8384k,flash_2048k,flash_1024k,flash_512k,flash_256k,flash_832k,flash_448k,flash_4160k,flash_1856k]">
     <name>Hello World</name>
     <id>mtb-example-hal-hello-world</id>
     <category>Getting Started</category>
@@ -273,7 +273,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="wdt,mtb-flow" req_capabilities_v2="cat1 hal led [psoc6,t2gbe,xmc7000,t2gbh,t2gbh_lite,cyw20829,cyw920829m2evk_02,cyw89829,cyw989829m2evb_01]">
+  <app keywords="wdt,mtb-flow" req_capabilities_v2="cat1 hal led [psoc6,t2gbe,xmc7000,kit_t2g_b_h_evk,kit_t2g_b_h_lite,cyw20829,cyw920829m2evk_02,cyw89829,cyw989829m2evb_01]">
     <name>HAL Watchdog Timer</name>
     <id>mtb-example-hal-wdt</id>
     <category>Peripherals</category>
@@ -367,7 +367,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,led,pwm,square wave,frequency,duty cycle,blinky,blinking" req_capabilities_v2="hal led [psoc6,t2gbe,xmc7000,t2gbh,t2gbh_lite,cyw20829,cyw920829m2evk_02,cyw89829,cyw989829m2evb_01]">
+  <app keywords="mtb-flow,led,pwm,square wave,frequency,duty cycle,blinky,blinking" req_capabilities_v2="hal led [psoc6,t2gbe,xmc7000,kit_t2g_b_h_evk,kit_t2g_b_h_lite,cyw20829,cyw920829m2evk_02,cyw89829,cyw989829m2evb_01]">
     <name>HAL PWM Square Wave</name>
     <id>mtb-example-hal-pwm-square-wave</id>
     <category>Peripherals</category>
@@ -524,7 +524,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="uart,transmit,receive,mtb-flow" req_capabilities_v2="hal led [psoc6,t2gbe,xmc7000,t2gbh,t2gbh_lite,cyw20829,cyw920829m2evk_02,cyw89829,cyw989829m2evb_01]">
+  <app keywords="uart,transmit,receive,mtb-flow" req_capabilities_v2="hal led [psoc6,t2gbe,xmc7000,kit_t2g_b_h_evk,kit_t2g_b_h_lite,cyw20829,cyw920829m2evk_02,cyw89829,cyw989829m2evb_01]">
     <name>UART Transmit and Receive</name>
     <id>mtb-example-hal-uart-transmit-receive</id>
     <category>Peripherals</category>
@@ -622,7 +622,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="i2c,master,slave,mtb-flow" req_capabilities_v2="hal led i2c [psoc6,t2gbe,xmc7000,t2gbh,t2gbh_lite,cyw20829,cyw920829m2evk_02,cyw89829,cyw989829m2evb_01]">
+  <app keywords="i2c,master,slave,mtb-flow" req_capabilities_v2="hal led i2c [psoc6,t2gbe,xmc7000,kit_t2g_b_h_evk,kit_t2g_b_h_lite,cyw20829,cyw920829m2evk_02,cyw89829,cyw989829m2evb_01]">
     <name>HAL I2C Master</name>
     <id>mtb-example-hal-i2c-master</id>
     <category>Peripherals</category>
@@ -709,7 +709,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="i2c,ezi2c,master,slave,mtb-flow" req_capabilities_v2="hal i2c led [psoc6,t2gbe,xmc7000,t2gbh,t2gbh_lite]">
+  <app keywords="i2c,ezi2c,master,slave,mtb-flow" req_capabilities_v2="hal i2c led [psoc6,t2gbe,xmc7000,kit_t2g_b_h_evk,kit_t2g_b_h_lite]">
     <name>I2C Master EzI2C Slave</name>
     <id>mtb-example-hal-i2c-master-ezi2c-slave</id>
     <category>Peripherals</category>
@@ -752,7 +752,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="i2c,slave,mtb-flow" req_capabilities_v2="hal led i2c [psoc6,t2gbe,xmc7000,t2gbh,t2gbh_lite,cyw20829,cyw920829m2evk_02,cyw89829,cyw989829m2evb_01]">
+  <app keywords="i2c,slave,mtb-flow" req_capabilities_v2="hal led i2c [psoc6,t2gbe,xmc7000,kit_t2g_b_h_evk,kit_t2g_b_h_lite,cyw20829,cyw920829m2evk_02,cyw89829,cyw989829m2evb_01]">
     <name>I2C Slave Using Callbacks</name>
     <id>mtb-example-hal-i2c-slave-callback</id>
     <category>Peripherals</category>
@@ -799,7 +799,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="spi,master,mtb-flow" req_capabilities_v2="hal led spi [psoc6,t2gbe,xmc7000,t2gbh,t2gbh_lite,cyw20829,cyw89829]">
+  <app keywords="spi,master,mtb-flow" req_capabilities_v2="hal led spi [psoc6,t2gbe,xmc7000,kit_t2g_b_h_evk,kit_t2g_b_h_lite,cyw20829,cyw89829]">
     <name>HAL SPI Master</name>
     <id>mtb-example-hal-spi-master</id>
     <category>Peripherals</category>
@@ -1008,7 +1008,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="oob,led,starter,hello world,mtb-flow" req_capabilities_v2="hal led uart switch [xmc7000,t2gbh]">
+  <app keywords="oob,led,starter,hello world,mtb-flow" req_capabilities_v2="hal led uart switch [xmc7000,kit_t2g_b_h_evk]">
     <name>XMC7000 OOB Demo</name>
     <id>mtb-example-xmc7000-oob-demo</id>
     <category>Getting Started</category>
@@ -1055,7 +1055,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="pwm,tcpwm,timer,mtb-flow" req_capabilities_v2="hal led [xmc7000,t2gbh,t2gbh_lite,psoc6,cyw20829,cyw89829]">
+  <app keywords="pwm,tcpwm,timer,mtb-flow" req_capabilities_v2="hal led [xmc7000,kit_t2g_b_h_evk,kit_t2g_b_h_lite,psoc6,cyw20829,cyw89829]">
     <name>HAL TCPWM Timer</name>
     <id>mtb-example-hal-tcpwm-timer</id>
     <category>Peripherals</category>
@@ -1090,7 +1090,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="pwm,tcpwm,dead time,mtb-flow" req_capabilities_v2="hal [xmc7000,t2gbh]">
+  <app keywords="pwm,tcpwm,dead time,mtb-flow" req_capabilities_v2="hal [xmc7000,kit_t2g_b_h_evk]">
     <name>TCPWM Dead Time Mode</name>
     <id>mtb-example-hal-tcpwm-dt</id>
     <category>Peripherals</category>
@@ -1109,7 +1109,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="led,smartio,smart io,mtb-flow" req_capabilities_v2="switch led smart_io [xmc7000,t2gbh]">
+  <app keywords="led,smartio,smart io,mtb-flow" req_capabilities_v2="switch led smart_io [xmc7000,kit_t2g_b_h_evk]">
     <name>Smart IO with GPIO</name>
     <id>mtb-example-pdl-xmc7000-smartio-gpio</id>
     <category>Peripherals</category>
@@ -1144,7 +1144,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="led,button,mtb-flow" req_capabilities_v2="switch led [xmc7000,t2gbh]">
+  <app keywords="led,button,mtb-flow" req_capabilities_v2="switch led [xmc7000,kit_t2g_b_h_evk]">
     <name>GPIO Pins</name>
     <id>mtb-example-pdl-xmc7000-gpio-pins</id>
     <category>Peripherals</category>
@@ -1175,7 +1175,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="pwm,tcpwm,asymmetric,mtb-flow" req_capabilities_v2="uart [xmc7000,t2gbh]">
+  <app keywords="pwm,tcpwm,asymmetric,mtb-flow" req_capabilities_v2="uart [xmc7000,kit_t2g_b_h_evk]">
     <name>Asymmetric PWM Generation</name>
     <id>mtb-example-pdl-xmc7000-pwm-dual-compare-capture</id>
     <category>Peripherals</category>
@@ -1210,7 +1210,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="uart,transmit,receive,dma,mtb-flow" req_capabilities_v2="led [xmc7000,t2gbh,t2gbh_lite]">
+  <app keywords="uart,transmit,receive,dma,mtb-flow" req_capabilities_v2="led [xmc7000,kit_t2g_b_h_evk,kit_t2g_b_h_lite]">
     <name>SCB UART Transmit and Receive using DMA</name>
     <id>mtb-example-pdl-xmc7000-uart-transmit-receive-dma</id>
     <category>Peripherals</category>
@@ -1257,7 +1257,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="systick,timer,toggle,led,mtb-flow" req_capabilities_v2="led [xmc7000,t2gbh]">
+  <app keywords="systick,timer,toggle,led,mtb-flow" req_capabilities_v2="led [xmc7000,kit_t2g_b_h_evk]">
     <name>Toggle LED with SysTick Timer</name>
     <id>mtb-example-pdl-xmc7000-systick-led</id>
     <category>Peripherals</category>
@@ -1284,7 +1284,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="cryptography,sha2,message digest,hash,mtb-flow" req_capabilities_v2="uart [xmc7000,t2gbh,t2gbh_lite]">
+  <app keywords="cryptography,sha2,message digest,hash,mtb-flow" req_capabilities_v2="uart [xmc7000,kit_t2g_b_h_evk,kit_t2g_b_h_lite]">
     <name>Cryptography SHA Demonstration</name>
     <id>mtb-example-pdl-xmc7000-crypto-sha</id>
     <category>Peripherals</category>
@@ -1323,7 +1323,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="cryptography,aes,mtb-flow" req_capabilities_v2="uart [xmc7000,t2gbh,t2gbh_lite]">
+  <app keywords="cryptography,aes,mtb-flow" req_capabilities_v2="uart [xmc7000,kit_t2g_b_h_evk,kit_t2g_b_h_lite]">
     <name>Cryptography AES Demonstration</name>
     <id>mtb-example-pdl-xmc7000-crypto-aes</id>
     <category>Peripherals</category>
@@ -1354,7 +1354,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="canfd,can,mtb-flow" req_capabilities_v2="led [xmc7000,t2gbh]">
+  <app keywords="canfd,can,mtb-flow" req_capabilities_v2="led [xmc7000,kit_t2g_b_h_evk]">
     <name>CAN FD</name>
     <id>mtb-example-pdl-xmc7000-canfd</id>
     <category>Peripherals</category>
@@ -1389,7 +1389,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="tcpwm,counter,mtb-flow" req_capabilities_v2="led [xmc7000,t2gbh]">
+  <app keywords="tcpwm,counter,mtb-flow" req_capabilities_v2="led [xmc7000,kit_t2g_b_h_evk]">
     <name>TCPWM Counter</name>
     <id>mtb-example-pdl-xmc7000-tcpwm-counter</id>
     <category>Peripherals</category>
@@ -1420,7 +1420,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="gpio,led,freertos,mtb-flow" req_capabilities_v2="led [xmc7000,t2gbh,t2gbh_lite]">
+  <app keywords="gpio,led,freertos,mtb-flow" req_capabilities_v2="led [xmc7000,kit_t2g_b_h_evk,kit_t2g_b_h_lite]">
     <name>FreeRTOS Blinky</name>
     <id>mtb-example-xmc7000-blinky-freertos</id>
     <category>Getting Started</category>
@@ -1439,7 +1439,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="spi,master,slave,dma,mtb-flow" req_capabilities_v2="led spi [xmc7000,t2gbh]">
+  <app keywords="spi,master,slave,dma,mtb-flow" req_capabilities_v2="led spi [xmc7000,kit_t2g_b_h_evk]">
     <name>SCB SPI Master DMA</name>
     <id>mtb-example-pdl-xmc7000-spi-master-dma</id>
     <category>Peripherals</category>
@@ -1482,7 +1482,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="led,power,sleep,mtb-flow" req_capabilities_v2="led low_power [xmc7000,t2gbh,t2gbh_lite]">
+  <app keywords="led,power,sleep,mtb-flow" req_capabilities_v2="led low_power [xmc7000,kit_t2g_b_h_evk,kit_t2g_b_h_lite]">
     <name>Switching Power Modes</name>
     <id>mtb-example-xmc7000-switching-power-modes</id>
     <category>Getting Started</category>
@@ -1513,7 +1513,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="low power,sleep,mtb-flow" req_capabilities_v2="uart low_power [xmc7000,t2gbh,t2gbh_lite]">
+  <app keywords="low power,sleep,mtb-flow" req_capabilities_v2="uart low_power [xmc7000,kit_t2g_b_h_evk,kit_t2g_b_h_lite]">
     <name>Low-Power Wakeup from RTC Alarm</name>
     <id>mtb-example-xmc7000-low-power-wakeup-from-rtc-alarm</id>
     <category>Peripherals</category>
@@ -1544,7 +1544,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="multicore,starter,template,empty,blank,mtb-flow" req_capabilities_v2="[xmc7000,t2gbh,t2gbh_lite]">
+  <app keywords="multicore,starter,template,empty,blank,mtb-flow" req_capabilities_v2="[xmc7000,kit_t2g_b_h_evk,kit_t2g_b_h_lite]">
     <name>Multicore Empty App</name>
     <id>mtb-example-xmc7000-multicore-empty-app</id>
     <category>Getting Started</category>
@@ -1578,7 +1578,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="multicore,ipc,mtb-flow,pipes" req_capabilities_v2="multi_core [xmc7000,t2gbh,t2gbh_lite]">
+  <app keywords="multicore,ipc,mtb-flow,pipes" req_capabilities_v2="multi_core [xmc7000,kit_t2g_b_h_evk,kit_t2g_b_h_lite]">
     <name>Multicore IPC Pipes</name>
     <id>mtb-example-xmc7000-multicore-ipc-pipes</id>
     <category>Peripherals</category>
@@ -1617,7 +1617,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="mcwdt,mtb-flow" req_capabilities_v2="uart [xmc7000,t2gbh,t2gbh_lite]">
+  <app keywords="mcwdt,mtb-flow" req_capabilities_v2="uart [xmc7000,kit_t2g_b_h_evk,kit_t2g_b_h_lite]">
     <name>MCWDT Interrupt</name>
     <id>mtb-example-pdl-xmc7000-mcwdt</id>
     <category>Peripherals</category>
@@ -1656,7 +1656,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="lvd,interrupt,mtb-flow" req_capabilities_v2="led [xmc7000,t2gbh,t2gbh_lite]">
+  <app keywords="lvd,interrupt,mtb-flow" req_capabilities_v2="led [xmc7000,kit_t2g_b_h_evk,kit_t2g_b_h_lite]">
     <name>LVD Interrupt</name>
     <id>mtb-example-pdl-xmc7000-lvd-interrupt</id>
     <category>Peripherals</category>
@@ -1675,7 +1675,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="emulated,eeprom,flash,mtb-flow" req_capabilities_v2="led uart [xmc7000,t2gbh,t2gbh_lite]">
+  <app keywords="emulated,eeprom,flash,mtb-flow" req_capabilities_v2="led uart [xmc7000,kit_t2g_b_h_evk,kit_t2g_b_h_lite]">
     <name>Emulated EEPROM</name>
     <id>mtb-example-xmc7000-emulated-eeprom</id>
     <category>Peripherals</category>
@@ -1710,7 +1710,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="fault handling,mtb-flow" req_capabilities_v2="uart [xmc7000,t2gbh,t2gbh_lite]">
+  <app keywords="fault handling,mtb-flow" req_capabilities_v2="uart [xmc7000,kit_t2g_b_h_evk,kit_t2g_b_h_lite]">
     <name>Fault Handling</name>
     <id>mtb-example-pdl-xmc7000-fault-handling</id>
     <category>Peripherals</category>
@@ -1737,7 +1737,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,adc,hal" req_capabilities_v2="hal uart [xmc7000,t2gbh]">
+  <app keywords="mtb-flow,adc,hal" req_capabilities_v2="hal uart [xmc7000,kit_t2g_b_h_evk]">
     <name>ADC basic</name>
     <id>mtb-example-xmc7000-adc-basic</id>
     <category>Peripherals</category>
@@ -1772,7 +1772,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="evtgen,event generator,mtb-flow" req_capabilities_v2="uart [xmc7000,t2gbh]">
+  <app keywords="evtgen,event generator,mtb-flow" req_capabilities_v2="uart [xmc7000,kit_t2g_b_h_evk]">
     <name>EVTGEN trigger ADC</name>
     <id>mtb-example-pdl-xmc7000-evtgen-active-trigger-adc</id>
     <category>Peripherals</category>
@@ -1807,7 +1807,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,tcp,client,ethernet" req_capabilities_v2="ethernet led uart [xmc7000,t2gbh]">
+  <app keywords="mtb-flow,tcp,client,ethernet" req_capabilities_v2="ethernet led uart [xmc7000,kit_t2g_b_h_evk]">
     <name>Ethernet TCP Client</name>
     <id>mtb-example-ethernet-tcp-client</id>
     <category>Peripherals</category>
@@ -1840,7 +1840,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,tcp,server,ethernet" req_capabilities_v2="ethernet switch uart [xmc7000,t2gbh]">
+  <app keywords="mtb-flow,tcp,server,ethernet" req_capabilities_v2="ethernet switch uart [xmc7000,kit_t2g_b_h_evk]">
     <name>Ethernet TCP Server</name>
     <id>mtb-example-ethernet-tcp-server</id>
     <category>Peripherals</category>
@@ -1873,7 +1873,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,udp,client,ethernet" req_capabilities_v2="ethernet led uart [xmc7000,t2gbh]">
+  <app keywords="mtb-flow,udp,client,ethernet" req_capabilities_v2="ethernet led uart [xmc7000,kit_t2g_b_h_evk]">
     <name>Ethernet UDP Client</name>
     <id>mtb-example-ethernet-udp-client</id>
     <category>Peripherals</category>
@@ -1906,7 +1906,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,udp,server,ethernet" req_capabilities_v2="ethernet uart switch [xmc7000,t2gbh]">
+  <app keywords="mtb-flow,udp,server,ethernet" req_capabilities_v2="ethernet uart switch [xmc7000,kit_t2g_b_h_evk]">
     <name>Ethernet UDP Server</name>
     <id>mtb-example-ethernet-udp-server</id>
     <category>Peripherals</category>
@@ -1939,7 +1939,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,tcp,secure,client,ethernet" req_capabilities_v2="ethernet led uart [xmc7000,t2gbh]">
+  <app keywords="mtb-flow,tcp,secure,client,ethernet" req_capabilities_v2="ethernet led uart [xmc7000,kit_t2g_b_h_evk]">
     <name>Ethernet Secure TCP Client</name>
     <id>mtb-example-ethernet-secure-tcp-client</id>
     <category>Peripherals</category>
@@ -1972,7 +1972,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,tcp,secure,server,ethernet" req_capabilities_v2="ethernet uart switch [xmc7000,t2gbh]">
+  <app keywords="mtb-flow,tcp,secure,server,ethernet" req_capabilities_v2="ethernet uart switch [xmc7000,kit_t2g_b_h_evk]">
     <name>Ethernet Secure TCP Server</name>
     <id>mtb-example-ethernet-secure-tcp-server</id>
     <category>Peripherals</category>
@@ -2005,7 +2005,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,flash,code flash,hal" req_capabilities_v2="hal uart [xmc7000,t2gbh,t2gbh_lite]">
+  <app keywords="mtb-flow,flash,code flash,hal" req_capabilities_v2="hal uart [xmc7000,kit_t2g_b_h_evk,kit_t2g_b_h_lite]">
     <name>Code Flash Sector Data Updating</name>
     <id>mtb-example-hal-code-flash-sector-data-updating</id>
     <category>Peripherals</category>
@@ -5449,7 +5449,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,gpio,interrupt,switch" req_capabilities_v2="hal led switch low_power [psoc6,t2gbe,xmc7000,t2gbh,t2gbh_lite,cyw20829,cyw920829m2evk_02,cyw89829,cyw989829m2evb_01]">
+  <app keywords="mtb-flow,gpio,interrupt,switch" req_capabilities_v2="hal led switch low_power [psoc6,t2gbe,xmc7000,kit_t2g_b_h_evk,kit_t2g_b_h_lite,cyw20829,cyw920829m2evk_02,cyw89829,cyw989829m2evb_01]">
     <name>HAL GPIO Interrupt</name>
     <id>mtb-example-hal-gpio-interrupt</id>
     <category>Peripherals</category>
@@ -5504,7 +5504,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,rtc" req_capabilities_v2="hal rtc [psoc6,t2gbe,xmc7000,t2gbh,t2gbh_lite,cyw20829,cyw89829]">
+  <app keywords="mtb-flow,rtc" req_capabilities_v2="hal rtc [psoc6,t2gbe,xmc7000,kit_t2g_b_h_evk,kit_t2g_b_h_lite,cyw20829,cyw89829]">
     <name>RTC Basics</name>
     <id>mtb-example-hal-rtc-basics</id>
     <category>Peripherals</category>
@@ -8689,7 +8689,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="cryptography,trng,mtb-flow" req_capabilities_v2="hal uart std_crypto [psoc6,t2gbe,xmc7000,t2gbh,t2gbh_lite]">
+  <app keywords="cryptography,trng,mtb-flow" req_capabilities_v2="hal uart std_crypto [psoc6,t2gbe,xmc7000,kit_t2g_b_h_evk,kit_t2g_b_h_lite]">
     <name>Cryptography TRNG Demonstration</name>
     <id>mtb-example-hal-crypto-trng</id>
     <category>Peripherals</category>
@@ -12966,6 +12966,14 @@
     <br><br>For more details, see the README.]]></description>
     <req_capabilities>psoc4 msclp led i2c low_power capsense_liquidlevel</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_040t_ms,cy8cproto_041tp]">
+        <num>Latest 4.X release</num>
+        <commit>latest-v4.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_040t_ms,cy8cproto_041tp]">
+        <num>4.0.0 release</num>
+        <commit>release-v4.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_040t_ms,cy8cproto_041tp]">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
@@ -12981,6 +12989,25 @@
       <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_040t_ms]">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc4,msclp,capsense,csd,csx,button,slider,low-power,wot,tuning,mtb-flow" req_capabilities_v2="psoc4 msclp led i2c low_power msc_button">
+    <name>PSOC 4 MSCLP Low Power Smart Glass CSX Touchpad</name>
+    <id>mtb-example-psoc4-msclp-smart-glass-touchpad</id>
+    <category>Sensing</category>
+    <uri>https://github.com/Infineon/mtb-example-psoc4-msclp-smart-glass-touchpad</uri>
+    <description><![CDATA[This example demonstrates the CAPSENSE&#8482; features of the PSOC&#8482; low power smart glass CSX touchpad using linux I2C driver 
+    <br><br>For more details, see the README.]]></description>
+    <req_capabilities>psoc4 msclp serial_led msc_touchpad spi i2c low_power</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_040t]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_040t]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
       </version>
     </versions>
   </app>
@@ -13663,7 +13690,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="i2c,slave,mtb-flow" req_capabilities_v2="hal led i2c [psoc6,t2gbe,xmc7000,t2gbh,t2gbh_lite,cyw20829,cyw920829m2evk_02,cyw89829,cyw989829m2evb_01]">
+  <app keywords="i2c,slave,mtb-flow" req_capabilities_v2="hal led i2c [psoc6,t2gbe,xmc7000,kit_t2g_b_h_evk,kit_t2g_b_h_lite,cyw20829,cyw920829m2evk_02,cyw89829,cyw989829m2evb_01]">
     <name>HAL I2C Slave</name>
     <id>mtb-example-hal-i2c-slave</id>
     <category>Peripherals</category>
@@ -13905,7 +13932,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="spi,slave,mtb-flow" req_capabilities_v2="hal led spi [psoc6,t2gbe,xmc7000,t2gbh,t2gbh_lite,cyw20829,cyw89829]">
+  <app keywords="spi,slave,mtb-flow" req_capabilities_v2="hal led spi [psoc6,t2gbe,xmc7000,kit_t2g_b_h_evk,kit_t2g_b_h_lite,cyw20829,cyw89829]">
     <name>HAL SPI Slave</name>
     <id>mtb-example-hal-spi-slave</id>
     <category>Peripherals</category>
@@ -14875,7 +14902,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="multicore,otw,dfu,firmware upgrade,bootloader,mcuboot,edge protect bootloader,mtb-flow" req_capabilities_v2="led uart std_crypto [xmc7000,t2gbh,t2gbh_lite]">
+  <app keywords="multicore,otw,dfu,firmware upgrade,bootloader,mcuboot,edge protect bootloader,mtb-flow" req_capabilities_v2="led uart std_crypto [xmc7000,kit_t2g_b_h_evk,kit_t2g_b_h_lite]">
     <name>OTW Firmware Upgrade</name>
     <id>mtb-example-xmc7000-otw-firmware-upgrade</id>
     <category>Getting Started</category>
@@ -14931,9 +14958,13 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-safety-tcpwm-test/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc4 uart</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_045s,cy8ckit_149,cy8cproto_041tp,cy8ckit_145_40xx,cy8ckit_041_41xx,cy8cproto_040t]">
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_045s,cy8ckit_149,cy8cproto_041tp,cy8ckit_145_40xx,cy8ckit_041_41xx,cy8cproto_040t,cy8cproto_040t_ms]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_045s,cy8ckit_149,cy8cproto_041tp,cy8ckit_145_40xx,cy8ckit_041_41xx,cy8cproto_040t,cy8cproto_040t_ms]">
+        <num>1.3.0 release</num>
+        <commit>release-v1.3.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_045s,cy8ckit_149,cy8cproto_041tp,cy8ckit_145_40xx,cy8ckit_041_41xx,cy8cproto_040t]">
         <num>1.2.0 release</num>
@@ -15059,9 +15090,13 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-safety-core-test/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc4 uart</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_045s,cy8ckit_149,cy8cproto_041tp,cy8ckit_145_40xx,cy8ckit_041_41xx,cy8cproto_040t]">
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_045s,cy8ckit_149,cy8cproto_041tp,cy8ckit_145_40xx,cy8ckit_041_41xx,cy8cproto_040t,cy8cproto_040t_ms]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_045s,cy8ckit_149,cy8cproto_041tp,cy8ckit_145_40xx,cy8ckit_041_41xx,cy8cproto_040t,cy8cproto_040t_ms]">
+        <num>1.4.0 release</num>
+        <commit>release-v1.4.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_045s,cy8ckit_149,cy8cproto_041tp,cy8ckit_145_40xx,cy8ckit_041_41xx,cy8cproto_040t]">
         <num>1.3.0 release</num>
@@ -15098,9 +15133,13 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-safety-i2c-test/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc4 i2c uart</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_045s,cy8ckit_149,cy8cproto_041tp,cy8ckit_145_40xx,cy8ckit_041_41xx,cy8cproto_040t]">
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_045s,cy8ckit_149,cy8cproto_041tp,cy8ckit_145_40xx,cy8ckit_041_41xx,cy8cproto_040t,cy8cproto_040t_ms]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_045s,cy8ckit_149,cy8cproto_041tp,cy8ckit_145_40xx,cy8ckit_041_41xx,cy8cproto_040t,cy8cproto_040t_ms]">
+        <num>1.4.0 release</num>
+        <commit>release-v1.4.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_045s,cy8ckit_149,cy8cproto_041tp,cy8ckit_145_40xx,cy8ckit_041_41xx,cy8cproto_040t]">
         <num>1.3.0 release</num>
@@ -15137,9 +15176,13 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-safety-spi-loopback-test/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc4 uart spi</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_045s,cy8ckit_149,cy8cproto_041tp,cy8ckit_145_40xx,cy8ckit_041_41xx]">
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_045s,cy8ckit_149,cy8cproto_041tp,cy8ckit_145_40xx,cy8ckit_041_41xx,cy8cproto_040t_ms,cy8cproto_040t]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_045s,cy8ckit_149,cy8cproto_041tp,cy8ckit_145_40xx,cy8ckit_041_41xx,cy8cproto_040t_ms,cy8cproto_040t]">
+        <num>1.4.0 release</num>
+        <commit>release-v1.4.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_045s,cy8ckit_149,cy8cproto_041tp,cy8ckit_145_40xx,cy8ckit_041_41xx]">
         <num>1.3.0 release</num>
@@ -15176,9 +15219,13 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-safety-uart-loopback-test/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc4 uart</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_045s,cy8ckit_149,cy8cproto_041tp,cy8ckit_145_40xx,cy8ckit_041_41xx]">
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_045s,cy8ckit_149,cy8cproto_041tp,cy8ckit_145_40xx,cy8ckit_041_41xx,cy8cproto_040t_ms,cy8cproto_040t]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_045s,cy8ckit_149,cy8cproto_041tp,cy8ckit_145_40xx,cy8ckit_041_41xx,cy8cproto_040t_ms,cy8cproto_040t]">
+        <num>1.4.0 release</num>
+        <commit>release-v1.4.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_045s,cy8ckit_149,cy8cproto_041tp,cy8ckit_145_40xx,cy8ckit_041_41xx]">
         <num>1.3.0 release</num>
@@ -16766,6 +16813,10 @@
         <commit>latest-v1.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4][cy8cproto_062s2_43439,cy8cproto_062_4343w,cy8ckit_062s2_43012,cy8ceval_062s2,cy8ceval_062s2_lai_4373m2,cy8ceval_062s2_mur_43439m2,cy8ceval_062s2_lai_43439m2,cy8ceval_062s2_mur_4373em2,cy8ceval_062s2_mur_4373m2,cy8ceval_062s2_cyw43022cub,cy8cproto_062s3_4343w,kit_xmc72_evk,kit_xmc72_evk_mur_43439m2,cy8ckit_062_ble,cy8ckit_062_wifi_bt,cy8cproto_063_ble,cy8ckit_062s4,cyw9p62s1_43012evb_01,cyw9p62s1_43438evb_01,cy8ckit_064b0s2_4343w,kit_xmc71_evk_lite_v1]">
+        <num>1.3.0 release</num>
+        <commit>release-v1.3.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4][cy8cproto_062s2_43439,cy8cproto_062_4343w,cy8ckit_062s2_43012,cy8ceval_062s2,cy8ceval_062s2_lai_4373m2,cy8ceval_062s2_mur_43439m2,cy8ceval_062s2_lai_43439m2,cy8ceval_062s2_mur_4373em2,cy8ceval_062s2_mur_4373m2,cy8ceval_062s2_cyw43022cub,cy8cproto_062s3_4343w,kit_xmc72_evk,kit_xmc72_evk_mur_43439m2,cy8ckit_062_ble,cy8ckit_062_wifi_bt,cy8cproto_063_ble,cy8ckit_062s4,cyw9p62s1_43012evb_01,cyw9p62s1_43438evb_01,cy8ckit_064b0s2_4343w,kit_xmc71_evk_lite_v1]">
         <num>1.2.0 release</num>
         <commit>release-v1.2.0</commit>
       </version>
@@ -16916,6 +16967,10 @@
         <commit>latest-v1.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4] [cy8cproto_062s2_43439,cy8cproto_062_4343w,cy8ckit_062s2_43012,cy8ceval_062s2,cy8ceval_062s2_lai_4373m2,cy8ceval_062s2_mur_43439m2,cy8ceval_062s2_lai_43439m2,cy8ceval_062s2_mur_4373em2,cy8ceval_062s2_mur_4373m2,cy8ceval_062s2_cyw43022cub,cy8cproto_062s3_4343w,kit_xmc72_evk,kit_xmc72_evk_mur_43439m2,cy8ckit_062_ble,cy8ckit_062_wifi_bt,cy8cproto_063_ble,cy8ckit_062s4,cyw9p62s1_43012evb_01,cyw9p62s1_43438evb_01,cy8ckit_064b0s2_4343w,kit_xmc71_evk_lite_v1]">
+        <num>1.2.0 release</num>
+        <commit>release-v1.2.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4] [cy8cproto_062s2_43439,cy8cproto_062_4343w,cy8ckit_062s2_43012,cy8ceval_062s2,cy8ceval_062s2_lai_4373m2,cy8ceval_062s2_mur_43439m2,cy8ceval_062s2_lai_43439m2,cy8ceval_062s2_mur_4373em2,cy8ceval_062s2_mur_4373m2,cy8ceval_062s2_cyw43022cub,cy8cproto_062s3_4343w,kit_xmc72_evk,kit_xmc72_evk_mur_43439m2,cy8ckit_062_ble,cy8ckit_062_wifi_bt,cy8cproto_063_ble,cy8ckit_062s4,cyw9p62s1_43012evb_01,cyw9p62s1_43438evb_01,cy8ckit_064b0s2_4343w,kit_xmc71_evk_lite_v1]">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
@@ -16960,6 +17015,10 @@
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4] [cy8cproto_062s2_43439,cy8cproto_062_4343w,cy8ckit_062s2_43012,cy8ceval_062s2,cy8ceval_062s2_lai_4373m2,cy8ceval_062s2_mur_43439m2,cy8ceval_062s2_lai_43439m2,cy8ceval_062s2_mur_4373em2,cy8ceval_062s2_mur_4373m2,cy8ceval_062s2_cyw43022cub,cy8cproto_062s3_4343w,kit_xmc72_evk,kit_xmc72_evk_mur_43439m2,cy8ckit_062_ble,cy8ckit_062_wifi_bt,cy8cproto_063_ble,cy8ckit_062s4,cyw9p62s1_43012evb_01,cyw9p62s1_43438evb_01,cy8ckit_064b0s2_4343w,kit_xmc71_evk_lite_v1]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4] [cy8cproto_062s2_43439,cy8cproto_062_4343w,cy8ckit_062s2_43012,cy8ceval_062s2,cy8ceval_062s2_lai_4373m2,cy8ceval_062s2_mur_43439m2,cy8ceval_062s2_lai_43439m2,cy8ceval_062s2_mur_4373em2,cy8ceval_062s2_mur_4373m2,cy8ceval_062s2_cyw43022cub,cy8cproto_062s3_4343w,kit_xmc72_evk,kit_xmc72_evk_mur_43439m2,cy8ckit_062_ble,cy8ckit_062_wifi_bt,cy8cproto_063_ble,cy8ckit_062s4,cyw9p62s1_43012evb_01,cyw9p62s1_43438evb_01,cy8ckit_064b0s2_4343w,kit_xmc71_evk_lite_v1]">
+        <num>1.2.0 release</num>
+        <commit>release-v1.2.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4] [cy8cproto_062s2_43439,cy8cproto_062_4343w,cy8ckit_062s2_43012,cy8ceval_062s2,cy8ceval_062s2_lai_4373m2,cy8ceval_062s2_mur_43439m2,cy8ceval_062s2_lai_43439m2,cy8ceval_062s2_mur_4373em2,cy8ceval_062s2_mur_4373m2,cy8ceval_062s2_cyw43022cub,cy8cproto_062s3_4343w,kit_xmc72_evk,kit_xmc72_evk_mur_43439m2,cy8ckit_062_ble,cy8ckit_062_wifi_bt,cy8cproto_063_ble,cy8ckit_062s4,cyw9p62s1_43012evb_01,cyw9p62s1_43438evb_01,cy8ckit_064b0s2_4343w,kit_xmc71_evk_lite_v1]">
         <num>1.1.0 release</num>
@@ -18436,7 +18495,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="motor,demo,mtb-flow" req_capabilities_v2="[kit_xmc7200_dc_v1,kit_psc3m5_cc2,kit_psc3m5_2go]">
+  <app keywords="motor,demo,mtb-flow" req_capabilities_v2="[kit_xmc7200_dc_v1,kit_psc3m5_cc2,kit_psc3m5_2go,kit_traveo_t2g_b_h_mc1]">
     <name>MOTOR DEMO</name>
     <id>mtb-example-ce240614-motor-control-solutions</id>
     <category>Motor Control</category>
@@ -18445,9 +18504,13 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce240614-motor-control-solutions/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>cat1c led</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>1.0.3 release</num>
+        <commit>release-v1.0.3</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
         <num>1.0.2 release</num>
@@ -19924,11 +19987,15 @@
     <br><br>For more details, see the  <a href="https://github.com/Infineon/mtb-example-ce240724-emulated-eeprom/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>cat1b led</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>1.0.1 release</num>
+        <commit>release-v1.0.1</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -19962,6 +20029,14 @@
     <br><br>For more details, see the  <a href="https://github.com/Infineon/mtb-example-ce240312-foc-sl-1-shunt/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>cat1b led</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -19981,6 +20056,14 @@
     <br><br>For more details, see the  <a href="https://github.com/Infineon/mtb-example-ce240243-foc-3-shunt/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>cat1b led</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>3.0.0 release</num>
+        <commit>release-v3.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
@@ -20249,9 +20332,13 @@
     <br><br>For more details, see the  <a href="https://github.com/Infineon/mtb-example-psoc-control-edge-protect-bootloader/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>cat1b led</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
         <num>1.0.0 release</num>
@@ -20849,6 +20936,10 @@
       <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.1 release</num>
+        <commit>release-v1.0.1</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>1.0.0 release</num>
@@ -22950,7 +23041,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="t2gbh" req_capabilities_v2="[tcpwm,t2gbh_lite,t2gbe]">
+  <app keywords="t2gbh" req_capabilities_v2="[tcpwm,kit_t2g_b_h_lite,t2gbe]">
     <name>TCPWM QuadDec rotary mode</name>
     <id>mtb-example-ce241316-tcpwm-quaddec-rotary-mode</id>
     <category>Peripherals</category>
@@ -22969,7 +23060,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="t2gc2d" req_capabilities_v2="[tcpwm,t2gc2d,t2gbh_lite,t2gbe]">
+  <app keywords="t2gc2d" req_capabilities_v2="[tcpwm,t2gc2d,kit_t2g_b_h_lite,t2gbe]">
     <name>TCPWM QuadDec direction detection</name>
     <id>mtb-example-ce241430-tcpwm-quaddec-direction-detection</id>
     <category>Peripherals</category>
