@@ -12997,7 +12997,7 @@
     <id>mtb-example-psoc4-msclp-smart-glass-touchpad</id>
     <category>Sensing</category>
     <uri>https://github.com/Infineon/mtb-example-psoc4-msclp-smart-glass-touchpad</uri>
-    <description><![CDATA[This example demonstrates the CAPSENSE&#8482; features of the PSOC&#8482; low power smart glass CSX touchpad using linux I2C driver 
+    <description><![CDATA[This example demonstrates the CAPSENSE&#8482; features of the PSOC&#8482; low power smart glass CSX touchpad using linux I2C driver
     <br><br>For more details, see the README.]]></description>
     <req_capabilities>psoc4 msclp serial_led msc_touchpad spi i2c low_power</req_capabilities>
     <versions>
@@ -21778,6 +21778,57 @@
       </version>
     </versions>
   </app>
+  <app keywords="bluetooth, ble, HFP, audio, gateway, mtb-flow" req_capabilities_v2="pse8xxgp">
+    <name>PSOC Edge Bluetooth LE HFP audio gateway</name>
+    <id>mtb-example-psoc-edge-btstack-hfp-ag</id>
+    <category>Bluetooth&#174;</category>
+    <uri>https://github.com/Infineon/mtb-example-psoc-edge-btstack-hfp-ag</uri>
+    <description><![CDATA[This application demonstrates a hands-free profile (HFP) audio gateway (AG) using the AIROC&#8482; Bluetooth&#174; stack. The application runs on the PSOC&#8482; Edge E84 Evaluation Kit and appears as an HFP audio gateway device. A remote hands-free (HF) device, such as a Bluetooth&#174; headset or car kit, can connect to it for call control and audio streaming.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-btstack-hfp-ag/blob/master/README.md">README on GitHub</a>.]]></description>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="bluetooth, EATT, server, mtb-flow" req_capabilities_v2="pse8xxgp">
+    <name>PSOC Edge Bluetooth EATT Server</name>
+    <id>mtb-example-psoc-edge-btstack-eatt-server</id>
+    <category>Bluetooth&#174;</category>
+    <uri>https://github.com/Infineon/mtb-example-psoc-edge-btstack-eatt-server</uri>
+    <description><![CDATA[This code example demonstrates a Bluetooth&#174; Enhanced ATT (EATT) Server using the AIROC&#8482; Bluetooth&#174; stack. The application runs on the PSOC&#8482; Edge E84 Evaluation Kit that provides temperature and motion sensor data to a connected EATT Client.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-btstack-eatt-server/blob/master/README.md">README on GitHub</a>.]]></description>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="bluetooth, EATT, client, mtb-flow" req_capabilities_v2="pse8xxgp">
+    <name>PSOC Edge Bluetooth EATT Client</name>
+    <id>mtb-example-psoc-edge-btstack-eatt-client</id>
+    <category>Bluetooth&#174;</category>
+    <uri>https://github.com/Infineon/mtb-example-psoc-edge-btstack-eatt-client</uri>
+    <description><![CDATA[This code example demonstrates a Bluetooth&#174; Enhanced Attribute protocol (EATT) Client using the AIROC&#8482; Bluetooth&#174; stack. The application runs on the PSOC&#8482; Edge E84 Evaluation Kit and connects to a remote EATT Server to read sensor data and receive notifications.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-btstack-eatt-client/blob/master/README.md">README on GitHub</a>.]]></description>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
   <app keywords="bluetooth, ble, peripheral, privacy, mtb-flow" req_capabilities_v2="pse8xxgp">
     <name>PSOC Edge Bluetooth LE Peripheral Privacy</name>
     <id>mtb-example-psoc-edge-btstack-peripheral-privacy</id>
@@ -22001,6 +22052,10 @@
         <commit>latest-v2.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
@@ -22016,6 +22071,10 @@
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
         <num>2.0.0 release</num>
@@ -22174,6 +22233,10 @@
         <commit>latest-v2.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4]">
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4]">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
@@ -22189,6 +22252,10 @@
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
+        <num>2.2.0 release</num>
+        <commit>release-v2.2.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
         <num>2.1.0 release</num>
@@ -22459,6 +22526,10 @@
         <commit>latest-v2.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4]">
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4]">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
@@ -22474,6 +22545,10 @@
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4]">
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4]">
         <num>2.0.0 release</num>
@@ -22555,6 +22630,40 @@
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4]">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="graphics, lvgl, smartwatch, demo, mtb-flow" req_capabilities_v2="pse8xxgp">
+    <name>PSOC Edge Graphics LVGL Smartwatch Demo</name>
+    <id>mtb-example-psoc-edge-gfx-lvgl-smartwatch</id>
+    <category>Graphics</category>
+    <uri>https://github.com/Infineon/mtb-example-psoc-edge-gfx-lvgl-smartwatch</uri>
+    <description><![CDATA[This code example highlights Infineon's comprehensive support for high-performance and low-power graphics applications on PSOC&#8482; Edge MCU. It showcases a GUI (Graphical User Interface) implementation of a smartwatch, primarily using a 1.43-inch MIPI DSI round AMOLED display in 466*466 resolution. This code example also implements the emulation of the round smartwatch GUI in same resolution on a 4.3-inch MIPI DSI Raspberry-Pi 800*480 TFT display. If you do not have access to the 1.43-inch display, you can run this code example on the 4.3-inch one which is widely available to purchase from the Raspberry-Pi ecosystem. All the three displays are swappable and connected to the PSOC&#8482; Edge E84 Evaluation Kit via MIPI DSI. This application demonstrates the ability to leverage the GPU (Graphics Processing Unit) for high-performance GUI rendering, as well as a CPU-rendered low-power always-on screen.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-gfx-lvgl-smartwatch/blob/master/README.md">README on GitHub</a>.]]></description>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4]">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4]">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="ml, vision, face id, graphics, usb, camera, mtb-flow" req_capabilities_v2="pse8xxgp">
+    <name>PSOC Edge Machine Learning Face ID Demo</name>
+    <id>mtb-example-psoc-edge-ml-face-id</id>
+    <category>Machine Learning</category>
+    <uri>https://github.com/Infineon/mtb-example-psoc-edge-ml-face-id</uri>
+    <description><![CDATA[This code example demonstrates Infineon's comprehensive solution for real-time Face ID, utilizing USB camera and MIPI DSI display interfacing with the PSOC&#8482; Edge MCU. It also facilitates both on-device face enrolment, as well as face recognition for the detected enrolled users through the camera. The detected human faces are highlighted by displaying a bounding box around them, along with the corresponding enrolled user ID or "unknown" text in the case of a non-enrolled user, on the live video streamed through the USB camera.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-ml-face-id/blob/master/README.md">README on GitHub</a>.]]></description>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
       </version>
     </versions>
   </app>
@@ -22656,6 +22765,23 @@
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4]">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="wifi, ble, iot, gateway, mtb-flow" req_capabilities_v2="pse8xxgp">
+    <name>PSOC Edge Bluetooth LE W-Fi IoT gateway</name>
+    <id>mtb-example-psoc-edge-btstack-wifi-iot-gateway</id>
+    <category>Wi-Fi</category>
+    <uri>https://github.com/Infineon/mtb-example-psoc-edge-btstack-wifi-iot-gateway</uri>
+    <description><![CDATA[This code example demonstrates implementing a Bluetooth&#174; Wi-Fi IoT gateway using the MQTT client library and Bluetooth&#174; host stack on PSOC&#8482; Edge MCU coupled with AIROC&#8482; CYW55513 Wi-Fi & Bluetooth&#174; combo chip in the ModusToolbox&#8482; software environment. It uses the AWS IoT Device SDK library (MQTT and Thing Shadows) to publish and subscribe with the AWS cloud. The PSOC&#8482; Edge E84 kit receives cloud commands, controls USER LED 1 on a Bluetooth&#174; LE node via a GATT connection, and sends the LED state back to the cloud based on a user button press. <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-btstack-wifi-iot-gateway/blob/master/README.md">README on GitHub</a>.]]></description>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
       </version>
     </versions>
   </app>
@@ -22783,8 +22909,8 @@
         <commit>latest-v2.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4]">
-        <num>2.0.0 release</num>
-        <commit>release-v2.0.0</commit>
+        <num>2.0.1 release</num>
+        <commit>release-v2.0.1</commit>
       </version>
     </versions>
   </app>
@@ -22803,8 +22929,8 @@
         <commit>latest-v2.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4]">
-        <num>2.0.1 release</num>
-        <commit>release-v2.0.1</commit>
+        <num>2.0.2 release</num>
+        <commit>release-v2.0.2</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4]">
         <num>2.0.0 release</num>
@@ -22943,13 +23069,17 @@
         <commit>latest-v2.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4]">
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4]">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
     </versions>
   </app>
   <app keywords="voice, deepcraft, deployment, mtb-flow" req_capabilities_v2="pse8xxgp">
-    <name>PSOC Edge DEEPCRAFT voice assistant deployment</name>
+    <name>PSOC Edge DEEPCRAFT Voice Assistant Deployment</name>
     <id>mtb-example-psoc-edge-voice-assistant-deploy</id>
     <category>Audio</category>
     <uri>https://github.com/Infineon/mtb-example-psoc-edge-voice-assistant-deploy</uri>
@@ -23340,6 +23470,10 @@
         <commit>latest-v2.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4]">
+        <num>2.0.1 release</num>
+        <commit>release-v2.0.1</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4]">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
@@ -23357,13 +23491,17 @@
         <commit>latest-v2.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4]">
+        <num>2.0.1 release</num>
+        <commit>release-v2.0.1</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4]">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
     </versions>
   </app>
   <app keywords="ml,deepcraft,ml,pdm,radar,mtb-flow" req_capabilities_v2="uart spi i2c pdm pse8xxgp">
-    <name>PSOC Edge DEEPCRAFT Deploy Ready Model</name>
+    <name>PSOC Edge Machine Learning DEEPCRAFT Deploy Ready Model</name>
     <id>mtb-example-psoc-edge-ml-deepcraft-deploy-ready-model</id>
     <category>Machine Learning</category>
     <uri>https://github.com/Infineon/mtb-example-psoc-edge-ml-deepcraft-deploy-ready-model</uri>
@@ -23373,6 +23511,10 @@
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
+        <num>1.2.0 release</num>
+        <commit>release-v1.2.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
         <num>1.1.0 release</num>
@@ -23385,7 +23527,7 @@
     </versions>
   </app>
   <app keywords="deepcraft,ml,spi,radar sensor,mtb-flow" req_capabilities_v2="pse8xxgp spi">
-    <name>PSOC Edge DEEPCRAFT Deploy Radar</name>
+    <name>PSOC Edge Machine Learning DEEPCRAFT Deploy Radar</name>
     <id>mtb-example-psoc-edge-ml-deepcraft-deploy-radar</id>
     <category>Machine Learning</category>
     <uri>https://github.com/Infineon/mtb-example-psoc-edge-ml-deepcraft-deploy-radar</uri>
@@ -23395,6 +23537,10 @@
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_pse84_ai]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_pse84_ai]">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_pse84_ai]">
         <num>1.0.0 release</num>
@@ -23549,7 +23695,11 @@
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4]">
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4]">
+        <num>2.0.1 release</num>
+        <commit>release-v2.0.1</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4]">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
@@ -23569,6 +23719,110 @@
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="ml,deepcraft,deploy vision,mtb-flow" req_capabilities_v2="pse8xxgp">
+    <name>PSOC Edge Machine Learning DEEPCRAFT Deploy Vision</name>
+    <id>mtb-example-psoc-edge-ml-deepcraft-deploy-vision</id>
+    <category>Machine Learning</category>
+    <uri>https://github.com/Infineon/mtb-example-psoc-edge-ml-deepcraft-deploy-vision</uri>
+    <description><![CDATA[This code example demonstrates a real-time hand gesture detection that uses a USB camera to capture live video and a DEEPCRAFT&#8482; Studio object detection model to detect hand gestures (rock, paper, or scissors) in the video feed using ModusToolbox&#8482;. The detected gestures are highlighted by drawing a bounding box around the gesture and displaying the corresponding text (rock, paper, or scissors) in a text box on the display.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-ml-deepcraft-deploy-vision/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>pse8xxgp</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_ai]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_ai]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="ml,ai hub,deploy vision,mtb-flow" req_capabilities_v2="pse8xxgp">
+    <name>PSOC Edge Machine Learning AI Hub Deploy Vision</name>
+    <id>mtb-example-psoc-edge-ml-aihub-deploy-vision</id>
+    <category>Machine Learning</category>
+    <uri>https://github.com/Infineon/mtb-example-psoc-edge-ml-aihub-deploy-vision</uri>
+    <description><![CDATA[This code example demonstrates a real-time human segmentation detection that uses a USB camera to capture live video and person segmentation model from DEEPCRAFT&#8482; - Model Zoo for PSOC&#8482; to detect human segmentation in the video feed using ModusToolbox&#8482;. The detected human segmentations are highlighted by drawing a bounding box around the human segmentation and displaying the corresponding text in a text box on the display.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-ml-aihub-deploy-vision/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>pse8xxgp</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_pse84_eval_epc2]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_pse84_eval_epc2]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="security, gpio, trustzone, interrupt, mtb-flow" req_capabilities_v2="pse8xxgp">
+    <name>PSOC Edge Secure Non-secure GPIO</name>
+    <id>mtb-example-psoc-edge-secure-nonsecure-gpio</id>
+    <category>Security</category>
+    <uri>https://github.com/Infineon/mtb-example-psoc-edge-secure-nonsecure-gpio</uri>
+    <description><![CDATA[This code example illustrates how to configure GPIOs as Secure and Non-secure for PSOC&#8482; Edge MCU devices. Additionally, it showcases the registration of secure and non-secure GPIO interrupts, along with the handling of these interrupts in their respective projects.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-secure-nonsecure-gpio/blob/master/README.md">README on GitHub</a>.]]></description>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4]">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4]">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="security, ota, bootloader, btstack, ble, mtb-flow" req_capabilities_v2="pse8xxgp">
+    <name>PSOC Edge BTstack OTA</name>
+    <id>mtb-example-psoc-edge-btstack-ota</id>
+    <category>Security</category>
+    <uri>https://github.com/Infineon/mtb-example-psoc-edge-btstack-ota</uri>
+    <description><![CDATA[This code example demonstrates an over-the-air (OTA) firmware update via a Bluetooth&#174; interface using the Arm&#174; Cortex&#174; M33 CPU on Infineon's PSOC&#8482; Edge MCU coupled with AIROC&#8482; CYW55513 in the ModusToolbox&#8482; environment.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-btstack-ota/blob/master/README.md">README on GitHub</a>.]]></description>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4]">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4]">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="security, ota, bootloader, mqtt, mtb-flow" req_capabilities_v2="pse8xxgp">
+    <name>PSOC Edge OTA Wi-Fi MQTT</name>
+    <id>mtb-example-psoc-edge-ota-wifi-mqtt</id>
+    <category>Security</category>
+    <uri>https://github.com/Infineon/mtb-example-psoc-edge-ota-wifi-mqtt</uri>
+    <description><![CDATA[This code example demonstrates the firmware update of user application over-the-air (OTA) via the Wi-Fi interface using MQTT protocol, using Arm&#174; Cortex&#174; M33 CPU on PSOC&#8482; Edge MCU coupled with AIROC&#8482; CYW55513 in ModusToolbox&#8482; environment.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-ota-wifi-mqtt/blob/master/README.md">README on GitHub</a>.]]></description>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4]">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4]">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="security, ota, bootloader, https, tls, mtb-flow" req_capabilities_v2="pse8xxgp">
+    <name>PSOC Edge OTA Wi-Fi HTTPS</name>
+    <id>mtb-example-psoc-edge-ota-wifi-https</id>
+    <category>Security</category>
+    <uri>https://github.com/Infineon/mtb-example-psoc-edge-ota-wifi-https</uri>
+    <description><![CDATA[This code example demonstrates the firmware update of user application over-the-air (OTA) via the Wi-Fi interface using HTTPS/HTTP protocol, using Arm&#174; Cortex&#174;-M33 CPU on PSOC&#8482; Edge MCU coupled with AIROC&#8482; CYW55513 Wi-Fi & Bluetooth&#174; combo chip in ModusToolbox&#8482;.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-ota-wifi-https/blob/master/README.md">README on GitHub</a>.]]></description>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4]">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4]">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
       </version>
     </versions>
   </app>
