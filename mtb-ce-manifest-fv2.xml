@@ -23230,7 +23230,7 @@
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc48_relax_ecat_v1]">
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc43_relax_ecat_v1]">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
