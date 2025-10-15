@@ -5650,19 +5650,19 @@
         <num>2.6.0 release</num>
         <commit>release-v2.6.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_041_41xx,cy8ckit_145_40xx,cy8ckit_045s,cy8cproto_040t,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,cy8cproto_040t_ms,cy8cproto_041tp,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02]">
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_041_41xx,cy8ckit_145_40xx,cy8ckit_045s,cy8cproto_040t,cy8cproto_040t_ms,cy8cproto_041tp]">
         <num>2.5.0 release</num>
         <commit>release-v2.5.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_041_41xx,cy8ckit_145_40xx,cy8ckit_045s,cy8cproto_040t,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,cy8cproto_040t_ms,cy8cproto_041tp]">
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_041_41xx,cy8ckit_145_40xx,cy8ckit_045s,cy8cproto_040t,cy8cproto_040t_ms,cy8cproto_041tp]">
         <num>2.4.0 release</num>
         <commit>release-v2.4.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_041_41xx,cy8ckit_145_40xx,cy8ckit_045s,cy8cproto_040t,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,cy8cproto_040t_ms]">
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_041_41xx,cy8ckit_145_40xx,cy8ckit_045s,cy8cproto_040t,cy8cproto_040t_ms]">
         <num>2.3.0 release</num>
         <commit>release-v2.3.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_041_41xx,cy8ckit_145_40xx,cy8ckit_045s,cy8cproto_040t,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite]">
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_041_41xx,cy8ckit_145_40xx,cy8ckit_045s,cy8cproto_040t]">
         <num>2.2.0 release</num>
         <commit>release-v2.2.0</commit>
       </version>
@@ -18554,7 +18554,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="multicore,starter,template,empty,blank,mtb-flow" req_capabilities_v2="[t2gc2d]">
+  <app keywords="multicore,starter,template,empty,blank,mtb-flow" req_capabilities_v2="[t2gc2d,t2gbh,t2gbh_lite]">
     <name>Multi-core application template</name>
     <id>mtb-example-ce240799-multicore-empty-app</id>
     <category>Getting Started</category>
@@ -18563,9 +18563,13 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce240799-multicore-empty-app/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>led</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5,bsp_gen4] [kit_t2g_c_2d_6m_lite,kit_t2g_b_h_lite,kit_t2g_b_h_evk]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5,bsp_gen4] [kit_t2g_c_2d_6m_lite,kit_t2g_b_h_lite,kit_t2g_b_h_evk]">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
         <num>1.0.0 release</num>
@@ -18891,7 +18895,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="multicore,ipc,mtb-flow,pipes" req_capabilities_v2="multi_core [t2gc2d]">
+  <app keywords="multicore,ipc,mtb-flow,pipes" req_capabilities_v2="multi_core [t2gc2d,t2gbh,t2gbh_lite]">
     <name>Multi-core IPC pipes</name>
     <id>mtb-example-ce240767-multicore-ipc-pipes</id>
     <category>Peripherals</category>
@@ -18900,9 +18904,13 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce240767-multicore-ipc-pipes/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>multi_core</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5,bsp_gen4] [kit_t2g_c_2d_6m_lite,kit_t2g_b_h_lite,kit_t2g_b_h_evk]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5,bsp_gen4] [kit_t2g_c_2d_6m_lite,kit_t2g_b_h_lite,kit_t2g_b_h_evk]">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
         <num>1.0.0 release</num>
@@ -23969,6 +23977,24 @@
         <commit>latest-v1.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="dual cpu,starter,template,empty,blank,mtb-flow" req_capabilities_v2="[t2gbe]">
+    <name>Dualcore Empty App</name>
+    <id>mtb-example-ce242106-dualcore-empty-app</id>
+    <category>Getting Started</category>
+    <uri>https://github.com/Infineon/mtb-example-ce242106-dualcore-empty-app</uri>
+    <description><![CDATA[This is a minimal starter dual-core application template for TRAVEO&#8482; T2G Body Entry MCU devices.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce242106-dualcore-empty-app/blob/master/README.md">README on GitHub</a>.]]></description>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4] [kit_t2g_b_e_lite]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4] [kit_t2g_b_e_lite]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
