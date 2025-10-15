@@ -21791,7 +21791,7 @@
     </versions>
   </app>
   <app keywords="bluetooth, ble, HFP, audio, gateway, mtb-flow" req_capabilities_v2="pse8xxgp">
-    <name>PSOC Edge Bluetooth LE HFP audio gateway</name>
+    <name>PSOC Edge Bluetooth LE HFP Audio Gateway</name>
     <id>mtb-example-psoc-edge-btstack-hfp-ag</id>
     <category>Bluetooth&#174;</category>
     <uri>https://github.com/Infineon/mtb-example-psoc-edge-btstack-hfp-ag</uri>
@@ -22602,7 +22602,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="graphics, VGLite, mtb-flow" req_capabilities_v2="pse8xxgp">
+  <app keywords="graphics, gfx, VGLite, mtb-flow" req_capabilities_v2="pse8xxgp">
     <name>PSOC Edge Graphics using VGLite API</name>
     <id>mtb-example-psoc-edge-gfx-vglite</id>
     <category>Graphics</category>
@@ -22623,7 +22623,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="graphics, lvgl, demo, mtb-flow" req_capabilities_v2="pse8xxgp">
+  <app keywords="graphics, gfx, lvgl, demo, mtb-flow" req_capabilities_v2="pse8xxgp">
     <name>PSOC Edge Graphics LVGL Demo</name>
     <id>mtb-example-psoc-edge-gfx-lvgl-demo</id>
     <category>Graphics</category>
@@ -22645,7 +22645,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="graphics, lvgl, smartwatch, demo, mtb-flow" req_capabilities_v2="pse8xxgp">
+  <app keywords="graphics, gfx, lvgl, smartwatch, demo, mtb-flow" req_capabilities_v2="pse8xxgp">
     <name>PSOC Edge Graphics LVGL Smartwatch Demo</name>
     <id>mtb-example-psoc-edge-gfx-lvgl-smartwatch</id>
     <category>Graphics</category>
@@ -22657,12 +22657,16 @@
         <commit>latest-v2.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4]">
+        <num>2.0.1 release</num>
+        <commit>release-v2.0.1</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4]">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
     </versions>
   </app>
-  <app keywords="ml, vision, face id, graphics, usb, camera, mtb-flow" req_capabilities_v2="pse8xxgp">
+  <app keywords="ml, vision, face id, graphics, gfx, usb, camera, mtb-flow" req_capabilities_v2="pse8xxgp">
     <name>PSOC Edge Machine Learning Face ID Demo</name>
     <id>mtb-example-psoc-edge-ml-face-id</id>
     <category>Machine Learning</category>
@@ -22674,6 +22678,23 @@
         <commit>latest-v1.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="ml,vision,rps,graphics,gfx,usb,camera,mtb-flow,rps game,rock, paper, scissors" req_capabilities_v2="pse8xxgp">
+    <name>PSOC Edge DEEPCRAFT Rock Paper Scissors Game</name>
+    <id>mtb-example-psoc-edge-rock-paper-scissors-game</id>
+    <category>Machine Learning</category>
+    <uri>https://github.com/Infineon/mtb-example-psoc-edge-rock-paper-scissors-game</uri>
+    <description><![CDATA[This code example demonstrates rock, paper, or scissors, which is a hand game where two players play the game simultaneously showcasing one of the three hand gestures: a fist for rock, a flat hand for paper, or two fingers for scissors.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-rock-paper-scissors-game/blob/master/README.md">README on GitHub</a>.]]></description>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -22950,7 +22971,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="graphics, RLAD, mtb-flow" req_capabilities_v2="pse8xxgp">
+  <app keywords="graphics, gfx, RLAD, mtb-flow" req_capabilities_v2="pse8xxgp">
     <name>PSOC Edge Graphics using RLAD</name>
     <id>mtb-example-psoc-edge-gfx-rlad</id>
     <category>Graphics</category>
@@ -22971,7 +22992,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="graphics, single, double, buffering, mtb-flow" req_capabilities_v2="pse8xxgp">
+  <app keywords="graphics, gfx, single, double, buffering, mtb-flow" req_capabilities_v2="pse8xxgp">
     <name>PSOC Edge Graphics using single and double buffering</name>
     <id>mtb-example-psoc-edge-gfx-single-double-buffering</id>
     <category>Graphics</category>
@@ -22992,7 +23013,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="graphics, dsi, ulpm, data, lane, mtb-flow" req_capabilities_v2="pse8xxgp">
+  <app keywords="graphics, gfx, dsi, ulpm, data, lane, mtb-flow" req_capabilities_v2="pse8xxgp">
     <name>PSOC Edge Graphics DSI ULPM on Data Lane</name>
     <id>mtb-example-psoc-edge-gfx-dsi-ulpm-data-lane</id>
     <category>Graphics</category>
@@ -23013,7 +23034,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="graphics, cpu, gpu, rendering, mtb-flow" req_capabilities_v2="pse8xxgp">
+  <app keywords="graphics, gfx, cpu, gpu, rendering, mtb-flow" req_capabilities_v2="pse8xxgp">
     <name>PSOC Edge Graphics rendering using CPU vs GPU</name>
     <id>mtb-example-psoc-edge-gfx-cpu-gpu-rendering</id>
     <category>Graphics</category>
@@ -23835,6 +23856,40 @@
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4]">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="security, power, freertos, tf-m, trustzone, mtb-flow" req_capabilities_v2="pse8xxgp">
+    <name>PSOC Edge Power Management with TF-M</name>
+    <id>mtb-example-psoc-edge-epc2-tfm-power-management</id>
+    <category>Security</category>
+    <uri>https://github.com/Infineon/mtb-example-psoc-edge-epc2-tfm-power-management</uri>
+    <description><![CDATA[This code example guides you through getting started with Power management with Trusted Firmware-M (TF-M) and FreeRTOS on PSOC&#8482; Edge MCU. The example demonstrates how to initialize the TF-M NS interface in CM33 NS project and use the services offered by TF-M with PSA APIs. The code example is designed to work on Edge Protect Category 2 (EPC2) MCU.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-epc2-tfm-power-management/blob/master/README.md">README on GitHub</a>.]]></description>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="security, power, freertos, tf-m, trustzone, mtb-flow" req_capabilities_v2="pse8xxgp">
+    <name>PSOC Edge Power Management with TF-M</name>
+    <id>mtb-example-psoc-edge-epc4-tfm-power-management</id>
+    <category>Security</category>
+    <uri>https://github.com/Infineon/mtb-example-psoc-edge-epc4-tfm-power-management</uri>
+    <description><![CDATA[This code example guides you through getting started with Power management with Trusted Firmware-M (TF-M) and FreeRTOS on Infineon's PSOC&#8482; Edge MCU. The example demonstrates how to create custom partition, initialize the TF-M NS interface in CM33 NS project and use the services offered by TF-M with PSA APIs. The code example is designed to work on Edge Protect Category 4 (EPC4) MCU.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-epc4-tfm-power-management/blob/master/README.md">README on GitHub</a>.]]></description>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
       </version>
     </versions>
   </app>
