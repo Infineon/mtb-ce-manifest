@@ -5642,9 +5642,13 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-power-modes/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>led psoc4</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_041_41xx,cy8ckit_145_40xx,cy8ckit_045s,cy8cproto_040t,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,cy8cproto_040t_ms,cy8cproto_041tp,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02]">
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_041_41xx,cy8ckit_145_40xx,cy8ckit_045s,cy8cproto_040t,cy8cproto_040t_ms,cy8cproto_041tp]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_041_41xx,cy8ckit_145_40xx,cy8ckit_045s,cy8cproto_040t,cy8cproto_040t_ms,cy8cproto_041tp]">
+        <num>2.6.0 release</num>
+        <commit>release-v2.6.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_041_41xx,cy8ckit_145_40xx,cy8ckit_045s,cy8cproto_040t,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,cy8cproto_040t_ms,cy8cproto_041tp,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02]">
         <num>2.5.0 release</num>
@@ -8994,7 +8998,7 @@
     <id>mtb-example-pmg1-usb-mux</id>
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-pmg1-usb-mux</uri>
-    <description><![CDATA[This code example demonstrates the functionality of USB 2.0 2x2 cross-bar switch analog MUX in PMG1-S1 MCU. The firmware detects the orientation of the Type-C plug connected and accordingly switches the USB MUX to route the correct DP/DM lines (USBDP/DM_TOP or USBDP/DM_BOT) to USBDP/DM_SYS pins of EZ-PD™ PMG1-S1 MCU, which can be used externally to implement USB high-speed communication.
+    <description><![CDATA[This code example demonstrates the functionality of USB 2.0 2x2 cross-bar switch analog MUX in PMG1-S1 MCU. The firmware detects the orientation of the Type-C plug connected and accordingly switches the USB MUX to route the correct DP/DM lines (USBDP/DM_TOP or USBDP/DM_BOT) to USBDP/DM_SYS pins of EZ-PD&#8482; PMG1-S1 MCU, which can be used externally to implement USB high-speed communication.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1-usb-mux/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>pmg1</req_capabilities>
     <versions>
@@ -23689,7 +23693,7 @@
     <id>mtb-example-psoc-edge-encrypted-boot</id>
     <category>Security</category>
     <uri>https://github.com/Infineon/mtb-example-psoc-edge-encrypted-boot</uri>
-    <description><![CDATA[This code example demonstrates image encryption, execution, and updates using EdgeProtect bootloader. It showcases a secure workflow for protecting external memory using encryption capabilities of Infineon's PSOC™ Edge MCU.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-encrypted-boot/blob/master/README.md">README on GitHub</a>.]]></description>
+    <description><![CDATA[This code example demonstrates image encryption, execution, and updates using EdgeProtect bootloader. It showcases a secure workflow for protecting external memory using encryption capabilities of Infineon's PSOC&#8482; Edge MCU.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-encrypted-boot/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4]">
         <num>Latest 2.X release</num>
@@ -23710,7 +23714,7 @@
     <id>mtb-example-psoc-edge-secure-power-management</id>
     <category>Security</category>
     <uri>https://github.com/Infineon/mtb-example-psoc-edge-secure-power-management</uri>
-    <description><![CDATA[This code example demonstrates secure power management of Infineon's PSOC™ Edge devices using Infineon's secure request framework (SRF), where non-secure CM33 application requests secure CM33 applications to perform the necessary configurations to achieve the desired power mode.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-secure-power-management/blob/master/README.md">README on GitHub</a>.]]></description>
+    <description><![CDATA[This code example demonstrates secure power management of Infineon's PSOC&#8482; Edge devices using Infineon's secure request framework (SRF), where non-secure CM33 application requests secure CM33 applications to perform the necessary configurations to achieve the desired power mode.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-secure-power-management/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4]">
         <num>Latest 1.X release</num>
@@ -23823,6 +23827,150 @@
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4]">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc4,capsense,multi-frequency,mtb-flow" req_capabilities_v2="capsense led psoc4">
+    <name>CAPSENSE multi-frequency scan</name>
+    <id>mtb-example-ce241762-capsense-multi-frequency-scan</id>
+    <category>Sensing</category>
+    <uri>https://github.com/Infineon/mtb-example-ce241762-capsense-multi-frequency-scan</uri>
+    <description><![CDATA[This code example demonstrates how to use the multi-frequency scan (MFS) for PSOC&#8482;  4 CAPSENSE&#8482;  applications in order to prevent false touch detection in the presence of external noise. This example demonstrates this feature for both CSD (self-capacitance) and CSX (mutual-capacitance) designs.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce241762-capsense-multi-frequency-scan/blob/master/README.md">README on GitHub</a>.]]></description>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc4,capsense,low power,tuner,led,uart,i2c,mtb-flow" req_capabilities_v2="psoc4 capsense">
+    <name>CAPSENSE low-power</name>
+    <id>mtb-example-ce241759-capsense-low-power</id>
+    <category>Sensing</category>
+    <uri>https://github.com/Infineon/mtb-example-ce241759-capsense-low-power</uri>
+    <description><![CDATA[This code example demonstrates an implementation of a low-power CAPSENSE&#8482;  design using the PSOC&#8482;  4 MCU. This example features the CAPSENSE&#8482;  buttons. It scans all the widgets and then processes the scanned data.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce241759-capsense-low-power/blob/master/README.md">README on GitHub</a>.]]></description>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc4,capsense,pipeline scan,mtb-flow" req_capabilities_v2="psoc4 led capsense">
+    <name>CAPSENSE Pipeline scan and process</name>
+    <id>mtb-example-ce241761-capsense-pipeline-scan-and-process</id>
+    <category>Sensing</category>
+    <uri>https://github.com/Infineon/mtb-example-ce241761-capsense-pipeline-scan-and-process</uri>
+    <description><![CDATA[This code example demonstrates how to implement pipeline scanning in CAPSENSE&#8482;  to improve performance. When a particular widget is processed, the next widget in line can be scanned in parallel. This method is more efficient than the traditional method of scanning all the widgets and then processing the scanned data later.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce241761-capsense-pipeline-scan-and-process/blob/master/README.md">README on GitHub</a>.]]></description>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc4,msc,capsense,csx,button,tuning,mtb-flow" req_capabilities_v2="psoc4 led msc_button">
+    <name>MSC CAPSENSE CSX button tuning</name>
+    <id>mtb-example-ce241760-msc-capsense-csx-button-tuning</id>
+    <category>Sensing</category>
+    <uri>https://github.com/Infineon/mtb-example-ce241760-msc-capsense-csx-button-tuning</uri>
+    <description><![CDATA[This code example demonstrates how to implement pipeline scanning in CAPSENSE&#8482;  to improve performance. When a particular widget is processed, the next widget in line can be scanned in parallel. This method is more efficient than the traditional method of scanning all the widgets and then processing the scanned data later.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce241760-msc-capsense-csx-button-tuning/blob/master/README.md">README on GitHub</a>.]]></description>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc4,wdt,mtb-flow" req_capabilities_v2="led psoc4">
+    <name>Watchdog timer interrupt and reset</name>
+    <id>mtb-example-ce241952-wdt-interrupt-reset</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce241952-wdt-interrupt-reset</uri>
+    <description><![CDATA[This example demonstrates how watchdog timer works with the interrupt mode and the reset mode.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce241952-wdt-interrupt-reset/blob/master/README.md">README on GitHub</a>.]]></description>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc4,timer,mtb-flow" req_capabilities_v2="led psoc4">
+    <name>TCPWM timer</name>
+    <id>mtb-example-ce241953-tcpwm-timer</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce241953-tcpwm-timer</uri>
+    <description><![CDATA[This code example shows how to configure the timer function using timer, counter and pulse-width modulator (TCPWM) block, and describes its operation and initial settings.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce241953-tcpwm-timer/blob/master/README.md">README on GitHub</a>.]]></description>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc4,pwm,mtb-flow" req_capabilities_v2="psoc4">
+    <name>TCPWM dead-time</name>
+    <id>mtb-example-ce241954-tcpwm-pwm-dt</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce241954-tcpwm-pwm-dt</uri>
+    <description><![CDATA[This code example shows a timer function using timer, counter and pulse-width modulator (TCPWM) dead-time mode function. As per the PWM dead-time mode, the PWM line pin and PWM complementary line pin output signals are based on the 2 kHz frequency. The signal is output from the line pin with a delay of 25 us from the rising edge of the 2 kHz based PWM and from the complementary line pin with a delay of 25 us from the falling edge.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce241954-tcpwm-pwm-dt/blob/master/README.md">README on GitHub</a>.]]></description>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="mtb-flow, psoc4, low power, uart, led" req_capabilities_v2="led psoc4">
+    <name>Power Modes</name>
+    <id>mtb-example-ce241955-power-modes</id>
+    <category>Getting Started</category>
+    <uri>https://github.com/Infineon/mtb-example-ce241955-power-modes</uri>
+    <description><![CDATA[This code example shows how to enter system Sleep and Deep Sleep modes in PSOC&#8482;  4 devices. After entering Sleep or Deep Sleep mode, the example also shows how to wake up from these low-power modes and return to Active mode.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce241955-power-modes/blob/master/README.md">README on GitHub</a>.]]></description>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
       </version>
     </versions>
   </app>
