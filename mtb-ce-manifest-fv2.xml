@@ -4473,24 +4473,6 @@
       </version>
     </versions>
   </app>
-  <app keywords="fx3g2,uvc,uac,4k-camera" req_capabilities_v2="fx3g2">
-    <name>UVC_UAC 4K Camera</name>
-    <id>mtb-example-fx20-uvc-uac-4k-camera</id>
-    <category>Peripherals</category>
-    <uri>https://github.com/Infineon/mtb-example-fx20-uvc-uac-4k-camera</uri>
-    <description><![CDATA[This code example demonstrates a bulk-only 4K Camera UVC 1.5 compliant application using the FX20 APIs with an LVDS/LVCMOS IP interface.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-fx20-uvc-uac-4k-camera/blob/master/README.md">README on GitHub</a>.]]></description>
-    <versions>
-      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4]">
-        <num>latest 1.X</num>
-        <commit>latest-v1.X</commit>
-      </version>
-      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4]">
-        <num>1.0.0 release</num>
-        <commit>release-v1.0.0</commit>
-      </version>
-    </versions>
-  </app>
   <app keywords="fx20,fx3g2,usb3vision,u3v" req_capabilities_v2="fx3g2">
     <name>USB3 Vision</name>
     <id>mtb-example-fx20-usb3vision</id>
