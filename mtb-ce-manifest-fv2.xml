@@ -4473,6 +4473,24 @@
       </version>
     </versions>
   </app>
+  <app keywords="fx3g2,uvc,uac,4k-camera" req_capabilities_v2="fx3g2">
+    <name>UVC_UAC 4K Camera</name>
+    <id>mtb-example-fx20-uvc-uac-4k-camera</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-fx20-uvc-uac-4k-camera</uri>
+    <description><![CDATA[This code example demonstrates a bulk-only 4K Camera UVC 1.5 compliant application using the FX20 APIs with an LVDS/LVCMOS IP interface.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-fx20-uvc-uac-4k-camera/blob/master/README.md">README on GitHub</a>.]]></description>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>latest 1.X</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
   <app keywords="fx20,fx3g2,usb3vision,u3v" req_capabilities_v2="fx3g2">
     <name>USB3 Vision</name>
     <id>mtb-example-fx20-usb3vision</id>
@@ -4524,7 +4542,7 @@
   <app keywords="fx2g3,usbhs" req_capabilities_v2="fx2g3">
     <name>USBHS Device</name>
     <id>mtb-example-fx2g3-usbhs-device</id>
-    <category>Getting Started</category>
+    <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-fx2g3-usbhs-device</uri>
     <description><![CDATA[This code example demonstrates a vendor-specific USB device implementation for testing data transfers using Bulk, Interrupt, and Isochronous endpoints on USB 2.0 interfaces.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-fx2g3-usbhs-device/blob/master/README.md">README on GitHub</a>.]]></description>
@@ -4554,7 +4572,7 @@
   <app keywords="fx2g3,uart,lvcmos,sip" req_capabilities_v2="fx2g3">
     <name>Slave FIFO In</name>
     <id>mtb-example-fx2g3-slave-fifo-in</id>
-    <category>Getting Started</category>
+    <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-fx2g3-slave-fifo-in</uri>
     <description><![CDATA[This code example demonstrates the configuration and usage of the Sensor Interface Port (SIP) on the FX2G3 device to implement the Synchronous Slave FIFO IN protocol.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-fx2g3-slave-fifo-in/blob/master/README.md">README on GitHub</a>.]]></description>
@@ -4584,7 +4602,7 @@
   <app keywords="fx2g3,uart,lvcmos,sip" req_capabilities_v2="fx2g3">
     <name>Slave FIFO Out</name>
     <id>mtb-example-fx2g3-slave-fifo-out</id>
-    <category>Getting Started</category>
+    <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-fx2g3-slave-fifo-out</uri>
     <description><![CDATA[This code example demonstrates the configuration and usage of the Sensor Interface Port (SIP) on the FX2G3 device to implement the Synchronous Slave FIFO OUT protocol.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-fx2g3-slave-fifo-out/blob/master/README.md">README on GitHub</a>.]]></description>
@@ -4614,7 +4632,7 @@
   <app keywords="fx2g3,uvc,uac,camera" req_capabilities_v2="fx2g3">
     <name>UVC-UAC</name>
     <id>mtb-example-fx2g3-uvc-uac</id>
-    <category>Getting Started</category>
+    <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-fx2g3-uvc-uac</uri>
     <description><![CDATA[This code example demonstrates a UVC 1.1 compliant camera application using the FX2G3 device, including an integrated USB Audio Class interface for streaming audio from a PDM microphone. It also illustrates the configuration and usage of the Sensor Interface Port (SIP) to implement the Synchronous Slave FIFO IN protocol.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-fx2g3-uvc-uac/blob/master/README.md">README on GitHub</a>.]]></description>
