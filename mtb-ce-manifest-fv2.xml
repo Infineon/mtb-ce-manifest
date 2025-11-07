@@ -21344,20 +21344,20 @@
       </version>
     </versions>
   </app>
-  <app keywords="sensor, hub, data, aquisition,mtb-flow" req_capabilities_v2="pse8xxgp">
-    <name>PSOC Edge Sensor Hub Data Acquisition</name>
-    <id>mtb-example-psoc-edge-sensor-hub-data-acquisition</id>
+  <app keywords="sensor, hub, imu, aquisition, fusion, orientation, mtb-flow" req_capabilities_v2="pse8xxgp">
+    <name>PSOC Edge Sensor Hub IMU</name>
+    <id>mtb-example-psoc-edge-sensor-hub-imu</id>
     <category>Sensing</category>
-    <uri>https://github.com/Infineon/mtb-example-psoc-edge-sensor-hub-data-acquisition</uri>
-    <description><![CDATA[This code example demonstrates how to collect raw data from onboard sensors on a PSOC&#8482; Edge E84 Evaluation Kit. The program utilizes the Arm&#174; CM33 CPU to gather data at a rate of 100 Hz and then transmit it via UART to an external device. With this example, users can quickly get started with the Sensor Hub Data Acquisition and gain insight into how to collect and process data from various sensors in real-time.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-sensor-hub-data-acquisition/blob/master/README.md">README on GitHub</a>.]]></description>
+    <uri>https://github.com/Infineon/mtb-example-psoc-edge-sensor-hub-imu</uri>
+    <description><![CDATA[This code example demonstrates how to collect raw data from onboard sensors on a PSOC&#8482; Edge Kit. The program utilizes the Arm&#174; CM33 CPU to gather data at a rate of 100 Hz and then transmit it via UART to an external device. With this example, users can quickly get started with the Sensor Hub Data Acquisition and gain insight into how to collect and process data from various sensors in real-time.<br><br>The user may optionally enable sensor fusion functionality for fusing the 6 axis sensor data using BSXlite sensor fusion library to compute the Euler angles and Quaternion vectors. With this extended use case, users can gain insight into how to process and fuse data from accelerometer and gyroscope sensors in real-time.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-sensor-hub-imu/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4]">
-        <num>2.0.0 release</num>
-        <commit>release-v2.0.0</commit>
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
       </version>
     </versions>
   </app>
@@ -22544,6 +22544,23 @@
       </version>
     </versions>
   </app>
+  <app keywords="audio, benchmarking, mtb-flow" req_capabilities_v2="pse8xxgp">
+    <name>PSOC Edge Audio Benchmarking</name>
+    <id>mtb-example-psoc-edge-audiomark-port</id>
+    <category>Audio</category>
+    <uri>https://github.com/Infineon/mtb-example-psoc-edge-audiomark-port</uri>
+    <description><![CDATA[This code example demonstrates how to run audio benchmarking on the PSOC&#8482; Edge MCU. The PSOC&#8482; Edge MCU audio benchmarking is based upon the EEMBC AudioMark&#8482; benchmarking software. AudioMark&#8482; is a trademark of EEMBC. The AudioMark&#8482; benchmarking software has been modified by porting the software to run on the PSOC&#8482; Edge MCU. For information  about this benchmarking, see [this website](https://www.eembc.org/audiomark/). Note that the scores generated in this code example were not reviewed by the EEMBC, therefore is not an official AudioMark&#8482; score.<br><br>You can choose to run the AudioMark on CM33 or CM55 cores, and if a neural processing unit (NPU) should be used.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-audiomark-port/blob/master/README.md">README on GitHub</a>.]]></description>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
   <app keywords="power, measurements, mtb-flow" req_capabilities_v2="pse8xxgp">
     <name>PSOC Edge Power Measurements</name>
     <id>mtb-example-psoc-edge-power-measurements</id>
@@ -22896,11 +22913,15 @@
     <id>mtb-example-psoc-edge-filesystem-emfile-freertos</id>
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-psoc-edge-filesystem-emfile-freertos</uri>
-    <description><![CDATA[This code example demonstrates the implementation of an emFile filesystem on Arm&#174; Cortex&#174; M33 CPU using PSOC&#8482; Edge MCU. The CM33 CPU formats the storage device, reads a file and prints its content to the UART terminal. It overwrites the file with a message and deletes the file if requested through a user button press. The storage device can be an SD card.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-filesystem-emfile-freertos/blob/master/README.md">README on GitHub</a>.]]></description>
+    <description><![CDATA[This code example demonstrates the implementation of an emFile filesystem on Arm&#174; Cortex&#174; M33 CPU using PSOC&#8482; Edge MCU. The CM33 CPU formats the storage device, reads a file and prints its content to the UART terminal. It overwrites the file with a message and deletes the file if requested through a user button press. The storage device can be an SD card or the onboard external NOR flash device.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-filesystem-emfile-freertos/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4]">
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4]">
         <num>2.0.0 release</num>
