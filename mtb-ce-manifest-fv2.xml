@@ -16675,6 +16675,44 @@
       </version>
     </versions>
   </app>
+  <app keywords="xensiv,psoc6,pdm,microphone" req_capabilities_v2="psoc6 pdm i2c uart">
+    <name>XENSIV AudioShield four-Channel microphone</name>
+    <id>mtb-example-ce241889-xensiv-audioshield-four-channel-microphone </id>
+    <category>Sensing</category>
+    <uri>https://github.com/Infineon/mtb-example-ce241889-xensiv-audioshield-four-channel-microphone</uri>
+    <description><![CDATA[This project provides a code example for the XENSIV&#8482; PSOC&#8482; 6 Audioshield, enabling connection of up to four analog or digital microphones to a PC via USB.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce241889-xensiv-audioshield-four-channel-microphone/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>uart pdm psoc6 pdl i2c</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_062s2_43012,cy8ceval_062s2]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_062s2_43012,cy8ceval_062s2]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="xensiv,psoc6,pdm,microphone" req_capabilities_v2="psoc6 pdm i2c uart">
+    <name>XENSIV microphone Audio Shield Stereo</name>
+    <id>mtb-example-ce242117-xensiv-microphone-audioshield-stereo</id>
+    <category>Sensing</category>
+    <uri>https://github.com/Infineon/mtb-example-ce242117-xensiv-microphone-audioshield-stereo</uri>
+    <description><![CDATA[This project provides a code example for the XENSIV&#8482; PSOC&#8482; 6 Audioshield, enabling connection of up to two analog or digital microphones to a PC via USB.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce242117-xensiv-microphone-audioshield-stereo/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>uart pdm psoc6 pdl i2c</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_062s2_43012,cy8ceval_062s2]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_062s2_43012,cy8ceval_062s2]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
   <app keywords="ezi2c,master,slave,mtb-flow" req_capabilities_v2="i2c [cyw20829,cyw920829m2evk_02]">
     <name>EzI2C Deep Sleep</name>
     <id>mtb-example-cyw20829-ezi2c-deepsleep</id>
