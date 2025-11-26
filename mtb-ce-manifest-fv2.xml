@@ -16681,7 +16681,7 @@
   </app>
   <app keywords="xensiv,psoc6,pdm,microphone" req_capabilities_v2="psoc6 pdm i2c uart">
     <name>XENSIV AudioShield four-Channel microphone</name>
-    <id>mtb-example-ce241889-xensiv-audioshield-four-channel-microphone </id>
+    <id>mtb-example-ce241889-xensiv-audioshield-four-channel-microphone</id>
     <category>Sensing</category>
     <uri>https://github.com/Infineon/mtb-example-ce241889-xensiv-audioshield-four-channel-microphone</uri>
     <description><![CDATA[This project provides a code example for the XENSIV&#8482; PSOC&#8482; 6 Audioshield, enabling connection of up to four analog or digital microphones to a PC via USB.
