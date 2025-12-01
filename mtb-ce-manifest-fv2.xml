@@ -1008,7 +1008,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="oob,led,starter,hello world,mtb-flow" req_capabilities_v2="hal led uart switch [xmc7000,kit_t2g_b_h_evk]">
+  <app keywords="oob,led,starter,hello world,mtb-flow" req_capabilities_v2="hal led uart switch [xmc7000]">
     <name>XMC7000 OOB Demo</name>
     <id>mtb-example-xmc7000-oob-demo</id>
     <category>Getting Started</category>
@@ -1041,11 +1041,11 @@
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc72_evk,kit_t2g_b_h_evk]">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc72_evk]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc72_evk,kit_t2g_b_h_evk]">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc72_evk]">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
@@ -1544,7 +1544,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="multicore,starter,template,empty,blank,mtb-flow" req_capabilities_v2="[xmc7000,kit_t2g_b_h_evk,kit_t2g_b_h_lite]">
+  <app keywords="multicore,starter,template,empty,blank,mtb-flow" req_capabilities_v2="[xmc7000]">
     <name>Multicore Empty App</name>
     <id>mtb-example-xmc7000-multicore-empty-app</id>
     <category>Getting Started</category>
@@ -1578,7 +1578,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="multicore,ipc,mtb-flow,pipes" req_capabilities_v2="multi_core [xmc7000,kit_t2g_b_h_evk,kit_t2g_b_h_lite]">
+  <app keywords="multicore,ipc,mtb-flow,pipes" req_capabilities_v2="multi_core [xmc7000]">
     <name>Multicore IPC Pipes</name>
     <id>mtb-example-xmc7000-multicore-ipc-pipes</id>
     <category>Peripherals</category>
