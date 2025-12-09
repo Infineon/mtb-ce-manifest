@@ -18539,6 +18539,44 @@
       </version>
     </versions>
   </app>
+  <app keywords="mtb-flow,threadx,cyw55913,wifi,matter" req_capabilities_v2="cyw55xxx [cyw955913evk_01]">
+    <name>Matter Wi-Fi ThreadX Door Lock</name>
+    <id>mtb-example-cyw955913-matter-door-lock</id>
+    <category>Connectivity</category>
+    <uri>https://github.com/Infineon/mtb-example-cyw955913-matter-door-lock</uri>
+    <description><![CDATA[This code example makes use of Matter on an Infineon CYW955913EVK-01 EVK board to demonstrate it's functionality as a Wi-Fi door lock device.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-cyw955913-matter-door-lock/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>wifi led cyw55913</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5,bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5,bsp_gen4]">
+        <num>1.4.2 release</num>
+        <commit>release-v1.4.2</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="mtb-flow,threadx,cyw55913,wifi,matter" req_capabilities_v2="cyw55xxx [cyw955913evk_01]">
+    <name>Matter Wi-Fi ThreadX Air Purifier</name>
+    <id>mtb-example-cyw955913-matter-air-purifier</id>
+    <category>Connectivity</category>
+    <uri>https://github.com/Infineon/mtb-example-cyw955913-matter-air-purifier</uri>
+    <description><![CDATA[This code example makes use of Matter on an Infineon CYW955913EVK-01 EVK board to demonstrate it's functionality as a Wi-Fi air purifier device.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-cyw955913-matter-air-purifier/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>wifi led cyw55913</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5,bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5,bsp_gen4]">
+        <num>1.4.2 release</num>
+        <commit>release-v1.4.2</commit>
+      </version>
+    </versions>
+  </app>
   <app keywords="mtb-flow,twt,threadx,cyw55913" req_capabilities_v2="cyw55913">
     <name>Target Wake Time</name>
     <id>mtb-example-threadx-wifi-twt</id>
