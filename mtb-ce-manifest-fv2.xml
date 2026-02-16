@@ -20710,9 +20710,13 @@
     <uri>https://github.com/Infineon/mtb-example-edge-protect-bootloader</uri>
     <description><![CDATA[This is Edge Protect Bootloader code example for  PSOC&#8482; Edge MCU.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
+        <num>release-v2.3.0</num>
+        <commit>release-v2.3.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
         <num>release-v2.2.0</num>
@@ -21880,9 +21884,13 @@
     <uri>https://github.com/Infineon/mtb-example-psoc-edge-usb-device-audio-recorder</uri>
     <description><![CDATA[This example demonstrates how to implement an audio recorder application by setting up the USB block of PSOC&#8482; Edge MCU as a USB audio class device using the Segger's emUSB-Device middleware.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-usb-device-audio-recorder/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
+        <num>2.2.0 release</num>
+        <commit>release-v2.2.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
         <num>2.1.0 release</num>
@@ -22057,9 +22065,13 @@
     <uri>https://github.com/Infineon/mtb-example-psoc-edge-uart-transmit-receive-dma</uri>
     <description><![CDATA[This code example demonstrates the UART transmit and receive operation in PSOC&#8482; Edge MCU using DMA. The application uses a serial terminal to read data and echoes what is received. UART is configured to perform both transmit and receive operations.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-uart-transmit-receive-dma/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
+        <num>2.2.0 release</num>
+        <commit>release-v2.2.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
         <num>2.1.0 release</num>
@@ -22095,9 +22107,13 @@
     <uri>https://github.com/Infineon/mtb-example-psoc-edge-btstack-findme</uri>
     <description><![CDATA[This code example demonstrates the implementation of a simple Bluetooth&#174; Immediate Alert Service (IAS)-based Find Me Profile (FMP) using the Infineon PSOC&#8482; Edge MCU with AIROC&#8482; CYW55513 and ModusToolbox&#8482; software environment.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-btstack-findme/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
+        <num>2.2.0 release</num>
+        <commit>release-v2.2.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
         <num>2.1.0 release</num>
@@ -22475,9 +22491,13 @@
     <uri>https://github.com/Infineon/mtb-example-psoc-edge-ml-deepcraft-deploy-motion</uri>
     <description><![CDATA[This code example demonstrates how to deploy a Machine Learning (ML) model for Motion generated from DEEPCRAFT&#8482; Studio on the PSOC&#8482; Edge MCU. It comes pre-configured with the Human Activity Detection Starter Model from the DEEPCRAFT&#8482; Studio that uses the data from the BMI270 IMU to detect various motions such as standing, running, walking, sitting, and jumping. New models based on the IMU can be dropped into the project as-is. The model can be run on either the Arm&#174; Cortex&#174; M33 (CM33) or Cortex&#174; M55 (CM55) CPUs along with their accelerators.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-ml-deepcraft-deploy-motion/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
+        <num>2.3.0 release</num>
+        <commit>release-v2.3.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
         <num>2.2.0 release</num>
@@ -22500,9 +22520,13 @@
     <uri>https://github.com/Infineon/mtb-example-psoc-edge-ml-deepcraft-data-collection</uri>
     <description><![CDATA[This code example demonstrates how to collect data from PSOC&#8482; Edge E84 MCU boards using DEEPCRAFT&#8482; Studio. The example implements the DEEPCRAFT&#8482; streaming protocol v2, allowing the streaming of sensor data and other information from the board into DEEPCRAFT&#8482; Studio over USB for development and testing of Edge AI models.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-ml-deepcraft-data-collection/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
+        <num>2.3.0 release</num>
+        <commit>release-v2.3.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
         <num>2.2.0 release</num>
@@ -22676,9 +22700,13 @@
     <uri>https://github.com/Infineon/mtb-example-psoc-edge-wifi-web-server</uri>
     <description><![CDATA[This code example demonstrates Wi-Fi provisioning via a SoftAP and setting up a web server using the PSOC&#8482; Edge E84 MCU and a WLAN AIROC&#8482; CYW55513 Wi-Fi & Bluetooth&#174; combo chip<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-wifi-web-server/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
+        <num>2.3.0 release</num>
+        <commit>release-v2.3.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
         <num>2.2.0 release</num>
@@ -22931,9 +22959,13 @@
     <uri>https://github.com/Infineon/mtb-example-psoc-edge-coremark-port</uri>
     <description><![CDATA[This code example demonstrates how to run core benchmarking on the PSOC&#8482; Edge MCU. The PSOC&#8482; Edge MCU core benchmarking is based upon the EEMBC CoreMark&#174; benchmarking software. CoreMark&#174; is a registered trademark of EEMBC. The CoreMark&#174; benchmarking software has been modified by porting the software to run on the PSOC&#8482; Edge MCU. For information about this benchmarking, see this website. Note that the scores generated in this code example were not reviewed by the EEMBC, therefore is not an official CoreMark&#174; score.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-coremark-port/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2]">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2]">
         <num>1.0.0 release</num>
@@ -23067,9 +23099,13 @@
     <description><![CDATA[This code example shows a 2D graphics demo on a MIPI (Mobile Industry Processor Interface) DSI (Display Serial Interface) display using the Light and Versatile Graphics Library (LVGL) on the PSOC&#8482; Edge MCU in a FreeRTOS environment. The 2D graphics displays a music player application, which is listed as one of the standard demo on the LVGL page. This code example supports following displays: Waveshare 4.3-inch 800*480 DSI LCD, Waveshare 7-inch 1024*600 DSI C LCD, and 10.1-inch 1024*600 TFT LCD (WF101JTYAHMNB0). All the three displays are swappable and connected to the PSOC&#8482; Edge E84 Evaluation Kit via MIPI DSI.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-gfx-lvgl-demo/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
+        <num>2.3.0 release</num>
+        <commit>release-v2.3.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
         <num>2.2.0 release</num>
@@ -23113,9 +23149,13 @@
     <uri>https://github.com/Infineon/mtb-example-psoc-edge-ml-face-id</uri>
     <description><![CDATA[This code example demonstrates Infineon's comprehensive solution for real-time Face ID, utilizing USB camera and MIPI DSI display interfacing with the PSOC&#8482; Edge MCU. It also facilitates both on-device face enrolment, as well as face recognition for the detected enrolled users through the camera. The detected human faces are highlighted by displaying a bounding box around them, along with the corresponding enrolled user ID or "unknown" text in the case of a non-enrolled user, on the live video streamed through the USB camera.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-ml-face-id/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
         <num>1.0.0 release</num>
@@ -23396,9 +23436,13 @@
     <uri>https://github.com/Infineon/mtb-example-psoc-edge-ml-profiler</uri>
     <description><![CDATA[This code example demonstrates how to use the ModusToolbox&#8482; Machine Learning (ModusToolbox&#8482;-ML) development flow on PSOC&#8482; Edge MCU, where the end user has a pre-trained neural network (NN) model, which can be profiled and validated on the PC and target device. <br> The user can import a pre-trained model using the ModusToolbox&#8482;-ML Configurator tool, create an embedded, optimized version of this model, and validate the performance on the PC. After this, the validation data files can be integrated with this code example or streamed to the device (default option), so the user can run the same validation data and profile performance when the ML model is deployed on the PSOC&#8482; Edge MCU. The user can also select where to deploy and run the model.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-ml-profiler/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
+        <num>2.2.0 release</num>
+        <commit>release-v2.2.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
         <num>2.1.0 release</num>
@@ -23489,9 +23533,13 @@
     <uri>https://github.com/Infineon/mtb-example-psoc-edge-gfx-single-double-buffering</uri>
     <description><![CDATA[The code example showcases how to use the graphics subsystem of PSOC&#8482; Edge MCU to render images on an LCD screen, utilizing either single or double buffering mode. Single Buffering: A single buffer is used for draw and display the image frames sequentially.Double Buffering: This process involves using one buffer to create a frame while another buffer is simultaneously utilized to display the previously composed frame. In continuous mode (video burst), the buffers are swapped and used in a ping-pong fashion in the next iteration.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-gfx-single-double-buffering/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
+        <num>2.2.0 release</num>
+        <commit>release-v2.2.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
         <num>2.1.0 release</num>
@@ -23612,17 +23660,21 @@
     <uri>https://github.com/Infineon/mtb-example-psoc-edge-voice-assistant-deploy</uri>
     <description><![CDATA[This code example demonstrates how to use PSOC&#8482; Edge MCU to deploy DEEPCRAFT&#8482; Voice Assistant models to detect wake words and spoken commands using natural language.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-voice-assistant-deploy/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
-        <num>1.0.0 release</num>
-        <commit>release-v1.0.0</commit>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
+        <num>1.2.0 release</num>
+        <commit>release-v1.2.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
       </version>
     </versions>
   </app>
@@ -23933,9 +23985,13 @@
     <uri>https://github.com/Infineon/mtb-example-psoc-edge-sram-loading</uri>
     <description><![CDATA[This code example showcases a simple application running from SRAM memory. The application is copied to SRAM by Edge Protect Bootloader<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-sram-loading/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
+        <num>2.3.0 release</num>
+        <commit>release-v2.3.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
         <num>2.2.0 release</num>
@@ -23958,9 +24014,13 @@
     <uri>https://github.com/Infineon/mtb-example-psoc-edge-basic-secure-app</uri>
     <description><![CDATA[This code example guides the user to sign a basic application (proj_cm33_s) and enable "secure boot" in Extended Boot. With "secure boot" enabled, Extended Boot ensures that the application is validated before being launched.This example can also be utilized with the Edge Protect Bootloader code example<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-basic-secure-app/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
+        <num>2.2.0 release</num>
+        <commit>release-v2.2.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
         <num>2.1.0 release</num>
@@ -24033,9 +24093,13 @@
     <uri>https://github.com/Infineon/mtb-example-psoc-edge-otw-update</uri>
     <description><![CDATA[This code example demonstrates how Infineon's Device Firmware Update Middleware (DFU) can be utilized to update firmware over a serial interface, such as UART, SPI, or I2C. Host (typically a PC) running the DFU Host Tool establishes a connection with the target device and downloads an application intended for the update to the staging region. Once the application is successfully downloaded, application resets the device to transfers the control to the bootloader. This example allows for easy switching between I2C, UART, or SPI interfaces while application is running, without requiring the device to be power cycled.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-otw-update/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
+        <num>2.2.0 release</num>
+        <commit>release-v2.2.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
         <num>2.1.0 release</num>
@@ -24148,9 +24212,13 @@
     <uri>https://github.com/Infineon/mtb-example-psoc-edge-epc2-tfm</uri>
     <description><![CDATA[This is a basic code example for getting started with Trusted Firmware-M (TF-M) on Infineon's PSOC&#8482; Edge MCU. The example demonstrates how to initialize the TF-M NS interface in CM33 NS project and use the services offered by TF-M with PSA APIs. The code example is designed to work on Edge Protect Category 2 (EPC2) MCU.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-epc2-tfm/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2]">
+        <num>2.2.0 release</num>
+        <commit>release-v2.2.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2]">
         <num>2.1.0 release</num>
@@ -24169,9 +24237,13 @@
     <uri>https://github.com/Infineon/mtb-example-psoc-edge-epc2-tfm-attestation</uri>
     <description><![CDATA[This is a TF-M-based code example for demonstrating the initial attestation on Infineon's PSOC&#8482; Edge MCU. The example demonstrates how to initialize the TF-M NS interface in CM33 NS and CM55 NSPE projects and use the initial attestation service offered by TF-M to generate an attestation token. The example also shows how to verify the attestation token with the IAK public key. The code example is designed to work on Edge Protect Category 2 (EPC2) MCU.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-epc2-tfm-attestation/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2]">
+        <num>2.2.0 release</num>
+        <commit>release-v2.2.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2]">
         <num>2.1.0 release</num>
@@ -24190,9 +24262,13 @@
     <uri>https://github.com/Infineon/mtb-example-psoc-edge-epc2-tfm-crypto</uri>
     <description><![CDATA[This code example demonstrates cryptography using Trusted Firmware-M (TF-M) on PSOC&#8482; Edge MCU. The example demonstrates how to initialize the TF-M NS interface in CM33 NS and CM55 NS projects, and use the crypto services offered by TF-M with PSA APIs. The code example is designed to work on Edge Protect Category 2 (EPC2) MCU.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-epc2-tfm-crypto/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2]">
+        <num>2.2.0 release</num>
+        <commit>release-v2.2.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2]">
         <num>2.1.0 release</num>
@@ -24211,9 +24287,13 @@
     <uri>https://github.com/Infineon/mtb-example-psoc-edge-epc4-tfm</uri>
     <description><![CDATA[This is a basic code example for getting started with Trusted Firmware-M (TF-M) on Infineon's PSOC&#8482; Edge MCU. The example demonstrates how to initialize the TF-M NS interface in CM33 NS project and use the services offered by TF-M with PSA APIs. The code example is designed to work on Edge Protect Category 4 (EPC4) MCU.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-epc2-tfm/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc4]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc4]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc4]">
+        <num>2.2.0 release</num>
+        <commit>release-v2.2.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc4]">
         <num>2.1.0 release</num>
@@ -24232,9 +24312,13 @@
     <uri>https://github.com/Infineon/mtb-example-psoc-edge-epc4-tfm-attestation</uri>
     <description><![CDATA[This is a TF-M-based code example for demonstrating the initial attestation on Infineon's PSOC&#8482; Edge MCU. The example demonstrates how to initialize the TF-M NS interface in CM33 NS and CM55 NSPE projects and use the initial attestation service offered by TF-M to generate an attestation token. The example also shows how to verify the attestation token with the IAK public key. The code example is designed to work on Edge Protect Category 4 (EPC4) MCU.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-epc4-tfm-attestation/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc4]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc4]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc4]">
+        <num>2.2.0 release</num>
+        <commit>release-v2.2.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc4]">
         <num>2.1.0 release</num>
@@ -24253,9 +24337,13 @@
     <uri>https://github.com/Infineon/mtb-example-psoc-edge-epc4-tfm-crypto</uri>
     <description><![CDATA[This code example demonstrates cryptography using Trusted Firmware-M (TF-M) on PSOC&#8482; Edge MCU. The example demonstrates how to initialize the TF-M NS interface in CM33 NS and CM55 NS projects, and use the crypto services offered by TF-M with PSA APIs. The code example is designed to work on Edge Protect Category 4 (EPC4) MCU.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-epc4-tfm-crypto/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc4]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc4]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc4]">
+        <num>2.2.0 release</num>
+        <commit>release-v2.2.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc4]">
         <num>2.1.0 release</num>
@@ -24274,9 +24362,13 @@
     <uri>https://github.com/Infineon/mtb-example-psoc-edge-encrypted-boot</uri>
     <description><![CDATA[This code example demonstrates image encryption, execution, and updates using EdgeProtect bootloader. It showcases a secure workflow for protecting external memory using encryption capabilities of Infineon's PSOC&#8482; Edge MCU.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-encrypted-boot/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
+        <num>2.2.0 release</num>
+        <commit>release-v2.2.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
         <num>2.1.0 release</num>
@@ -24299,9 +24391,13 @@
     <uri>https://github.com/Infineon/mtb-example-psoc-edge-secure-power-management</uri>
     <description><![CDATA[This code example demonstrates secure power management of Infineon's PSOC&#8482; Edge devices using Infineon's secure request framework (SRF), where non-secure CM33 application requests secure CM33 applications to perform the necessary configurations to achieve the desired power mode.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-secure-power-management/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4]">
+        <num>1.2.0 release</num>
+        <commit>release-v1.2.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4]">
         <num>1.1.0 release</num>
@@ -24321,9 +24417,13 @@
     <description><![CDATA[This code example demonstrates a real-time hand gesture detection that uses a USB camera to capture live video and a DEEPCRAFT&#8482; Studio object detection model to detect hand gestures (rock, paper, or scissors) in the video feed using ModusToolbox&#8482;. The detected gestures are highlighted by drawing a bounding box around the gesture and displaying the corresponding text (rock, paper, or scissors) in a text box on the display.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-ml-deepcraft-deploy-vision/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>pse8xxgp</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_ai]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_ai]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_ai]">
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_ai]">
         <num>2.0.1 release</num>
@@ -24436,9 +24536,13 @@
     <uri>https://github.com/Infineon/mtb-example-psoc-edge-epc2-tfm-power-management</uri>
     <description><![CDATA[This code example guides you through getting started with Power management with Trusted Firmware-M (TF-M) and FreeRTOS on PSOC&#8482; Edge MCU. The example demonstrates how to initialize the TF-M NS interface in CM33 NS project and use the services offered by TF-M with PSA APIs. The code example is designed to work on Edge Protect Category 2 (EPC2) MCU.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-epc2-tfm-power-management/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2]">
+        <num>1.2.0 release</num>
+        <commit>release-v1.2.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2]">
         <num>1.1.0 release</num>
@@ -24457,9 +24561,13 @@
     <uri>https://github.com/Infineon/mtb-example-psoc-edge-epc4-tfm-power-management</uri>
     <description><![CDATA[This code example guides you through getting started with Power management with Trusted Firmware-M (TF-M) and FreeRTOS on Infineon's PSOC&#8482; Edge MCU. The example demonstrates how to create custom partition, initialize the TF-M NS interface in CM33 NS project and use the services offered by TF-M with PSA APIs. The code example is designed to work on Edge Protect Category 4 (EPC4) MCU.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-epc4-tfm-power-management/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc4]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc4]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc4]">
+        <num>1.2.0 release</num>
+        <commit>release-v1.2.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc4]">
         <num>1.1.0 release</num>
@@ -24661,9 +24769,13 @@
     <p><b>NOTE: This code example requires the DEEPCRAFT&#8482; Audio Enhancement Tech Pack to be installed before importing the code. Install the tech pack from <a href="https://softwaretools.infineon.com/tools/com.ifx.tb.tool.modustoolboxsetup">ModusToolbox&#8482; Setup</a> to successfully build the code and to use AFE configurator. If the tech pack is installed after importing the code, Open the "battery_powered_ae_config.mtbafe" in common_modules folder via AFE configurator and save it.</b></p>
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-battery-powered-local-voice/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4]">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4]">
         <num>1.0.0 release</num>
