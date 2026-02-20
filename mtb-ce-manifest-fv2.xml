@@ -18560,13 +18560,13 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-cyw20829-xensiv-pasco2v15/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>cyw20829</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen5">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version="bsp_gen5">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen5">
-        <num>1.0.0 release</num>
-        <commit>release-v1.0.0</commit>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version="bsp_gen5">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
       </version>
     </versions>
   </app>
@@ -18579,13 +18579,13 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-cyw20829-xensiv-dps368/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>cyw20829</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen5">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version="bsp_gen5">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen5">
-        <num>1.0.0 release</num>
-        <commit>release-v1.0.0</commit>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version="bsp_gen5">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
       </version>
     </versions>
   </app>
@@ -18598,13 +18598,13 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-cyw20829-xensiv-bgt60ltr11aip-autonomous/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>cyw20829</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen5">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version="bsp_gen5">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen5">
-        <num>1.0.0 release</num>
-        <commit>release-v1.0.0</commit>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version="bsp_gen5">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
       </version>
     </versions>
   </app>
@@ -18617,13 +18617,13 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-cyw20829-relative-humidity-sht35/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>cyw20829</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen5">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version="bsp_gen5">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen5">
-        <num>1.0.0 release</num>
-        <commit>release-v1.0.0</commit>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version="bsp_gen5">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
       </version>
     </versions>
   </app>
@@ -18636,13 +18636,13 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-cyw20829-magnetometer-bmm350/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>cyw20829</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen5">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version="bsp_gen5">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen5">
-        <num>1.0.0 release</num>
-        <commit>release-v1.0.0</commit>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version="bsp_gen5">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
       </version>
     </versions>
   </app>
@@ -18655,13 +18655,13 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-cyw20829-imu-bmi270/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>cyw20829</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen5">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version="bsp_gen5">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen5">
-        <num>1.0.0 release</num>
-        <commit>release-v1.0.0</commit>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version="bsp_gen5">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
       </version>
     </versions>
   </app>
@@ -18674,13 +18674,13 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-cyw20829-xensiv-sensorhub/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>cyw20829</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen5">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version="bsp_gen5">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen5">
-        <num>1.0.0 release</num>
-        <commit>release-v1.0.0</commit>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version="bsp_gen5">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
       </version>
     </versions>
   </app>
