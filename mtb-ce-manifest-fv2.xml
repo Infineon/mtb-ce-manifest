@@ -16924,6 +16924,25 @@
       </version>
     </versions>
   </app>
+  <app keywords="xensiv,psoc6,magnetics" req_capabilities_v2="psoc6 spi i2c uart">
+    <name>XENSIV-3D-Magnetic-Sensor-Readout</name>
+    <id>mtb-example-ce242472-xensiv-3D-magnetic-sensor-readout</id>
+    <category>Sensing</category>
+    <uri>https://github.com/Infineon/mtb-example-ce242472-xensiv-3D-magnetic-sensor-readout</uri>
+    <description><![CDATA[This  code example enables customer to read data from the XENSIV&#8482; magnetic sensor in x,y and Z axes to a PC via USB.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce242472-xensiv-3D-magnetic-sensor-readout/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>uart spi psoc6  i2c</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_062_4343w]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_062_4343w]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
   <app keywords="ezi2c,master,slave,mtb-flow" req_capabilities_v2="i2c [cyw20829,cyw920829m2evk_02]">
     <name>EzI2C Deep Sleep</name>
     <id>mtb-example-cyw20829-ezi2c-deepsleep</id>
