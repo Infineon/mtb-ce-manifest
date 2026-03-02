@@ -4496,6 +4496,10 @@
         <commit>latest-v1.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>1.0.1 release</num>
+        <commit>release-v1.0.1</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -4550,6 +4554,10 @@
         <commit>latest-v1.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>1.0.4 release</num>
+        <commit>release-v1.0.4</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
         <num>1.0.3 release</num>
         <commit>release-v1.0.3</commit>
       </version>
@@ -4578,6 +4586,10 @@
       <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
         <num>latest 1.X</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>1.0.4 release</num>
+        <commit>release-v1.0.4</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
         <num>1.0.3 release</num>
@@ -4610,6 +4622,10 @@
         <commit>latest-v1.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>1.0.4 release</num>
+        <commit>release-v1.0.4</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
         <num>1.0.3 release</num>
         <commit>release-v1.0.3</commit>
       </version>
@@ -4638,6 +4654,10 @@
       <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
         <num>latest 1.X</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>1.0.4 release</num>
+        <commit>release-v1.0.4</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
         <num>1.0.3 release</num>
@@ -4670,6 +4690,10 @@
         <commit>latest-v1.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>1.0.4 release</num>
+        <commit>release-v1.0.4</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
         <num>1.0.3 release</num>
         <commit>release-v1.0.3</commit>
       </version>
@@ -4698,6 +4722,10 @@
       <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
         <num>latest 1.X</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>1.0.4 release</num>
+        <commit>release-v1.0.4</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
         <num>1.0.3 release</num>
@@ -4730,6 +4758,10 @@
         <commit>latest-v1.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>1.0.2 release</num>
+        <commit>release-v1.0.2</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
         <num>1.0.1 release</num>
         <commit>release-v1.0.1</commit>
       </version>
@@ -4752,6 +4784,10 @@
         <commit>latest-v1.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>1.0.1 release</num>
+        <commit>release-v1.0.1</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -4768,6 +4804,10 @@
       <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
         <num>latest 1.X</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>1.0.2 release</num>
+        <commit>release-v1.0.2</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
         <num>1.0.1 release</num>
@@ -4792,6 +4832,10 @@
         <commit>latest-v1.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>1.0.2 release</num>
+        <commit>release-v1.0.2</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
         <num>1.0.1 release</num>
         <commit>release-v1.0.1</commit>
       </version>
@@ -4808,6 +4852,28 @@
     <uri>https://github.com/Infineon/mtb-example-fx2g3-protocol-analyzer</uri>
     <description><![CDATA[This code example demostrates an application designed to capture and forward USB packets to a host. It runs on custom hardware and can communicate with Wireshark.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-fx2g3-protocol-analyzer/blob/master/README.md">README on GitHub</a>.]]></description>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>latest 1.X</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>1.0.1 release</num>
+        <commit>release-v1.0.1</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="fx2g3,lvcmos,sip" req_capabilities_v2="fx2g3">
+    <name>Slave FIFO IN OUT</name>
+    <id>mtb-example-fx2g3-slave-fifo-in-out</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-fx2g3-slave-fifo-in-out</uri>
+    <description><![CDATA[This code example explains the configuration and usage of Sensor Interface Port (SIP) on the EZ-USB&#8482; FX2G3 device to implement the Bi-directional Synchronous Slave FIFO protocol.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-fx2g3-slave-fifo-in-out/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
       <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
         <num>latest 1.X</num>
