@@ -25367,4 +25367,23 @@
       </version>
     </versions>
   </app>
+  <app keywords="xmc4800, xmc4000, ethercat, mtb-flow, foe, bootloader, firmware-update, industrial-communication" req_capabilities_v2="[kit_xmc48_relax_ecat_v1]">
+    <name>XMC4800 Firmware Update over EtherCAT</name>
+    <id>mtb-example-xmc48-ethcat-foe-boot</id>
+    <category>Industrial Communication</category>
+    <uri>https://github.com/Infineon/mtb-example-xmc48-ethcat-foe-boot</uri>
+    <description><![CDATA[This code example demonstrates the implementation of a firmware update over EtherCAT (FoE) using the Beckhoff Slave Stack Code (SSC) Tool for "XMC4800 Relax EtherCAT Kit".
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-xmc48-ethcat-foe-boot/-/blob/main/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>xmc4800</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc48_relax_ecat_v1]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc48_relax_ecat_v1]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
 </apps>
