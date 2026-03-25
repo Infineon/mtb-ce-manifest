@@ -19079,13 +19079,12 @@
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5]">
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_t2g_c_2d_6m_lite]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
     </versions>
   </app>
-
   <app keywords="multicore,starter,template,empty,blank,mtb-flow" req_capabilities_v2="[t2gc2d,t2gbh,t2gbh_lite]">
     <name>Multi-core application template</name>
     <id>mtb-example-ce240799-multicore-empty-app</id>
