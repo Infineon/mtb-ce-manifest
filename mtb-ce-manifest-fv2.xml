@@ -2993,9 +2993,13 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-empty-app/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc4</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>Release 3.10.0</num>
+        <commit>release-v3.10.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>Release 3.9.0</num>
@@ -4150,9 +4154,13 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-i2c-slave-callback/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>i2c led psoc4</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_041_41xx,cy8ckit_145_40xx,cy8ckit_045s,cy8cproto_040t,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,cy8cproto_040t_ms,cy8cproto_041tp,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_041_41xx,cy8ckit_145_40xx,cy8ckit_045s,cy8cproto_040t,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,cy8cproto_040t_ms,cy8cproto_041tp,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite,kit_psoc_hvpa_spm1_lite]">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_041_41xx,cy8ckit_145_40xx,cy8ckit_045s,cy8cproto_040t,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,cy8cproto_040t_ms,cy8cproto_041tp,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite,kit_psoc_hvpa_spm1_lite]">
+        <num>3.7.0 release</num>
+        <commit>release-v3.7.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_041_41xx,cy8ckit_145_40xx,cy8ckit_045s,cy8cproto_040t,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,cy8cproto_040t_ms,cy8cproto_041tp,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite]">
         <num>3.6.0 release</num>
@@ -4205,9 +4213,13 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-tcpwm-interrupt/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>led psoc4</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_041_41xx,cy8ckit_145_40xx,cy8ckit_045s,cy8ckit_040t,cy8cproto_040t,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,cy8cproto_040t_ms,cy8cproto_041tp,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_041_41xx,cy8ckit_145_40xx,cy8ckit_045s,cy8ckit_040t,cy8cproto_040t,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,cy8cproto_040t_ms,cy8cproto_041tp,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite,kit_psoc_hvpa_spm1_lite]">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_041_41xx,cy8ckit_145_40xx,cy8ckit_045s,cy8ckit_040t,cy8cproto_040t,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,cy8cproto_040t_ms,cy8cproto_041tp,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite,kit_psoc_hvpa_spm1_lite]">
+        <num>3.7.0 release</num>
+        <commit>release-v3.7.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_041_41xx,cy8ckit_145_40xx,cy8ckit_045s,cy8ckit_040t,cy8cproto_040t,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,cy8cproto_040t_ms,cy8cproto_041tp,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite]">
         <num>3.6.0 release</num>
@@ -4260,9 +4272,13 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-hello-world/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>led psoc4</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_145_40xx,cy8ckit_041_41xx,cy8ckit_045s,cy8cproto_040t,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,cy8cproto_040t_ms,cy8cproto_041tp,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_145_40xx,cy8ckit_041_41xx,cy8ckit_045s,cy8cproto_040t,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,cy8cproto_040t_ms,cy8cproto_041tp,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite,kit_psoc_hvpa_spm1_lite]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_145_40xx,cy8ckit_041_41xx,cy8ckit_045s,cy8cproto_040t,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,cy8cproto_040t_ms,cy8cproto_041tp,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite,kit_psoc_hvpa_spm1_lite]">
+        <num>2.7.0 release</num>
+        <commit>release-v2.7.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_145_40xx,cy8ckit_041_41xx,cy8ckit_045s,cy8cproto_040t,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,cy8cproto_040t_ms,cy8cproto_041tp,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite]">
         <num>2.6.0 release</num>
@@ -4913,9 +4929,13 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-gpio-interrupt/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>led psoc4</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_145_40xx,cy8ckit_041_41xx,cy8ckit_045s,cy8cproto_040t,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,cy8cproto_040t_ms,cy8cproto_041tp,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_145_40xx,cy8ckit_041_41xx,cy8ckit_045s,cy8cproto_040t,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,cy8cproto_040t_ms,cy8cproto_041tp,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite,kit_psoc_hvpa_spm1_lite]">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_145_40xx,cy8ckit_041_41xx,cy8ckit_045s,cy8cproto_040t,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,cy8cproto_040t_ms,cy8cproto_041tp,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite,kit_psoc_hvpa_spm1_lite]">
+        <num>3.7.0 release</num>
+        <commit>release-v3.7.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_145_40xx,cy8ckit_041_41xx,cy8ckit_045s,cy8cproto_040t,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,cy8cproto_040t_ms,cy8cproto_041tp,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite]">
         <num>3.6.0 release</num>
@@ -5062,9 +5082,13 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-spi-master/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>led spi psoc4</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_145_40xx,cy8ckit_041_41xx,cy8ckit_045s,cy8cproto_040t,,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,cy8cproto_040t_ms,cy8cproto_041tp,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_145_40xx,cy8ckit_041_41xx,cy8ckit_045s,cy8cproto_040t,,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,cy8cproto_040t_ms,cy8cproto_041tp,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite,kit_psoc_hvpa_spm1_lite]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_145_40xx,cy8ckit_041_41xx,cy8ckit_045s,cy8cproto_040t,,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,cy8cproto_040t_ms,cy8cproto_041tp,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite,kit_psoc_hvpa_spm1_lite]">
+        <num>2.7.0 release</num>
+        <commit>release-v2.7.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_145_40xx,cy8ckit_041_41xx,cy8ckit_045s,cy8cproto_040t,,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,cy8cproto_040t_ms,cy8cproto_041tp,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite]">
         <num>2.6.0 release</num>
@@ -5172,9 +5196,13 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-uart-transmit-receive-dma/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc4 dma</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_045s,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,cy8cproto_041tp,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_045s,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,cy8cproto_041tp,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite,kit_psoc_hvpa_spm1_lite]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_045s,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,cy8cproto_041tp,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite,kit_psoc_hvpa_spm1_lite]">
+        <num>2.5.0 release</num>
+        <commit>release-v2.5.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_045s,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,cy8cproto_041tp,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite]">
         <num>2.4.0 release</num>
@@ -5219,9 +5247,13 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-pwm-trigger-dma/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc4 led dma</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_045s,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,cy8cproto_041tp,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_045s,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,cy8cproto_041tp,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite,kit_psoc_hvpa_spm1_lite]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_045s,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,cy8cproto_041tp,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite,kit_psoc_hvpa_spm1_lite]">
+        <num>Release 2.5.0</num>
+        <commit>release-v2.5.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_045s,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,cy8cproto_041tp,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite]">
         <num>Release 2.4.0</num>
@@ -5266,9 +5298,13 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-uart-transmit-receive/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>led psoc4</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_145_40xx,cy8ckit_149,cy8ckit_041_41xx,cy8ckit_045s,cy8cproto_040t,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,cy8cproto_040t_ms,cy8cproto_041tp,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_145_40xx,cy8ckit_149,cy8ckit_041_41xx,cy8ckit_045s,cy8cproto_040t,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,cy8cproto_040t_ms,cy8cproto_041tp,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite,kit_psoc_hvpa_spm1_lite]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_145_40xx,cy8ckit_149,cy8ckit_041_41xx,cy8ckit_045s,cy8cproto_040t,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,cy8cproto_040t_ms,cy8cproto_041tp,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite,kit_psoc_hvpa_spm1_lite]">
+        <num>2.7.0 release</num>
+        <commit>release-v2.7.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_145_40xx,cy8ckit_149,cy8ckit_041_41xx,cy8ckit_045s,cy8cproto_040t,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,cy8cproto_040t_ms,cy8cproto_041tp,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite]">
         <num>2.6.0 release</num>
@@ -5542,9 +5578,13 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-gpio/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>led psoc4</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_041_41xx,cy8ckit_145_40xx,cy8ckit_045s,cy8cproto_040t,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,cy8cproto_040t_ms,cy8cproto_041tp,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_041_41xx,cy8ckit_145_40xx,cy8ckit_045s,cy8cproto_040t,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,cy8cproto_040t_ms,cy8cproto_041tp,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite,kit_psoc_hvpa_spm1_lite]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_041_41xx,cy8ckit_145_40xx,cy8ckit_045s,cy8cproto_040t,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,cy8cproto_040t_ms,cy8cproto_041tp,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite,kit_psoc_hvpa_spm1_lite]">
+        <num>2.7.0 release</num>
+        <commit>release-v2.7.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_041_41xx,cy8ckit_145_40xx,cy8ckit_045s,cy8cproto_040t,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,cy8cproto_040t_ms,cy8cproto_041tp,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite]">
         <num>2.6.0 release</num>
@@ -11109,9 +11149,13 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-emulated-eeprom/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>led psoc4</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_041_41xx,cy8ckit_145_40xx,cy8ckit_045s,cy8cproto_040t,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,cy8cproto_040t_ms,cy8cproto_041tp,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_041_41xx,cy8ckit_145_40xx,cy8ckit_045s,cy8cproto_040t,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,cy8cproto_040t_ms,cy8cproto_041tp,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite,kit_psoc_hvpa_spm1_lite]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_041_41xx,cy8ckit_145_40xx,cy8ckit_045s,cy8cproto_040t,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,cy8cproto_040t_ms,cy8cproto_041tp,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite,kit_psoc_hvpa_spm1_lite]">
+        <num>2.7.0 release</num>
+        <commit>release-v2.7.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_041_41xx,cy8ckit_145_40xx,cy8ckit_045s,cy8cproto_040t,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,cy8cproto_040t_ms,cy8cproto_041tp,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite]">
         <num>2.6.0 release</num>
@@ -14292,9 +14336,13 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-tcpwm-square-wave/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>led psoc4</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_145_40xx,cy8ckit_045s,cy8cproto_040t,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,cy8cproto_040t_ms,cy8cproto_041tp,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_145_40xx,cy8ckit_045s,cy8cproto_040t,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,cy8cproto_040t_ms,cy8cproto_041tp,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite,kit_psoc_hvpa_spm1_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_145_40xx,cy8ckit_045s,cy8cproto_040t,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,cy8cproto_040t_ms,cy8cproto_041tp,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite,kit_psoc_hvpa_spm1_lite]">
+        <num>1.7.0 release</num>
+        <commit>release-v1.7.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_145_40xx,cy8ckit_045s,cy8cproto_040t,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,cy8cproto_040t_ms,cy8cproto_041tp,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite]">
         <num>1.6.0 release</num>
@@ -14670,12 +14718,16 @@
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-psoc4-direction-detection-using-quadrature-decoder</uri>
     <description><![CDATA[This code example demonstrates how to use the TCPWM peripheral configured as a quadrature decoder in PSOC&#8482; 4.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-direction-detection-using-quadrature-decoder/blob/master/README.md">README on GitHub</a>.]]></description>
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-direction-detection-using-quadrature-decoder/blob/master/README.md">README on GitLab</a>.]]></description>
     <req_capabilities>led psoc4</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_145_40xx,cy8ckit_045s,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_145_40xx,cy8ckit_045s,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite,kit_psoc_hvpa_spm1_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_145_40xx,cy8ckit_045s,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite,kit_psoc_hvpa_spm1_lite]">
+        <num>1.6.0 release</num>
+        <commit>release-v1.6.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_145_40xx,cy8ckit_045s,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite]">
         <num>1.5.0 release</num>
@@ -14764,9 +14816,13 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-non-blocking-flash-write-using-polling/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>led psoc4</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,kit_psoc4_hvpa_144k_lite]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,kit_psoc4_hvpa_144k_lite,kit_psoc_hvpa_spm1_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,kit_psoc4_hvpa_144k_lite,kit_psoc_hvpa_spm1_lite]">
+        <num>1.2.0 release</num>
+        <commit>release-v1.2.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,kit_psoc4_hvpa_144k_lite]">
         <num>1.1.0 release</num>
@@ -14787,9 +14843,13 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-non-blocking-flash-write-using-interrupt/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>led psoc4</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,kit_psoc4_hvpa_144k_lite]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,kit_psoc4_hvpa_144k_lite,kit_psoc_hvpa_spm1_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,kit_psoc4_hvpa_144k_lite,kit_psoc_hvpa_spm1_lite]">
+        <num>1.3.0 release</num>
+        <commit>release-v1.3.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,kit_psoc4_hvpa_144k_lite]">
         <num>1.2.0 release</num>
@@ -14814,9 +14874,13 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-tcpwm-event-counter/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>uart psoc4</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_145_40xx,cy8ckit_045s,cy8cproto_040t,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,cy8cproto_041tp,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_145_40xx,cy8ckit_045s,cy8cproto_040t,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,cy8cproto_041tp,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite,kit_psoc_hvpa_spm1_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_145_40xx,cy8ckit_045s,cy8cproto_040t,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,cy8cproto_041tp,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite,kit_psoc_hvpa_spm1_lite]">
+        <num>1.6.0 release</num>
+        <commit>release-v1.6.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_145_40xx,cy8ckit_045s,cy8cproto_040t,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,cy8cproto_041tp,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite]">
         <num>1.5.0 release</num>
@@ -14923,9 +14987,13 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce241416-flash-ecc-injection/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc4</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite]">
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite,kit_psoc_hvpa_spm1_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite,kit_psoc_hvpa_spm1_lite]">
+        <num>1.2.0 release</num>
+        <commit>release-v1.2.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite]">
         <num>1.1.0 release</num>
@@ -15007,9 +15075,13 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-frequency-measurement-using-tcpwm/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>uart psoc4</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_145_40xx,cy8ckit_045s,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,cy8cproto_041tp,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_145_40xx,cy8ckit_045s,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,cy8cproto_041tp,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite,kit_psoc_hvpa_spm1_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_145_40xx,cy8ckit_045s,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,cy8cproto_041tp,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite,kit_psoc_hvpa_spm1_lite]">
+        <num>1.6.0 release</num>
+        <commit>release-v1.6.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_145_40xx,cy8ckit_045s,kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,cy8cproto_041tp,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite]">
         <num>1.5.0 release</num>
@@ -21482,9 +21554,13 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce240935-crwdt-basic/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc4</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite]">
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite,kit_psoc_hvpa_spm1_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite,kit_psoc_hvpa_spm1_lite]">
+        <num>1.4.0 release</num>
+        <commit>release-v1.4.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite]">
         <num>1.3.0 release</num>
@@ -21513,9 +21589,13 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce241006-fault-report-configuration/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc4</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite]">
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite,kit_psoc_hvpa_spm1_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite,kit_psoc_hvpa_spm1_lite]">
+        <num>1.4.0 release</num>
+        <commit>release-v1.4.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite]">
         <num>1.3.0 release</num>
@@ -21544,9 +21624,13 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce241040-lin-master-slave-communication/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc4</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite]">
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite,kit_psoc_hvpa_spm1_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite,kit_psoc_hvpa_spm1_lite]">
+        <num>1.4.0 release</num>
+        <commit>release-v1.4.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite]">
         <num>1.3.0 release</num>
@@ -21575,9 +21659,13 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce240936-lifetime-counter-basic/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc4</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite]">
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite,kit_psoc_hvpa_spm1_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite,kit_psoc_hvpa_spm1_lite]">
+        <num>1.4.0 release</num>
+        <commit>release-v1.4.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite]">
         <num>1.3.0 release</num>
@@ -21606,11 +21694,15 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce241197-systick-led/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc4</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02]">
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite,kit_psoc_hvpa_spm1_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02]">
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite,kit_psoc_hvpa_spm1_lite]">
+        <num>1.3.0 release</num>
+        <commit>release-v1.3.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02]">
         <num>1.2.0 release</num>
         <commit>release-v1.2.0</commit>
       </version>
@@ -24437,9 +24529,13 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce241828-blocking-flash-write/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>led psoc4</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite]">
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite,kit_psoc_hvpa_spm1_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite,kit_psoc_hvpa_spm1_lite]">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite]">
         <num>1.0.0 release</num>
@@ -24456,9 +24552,13 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce241958-pacss-current-adc/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>adc psoc4</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc4_hvpa_144k_lite]">
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc4_hvpa_144k_lite,kit_psoc_hvpa_spm1_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc4_hvpa_144k_lite,kit_psoc_hvpa_spm1_lite]">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc4_hvpa_144k_lite]">
         <num>1.0.0 release</num>
@@ -24475,9 +24575,13 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce241830-dma-1d-transfer/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>dma psoc4</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite]">
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite,kit_psoc_hvpa_spm1_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite,kit_psoc_hvpa_spm1_lite]">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite]">
         <num>1.0.0 release</num>
@@ -24494,9 +24598,13 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce241829-dma-descriptor-chain/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>dma psoc4</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite]">
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite,kit_psoc_hvpa_spm1_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite,kit_psoc_hvpa_spm1_lite]">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite]">
         <num>1.0.0 release</num>
@@ -25209,9 +25317,13 @@
     <description><![CDATA[This example demonstrates how watchdog timer works with the interrupt mode and the reset mode.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce241952-wdt-interrupt-reset/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite]">
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite,kit_psoc_hvpa_spm1_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite,kit_psoc_hvpa_spm1_lite]">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite]">
         <num>1.0.0 release</num>
@@ -25227,9 +25339,13 @@
     <description><![CDATA[This code example shows how to configure the timer function using timer, counter and pulse-width modulator (TCPWM) block, and describes its operation and initial settings.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce241953-tcpwm-timer/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite]">
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite,kit_psoc_hvpa_spm1_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite,kit_psoc_hvpa_spm1_lite]">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite]">
         <num>1.0.0 release</num>
@@ -25245,9 +25361,13 @@
     <description><![CDATA[This code example shows a timer function using timer, counter and pulse-width modulator (TCPWM) dead-time mode function. As per the PWM dead-time mode, the PWM line pin and PWM complementary line pin output signals are based on the 2 kHz frequency. The signal is output from the line pin with a delay of 25 us from the rising edge of the 2 kHz based PWM and from the complementary line pin with a delay of 25 us from the falling edge.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce241954-tcpwm-pwm-dt/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite]">
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite,kit_psoc_hvpa_spm1_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite,kit_psoc_hvpa_spm1_lite]">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite]">
         <num>1.0.0 release</num>
@@ -25263,9 +25383,13 @@
     <description><![CDATA[This code example shows how to enter system Sleep and Deep Sleep modes in PSOC&#8482;  4 devices. After entering Sleep or Deep Sleep mode, the example also shows how to wake up from these low-power modes and return to Active mode.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce241955-power-modes/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite]">
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite,kit_psoc_hvpa_spm1_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite,kit_psoc_hvpa_spm1_lite]">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc4_hvms_128k_lite,kit_psoc4_hvms_64k_lite,kit_psoc4_hvms_128k_lite_02,kit_psoc4_hvms_64k_lite_02,kit_psoc4_hvpa_144k_lite]">
         <num>1.0.0 release</num>
@@ -25380,6 +25504,150 @@
         <commit>latest-v1.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc48_relax_ecat_v1]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="mtb-flow, psoc4hvpa, adc, uart" req_capabilities_v2="psoc4hvpa">
+    <name>PACSS I-V-T measurement</name>
+    <id>mtb-example-ce241947-pacss-triple-adc</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce241947-pacss-triple-adc</uri>
+    <description><![CDATA[This code example demonstrates the use of the precision analog channel subsystem (PACSS) ADC in the PSOC&trade; 4 HVPA MCU family to perform simultaneous current, voltage, and temperature measurements. It continuously samples current and voltage at 7.8 ksps, while temperature is measured periodically at 15 Hz.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce241947-pacss-triple-adc/blob/master/README.md">README on GitHub</a>.]]></description>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc_hvpa_spm1_lite,kit_psoc4_hvpa_144k_lite]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc_hvpa_spm1_lite,kit_psoc4_hvpa_144k_lite]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="mtb-flow, psoc4hvpa, adc, isouart" req_capabilities_v2="psoc4hvpa">
+    <name>PACSS I-V-T result transmission using iso UART node</name>
+    <id>mtb-example-ce241948-bms-isouart-communication-node</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce241948-bms-isouart-communication-node</uri>
+    <description><![CDATA[This code example demonstrates measuring current, voltage, and temperature using the Precision Analog Channel Sub-System (PACSS) Delta-Sigma ADC on PSOC&trade; 4 HVPA family and publishing the raw 32-bit ADC results to the iso UART SRAM for host access.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce241948-bms-isouart-communication-node/blob/master/README.md">README on GitHub</a>.]]></description>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc_hvpa_spm1_lite]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc_hvpa_spm1_lite]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="mtb-flow, psoc4hvpa, adc, isouart, uart" req_capabilities_v2="psoc4hvpa">
+    <name>PACSS I-V-T result transmission using iso UART host</name>
+    <id>mtb-example-ce242036-bms-isouart-communication-host</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce242036-bms-isouart-communication-host</uri>
+    <description><![CDATA[This code example demonstrates reading current, voltage, and temperature measurements from an iso UART node device via the iso UART the multi-read command in raw mode, and converting the raw ADC counts into physical values on the host (master) side.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce242036-bms-isouart-communication-host/blob/master/README.md">README on GitHub</a>.]]></description>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc_hvpa_spm1_lite]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc_hvpa_spm1_lite]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="mtb-flow, psoc4hvpa, isouart, uart" req_capabilities_v2="psoc4hvpa">
+    <name>iso UART node</name>
+    <id>mtb-example-ce242661-isouart-node</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce242661-isouart-node</uri>
+    <description><![CDATA[This code example demonstrates the operation of an iso UART node. The node receives write commands from an iso UART host and toggles an onboard LED based on the data written to its SRAM.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce242661-isouart-node/blob/master/README.md">README on GitHub</a>.]]></description>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc_hvpa_spm1_lite]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc_hvpa_spm1_lite]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="mtb-flow, psoc4hvpa, adc, uart" req_capabilities_v2="psoc4hvpa">
+    <name>PACSS multi measurement</name>
+    <id>mtb-example-ce242662-pacss-multi-adc</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce242662-pacss-multi-adc</uri>
+    <description><![CDATA[This code example demonstrates the use of the precision analog channel subsystem (PACSS) ADC in the PSOC&trade; 4 HVPA MCU family to perform simultaneous current, voltage, and multiple diagnostic parameters measurements. It continuously samples current and voltage at 7.8 ksps, while performing periodic diagnostic measurements at 15 Hz. The diagnostic channel (DCHAN2) cycles through 11 states including external temperature, die temperature, current ratio calibration, voltage diagnostics, shunt voltage, shunt open detection, and reference voltage measurements.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce242662-pacss-multi-adc/blob/master/README.md">README on GitHub</a>.]]></description>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc_hvpa_spm1_lite,kit_psoc4_hvpa_144k_lite]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc_hvpa_spm1_lite,kit_psoc4_hvpa_144k_lite]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="mtb-flow, psoc4hvpa, isouart, uart" req_capabilities_v2="psoc4hvpa">
+    <name>iso UART host in register mode</name>
+    <id>mtb-example-ce242664-isouart-host-register</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce242664-isouart-host-register</uri>
+    <description><![CDATA[This code example demonstrates the operation of an iso UART host (master) in register mode. The host sends wake-up, enumeration, read, and write commands to a connected iso UART node (slave) and toggles an onboard LED based on the data read from the node.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce242664-isouart-host-register/blob/master/README.md">README on GitHub</a>.]]></description>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc_hvpa_spm1_lite]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc_hvpa_spm1_lite]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="mtb-flow, psoc4hvpa, isouart, uart" req_capabilities_v2="psoc4hvpa">
+    <name>iso UART host in raw mode</name>
+    <id>mtb-example-ce242665-isouart-host-raw</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce242665-isouart-host-raw</uri>
+    <description><![CDATA[This code example demonstrates the operation of an iso UART host (master) in raw mode. The host sends wake-up, enumeration, read, and write commands to a connected iso UART node (slave) and toggles an onboard LED based on the data read from the node.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce242665-isouart-host-raw/blob/master/README.md">README on GitHub</a>.]]></description>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc_hvpa_spm1_lite]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc_hvpa_spm1_lite]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="mtb-flow, psoc4hvpa, isouart, uart" req_capabilities_v2="psoc4hvpa">
+    <name>iso UART host in unpacked mode</name>
+    <id>mtb-example-ce242666-isouart-host-unpack</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce242666-isouart-host-unpack</uri>
+    <description><![CDATA[This code example demonstrates the operation of an iso UART host (master)  in unpacked mode. The host sends wake-up, enumeration, read, and write commands to a connected iso UART node (slave) and toggles an onboard LED based on the data read from the node.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce242666-isouart-host-unpack/blob/master/README.md">README on GitHub</a>.]]></description>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc_hvpa_spm1_lite]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc_hvpa_spm1_lite]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
