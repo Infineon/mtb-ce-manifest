@@ -25823,5 +25823,24 @@
       </version>
     </versions>
   </app>
+  <app keywords="dc,optimizer,pwrlib" req_capabilities_v2="[ref_opti_80v20a_gan]">
+    <name>DC Optimizer</name>
+    <id>mtb-example-pwrlib-dc-optimizer</id>
+    <category>Power Conversion</category>
+    <uri>https://github.com/Infineon/mtb-example-pwrlib-dc-optimizer</uri>
+    <description><![CDATA[This code example demonstrates the usage of IFX software stack for power conversion on a PSC3M device by implementing the control of DC Optimizer.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pwrlib-dc-optimizer/-/blob/develop/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>ref_opti_80v20a_gan</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
 </apps>
 
