@@ -18086,6 +18086,10 @@
         <commit>latest-v1.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5,bsp_gen4]">
+        <num>1.2.0 release</num>
+        <commit>release-v1.2.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5,bsp_gen4]">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
@@ -18424,6 +18428,86 @@
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5,bsp_gen4]">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5,bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="mtb-flow,spi,slave,cyw55913" req_capabilities_v2="cyw55913">
+    <name>SPI Slave</name>
+    <id>mtb-example-threadx-spi-slave</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-threadx-spi-slave</uri>
+    <description><![CDATA[This code example demonstrates the use of a SPI in slave mode. The SPI slave is configured to receive command packets from an SPI master to control the user LED on the kit.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-threadx-spi-slave/blob/master/README.md">README on GitHub</a>.
+    ]]></description>
+    <req_capabilities>cyw55913</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5,bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5,bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="mtb-flow,spi,master,cyw55913" req_capabilities_v2="cyw55913">
+    <name>SPI Master</name>
+    <id>mtb-example-threadx-spi-master</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-threadx-spi-master</uri>
+    <description><![CDATA[This code example demonstrates the use of a SPI in master mode. The SPI master is configured to send command packets to an SPI slave to control the user LED on the slave kit.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-threadx-spi-master/blob/master/README.md">README on GitHub</a>.
+    ]]></description>
+    <req_capabilities>cyw55913</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5,bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5,bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="mtb-flow,spi,dma,cyw55913" req_capabilities_v2="cyw55913">
+    <name>SPI DMA</name>
+    <id>mtb-example-threadx-spi-dma</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-threadx-spi-dma</uri>
+    <description><![CDATA[This application demonstrates streaming a frame buffer via DMA over SPI on CYW55913. It transmits a dummy buffer (filled with 0x55) to the SPI peripheral using chained DMA transfers.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-threadx-spi-dma/blob/master/README.md">README on GitHub</a>.
+    ]]></description>
+    <req_capabilities>cyw55913</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5,bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5,bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="mtb-flow,adc,cyw55913" req_capabilities_v2="cyw55913">
+    <name>ADC Basic</name>
+    <id>mtb-example-threadx-adc-basic</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-threadx-adc-basic</uri>
+    <description><![CDATA[This code example demonstrates the implementation of a basic ADC application that reads analog values from a potentiometer and displays the results over UART. The ADC continuously samples the input voltage and converts the digital value to a voltage reading (0-1V range).
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-threadx-adc-basic/blob/master/README.md">README on GitHub</a>.
+    ]]></description>
+    <req_capabilities>cyw55913</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5,bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5,bsp_gen4]">
         <num>1.0.0 release</num>
