@@ -19192,6 +19192,10 @@
         <commit>latest-v2.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
@@ -20901,7 +20905,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="motor,mtb-flow" req_capabilities_v2="[kit_psc3m5_cc2]">
+  <app keywords="motor,mtb-flow" req_capabilities_v2="[kit_psc3m5_cc2, kit_psc3m5_2go]">
     <name>PMSM FOC SL with 1-shunt</name>
     <id>mtb-example-ce240312-foc-sl-1-shunt</id>
     <category>Motor Control</category>
@@ -20913,6 +20917,10 @@
       <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
         <num>2.0.0 release</num>
@@ -20940,6 +20948,10 @@
       <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>3.1.0 release</num>
+        <commit>release-v3.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
         <num>3.0.0 release</num>
@@ -24620,6 +24632,14 @@
       <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>1.2.0 release</num>
+        <commit>release-v1.2.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>1.0.1 release</num>
+        <commit>release-v1.0.1</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
         <num>1.0.0 release</num>
