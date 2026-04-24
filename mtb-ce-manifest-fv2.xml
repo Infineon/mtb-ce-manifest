@@ -26211,4 +26211,130 @@
       </version>
     </versions>
   </app>
+  <app keywords="mtb-flow, psoc4, adc, low power, uart" req_capabilities_v2="psoc4hvpa">
+    <name>PACSS wakeup from DeepSleep</name>
+    <id>mtb-example-ce242660-pacss-deepsleep-wakeup</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce242660-pacss-deepsleep-wakeup</uri>
+    <description><![CDATA[This code example demonstrates the use of the precision analog channel subsystem (PACSS) ADC for current measurement while periodically entering and waking from DeepSleep mode on PSOC&trade; 4 HVPA family devices.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce242660-pacss-deepsleep-wakeup/blob/master/README.md">README on GitHub</a>.]]></description>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc_hvpa_spm1_lite,kit_psoc4_hvpa_144k_lite]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc_hvpa_spm1_lite,kit_psoc4_hvpa_144k_lite]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="mtb-flow, psoc4, adc, uart" req_capabilities_v2="psoc4hvpa">
+    <name>PACSS on-die temperature measurement</name>
+    <id>mtb-example-ce242663-pacss-on-die-temp-adc</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce242663-pacss-on-die-temp-adc</uri>
+    <description><![CDATA[This code example demonstrates on-die temperature measurement using the precision analog channel subsystem (PACSS) delta-VBE method on the PSOC&trade; 4 HVPA family devices.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce242663-pacss-on-die-temp-adc/blob/master/README.md">README on GitHub</a>.]]></description>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc_hvpa_spm1_lite,kit_psoc4_hvpa_144k_lite]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc_hvpa_spm1_lite,kit_psoc4_hvpa_144k_lite]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="mtb-flow, psoc4, adc, uart, led" req_capabilities_v2="psoc4hvpa">
+    <name>PACSS OCD self-test</name>
+    <id>mtb-example-ce242667-pacss-ocd-self-test</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce242667-pacss-ocd-self-test</uri>
+    <description><![CDATA[This code example demonstrates the overcurrent detection (OCD) self-test mode in the PSOC&trade; 4 HVPA family PACSS block.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce242667-pacss-ocd-self-test/blob/master/README.md">README on GitHub</a>.]]></description>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc_hvpa_spm1_lite]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc_hvpa_spm1_lite]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="mtb-flow, psoc4, isouart, uart, led" req_capabilities_v2="psoc4hvpa">
+    <name>iso UART host with multi-read command</name>
+    <id>mtb-example-ce242668-isouart-multi-read-host</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce242668-isouart-multi-read-host</uri>
+    <description><![CDATA[This code example demonstrates the iso UART host (master) operation using the multi-read command in raw mode. The host sends a single multi-read command to retrieve data from multiple SRAM addresses on a connected iso UART node (slave) in one transaction, and toggles an onboard LED based on the LED state read from the node.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce242668-isouart-multi-read-host/blob/master/README.md">README on GitHub</a>.]]></description>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc_hvpa_spm1_lite]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc_hvpa_spm1_lite]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="mtb-flow, psoc4, isouart, uart, led" req_capabilities_v2="psoc4hvpa">
+    <name>iso UART host with broadcast read write command</name>
+    <id>mtb-example-ce242670-isouart-broadcast-read-host</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce242670-isouart-broadcast-read-host</uri>
+    <description><![CDATA[This code example demonstrates iso UART host (master) operation using broadcast read and broadcast write commands in raw mode. The host communicates with a chain of iso UART node (slave) devices simultaneously using broadcast commands and toggles an onboard LED based on the LED state read from the nodes.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce242670-isouart-broadcast-read-host/blob/master/README.md">README on GitHub</a>.]]></description>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc_hvpa_spm1_lite]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc_hvpa_spm1_lite]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="mtb-flow, psoc4, adc, uart, led" req_capabilities_v2="psoc4hvpa">
+    <name>PACSS OCD</name>
+    <id>mtb-example-ce242826-pacss-ocd</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce242826-pacss-ocd</uri>
+    <description><![CDATA[This code example demonstrates using the precision analog channel subsystem (PACSS) overcurrent detection (OCD) feature in the PSOC&trade; 4 HVPA family.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce242826-pacss-ocd/blob/master/README.md">README on GitHub</a>.]]></description>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc_hvpa_spm1_lite]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc_hvpa_spm1_lite]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="mtb-flow, psoc4, canfd, uart, led" req_capabilities_v2="psoc4hvpa">
+    <name>CAN FD inter-node communication</name>
+    <id>mtb-example-ce243002-canfd</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce243002-canfd</uri>
+    <description><![CDATA[In this example, the CAN FD Node-1 sends a CAN FD frame to CAN FD Node-2 on pressing the user button and vice versa. Both the CAN FD Nodes log the received data over UART serial terminal. Each time a CAN FD frame is received, the user LED toggles.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce243002-canfd/blob/master/README.md">README on GitHub</a>.]]></description>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc_hvpa_spm1_lite]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_psoc_hvpa_spm1_lite]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
 </apps>
