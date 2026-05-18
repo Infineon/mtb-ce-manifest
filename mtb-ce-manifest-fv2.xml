@@ -18573,6 +18573,26 @@
       </version>
     </versions>
   </app>
+  <app keywords="mtb-flow,ml,audio,cyw55913" req_capabilities_v2="cyw55913">
+    <name>ML DMIC Audio Recognition</name>
+    <id>mtb-example-threadx-dmic-ml-audio-recognition</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-threadx-dmic-ml-audio-recognition</uri>
+    <description><![CDATA[This code example demonstrates the implementation of a basic ADC application that reads analog values from a potentiometer and displays the results over UART. The ADC continuously samples the input voltage and converts the digital value to a voltage reading (0-1V range).
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-threadx-dmic-ml-audio-recognition/-/blob/develop/README.md">README on GitHub</a>.
+    ]]></description>
+    <req_capabilities>cyw55913</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5,bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5,bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
   <app keywords="mtb-flow,xmc7000,ethernet,ota,mqtt" req_capabilities_v2="xmc7000 led">
     <name>OTA over Ethernet MQTT</name>
     <id>mtb-example-ethernet-ota-mqtt</id>
@@ -19166,6 +19186,10 @@
       <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5,bsp_gen4]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5,bsp_gen4]">
+        <num>1.5.2 release</num>
+        <commit>release-v1.5.2</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5,bsp_gen4]">
         <num>1.4.2 release</num>
