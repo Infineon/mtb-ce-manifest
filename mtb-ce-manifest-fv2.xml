@@ -11619,13 +11619,17 @@
     </versions>
   </app>
   <app keywords="psoc6,sensor,xensiv,cmos,csk" req_capabilities_v2="psoc6 cysbsyskit_dev_01">
-    <name>Clutter localization and clustering</name>
+    <name>XENSIV 60GHz CMOS Radar Presence Detection and Localization</name>
     <id>mtb-example-psoc6-cmos-radar-clutter-clustering</id>
     <category>Sensing</category>
     <uri>https://github.com/Infineon/mtb-example-psoc6-cmos-radar-clutter-clustering</uri>
-    <description><![CDATA[This code example demonstrates the on-chip feature clutter localization and the clustering of the cmos radar sensor]]></description>
+    <description><![CDATA[This code example demonstrates the on-chip feature clutter localization and the clustering of the XENSIV BGT60CUTR13AIP 60GHz CMOS radar sensor]]></description>
     <req_capabilities>cysbsyskit_dev_01</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version="bsp_gen5">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version="bsp_gen5">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
@@ -11637,13 +11641,17 @@
     </versions>
   </app>
   <app keywords="psoc6,sensor,xensiv,cmos,csk" req_capabilities_v2="psoc6 cysbsyskit_dev_01">
-    <name>Motion detection with the cmos radar sensor</name>
+    <name>XENSIV 60GHz CMOS Radar Motion Detection</name>
     <id>mtb-example-psoc6-cmos-radar-motion-detection</id>
     <category>Sensing</category>
     <uri>https://github.com/Infineon/mtb-example-psoc6-cmos-radar-motion-detection</uri>
-    <description><![CDATA[This code example demonstrates the on-chip feature motion detection capibilities of the cmos radar sensor]]></description>
+    <description><![CDATA[This code example demonstrates the on-chip feature motion detection capabilities of the XENSIV BGT60CUTR13AIP 60GHz CMOS radar sensor]]></description>
     <req_capabilities>cysbsyskit_dev_01</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version="bsp_gen5">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version="bsp_gen5">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
@@ -11655,13 +11663,17 @@
     </versions>
   </app>
   <app keywords="psoc6,sensor,xensiv,cmos,csk" req_capabilities_v2="psoc6 cysbsyskit_dev_01">
-    <name>People tracking with the cmos radar sensor</name>
+    <name>XENSIV 60GHz CMOS Radar Presence Detection and Tracking</name>
     <id>mtb-example-psoc6-cmos-radar-people-tracking</id>
     <category>Sensing</category>
     <uri>https://github.com/Infineon/mtb-example-psoc6-cmos-radar-people-tracking</uri>
-    <description><![CDATA[This code example demonstrates the on-chip or off-chip capibilities of the cmos radar sensor]]></description>
+    <description><![CDATA[This code example demonstrates the off-chip capabilities of people tracking with the XENSIV BGT60CUTR13AIP 60GHz CMOS radar sensor]]></description>
     <req_capabilities>cysbsyskit_dev_01</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version="bsp_gen5">
+        <num>1.2.0 release</num>
+        <commit>release-v1.2.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version="bsp_gen5">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
