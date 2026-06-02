@@ -21346,11 +21346,19 @@
     <id>mtb-example-edge-protect-bootloader</id>
     <category>Security</category>
     <uri>https://github.com/Infineon/mtb-example-edge-protect-bootloader</uri>
-    <description><![CDATA[This is Edge Protect Bootloader code example for  PSOC&#8482; Edge MCU.]]></description>
+    <description><![CDATA[PSOC Edge Protect Bootloader is an open-source MCUboot library-based bootloader for Infineon's PSOC™ Edge MCU.
+    It supports secure boot and secure firmware update features using either ECDSA P-256 and PQC (ML-DSA-87) algorithms,
+    along with several other features such as overwrite and swap update mechanism, encrypted boot, SRAM loading and more.
+    This code example guides the user to perform secure boot and secure firmware update of reference code example such as Basic Secure Application.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-edge-protect-bootloader/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
       <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
+        <num>release-v2.4.0</num>
+        <commit>release-v2.4.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
         <num>release-v2.3.0</num>
