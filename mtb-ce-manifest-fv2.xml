@@ -9094,6 +9094,10 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
         <commit>latest-v2.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ceval_062s2,cy8ceval_062s2_lai_4373m2,cy8ckit_062_ble,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cy8cproto_062_4343w,cy8cproto_062s3_4343w,cy8cproto_063_ble,cy8ckit_062s4,cyw9p62s1_43012evb_01,cyw9p62s1_43438evb_01,cy8ceval_062s2_mur_43439m2,cysbsyskit_dev_01]">
+        <num>2.0.1 release</num>
+        <commit>release-v2.0.1</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ceval_062s2,cy8ceval_062s2_lai_4373m2,cy8ckit_062_ble,cy8ckit_062_wifi_bt,cy8ckit_062s2_43012,cy8cproto_062_4343w,cy8cproto_062s3_4343w,cy8cproto_063_ble,cy8ckit_062s4,cyw9p62s1_43012evb_01,cyw9p62s1_43438evb_01,cy8ceval_062s2_mur_43439m2,cysbsyskit_dev_01]">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
@@ -13322,6 +13326,14 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
     <br><br>For more details, see the README.]]></description>
     <req_capabilities>psoc4 msclp led i2c low_power capsense_liquidlevel</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_040t_ms,cy8cproto_041tp]">
+        <num>Latest 7.X release</num>
+        <commit>latest-v7.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_040t_ms,cy8cproto_041tp]">
+        <num>7.0.0 release</num>
+        <commit>release-v7.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_040t_ms,cy8cproto_041tp]">
         <num>Latest 6.X release</num>
         <commit>latest-v6.X</commit>
@@ -13373,6 +13385,14 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
     <br><br>For more details, see the README.]]></description>
     <req_capabilities>psoc4 msclp serial_led msc_touchpad spi i2c low_power</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_040t]">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_040t]">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_040t]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -14720,9 +14740,13 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc6-power-measurements/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc6</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version="bsp_gen4">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>1.0.1 release</num>
@@ -16006,6 +16030,10 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
         <commit>latest-v1.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_062s2_ai]">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_062s2_ai]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -16023,6 +16051,10 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
       <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_062s2_ai]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_062s2_ai]">
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_062s2_ai]">
         <num>2.0.0 release</num>
@@ -16054,6 +16086,10 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
       <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen5] [cy8ckit_062s2_ai]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen5] [cy8ckit_062s2_ai]">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen5] [cy8ckit_062s2_ai]">
         <num>1.0.0 release</num>
@@ -16429,6 +16465,25 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
       </version>
     </versions>
   </app>
+  <app keywords="psoc4,msclp,capsense,csd,slider,low-power,wot,tuning,mtb-flow" req_capabilities_v2="psoc4 msclp led i2c low_power msc_slider">
+    <name>MSCLP CSD slider with finger-type detection</name>
+    <id>mtb-example-psoc4-msclp-csd-slider-finger-type-detection</id>
+    <category>Sensing</category>
+    <uri>https://github.com/Infineon/mtb-example-psoc4-msclp-csd-slider-finger-type-detection</uri>
+    <description><![CDATA[This code example shows how to detect both the finger-touch position and the finger type detection (Normal, Fat and Large Object) on a self-capacitance-based slider,
+    <br><br>see the <a href="https://github.com/Infineon/mtb-example-psoc4-msclp-csd-slider-finger-type-detection/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>psoc4 msclp led i2c low_power msc_slider</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_040t]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_040t]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
   <app keywords="psoc4,msclp,capsense,csd,proximity,tuning,self capacitance,low-power,wake on touch,always on,touch,range,wot,led,tune,ratiometric,distance,detection,hover" req_capabilities_v2="psoc4 msclp led i2c low_power msc_proximity">
     <name>MSCLP Low Power Proximity</name>
     <id>mtb-example-psoc4-msclp-low-power-csd-proximity</id>
@@ -16459,6 +16514,25 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
         <commit>latest-v1.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_040t]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc4,msclp,capsense,csd,proximity,tuning,self capacitance,low-power,wake on touch,always on,touch,range,wot,led,tune,ratiometric,distance,detection,hover" req_capabilities_v2="psoc4 msclp led i2c low_power msc_proximity">
+    <name>MSCLP Low Power ALP Proximity</name>
+    <id>mtb-example-psoc4-msclp-low-power-alp-filter-proximity</id>
+    <category>Sensing</category>
+    <uri>https://github.com/Infineon/mtb-example-psoc4-msclp-low-power-alp-filter-proximity</uri>
+    <description><![CDATA[This code example shows how to manually tune a proximity widget in PSOC&#8482;4 MSCLP device for low power operation with ALP filter.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-msclp-low-power-alp-filter-proximity/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>psoc4 msclp led i2c low_power msc_proximity</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_040t,cy8cproto_041tp]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_040t,cy8cproto_041tp]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -17677,6 +17751,14 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ml-deepcraft-streaming-protocol/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>uart spi i2c pdm psoc6</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen5] [cy8ckit_062s2_ai,cy8ckit_062s2_43012]">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen5] [cy8ckit_062s2_ai,cy8ckit_062s2_43012]">
+        <num>3.0.0 release</num>
+        <commit>release-v3.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen5] [cy8ckit_062s2_ai,cy8ckit_062s2_43012]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
@@ -17715,6 +17797,10 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
       <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen5] [cy8ckit_062s2_ai,cy8ckit_062s2_43012]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen5] [cy8ckit_062s2_ai,cy8ckit_062s2_43012]">
+        <num>2.2.0 release</num>
+        <commit>release-v2.2.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen5] [cy8ckit_062s2_ai,cy8ckit_062s2_43012]">
         <num>2.1.0 release</num>
@@ -20329,7 +20415,7 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
       </version>
     </versions>
   </app>
-  <app keywords="wdt,mtb-flow" req_capabilities_v2="[kit_psc3m5_evk]">
+  <app keywords="wdt,mtb-flow" req_capabilities_v2="[kit_psc3m5_evk,kit_psc3m5_cc1,kit_psc3m5_cc2]">
     <name>Watchdog Timer</name>
     <id>mtb-example-ce240507-wdt</id>
     <category>Peripherals</category>
@@ -20338,9 +20424,13 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce240507-wdt/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>cat1b led</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>1.0.0 release</num>
@@ -20409,7 +20499,7 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
       </version>
     </versions>
   </app>
-  <app keywords="scb,i2c,slave,mtb-flow" req_capabilities_v2="[kit_psc3m5_evk,xmc5000]">
+  <app keywords="scb,i2c,slave,mtb-flow" req_capabilities_v2="[kit_psc3m5_evk,kit_psc3m5_cc1,kit_psc3m5_cc2,xmc5000]">
     <name>SCB I2C slave using callback</name>
     <id>mtb-example-ce240631-i2c-slave-callback</id>
     <category>Peripherals</category>
@@ -20421,6 +20511,10 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>1.2.0 release</num>
+        <commit>release-v1.2.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
         <num>1.1.0 release</num>
@@ -20508,7 +20602,7 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
       </version>
     </versions>
   </app>
-  <app keywords="motif,pwm,motor,mtb-flow" req_capabilities_v2="[kit_psc3m5_evk]">
+  <app keywords="motif,pwm,motor,mtb-flow" req_capabilities_v2="[kit_psc3m5_evk,kit_psc3m5_cc1,kit_psc3m5_cc2">
     <name>MOTIF Stand alone MCP mode</name>
     <id>mtb-example-ce239856-motif-stand-alone-mcp-mode</id>
     <category>Peripherals</category>
@@ -20517,9 +20611,13 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce239856-motif-stand-alone-mcp-mode/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>uart led</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>1.0.0 release</num>
@@ -20527,7 +20625,7 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
       </version>
     </versions>
   </app>
-  <app keywords="cordic,svpwm,mtb-flow" req_capabilities_v2="[kit_psc3m5_evk]">
+  <app keywords="cordic,svpwm,mtb-flow" req_capabilities_v2="[kit_psc3m5_evk,kit_psc3m5_cc1,kit_psc3m5_cc2]">
     <name>SVPWM using CORDIC</name>
     <id>mtb-example-ce239835-cordic-svpwm</id>
     <category>Peripherals</category>
@@ -20536,9 +20634,13 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce239835-cordic-svpwm/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>uart led</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>1.0.0 release</num>
@@ -20546,7 +20648,7 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
       </version>
     </versions>
   </app>
-  <app keywords="adc,mtb-flow" req_capabilities_v2="[kit_psc3m5_evk]">
+  <app keywords="adc,mtb-flow" req_capabilities_v2="[kit_psc3m5_evk,kit_psc3m5_cc1,kit_psc3m5_cc2]">
     <name>ADC 3 Channel Conversion</name>
     <id>mtb-example-ce239857-adc-3-channels-conversion</id>
     <category>Peripherals</category>
@@ -20555,9 +20657,13 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce239857-adc-3-channels-conversion/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>adc led uart</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>1.0.0 release</num>
@@ -20668,7 +20774,7 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
       </version>
     </versions>
   </app>
-  <app keywords="psoc control,scb,uart,transmit,receive,mtb-flow" req_capabilities_v2="[kit_psc3m5_evk,xmc5000]">
+  <app keywords="psoc control,scb,uart,transmit,receive,mtb-flow" req_capabilities_v2="[kit_psc3m5_evk,kit_psc3m5_cc1,kit_psc3m5_cc2,xmc5000]">
     <name>SCB UART transmit and receive</name>
     <id>mtb-example-ce240490-uart-transmit-receive</id>
     <category>Peripherals</category>
@@ -20680,6 +20786,10 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>1.2.0 release</num>
+        <commit>release-v1.2.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
         <num>1.1.0 release</num>
@@ -20748,7 +20858,7 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
       </version>
     </versions>
   </app>
-  <app keywords="adc,psoc control,mtb-flow" req_capabilities_v2="[kit_psc3m5_evk]">
+  <app keywords="adc,psoc control,mtb-flow" req_capabilities_v2="[kit_psc3m5_evk,kit_psc3m5_cc1,kit_psc3m5_cc2]">
     <name>SAR ADC limit detection</name>
     <id>mtb-example-ce240368-hppass-adc-limit-detection</id>
     <category>Peripherals</category>
@@ -20757,9 +20867,13 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
     <br><br>For more details, see the  <a href="https://github.com/Infineon/mtb-example-ce240368-hppass-adc-limit-detection/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>adc led uart</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>1.0.0 release</num>
@@ -20843,7 +20957,7 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
       </version>
     </versions>
   </app>
-  <app keywords="gpio,psoc control,mtb-flow" req_capabilities_v2="[kit_psc3m5_evk]">
+  <app keywords="gpio,psoc control,mtb-flow" req_capabilities_v2="[kit_psc3m5_evk,kit_psc3m5_cc1,kit_psc3m5_cc2]">
     <name>GPIO Interrupt</name>
     <id>mtb-example-ce240467-gpio-interrupt</id>
     <category>Peripherals</category>
@@ -20852,9 +20966,13 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
     <br><br>For more details, see the  <a href="https://github.com/Infineon/mtb-example-ce240467-gpio-interrupt/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>led uart</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>1.0.0 release</num>
@@ -20881,7 +20999,7 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
       </version>
     </versions>
   </app>
-  <app keywords="dma,spi,mtb-flow" req_capabilities_v2="[kit_psc3m5_evk]">
+  <app keywords="dma,spi,mtb-flow" req_capabilities_v2="[kit_psc3m5_evk,kit_psc3m5_cc1,kit_psc3m5_cc2]">
     <name>SCB SPI master with DMA</name>
     <id>mtb-example-ce240722-spi-master-dma</id>
     <category>Peripherals</category>
@@ -20890,9 +21008,13 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
     <br><br>For more details, see the  <a href="https://github.com/Infineon/mtb-example-ce240722-spi-master-dma/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>dma led spi uart</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>1.0.0 release</num>
@@ -21051,6 +21173,10 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
         <commit>latest-v1.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>1.0.1 release</num>
+        <commit>release-v1.0.1</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -21094,7 +21220,7 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
       </version>
     </versions>
   </app>
-  <app keywords="tcpwm,counter,mtb-flow" req_capabilities_v2="[kit_psc3m5_evk]">
+  <app keywords="tcpwm,counter,mtb-flow" req_capabilities_v2="[kit_psc3m5_evk,kit_psc3m5_cc1,kit_psc3m5_cc2]">
     <name>TCPWM Capture</name>
     <id>mtb-example-ce240241-tcpwm-capture</id>
     <category>Peripherals</category>
@@ -21103,9 +21229,13 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
     <br><br>For more details, see the  <a href="https://github.com/Infineon/mtb-example-ce240241-tcpwm-capture/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>led</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>1.0.0 release</num>
@@ -21132,7 +21262,7 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
       </version>
     </versions>
   </app>
-  <app keywords="led,systick,timer,toggle,mtb-flow" req_capabilities_v2="[kit_psc3m5_evk]">
+  <app keywords="led,systick,timer,toggle,mtb-flow" req_capabilities_v2="[kit_psc3m5_evk,kit_psc3m5_cc1,kit_psc3m5_cc2]">
     <name>Toggle LED with SysTick Timer</name>
     <id>mtb-example-ce240723-systick-led</id>
     <category>Peripherals</category>
@@ -21141,9 +21271,13 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
     <br><br>For more details, see the  <a href="https://github.com/Infineon/mtb-example-ce240723-systick-led/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>cat1b led</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>1.0.0 release</num>
@@ -21151,7 +21285,7 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
       </version>
     </versions>
   </app>
-  <app keywords="emulated,eeprom,flash,mtb-flow" req_capabilities_v2="[kit_psc3m5_evk]">
+  <app keywords="emulated,eeprom,flash,mtb-flow" req_capabilities_v2="[kit_psc3m5_evk,kit_psc3m5_cc1,kit_psc3m5_cc2]">
     <name>Emulated EEPROM</name>
     <id>mtb-example-ce240724-emulated-eeprom</id>
     <category>Peripherals</category>
@@ -21160,9 +21294,13 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
     <br><br>For more details, see the  <a href="https://github.com/Infineon/mtb-example-ce240724-emulated-eeprom/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>cat1b led</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
         <num>1.0.1 release</num>
@@ -21224,7 +21362,7 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
       </version>
     </versions>
   </app>
-  <app keywords="motor,mtb-flow" req_capabilities_v2="[kit_psc3m5_cc2]">
+  <app keywords="motor,mtb-flow" req_capabilities_v2="[kit_psc3m5_cc2, ref_80vdc_3_5_kw_ope2]">
     <name>PMSM FOC SL with 3-shunt</name>
     <id>mtb-example-ce240243-foc-3-shunt</id>
     <category>Motor Control</category>
@@ -21236,6 +21374,10 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
       <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>3.2.0 release</num>
+        <commit>release-v3.2.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
         <num>3.1.0 release</num>
@@ -21363,7 +21505,7 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
       </version>
     </versions>
   </app>
-  <app keywords="gpio,led,freertos,mtb-flow" req_capabilities_v2="[kit_psc3m5_evk]">
+  <app keywords="gpio,led,freertos,mtb-flow" req_capabilities_v2="[kit_psc3m5_evk,kit_psc3m5_cc1,kit_psc3m5_cc2]">
     <name>FreeRTOS Blinky</name>
     <id>mtb-example-ce240823-blinky-freertos</id>
     <category>Getting Started</category>
@@ -21372,11 +21514,15 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
     <br><br>For more details, see the  <a href="https://github.com/Infineon/mtb-example-ce240823-blinky-freertos/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>cat1b led</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen5]">
         <num>1.0.2 release</num>
         <commit>release-v1.0.2</commit>
       </version>
@@ -21427,6 +21573,10 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
         <commit>latest-v1.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.1 release</num>
+        <commit>release-v1.0.1</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -21463,6 +21613,10 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
       <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.2 release</num>
+        <commit>release-v1.0.2</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>1.0.1 release</num>
@@ -26247,6 +26401,25 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
       </version>
     </versions>
   </app>
+  <app keywords="psocc3 control,spi external flash, external flash, NOR flash" req_capabilities_v2="[kit_psc3m5_evk]">
+    <name>SPI Based External NOR Flash</name>
+    <id>mtb-example-ce242969-spi-based-external-nor-flash</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce242969-spi-based-external-nor-flash</uri>
+    <description><![CDATA[This code example demonstrates how to interface with an external SPI flash memory using the PSOC&#8482; Control C3 MCU. The application uses the SPI master (SCB) block to communicate with the external flash and performs sector erase, page program, read, and data verification operations.
+    <br><br>For more details, see the  <a href="https://github.com/Infineon/mtb-example-ce242969-spi-based-external-nor-flash/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>cat1b</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen5]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen5]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
   <app keywords="Local Voice,DEEPCRAFT,Voice Assistant,Staged Voice Control (SVC) middleware,Local Voice,mtb-flow" req_capabilities_v2="pse8xxgp">
     <name>PSOC Edge Battery Powered Local Voice</name>
     <id>mtb-example-psoc-edge-battery-powered-local-voice</id>
@@ -26833,6 +27006,25 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
         <commit>latest-v1.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen6] [kit_t2g_c_2d_6m_lite,kit_t2g_b_h_lite,kit_t2g_b_e_lite]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="xmc7000,xmc5000, class-b,flash,sram,cpu,wdt" req_capabilities_v2="uart [xmc7000,xmc5000]">
+    <name>Class-B Core peripherals</name>
+    <id>mtb-example-ce242772-safety-core-test</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce242772-safety-core-test</uri>
+    <description><![CDATA[This code example demonstrates the usage of ModusToolbox&#8482 Safety Test Library (MTB STL) to test the core peripherals of the MCU, which are critical for ensuring safety.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce242772-safety-core-test/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>uart</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5,bsp_gen6] [kit_xmc72_evk,kit_xmc52_evk]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5,bsp_gen6] [kit_xmc72_evk,kit_xmc52_evk]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
