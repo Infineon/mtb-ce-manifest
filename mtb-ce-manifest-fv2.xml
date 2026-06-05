@@ -4438,7 +4438,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="fx3g2,slavefifo,2bit" req_capabilities_v2="fx3g2">
+  <app keywords="fx20,fx3g2,slavefifo,2bit" req_capabilities_v2="fx3g2">
     <name>Slave FIFO 2Bit</name>
     <id>mtb-example-fx20-slave-fifo-2bit</id>
     <category>Peripherals</category>
@@ -4453,6 +4453,24 @@
       <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
         <num>1.0.1 release</num>
         <commit>release-v1.0.1</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="fx20,fx3g2,slavefifo,5bit" req_capabilities_v2="fx3g2">
+    <name>Slave FIFO 5Bit</name>
+    <id>mtb-example-fx20-slave-fifo-5bit</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-fx20-slave-fifo-5bit</uri>
+    <description><![CDATA[This code example demonstrates the implementation of LVCMOS to USB data transfer application using a 5-Bit Slave FIFO interface on the EZ-USB&#8482; FX20 device.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-fx20-slave-fifo-5bit/blob/master/README.md">README on GitHub</a>.]]></description>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>latest 1.X</num>
+        <commit>latest-v1.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
         <num>1.0.0 release</num>
@@ -4517,6 +4535,10 @@
         <commit>latest-v1.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>1.0.1 release</num>
+        <commit>release-v1.0.1</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -4569,6 +4591,43 @@
     <uri>https://github.com/Infineon/mtb-example-fx20-usb3vision</uri>
     <description><![CDATA[This code example demonstrates the implementation of a USB3 Vision device streaming image data using Infineon's EZ-USB&#8482; FX20 device.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-fx20-usb3vision/blob/master/README.md">README on GitHub</a>.]]></description>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>latest 1.X</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="fx20,fx3g2,smif,xip" req_capabilities_v2="fx3g2">
+    <name>SMIF XIP</name>
+    <id>mtb-example-fx20-smif-xip</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-fx20-smif-xip</uri>
+    <description><![CDATA[This code example demonstrates EZ-USB&#8482; FX20 device's capability to execute code directly from an external
+SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place (XIP) mode.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-fx20-smif-xip/blob/master/README.md">README on GitHub</a>.]]></description>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>latest 1.X</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="fx20,fx3g2,security" req_capabilities_v2="fx3g2">
+    <name>Security App</name>
+    <id>mtb-example-fx20-security-app</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-fx20-security-app</uri>
+    <description><![CDATA[This is a minimal starter dual-CPU security application template for EZ-USB&#8482; FX20 devices. The implementation is based on the PSOC&#8482; 6 security application template, which serves as a companion to the AN221111 – PSOC&#8482; 6 MCU: Designing a secured system application note.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-fx20-security-app/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
       <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
         <num>latest 1.X</num>
