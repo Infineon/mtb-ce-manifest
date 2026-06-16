@@ -4626,7 +4626,8 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
     <id>mtb-example-fx20-security-app</id>
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-fx20-security-app</uri>
-    <description><![CDATA[This is a minimal starter dual-CPU security application template for EZ-USB&#8482; FX20 devices. The implementation is based on the PSOC&#8482; 6 security application template, which serves as a companion to the AN221111 – PSOC&#8482; 6 MCU: Designing a secured system application note.
+    <description><![CDATA[This is a minimal starter dual-CPU security application template for EZ-USB&#8482; FX20 devices. The implementation is based on
+ the PSOC&#8482; 6 security application template, which serves as a companion to the AN221111 - PSOC&#8482; 6 MCU: Designing a secured system application note.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-fx20-security-app/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
       <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
@@ -17984,7 +17985,7 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
       </version>
     </versions>
   </app>
-  <app keywords="starter,template,empty,blank,mtb-flow" req_capabilities_v2="cyw55xxx [cyw955513evk_01, cyw955913evk_01]">
+  <app keywords="starter,template,empty,blank,mtb-flow" req_capabilities_v2="cyw55xxx [cyw955513evk_01, cyw955913evk_01, kit_cyw55310_eval]">
     <name>Empty App</name>
     <id>mtb-example-threadx-empty-app</id>
     <category>Getting Started</category>
@@ -17999,12 +18000,16 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
         <commit>latest-v1.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5,bsp_gen4]">
+        <num>1.2.0 release</num>
+        <commit>release-v1.2.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5,bsp_gen4]">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
     </versions>
   </app>
-  <app keywords="starter,blinky,mtb-flow,led" req_capabilities_v2="cyw55xxx [cyw955513evk_01, cyw955913evk_01]">
+  <app keywords="starter,blinky,mtb-flow,led" req_capabilities_v2="cyw55xxx [cyw955513evk_01, cyw955913evk_01, kit_cyw55310_eval]">
     <name>HAL Blinky LED</name>
     <id>mtb-example-threadx-blinky-led</id>
     <category>Peripherals</category>
@@ -18017,6 +18022,10 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5,bsp_gen4]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5,bsp_gen4]">
+        <num>1.2.0 release</num>
+        <commit>release-v1.2.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5,bsp_gen4]">
         <num>1.1.0 release</num>
@@ -18089,6 +18098,10 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
         <commit>latest-v1.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5,bsp_gen4]">
+        <num>1.2.0 release</num>
+        <commit>release-v1.2.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5,bsp_gen4]">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
@@ -18111,6 +18124,10 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5,bsp_gen4]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5,bsp_gen4]">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5,bsp_gen4]">
         <num>1.0.0 release</num>
@@ -18255,6 +18272,10 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5,bsp_gen4]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5,bsp_gen4]">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5,bsp_gen4]">
         <num>1.0.0 release</num>
@@ -18980,7 +19001,7 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
       </version>
     </versions>
   </app>
-  <app keywords="headset-speaker,audio,bluetooth,btstack,threadx,cyw55513" req_capabilities_v2="bt cyw55513 [cyw955513evk_01]">
+  <app keywords="headset-speaker,audio,bluetooth,btstack,threadx,cyw55513" req_capabilities_v2="bt cyw55513 [cyw955513evk_01, kit_cyw55310_eval]">
     <name>Headset Speaker</name>
     <id>mtb-example-btstack-threadx-audio-headset-speaker</id>
     <category>Bluetooth&#174;</category>
@@ -18992,13 +19013,17 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5,bsp_gen4]">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>1.0.1 release</num>
         <commit>release-v1.0.1</commit>
       </version>
     </versions>
   </app>
-  <app keywords="watch,bluetooth,btstack,threadx,cyw55513,audio" req_capabilities_v2="bt cyw55513 [cyw955513evk_01]">
+  <app keywords="watch,bluetooth,btstack,threadx,cyw55513,audio" req_capabilities_v2="bt cyw55513 [cyw955513evk_01, kit_cyw55310_eval]">
     <name>Watch</name>
     <id>mtb-example-btstack-threadx-audio-watch</id>
     <category>Bluetooth&#174;</category>
@@ -19010,13 +19035,17 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5,bsp_gen4]">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>1.0.3 release</num>
         <commit>release-v1.0.3</commit>
       </version>
     </versions>
   </app>
-  <app keywords="hello-sensor,bluetooth,btstack,threadx,cyw55513" req_capabilities_v2="bt cyw55513 [cyw955513evk_01]">
+  <app keywords="hello-sensor,bluetooth,btstack,threadx,cyw55513" req_capabilities_v2="bt cyw55513 [cyw955513evk_01, kit_cyw55310_eval]">
     <name>Hello-Sensor</name>
     <id>mtb-example-btstack-threadx-hello-sensor</id>
     <category>Bluetooth&#174;</category>
@@ -19027,6 +19056,10 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5,bsp_gen4]">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>1.0.0 release</num>
@@ -19052,7 +19085,7 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
       </version>
     </versions>
   </app>
-  <app keywords="hello-CLient,bluetooth,btstack,threadx,cyw55513" req_capabilities_v2="bt cyw55513 [cyw955513evk_01]">
+  <app keywords="hello-CLient,bluetooth,btstack,threadx,cyw55513" req_capabilities_v2="bt cyw55513 [cyw955513evk_01, kit_cyw55310_eval]">
     <name>Hello-Client</name>
     <id>mtb-example-btstack-threadx-hello-client</id>
     <category>Bluetooth&#174;</category>
@@ -19063,6 +19096,10 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5,bsp_gen4]">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>1.0.0 release</num>
@@ -21698,7 +21735,7 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
     <id>mtb-example-edge-protect-bootloader</id>
     <category>Security</category>
     <uri>https://github.com/Infineon/mtb-example-edge-protect-bootloader</uri>
-    <description><![CDATA[PSOC Edge Protect Bootloader is an open-source MCUboot library-based bootloader for Infineon's PSOC™ Edge MCU.
+    <description><![CDATA[PSOC Edge Protect Bootloader is an open-source MCUboot library-based bootloader for Infineon's PSOC&#8482; Edge MCU.
     It supports secure boot and secure firmware update features using either ECDSA P-256 and PQC (ML-DSA-87) algorithms,
     along with several other features such as overwrite and swap update mechanism, encrypted boot, SRAM loading and more.
     This code example guides the user to perform secure boot and secure firmware update of reference code example such as Basic Secure Application.
