@@ -21749,9 +21749,13 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
     This code example guides the user to perform secure boot and secure firmware update of reference code example such as Basic Secure Application.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-edge-protect-bootloader/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai, kit_pse84_hmi]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai, kit_pse84_hmi]">
+        <num>release-v2.5.0</num>
+        <commit>release-v2.5.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
         <num>release-v2.4.0</num>
@@ -22799,9 +22803,13 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
     <uri>https://github.com/Infineon/mtb-example-psoc-edge-empty-app</uri>
     <description><![CDATA[This is a minimal starter application template for PSOC&#8482; Edge MCU devices.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-empty-app/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai, kit_pse84_hmi]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai, kit_pse84_hmi]">
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
         <num>2.0.0 release</num>
@@ -22816,9 +22824,13 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
     <uri>https://github.com/Infineon/mtb-example-psoc-edge-hello-world</uri>
     <description><![CDATA[This code example demonstrates a simple UART communication by printing the "Hello world" message on a terminal and blinking an LED using Arm&#174; Cortex&#174; M33 CPU on PSOC&#8482; Edge MCU.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-hello-world/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai, kit_pse84_hmi]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai, kit_pse84_hmi]">
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
         <num>2.0.0 release</num>
@@ -22833,9 +22845,13 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
     <uri>https://github.com/Infineon/mtb-example-psoc-edge-pwm-timer</uri>
     <description><![CDATA[This code example generates an interrupt every second with the TIMER driver, and toggles the user LED when a timer interrupt is generated.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-pwm-timer/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_hmi]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_hmi]">
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4]">
         <num>2.0.0 release</num>
@@ -22850,9 +22866,13 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
     <uri>https://github.com/Infineon/mtb-example-psoc-edge-mcwdt</uri>
     <description><![CDATA[This code example explains how to set up a multi-counter watchdog timer (MCWDT) using the MCWDT PDL resource to measure the timing between events in free-running mode on PSOC&#8482; Edge MCU. <br> The application configures a 32-bit free-running counter using two 16-bit counters of the MCWDT. <br> Many applications require measuring the time gap between different events in a system for timekeeping or debugging. In this example, the time gap between successive user button press events is measured in seconds and displayed on a UART terminal.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-mcwdt/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai, kit_pse84_hmi]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai, kit_pse84_hmi]">
+        <num>2.2.0 release</num>
+        <commit>release-v2.2.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
         <num>2.1.0 release</num>
@@ -22871,9 +22891,13 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
     <uri>https://github.com/Infineon/mtb-example-psoc-edge-wdt</uri>
     <description><![CDATA[This example explains how to set up a Watchdog Timer (WDT) using the WDT PDL drivers. The WDT resets the device if it is not serviced or "kicked" within the configured timeout interval. This helps in recovering the program from an unintended lock up.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-wdt/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai, kit_pse84_hmi]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai, kit_pse84_hmi]">
+        <num>2.2.0 release</num>
+        <commit>release-v2.2.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
         <num>2.1.0 release</num>
@@ -22913,9 +22937,13 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
     <uri>https://github.com/Infineon/mtb-example-psoc-edge-rtc-basics</uri>
     <description><![CDATA[This example demonstrates the usage of the real-time clock (RTC) in Infineon MCU. It shows how to get and set the time in the RTC using the RTC PDL API. The example also supports the daylight saving time (DST) feature. A UART interface is used to input the time and configure the RTC.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-rtc-basics/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai, kit_pse84_hmi]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai, kit_pse84_hmi]">
+        <num>2.2.0 release</num>
+        <commit>release-v2.2.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
         <num>2.1.0 release</num>
@@ -22959,9 +22987,13 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
     <uri>https://github.com/Infineon/mtb-example-psoc-edge-ipc-sema</uri>
     <description><![CDATA[This code example demonstrates how to use the inter-processor communication (IPC) PDL (Peripheral Driver Library) driver to implement a semaphore in PSOC&#8482; Edge MCU. The semaphore is used as a lock to control access to a resource shared by the CPUs and synchronize the initialization instructions.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-ipc-sema/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_hmi]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_hmi]">
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4]">
         <num>2.0.0 release</num>
@@ -22976,9 +23008,13 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
     <uri>https://github.com/Infineon/mtb-example-psoc-edge-ipc-pipes</uri>
     <description><![CDATA[This example demonstrates how to use the inter-processor communication (IPC) driver to implement message pipes in PSOC&#8482; Edge MCU. The IPC pipes are used to send messages between CPUs.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-ipc-pipes/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai, kit_pse84_hmi]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai, kit_pse84_hmi]">
+        <num>2.2.0 release</num>
+        <commit>release-v2.2.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
         <num>2.1.0 release</num>
@@ -22997,9 +23033,13 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
     <uri>https://github.com/Infineon/mtb-example-psoc-edge-usb-device-cdc-echo</uri>
     <description><![CDATA[This example shows how to use the Segger emUSB Device middleware to set up the USB block in PSOC&#8482; MCU for the Communication Device Class (CDC). Once configured for CDC, the PSOC&#8482; MCU device gets enumerated as a virtual COM port, which can be read and written by a terminal emulator program on a PC.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-usb-device-cdc-echo/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_hmi]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_hmi]">
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4]">
         <num>2.0.0 release</num>
@@ -23014,9 +23054,13 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
     <uri>https://github.com/Infineon/mtb-example-psoc-edge-usb-device-hid-mouse</uri>
     <description><![CDATA[This example shows how to use Segger's emUSB-Device middleware to set up the USB block in PSOC&#8482; Edge MCU for the Human Interface Device (HID) class. Once configured for HID, the MCU device gets enumerated as a 3-button mouse.After the device enumerates, the firmware moves the mouse cursor on your computer from the right to the left, and vice-versa.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-usb-device-hid-mouse/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai, kit_pse84_hmi]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai, kit_pse84_hmi]">
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
         <num>2.0.0 release</num>
@@ -23031,9 +23075,13 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
     <uri>https://github.com/Infineon/mtb-example-psoc-edge-usb-device-hid-generic</uri>
     <description><![CDATA[This code example demonstrates the usage of the emUSB device middleware stack to configure the USB block in PSOC&#8482; Edge MCU as a generic Human Interface Device (HID). It takes help from an external HID software tool to send in the generic HID inputs which it then relays back.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-usb-device-hid-generic/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_hmi]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_hmi]">
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4]">
         <num>2.0.1 release</num>
@@ -23052,9 +23100,13 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
     <uri>https://github.com/Infineon/mtb-example-psoc-edge-sensor-hub-imu</uri>
     <description><![CDATA[This code example demonstrates how to collect raw data from onboard sensors on a PSOC&#8482; Edge Kit. The program utilizes the Arm&#174; CM33 CPU to gather data at a rate of 100 Hz and then transmit it via UART to an external device. With this example, users can quickly get started with the Sensor Hub Data Acquisition and gain insight into how to collect and process data from various sensors in real-time.<br><br>The user may optionally enable sensor fusion functionality for fusing the 6 axis sensor data using BSXlite sensor fusion library to compute the Euler angles and Quaternion vectors. With this extended use case, users can gain insight into how to process and fuse data from accelerometer and gyroscope sensors in real-time.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-sensor-hub-imu/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai, kit_pse84_hmi]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai, kit_pse84_hmi]">
+        <num>2.2.0 release</num>
+        <commit>release-v2.2.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
         <num>2.1.0 release</num>
@@ -23069,9 +23121,13 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
     <uri>https://github.com/Infineon/mtb-example-psoc-edge-serial-flash-readwrite</uri>
     <description><![CDATA[This code example demonstrates how to interface an external NOR flash memory with the PSOC&#8482; Edge MCU using the serial flash library. Specifically, it illustrates how the SMIF (Serial Memory Interface) block in the PSOC&#8482; Edge E84 MCU can be initialized from the Arm&#174; Cortex&#174; M33 core's Secure project to access an external flash memory device. The code also demonstrates how to jump to a non-secure application after enabling Execute-in-Place (XiP) mode.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-serial-flash-readwrite/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai, kit_pse84_hmi]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai, kit_pse84_hmi]">
+        <num>2.3.0 release</num>
+        <commit>release-v2.3.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
         <num>2.2.0 release</num>
@@ -23094,9 +23150,13 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
     <uri>https://github.com/Infineon/mtb-example-psoc-edge-psram-xip</uri>
     <description><![CDATA[This code example demonstrates interfacing with an external PSRAM in Octal-SPI DDR mode, using the serial memory interface (SMIF) PDL in PSOC&#8482; Edge MCU. The application code is located in the proj_cm33_ns (CM33 non-secure project). You can move it to other projects depending on your application design.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-psram-xip/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_hmi]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_hmi]">
+        <num>2.2.0 release</num>
+        <commit>release-v2.2.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4]">
         <num>2.1.0 release</num>
@@ -23136,9 +23196,13 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
     <uri>https://github.com/Infineon/mtb-example-psoc-edge-crypto-sha</uri>
     <description><![CDATA[This code example demonstrates how to generate a 32-byte hash value or message digest for an arbitrary user input message with the SHA-256 algorithm using the cryptographic hardware block in PSOC&#8482; Edge MCU. This code example further demonstrates any change in the message results in a unique hash value for the message. The hash value generated for the message is displayed on the UART terminal emulator.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-crypto-sha/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai, kit_pse84_hmi]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai, kit_pse84_hmi]">
+        <num>2.2.0 release</num>
+        <commit>release-v2.2.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
         <num>2.1.0 release</num>
@@ -23241,9 +23305,13 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
     <uri>https://github.com/Infineon/mtb-example-psoc-edge-usb-device-audio-playback</uri>
     <description><![CDATA[This code example demonstrates how to setup the USB block of PSOC&#8482; Edge MCU using Segger's emUSB-device middleware. In this code example PSOC&#8482; Edge MCU enumerates as a USB audio class device with HID consumer control over the USB interface. This code example uses FreeRTOS.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-usb-device-audio-playback/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_hmi]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_hmi]">
+        <num>2.2.0 release</num>
+        <commit>release-v2.2.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4]">
         <num>2.1.0 release</num>
@@ -23383,9 +23451,13 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
     <uri>https://github.com/Infineon/mtb-example-psoc-edge-gpio-interrupt</uri>
     <description><![CDATA[This code example demonstrates the use of a GPIO configured as an input pin to generate interrupts on PSOC&#8482; Edge MCU. The GPIO signal interrupts the CPU and executes a user-defined interrupt service routine (ISR). The GPIO interrupt acts as a wakeup source to wake the CPU from deepsleep.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-gpio-interrupt/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai, kit_pse84_hmi]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai, kit_pse84_hmi]">
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
         <num>2.0.0 release</num>
@@ -23400,9 +23472,13 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
     <uri>https://github.com/Infineon/mtb-example-psoc-edge-pwm-square-wave</uri>
     <description><![CDATA[This code example generates a square wave using the PWM driver. An LED connected to the PWM output pin blinks at 2 Hz.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-pwm-square-wave/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai, kit_pse84_hmi]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai, kit_pse84_hmi]">
+        <num>2.2.0 release</num>
+        <commit>release-v2.2.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
         <num>2.1.0 release</num>
@@ -23438,11 +23514,11 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
     <uri>https://github.com/Infineon/mtb-example-psoc-edge-dsp-convolution</uri>
     <description><![CDATA[This code example demonstrates the convolution theorem with the use of the Complex FFT, Complex-by-Complex Multiplication, and Support Functions which are part of CMSIS-DSP library. This code example leverages the DSP and Helium extension of Arm&#174; Cortex&#174; M55 CPU.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-dsp-convolution/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai, kit_pse84_hmi]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai, kit_pse84_hmi]">
         <num>2.2.0 release</num>
         <commit>release-v2.2.0</commit>
       </version>
@@ -23463,9 +23539,13 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
     <uri>https://github.com/Infineon/mtb-example-psoc-edge-uart-transmit-receive-dma</uri>
     <description><![CDATA[This code example demonstrates the UART transmit and receive operation in PSOC&#8482; Edge MCU using DMA. The application uses a serial terminal to read data and echoes what is received. UART is configured to perform both transmit and receive operations.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-uart-transmit-receive-dma/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai, kit_pse84_hmi]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai, kit_pse84_hmi]">
+        <num>2.3.0 release</num>
+        <commit>release-v2.3.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
         <num>2.2.0 release</num>
@@ -23509,9 +23589,13 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
     <uri>https://github.com/Infineon/mtb-example-psoc-edge-btstack-findme</uri>
     <description><![CDATA[This code example demonstrates the implementation of a simple Bluetooth&#174; Immediate Alert Service (IAS)-based Find Me Profile (FMP) using the Infineon PSOC&#8482; Edge MCU with AIROC&#8482; CYW55513 and ModusToolbox&#8482; software environment.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-btstack-findme/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai, kit_pse84_hmi]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai, kit_pse84_hmi]">
+        <num>2.3.0 release</num>
+        <commit>release-v2.3.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
         <num>2.2.0 release</num>
@@ -23534,9 +23618,13 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
     <uri>https://github.com/Infineon/mtb-example-psoc-edge-btstack-multi-beacon</uri>
     <description><![CDATA[This code example demonstrates the implementation of a beacon which advertises Eddystone and iBeacon UUID data using the Infineon PSOC&#8482; Edge MCU with AIROC&#8482; CYW55513 and ModusToolbox&#8482; software environment.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-btstack-multi-beacon/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_hmi]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_hmi]">
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4]">
         <num>2.0.0 release</num>
@@ -23572,9 +23660,13 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
     <uri>https://github.com/Infineon/mtb-example-psoc-edge-btstack-hfp-ag</uri>
     <description><![CDATA[This application demonstrates a hands-free profile (HFP) audio gateway (AG) using the AIROC&#8482; Bluetooth&#174; stack. The application runs on the PSOC&#8482; Edge E84 Evaluation Kit and appears as an HFP audio gateway device. A remote hands-free (HF) device, such as a Bluetooth&#174; headset or car kit, can connect to it for call control and audio streaming.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-btstack-hfp-ag/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_hmi]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_hmi]">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4]">
         <num>1.0.0 release</num>
@@ -23678,9 +23770,13 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
     <uri>https://github.com/Infineon/mtb-example-psoc-edge-btstack-peripheral-privacy</uri>
     <description><![CDATA[This code example demonstrates the privacy features available to users in Bluetooth&#174; 5.0 and above using PSOC&#8482; Edge MCU coupled with AIROC&#8482; CYW55513 in ModusToolbox&#8482; environment. Features demonstrated: Privacy modes as defined in Bluetooth&#174; spec 5.0 and above. Use of persistent storage for bond data management. Management and handling of bond data of multiple peer devices.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-btstack-peripheral-privacy/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_hmi]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_hmi]">
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4]">
         <num>2.0.0 release</num>
@@ -23739,9 +23835,13 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
     <uri>https://github.com/Infineon/mtb-example-psoc-edge-usb-suspend-resume</uri>
     <description><![CDATA[This example demonstrates how an PSOC&#8482; Edge MCU detects a USB suspend condition, enters a low-power state, and restores normal operation when USB activity resumes.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-usb-suspend-resume/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_hmi]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_hmi]">
+        <num>2.2.0 release</num>
+        <commit>release-v2.2.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4]">
         <num>2.1.0 release</num>
@@ -23815,9 +23915,13 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
     <uri>https://github.com/Infineon/mtb-example-psoc-edge-posix-freertos</uri>
     <description><![CDATA[This code example demonstrates the usage of FreeRTOS-POSIX library for Infineon MCUs. FreeRTOS-POSIX implements a small subset of the POSIX threading API. This code example shows how to use the FreeRTOS-POSIX API in an RTOS application, making application developers familiar with POSIX APIs. This example demonstrates the usage of the following POSIX components: pthread, pthread_mutex, timer, mqueue<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-posix-freertos/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_hmi]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_hmi]">
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4]">
         <num>2.0.0 release</num>
@@ -23892,9 +23996,13 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
     <uri>https://github.com/Infineon/mtb-example-psoc-edge-ml-deepcraft-deploy-audio</uri>
     <description><![CDATA[This code example demonstrates how to deploy a Machine Learning (ML) model for Audio generated from DEEPCRAFT&#8482; Studio on the PSOC&#8482; Edge MCU. It comes pre-configured with the Baby Cry Detection Starter Model from the DEEPCRAFT&#8482; Studio that uses the data from the PDM microphone to detect whether a baby is crying or not. New models based on the microphone audio can be dropped into the project as-is. The model can be run on either the Arm&#174; Cortex&#174; M33 (CM33) or Cortex&#174; M55 (CM55) CPUs along with their accelerators.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-ml-deepcraft-deploy-audio/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai, kit_pse84_hmi]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai, kit_pse84_hmi]">
+        <num>2.2.0 release</num>
+        <commit>release-v2.2.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
         <num>2.1.0 release</num>
@@ -23913,9 +24021,13 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
     <uri>https://github.com/Infineon/mtb-example-psoc-edge-ml-deepcraft-deploy-motion</uri>
     <description><![CDATA[This code example demonstrates how to deploy a Machine Learning (ML) model for Motion generated from DEEPCRAFT&#8482; Studio on the PSOC&#8482; Edge MCU. It comes pre-configured with the Human Activity Detection Starter Model from the DEEPCRAFT&#8482; Studio that uses the data from the BMI270 IMU to detect various motions such as standing, running, walking, sitting, and jumping. New models based on the IMU can be dropped into the project as-is. The model can be run on either the Arm&#174; Cortex&#174; M33 (CM33) or Cortex&#174; M55 (CM55) CPUs along with their accelerators.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-ml-deepcraft-deploy-motion/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai, kit_pse84_hmi]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai, kit_pse84_hmi]">
+        <num>2.4.0 release</num>
+        <commit>release-v2.4.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
         <num>2.3.0 release</num>
@@ -23942,9 +24054,13 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
     <uri>https://github.com/Infineon/mtb-example-psoc-edge-ml-deepcraft-data-collection</uri>
     <description><![CDATA[This code example demonstrates how to collect data from PSOC&#8482; Edge E84 MCU boards using DEEPCRAFT&#8482; Studio. The example implements the DEEPCRAFT&#8482; streaming protocol v2, allowing the streaming of sensor data and other information from the board into DEEPCRAFT&#8482; Studio over USB for development and testing of Edge AI models.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-ml-deepcraft-data-collection/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai, kit_pse84_hmi]">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai, kit_pse84_hmi]">
+        <num>3.1.0 release</num>
+        <commit>release-v3.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
         <num>3.0.0 release</num>
@@ -24146,9 +24262,13 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
     <uri>https://github.com/Infineon/mtb-example-psoc-edge-wifi-web-server</uri>
     <description><![CDATA[This code example demonstrates Wi-Fi provisioning via a SoftAP and setting up a web server using the PSOC&#8482; Edge E84 MCU and a WLAN AIROC&#8482; CYW55513 Wi-Fi & Bluetooth&#174; combo chip<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-wifi-web-server/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai, kit_pse84_hmi]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai, kit_pse84_hmi]">
+        <num>2.4.0 release</num>
+        <commit>release-v2.4.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
         <num>2.3.0 release</num>
@@ -24175,9 +24295,13 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
     <uri>https://github.com/Infineon/mtb-example-psoc-edge-usb-device-msc-filesystem-freertos</uri>
     <description><![CDATA[This example demonstrates the usage of Segger's emUSB-Device middleware to set up the USB block of PSOC&#8482; Edge MCU as a Mass Storage Class (MSC) device and run the (FatFs) file system through an external memory (microSD). This example is based on FreeRTOS.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-usb-device-msc-filesystem-freertos/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_hmi]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_hmi]">
+        <num>2.2.0 release</num>
+        <commit>release-v2.2.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4]">
         <num>2.1.0 release</num>
@@ -24214,9 +24338,13 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
     <uri>https://github.com/Infineon/mtb-example-psoc-edge-wifi-secure-tcp-server</uri>
     <description><![CDATA[This code example demonstrates the implementation of a secure TCP server with PSOC&#8482; Edge E84 MCU and AIROC&#8482; CYW55513 Wi-Fi & Bluetooth&#174; combo chip.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-wifi-secure-tcp-server/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai, kit_pse84_hmi]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai, kit_pse84_hmi]">
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
         <num>2.0.0 release</num>
@@ -24231,9 +24359,13 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
     <uri>https://github.com/Infineon/mtb-example-psoc-edge-wifi-secure-tcp-client</uri>
     <description><![CDATA[This code example demonstrates the implementation of a secure TCP client with PSOC&#8482; Edge E84 MCU and AIROC&#8482; CYW55513 Wi-Fi & Bluetooth&#174; combo chip.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-wifi-secure-tcp-client/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai, kit_pse84_hmi]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai, kit_pse84_hmi]">
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
         <num>2.0.0 release</num>
@@ -24269,9 +24401,13 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
     <uri>https://github.com/Infineon/mtb-example-psoc-edge-pdm-pcm</uri>
     <description><![CDATA[This example demonstrates how to use the pulse-density modulation (PDM)/pulse-code modulation (PCM) hardware block of PSOC&#8482; Edge MCU with a digital microphone. The PDM-PCM hardware block is configured to Arm&#174; Cortex&#174; M33 CPU.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-pdm-pcm/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai, kit_pse84_hmi]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai, kit_pse84_hmi]">
+        <num>2.2.0 release</num>
+        <commit>release-v2.2.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
         <num>2.1.0 release</num>
@@ -24375,9 +24511,13 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
     <uri>https://github.com/Infineon/mtb-example-psoc-edge-emulated-eeprom</uri>
     <description><![CDATA[This code example demonstrates Electrically Erasable Programmable Read-Only Memory (EEPROM) emulation in user Non-Volatile Memory (NVM) of PSOC&#8482; Edge MCU using `emeeprom` middleware.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-emulated-eeprom/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai, kit_pse84_hmi]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai, kit_pse84_hmi]">
+        <num>2.2.0 release</num>
+        <commit>release-v2.2.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
         <num>2.1.0 release</num>
@@ -24396,9 +24536,13 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
     <uri>https://github.com/Infineon/mtb-example-psoc-edge-nvm-read-write</uri>
     <description><![CDATA[This code example demonstrates the basic read and write operations performed by the PSOC&#8482; Edge MCU's CM33 CPU on the user NVM and OTP memory regions of internal Resistive Random Access Memory (RRAM)<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-nvm-read-write/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai, kit_pse84_hmi]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai, kit_pse84_hmi]">
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
         <num>2.0.0 release</num>
@@ -24455,9 +24599,13 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
     <uri>https://github.com/Infineon/mtb-example-psoc-edge-power-measurements</uri>
     <description><![CDATA[This code example shows how to achieve selected power modes listed as SIDs in the PSOC&#8482; Edge E84 MCU datasheet for different configurations. You can select a desired configuration in the specs.h file including custom configurations. This example will configure the PSOC&#8482; E84 MCU's clock frequencies and power modes as defined for the specified configuration. Once the built application binary has been loaded onto the PSOC&#8482; E84 MCU, you can measure the current consumption of the PSOC&#8482; E84 MCU and compare it against the values specified in the datasheet.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-power-measurements/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4]">
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_hmi]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_hmi]">
+        <num>2.2.0 release</num>
+        <commit>release-v2.2.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4]">
         <num>2.1.1 release</num>
@@ -24480,9 +24628,13 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
     <uri>https://github.com/Infineon/mtb-example-psoc-edge-switching-power-modes</uri>
     <description><![CDATA[This example demonstrates how to transition PSOC&#8482; Edge E84 MCU to the following system power modes: System High Performance (HP), System Low Power (LP), System Ultra Low Power (ULP) and System Deep Sleep.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-switching-power-modes/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_hmi]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_hmi]">
+        <num>2.2.0 release</num>
+        <commit>release-v2.2.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4]">
         <num>2.1.0 release</num>
@@ -24565,9 +24717,13 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
     <description><![CDATA[This code example shows a 2D graphics demo on a MIPI (Mobile Industry Processor Interface) DSI (Display Serial Interface) display using the Light and Versatile Graphics Library (LVGL) on the PSOC&#8482; Edge MCU in a FreeRTOS environment. The 2D graphics displays a music player application, which is listed as one of the standard demo on the LVGL page. This code example supports following displays: Waveshare 4.3-inch 800*480 DSI LCD, Waveshare 7-inch 1024*600 DSI C LCD, and 10.1-inch 1024*600 TFT LCD (WF101JTYAHMNB0). All the three displays are swappable and connected to the PSOC&#8482; Edge E84 Evaluation Kit via MIPI DSI.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-gfx-lvgl-demo/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai, kit_pse84_hmi]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai, kit_pse84_hmi]">
+        <num>2.5.0 release</num>
+        <commit>release-v2.5.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
         <num>2.4.0 release</num>
@@ -24623,9 +24779,13 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
     <uri>https://github.com/Infineon/mtb-example-psoc-edge-ml-face-id</uri>
     <description><![CDATA[This code example demonstrates Infineon's comprehensive solution for real-time Face ID, utilizing USB camera and MIPI DSI display interfacing with the PSOC&#8482; Edge MCU. It also facilitates both on-device face enrolment, as well as face recognition for the detected enrolled users through the camera. The detected human faces are highlighted by displaying a bounding box around them, along with the corresponding enrolled user ID or "unknown" text in the case of a non-enrolled user, on the live video streamed through the USB camera.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-ml-face-id/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai, kit_pse84_hmi]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai, kit_pse84_hmi]">
+        <num>1.3.0 release</num>
+        <commit>release-v1.3.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
         <num>1.2.0 release</num>
@@ -24690,9 +24850,13 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
     <uri>https://github.com/Infineon/mtb-example-psoc-edge-wifi-https-server</uri>
     <description><![CDATA[This code example demonstrates the implementation of a Hypertext Transfer Protocol Secure (HTTPS) Server using PSOC&#8482; Edge MCU with AIROC&#8482; CYW55513 Wi-Fi & Bluetooth&#174; combo chip.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-wifi-https-server/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai, kit_pse84_hmi]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai, kit_pse84_hmi]">
+        <num>2.2.0 release</num>
+        <commit>release-v2.2.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
         <num>2.1.0 release</num>
@@ -24711,9 +24875,13 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
     <uri>https://github.com/Infineon/mtb-example-psoc-edge-wifi-https-client</uri>
     <description><![CDATA[This code example demonstrates the implementation of a Hypertext Transfer Protocol Secure (HTTPS) Client using PSOC&#8482; Edge MCU with AIROC&#8482; CYW55513 Wi-Fi & Bluetooth&#174; combo chip.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-wifi-https-client/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai, kit_pse84_hmi]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai, kit_pse84_hmi]">
+        <num>2.2.0 release</num>
+        <commit>release-v2.2.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
         <num>2.1.0 release</num>
@@ -24732,9 +24900,13 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
     <uri>https://github.com/Infineon/mtb-example-psoc-edge-wifi-scan</uri>
     <description><![CDATA[This code example demonstrates how to configure different scan filters provided in the Wi-Fi connection manager (WCM) middleware and scan for the available Wi-Fi networks using PSOC&#8482; Edge MCU with AIROC&#8482; CYW55513 Wi-Fi & Bluetooth&#174; combo chip.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-wifi-scan/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai, kit_pse84_hmi]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai, kit_pse84_hmi]">
+        <num>2.2.0 release</num>
+        <commit>release-v2.2.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
         <num>2.1.0 release</num>
@@ -24770,11 +24942,11 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
     <uri>https://github.com/Infineon/mtb-example-psoc-edge-btstack-wifi-onboarding</uri>
     <description><![CDATA[This example uses the Arm&#174; Cortex&#174;-M33 CPU of PSOC&#8482; Edge MCU to communicate with the AIROC&#8482; CYW55513 combo devices and control the Wi-Fi and Bluetooth&#174; LE functionality. It uses Bluetooth&#174; LE on the combo device to help connect the Wi-Fi to the AP (Access Point). Bluetooth&#174; LE provides a mechanism for the device to connect to a Wi-Fi AP by providing the Wi-Fi SSID (Service Set IDentifier) and password in a secure manner.The Wi-Fi SSID and password are exchanged using custom GATT service and characteristics.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-btstack-wifi-onboarding/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai, kit_pse84_hmi]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai, kit_pse84_hmi]">
         <num>2.2.0 release</num>
         <commit>release-v2.2.0</commit>
       </version>
@@ -24829,9 +25001,13 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
     <uri>https://github.com/Infineon/mtb-example-psoc-edge-wifi-mqtt-client</uri>
     <description><![CDATA[This code example demonstrates implementing an MQTT client using the MQTT library on PSOC&#8482; Edge MCU. The library uses the AWS IoT device SDK Port library and implements the glue layer that is required for the library to work with Infineon connectivity platforms.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-wifi-mqtt-client/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai, kit_pse84_hmi]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai, kit_pse84_hmi]">
+        <num>2.2.0 release</num>
+        <commit>release-v2.2.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
         <num>2.1.0 release</num>
@@ -24850,9 +25026,13 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
     <uri>https://github.com/Infineon/mtb-example-psoc-edge-i2s</uri>
     <description><![CDATA[This example demonstrates how to use the Inter-IC Sound (I2S) hardware block PSOC&#8482; Edge MCU to interface with an audio codec. The I2S hardware block is configured to Arm&#174; Cortex&#174; M33 CPU.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-i2s/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_hmi]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_hmi]">
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4]">
         <num>2.0.0 release</num>
@@ -24867,9 +25047,13 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
     <uri>https://github.com/Infineon/mtb-example-psoc-edge-pdm-to-i2s</uri>
     <description><![CDATA[This code example demonstrates how to route pulse-density modulation (PDM) audio data to the inter-IC sound (I2S) interface in PSOC&#8482; Edge MCU. The PDM-PCM and I2S hardware block is configured to Arm&#174; Cortex&#174; M33 CPU.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-pdm-to-i2s/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_hmi]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_hmi]">
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4]">
         <num>2.0.0 release</num>
@@ -24905,9 +25089,13 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
     <uri>https://github.com/Infineon/mtb-example-psoc-edge-filesystem-littlefs-freertos</uri>
     <description><![CDATA[This code example demonstrates a littlefs filesystem on Arm&#174; Cortex&#174; M33 CPU using PSOC&#8482; Edge MCU. The CM33 CPU mounts the filesystem on the storage device, reads a 32-bit value from a file, increments the value, writes the value back to the file, and finally prints the value to the UART terminal. You will see the value incrementing after every reset. This code example supports an SD card as storage device.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-filesystem-littlefs-freertos/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai, kit_pse84_hmi]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai, kit_pse84_hmi]">
+        <num>2.2.0 release</num>
+        <commit>release-v2.2.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
         <num>2.1.0 release</num>
@@ -24976,9 +25164,13 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
     <p><b>NOTE: This code example requires the DEEPCRAFT&#8482; Audio Enhancement Tech Pack to be installed before importing the code. Install the tech pack from <a href="https://softwaretools.infineon.com/tools/com.ifx.tb.tool.modustoolboxsetup">ModusToolbox&#8482; Setup</a> to successfully build the code and to use AFE configurator. If the tech pack is installed after importing the code, Open the "ae_configuration.mtbafe" in proj_cm55 project via AFE configurator and save it.</b></p>
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-ae-application/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai, kit_pse84_hmi]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai, kit_pse84_hmi]">
+        <num>2.2.0 release</num>
+        <commit>release-v2.2.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4]">
         <num>2.1.0 release</num>
@@ -25026,6 +25218,24 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
       </version>
     </versions>
   </app>
+  <app keywords=" graphics,gfx,Voice Assistant, wifi, ble, ml, sensor, imu, radar, humidity, temperature,mtb-flow" req_capabilities_v2="pse8xxgp">
+    <name>PSOC Edge HMI Kit Smart Thermostat</name>
+    <id>mtb-example-psoc-edge-hmi-thermostat</id>
+    <category>Graphics</category>
+    <uri>https://github.com/Infineon/mtb-example-psoc-edge-hmi-thermostat</uri>
+    <description><![CDATA[This code example demonstrates a smart thermostat panel user interface, designed to mimic the features of a real thermostat. Users can simulate monitoring and controlling the temperature through the touchscreen, voice commands, or remotely via a mobile app. The system also incorporates radar-based presence detection to mimic automatic adjustments to operation modes and power states based on user activity.
+   <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-hmi-thermostat/blob/master/README.md">README on GitHub</a>.]]></description>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_hmi]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_hmi]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
   <app keywords="graphics, gfx, RLAD, mtb-flow" req_capabilities_v2="pse8xxgp">
     <name>PSOC Edge Graphics using RLAD</name>
     <id>mtb-example-psoc-edge-gfx-rlad</id>
@@ -25058,9 +25268,13 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
     <uri>https://github.com/Infineon/mtb-example-psoc-edge-gfx-single-double-buffering</uri>
     <description><![CDATA[The code example showcases how to use the graphics subsystem of PSOC&#8482; Edge MCU to render images on an LCD screen, utilizing either single or double buffering mode. Single Buffering: A single buffer is used for draw and display the image frames sequentially.Double Buffering: This process involves using one buffer to create a frame while another buffer is simultaneously utilized to display the previously composed frame. In continuous mode (video burst), the buffers are swapped and used in a ping-pong fashion in the next iteration.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-gfx-single-double-buffering/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai, kit_pse84_hmi]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai, kit_pse84_hmi]">
+        <num>2.3.0 release</num>
+        <commit>release-v2.3.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
         <num>2.2.0 release</num>
@@ -25150,9 +25364,13 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
     <uri>https://github.com/Infineon/mtb-example-psoc-edge-rtc-periodic-wakeup</uri>
     <description><![CDATA[This code example demonstrates the process of entering into DeepSleep and Hibernate modes, as well as the means to awaken from them using the RTC alarm.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-rtc-periodic-wakeup/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_hmi]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_hmi]">
+        <num>2.2.0 release</num>
+        <commit>release-v2.2.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4]">
         <num>2.1.0 release</num>
@@ -25218,9 +25436,13 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
     <uri>https://github.com/Infineon/mtb-example-psoc-edge-voice-assistant-deploy</uri>
     <description><![CDATA[This code example demonstrates how to use PSOC&#8482; Edge MCU to deploy DEEPCRAFT&#8482; Voice Assistant models to detect wake words and spoken commands using natural language.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-voice-assistant-deploy/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai, kit_pse84_hmi]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai, kit_pse84_hmi]">
+        <num>1.5.0 release</num>
+        <commit>release-v1.5.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
         <num>1.4.0 release</num>
@@ -25607,9 +25829,13 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
     <uri>https://github.com/Infineon/mtb-example-psoc-edge-sram-loading</uri>
     <description><![CDATA[This code example showcases a simple application running from SRAM memory. The application is copied to SRAM by Edge Protect Bootloader<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-sram-loading/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai, kit_pse84_hmi]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai, kit_pse84_hmi">
+        <num>2.4.0 release</num>
+        <commit>release-v2.4.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
         <num>2.3.0 release</num>
@@ -25636,9 +25862,13 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
     <uri>https://github.com/Infineon/mtb-example-psoc-edge-basic-secure-app</uri>
     <description><![CDATA[This code example guides the user to sign a basic application (proj_cm33_s) and enable "secure boot" in Extended Boot. With "secure boot" enabled, Extended Boot ensures that the application is validated before being launched.This example can also be utilized with the Edge Protect Bootloader code example<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-basic-secure-app/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai, kit_pse84_hmi]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai, kit_pse84_hmi]">
+        <num>2.3.0 release</num>
+        <commit>release-v2.3.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
         <num>2.2.0 release</num>
@@ -25757,11 +25987,11 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
     <description><![CDATA[This code example demonstrates how to integrate a ready model library from DEEPCRAFT&#8482; Studio on PSOC&#8482; Edge MCU. The code example includes five different models where four models detect different sounds such as baby-cry detection, cough detection, alarm detection, and siren detection which uses data from the pulse-density modulation (PDM) to pulse-code modulation (PCM) which is sent to the model for detection. The fifth model detects hand gestures which uses data from XENSIV&#8482; radar sensor.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-ml-deepcraft-deploy-ready-model/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>uart spi i2c pdm pse8xxgp</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai, kit_pse84_hmi]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai, kit_pse84_hmi]">
         <num>1.4.0 release</num>
         <commit>release-v1.4.0</commit>
       </version>
@@ -25795,9 +26025,13 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
     <description><![CDATA[This code example demonstrates how to deploy an DEEPCRAFT&#8482; generated machine learning model. It comes pre-configured with a radar based model generated within DEEPCRAFT&#8482; Studio. The code example collects radar data from the XENSIV&#8482; 60 GHz radar sensor which is then sent to the machine learning model to detect specific gestures (push and circle). It uses the model.c/h files generated from within DEEPCRAFT&#8482; Studio directly. New models based on the Gesture Detection project can be dropped into the project as-is.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-ml-deepcraft-deploy-radar/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>pse8xxgp spi</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_pse84_ai]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_pse84_ai, kit_pse84_hmi]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_pse84_ai, kit_pse84_hmi]">
+        <num>1.2.0 release</num>
+        <commit>release-v1.2.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_pse84_ai]">
         <num>1.1.0 release</num>
@@ -26004,9 +26238,13 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
     <uri>https://github.com/Infineon/mtb-example-psoc-edge-encrypted-boot</uri>
     <description><![CDATA[This code example demonstrates image encryption, execution, and updates using EdgeProtect bootloader. It showcases a secure workflow for protecting external memory using encryption capabilities of Infineon's PSOC&#8482; Edge MCU.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-encrypted-boot/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai, kit_pse84_hmi]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai, kit_pse84_hmi]">
+        <num>2.3.0 release</num>
+        <commit>release-v2.3.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
         <num>2.2.0 release</num>
@@ -26059,9 +26297,13 @@ SPI flash using the Serial Memory Interface (SMIF) peripheral's Execute-in-Place
     <description><![CDATA[This code example demonstrates a real-time hand gesture detection that uses a USB camera to capture live video and a DEEPCRAFT&#8482; Studio object detection model to detect hand gestures (rock, paper, or scissors) in the video feed using ModusToolbox&#8482;. The detected gestures are highlighted by drawing a bounding box around the gesture and displaying the corresponding text (rock, paper, or scissors) in a text box on the display.<br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc-edge-ml-deepcraft-deploy-vision/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>pse8xxgp</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_ai]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_ai, kit_pse84_hmi]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_ai, kit_pse84_hmi]">
+        <num>2.3.0 release</num>
+        <commit>release-v2.3.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_ai]">
         <num>2.2.0 release</num>
