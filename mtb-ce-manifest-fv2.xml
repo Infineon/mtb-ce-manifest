@@ -20529,7 +20529,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="starter,template,empty,blank,mtb-flow" req_capabilities_v2="[kit_psc3m5_evk,kit_psc3m5_cc1,kit_psc3m5_cc2,kit_psc3m5_2go,hppass]">
+  <app keywords="starter,template,empty,blank,mtb-flow" req_capabilities_v2="[kit_psc3m5_evk,kit_psc3m5_cc1,kit_psc3m5_cc2,kit_psc3m5_2go,hppass,kit_psc3m5_mtr_48v_25a,ref_mtr_48v_psocc3_gan]">
     <name>Empty App</name>
     <id>mtb-example-ce240786-empty-app</id>
     <category>Getting Started</category>
