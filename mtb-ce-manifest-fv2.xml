@@ -18771,7 +18771,7 @@
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-threadx-dmic-ml-audio-recognition</uri>
     <description><![CDATA[This code example demonstrates the implementation of a basic ADC application that reads analog values from a potentiometer and displays the results over UART. The ADC continuously samples the input voltage and converts the digital value to a voltage reading (0-1V range).
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-threadx-dmic-ml-audio-recognition/-/blob/develop/README.md">README on GitHub</a>.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-threadx-dmic-ml-audio-recognition/blob/master/README.md">README on GitHub</a>.
     ]]></description>
     <req_capabilities>cyw55913</req_capabilities>
     <versions>
@@ -27285,7 +27285,7 @@
     <category>Power Conversion</category>
     <uri>https://github.com/Infineon/mtb-example-pwrlib-dc-optimizer</uri>
     <description><![CDATA[This code example demonstrates the usage of IFX software stack for power conversion on a PSC3M device by implementing the control of DC Optimizer.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pwrlib-dc-optimizer/-/blob/develop/README.md">README on GitHub</a>.]]></description>
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pwrlib-dc-optimizer/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>ref_opti_80v20a_gan</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
