@@ -27365,14 +27365,36 @@
     </versions>
   </app>
   <app keywords="pwrlib,pfc" req_capabilities_v2="[kit_psc3m5_cc1]">
-    <name>TP-PFC interleaved converter</name>
+    <name>Power Suite Interleaved TP-PFC</name>
     <id>mtb-example-pwrlib-pfc</id>
     <category>Power Conversion</category>
     <uri>https://github.com/Infineon/mtb-example-pwrlib-pfc</uri>
-    <description><![CDATA[This code example demonstrates the PFC library.]]></description>
+    <description><![CDATA[This code example demonstrates the Power Suite PFC middleware on KIT_PSC3_PFC1 evaluation board. This low voltage PFC expansion board implements a flexible platform for evaluation of digitally controlled PFC using 2-phases Totem Pole power stage.]]></description>
     <req_capabilities>cat1b</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="pwrlib,llc" req_capabilities_v2="[kit_psc3m5_cc1]">
+    <name>Power Suite FB LLC</name>
+    <id>mtb-example-pwrlib-llc</id>
+    <category>Power Conversion</category>
+    <uri>https://github.com/Infineon/mtb-example-pwrlib-llc</uri>
+    <description><![CDATA[This code example demonstrates the Power Suite LLC middleware on KIT_PSC3_LLC1 evaluation board. This low voltage LLC expansion board implements a flexible platform for evaluation of digitally controlled with a primary controlled Full Bridge LLC with centered-tapped synchronous rectification.]]></description>
+    <req_capabilities>cat1b</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
