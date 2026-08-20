@@ -19040,6 +19040,10 @@
         <commit>latest-v1.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5,bsp_gen4]">
+        <num>1.2.0 release</num>
+        <commit>release-v1.2.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5,bsp_gen4]">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
@@ -19060,6 +19064,10 @@
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5,bsp_gen4]">
+        <num>1.2.0 release</num>
+        <commit>release-v1.2.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5,bsp_gen4]">
         <num>1.1.0 release</num>
@@ -28426,6 +28434,42 @@
       <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="headset,audio,bluetooth,btstack,threadx,cyw55513" req_capabilities_v2="bt cyw55513 cyw955513evk_01">
+    <name>LE Audio Headset</name>
+    <id>mtb-example-btstack-threadx-le-audio-headset</id>
+    <category>Bluetooth&#174;</category>
+    <uri>https://github.com/Infineon/mtb-example-btstack-threadx-le-audio-headset</uri>
+    <description><![CDATA[This application demonstrates a Bluetooth LE Audio headset or earbud implementation using the AIROC Bluetooth stack.It acts as an audio sink device that receives audio streams from an LE Audio source]]></description>
+    <req_capabilities>cyw55513</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5,bsp_gen4]">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5,bsp_gen4]">
+        <num>2.0.2 release</num>
+        <commit>release-v2.0.2</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="Player,audio,bluetooth,btstack,threadx,cyw55513" req_capabilities_v2="bt cyw55513 cyw955513evk_01">
+    <name>LE Audio Player</name>
+    <id>mtb-example-btstack-threadx-le-audio-player</id>
+    <category>Bluetooth&#174;</category>
+    <uri>https://github.com/Infineon/mtb-example-btstack-threadx-le-audio-player</uri>
+    <description><![CDATA[This application demonstrates a Bluetooth LE Audio headset or earbud implementation using the AIROC Bluetooth stack.It acts as an audio sink device that receives audio streams from an LE Audio source]]></description>
+    <req_capabilities>cyw55513</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5,bsp_gen4]">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5,bsp_gen4]">
+        <num>2.0.2 release</num>
+        <commit>release-v2.0.2</commit>
       </version>
     </versions>
   </app>
