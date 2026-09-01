@@ -3165,7 +3165,7 @@
     <id>mtb-example-psoc4-can</id>
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-psoc4-can</uri>
-    <description><![CDATA[This example demonstrates how to use CAN 2.0 with Infineon's PSOC™ 4 MCU devices.
+    <description><![CDATA[This example demonstrates how to use CAN 2.0 with Infineon's PSOC&#8482; 4 MCU devices.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-psoc4-can/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>psoc4 led</req_capabilities>
     <versions>
@@ -20405,9 +20405,13 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce240614-motor-control-solutions/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>cat1c led</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5,bsp_gen4]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5,bsp_gen4]">
+        <num>2.2.0 release</num>
+        <commit>release-v2.2.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
         <num>2.1.0 release</num>
@@ -22602,13 +22606,17 @@
     <id>mtb-example-ce240312-foc-sl-1-shunt</id>
     <category>Motor Control</category>
     <uri>https://github.com/Infineon/mtb-example-ce240312-foc-sl-1-shunt</uri>
-    <description><![CDATA[This code example demonstrates the implementation of single shunt PMSM sensorless field-oriented control (FOC) using the Infineon's in PSOC&#8482; Control C3 MCU devices.
+    <description><![CDATA[This code example demonstrates the implementation of single shunt PMSM sensorless field-oriented control (FOC) using the Infineon's PSOC&#8482; Control C3 MCU devices.
     <br><br>For more details, see the  <a href="https://github.com/Infineon/mtb-example-ce240312-foc-sl-1-shunt/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>cat1b led</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5,bsp_gen4]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5,bsp_gen4]">
+        <num>2.2.0 release</num>
+        <commit>release-v2.2.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
         <num>2.1.0 release</num>
@@ -22628,18 +22636,60 @@
       </version>
     </versions>
   </app>
+  <app keywords="motor,mtb-flow" req_capabilities_v2="[kit_psc3m5_mtr_48v_25a]">
+    <name>MOTOR DEMO</name>
+    <id>mtb-example-ce243399-48v-25a-motor-solution</id>
+    <category>Motor Control</category>
+    <uri>https://github.com/Infineon/mtb-example-ce243399-48v-25a-motor-solution</uri>
+    <description><![CDATA[This code example demonstrates motor control for a humanoid motor joint using the Infineon's PSOC&#8482; Control C3 MCU devices, built on the 48V, 25A humanoid robotics reference design enabling precise and high-power joint actuation for humanoid robotics applications.
+    <br><br>For more details, see the  <a href="https://github.com/Infineon/mtb-example-ce243399-48v-25a-motor-solution/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>cat1b led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5,bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5,bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="motor,mtb-flow" req_capabilities_v2="[kit_psc3m5_cc2]">
+    <name>MOTIF Hall sensor</name>
+    <id>mtb-example-ce240615-motif-3-hall-sensor-mode</id>
+    <category>Motor Control</category>
+    <uri>https://github.com/Infineon/mtb-example-ce240615-motif-3-hall-sensor-mode</uri>
+    <description><![CDATA[This code example demonstrates the use of MOTIF IP in Hall sensor mode to control a BLDC motor with trapezoidal commutation using the Infineon's PSOC&#8482; Control C3 MCU devices.
+    <br><br>For more details, see the  <a href="https://github.com/Infineon/mtb-example-ce240615-motif-3-hall-sensor-mode/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>cat1b led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5,bsp_gen4]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5,bsp_gen4]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
   <app keywords="motor,mtb-flow" req_capabilities_v2="[kit_psc3m5_cc2, ref_80vdc_3_5_kw_ope2]">
     <name>PMSM FOC SL with 3-shunt</name>
     <id>mtb-example-ce240243-foc-3-shunt</id>
     <category>Motor Control</category>
     <uri>https://github.com/Infineon/mtb-example-ce240243-foc-3-shunt</uri>
-    <description><![CDATA[This code example demonstrates the implementation of PMSM sensorless field-oriented control (FOC) using the Infineon's in PSOC&#8482; Control C3 MCU devices.
+    <description><![CDATA[This code example demonstrates the implementation of PMSM sensorless field-oriented control (FOC) using the Infineon's PSOC&#8482; Control C3 MCU devices.
     <br><br>For more details, see the  <a href="https://github.com/Infineon/mtb-example-ce240243-foc-3-shunt/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>cat1b led</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5,bsp_gen4]">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5,bsp_gen4]">
+        <num>3.3.0 release</num>
+        <commit>release-v3.3.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
         <num>3.2.0 release</num>
@@ -27162,9 +27212,13 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce241420-dual-motor-control/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>cat1c led</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5,bsp_gen4]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5,bsp_gen4]">
+        <num>1.3.0 release</num>
+        <commit>release-v1.3.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4]">
         <num>1.2.0 release</num>
