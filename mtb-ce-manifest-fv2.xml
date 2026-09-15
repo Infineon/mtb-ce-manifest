@@ -19260,14 +19260,6 @@
     <req_capabilities>wifi cyw55913</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5,bsp_gen4]">
-        <num>Latest 3.X release</num>
-        <commit>latest-v3.X</commit>
-      </version>
-      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5,bsp_gen4]">
-        <num>3.0.0 release</num>
-        <commit>release-v3.0.0</commit>
-      </version>
-      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5,bsp_gen4]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
       </version>
@@ -19343,14 +19335,6 @@
     ]]></description>
     <req_capabilities>wifi cyw55913</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5,bsp_gen4]">
-        <num>Latest 3.X release</num>
-        <commit>latest-v3.X</commit>
-      </version>
-      <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5,bsp_gen4]">
-        <num>3.0.0 release</num>
-        <commit>release-v3.0.0</commit>
-      </version>
       <version flow_version="2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5,bsp_gen4]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
@@ -20903,9 +20887,13 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce240763-pwm-square-wave/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>led</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5] [kit_t2g_c_2d_4m_lite,kit_t2g_c_2d_6m_lite,kit_t2g_b_h_evk,kit_t2g_b_h_lite,kit_xmc52_evk]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_t2g_c_2d_4m_lite,kit_t2g_c_2d_6m_lite,kit_t2g_b_h_evk,kit_t2g_b_h_lite,kit_xmc52_evk,kit_t2g_b_h_16m_lite]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_t2g_c_2d_4m_lite,kit_t2g_c_2d_6m_lite,kit_t2g_b_h_evk,kit_t2g_b_h_lite,kit_xmc52_evk,kit_t2g_b_h_16m_lite]">
+        <num>2.2.0 release</num>
+        <commit>release-v2.2.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5] [kit_t2g_c_2d_4m_lite,kit_t2g_c_2d_6m_lite,kit_t2g_b_h_evk,kit_t2g_b_h_lite,kit_xmc52_evk]">
         <num>2.1.0 release</num>
@@ -23505,9 +23493,13 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce240925-tcpwm-simultaneous-startup/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gc2d</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_t2g_b_h_evk,kit_t2g_b_h_lite,kit_t2g_c_2d_4m_lite,kit_t2g_c_2d_6m_lite]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_t2g_b_h_evk,kit_t2g_b_h_lite,kit_t2g_c_2d_4m_lite,kit_t2g_c_2d_6m_lite,kit_t2g_b_h_16m_lite]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_t2g_b_h_evk,kit_t2g_b_h_lite,kit_t2g_c_2d_4m_lite,kit_t2g_c_2d_6m_lite,kit_t2g_b_h_16m_lite]">
+        <num>2.3.0 release</num>
+        <commit>release-v2.3.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_t2g_b_h_evk,kit_t2g_b_h_lite,kit_t2g_c_2d_4m_lite,kit_t2g_c_2d_6m_lite]">
         <num>2.2.0 release</num>
@@ -24035,6 +24027,25 @@
         <commit>release-v1.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_t2g_c_2d_6m_lite]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="t2gc2d" req_capabilities_v2="[t2gbe,t2gbh_lite,t2gc2d]">
+    <name>M-DMA 1D Transfer</name>
+    <id>mtb-example-ce243043-mdma-1d-transfer</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce243043-mdma-1d-transfer</uri>
+    <description><![CDATA[This code example demonstrates the transmission of data using memory direct memory access (M-DMA) 1D transfer, including its operation, initial settings, and interrupt handling.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce243043-MDMA-1D-transfer/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>t2gc2d</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen6] [kit_t2g_b_e_lite,kit_t2g_b_h_lite,kit_t2g_c_2d_6m_lite,kit_t2g_c_2d_4m_lite,kit_t2g_b_h_16m_lite]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen6] [kit_t2g_b_e_lite,kit_t2g_b_h_lite,kit_t2g_c_2d_6m_lite,kit_t2g_c_2d_4m_lite,kit_t2g_b_h_16m_lite]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -27049,9 +27060,13 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce241383-smif-flash-readwrite/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gc2d</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_t2g_b_h_lite,kit_t2g_c_2d_4m_lite,kit_t2g_c_2d_6m_lite]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_t2g_b_h_lite,kit_t2g_c_2d_4m_lite,kit_t2g_c_2d_6m_lite,kit_t2g_b_h_16m_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_t2g_b_h_lite,kit_t2g_c_2d_4m_lite,kit_t2g_c_2d_6m_lite,kit_t2g_b_h_16m_lite]">
+        <num>1.3.0 release</num>
+        <commit>release-v1.3.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_t2g_b_h_lite,kit_t2g_c_2d_4m_lite,kit_t2g_c_2d_6m_lite]">
         <num>1.2.0 release</num>
@@ -27122,9 +27137,13 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce241430-tcpwm-quaddec-direction-detection/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>tcpwm</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5,bsp_gen6] [kit_t2g_b_e_lite,kit_t2g_b_h_evk,kit_t2g_b_h_lite,kit_t2g_c_2d_4m_lite,kit_t2g_c_2d_6m_lite]">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5] [kit_t2g_b_e_lite,kit_t2g_b_h_evk,kit_t2g_b_h_lite,kit_t2g_c_2d_4m_lite,kit_t2g_c_2d_6m_lite,kit_t2g_b_h_16m_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5] [kit_t2g_b_e_lite,kit_t2g_b_h_evk,kit_t2g_b_h_lite,kit_t2g_c_2d_4m_lite,kit_t2g_c_2d_6m_lite,kit_t2g_b_h_16m_lite]">
+        <num>1.3.0 release</num>
+        <commit>release-v1.3.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5,bsp_gen6] [kit_t2g_b_e_lite,kit_t2g_b_h_evk,kit_t2g_b_h_lite,kit_t2g_c_2d_4m_lite,kit_t2g_c_2d_6m_lite]">
         <num>1.2.0 release</num>
@@ -29615,6 +29634,101 @@
         <commit>latest-v1.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen5] [kit_xmc52_evk]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="t2gc2d" req_capabilities_v2="[t2gbh,t2gbh_lite,t2gc2d]">
+    <name>Work flash sector data updating</name>
+    <id>mtb-example-ce243358-work-flash-sector-data-updating</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce243358-work-flash-sector-data-updating</uri>
+    <description><![CDATA[This code example demonstrates the use of the Flash PDL driver to perform basic read, write, and erase operations on work flash, and update sector data online. The steps are logged on a UART terminal emulator.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce243358-work-flash-sector-data-updating/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>t2gc2d</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_t2g_b_h_evk,kit_t2g_b_h_lite,kit_t2g_c_2d_6m_lite,kit_t2g_c_2d_4m_lite,kit_t2g_b_h_16m_lite]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_t2g_b_h_evk,kit_t2g_b_h_lite,kit_t2g_c_2d_6m_lite,kit_t2g_c_2d_4m_lite,kit_t2g_b_h_16m_lite]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="t2gc2d" req_capabilities_v2="[t2gbh,t2gbh_lite,t2gc2d]">
+    <name>Event generator active interrupt handler</name>
+    <id>mtb-example-ce243406-evtgen-active-int-handler</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce243406-evtgen-active-int-handler</uri>
+    <description><![CDATA[This code example demonstrates how to use an event generator to trigger an interrupt handler while the device is operating in active power mode. The result is indicated by an LED blinking at 500 ms intervals.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce243406-evtgen-active-int-handler/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>t2gc2d</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_t2g_b_h_evk,kit_t2g_b_h_lite,kit_t2g_c_2d_6m_lite,kit_t2g_c_2d_4m_lite,kit_t2g_b_h_16m_lite]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_t2g_b_h_evk,kit_t2g_b_h_lite,kit_t2g_c_2d_6m_lite,kit_t2g_c_2d_4m_lite,kit_t2g_b_h_16m_lite]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="t2gc2d" req_capabilities_v2="[t2gbh,t2gbh_lite,t2gc2d]">
+    <name>UART Ringbuffer</name>
+    <id>mtb-example-ce243428-uart-ringbuffer</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce243428-uart-ringbuffer</uri>
+    <description><![CDATA[This code example receives UART data using a ring buffer and echoes it back in 8-byte chunks.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce243428-uart-ringbuffer/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>t2gc2d</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_t2g_b_h_evk,kit_t2g_b_h_lite,kit_t2g_c_2d_6m_lite,kit_t2g_c_2d_4m_lite,kit_t2g_b_h_16m_lite]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_t2g_b_h_evk,kit_t2g_b_h_lite,kit_t2g_c_2d_6m_lite,kit_t2g_c_2d_4m_lite,kit_t2g_b_h_16m_lite]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="t2gc2d" req_capabilities_v2="[t2gbe,t2gbh_lite,t2gc2d]">
+    <name>PDMA 1D Transfer</name>
+    <id>mtb-example-ce243222-pdma-mem-to-mem</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce243222-pdma-mem-to-mem</uri>
+    <description><![CDATA[This code example demonstrates the transmission of data from memory to memory via peripheral direct memory access (P-DMA) 1D transfer, including its operation, initial settings, and interrupt handling.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce243222-pdma-mem-to-mem/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>t2gc2d</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen6] [kit_t2g_b_e_lite,kit_t2g_b_h_lite,kit_t2g_c_2d_6m_lite,kit_t2g_c_2d_4m_lite,kit_t2g_b_h_16m_lite]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen6] [kit_t2g_b_e_lite,kit_t2g_b_h_lite,kit_t2g_c_2d_6m_lite,kit_t2g_c_2d_4m_lite,kit_t2g_b_h_16m_lite]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="t2gc2d" req_capabilities_v2="[t2gbe,t2gbh_lite,t2gc2d]">
+    <name>PDMA 1D memory to peripheral transfer</name>
+    <id>mtb-example-ce243362-pdma-mem-to-peri</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce243362-pdma-mem-to-peri</uri>
+    <description><![CDATA[This code example demonstrates the transmission of data from memory to peripheral via peripheral direct memory access (P-DMA) 1D transfer, including its operation, initial settings, and interrupt handling.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce243362-pdma-mem-to-peri/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>t2gc2d uart</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen6] [kit_t2g_b_e_lite,kit_t2g_b_h_lite,kit_t2g_c_2d_6m_lite,kit_t2g_c_2d_4m_lite,kit_t2g_b_h_16m_lite]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen6] [kit_t2g_b_e_lite,kit_t2g_b_h_lite,kit_t2g_c_2d_6m_lite,kit_t2g_c_2d_4m_lite,kit_t2g_b_h_16m_lite]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
