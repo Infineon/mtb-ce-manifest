@@ -29453,7 +29453,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="headset,audio,bluetooth,btstack,threadx,cyw55513" req_capabilities_v2="bt cyw55513 cyw955513evk_01">
+  <app keywords="headset,audio,bluetooth,btstack,threadx,cyw55513" req_capabilities_v2="bt cyw55513 [cyw955513evk_01, kit_cyw55310_eval]">
     <name>LE Audio Headset</name>
     <id>mtb-example-btstack-threadx-le-audio-headset</id>
     <category>Bluetooth&#174;</category>
@@ -29471,7 +29471,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="Player,audio,bluetooth,btstack,threadx,cyw55513" req_capabilities_v2="bt cyw55513 cyw955513evk_01">
+  <app keywords="Player,audio,bluetooth,btstack,threadx,cyw55513" req_capabilities_v2="bt cyw55513 [cyw955513evk_01, kit_cyw55310_eval]">
     <name>LE Audio Player</name>
     <id>mtb-example-btstack-threadx-le-audio-player</id>
     <category>Bluetooth&#174;</category>
