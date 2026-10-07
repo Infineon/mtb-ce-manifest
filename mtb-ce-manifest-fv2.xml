@@ -21010,6 +21010,10 @@
         <commit>latest-v2.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5] [kit_t2g_c_2d_4m_lite,kit_t2g_c_2d_6m_lite,kit_t2g_b_h_evk,kit_t2g_b_h_lite,kit_xmc52_evk,kit_t2g_b_h_16m_lite]">
+        <num>2.3.0 release</num>
+        <commit>release-v2.3.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5] [kit_t2g_c_2d_4m_lite,kit_t2g_c_2d_6m_lite,kit_t2g_b_h_evk,kit_t2g_b_h_lite,kit_xmc52_evk,kit_t2g_b_h_16m_lite]">
         <num>2.2.0 release</num>
         <commit>release-v2.2.0</commit>
       </version>
@@ -23637,6 +23641,10 @@
       <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_t2g_b_h_evk,kit_t2g_b_h_lite,kit_t2g_c_2d_4m_lite,kit_t2g_c_2d_6m_lite,kit_t2g_b_h_16m_lite]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_t2g_b_h_evk,kit_t2g_b_h_lite,kit_t2g_c_2d_4m_lite,kit_t2g_c_2d_6m_lite,kit_t2g_b_h_16m_lite]">
+        <num>2.4.0 release</num>
+        <commit>release-v2.4.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_t2g_b_h_evk,kit_t2g_b_h_lite,kit_t2g_c_2d_4m_lite,kit_t2g_c_2d_6m_lite,kit_t2g_b_h_16m_lite]">
         <num>2.3.0 release</num>
@@ -29216,6 +29224,10 @@
         <commit>latest-v1.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_t2g_b_h_lite,kit_t2g_b_h_evk,kit_t2g_c_2d_4m_lite,kit_t2g_c_2d_6m_lite,kit_t2g_b_h_16m_lite]">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_t2g_b_h_lite,kit_t2g_b_h_evk,kit_t2g_c_2d_4m_lite,kit_t2g_c_2d_6m_lite,kit_t2g_b_h_16m_lite]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -29285,6 +29297,10 @@
       <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen6] [kit_t2g_b_h_lite,kit_t2g_b_e_lite,kit_t2g_c_2d_6m_lite,kit_t2g_b_h_16m_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen6] [kit_t2g_b_h_lite,kit_t2g_b_e_lite,kit_t2g_c_2d_6m_lite,kit_t2g_b_h_16m_lite]">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen6] [kit_t2g_b_h_lite,kit_t2g_b_e_lite,kit_t2g_c_2d_6m_lite,kit_t2g_b_h_16m_lite]">
         <num>1.0.0 release</num>
@@ -30030,6 +30046,10 @@
       <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen6] [kit_t2g_b_e_lite,kit_t2g_b_h_lite,kit_t2g_c_2d_6m_lite,kit_t2g_c_2d_4m_lite,kit_t2g_b_h_16m_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen6] [kit_t2g_b_e_lite,kit_t2g_b_h_lite,kit_t2g_c_2d_6m_lite,kit_t2g_c_2d_4m_lite,kit_t2g_b_h_16m_lite]">
+        <num>1.0.1 release</num>
+        <commit>release-v1.0.1</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen6] [kit_t2g_b_e_lite,kit_t2g_b_h_lite,kit_t2g_c_2d_6m_lite,kit_t2g_c_2d_4m_lite,kit_t2g_b_h_16m_lite]">
         <num>1.0.0 release</num>
@@ -31309,4 +31329,60 @@
       </version>
     </versions>
   </app>
+  <app keywords="t2gbh_lite" req_capabilities_v2="[t2gbh_lite]">
+    <name>Three-phase PWM and synchronized three-channel ADC</name>
+    <id>mtb-example-ce243494-three-phase-pwm-sync-adc</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce243494-three-phase-pwm-sync-adc</uri>
+    <description><![CDATA[This code example generates three complementary PWM signal pairs with dead time (U, V, and W phases of a three-phase inverter) and samples three SAR ADC channels simultaneously at a fixed instant inside every PWM period. 
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce243494-three-phase-pwm-sync-adc/blob/master/README.md">README on GitHub</a>.]]></description>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_t2g_b_h_lite]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_t2g_b_h_lite]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+   <app keywords="t2gc2d" req_capabilities_v2="[t2gc2d,t2gbh,t2gbh_lite]">
+    <name>ADC die temperature calculation</name>
+    <id>mtb-example-ce243512-adc-die-temp</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce243512-adc-die-temp</uri>
+    <description><![CDATA[This code example uses the internal ADC to measure the MCU's internal die temperature and outputs the result to terminal software via UART.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce243512-adc-die-temp/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>t2gc2d adc</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_t2g_c_2d_4m_lite,kit_t2g_c_2d_6m_lite,kit_t2g_b_h_evk,kit_t2g_b_h_lite,kit_t2g_b_h_16m_lite]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_t2g_c_2d_4m_lite,kit_t2g_c_2d_6m_lite,kit_t2g_b_h_evk,kit_t2g_b_h_lite,kit_t2g_b_h_16m_lite]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app> 
+   <app keywords="t2gc2d" req_capabilities_v2="[t2gc2d,t2gbh,t2gbh_lite]">
+    <name>TCPWM capture</name>
+    <id>mtb-example-ce243272-tcpwm-capture</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce243272-tcpwm-capture</uri>
+    <description><![CDATA[This code example measures and displays the pulse width of an external input signal using the capture function for the TRAVEO™ T2G family.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce243272-tcpwm-capture/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>t2gc2d</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_t2g_c_2d_4m_lite,kit_t2g_c_2d_6m_lite,kit_t2g_b_h_evk,kit_t2g_b_h_lite,kit_t2g_b_h_16m_lite]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_t2g_c_2d_4m_lite,kit_t2g_c_2d_6m_lite,kit_t2g_b_h_evk,kit_t2g_b_h_lite,kit_t2g_b_h_16m_lite]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app> 
 </apps>
