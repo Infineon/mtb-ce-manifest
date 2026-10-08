@@ -31347,7 +31347,7 @@
       </version>
     </versions>
   </app>
-   <app keywords="t2gc2d" req_capabilities_v2="[t2gc2d,t2gbh,t2gbh_lite]">
+  <app keywords="t2gc2d" req_capabilities_v2="[t2gc2d,t2gbh,t2gbh_lite]">
     <name>ADC die temperature calculation</name>
     <id>mtb-example-ce243512-adc-die-temp</id>
     <category>Peripherals</category>
@@ -31365,8 +31365,8 @@
         <commit>release-v1.0.0</commit>
       </version>
     </versions>
-  </app> 
-   <app keywords="t2gc2d" req_capabilities_v2="[t2gc2d,t2gbh,t2gbh_lite]">
+  </app>
+  <app keywords="t2gc2d" req_capabilities_v2="[t2gc2d,t2gbh,t2gbh_lite]">
     <name>TCPWM capture</name>
     <id>mtb-example-ce243272-tcpwm-capture</id>
     <category>Peripherals</category>
@@ -31384,5 +31384,5 @@
         <commit>release-v1.0.0</commit>
       </version>
     </versions>
-  </app> 
+  </app>
 </apps>
