@@ -16040,7 +16040,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="psoc4,,mtb-flow" req_capabilities_v2="psoc4">
+  <app keywords="psoc4,mtb-flow" req_capabilities_v2="psoc4">
     <name>Flash ECC injection</name>
     <id>mtb-example-ce241416-flash-ecc-injection</id>
     <category>Peripherals</category>
