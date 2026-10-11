@@ -11062,6 +11062,63 @@
       </version>
     </versions>
   </app>
+  <app keywords="pmg1b1, battery, usbpd, mtb-flow" req_capabilities_v2="pmg1_b2 usbpd">
+    <name>USBPD Li-ion Battery Charger</name>
+    <id>mtb-example-pmg1b2-usbpd-battery-charger</id>
+    <category>Battery Charging</category>
+    <uri>https://github.com/Infineon/mtb-example-pmg1b2-usbpd-battery-charger</uri>
+    <description><![CDATA[This code example demonstrates USB-C Power Delivery contract negotiation using EZ-PD&trade; PMG1-B2 MCU devices. The EZ-PD&trade; PMG1-B2's integrated buck-boost peripheral converts the negotiated VBUS power to charge the 5-cell 5 Ah Li-ion battery.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1b2-usbpd-battery-charger/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>pmg1_b2 usbpd</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="pmg1b1, battery, usbpd, mtb-flow" req_capabilities_v2="pmg1_b2 usbpd">
+    <name>USBPD Li-ion DRP Battery Charger</name>
+    <id>mtb-example-pmg1b2-usbpd-drp-battery-charger</id>
+    <category>Battery Charging</category>
+    <uri>https://github.com/Infineon/mtb-example-pmg1b2-usbpd-drp-battery-charger</uri>
+    <description><![CDATA[This code example demonstrates USB-C Power Delivery (PD) contract negotiation using EZ-PD&trade; PMG1-B2 MCU devices as a dual-role power (DRP) controller. In the PD Sink mode, EZ-PD&trade; PMG1-B2 integrated buck-boost peripheral converts the negotiated VBUS power to charge the 5-cell 5 Ah Li-ion battery. In PD Source mode, the EZ-PD&trade; PMG1-B2 MCU can source up to 27 W (9 V at 3 A).
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1b2-usbpd-drp-battery-charger/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>pmg1_b2 usbpd</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="pmg1b1, usbpd, mtb-flow" req_capabilities_v2="pmg1_b2 usbpd">
+    <name>USBPD Sink</name>
+    <id>mtb-example-pmg1b2-usbpd-sink</id>
+    <category>USB-C Power Delivery</category>
+    <uri>https://github.com/Infineon/mtb-example-pmg1b2-usbpd-sink</uri>
+    <description><![CDATA[This code example demonstrates USB-C Power Delivery contract negotiation and constant voltage (CV) regulation of the output with the integrated buck-boost controller using EZ-PD&trade; PMG1-B2 device. It supports input USB-C power up to 240 W (48 V, 5 A) and provides a fixed output voltage of 24 V.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-pmg1b2-usbpd-sink/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>pmg1_b2 usbpd</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
   <app keywords="psoc6,dfu,bootloader,mtb-flow" req_capabilities_v2="psoc6 led switch std_crypto">
     <name>Basic Device Firmware Upgrade</name>
     <id>mtb-example-psoc6-dfu-basic</id>
