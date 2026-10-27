@@ -12586,6 +12586,10 @@
     <req_capabilities>cysbsyskit_dev_01</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version="bsp_gen5">
+        <num>1.1.7 release</num>
+        <commit>release-v1.1.7</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version="bsp_gen5">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
@@ -12600,6 +12604,48 @@
     </versions>
   </app>
   <app keywords="psoc6,sensor,xensiv,cmos,csk" req_capabilities_v2="psoc6 cysbsyskit_dev_01">
+    <name>XENSIV 60GHz CMOS Radar Presence Detection and Localization Power Cycle</name>
+    <id>mtb-example-psoc6-cmos-radar-clutter-clustering-power-cycle</id>
+    <category>Sensing</category>
+    <uri>https://github.com/Infineon/mtb-example-psoc6-cmos-radar-clutter-clustering-power-cycle</uri>
+    <description><![CDATA[This code example demonstrates power-cycle operation for the XENSIV BGT60CUTR13AIP 60GHz CMOS radar sensor presence detection and localization example]]></description>
+    <req_capabilities>cysbsyskit_dev_01</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version="bsp_gen5">
+        <num>1.1.7 release</num>
+        <commit>release-v1.1.7</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,sensor,xensiv,cmos,csk" req_capabilities_v2="psoc6 cysbsyskit_dev_01">
+    <name>XENSIV 60GHz CMOS Radar FIFO Read ADC Data</name>
+    <id>mtb-example-psoc6-cmos-radar-fifo-read</id>
+    <category>Sensing</category>
+    <uri>https://github.com/Infineon/mtb-example-psoc6-cmos-radar-fifo-read</uri>
+    <description><![CDATA[This code example demonstrates reading ADC radar data from the FIFO of the XENSIV BGT60CUTR13AIP 60GHz CMOS radar sensor using an ADC config, i.e., sensor sequence 0]]></description>
+    <req_capabilities>cysbsyskit_dev_01</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version="bsp_gen5">
+        <num>1.1.7 release</num>
+        <commit>release-v1.1.7</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,sensor,xensiv,cmos,csk" req_capabilities_v2="psoc6 cysbsyskit_dev_01">
+    <name>XENSIV 60GHz CMOS Radar On-Chip Motion Detection Data Streaming CSK</name>
+    <id>mtb-example-psoc6-cmos-radar-on-chip-md-data-streaming-csk</id>
+    <category>Sensing</category>
+    <uri>https://github.com/Infineon/mtb-example-psoc6-cmos-radar-on-chip-md-data-streaming-csk</uri>
+    <description><![CDATA[This code example demonstrates on-chip motion detection data streaming using CSK with the XENSIV BGT60CUTR13AIP 60GHz CMOS radar sensor using a MD config, i.e., sensor sequence 2]]></description>
+    <req_capabilities>cysbsyskit_dev_01</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version="bsp_gen5">
+        <num>1.1.7 release</num>
+        <commit>release-v1.1.7</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,sensor,xensiv,cmos,csk" req_capabilities_v2="psoc6 cysbsyskit_dev_01">
     <name>XENSIV 60GHz CMOS Radar Motion Detection</name>
     <id>mtb-example-psoc6-cmos-radar-motion-detection</id>
     <category>Sensing</category>
@@ -12607,6 +12653,10 @@
     <description><![CDATA[This code example demonstrates the on-chip feature motion detection capabilities of the XENSIV BGT60CUTR13AIP 60GHz CMOS radar sensor]]></description>
     <req_capabilities>cysbsyskit_dev_01</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version="bsp_gen5">
+        <num>1.1.7 release</num>
+        <commit>release-v1.1.7</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version="bsp_gen5">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
@@ -12629,6 +12679,10 @@
     <description><![CDATA[This code example demonstrates the off-chip capabilities of people tracking with the XENSIV BGT60CUTR13AIP 60GHz CMOS radar sensor]]></description>
     <req_capabilities>cysbsyskit_dev_01</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version="bsp_gen5">
+        <num>1.4.2 release</num>
+        <commit>release-v1.4.2</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version="bsp_gen5">
         <num>1.2.0 release</num>
         <commit>release-v1.2.0</commit>
