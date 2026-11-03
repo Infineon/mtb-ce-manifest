@@ -3073,6 +3073,10 @@
         <commit>latest-v2.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_145_40xx,cy8ckit_045s,cy8ckit_040t,cy8cproto_040t,cy8cproto_040t_ms,cy8cproto_041tp,cy8cproto_040t_auto]">
+        <num>2.4.1 release</num>
+        <commit>release-v2.4.1</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_041s_max,cy8ckit_149,cy8ckit_145_40xx,cy8ckit_045s,cy8ckit_040t,cy8cproto_040t,cy8cproto_040t_ms,cy8cproto_041tp,cy8cproto_040t_auto]">
         <num>2.4.0 release</num>
         <commit>release-v2.4.0</commit>
       </version>
@@ -3153,6 +3157,10 @@
       <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_149]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_149]">
+        <num>1.0.1 release</num>
+        <commit>release-v1.0.1</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_149]">
         <num>1.0.0 release</num>
@@ -6854,6 +6862,10 @@
         <commit>latest-v2.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>2.1.1 release</num>
+        <commit>release-v2.1.1</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
       </version>
@@ -6892,6 +6904,10 @@
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>2.1.1 release</num>
+        <commit>release-v2.1.1</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>2.1.0 release</num>
@@ -6938,6 +6954,10 @@
         <commit>latest-v2.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>2.1.1 release</num>
+        <commit>release-v2.1.1</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
       </version>
@@ -6980,6 +7000,10 @@
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc11_boot_001,kit_xmc12_boot_001,kit_xmc13_boot_001,kit_xmc14_boot_001,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc47_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc11_boot_001,kit_xmc12_boot_001,kit_xmc13_boot_001,kit_xmc14_boot_001,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc47_relax_v1,kit_xmc48_relax_ecat_v1]">
+        <num>2.1.1 release</num>
+        <commit>release-v2.1.1</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc11_boot_001,kit_xmc12_boot_001,kit_xmc13_boot_001,kit_xmc14_boot_001,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc47_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>2.1.0 release</num>
@@ -7026,6 +7050,10 @@
         <commit>latest-v2.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc14_boot_001,kit_xmc47_relax_v1,kit_xmc48_relax_ecat_v1]">
+        <num>2.1.1 release</num>
+        <commit>release-v2.1.1</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc14_boot_001,kit_xmc47_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
       </version>
@@ -7066,6 +7094,10 @@
         <commit>latest-v2.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc11_boot_001,kit_xmc12_boot_001,kit_xmc13_boot_001,kit_xmc14_boot_001,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc47_relax_v1,kit_xmc48_relax_ecat_v1]">
+        <num>2.1.1 release</num>
+        <commit>release-v2.1.1</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc11_boot_001,kit_xmc12_boot_001,kit_xmc13_boot_001,kit_xmc14_boot_001,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc47_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
       </version>
@@ -7104,6 +7136,10 @@
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc11_boot_001,kit_xmc12_boot_001,kit_xmc13_boot_001,kit_xmc14_boot_001,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc47_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc11_boot_001,kit_xmc12_boot_001,kit_xmc13_boot_001,kit_xmc14_boot_001,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc47_relax_v1,kit_xmc48_relax_ecat_v1]">
+        <num>2.1.1 release</num>
+        <commit>release-v2.1.1</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc11_boot_001,kit_xmc12_boot_001,kit_xmc13_boot_001,kit_xmc14_boot_001,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc47_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>2.1.0 release</num>
@@ -7148,6 +7184,10 @@
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc11_boot_001,kit_xmc12_boot_001,kit_xmc13_boot_001,kit_xmc14_boot_001,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc47_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc11_boot_001,kit_xmc12_boot_001,kit_xmc13_boot_001,kit_xmc14_boot_001,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc47_relax_v1,kit_xmc48_relax_ecat_v1]">
+        <num>2.1.1 release</num>
+        <commit>release-v2.1.1</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc11_boot_001,kit_xmc12_boot_001,kit_xmc13_boot_001,kit_xmc14_boot_001,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc47_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>2.1.0 release</num>
@@ -7334,6 +7374,10 @@
         <commit>latest-v2.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc11_boot_001,kit_xmc12_boot_001,kit_xmc13_boot_001,kit_xmc14_boot_001,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc47_relax_v1,kit_xmc48_relax_ecat_v1]">
+        <num>2.1.1 release</num>
+        <commit>release-v2.1.1</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc11_boot_001,kit_xmc12_boot_001,kit_xmc13_boot_001,kit_xmc14_boot_001,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc47_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
       </version>
@@ -7364,6 +7408,10 @@
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc47_relax_v1,kit_xmc11_boot_001,kit_xmc12_boot_001,kit_xmc13_boot_001,kit_xmc14_boot_001,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc47_relax_v1,kit_xmc11_boot_001,kit_xmc12_boot_001,kit_xmc13_boot_001,kit_xmc14_boot_001,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc48_relax_ecat_v1]">
+        <num>2.1.1 release</num>
+        <commit>release-v2.1.1</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc47_relax_v1,kit_xmc11_boot_001,kit_xmc12_boot_001,kit_xmc13_boot_001,kit_xmc14_boot_001,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>2.1.0 release</num>
@@ -7654,6 +7702,10 @@
         <commit>latest-v2.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc47_relax_v1,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc48_relax_ecat_v1]">
+        <num>2.1.1 release</num>
+        <commit>release-v2.1.1</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc47_relax_v1,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
       </version>
@@ -7730,6 +7782,10 @@
         <commit>latest-v2.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc11_boot_001,kit_xmc12_boot_001,kit_xmc13_boot_001,kit_xmc14_boot_001,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc47_relax_v1,kit_xmc48_relax_ecat_v1]">
+        <num>2.1.1 release</num>
+        <commit>release-v2.1.1</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc11_boot_001,kit_xmc12_boot_001,kit_xmc13_boot_001,kit_xmc14_boot_001,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc47_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
       </version>
@@ -7792,6 +7848,10 @@
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc47_relax_v1,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc47_relax_v1,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc48_relax_ecat_v1]">
+        <num>2.1.1 release</num>
+        <commit>release-v2.1.1</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc47_relax_v1,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>2.1.0 release</num>
@@ -7934,6 +7994,10 @@
         <commit>latest-v2.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc14_boot_001,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc47_relax_v1,kit_xmc48_relax_ecat_v1]">
+        <num>2.1.1 release</num>
+        <commit>release-v2.1.1</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc14_boot_001,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc47_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
       </version>
@@ -7964,6 +8028,10 @@
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc11_boot_001,kit_xmc12_boot_001,kit_xmc13_boot_001,kit_xmc14_boot_001,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc47_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc11_boot_001,kit_xmc12_boot_001,kit_xmc13_boot_001,kit_xmc14_boot_001,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc47_relax_v1,kit_xmc48_relax_ecat_v1]">
+        <num>2.1.1 release</num>
+        <commit>release-v2.1.1</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc11_boot_001,kit_xmc12_boot_001,kit_xmc13_boot_001,kit_xmc14_boot_001,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc47_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>2.1.0 release</num>
@@ -8062,6 +8130,10 @@
         <commit>latest-v2.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc11_boot_001,kit_xmc12_boot_001,kit_xmc13_boot_001,kit_xmc14_boot_001,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc47_relax_v1,kit_xmc48_relax_ecat_v1]">
+        <num>2.1.1 release</num>
+        <commit>release-v2.1.1</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc11_boot_001,kit_xmc12_boot_001,kit_xmc13_boot_001,kit_xmc14_boot_001,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc47_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
       </version>
@@ -8131,6 +8203,10 @@
         <commit>latest-v2.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc13_boot_001,kit_xmc14_boot_001,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc47_relax_v1,kit_xmc48_relax_ecat_v1]">
+        <num>2.1.1 release</num>
+        <commit>release-v2.1.1</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc13_boot_001,kit_xmc14_boot_001,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc47_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
       </version>
@@ -8195,6 +8271,10 @@
         <commit>latest-v2.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc47_relax_v1,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc48_relax_ecat_v1]">
+        <num>2.1.1 release</num>
+        <commit>release-v2.1.1</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc47_relax_v1,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
       </version>
@@ -8225,6 +8305,10 @@
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc47_relax_v1,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc47_relax_v1,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc48_relax_ecat_v1]">
+        <num>2.1.1 release</num>
+        <commit>release-v2.1.1</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [kit_xmc47_relax_v1,kit_xmc_plt2go_xmc4200,kit_xmc43_relax_ecat_v1,kit_xmc_plt2go_xmc4400,kit_xmc45_relax_v1,kit_xmc48_relax_ecat_v1]">
         <num>2.1.0 release</num>
@@ -8440,6 +8524,10 @@
         <commit>latest-v2.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>2.0.1 release</num>
+        <commit>release-v2.0.1</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
@@ -8611,6 +8699,10 @@
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>2.1.1 release</num>
+        <commit>release-v2.1.1</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>2.1.0 release</num>
@@ -9980,6 +10072,10 @@
         <commit>latest-v4.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version="bsp_gen4">
+        <num>4.0.1 release</num>
+        <commit>release-v4.0.1</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version="bsp_gen4">
         <num>4.0.0 release</num>
         <commit>release-v4.0.0</commit>
       </version>
@@ -10225,6 +10321,10 @@
         <commit>latest-v2.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version="bsp_gen4">
+        <num>2.0.1 release</num>
+        <commit>release-v2.0.1</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version="bsp_gen4">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
@@ -10307,6 +10407,10 @@
       <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version="bsp_gen4">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version="bsp_gen4">
+        <num>2.0.1 release</num>
+        <commit>release-v2.0.1</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version="bsp_gen4">
         <num>2.0.0 release</num>
@@ -10524,6 +10628,10 @@
         <commit>latest-v1.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.1 release</num>
+        <commit>release-v1.0.1</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -10541,6 +10649,10 @@
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.1 release</num>
+        <commit>release-v1.0.1</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>1.0.0 release</num>
@@ -10698,6 +10810,10 @@
         <commit>latest-v1.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.1 release</num>
+        <commit>release-v1.0.1</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -10715,6 +10831,10 @@
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.1 release</num>
+        <commit>release-v1.0.1</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>1.0.0 release</num>
@@ -10796,6 +10916,10 @@
       <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version="bsp_gen4">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version="bsp_gen4">
+        <num>2.1.1 release</num>
+        <commit>release-v2.1.1</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version="bsp_gen4">
         <num>2.1.0 release</num>
@@ -14420,6 +14544,10 @@
         <commit>latest-v2.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_040t]">
+        <num>2.1.1 release</num>
+        <commit>release-v2.1.1</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8cproto_040t]">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
       </version>
@@ -15620,6 +15748,10 @@
         <commit>latest-v1.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.0.1 release</num>
+        <commit>release-v1.0.1</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -15855,6 +15987,10 @@
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.1.1 release</num>
+        <commit>release-v1.1.1</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>1.0.0 release</num>
@@ -16215,6 +16351,10 @@
         <commit>latest-v1.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.1 release</num>
+        <commit>release-v1.0.1</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -16294,6 +16434,10 @@
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4]">
+        <num>1.0.1 release</num>
+        <commit>release-v1.0.1</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>1.0.0 release</num>
@@ -21725,6 +21869,14 @@
     <description><![CDATA[This is a minimal starter application template for Infineon MCU devices.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce240786-empty-app/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5]">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5]">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5,bsp_gen4,bsp_gen6]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -21802,6 +21954,14 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce239839-i2c-master-slave/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>cat1b led i2c</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5]">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5]">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen4]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -21825,6 +21985,14 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce240361-i2c-slave-deepsleep-wakeup/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>cat1b led i2c</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5]">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5]">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen4]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -21911,6 +22079,10 @@
         <commit>latest-v1.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5,bsp_gen4]">
+        <num>1.2.0 release</num>
+        <commit>release-v1.2.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5,bsp_gen4]">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
@@ -21929,6 +22101,14 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce240632-i2c-master-ezi2c-slave/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>i2c led</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5]">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5]">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen4]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -21952,6 +22132,14 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce239868-deepsleep-sram-retention/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>gpio led uart</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5]">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5]">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen4]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -21975,6 +22163,14 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce239867-hibernate-gpio/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>gpio led uart</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5]">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5]">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen4]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -22079,6 +22275,14 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce240816-mcwdt/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>cat1b uart</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5]">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5]">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen4]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -22144,6 +22348,14 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce240713-fault-handling/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>cat1b uart</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5]">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5]">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen4]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -22329,6 +22541,14 @@
     <br><br>For more details, see the  <a href="https://github.com/Infineon/mtb-example-ce240435-hppass-temperature-sensor/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>adc led uart</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5]">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5]">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen4]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -22356,6 +22576,14 @@
     <br><br>For more details, see the  <a href="https://github.com/Infineon/mtb-example-ce239854-hppass-csg/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>adc led uart</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.9.0" req_capabilities_per_version_v2="[bsp_gen5]">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.9.0" req_capabilities_per_version_v2="[bsp_gen5]">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -22375,6 +22603,14 @@
     <br><br>For more details, see the  <a href="https://github.com/Infineon/mtb-example-ce238774-trigger/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>led uart</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5]">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5]">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen4]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -22398,6 +22634,14 @@
     <br><br>For more details, see the  <a href="https://github.com/Infineon/mtb-example-ce240486-hppass-csg-kill-pwm/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>led uart</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5]">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5]">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen4]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -22448,6 +22692,14 @@
     <br><br>For more details, see the  <a href="https://github.com/Infineon/mtb-example-ce238778-tcpwm-2counters/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>led uart</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.9.0" req_capabilities_per_version_v2="[bsp_gen5]">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.9.0" req_capabilities_per_version_v2="[bsp_gen5]">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -22498,6 +22750,14 @@
     <br><br>For more details, see the  <a href="https://github.com/Infineon/mtb-example-ce240745-canfd/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>can led uart</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5]">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5]">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen4]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -22521,6 +22781,14 @@
     <br><br>For more details, see the  <a href="https://github.com/Infineon/mtb-example-ce240721-tcpwm-counter/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>led</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.9.0" req_capabilities_per_version_v2="[bsp_gen5]">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.9.0" req_capabilities_per_version_v2="[bsp_gen5]">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -22567,6 +22835,14 @@
     <br><br>For more details, see the  <a href="https://github.com/Infineon/mtb-example-ce240081-pwm-dt-6channels/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>led</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.9.0" req_capabilities_per_version_v2="[bsp_gen5]">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.9.0" req_capabilities_per_version_v2="[bsp_gen5]">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -22586,6 +22862,14 @@
     <br><br>For more details, see the  <a href="https://github.com/Infineon/mtb-example-ce240370-pwm-dt-center-aligned-6channels/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>led</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.9.0" req_capabilities_per_version_v2="[bsp_gen5]">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.9.0" req_capabilities_per_version_v2="[bsp_gen5]">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -22678,6 +22962,14 @@
     <br><br>For more details, see the  <a href="https://github.com/Infineon/mtb-example-ce239794-security-aware-gpio/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>gpio uart</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.9.0" req_capabilities_per_version_v2="[bsp_gen5]">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.9.0" req_capabilities_per_version_v2="[bsp_gen5]">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -22697,6 +22989,14 @@
     <br><br>For more details, see the  <a href="https://github.com/Infineon/mtb-example-ce239485-memory-isolation/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>uart</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.9.0" req_capabilities_per_version_v2="[bsp_gen5]">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.9.0" req_capabilities_per_version_v2="[bsp_gen5]">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -22828,6 +23128,14 @@
     <br><br>For more details, see the  <a href="https://github.com/Infineon/mtb-example-ce240822-ipc/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>cat1b led</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.9.0" req_capabilities_per_version_v2="[bsp_gen5]">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.9.0" req_capabilities_per_version_v2="[bsp_gen5]">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -23167,6 +23475,14 @@
     <br><br>For more details, see the  <a href="https://github.com/Infineon/mtb-example-ce240783-secureboot/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>cat1b led</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.9.0" req_capabilities_per_version_v2="[bsp_gen5]">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.9.0" req_capabilities_per_version_v2="[bsp_gen5]">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -23194,6 +23510,14 @@
     <br><br>For more details, see the  <a href="https://github.com/Infineon/mtb-example-ce239976-oob-demo/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>adc cat1b led uart</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.9.0" req_capabilities_per_version_v2="[bsp_gen5]">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.9.0" req_capabilities_per_version_v2="[bsp_gen5]">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -23285,6 +23609,10 @@
       <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4,bsp_gen6]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4,bsp_gen6]">
+        <num>1.0.1 release</num>
+        <commit>release-v1.0.1</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4,bsp_gen6]">
         <num>1.0.0 release</num>
@@ -24033,6 +24361,14 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce241088-safety-uart-loopback-test/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>uart smart_io</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.9.0" req_capabilities_per_version_v2="[bsp_gen5]">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.9.0" req_capabilities_per_version_v2="[bsp_gen5]">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -24052,6 +24388,14 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce241086-safety-core-test/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>uart</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen6]">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen6]">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen6]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -24074,7 +24418,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,class-b,uart,timer,tcpwm,pwm,counter" req_capabilities_v2="kit_psc3m5_evk">
+  <app keywords="mtb-flow,class-b,uart,timer,tcpwm,pwm,counter" req_capabilities_v2="[kit_psc3m6_eval,kit_psc3m5_evk]">
     <name>Class-B TCPWM peripheral</name>
     <id>mtb-example-ce241078-safety-tcpwm-test</id>
     <category>Peripherals</category>
@@ -24083,6 +24427,14 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce241078-safety-tcpwm-test/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>uart</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.9.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen6]">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.9.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen6]">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -24102,6 +24454,14 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce241079-safety-analog-test/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>uart</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.9.0" req_capabilities_per_version_v2="[bsp_gen5]">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.9.0" req_capabilities_per_version_v2="[bsp_gen5]">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -24125,6 +24485,14 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce241110-safety-cordic-test/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>uart</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.9.0" req_capabilities_per_version_v2="[bsp_gen5]">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.9.0" req_capabilities_per_version_v2="[bsp_gen5]">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -24163,6 +24531,14 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce241089-safety-spi-loopback-test/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>uart spi smart_io</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.9.0" req_capabilities_per_version_v2="[bsp_gen5]">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.9.0" req_capabilities_per_version_v2="[bsp_gen5]">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -24182,6 +24558,14 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce241084-safety-communication-test/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>cat1b uart</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.9.0" req_capabilities_per_version_v2="[bsp_gen5]">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.9.0" req_capabilities_per_version_v2="[bsp_gen5]">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -24205,6 +24589,14 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce241085-safety-canfd-test/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>uart can</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.9.0" req_capabilities_per_version_v2="[bsp_gen5]">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.9.0" req_capabilities_per_version_v2="[bsp_gen5]">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -24448,6 +24840,14 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce241396-safety-ecc-test/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>uart</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.9.0" req_capabilities_per_version_v2="[bsp_gen5]">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.9.0" req_capabilities_per_version_v2="[bsp_gen5]">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -24467,6 +24867,14 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce241113-safety-motif-test/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>uart</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.9.0" req_capabilities_per_version_v2="[bsp_gen5]">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.9.0" req_capabilities_per_version_v2="[bsp_gen5]">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[bsp_gen4]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -28894,7 +29302,7 @@
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen5]">
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen5]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -29694,6 +30102,10 @@
         <commit>latest-v1.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4,bsp_gen6]">
+        <num>1.0.2 release</num>
+        <commit>release-v1.0.2</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4,bsp_gen6]">
         <num>1.0.1 release</num>
         <commit>release-v1.0.1</commit>
       </version>
@@ -29714,6 +30126,10 @@
       <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4,bsp_gen6]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4,bsp_gen6]">
+        <num>1.0.1 release</num>
+        <commit>release-v1.0.1</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4,bsp_gen6]">
         <num>1.0.0 release</num>
@@ -30101,6 +30517,10 @@
       <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4,bsp_gen6]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4,bsp_gen6]">
+        <num>1.0.1 release</num>
+        <commit>release-v1.0.1</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4,bsp_gen6]">
         <num>1.0.0 release</num>
@@ -31045,12 +31465,17 @@
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-ce241356-adc-hw3p3z-dac-data-flow</uri>
     <description><![CDATA[(Multicore) This is a code example for PSOC&#8482; Control C3M/P8 MCUs. It demonstates the working of ADC, HW Filter and DAC working together when the data movement is managed by the PPCA CPU.
+    <p><b>NOTE: This code example requires the ModusToolbox&#8482; Power Suite v1.1.0 or later to be installed before importing the code. Install it from ModusToolbox&#8482; Setup to successfully build the code and to use Power Suite Filter Coefficient Tool.</b></p>
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce241356-adc-hw3p3z-dac-data-flow/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>adc uart</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version="bsp_gen6">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version="bsp_gen6">
+        <num>1.0.1 release</num>
+        <commit>release-v1.0.1</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version="bsp_gen6">
         <num>1.0.0 release</num>
@@ -31387,12 +31812,17 @@
     <category>Getting Started</category>
     <uri>https://github.com/Infineon/mtb-example-ce242415-oob-evk</uri>
     <description><![CDATA[(Multicore) This example is the out-of-the-box (OOB) demo project for the PSOC&#8482; Control C3M/P8 MCUs evaluation kit.
+    <p><b>NOTE: This code example requires the ModusToolbox&#8482; Power Suite v1.1.0 or later to be installed before importing the code. Install it from ModusToolbox&#8482; Setup to successfully build the code and to use Power Suite Filter Coefficient Tool.</b></p>
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce242415-oob-evk/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>led uart</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version="bsp_gen6">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version="bsp_gen6">
+        <num>1.0.1 release</num>
+        <commit>release-v1.0.1</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version="bsp_gen6">
         <num>1.0.0 release</num>
@@ -31529,6 +31959,10 @@
         <commit>latest-v1.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version="bsp_gen6">
+        <num>1.0.1 release</num>
+        <commit>release-v1.0.1</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version="bsp_gen6">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -31642,6 +32076,10 @@
         <commit>latest-v1.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version="bsp_gen6">
+        <num>1.0.1 release</num>
+        <commit>release-v1.0.1</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version="bsp_gen6">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -31661,6 +32099,10 @@
         <commit>latest-v1.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version="bsp_gen6">
+        <num>1.0.1 release</num>
+        <commit>release-v1.0.1</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version="bsp_gen6">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -31678,6 +32120,10 @@
       <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version="bsp_gen6">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version="bsp_gen6">
+        <num>1.0.1 release</num>
+        <commit>release-v1.0.1</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version="bsp_gen6">
         <num>1.0.0 release</num>
@@ -31721,7 +32167,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="t2gbh_lite" req_capabilities_v2="[t2gbh_lite]">
+  <app keywords="t2gbh-lite" req_capabilities_v2="[t2gbh_lite]">
     <name>Three-phase PWM and synchronized three-channel ADC</name>
     <id>mtb-example-ce243494-three-phase-pwm-sync-adc</id>
     <category>Peripherals</category>
