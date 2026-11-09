@@ -7,9 +7,13 @@
     <description><![CDATA[This is a minimal starter application template for Infineon MCU devices.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-empty-app/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5,bsp_gen4]">
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5,bsp_gen4]">
         <num>Latest 4.X release</num>
         <commit>latest-v4.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5,bsp_gen4]">
+        <num>4.10.0 release</num>
+        <commit>release-v4.10.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen6,bsp_gen5,bsp_gen4]">
         <num>4.9.3 release</num>
@@ -112,7 +116,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="led,starter,hello world,mtb-flow" req_capabilities_v2="hal led [psoc6,t2gbe,xmc7000,cyw20829] [flash_0k,flash_8384k,flash_2048k,flash_1024k,flash_512k,flash_256k,flash_832k,flash_448k,flash_4160k,flash_1856k]">
+  <app keywords="led,starter,hello world,mtb-flow" req_capabilities_v2="hal led [psoc6,xmc7000,cyw20829] [flash_0k,flash_8384k,flash_2048k,flash_1024k,flash_512k,flash_256k,flash_832k,flash_448k,flash_4160k,flash_1856k]">
     <name>Hello World</name>
     <id>mtb-example-hal-hello-world</id>
     <category>Getting Started</category>
@@ -199,7 +203,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="psoc6,led,lptimer,mtb-flow" req_capabilities_v2="led low_power switch [psoc6,t2gbe,cyw20829,cyw920829m2evk_02,cyw89829,cyw989829m2evb_01]">
+  <app keywords="psoc6,led,lptimer,mtb-flow" req_capabilities_v2="led low_power switch [psoc6,cyw20829,cyw920829m2evk_02,cyw89829,cyw989829m2evb_01]">
     <name>HAL Low-Power Timer</name>
     <id>mtb-example-hal-lptimer</id>
     <category>Peripherals</category>
@@ -281,7 +285,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="wdt,mtb-flow" req_capabilities_v2="cat1 hal led [psoc6,t2gbe,kit_xmc72_evk,kit_xmc71_evk_lite_v1,kit_xmc71_evk_lite_v2,kit_xmc72_mur_43439m2,cyw20829,cyw920829m2evk_02,cyw89829,cyw989829m2evb_01]">
+  <app keywords="wdt,mtb-flow" req_capabilities_v2="cat1 hal led [psoc6,kit_xmc72_evk,kit_xmc71_evk_lite_v1,kit_xmc71_evk_lite_v2,kit_xmc72_mur_43439m2,cyw20829,cyw920829m2evk_02,cyw89829,cyw989829m2evb_01]">
     <name>HAL Watchdog Timer</name>
     <id>mtb-example-hal-wdt</id>
     <category>Peripherals</category>
@@ -540,7 +544,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="uart,transmit,receive,mtb-flow" req_capabilities_v2="hal led [psoc6,t2gbe,kit_xmc72_evk,kit_xmc71_evk_lite_v1,kit_xmc71_evk_lite_v2,kit_xmc72_mur_43439m2,cyw20829,cyw920829m2evk_02,cyw89829,cyw989829m2evb_01]">
+  <app keywords="uart,transmit,receive,mtb-flow" req_capabilities_v2="hal led [psoc6,kit_xmc72_evk,kit_xmc71_evk_lite_v1,kit_xmc71_evk_lite_v2,kit_xmc72_mur_43439m2,cyw20829,cyw920829m2evk_02,cyw89829,cyw989829m2evb_01]">
     <name>UART Transmit and Receive</name>
     <id>mtb-example-hal-uart-transmit-receive</id>
     <category>Peripherals</category>
@@ -725,7 +729,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="i2c,ezi2c,master,slave,mtb-flow" req_capabilities_v2="hal i2c led [psoc6,t2gbe,kit_xmc72_evk,kit_xmc71_evk_lite_v1,kit_xmc71_evk_lite_v2,kit_xmc72_mur_43439m2,kit_t2g_b_h_evk,kit_t2g_b_h_lite]">
+  <app keywords="i2c,ezi2c,master,slave,mtb-flow" req_capabilities_v2="hal i2c led [psoc6,kit_xmc72_evk,kit_xmc71_evk_lite_v1,kit_xmc71_evk_lite_v2,kit_xmc72_mur_43439m2]">
     <name>I2C Master EzI2C Slave</name>
     <id>mtb-example-hal-i2c-master-ezi2c-slave</id>
     <category>Peripherals</category>
@@ -768,7 +772,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="i2c,slave,mtb-flow" req_capabilities_v2="hal led i2c [psoc6,t2gbe,kit_xmc72_evk,kit_xmc71_evk_lite_v1,kit_xmc71_evk_lite_v2,kit_xmc72_mur_43439m2,kit_t2g_b_h_evk,kit_t2g_b_h_lite,cyw20829,cyw920829m2evk_02,cyw89829,cyw989829m2evb_01]">
+  <app keywords="i2c,slave,mtb-flow" req_capabilities_v2="hal led i2c [psoc6,kit_xmc72_evk,kit_xmc71_evk_lite_v1,kit_xmc71_evk_lite_v2,kit_xmc72_mur_43439m2,cyw20829,cyw920829m2evk_02,cyw89829,cyw989829m2evb_01]">
     <name>I2C Slave Using Callbacks</name>
     <id>mtb-example-hal-i2c-slave-callback</id>
     <category>Peripherals</category>
@@ -5987,7 +5991,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,gpio,interrupt,switch" req_capabilities_v2="hal led switch low_power [psoc6,t2gbe,kit_xmc72_evk,kit_xmc71_evk_lite_v1,kit_xmc71_evk_lite_v2,kit_xmc72_mur_43439m2,cyw20829,cyw920829m2evk_02,cyw89829,cyw989829m2evb_01]">
+  <app keywords="mtb-flow,gpio,interrupt,switch" req_capabilities_v2="hal led switch low_power [psoc6,kit_xmc72_evk,kit_xmc71_evk_lite_v1,kit_xmc71_evk_lite_v2,kit_xmc72_mur_43439m2,cyw20829,cyw920829m2evk_02,cyw89829,cyw989829m2evb_01]">
     <name>HAL GPIO Interrupt</name>
     <id>mtb-example-hal-gpio-interrupt</id>
     <category>Peripherals</category>
@@ -20943,7 +20947,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="led,starter,hello world,mtb-flow" req_capabilities_v2="led [t2gbh,t2gbh_lite,t2gc2d,xmc5000]">
+  <app keywords="led,starter,hello world,mtb-flow" req_capabilities_v2="led [t2gbe,t2gbh,t2gbh_lite,t2gc2d,xmc5000]">
     <name>Hello World</name>
     <id>mtb-example-ce240757-hello-world</id>
     <category>Getting Started</category>
@@ -20953,9 +20957,13 @@
     ]]></description>
     <req_capabilities>led</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen6] [kit_t2g_b_h_16m_lite,kit_t2g_b_h_evk,kit_t2g_b_h_lite,kit_t2g_c_2d_4m_lite,kit_t2g_c_2d_6m_lite,kit_xmc52_evk]">
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_t2g_b_e_2go,kit_t2g_b_e_lite]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_t2g_b_e_2go,kit_t2g_b_e_lite]">
+        <num>2.4.0 release</num>
+        <commit>release-v2.4.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen6] [kit_t2g_b_h_16m_lite,kit_t2g_b_h_evk,kit_t2g_b_h_lite,kit_t2g_c_2d_4m_lite,kit_t2g_c_2d_6m_lite,kit_xmc52_evk]">
         <num>2.3.0 release</num>
@@ -21254,7 +21262,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,gpio,interrupt,switch" req_capabilities_v2="led low_power switch [t2gbh,t2gbh_lite,t2gc2d,xmc5000]">
+  <app keywords="mtb-flow,gpio,interrupt,switch" req_capabilities_v2="led low_power switch [t2gbe,t2gbh,t2gbh_lite,t2gc2d,xmc5000]">
     <name>GPIO interrupt</name>
     <id>mtb-example-ce240754-gpio-interrupt</id>
     <category>Peripherals</category>
@@ -21263,9 +21271,13 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce240754-gpio-interrupt/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>led switch low_power</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen6] [kit_t2g_b_h_16m_lite,kit_t2g_b_h_evk,kit_t2g_b_h_lite,kit_t2g_c_2d_4m_lite,kit_t2g_c_2d_6m_lite,kit_xmc52_evk]">
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_t2g_b_e_2go,kit_t2g_b_e_lite]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_t2g_b_e_2go,kit_t2g_b_e_lite]">
+        <num>2.4.0 release</num>
+        <commit>release-v2.4.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen6] [kit_t2g_b_h_16m_lite,kit_t2g_b_h_evk,kit_t2g_b_h_lite,kit_t2g_c_2d_4m_lite,kit_t2g_c_2d_6m_lite,kit_xmc52_evk]">
         <num>2.3.0 release</num>
@@ -21394,7 +21406,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="spi,master,mtb-flow" req_capabilities_v2="led spi [t2gbh,t2gbh_lite,t2gc2d]">
+  <app keywords="spi,master,mtb-flow" req_capabilities_v2="led spi [t2gbe,t2gbh,t2gbh_lite,t2gc2d]">
     <name>SPI master</name>
     <id>mtb-example-ce240755-spi-master</id>
     <category>Peripherals</category>
@@ -21403,9 +21415,13 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce240755-spi-master/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>led spi</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_t2g_b_h_16m_lite,kit_t2g_b_h_evk,kit_t2g_b_h_lite,kit_t2g_c_2d_4m_lite,kit_t2g_c_2d_6m_lite]">
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_t2g_b_h_16m_lite,kit_t2g_b_h_evk,kit_t2g_b_h_lite,kit_t2g_c_2d_4m_lite,kit_t2g_c_2d_6m_lite,kit_t2g_b_e_2go,kit_t2g_b_e_lite]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_t2g_b_h_16m_lite,kit_t2g_b_h_evk,kit_t2g_b_h_lite,kit_t2g_c_2d_4m_lite,kit_t2g_c_2d_6m_lite,kit_t2g_b_e_2go,kit_t2g_b_e_lite]">
+        <num>2.4.0 release</num>
+        <commit>release-v2.4.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_t2g_b_h_16m_lite,kit_t2g_b_h_evk,kit_t2g_b_h_lite,kit_t2g_c_2d_4m_lite,kit_t2g_c_2d_6m_lite]">
         <num>2.3.0 release</num>
@@ -21429,7 +21445,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="spi,slave,mtb-flow" req_capabilities_v2="led spi [t2gbh,t2gbh_lite,t2gc2d]">
+  <app keywords="spi,slave,mtb-flow" req_capabilities_v2="led spi [t2gbe,t2gbh,t2gbh_lite,t2gc2d]">
     <name>SPI slave</name>
     <id>mtb-example-ce240756-spi-slave</id>
     <category>Peripherals</category>
@@ -21438,9 +21454,13 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce240756-spi-slave/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>led spi</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_t2g_b_h_16m_lite,kit_t2g_b_h_evk,kit_t2g_b_h_lite,kit_t2g_c_2d_4m_lite,kit_t2g_c_2d_6m_lite]">
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_t2g_b_h_16m_lite,kit_t2g_b_h_evk,kit_t2g_b_h_lite,kit_t2g_c_2d_4m_lite,kit_t2g_c_2d_6m_lite,kit_t2g_b_e_2go,kit_t2g_b_e_lite]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_t2g_b_h_16m_lite,kit_t2g_b_h_evk,kit_t2g_b_h_lite,kit_t2g_c_2d_4m_lite,kit_t2g_c_2d_6m_lite,kit_t2g_b_e_2go,kit_t2g_b_e_lite]">
+        <num>2.4.0 release</num>
+        <commit>release-v2.4.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_t2g_b_h_16m_lite,kit_t2g_b_h_evk,kit_t2g_b_h_lite,kit_t2g_c_2d_4m_lite,kit_t2g_c_2d_6m_lite]">
         <num>2.3.0 release</num>
@@ -21464,7 +21484,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="wdt,mtb-flow" req_capabilities_v2="cat1 led [t2gbh,t2gbh_lite,t2gc2d]">
+  <app keywords="wdt,mtb-flow" req_capabilities_v2="cat1 led [t2gbe,t2gbh,t2gbh_lite,t2gc2d]">
     <name>Watchdog timer</name>
     <id>mtb-example-ce240764-wdt</id>
     <category>Peripherals</category>
@@ -21473,9 +21493,13 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce240764-wdt/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>cat1 led</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_t2g_b_h_16m_lite,kit_t2g_b_h_evk,kit_t2g_b_h_lite,kit_t2g_c_2d_4m_lite,kit_t2g_c_2d_6m_lite]">
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_t2g_b_h_16m_lite,kit_t2g_b_h_evk,kit_t2g_b_h_lite,kit_t2g_c_2d_4m_lite,kit_t2g_c_2d_6m_lite,kit_t2g_b_e_2go,kit_t2g_b_e_lite]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_t2g_b_h_16m_lite,kit_t2g_b_h_evk,kit_t2g_b_h_lite,kit_t2g_c_2d_4m_lite,kit_t2g_c_2d_6m_lite,kit_t2g_b_e_2go,kit_t2g_b_e_lite]">
+        <num>2.4.0 release</num>
+        <commit>release-v2.4.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_t2g_b_h_16m_lite,kit_t2g_b_h_evk,kit_t2g_b_h_lite,kit_t2g_c_2d_4m_lite,kit_t2g_c_2d_6m_lite]">
         <num>2.3.0 release</num>
@@ -21646,7 +21670,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="uart,transmit,receive,mtb-flow" req_capabilities_v2="led [t2gbh,t2gbh_lite,t2gc2d]">
+  <app keywords="uart,transmit,receive,mtb-flow" req_capabilities_v2="led [t2gbe,t2gbh,t2gbh_lite,t2gc2d]">
     <name>UART transmit and receive</name>
     <id>mtb-example-ce240769-uart-transmit-receive</id>
     <category>Peripherals</category>
@@ -21655,9 +21679,13 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce240769-uart-transmit-receive/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>led</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_t2g_b_h_16m_lite,kit_t2g_b_h_evk,kit_t2g_b_h_lite,kit_t2g_c_2d_4m_lite,kit_t2g_c_2d_6m_lite]">
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_t2g_b_h_16m_lite,kit_t2g_b_h_evk,kit_t2g_b_h_lite,kit_t2g_c_2d_4m_lite,kit_t2g_c_2d_6m_lite,kit_t2g_b_e_2go,kit_t2g_b_e_lite]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_t2g_b_h_16m_lite,kit_t2g_b_h_evk,kit_t2g_b_h_lite,kit_t2g_c_2d_4m_lite,kit_t2g_c_2d_6m_lite,kit_t2g_b_e_2go,kit_t2g_b_e_lite]">
+        <num>2.4.0 release</num>
+        <commit>release-v2.4.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_t2g_b_h_16m_lite,kit_t2g_b_h_evk,kit_t2g_b_h_lite,kit_t2g_c_2d_4m_lite,kit_t2g_c_2d_6m_lite]">
         <num>2.3.0 release</num>
@@ -21681,7 +21709,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="sar,adc" req_capabilities_v2="adc [t2gbh,t2gbh_lite,t2gc2d]">
+  <app keywords="sar,adc" req_capabilities_v2="adc [t2gbe,t2gbh,t2gbh_lite,t2gc2d]">
     <name>SAR ADC basic</name>
     <id>mtb-example-ce240770-sar-adc-basic</id>
     <category>Peripherals</category>
@@ -21690,9 +21718,13 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce240770-sar-adc-basic/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gc2d</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_t2g_b_h_16m_lite,kit_t2g_b_h_evk,kit_t2g_b_h_lite,kit_t2g_c_2d_4m_lite,kit_t2g_c_2d_6m_lite]">
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_t2g_b_h_16m_lite,kit_t2g_b_h_evk,kit_t2g_b_h_lite,kit_t2g_c_2d_4m_lite,kit_t2g_c_2d_6m_lite,kit_t2g_b_e_2go,kit_t2g_b_e_lite]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_t2g_b_h_16m_lite,kit_t2g_b_h_evk,kit_t2g_b_h_lite,kit_t2g_c_2d_4m_lite,kit_t2g_c_2d_6m_lite,kit_t2g_b_e_2go,kit_t2g_b_e_lite]">
+        <num>2.4.0 release</num>
+        <commit>release-v2.4.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_t2g_b_h_16m_lite,kit_t2g_b_h_evk,kit_t2g_b_h_lite,kit_t2g_c_2d_4m_lite,kit_t2g_c_2d_6m_lite]">
         <num>2.3.0 release</num>
@@ -21716,7 +21748,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="canfd, t2gc2d" req_capabilities_v2="[t2gbh,t2gbh_lite,t2gc2d,xmc5000]">
+  <app keywords="canfd" req_capabilities_v2="[t2gbh,t2gbh_lite,t2gc2d,xmc5000,t2gbe]">
     <name>CAN FD</name>
     <id>mtb-example-ce240771-canfd</id>
     <category>Peripherals</category>
@@ -21725,9 +21757,13 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce240771-canfd/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>can</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen6] [kit_t2g_b_h_16m_lite,kit_t2g_b_h_evk,kit_t2g_b_h_lite,kit_t2g_c_2d_4m_lite,kit_t2g_c_2d_6m_lite,kit_xmc52_evk]">
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_t2g_b_e_2go,kit_t2g_b_e_lite]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_t2g_b_e_2go,kit_t2g_b_e_lite]">
+        <num>2.4.0 release</num>
+        <commit>release-v2.4.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen6] [kit_t2g_b_h_16m_lite,kit_t2g_b_h_evk,kit_t2g_b_h_lite,kit_t2g_c_2d_4m_lite,kit_t2g_c_2d_6m_lite,kit_xmc52_evk]">
         <num>2.3.0 release</num>
@@ -21786,7 +21822,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="t2gc2d" req_capabilities_v2="[t2gbh,t2gbh_lite,t2gc2d]">
+  <app keywords="gpio" req_capabilities_v2="[t2gbh,t2gbh_lite,t2gc2d]">
     <name>GPIO pins</name>
     <id>mtb-example-ce240773-gpio-pins</id>
     <category>Peripherals</category>
@@ -21877,7 +21913,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="tcpwm, counter, t2gc2d" req_capabilities_v2="[t2gbh,t2gbh_lite,t2gc2d,xmc5000]">
+  <app keywords="tcpwm, counter, t2gc2d" req_capabilities_v2="[t2gbe,t2gbh,t2gbh_lite,t2gc2d,xmc5000]">
     <name>TCPWM counter</name>
     <id>mtb-example-ce240776-tcpwm-counter</id>
     <category>Peripherals</category>
@@ -21886,9 +21922,13 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce240776-tcpwm-counter/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>led</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5,bsp_gen6] [kit_t2g_b_h_16m_lite,kit_t2g_b_h_evk,kit_t2g_b_h_lite,kit_t2g_c_2d_4m_lite,kit_t2g_c_2d_6m_lite,kit_xmc52_evk]">
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen6] [kit_t2g_b_h_16m_lite,kit_t2g_b_h_evk,kit_t2g_b_h_lite,kit_t2g_c_2d_4m_lite,kit_t2g_c_2d_6m_lite,kit_xmc52_evk,kit_t2g_b_e_2go,kit_t2g_b_e_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen6] [kit_t2g_b_h_16m_lite,kit_t2g_b_h_evk,kit_t2g_b_h_lite,kit_t2g_c_2d_4m_lite,kit_t2g_c_2d_6m_lite,kit_xmc52_evk,kit_t2g_b_e_2go,kit_t2g_b_e_lite]">
+        <num>1.4.0 release</num>
+        <commit>release-v1.4.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5,bsp_gen6] [kit_t2g_b_h_16m_lite,kit_t2g_b_h_evk,kit_t2g_b_h_lite,kit_t2g_c_2d_4m_lite,kit_t2g_c_2d_6m_lite,kit_xmc52_evk]">
         <num>1.3.0 release</num>
@@ -21938,7 +21978,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="systick, t2gc2d" req_capabilities_v2="[t2gbh,t2gbh_lite,t2gc2d,xmc5000]">
+  <app keywords="systick, t2gc2d" req_capabilities_v2="[t2gbe,t2gbh,t2gbh_lite,t2gc2d,xmc5000]">
     <name>Toggle LED with SysTick timer</name>
     <id>mtb-example-ce240778-systick-led</id>
     <category>Peripherals</category>
@@ -21947,9 +21987,13 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce240778-systick-led/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>led</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5,bsp_gen6] [kit_t2g_b_h_16m_lite,kit_t2g_b_h_evk,kit_t2g_b_h_lite,kit_t2g_c_2d_4m_lite,kit_t2g_c_2d_6m_lite,kit_xmc52_evk]">
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen6] [kit_t2g_b_h_16m_lite,kit_t2g_b_h_evk,kit_t2g_b_h_lite,kit_t2g_c_2d_4m_lite,kit_t2g_c_2d_6m_lite,kit_xmc52_evk,kit_t2g_b_e_2go,kit_t2g_b_e_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen6] [kit_t2g_b_h_16m_lite,kit_t2g_b_h_evk,kit_t2g_b_h_lite,kit_t2g_c_2d_4m_lite,kit_t2g_c_2d_6m_lite,kit_xmc52_evk,kit_t2g_b_e_2go,kit_t2g_b_e_lite]">
+        <num>1.4.0 release</num>
+        <commit>release-v1.4.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen4,bsp_gen5,bsp_gen6] [kit_t2g_b_h_16m_lite,kit_t2g_b_h_evk,kit_t2g_b_h_lite,kit_t2g_c_2d_4m_lite,kit_t2g_c_2d_6m_lite,kit_xmc52_evk]">
         <num>1.3.0 release</num>
@@ -24796,7 +24840,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="t2gc2d" req_capabilities_v2="[t2gbe,t2gbh_lite,t2gc2d]">
+  <app keywords="t2gc2d" req_capabilities_v2="[t2gbh_lite,t2gc2d]">
     <name>M-DMA 1D Transfer</name>
     <id>mtb-example-ce243043-mdma-1d-transfer</id>
     <category>Peripherals</category>
@@ -24805,28 +24849,32 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce243043-MDMA-1D-transfer/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gc2d</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen6] [kit_t2g_b_e_lite,kit_t2g_b_h_lite,kit_t2g_c_2d_6m_lite,kit_t2g_c_2d_4m_lite,kit_t2g_b_h_16m_lite]">
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen6] [kit_t2g_b_h_lite,kit_t2g_c_2d_6m_lite,kit_t2g_c_2d_4m_lite,kit_t2g_b_h_16m_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen6] [kit_t2g_b_e_lite,kit_t2g_b_h_lite,kit_t2g_c_2d_6m_lite,kit_t2g_c_2d_4m_lite,kit_t2g_b_h_16m_lite]">
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen6] [kit_t2g_b_h_lite,kit_t2g_c_2d_6m_lite,kit_t2g_c_2d_4m_lite,kit_t2g_b_h_16m_lite]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
     </versions>
   </app>
-  <app keywords="t2gc2d" req_capabilities_v2="[t2gbh,t2gbh_lite,t2gc2d]">
+  <app keywords="mdma" req_capabilities_v2="[t2gbe,t2gbh,t2gbh_lite,t2gc2d]">
     <name>M-DMA 2D transfer</name>
     <id>mtb-example-ce241259-mdma-2d-transfer</id>
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-ce241259-mdma-2d-transfer</uri>
     <description><![CDATA[This code example demonstrates the transmission of data by Memory-DMA (M-DMA) 2D transfer, shows its operation, initial setting, and interrupt handling.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce241259-mdma-2d-transfer/blob/master/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>t2gc2d</req_capabilities>
+    <req_capabilities>mdma</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_t2g_b_h_16m_lite,kit_t2g_b_h_evk,kit_t2g_b_h_lite,kit_t2g_c_2d_4m_lite,kit_t2g_c_2d_6m_lite]">
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_t2g_b_e_2go,kit_t2g_b_e_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_t2g_b_e_2go,kit_t2g_b_e_lite]">
+        <num>1.4.0 release</num>
+        <commit>release-v1.4.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_t2g_b_h_16m_lite,kit_t2g_b_h_evk,kit_t2g_b_h_lite,kit_t2g_c_2d_4m_lite,kit_t2g_c_2d_6m_lite]">
         <num>1.3.0 release</num>
@@ -24846,7 +24894,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="t2gc2d" req_capabilities_v2="[t2gbh,t2gbh_lite,t2gc2d]">
+  <app keywords="pdma" req_capabilities_v2="[t2gbe,t2gbh,t2gbh_lite,t2gc2d]">
     <name>P-DMA 2D Transfer</name>
     <id>mtb-example-ce242310-pdma-2d-transfer</id>
     <category>Peripherals</category>
@@ -24855,9 +24903,13 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce242310-pdma-2d-transfer/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities/>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_t2g_b_h_16m_lite,kit_t2g_b_h_evk,kit_t2g_b_h_lite,kit_t2g_c_2d_4m_lite,kit_t2g_c_2d_6m_lite]">
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_t2g_b_e_2go,kit_t2g_b_e_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_t2g_b_e_2go,kit_t2g_b_e_lite]">
+        <num>1.3.0 release</num>
+        <commit>release-v1.3.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_t2g_b_h_16m_lite,kit_t2g_b_h_evk,kit_t2g_b_h_lite,kit_t2g_c_2d_4m_lite,kit_t2g_c_2d_6m_lite]">
         <num>1.2.0 release</num>
@@ -29387,11 +29439,33 @@
     <description><![CDATA[This is a minimal starter dual-core application template for TRAVEO&#8482; T2G Body Entry MCU devices.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce242106-dualcore-empty-app/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4] [kit_t2g_b_e_lite]">
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_t2g_b_e_lite,kit_t2g_b_e_2go]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_t2g_b_e_lite,kit_t2g_b_e_2go]">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen4] [kit_t2g_b_e_lite]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="lin,slave,mtb-flow" req_capabilities_v2="[t2gbe]">
+    <name>LIN communication</name>
+    <id>mtb-example-ce243574-lin-communication</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce243574-lin-communication</uri>
+    <description><![CDATA[This code example demonstrates how to configure and use the Local Interconnect Network (LIN) block of a TRAVEO&#8482; T2G body entry MCU using the Peripheral Driver Library (PDL).
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce243574-lin-communication/blob/master/README.md">README on GitHub</a>.]]></description>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_t2g_b_e_2go]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_t2g_b_e_2go]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -29984,17 +30058,21 @@
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,ethernet" req_capabilities_v2="t2gbh_lite">
+  <app keywords="mtb-flow,ethernet" req_capabilities_v2="[t2gbh_lite,t2gc2d]">
     <name>Ethernet TCP server</name>
     <id>mtb-example-ce243033-ethernet-tcp-server</id>
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-ce243033-ethernet-tcp-server</uri>
     <description><![CDATA[This code example demonstrates the implementation of a secure TCP server with TRAVEO&trade; T2G.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce243033-ethernet-tcp-server/blob/master/README.md">README on GitHub</a>.]]></description>
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce243033-ethernet-tcp-server/-/blob/latest-v1.X/README.md">README on GitLab</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_t2g_b_h_16m_lite]">
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_t2g_b_h_16m_lite,kit_t2g_c_2d_4m_lite,kit_t2g_c_2d_6m_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_t2g_b_h_16m_lite,kit_t2g_c_2d_4m_lite,kit_t2g_c_2d_6m_lite]">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_t2g_b_h_16m_lite]">
         <num>1.0.0 release</num>
@@ -30002,17 +30080,21 @@
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,ethernet" req_capabilities_v2="t2gbh_lite">
+  <app keywords="mtb-flow,ethernet" req_capabilities_v2="[t2gbh_lite,t2gc2d]">
     <name>Ethernet TCP client</name>
     <id>mtb-example-ce243032-ethernet-tcp-client</id>
     <category>Peripherals</category>
     <uri>https://github.com/Infineon/mtb-example-ce243032-ethernet-tcp-client</uri>
     <description><![CDATA[This code example demonstrates the implementation of a TCP client with TRAVEO&trade; T2G MCU. The example establishes a connection with a remote TCP server and turns the user LED ON or OFF based on the command received from the TCP server.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce243032-ethernet-tcp-client/blob/master/README.md">README on GitHub</a>.]]></description>
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce243032-ethernet-tcp-client/-/blob/latest-v1.X/README.md">README on GitLab</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_t2g_b_h_16m_lite]">
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_t2g_b_h_16m_lite,kit_t2g_c_2d_4m_lite,kit_t2g_c_2d_6m_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_t2g_b_h_16m_lite,kit_t2g_c_2d_4m_lite,kit_t2g_c_2d_6m_lite]">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_t2g_b_h_16m_lite]">
         <num>1.0.0 release</num>
@@ -30154,7 +30236,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow" req_capabilities_v2="[t2gbe,t2gbh_lite,t2gc2d]">
+  <app keywords="mtb-flow" req_capabilities_v2="[t2gbh_lite,t2gc2d]">
     <name>CAN FD loopback mode</name>
     <id>mtb-example-ce242995-canfd-loopback-mode</id>
     <category>Peripherals</category>
@@ -30162,11 +30244,11 @@
     <description><![CDATA[This code example demonstrates the implementation of CAN FD internal loopback mode in TRAVEO&trade; T2G devices where a user defined CAN message is transmitted, received and verified, with the received message displayed on a terminal and indicated by a USER LED. The example demonstrates a self-contained loopback test allowing for verification of the CAN FD block's functionality.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce242995-canfd-loopback-mode/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen6] [kit_t2g_b_h_lite,kit_t2g_b_e_lite,kit_t2g_c_2d_6m_lite,kit_t2g_b_h_16m_lite]">
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen6] [kit_t2g_b_h_lite,kit_t2g_c_2d_6m_lite,kit_t2g_b_h_16m_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen6] [kit_t2g_b_h_lite,kit_t2g_b_e_lite,kit_t2g_c_2d_6m_lite,kit_t2g_b_h_16m_lite]">
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen6] [kit_t2g_b_h_lite,kit_t2g_c_2d_6m_lite,kit_t2g_b_h_16m_lite]">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
@@ -30782,6 +30864,10 @@
         <commit>latest-v1.X</commit>
       </version>
       <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_t2g_b_h_evk,kit_t2g_b_h_lite,kit_t2g_c_2d_6m_lite,kit_t2g_c_2d_4m_lite,kit_t2g_b_h_16m_lite]">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_t2g_b_h_evk,kit_t2g_b_h_lite,kit_t2g_c_2d_6m_lite,kit_t2g_c_2d_4m_lite,kit_t2g_b_h_16m_lite]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -30880,7 +30966,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="t2gc2d" req_capabilities_v2="[t2gbe,t2gbh_lite,t2gc2d]">
+  <app keywords="t2gc2d" req_capabilities_v2="[t2gbh_lite,t2gc2d]">
     <name>PDMA 1D Transfer</name>
     <id>mtb-example-ce243222-pdma-mem-to-mem</id>
     <category>Peripherals</category>
@@ -30889,11 +30975,11 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce243222-pdma-mem-to-mem/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gc2d</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen6] [kit_t2g_b_e_lite,kit_t2g_b_h_lite,kit_t2g_c_2d_6m_lite,kit_t2g_c_2d_4m_lite,kit_t2g_b_h_16m_lite]">
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen6] [kit_t2g_b_h_lite,kit_t2g_c_2d_6m_lite,kit_t2g_c_2d_4m_lite,kit_t2g_b_h_16m_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen6] [kit_t2g_b_e_lite,kit_t2g_b_h_lite,kit_t2g_c_2d_6m_lite,kit_t2g_c_2d_4m_lite,kit_t2g_b_h_16m_lite]">
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen6] [kit_t2g_b_h_lite,kit_t2g_c_2d_6m_lite,kit_t2g_c_2d_4m_lite,kit_t2g_b_h_16m_lite]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -30918,7 +31004,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="t2gc2d" req_capabilities_v2="[t2gbe,t2gbh_lite,t2gc2d]">
+  <app keywords="t2gc2d" req_capabilities_v2="[t2gbh_lite,t2gc2d]">
     <name>PDMA 1D memory to peripheral transfer</name>
     <id>mtb-example-ce243362-pdma-mem-to-peri</id>
     <category>Peripherals</category>
@@ -30927,11 +31013,11 @@
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce243362-pdma-mem-to-peri/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gc2d uart</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen6] [kit_t2g_b_e_lite,kit_t2g_b_h_lite,kit_t2g_c_2d_6m_lite,kit_t2g_c_2d_4m_lite,kit_t2g_b_h_16m_lite]">
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen6] [kit_t2g_b_h_lite,kit_t2g_c_2d_6m_lite,kit_t2g_c_2d_4m_lite,kit_t2g_b_h_16m_lite]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen6] [kit_t2g_b_e_lite,kit_t2g_b_h_lite,kit_t2g_c_2d_6m_lite,kit_t2g_c_2d_4m_lite,kit_t2g_b_h_16m_lite]">
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen5,bsp_gen6] [kit_t2g_b_h_lite,kit_t2g_c_2d_6m_lite,kit_t2g_c_2d_4m_lite,kit_t2g_b_h_16m_lite]">
         <num>1.0.1 release</num>
         <commit>release-v1.0.1</commit>
       </version>
@@ -32319,6 +32405,25 @@
     <uri>https://github.com/Infineon/mtb-example-ce243272-tcpwm-capture</uri>
     <description><![CDATA[This code example measures and displays the pulse width of an external input signal using the capture function for the TRAVEO&#8482; T2G family.
     <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce243272-tcpwm-capture/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>t2gc2d</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_t2g_c_2d_4m_lite,kit_t2g_c_2d_6m_lite,kit_t2g_b_h_evk,kit_t2g_b_h_lite,kit_t2g_b_h_16m_lite]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_t2g_c_2d_4m_lite,kit_t2g_c_2d_6m_lite,kit_t2g_b_h_evk,kit_t2g_b_h_lite,kit_t2g_b_h_16m_lite]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="t2gc2d" req_capabilities_v2="[t2gc2d,t2gbh,t2gbh_lite]">
+    <name>TCPWM Shift Register</name>
+    <id>mtb-example-ce243408-tcpwm-sr</id>
+    <category>Peripherals</category>
+    <uri>https://github.com/Infineon/mtb-example-ce243408-tcpwm-sr</uri>
+    <description><![CDATA[This code example uses the TCPWM shift register of the TRAVEO&#8482; T2G family to delay an external input signal by 16 clock cycles.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-ce243408-tcpwm-sr/blob/master/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>t2gc2d</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.8.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_t2g_c_2d_4m_lite,kit_t2g_c_2d_6m_lite,kit_t2g_b_h_evk,kit_t2g_b_h_lite,kit_t2g_b_h_16m_lite]">
